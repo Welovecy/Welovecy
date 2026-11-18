@@ -1,5 +1,5 @@
 /* We Love Cyprus service worker: pages network-first with an offline fallback, static files cache-first. */
-const VERSION = "wlc-v1";
+const VERSION = "wlc-v2";
 const OFFLINE = "/offline";
 const PRECACHE = [OFFLINE, "/img/aphrodite-rock.jpg", "/icons/icon-192.png"];
 
