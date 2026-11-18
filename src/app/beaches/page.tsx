@@ -1,0 +1,39 @@
+import type { Metadata } from "next";
+import { DESTINATIONS, PLACE_BEACH, POIS, getDest, getPlace, listingHref, placeForPoi, placeHref, poiDirections, poiSub } from "@/lib/data";
+import { PageHead } from "@/components/Bits";
+import { PlaceCard } from "@/components/Cards";
+import { BeachBrowser, type BeachItem } from "@/components/BeachBrowser";
+import { KINDS } from "@/lib/kinds";
+
+export const metadata: Metadata = { title: "Beaches", description: "Every public beach in the Republic of Cyprus, with Blue Flag status, lifeguards and facilities from official sources." };
+
+export default function Beaches() {
+  const beaches = POIS.filter((r) => r.k === "beach");
+  const items: BeachItem[] = beaches.map((r) => {
+    const place = placeForPoi(r.i);
+    const p = place ? getPlace(place) : undefined;
+    return {
+      href: p ? placeHref(p.slug) : listingHref(r.i), n: p ? p.name : r.n,
+      sub: [poiSub(r), r.tw || getDest(r.d)?.name].filter(Boolean).join(" · "), dir: poiDirections(r), area: r.d,
+      bf: !!r.bf, lg: !!r.fac?.includes("Lifeguards"), sand: /sand/i.test(r.sf || ""), play: !!r.fac?.includes("Playground"), color: KINDS.beach.c,
+    };
+  }).sort((a, b) => a.n.localeCompare(b.n));
+  const featured = [...PLACE_BEACH.keys()].map((s) => getPlace(s)!).filter(Boolean);
+  const areas = DESTINATIONS.filter((d) => items.some((i) => i.area === d.id)).map((d) => [d.id, d.name] as [string, string]);
+  return (
+    <>
+      <PageHead title="Beaches" lead={`${beaches.length} beaches across the Republic of Cyprus, with facilities and Blue Flag status from official sources.`} crumbs={[["Home", "/"], ["Beaches"]]} />
+      {featured.length ? (
+        <section className="wrap" aria-labelledby="h-fav" style={{ paddingTop: 16 }}>
+          <div className="sec-head"><h2 id="h-fav">Our favourites</h2></div>
+          <div className="grid">{featured.map((p) => <PlaceCard key={p.slug} p={p} />)}</div>
+        </section>
+      ) : null}
+      <section className="wrap" aria-labelledby="h-all">
+        <div className="sec-head"><h2 id="h-all">Every beach</h2></div>
+        <BeachBrowser items={items} areas={areas} />
+        <p className="tag" style={{ marginTop: 16 }}>Facilities can change by season. Blue Flag status is for 2026.</p>
+      </section>
+    </>
+  );
+}

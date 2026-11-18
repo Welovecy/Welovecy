@@ -1,0 +1,112 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { notFound, permanentRedirect } from "next/navigation";
+import {
+  BUSINESSES, POIS, bizDirections, bizSub, getBusiness, getDest, getPoi, isStay, listingHref, placeForPoi, placeHref, poiDirections, poiSub,
+} from "@/lib/data";
+import { bizFacts, bizSources, poiFacts, poiSources } from "@/lib/listing";
+import { Crumbs, Facts, KindDot, Sources } from "@/components/Bits";
+import { SaveButton } from "@/components/SaveButton";
+import { FromBase } from "@/components/FromBase";
+import { AroundBlock } from "@/components/AroundBlock";
+import { StayHere } from "@/components/StayHere";
+import { KINDS } from "@/lib/kinds";
+
+type P = { params: Promise<{ id: string }> };
+
+export const dynamicParams = true;
+/** Places to stay and every beach, pharmacy, clinic and shop are built ahead. Restaurants render on first visit, then stay cached. */
+export function generateStaticParams() {
+  return [...BUSINESSES.filter(isStay).map((b) => ({ id: b.i })), ...POIS.filter((r) => !placeForPoi(r.i)).map((r) => ({ id: r.i }))];
+}
+
+function find(id: string) {
+  const key = decodeURIComponent(id);
+  return { b: getBusiness(key), r: getPoi(key), key };
+}
+
+export async function generateMetadata({ params }: P): Promise<Metadata> {
+  const { b, r } = find((await params).id);
+  if (b) return { title: b.n, description: `${bizSub(b)}. Address, contact details and what's around.`, alternates: { canonical: listingHref(b.i) } };
+  if (r) return { title: r.n, description: `${poiSub(r)}${r.tw ? ` in ${r.tw}` : ""}. Details, directions and what's around.`, alternates: { canonical: listingHref(r.i) } };
+  return {};
+}
+
+export default async function ListingPage({ params }: P) {
+  const { b, r } = find((await params).id);
+  if (r) {
+    const place = placeForPoi(r.i);
+    if (place) permanentRedirect(placeHref(place));
+    return <PoiView id={r.i} />;
+  }
+  if (!b) notFound();
+  const href = listingHref(b.i);
+  const d = getDest(b.d)!;
+  const stay = isStay(b);
+  const src = bizSources(b);
+  const base = stay && b.ll ? { id: b.i, n: b.n, ll: b.ll, href, around: `${href}/around`, area: b.d } : undefined;
+  return (
+    <>
+      <div className="wrap">
+        <Crumbs items={[["Home", "/"], [stay ? "Where to stay" : d.name, stay ? `/stay/${d.id}` : `/destinations/${d.id}`], [b.n]]} />
+        <div className="biz-head">
+          <p className="eyebrow">{bizSub(b)}</p>
+          <h1>{b.n}</h1>
+          {b.ll ? <FromBase ll={b.ll} skip={b.i} /> : null}
+          <div className="actions">
+            {b.ll ? <Link className="btn btn-primary" href={`${href}/around`}>See what&apos;s around</Link> : null}
+            {base ? <StayHere base={base} /> : null}
+            <a className="btn btn-ghost" href={bizDirections(b)} target="_blank" rel="noopener noreferrer">Get directions</a>
+            {b.w ? <a className="btn btn-ghost" href={b.w} target="_blank" rel="noopener noreferrer">Website</a> : null}
+            <SaveButton item={{ key: href, n: b.n, href, sub: bizSub(b) }} />
+          </div>
+        </div>
+      </div>
+      <section className="wrap" style={{ paddingBottom: 0 }}>
+        <div className="prose" style={{ maxWidth: 760 }}>
+          <h2>Details</h2>
+          <Facts rows={bizFacts(b)} />
+          <Sources list={src.list} reviewed={src.reviewed} />
+          <p className="muted small">Run this business? <Link href="/list-your-business#update">Suggest an update</Link>.</p>
+        </div>
+      </section>
+      {b.ll ? <AroundBlock ll={b.ll} skip={b.i} title={stay ? "Around this hotel" : "Near here"} moreHref={`${href}/around`} /> : null}
+    </>
+  );
+}
+
+function PoiView({ id }: { id: string }) {
+  const r = getPoi(id)!;
+  const K = KINDS[r.k];
+  const href = listingHref(r.i);
+  const src = poiSources(r);
+  const isBeach = r.k === "beach";
+  return (
+    <>
+      <div className="wrap">
+        <Crumbs items={[["Home", "/"], [isBeach ? "Beaches" : r.k === "sight" || r.k === "family" ? "Must-see" : "Essentials", isBeach ? "/beaches" : r.k === "sight" || r.k === "family" ? "/must-see" : `/essentials/${r.d}/${r.k}`], [r.n]]} />
+        <div className="around-head">
+          <p className="eyebrow"><KindDot color={K.c} /> <span style={{ marginLeft: 6 }}>{poiSub(r)}{r.tw ? ` · ${r.tw}` : ""}</span></p>
+          <h1>{r.n}</h1>
+          {r.bf ? <p><span className="flag flag-accent">Blue Flag 2026</span></p> : null}
+          {r.ll && r.pr !== "approx" ? <FromBase ll={r.ll} /> : null}
+          <div className="actions">
+            {r.ll ? <Link className="btn btn-primary" href={`${href}/around`}>See what&apos;s around</Link> : null}
+            <a className="btn btn-ghost" href={poiDirections(r)} target="_blank" rel="noopener noreferrer">Get directions</a>
+            <SaveButton item={{ key: href, n: r.n, href, sub: poiSub(r) }} />
+          </div>
+        </div>
+      </div>
+      <section className="wrap" style={{ paddingBottom: 0 }}>
+        <div className="prose" style={{ maxWidth: 760 }}>
+          {r.k === "pharmacy" ? <p className="basebar plain">Listed in the official pharmacy register. Opening hours and tonight&apos;s duty pharmacy are not shown here yet.</p> : null}
+          {r.k === "health" ? <p className="basebar plain">In an emergency call <strong>112</strong> or <strong>199</strong>. Services and opening hours are not confirmed here.</p> : null}
+          <h2>Details</h2>
+          <Facts rows={poiFacts(r)} />
+          <Sources list={src.list} reviewed={src.reviewed} />
+        </div>
+      </section>
+      {r.ll ? <AroundBlock ll={r.ll} skip={r.i} title="Near here" moreHref={`${href}/around`} /> : null}
+    </>
+  );
+}

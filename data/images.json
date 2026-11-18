@@ -1,0 +1,226 @@
+{
+ "place-kato-paphos": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Mosaics_in_the_House_of_Dionysus_%28IV%29_%285030885600%29.jpg/1280px-Mosaics_in_the_House_of_Dionysus_%28IV%29_%285030885600%29.jpg",
+  "a": "Institute for the Study of the Ancient World",
+  "l": "CC BY 2.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Mosaics_in_the_House_of_Dionysus_(IV)_(5030885600).jpg",
+  "t": "Mosaics in the House of Dionysus"
+ },
+ "place-tombs-kings": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Tombs_of_the_Kings%2C_Paphos%2C_Cyprus.jpg/1280px-Tombs_of_the_Kings%2C_Paphos%2C_Cyprus.jpg",
+  "a": "Seainme",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Tombs_of_the_Kings,_Paphos,_Cyprus.jpg",
+  "t": "Tombs of the Kings"
+ },
+ "place-paphos-castle": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/2/28/Paphos_Harbour_Castle.jpg",
+  "a": "Mriana Agbaria",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Paphos_Harbour_Castle.jpg",
+  "t": "Paphos harbour castle"
+ },
+ "home-hero": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Sea_Caves_near_Ayia_Napa%2C_Cyprus_-_panoramio_%281%29.jpg/1280px-Sea_Caves_near_Ayia_Napa%2C_Cyprus_-_panoramio_%281%29.jpg",
+  "a": "Dmitry Panov",
+  "l": "CC BY 3.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Sea_Caves_near_Ayia_Napa,_Cyprus_-_panoramio_(1).jpg",
+  "t": "Sea caves near Ayia Napa"
+ },
+ "dest-ayianapa": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Tengeri_barlangok_-_Sea_caves_-_panoramio_%283%29.jpg",
+  "a": "El Nino",
+  "l": "CC BY-SA 3.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Tengeri_barlangok_-_Sea_caves_-_panoramio_(3).jpg",
+  "t": "Sea caves, Ayia Napa"
+ },
+ "dest-protaras": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Aerial_of_Fig_Tree_Bay_Protaras_%2829851940508%29.jpg/1280px-Aerial_of_Fig_Tree_Bay_Protaras_%2829851940508%29.jpg",
+  "a": "dronepicr",
+  "l": "CC BY 2.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Aerial_of_Fig_Tree_Bay_Protaras_(29851940508).jpg",
+  "t": "Fig Tree Bay from above"
+ },
+ "dest-paphos": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/2/28/Paphos_Harbour_Castle.jpg",
+  "a": "Mriana Agbaria",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Paphos_Harbour_Castle.jpg",
+  "t": "Paphos harbour castle"
+ },
+ "dest-akamas": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Blue_lagoon_Cyprus.jpg/1280px-Blue_lagoon_Cyprus.jpg",
+  "a": "Liilia Moroz",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Blue_lagoon_Cyprus.jpg",
+  "t": "Blue Lagoon, Akamas"
+ },
+ "dest-larnaca": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Larnaca_01-2017_img14_Finikoudes.jpg/1280px-Larnaca_01-2017_img14_Finikoudes.jpg",
+  "a": "A.Savin",
+  "l": "Free Art License",
+  "p": "https://commons.wikimedia.org/wiki/File:Larnaca_01-2017_img14_Finikoudes.jpg",
+  "t": "Finikoudes, Larnaca"
+ },
+ "dest-troodos": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/View_of_Kakopetria_village_and_Troodos_Mountains_in_the_background_Republic_of_Cyprus.jpg/1280px-View_of_Kakopetria_village_and_Troodos_Mountains_in_the_background_Republic_of_Cyprus.jpg",
+  "a": "Petros3",
+  "l": "CC BY-SA 3.0",
+  "p": "https://commons.wikimedia.org/wiki/File:View_of_Kakopetria_village_and_Troodos_Mountains_in_the_background_Republic_of_Cyprus.jpg",
+  "t": "Kakopetria and the Troodos mountains"
+ },
+ "dest-limassol": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Limassol_01-2017_img18_Marina.jpg/1280px-Limassol_01-2017_img18_Marina.jpg",
+  "a": "A.Savin",
+  "l": "Free Art License",
+  "p": "https://commons.wikimedia.org/wiki/File:Limassol_01-2017_img18_Marina.jpg",
+  "t": "Limassol Marina"
+ },
+ "dest-nicosia": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Laiki_Geitonia_traditional_quarters_Nicosia_Cyprus.jpg",
+  "a": "NicosiaNew",
+  "l": "CC BY-SA 3.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Laiki_Geitonia_traditional_quarters_Nicosia_Cyprus.jpg",
+  "t": "Laiki Geitonia, Nicosia"
+ },
+ "place-cape-greco": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Cape_Greco_view_1.jpg/1280px-Cape_Greco_view_1.jpg",
+  "a": "kallerna",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Cape_Greco_view_1.jpg",
+  "t": "Cape Greco"
+ },
+ "place-sea-caves": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Sea_Caves_near_Ayia_Napa%2C_Cyprus_-_panoramio_%282%29.jpg/1280px-Sea_Caves_near_Ayia_Napa%2C_Cyprus_-_panoramio_%282%29.jpg",
+  "a": "Dmitry Panov",
+  "l": "CC BY 3.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Sea_Caves_near_Ayia_Napa,_Cyprus_-_panoramio_(2).jpg",
+  "t": "Ayia Napa sea caves"
+ },
+ "place-nissi": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Nissi_Beach_20180401_img14.jpg/1280px-Nissi_Beach_20180401_img14.jpg",
+  "a": "Héctor Ochoa",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Nissi_Beach_20180401_img14.jpg",
+  "t": "Nissi Beach"
+ },
+ "place-makronissos": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Makronissos_Tombs_in_Ayia_Napa_07.JPG/1280px-Makronissos_Tombs_in_Ayia_Napa_07.JPG",
+  "a": "Claus Ableiter",
+  "l": "CC BY-SA 3.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Makronissos_Tombs_in_Ayia_Napa_07.JPG",
+  "t": "Makronissos tombs"
+ },
+ "place-napa-monastery": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Agia_%28Ayia%29_Napa_Monastery_%2804%29.jpg/1280px-Agia_%28Ayia%29_Napa_Monastery_%2804%29.jpg",
+  "a": "Bayreuth2009",
+  "l": "CC BY 3.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Agia_(Ayia)_Napa_Monastery_(04).jpg",
+  "t": "Ayia Napa Monastery"
+ },
+ "place-fig-tree-bay": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Fig_Tree_beach_Protaras_%2829851923968%29.jpg/1280px-Fig_Tree_beach_Protaras_%2829851923968%29.jpg",
+  "a": "dronepicr",
+  "l": "CC BY 2.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Fig_Tree_beach_Protaras_(29851923968).jpg",
+  "t": "Fig Tree Bay"
+ },
+ "place-konnos": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Konnos_Bay_Ayia_Napa.jpg",
+  "a": "Motorsporteditor",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Konnos_Bay_Ayia_Napa.jpg",
+  "t": "Konnos Bay"
+ },
+ "place-profitis-ilias": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Church_of_Profitis_Ilias%2C_Protaras%2C_Cyprus.jpg/1280px-Church_of_Profitis_Ilias%2C_Protaras%2C_Cyprus.jpg",
+  "a": "Ssu",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Church_of_Profitis_Ilias,_Protaras,_Cyprus.jpg",
+  "t": "Profitis Ilias, Protaras"
+ },
+ "place-aphrodite-rock": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Petra_tou_romiou_3.jpg/1280px-Petra_tou_romiou_3.jpg",
+  "a": "Anton Zelenov",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Petra_tou_romiou_3.jpg",
+  "t": "Aphrodite's Rock"
+ },
+ "place-lefkara": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Lefkara_-_Street.jpg/1280px-Lefkara_-_Street.jpg",
+  "a": "Frank Deiwick",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Lefkara_-_Street.jpg",
+  "t": "A lane in Lefkara"
+ },
+ "place-choirokoitia": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Khirokitia_near_Larnaca_01-2017_img2.jpg/1280px-Khirokitia_near_Larnaca_01-2017_img2.jpg",
+  "a": "A.Savin",
+  "l": "Free Art License",
+  "p": "https://commons.wikimedia.org/wiki/File:Khirokitia_near_Larnaca_01-2017_img2.jpg",
+  "t": "Choirokoitia"
+ },
+ "place-salt-lake": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Larnaca_Salt_Lake_with_Flamingos_%2832533135635%29.jpg/1280px-Larnaca_Salt_Lake_with_Flamingos_%2832533135635%29.jpg",
+  "a": "Amanda Slater",
+  "l": "CC BY-SA 2.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Larnaca_Salt_Lake_with_Flamingos_(32533135635).jpg",
+  "t": "Flamingos on the Salt Lake"
+ },
+ "place-hala-sultan": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Larnaca_01-2017_img30_Salt_Lake.jpg/1280px-Larnaca_01-2017_img30_Salt_Lake.jpg",
+  "a": "A.Savin",
+  "l": "Free Art License",
+  "p": "https://commons.wikimedia.org/wiki/File:Larnaca_01-2017_img30_Salt_Lake.jpg",
+  "t": "Hala Sultan Tekke across the Salt Lake"
+ },
+ "place-st-lazarus": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Cyprus-lazarus-church_hg.jpg/1280px-Cyprus-lazarus-church_hg.jpg",
+  "a": "Hannes Grobe",
+  "l": "CC BY 3.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Cyprus-lazarus-church_hg.jpg",
+  "t": "Church of Saint Lazarus"
+ },
+ "place-finikoudes": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Larnaca_01-2017_img15_Finikoudes.jpg/1280px-Larnaca_01-2017_img15_Finikoudes.jpg",
+  "a": "A.Savin",
+  "l": "Free Art License",
+  "p": "https://commons.wikimedia.org/wiki/File:Larnaca_01-2017_img15_Finikoudes.jpg",
+  "t": "Finikoudes promenade"
+ },
+ "exp-lefkara-craft": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/LefkaraLace_example1.jpg/1280px-LefkaraLace_example1.jpg",
+  "a": "LaceDemo1",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:LefkaraLace_example1.jpg",
+  "t": "Lefkara lace"
+ },
+ "biz-silver-sample": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Lefkara_view.jpg/1280px-Lefkara_view.jpg",
+  "a": "Leonid Mamchenkov",
+  "l": "CC BY 2.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Lefkara_view.jpg",
+  "t": "Pano Lefkara"
+ },
+ "g1": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/LefkaraLace_closeup.jpg/1280px-LefkaraLace_closeup.jpg",
+  "a": "LaceDemo1",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:LefkaraLace_closeup.jpg",
+  "t": "Lace close-up"
+ },
+ "g2": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Lefkaritiko.jpg",
+  "a": "Anthi5",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Lefkaritiko.jpg",
+  "t": "Lace in progress"
+ },
+ "g3": {
+  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Lefkara-View.jpg/1280px-Lefkara-View.jpg",
+  "a": "Mboesch",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Lefkara-View.jpg",
+  "t": "Lefkara rooftops"
+ }
+}

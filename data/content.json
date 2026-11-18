@@ -1,0 +1,1288 @@
+{
+ "DEST": [
+  {
+   "id": "ayianapa",
+   "name": "Ayia Napa",
+   "line": "Cape Greco, sea caves and some of the island's best-known beaches.",
+   "tint": "#2B6F95",
+   "live": true,
+   "hero": "Cape Greco cliffs above turquoise water",
+   "glance": [
+    [
+     "Where",
+     "The south-east corner of the island, east of Larnaca."
+    ],
+    [
+     "Known for",
+     "Beaches, Cape Greco, the sea caves, waterparks and nightlife."
+    ],
+    [
+     "Getting oriented",
+     "The town centre and monastery sit just inland from the harbour, with beaches spread east and west."
+    ]
+   ],
+   "start": [
+    "cape-greco",
+    "nissi",
+    "sea-caves"
+   ],
+   "plan": [
+    [
+     "Getting there",
+     "Larnaca International Airport is the nearest airport.",
+     false
+    ],
+    [
+     "Taxis",
+     "Urban taxis use the meter. Day tariff from €3.80 plus €0.95 per km.",
+     false
+    ],
+    [
+     "Buses",
+     "Routes and fares to be added.",
+     true
+    ],
+    [
+     "Seasons",
+     "Summer is peak season. Spring and autumn are warm and quieter.",
+     false
+    ]
+   ],
+   "next": [
+    "protaras",
+    "paphos",
+    "larnaca"
+   ]
+  },
+  {
+   "id": "protaras",
+   "name": "Protaras & Eastern Villages",
+   "line": "Calm sandy bays, easy family days and strawberry fields inland.",
+   "tint": "#3A7E8E",
+   "live": true,
+   "hero": "Fig Tree Bay on a calm morning",
+   "glance": [
+    [
+     "Where",
+     "The east coast, just north of Cape Greco, beside Paralimni."
+    ],
+    [
+     "Known for",
+     "Fig Tree Bay, sheltered coves, family holidays and Deryneia strawberries."
+    ],
+    [
+     "Getting oriented",
+     "Protaras is the resort strip on the coast. Paralimni and Deryneia are the working towns just inland."
+    ]
+   ],
+   "start": [
+    "fig-tree-bay",
+    "konnos",
+    "profitis-ilias"
+   ],
+   "plan": [
+    [
+     "Getting there",
+     "Larnaca International Airport is the nearest airport.",
+     false
+    ],
+    [
+     "Taxis",
+     "Urban taxis use the meter. Day tariff from €3.80 plus €0.95 per km.",
+     false
+    ],
+    [
+     "Buses",
+     "Routes and fares to be added.",
+     true
+    ],
+    [
+     "Seasons",
+     "Summer is peak season. Deryneia's strawberry season is in spring.",
+     false
+    ]
+   ],
+   "next": [
+    "ayianapa",
+    "paphos",
+    "larnaca"
+   ]
+  },
+  {
+   "id": "paphos",
+   "name": "Paphos",
+   "line": "Mosaics, myths and the rock where Aphrodite rose from the sea.",
+   "tint": "#8A6845",
+   "live": true,
+   "hero": "Paphos harbour and castle",
+   "glance": [
+    [
+     "Where",
+     "The west coast of the island."
+    ],
+    [
+     "Known for",
+     "Mosaics, the Tombs of the Kings, the harbour, Aphrodite's Rock and nearby wineries."
+    ],
+    [
+     "Getting oriented",
+     "Kato Paphos is the harbour and archaeology area by the sea. The old town, Ktima, sits on the hill above."
+    ]
+   ],
+   "start": [
+    "kato-paphos",
+    "tombs-kings",
+    "aphrodite-rock"
+   ],
+   "plan": [
+    [
+     "Getting there",
+     "Paphos International Airport is in this region.",
+     false
+    ],
+    [
+     "Taxis",
+     "Urban taxis use the meter. Day tariff from €3.80 plus €0.95 per km.",
+     false
+    ],
+    [
+     "Buses",
+     "Routes and fares to be added.",
+     true
+    ],
+    [
+     "Seasons",
+     "Summer is peak season. Spring and autumn suit the archaeological sites.",
+     false
+    ]
+   ],
+   "next": [
+    "akamas",
+    "ayianapa",
+    "limassol"
+   ]
+  },
+  {
+   "id": "akamas",
+   "name": "Polis, Latchi & Akamas",
+   "line": "Wild coast, clear water and walks without crowds.",
+   "tint": "#3F6B66",
+   "live": false
+  },
+  {
+   "id": "limassol",
+   "name": "Limassol & Wine Villages",
+   "line": "Waterfront days and wine-country evenings.",
+   "tint": "#5B6E58",
+   "live": false
+  },
+  {
+   "id": "larnaca",
+   "name": "Larnaca & Villages",
+   "line": "A slow seafront, old crafts and some of the island's oldest stories.",
+   "tint": "#4C7189",
+   "live": true,
+   "hero": "Larnaca seafront and the hills behind",
+   "glance": [
+    [
+     "Where",
+     "The south-east coast, with villages inland towards the Troodos foothills."
+    ],
+    [
+     "Known for",
+     "The seafront, religious heritage, the Salt Lake, Lefkara lace and silver."
+    ],
+    [
+     "Getting oriented",
+     "Larnaca International Airport sits on the edge of town, close to the Salt Lake."
+    ]
+   ],
+   "start": [
+    "lefkara",
+    "salt-lake",
+    "st-lazarus"
+   ],
+   "plan": [
+    [
+     "Getting there",
+     "Larnaca International Airport is in this region.",
+     false
+    ],
+    [
+     "Taxis",
+     "Urban taxis use the meter. Day tariff from €3.80 plus €0.95 per km.",
+     false
+    ],
+    [
+     "Buses",
+     "Routes and fares to be added.",
+     true
+    ],
+    [
+     "Seasons",
+     "Summer is hot. Spring, autumn and winter suit village walks and the Salt Lake.",
+     false
+    ]
+   ],
+   "next": [
+    "ayianapa",
+    "paphos",
+    "troodos"
+   ]
+  },
+  {
+   "id": "nicosia",
+   "name": "Nicosia",
+   "line": "Courtyards, museums and a capital that stays up late.",
+   "tint": "#7A6A57",
+   "live": false
+  },
+  {
+   "id": "troodos",
+   "name": "Troodos & Mountain Villages",
+   "line": "Pine air, stone villages and painted churches.",
+   "tint": "#4F6347",
+   "live": false
+  }
+ ],
+ "PLACES": {
+  "cape-greco": {
+   "name": "Cape Greco",
+   "dest": "ayianapa",
+   "cat": "National forest park",
+   "interests": [
+    "nature",
+    "beaches"
+   ],
+   "tint": "#2E6E8E",
+   "intro": "Sea cliffs, caves and clear turquoise water at the island's south-east tip.",
+   "why": "Walk the headland at sunrise, look down into water so clear you can see the rocks below, and follow the coast path to the sea caves.",
+   "features": [
+    "Coastal walking trails across the headland.",
+    "The small chapel of Agioi Anargyroi above the sea.",
+    "Views along the coast towards Ayia Napa and Protaras."
+   ],
+   "practical": [
+    [
+     "Opening hours",
+     "Open area.",
+     false
+    ],
+    [
+     "Safety",
+     "Cliff edges are unfenced in places. Stay on the paths.",
+     false
+    ],
+    [
+     "Parking",
+     "Not yet verified.",
+     true
+    ],
+    [
+     "Accessibility",
+     "Not yet verified. Paths are rocky.",
+     true
+    ]
+   ],
+   "sources": [
+    {
+     "t": "Ayia Napa, Protaras and eastern-region tourism",
+     "u": "https://visitfamagusta.com.cy/"
+    },
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "nearby": [
+    "place-sea-caves",
+    "place-konnos",
+    "place-nissi"
+   ]
+  },
+  "sea-caves": {
+   "name": "Ayia Napa Sea Caves",
+   "dest": "ayianapa",
+   "cat": "Coastal landmark",
+   "interests": [
+    "nature"
+   ],
+   "tint": "#3B7590",
+   "intro": "Caves carved into the cliffs between Ayia Napa and Cape Greco.",
+   "why": "Best seen from a boat or from the clifftop at golden hour, when the rock glows and the water turns deep blue.",
+   "features": [
+    "Sea caves you can see from the clifftop or by boat.",
+    "Part of the Cape Greco coastline.",
+    "The Love Bridge, a natural rock arch, is closer to town, east of the harbour."
+   ],
+   "practical": [
+    [
+     "Opening hours",
+     "Open area.",
+     false
+    ],
+    [
+     "Safety",
+     "Cliff edges are unfenced. Jumping from the rocks is dangerous.",
+     false
+    ],
+    [
+     "Boat trips",
+     "Operators to be added once verified.",
+     true
+    ]
+   ],
+   "sources": [
+    {
+     "t": "Ayia Napa, Protaras and eastern-region tourism",
+     "u": "https://visitfamagusta.com.cy/"
+    }
+   ],
+   "nearby": [
+    "place-cape-greco",
+    "place-nissi"
+   ]
+  },
+  "nissi": {
+   "name": "Nissi Beach",
+   "dest": "ayianapa",
+   "cat": "Beach",
+   "interests": [
+    "beaches",
+    "family"
+   ],
+   "tint": "#3F86A6",
+   "intro": "A wide sandy bay with a small islet you can wade to when the sea is calm.",
+   "why": "Soft sand, shallow water and a lively summer atmosphere, a short walk from town.",
+   "features": [
+    "Shallow, sandy water near the shore.",
+    "A small islet linked by a sandbar in calm seas."
+   ],
+   "practical": [
+    [
+     "Facilities",
+     "Not yet verified.",
+     true
+    ],
+    [
+     "Lifeguards",
+     "Not yet verified.",
+     true
+    ],
+    [
+     "Accessibility",
+     "Not yet verified.",
+     true
+    ]
+   ],
+   "sources": [
+    {
+     "t": "Ayia Napa, Protaras and eastern-region tourism",
+     "u": "https://visitfamagusta.com.cy/"
+    }
+   ],
+   "nearby": [
+    "place-makronissos",
+    "place-sea-caves"
+   ]
+  },
+  "makronissos": {
+   "name": "Makronissos Beach",
+   "dest": "ayianapa",
+   "cat": "Beach",
+   "interests": [
+    "beaches",
+    "culture"
+   ],
+   "tint": "#4A8AA0",
+   "intro": "Sandy coves west of Ayia Napa, with ancient rock-cut tombs on the headland nearby.",
+   "why": "A calmer alternative to the busiest beaches, with a small piece of history a few minutes' walk away.",
+   "features": [
+    "Sheltered sandy coves.",
+    "Ancient rock-cut tombs nearby."
+   ],
+   "practical": [
+    [
+     "Facilities",
+     "Not yet verified.",
+     true
+    ],
+    [
+     "Accessibility",
+     "Not yet verified.",
+     true
+    ]
+   ],
+   "sources": [
+    {
+     "t": "Ayia Napa, Protaras and eastern-region tourism",
+     "u": "https://visitfamagusta.com.cy/"
+    }
+   ],
+   "nearby": [
+    "place-nissi"
+   ]
+  },
+  "napa-monastery": {
+   "name": "Ayia Napa Monastery",
+   "dest": "ayianapa",
+   "cat": "Monastery",
+   "interests": [
+    "culture"
+   ],
+   "tint": "#8C7457",
+   "intro": "A Venetian-era monastery with a quiet courtyard in the middle of town.",
+   "why": "Step out of the summer bustle into shade and stone, right in the centre of town.",
+   "features": [
+    "Built during Venetian rule, around 1500.",
+    "Part of the church is carved into the rock.",
+    "A courtyard with a central fountain."
+   ],
+   "practical": [
+    [
+     "Opening hours",
+     "Not yet verified.",
+     true
+    ],
+    [
+     "Dress",
+     "Modest dress expected.",
+     false
+    ]
+   ],
+   "sources": [
+    {
+     "t": "Welcome Magazine: Ayia Napa Monastery",
+     "u": "https://www.welcomemagazinecy.com/welcome-magazine/2024/03/28/a-monument-to-faith-and-history"
+    },
+    {
+     "t": "Ayia Napa, Protaras and eastern-region tourism",
+     "u": "https://visitfamagusta.com.cy/"
+    }
+   ],
+   "nearby": [
+    "place-nissi",
+    "place-cape-greco"
+   ]
+  },
+  "waterworld": {
+   "name": "WaterWorld Waterpark",
+   "dest": "ayianapa",
+   "cat": "Waterpark",
+   "interests": [
+    "family"
+   ],
+   "tint": "#2F7FB0",
+   "intro": "A big waterpark themed on Greek mythology, just outside Ayia Napa.",
+   "why": "A full day out for kids and teenagers, with slides and pools built around the old myths.",
+   "features": [
+    "Rides themed on Greek mythology.",
+    "Pools for younger children."
+   ],
+   "practical": [
+    [
+     "Season",
+     "Listed as open April to October. Check before you go.",
+     false
+    ],
+    [
+     "Prices",
+     "Not yet verified.",
+     true
+    ]
+   ],
+   "sources": [
+    {
+     "t": "Cyprus Alive: WaterWorld",
+     "u": "https://www.cyprusalive.com/waterworld-themed-water-park"
+    },
+    {
+     "t": "Ayia Napa, Protaras and eastern-region tourism",
+     "u": "https://visitfamagusta.com.cy/"
+    }
+   ],
+   "nearby": [
+    "place-nissi"
+   ]
+  },
+  "fig-tree-bay": {
+   "name": "Fig Tree Bay",
+   "dest": "protaras",
+   "cat": "Beach",
+   "interests": [
+    "beaches",
+    "family"
+   ],
+   "tint": "#3684A0",
+   "intro": "A sandy bay with a small islet a short swim from the shore.",
+   "why": "Clear, calm water and soft sand. It's the beach most people picture when they think of Protaras.",
+   "features": [
+    "A small islet you can swim out to.",
+    "Calm water on most summer days."
+   ],
+   "practical": [
+    [
+     "Facilities",
+     "Not yet verified.",
+     true
+    ],
+    [
+     "Lifeguards",
+     "Not yet verified.",
+     true
+    ],
+    [
+     "Accessibility",
+     "Not yet verified.",
+     true
+    ]
+   ],
+   "sources": [
+    {
+     "t": "Ayia Napa, Protaras and eastern-region tourism",
+     "u": "https://visitfamagusta.com.cy/"
+    }
+   ],
+   "nearby": [
+    "place-konnos",
+    "place-profitis-ilias"
+   ]
+  },
+  "konnos": {
+   "name": "Konnos Bay",
+   "dest": "protaras",
+   "cat": "Beach",
+   "interests": [
+    "beaches",
+    "nature"
+   ],
+   "tint": "#2D7C8A",
+   "intro": "A sheltered cove below pine-covered slopes, between Protaras and Cape Greco.",
+   "why": "Turquoise water in a small, protected bay. Go early in summer, it fills up.",
+   "features": [
+    "Sheltered water, good for a calm swim.",
+    "Close to the Cape Greco walking trails."
+   ],
+   "practical": [
+    [
+     "Access",
+     "Not yet verified. The road down is steep.",
+     true
+    ],
+    [
+     "Facilities",
+     "Not yet verified.",
+     true
+    ]
+   ],
+   "sources": [
+    {
+     "t": "Ayia Napa, Protaras and eastern-region tourism",
+     "u": "https://visitfamagusta.com.cy/"
+    }
+   ],
+   "nearby": [
+    "place-cape-greco",
+    "place-fig-tree-bay"
+   ]
+  },
+  "profitis-ilias": {
+   "name": "Profitis Ilias Chapel",
+   "dest": "protaras",
+   "cat": "Chapel and viewpoint",
+   "interests": [
+    "culture"
+   ],
+   "tint": "#8A7A64",
+   "intro": "A small chapel on a rock above Protaras, with views along the coast.",
+   "why": "Climb the steps at sunset for one of the best views on the east coast.",
+   "features": [
+    "Steps up to the chapel.",
+    "Wide views over Protaras and the sea."
+   ],
+   "practical": [
+    [
+     "Opening hours",
+     "Not yet verified.",
+     true
+    ],
+    [
+     "Accessibility",
+     "Steps only. Not step-free.",
+     false
+    ]
+   ],
+   "sources": [
+    {
+     "t": "Ayia Napa, Protaras and eastern-region tourism",
+     "u": "https://visitfamagusta.com.cy/"
+    }
+   ],
+   "nearby": [
+    "place-fig-tree-bay"
+   ]
+  },
+  "deryneia": {
+   "name": "Deryneia",
+   "dest": "protaras",
+   "cat": "Village",
+   "interests": [
+    "villages",
+    "food"
+   ],
+   "tint": "#7F6B4F",
+   "intro": "A farming town just inland, known for its strawberries.",
+   "why": "Come in spring for the strawberry season and a look at the island's eastern farmland.",
+   "features": [
+    "Strawberry fields and local produce.",
+    "A working town, away from the resort strip."
+   ],
+   "practical": [
+    [
+     "Strawberry season",
+     "Spring. Exact dates vary.",
+     false
+    ]
+   ],
+   "sources": [
+    {
+     "t": "Ayia Napa, Protaras and eastern-region tourism",
+     "u": "https://visitfamagusta.com.cy/"
+    }
+   ],
+   "nearby": [
+    "place-fig-tree-bay"
+   ]
+  },
+  "aphrodite-rock": {
+   "name": "Aphrodite's Rock",
+   "dest": "paphos",
+   "cat": "Coastal landmark",
+   "interests": [
+    "nature",
+    "culture"
+   ],
+   "tint": "#5C7F93",
+   "intro": "The sea stack where, the legend goes, Aphrodite rose from the foam.",
+   "why": "Stop on the coast road between Paphos and Limassol for the view, the waves and the story that made Cyprus the island of love.",
+   "features": [
+    "Also called Petra tou Romiou.",
+    "Pebble beach and dramatic rocks."
+   ],
+   "legend": "Greek myth says Aphrodite, goddess of love, was born from the sea foam here. The local name, Petra tou Romiou, comes from a different story about the Byzantine hero Digenis.",
+   "practical": [
+    [
+     "Parking",
+     "Not yet verified.",
+     true
+    ],
+    [
+     "Swimming",
+     "Not yet verified. Waves and currents can be strong.",
+     true
+    ]
+   ],
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "nearby": [
+    "place-kato-paphos",
+    "place-paphos-castle"
+   ]
+  },
+  "kato-paphos": {
+   "name": "Kato Paphos Archaeological Park",
+   "dest": "paphos",
+   "cat": "Archaeological site",
+   "interests": [
+    "culture"
+   ],
+   "tint": "#8E6E4E",
+   "intro": "Roman villas by the sea, with some of the finest floor mosaics in the Mediterranean.",
+   "why": "Walk among the ruins of ancient Nea Paphos and see mythological scenes laid in stone, right beside the harbour.",
+   "features": [
+    "Part of the Paphos UNESCO World Heritage Site, inscribed in 1980.",
+    "Mosaic floors in the Roman villas.",
+    "A short walk from Paphos harbour."
+   ],
+   "practical": [
+    [
+     "Opening hours",
+     "Not yet verified.",
+     true
+    ],
+    [
+     "Entry fee",
+     "Not yet verified.",
+     true
+    ],
+    [
+     "Accessibility",
+     "Not yet verified. Much of the site is open ground.",
+     true
+    ],
+    [
+     "Best time",
+     "Early morning or late afternoon in summer, for shade and softer light.",
+     false
+    ]
+   ],
+   "sources": [
+    {
+     "t": "UNESCO: Paphos",
+     "u": "https://whc.unesco.org/en/list/79/"
+    },
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "nearby": [
+    "place-tombs-kings",
+    "place-paphos-castle"
+   ]
+  },
+  "tombs-kings": {
+   "name": "Tombs of the Kings",
+   "dest": "paphos",
+   "cat": "Archaeological site",
+   "interests": [
+    "culture",
+    "family"
+   ],
+   "tint": "#9B7B58",
+   "intro": "Underground tombs cut into the rock above the sea, with columned courtyards you can walk down into.",
+   "why": "Despite the name, no kings were buried here. The tombs belonged to Paphian aristocrats and high officials, and many date from the 4th century BC.",
+   "features": [
+    "Part of the Paphos UNESCO World Heritage Site.",
+    "Rock-cut chambers and courtyards with columns.",
+    "Open, coastal setting north of the harbour."
+   ],
+   "practical": [
+    [
+     "Opening hours",
+     "Not yet verified.",
+     true
+    ],
+    [
+     "Entry fee",
+     "Not yet verified.",
+     true
+    ],
+    [
+     "Accessibility",
+     "Not yet verified. Steps lead down into the tombs.",
+     true
+    ]
+   ],
+   "sources": [
+    {
+     "t": "UNESCO: Paphos",
+     "u": "https://whc.unesco.org/en/list/79/"
+    },
+    {
+     "t": "Wikipedia: Tombs of the Kings",
+     "u": "https://en.wikipedia.org/wiki/Tombs_of_the_Kings_(Paphos)"
+    }
+   ],
+   "nearby": [
+    "place-kato-paphos",
+    "place-paphos-castle"
+   ]
+  },
+  "paphos-castle": {
+   "name": "Paphos Harbour and Castle",
+   "dest": "paphos",
+   "cat": "Harbour and fort",
+   "interests": [
+    "culture",
+    "family"
+   ],
+   "tint": "#7E8A8E",
+   "intro": "A small stone fort at the end of the harbour, with fishing boats and seafront cafés all around.",
+   "why": "The easiest place to start in Paphos. Walk the harbour front at sunset, then eat by the water.",
+   "features": [
+    "Stone fort at the harbour entrance.",
+    "Seafront promenade with cafés and restaurants."
+   ],
+   "practical": [
+    [
+     "Opening hours",
+     "Not yet verified for the fort.",
+     true
+    ],
+    [
+     "Entry fee",
+     "Not yet verified.",
+     true
+    ]
+   ],
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "nearby": [
+    "place-kato-paphos",
+    "place-tombs-kings"
+   ]
+  },
+  "lefkara": {
+   "name": "Lefkara",
+   "dest": "larnaca",
+   "cat": "Village",
+   "interests": [
+    "villages",
+    "culture"
+   ],
+   "tint": "#9A7B57",
+   "intro": "A hill village of honey-coloured stone, known for lace and silver made by hand.",
+   "why": "Come for the craft. Lefkara's lace, called lefkaritika, has been made here for generations, and lace and silver shops line the village lanes.",
+   "features": [
+    "Lefkaritika lace, inscribed on UNESCO's list of Intangible Cultural Heritage in 2009.",
+    "A long tradition of silverwork and filigree.",
+    "Narrow lanes and stone houses that reward a slow walk."
+   ],
+   "legend": "Local legend says Leonardo da Vinci visited in 1481 and took a lace altar cloth back to Milan Cathedral. It's a much-loved story, but it isn't documented history.",
+   "practical": [
+    [
+     "Opening hours",
+     "Open village. Shop hours vary and are not yet verified.",
+     true
+    ],
+    [
+     "Entry",
+     "No entry fee for the village itself.",
+     false
+    ],
+    [
+     "Access and parking",
+     "Not yet verified.",
+     true
+    ],
+    [
+     "Accessibility",
+     "Not yet verified. Some lanes are steep.",
+     true
+    ],
+    [
+     "Best time",
+     "Mornings, before the midday heat in summer.",
+     false
+    ]
+   ],
+   "sources": [
+    {
+     "t": "UNESCO: Lefkara laces or Lefkaritika",
+     "u": "https://ich.unesco.org/en/RL/lefkara-laces-or-lefkaritika-00255"
+    },
+    {
+     "t": "Larnaka Tourism Board",
+     "u": "https://larnakaregion.com/"
+    }
+   ],
+   "nearby": [
+    "place-choirokoitia",
+    "exp-lefkara-craft",
+    "biz-silver-sample"
+   ]
+  },
+  "choirokoitia": {
+   "name": "Choirokoitia",
+   "dest": "larnaca",
+   "cat": "Archaeological site",
+   "interests": [
+    "culture",
+    "family"
+   ],
+   "tint": "#8C7660",
+   "intro": "A Neolithic village on a hillside, with reconstructed round houses you can step inside.",
+   "why": "It's one of the most important prehistoric sites in the eastern Mediterranean, and the reconstructed round houses make it easy for kids to picture daily life.",
+   "features": [
+    "UNESCO World Heritage Site since 1998.",
+    "Reconstructed stone round houses near the entrance.",
+    "Hillside paths with views across the valley."
+   ],
+   "practical": [
+    [
+     "Opening hours",
+     "Not yet verified. Check before you go.",
+     true
+    ],
+    [
+     "Entry fee",
+     "Not yet verified.",
+     true
+    ],
+    [
+     "Accessibility",
+     "Not yet verified. The site is on a slope.",
+     true
+    ]
+   ],
+   "sources": [
+    {
+     "t": "UNESCO: Choirokoitia",
+     "u": "https://whc.unesco.org/en/list/848/"
+    },
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "nearby": [
+    "place-lefkara",
+    "place-salt-lake"
+   ]
+  },
+  "salt-lake": {
+   "name": "Larnaca Salt Lake",
+   "dest": "larnaca",
+   "cat": "Wetland",
+   "interests": [
+    "nature",
+    "family"
+   ],
+   "tint": "#7E8EA0",
+   "intro": "A wide salt lake on the edge of town, at its best in winter when it fills with water.",
+   "why": "A flat, easy walk with big skies, right beside the city. In winter, flamingos often stop here, though numbers change from year to year.",
+   "features": [
+    "Seasonal wildlife. Flamingos are common in winter but never guaranteed.",
+    "Hala Sultan Tekke sits on its western shore.",
+    "Flat ground, good for an easy family walk."
+   ],
+   "practical": [
+    [
+     "Opening hours",
+     "Open area.",
+     false
+    ],
+    [
+     "Facilities",
+     "Not yet verified.",
+     true
+    ],
+    [
+     "Seasonal note",
+     "The lake is often dry in late summer.",
+     false
+    ]
+   ],
+   "sources": [
+    {
+     "t": "Larnaka Tourism Board",
+     "u": "https://larnakaregion.com/"
+    }
+   ],
+   "nearby": [
+    "place-hala-sultan",
+    "place-finikoudes"
+   ]
+  },
+  "hala-sultan": {
+   "name": "Hala Sultan Tekke",
+   "dest": "larnaca",
+   "cat": "Mosque and heritage site",
+   "interests": [
+    "culture"
+   ],
+   "tint": "#6F7F64",
+   "intro": "An Ottoman-era mosque among palms on the shore of the Salt Lake.",
+   "why": "One of the island's most important Muslim sites, in a calm, green setting by the water.",
+   "features": [
+    "Mosque complex surrounded by gardens and palms.",
+    "Views across the Salt Lake."
+   ],
+   "practical": [
+    [
+     "Opening hours",
+     "Not yet verified.",
+     true
+    ],
+    [
+     "Dress",
+     "Modest dress expected when visiting the mosque.",
+     false
+    ]
+   ],
+   "sources": [
+    {
+     "t": "Larnaka Tourism Board",
+     "u": "https://larnakaregion.com/"
+    }
+   ],
+   "nearby": [
+    "place-salt-lake"
+   ]
+  },
+  "st-lazarus": {
+   "name": "Church of Saint Lazarus",
+   "dest": "larnaca",
+   "cat": "Church",
+   "interests": [
+    "culture"
+   ],
+   "tint": "#8A7258",
+   "intro": "A stone church in the heart of old Larnaca, dedicated to Saint Lazarus.",
+   "why": "The church anchors the old town. Walk the surrounding streets for cafés, small shops and the seafront a few minutes away.",
+   "features": [
+    "Built in the late 9th or early 10th century over the tomb of Saint Lazarus.",
+    "A gilded, carved wooden iconostasis from the 1770s.",
+    "Surrounded by the old town's walkable streets."
+   ],
+   "practical": [
+    [
+     "Opening hours",
+     "Not yet verified.",
+     true
+    ],
+    [
+     "Dress",
+     "Shoulders and knees covered inside the church.",
+     false
+    ]
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia: Church of Saint Lazarus, Larnaca",
+     "u": "https://en.wikipedia.org/wiki/Church_of_Saint_Lazarus,_Larnaca"
+    },
+    {
+     "t": "Larnaka Tourism Board",
+     "u": "https://larnakaregion.com/"
+    }
+   ],
+   "nearby": [
+    "place-finikoudes",
+    "place-salt-lake"
+   ]
+  },
+  "finikoudes": {
+   "name": "Finikoudes",
+   "dest": "larnaca",
+   "cat": "Promenade and town beach",
+   "interests": [
+    "beaches",
+    "family"
+   ],
+   "tint": "#4E7E97",
+   "intro": "Larnaca's palm-lined seafront, with a sandy town beach and cafés along the front.",
+   "why": "Easy, central and lively in the evening. Swim in the morning, walk the promenade at sunset.",
+   "features": [
+    "Sandy town beach next to the promenade.",
+    "Cafés and restaurants along the seafront."
+   ],
+   "practical": [
+    [
+     "Facilities",
+     "Not yet verified.",
+     true
+    ],
+    [
+     "Accessibility",
+     "Not yet verified.",
+     true
+    ]
+   ],
+   "sources": [
+    {
+     "t": "Larnaka Tourism Board",
+     "u": "https://larnakaregion.com/"
+    }
+   ],
+   "nearby": [
+    "place-st-lazarus"
+   ]
+  }
+ },
+ "EXPERIENCES": {
+  "lefkara-craft": {
+   "name": "Lace and silver morning in Lefkara",
+   "dest": "larnaca",
+   "place": "lefkara",
+   "tint": "#A0805E",
+   "sample": true,
+   "intro": "Sit with a maker, watch a piece of lace come together stitch by stitch, then visit a silver workshop.",
+   "detail": "This is a sample experience to show how the page works. The real version will feature a named Lefkara maker, in their own words, with photography from our team.",
+   "practical": [
+    [
+     "Duration",
+     "To be confirmed with the maker.",
+     true
+    ],
+    [
+     "Price",
+     "To be confirmed with the maker.",
+     true
+    ],
+    [
+     "Booking",
+     "Direct link to the maker, added once confirmed.",
+     true
+    ],
+    [
+     "Language",
+     "To be confirmed.",
+     true
+    ]
+   ],
+   "business": "silver-sample"
+  }
+ },
+ "BUSINESSES": {
+  "silver-sample": {
+   "name": "[Lefkara silver workshop]",
+   "cat": "Shops & makers",
+   "locality": "Pano Lefkara",
+   "dest": "larnaca",
+   "tint": "#6E6E73",
+   "sample": true,
+   "line": "Family workshop making filigree silver by hand.",
+   "services": [
+    "Handmade silver jewellery and filigree",
+    "Workshop visits by arrangement"
+   ],
+   "practical": [
+    [
+     "Address",
+     "To be confirmed.",
+     true
+    ],
+    [
+     "Phone",
+     "To be confirmed.",
+     true
+    ],
+    [
+     "Website",
+     "To be confirmed.",
+     true
+    ],
+    [
+     "Opening hours",
+     "Not yet verified.",
+     true
+    ],
+    [
+     "Accessibility",
+     "Not yet verified.",
+     true
+    ]
+   ]
+  }
+ },
+ "PLL": {
+  "kato-paphos": [
+   34.7568,
+   32.4065
+  ],
+  "tombs-kings": [
+   34.7752,
+   32.4062
+  ],
+  "paphos-castle": [
+   34.7535,
+   32.4058
+  ],
+  "aphrodite-rock": [
+   34.6639,
+   32.6274
+  ],
+  "finikoudes": [
+   34.9137,
+   33.6385
+  ],
+  "st-lazarus": [
+   34.9118,
+   33.6356
+  ],
+  "salt-lake": [
+   34.888,
+   33.61
+  ],
+  "hala-sultan": [
+   34.8853,
+   33.6107
+  ],
+  "choirokoitia": [
+   34.7966,
+   33.3436
+  ],
+  "lefkara": [
+   34.867,
+   33.305
+  ],
+  "cape-greco": [
+   34.96188,
+   34.0656
+  ],
+  "sea-caves": [
+   34.96843,
+   34.05459
+  ],
+  "nissi": [
+   34.98749,
+   33.96899
+  ],
+  "makronissos": [
+   34.98269,
+   33.95555
+  ],
+  "napa-monastery": [
+   34.98924,
+   33.99949
+  ],
+  "waterworld": [
+   34.98597,
+   33.94292
+  ],
+  "fig-tree-bay": [
+   35.01283,
+   34.05871
+  ],
+  "konnos": [
+   34.984,
+   34.07002
+  ],
+  "profitis-ilias": [
+   35.01848,
+   34.04127
+  ]
+ },
+ "INTERESTS": [
+  {
+   "id": "beaches",
+   "name": "Beaches",
+   "line": "Town beaches to quiet coves"
+  },
+  {
+   "id": "nature",
+   "name": "Nature",
+   "line": "Wetlands, trails and wildlife"
+  },
+  {
+   "id": "culture",
+   "name": "Culture",
+   "line": "Churches, sites and museums"
+  },
+  {
+   "id": "food",
+   "name": "Food & wine",
+   "line": "Tavernas, producers, wineries"
+  },
+  {
+   "id": "villages",
+   "name": "Villages",
+   "line": "Stone lanes and old crafts"
+  },
+  {
+   "id": "family",
+   "name": "Family experiences",
+   "line": "Easy days out with kids"
+  }
+ ]
+}

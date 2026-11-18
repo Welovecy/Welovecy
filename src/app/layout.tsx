@@ -1,0 +1,47 @@
+import type { Metadata, Viewport } from "next";
+import "./globals.css";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { RegisterSW } from "@/components/RegisterSW";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
+
+export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  title: { default: `${SITE_NAME}: a guide to the Republic of Cyprus`, template: `%s · ${SITE_NAME}` },
+  description: "Beaches, must-see places and what's around your hotel, from the island's largest community.",
+  applicationName: SITE_NAME,
+  appleWebApp: { capable: true, title: SITE_NAME, statusBarStyle: "default" },
+  openGraph: { type: "website", siteName: SITE_NAME, locale: "en_GB", images: ["/img/aphrodite-rock.jpg"] },
+  twitter: { card: "summary_large_image" },
+  formatDetection: { telephone: false },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#FBFAF7" },
+    { media: "(prefers-color-scheme: dark)", color: "#121315" },
+  ],
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en-GB">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@600;700&display=swap" />
+      </head>
+      <body>
+        <a className="skip" href="#main">Skip to content</a>
+        <Header />
+        <main id="main" tabIndex={-1}>{children}</main>
+        <Footer />
+        <RegisterSW />
+      </body>
+    </html>
+  );
+}

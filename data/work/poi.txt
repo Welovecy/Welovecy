@@ -1,0 +1,82 @@
+beach|Pantachou Beach (Limanaki)|34.98422,34.00844
+beach|Paradisos Beach|34.98376,34.00490
+beach|Landa Beach (Golden Beach)|34.98724,33.95896
+beach|Vathia Gonia Beach|34.98678,33.97937
+beach|Firemans Beach|35.05971,34.00944
+beach|Adams Beach|34.98683,33.96513
+beach|Katsarka Beach|34.98504,33.99008
+beach|Polyxenia Beach|35.03067,34.04391
+beach|Louma Beach|35.03669,34.03864
+beach|Vyzakia Beach|35.00337,34.06317
+beach|Small Makronissos Beach|34.98224,33.95321
+beach|Ayia Thekla Beach|34.97885,33.93460
+beach|Kermia Beach|34.97301,34.04018
+beach|Kapparis Bay|35.05848,34.01118
+beach|Ellines Beach|35.03414,34.04010
+beach|Vrisoudia Beach|35.04427,34.03160
+beach|Glyfades Beach (Mimosa)|34.99655,34.06892
+beach|Armyropigado Beach|35.06134,34.00740
+beach|Ammos tou Kambouri|34.97858,34.02365
+beach|Nissaki Beach|34.97794,33.93468
+beach|Loukkos tou Mandi Beach|34.98245,33.99840
+beach|Sunrise Beach (Vrysi)|35.01816,34.05339
+beach|Green Bay|34.99962,34.06671
+beach|Loumbardi Beach|35.00130,34.06533
+beach|Trinity Beach (Agia Triada)|35.05089,34.02274
+beach|Pernera Beach|35.03183,34.04231
+beach|Potami Bay Beach|35.02876,34.04506
+beach|Glyki Nero Beach|34.98345,34.00819
+beach|Maistrali Beach|34.98412,34.01003
+beach|Skoutari Beach|35.05494,34.01537
+beach|Turtle Beach|34.98605,34.07299
+sight|Blue Lagoon, Cape Greco|34.96619,34.07985
+sight|Love Bridge|34.98255,34.01647
+sight|Cyclops Cave|34.98652,34.07651
+sight|Agioi Anargyroi Chapel|34.97590,34.07644
+sight|Thalassa Museum of the Sea|34.98757,34.00222
+sight|MUSAN Underwater Sculpture Museum|34.98489,33.98419
+sight|Ayia Napa Sculpture Park|34.98462,34.01956
+sight|Ayia Napa Harbour|34.98132,34.00250
+family|Parko Paliatso Luna Park|34.98559,33.99764
+family|Magic Dancing Waters|35.01849,34.04741
+family|Aquamania Waterpark|35.02749,34.04291
+family|CyHerbia Botanical Park and Labyrinth|35.01339,33.83150
+pharmacy|Petinos Pharmacy|34.98715,34.00295
+pharmacy|Kalos Pharmacy|34.98892,33.98144
+pharmacy|Marios Loizou Pharmacy|35.01617,34.05122
+pharmacy|Alexandrou Pharmacy|35.01759,34.04804
+pharmacy|Pharmacy Pernera-Protaras|35.02880,34.04355
+pharmacy|E.M. Pharmacy|35.04880,34.01633
+pharmacy|Pharmacy|35.01103,34.05703
+pharmacy|Pharmacy|34.98880,33.98365
+pharmacy|Pharmacy|34.98644,34.00755
+pharmacy|Pharmacy|34.98685,34.00024
+pharmacy|Pharmacy|35.03027,34.03760
+pharmacy|Pharmacy|34.98746,33.99529
+pharmacy|Pharmacy|34.99041,33.97233
+pharmacy|Mavroyiannou Pharmacy|35.05412,33.97291
+health|Napa Olympic Private Hospital|34.99059,33.97877
+health|Santa Marina Polyclinic Ayia Napa|34.98716,33.99280
+health|Santa Marina Protaras Medical Center|35.03031,34.03765
+health|Doctor 24/7 Protaras|35.01720,34.04633
+health|Valessia Clinic|35.01563,34.04750
+health|Santa Marina Polyclinic Paralimni|35.05438,33.97319
+health|Lito Private Hospital|35.03387,33.97714
+health|Paralimni Hospital|35.06256,33.97225
+market|Lidl Protaras|35.01325,34.05108
+market|Lidl Paralimni|35.04913,33.97592
+market|Sklavenitis Paralimni|35.03249,33.98124
+market|Metro Paralimni|35.04531,34.00290
+market|Rossos Supermarket Protaras|35.03384,34.03785
+market|Rossos Supermarket Ayia Napa|34.98841,33.98465
+market|Makronissos Hypermarket|34.98882,33.95634
+market|Best Buy Ayia Napa|34.98455,34.00104
+market|Best Buy Protaras|35.01364,34.05477
+market|Eleana Supermarket|34.99122,33.99793
+market|Big C Market|35.02745,34.04168
+market|Livas Supermarket|35.03001,34.04040
+market|Tony's Supermarket|35.00969,34.05846
+market|Mesana Supermarket|34.99074,34.07000
+market|Napiana Supermarket|34.98530,34.00058
+market|Plus Discount|34.98727,33.99353
+market|Chryso Supermarket|35.00736,34.05870
