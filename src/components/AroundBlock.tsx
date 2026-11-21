@@ -18,7 +18,7 @@ export function AroundBlock({ ll, skip, title, moreHref }: { ll: LL; skip?: stri
         <h2 id="h-around">{title}</h2>
         {moreHref ? <a href={moreHref}>Everything around, with a map</a> : null}
       </div>
-      <EssentialsGrid items={a.essentials} area={a.dest} areaName={dest?.name ?? ""} />
+      <EssentialsGrid items={a.essentials} area={a.dest} areaName={dest?.name ?? ""} busHref={moreHref ? `${moreHref}#buses` : undefined} />
       <div className="near-cols" style={{ marginTop: 28 }}>
         {GROUPS.map(([k, t]) => {
           const list = a.near(k, 4).filter((n) => n.d <= 25);

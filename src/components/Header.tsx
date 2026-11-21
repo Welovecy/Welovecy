@@ -51,6 +51,7 @@ export function Header() {
         <nav className="wrap" aria-label="Main, mobile">
           {NAV.map(([h, l]) => <Link key={h} href={h}>{l}</Link>)}
           <Link href="/saved">Saved{saved.length ? ` (${saved.length})` : ""}</Link>
+          <Link href="/buses">Buses</Link>
           <Link href="/essentials">Essentials</Link>
           <Link href="/practical">Practical info</Link>
         </nav>

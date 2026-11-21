@@ -14,6 +14,7 @@ export function Footer() {
           <h4>Practical</h4>
           <Link href="/essentials">Pharmacies, clinics and supermarkets</Link>
           <Link href="/practical#emergency">Emergency numbers</Link>
+          <Link href="/buses">Buses and airport transfers</Link>
           <Link href="/practical#taxi">Taxi fares</Link>
         </div>
         <div>

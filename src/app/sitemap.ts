@@ -5,7 +5,7 @@ import { absolute, DATA_REVIEWED } from "@/lib/site";
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date(DATA_REVIEWED + "T00:00:00Z");
   const paths = [
-    "/", "/destinations", "/must-see", "/beaches", "/stay", "/around", "/essentials", "/practical", "/things", "/stories", "/about",
+    "/", "/destinations", "/must-see", "/beaches", "/stay", "/around", "/essentials", "/practical", "/buses", "/things", "/stories", "/about",
     ...DESTINATIONS.flatMap((d) => [`/destinations/${d.id}`, `/stay/${d.id}`]),
     ...PLACES.map((p) => placeHref(p.slug)),
     ...INTERESTS.map((i) => `/things/${i.id}`),

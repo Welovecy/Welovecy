@@ -85,3 +85,26 @@ describe("around", () => {
     for (let i = 1; i < list.length; i++) expect(list[i].d).toBeGreaterThanOrEqual(list[i - 1].d);
   });
 });
+
+import { BUS } from "@/lib/data";
+import { ESSENTIAL_KINDS } from "@/lib/kinds";
+
+describe("buses", () => {
+  it("keeps every stop inside the Republic and every route reference valid", () => {
+    expect(BUS.stops.filter((s) => !inRepublic(s.ll)).map((s) => s.n)).toEqual([]);
+    expect(BUS.stops.every((s) => s.rk.length > 0 && s.rk.every((k) => BUS.routes[k]))).toBe(true);
+  });
+  it("never shows the source's area wording", () => {
+    expect(JSON.stringify(Object.values(BUS.routes).map((r) => r.a))).not.toMatch(/government-controlled/i);
+  });
+  it("puts beach, restaurant, supermarket, pharmacy and bus stop first, in that order", () => {
+    expect(ESSENTIAL_KINDS).toEqual(["beach", "eat", "market", "pharmacy", "bus"]);
+  });
+  it("finds a bus stop with routes within a short walk of Fig Tree Bay", () => {
+    const fig = PLACES.find((p) => p.slug === "fig-tree-bay")!;
+    const bus = essentials(fig.ll!, spots(), "place-fig-tree-bay").find((x) => x.kind === "bus")!;
+    expect(bus.near).toBeTruthy();
+    expect(bus.near!.d).toBeLessThan(1);
+    expect(bus.near!.s.rt?.length).toBeGreaterThan(0);
+  });
+});

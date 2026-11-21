@@ -69,7 +69,7 @@ export interface Poi {
 }
 
 /** Everything that can sit on the "what's around" map. */
-export type AroundKind = PoiKind | "eat" | "night" | "stay";
+export type AroundKind = PoiKind | "eat" | "night" | "stay" | "bus";
 export interface Spot {
   key: string;
   n: string;
@@ -79,6 +79,20 @@ export interface Spot {
   sub: string;
   approx?: boolean;
   dir?: string;
+  /** bus stops: route numbers that call here */
+  rt?: string[];
+}
+
+export interface BusRoute {
+  r: string; a: string; op: string; l: string; gl: string; air: string | null; web: string | null; to: string[]; from: string[];
+}
+export interface BusStop { i: string; n: string; g: string; ll: LL; rk: string[] }
+export interface AirportService {
+  air: string; op: string; type: string; route: string; num: string | null; change: string; board: string; web: string | null; book: string | null; ph: string;
+}
+export interface BusData {
+  routes: Record<string, BusRoute>; stops: BusStop[]; ops: Record<string, { web: string | null; ph: string }>;
+  airport: AirportService[]; source: { t: string; u: string; date: string };
 }
 
 export interface Photo { u: string; a: string; l: string; p?: string; t: string }

@@ -3,8 +3,9 @@ import content from "@data/content.json";
 import businessesJson from "@data/businesses.json";
 import poisJson from "@data/pois.json";
 import imagesJson from "@data/images.json";
+import busJson from "@data/bus.json";
 import type {
-  Business, Destination, DestId, Experience, Interest, LL, Maker, Photo, Place, Poi, Spot,
+  BusData, BusRoute, Business, Destination, DestId, Experience, Interest, LL, Maker, Photo, Place, Poi, Spot,
 } from "./types";
 import { stars } from "./text";
 import { directionsTo, km, searchMaps } from "./geo";
@@ -27,6 +28,13 @@ export const MAKERS: Maker[] = Object.entries(raw.BUSINESSES).map(([slug, b]) =>
 export const BUSINESSES = businessesJson as unknown as Business[];
 export const POIS = poisJson as unknown as Poi[];
 export const IMAGES = imagesJson as unknown as Record<string, Photo>;
+export const BUS = busJson as unknown as BusData;
+const busStopBy = new Map(BUS.stops.map((s) => [s.i, s]));
+export const getBusStop = (id: string) => busStopBy.get(id);
+export const busRoutesAt = (keys: string[]): BusRoute[] =>
+  keys.map((k) => BUS.routes[k]).filter(Boolean).sort((a, b) => a.r.localeCompare(b.r, "en", { numeric: true }));
+export const busStopHref = (id: string) => `/buses/stop/${id}`;
+const routeList = (keys: string[]) => [...new Set(busRoutesAt(keys).map((r) => r.r))];
 
 /** Our hand-written beach pages absorb the matching official beach record (within 350 m). */
 export const PLACE_BEACH = new Map<string, Poi>();
@@ -123,6 +131,10 @@ export function spots(): Spot[] {
     if (!b.ll) continue;
     const k = isStay(b) ? "stay" : b.g === "night" ? "night" : "eat";
     out.push({ key: b.i, n: b.n, k, ll: b.ll, href: listingHref(b.i), sub: [b.l, stars(b.c)].filter(Boolean).join(" · ") });
+  }
+  for (const s of BUS.stops) {
+    const rt = routeList(s.rk);
+    out.push({ key: s.i, n: s.n, k: "bus", ll: s.ll, href: busStopHref(s.i), sub: `Routes ${rt.join(", ")}`, rt });
   }
   spotsCache = out;
   return out;

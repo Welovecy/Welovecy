@@ -12,13 +12,17 @@ export const KINDS: Record<AroundKind, KindMeta> = {
   pharmacy: { n: "Pharmacies", one: "Pharmacy", c: "var(--k-pharm)", l: "+" },
   health: { n: "Doctors & clinics", one: "Medical", c: "var(--k-health)", l: "M" },
   market: { n: "Supermarkets", one: "Supermarket", c: "var(--k-market)", l: "S" },
+  bus: { n: "Bus stops", one: "Bus stop", c: "var(--k-bus)", l: "BUS" },
 };
 
 export const AROUND_TABS: [AroundKind, string][] = [
   ["beach", "Beaches"], ["sight", "Sights"], ["eat", "Eat & drink"], ["night", "Bars & nightlife"],
-  ["family", "Family"], ["pharmacy", "Pharmacies"], ["health", "Doctors"], ["market", "Supermarkets"], ["stay", "Hotels"],
+  ["family", "Family"], ["market", "Supermarkets"], ["pharmacy", "Pharmacies"], ["bus", "Buses"], ["health", "Doctors"], ["stay", "Hotels"],
 ];
 
-/** The four things a guest looks for first. Further than this, we say it isn't mapped yet. */
-export const ESSENTIAL_KINDS: AroundKind[] = ["pharmacy", "health", "market", "beach"];
+/** What a guest looks for first, in this order. Further than the cap, we say it isn't mapped yet. */
+export const ESSENTIAL_KINDS: AroundKind[] = ["beach", "eat", "market", "pharmacy", "bus"];
+export const ESSENTIAL_LABEL: Partial<Record<AroundKind, string>> = {
+  beach: "Nearest beach", eat: "Nearest restaurant", market: "Nearest supermarket", pharmacy: "Nearest pharmacy", bus: "Nearest bus stop",
+};
 export const ESSENTIAL_CAP_KM = 15;
