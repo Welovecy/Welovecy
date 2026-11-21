@@ -3,6 +3,7 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { RegisterSW } from "@/components/RegisterSW";
+import { TabBar } from "@/components/TabBar";
 import { THEME_SCRIPT } from "@/components/ThemeToggle";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 
@@ -42,6 +43,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main id="main" tabIndex={-1}>{children}</main>
         <Footer />
+        <TabBar />
         <RegisterSW />
       </body>
     </html>

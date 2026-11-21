@@ -37,8 +37,8 @@ export function Header() {
         </nav>
         <div className="tools">
           <ThemeToggle />
-          <Link className="iconbtn" href="/around" aria-label="Around your hotel" title="Around your hotel"><PinIcon /></Link>
-          <Link className="iconbtn" href="/search" aria-label="Search" title="Search"><SearchIcon /></Link>
+          <Link className="iconbtn hide-sm" href="/around" aria-label="Around your hotel" title="Around your hotel"><PinIcon /></Link>
+          <Link className="iconbtn hide-sm" href="/search" aria-label="Search" title="Search"><SearchIcon /></Link>
           <button
             className="iconbtn menubtn" type="button" aria-expanded={open} aria-controls="sheet"
             aria-label={open ? "Close menu" : "Open menu"} onClick={() => setOpen((o) => !o)}
