@@ -1,0 +1,1556 @@
+[
+[
+0.0006733704581459337,
+"health",
+"Larnaca General Hospital",
+"Larnaca General Hospital",
+"larnaca"
+],
+[
+0.0012535093895930211,
+"health",
+"Limassol General Hospital",
+"Limassol General Hospital",
+"limassol"
+],
+[
+0.0019419649048297008,
+"stay",
+"Eleana",
+"Eleana Hotel",
+"ayianapa"
+],
+[
+0.00233856914424156,
+"eat",
+"The Greenery Snack Bar",
+"Greenery",
+"protaras"
+],
+[
+0.0029315485366434957,
+"eat",
+"O Dikos Mas Mezes",
+"O Dikos Mas Mezes",
+"protaras"
+],
+[
+0.003003644996032618,
+"eat",
+"Karousos Beach Restaurant",
+"Karousos Beach Restaurant",
+"ayianapa"
+],
+[
+0.0031042037324780425,
+"eat",
+"Red Indian Restaurant",
+"Red Indian Restaurant",
+"protaras"
+],
+[
+0.0031596999580532025,
+"eat",
+"Oscar Steak House & Restaurant",
+"Oscar Restaurant",
+"protaras"
+],
+[
+0.003345541139381453,
+"eat",
+"Diamonds Showbar Restaurant",
+"Diamonds Showbar - Cabaret & Live Music Venue",
+"protaras"
+],
+[
+0.0036577671861712344,
+"eat",
+"Super ''s'' Restaurant",
+"Super S Restaurant",
+"protaras"
+],
+[
+0.003741055702286154,
+"eat",
+"Nameless Restaurant",
+"Nameless Restaurant",
+"protaras"
+],
+[
+0.003755173645490329,
+"stay",
+"Corfu",
+"Corfu Hotel",
+"ayianapa"
+],
+[
+0.0038969752128262484,
+"eat",
+"Red Ruby Asian Restaurant",
+"Red Ruby Asian Restaurant",
+"ayianapa"
+],
+[
+0.004051882104513392,
+"stay",
+"Margadina",
+"Margadina Lounge Hotel",
+"ayianapa"
+],
+[
+0.004172727507536869,
+"eat",
+"Nissi Bay Restaurant ( Agia Napa )",
+"Nissi Bay Beach Bar",
+"ayianapa"
+],
+[
+0.004175437831451166,
+"stay",
+"Vassos Nissi Plage",
+"Vassos Nissi Plage Hotel",
+"ayianapa"
+],
+[
+0.00443285137236872,
+"eat",
+"Burger King Ayia Napa",
+"Burger King",
+"ayianapa"
+],
+[
+0.005011224399643519,
+"eat",
+"Hippocampus Lounge Restaurant ( Protaras )",
+"Hippocampus Lounge Restaurant",
+"protaras"
+],
+[
+0.0050707883644974866,
+"eat",
+"Spectrum Snack Bar",
+"Spectrum Bar",
+"protaras"
+],
+[
+0.005100444532889205,
+"stay",
+"Napa Jay",
+"Napa Jay Hotel",
+"ayianapa"
+],
+[
+0.0052445483305649096,
+"eat",
+"Meraki Restaurant",
+"Meraki Tavern",
+"protaras"
+],
+[
+0.0053159887567823,
+"stay",
+"Nelia",
+"Nelia Beach Hotel and Spa",
+"ayianapa"
+],
+[
+0.005637987762274029,
+"eat",
+"GONZO BAR n ' GRILL",
+"Gonzo",
+"protaras"
+],
+[
+0.005746472809910465,
+"eat",
+"Erato Restaurant",
+"Erato Restaurant and Steakhouse",
+"protaras"
+],
+[
+0.005836291357966761,
+"eat",
+"L' Italiano Restaurant",
+"L’Italiano Restaurant",
+"ayianapa"
+],
+[
+0.0065706077233019,
+"stay",
+"A.p. Maouris",
+"Maouris Hotel Apartments",
+"protaras"
+],
+[
+0.007099126055502475,
+"eat",
+"Pirates Inn Restaurant ( Agia Napa )",
+"Pirates Inn Ayia Napa",
+"ayianapa"
+],
+[
+0.007100156870146833,
+"eat",
+"Nautilus Restaurant & Bar",
+"Nautilus Inn",
+"protaras"
+],
+[
+0.007205517058797749,
+"stay",
+"Crystal Springs Beach",
+"Crystal Springs Beach Hotel",
+"protaras"
+],
+[
+0.007317027276300681,
+"stay",
+"Anais Bay",
+"Anais Bay Hotel",
+"protaras"
+],
+[
+0.007477285720266354,
+"eat",
+"Love Boat",
+"Love Boat Bar",
+"protaras"
+],
+[
+0.007651214154149375,
+"eat",
+"Daily Dose",
+"Daily Dose Paralimni",
+"protaras"
+],
+[
+0.008130608687208668,
+"eat",
+"Irresistible Snack Bar",
+"Irresistible Bar",
+"protaras"
+],
+[
+0.008224530866912484,
+"stay",
+"Vrissiana Beach",
+"Vrissiana Beach Hotel",
+"protaras"
+],
+[
+0.008310487945428905,
+"eat",
+"Sesoula Kalamaki Restaurant",
+"Sesoula Kalamaki",
+"ayianapa"
+],
+[
+0.008378527660492942,
+"eat",
+"To Agrotikon Restaurant",
+"Agrotikon",
+"ayianapa"
+],
+[
+0.008499294786979453,
+"eat",
+"Asador Grill",
+"Asador Restaurant",
+"ayianapa"
+],
+[
+0.008514347667860968,
+"eat",
+"Java Lounge Restaurant",
+"Java Lounge Cyprus",
+"protaras"
+],
+[
+0.008654351789762232,
+"stay",
+"Green Bungalows",
+"Green Bungalows Hotel Apartments",
+"ayianapa"
+],
+[
+0.008735694557566736,
+"eat",
+"Faliros Restaurant",
+"Faliros restaurant",
+"protaras"
+],
+[
+0.008776131360955302,
+"eat",
+"Knight's Pub & Restaurant",
+"Knight's Pub",
+"protaras"
+],
+[
+0.008828560081987574,
+"eat",
+"Blueberries Restaurant",
+"Blueberries restaurant Ayia Napa",
+"ayianapa"
+],
+[
+0.008876780546026294,
+"eat",
+"Station Pub",
+"Station Bar",
+"protaras"
+],
+[
+0.008969140790962218,
+"eat",
+"Hungry Horse Restaurant",
+"Hungry Horse Taverna",
+"ayianapa"
+],
+[
+0.009063737005831875,
+"eat",
+"The Loop",
+"The Loop",
+"protaras"
+],
+[
+0.009119804201842326,
+"eat",
+"Odin Restaurant",
+"Odin Restaurant",
+"ayianapa"
+],
+[
+0.009254704843149069,
+"stay",
+"Tasia Maris Oasis",
+"Tasia Maris Oasis",
+"ayianapa"
+],
+[
+0.009693875156022526,
+"eat",
+"Al Ritrovo Italian Touch Restaurant & Bar",
+"Al Ritrovo Italian Restaurant",
+"ayianapa"
+],
+[
+0.00980320991532496,
+"eat",
+"Just Italian Restaurant",
+"Just Italian Ristorante",
+"protaras"
+],
+[
+0.00981635444430905,
+"eat",
+"La Pas Snack Bar",
+"La-pas Cocktail Bar",
+"protaras"
+],
+[
+0.009956538810969053,
+"eat",
+"Stamna Tavern ( Agia Napa )",
+"Stamna Tavern",
+"ayianapa"
+],
+[
+0.01010105198278917,
+"stay",
+"Okeanos Beach",
+"Okeanos Beach Boutique Hotel",
+"ayianapa"
+],
+[
+0.010223636364063895,
+"eat",
+"Black & White Disco",
+"Club Black N' White",
+"ayianapa"
+],
+[
+0.010239022637426742,
+"eat",
+"Mr Cod Restaurant ( Mpakaliaros )",
+"Mr Cod",
+"protaras"
+],
+[
+0.010818714215737475,
+"stay",
+"Nissiana",
+"Nissiana Hotel",
+"ayianapa"
+],
+[
+0.010818714215737475,
+"stay",
+"Nissiana",
+"Nissiana Hotel",
+"ayianapa"
+],
+[
+0.01084116436659225,
+"eat",
+"Jungle Mania Restaurant",
+"Jungle Mania Restaurant",
+"ayianapa"
+],
+[
+0.010919363721277766,
+"stay",
+"Tetyk",
+"Tetyk Hotel and Suites",
+"protaras"
+],
+[
+0.010922111385578302,
+"eat",
+"Pinia Restaurant",
+"Pinia Restaurant",
+"protaras"
+],
+[
+0.010929819944249375,
+"stay",
+"Antigoni",
+"Antigoni Hotel",
+"protaras"
+],
+[
+0.01098687673676036,
+"eat",
+"Poseidonio Restaurant ( Protaras )",
+"Poseidonio Tavern",
+"protaras"
+],
+[
+0.011032395305213563,
+"eat",
+"Acropolis Restaurant ( Agia Napa )",
+"Acropolis Restaurant",
+"ayianapa"
+],
+[
+0.011064560582171583,
+"eat",
+"The Bell Inn Snack Bar",
+"The bell bar",
+"ayianapa"
+],
+[
+0.011064560582171583,
+"eat",
+"The Bell Lounge Restaurant",
+"The bell bar",
+"ayianapa"
+],
+[
+0.011099848230203983,
+"stay",
+"Leonardo Crystal Cove",
+"Leonardo Crystal Cove Hotel and Spa by the Sea",
+"protaras"
+],
+[
+0.01110540980449176,
+"eat",
+"Fools & Horses Pub - Snack Bar",
+"Fools And Horses Pub",
+"protaras"
+],
+[
+0.011151488534326369,
+"stay",
+"Lantiana Gardens",
+"Lantiana Gardens",
+"protaras"
+],
+[
+0.011221560997451604,
+"eat",
+"Midtown Bistro",
+"Midtown Bistro",
+"protaras"
+],
+[
+0.011267655695446343,
+"stay",
+"Sweet Memories",
+"Sweet Memories Hotel",
+"protaras"
+],
+[
+0.011557264937744121,
+"stay",
+"Mandali",
+"Mandali Hotel",
+"protaras"
+],
+[
+0.011558443726358555,
+"stay",
+"Anthea",
+"Anthea Hotel Apts",
+"ayianapa"
+],
+[
+0.011707648123667199,
+"eat",
+"Levanta Grill Steak House",
+"Levanta",
+"ayianapa"
+],
+[
+0.011745172049444898,
+"eat",
+"Dione Restaurant",
+"Dione Restaurant",
+"ayianapa"
+],
+[
+0.011751745698909393,
+"eat",
+"Ripples Restaurant",
+"Ripples",
+"protaras"
+],
+[
+0.011861387614520737,
+"eat",
+"Square Cafe ( Agia Napa )",
+"The Square Bar",
+"ayianapa"
+],
+[
+0.011960445881812309,
+"eat",
+"Senior Frog's Inn Mexican Cafe",
+"Senior Frog's",
+"ayianapa"
+],
+[
+0.012475768019024187,
+"eat",
+"Phoenix Restaurant",
+"Phoenix Bar and Restaurant",
+"protaras"
+],
+[
+0.012675737631689856,
+"eat",
+"Queen Vic Inn ( Agia Napa )",
+"The Queen Vic",
+"ayianapa"
+],
+[
+0.012728582246376827,
+"stay",
+"Nissi Park",
+"Nissi Park Hotel",
+"ayianapa"
+],
+[
+0.01273894384932245,
+"stay",
+"Marina",
+"Marina Hotel",
+"ayianapa"
+],
+[
+0.012788713526857096,
+"eat",
+"The Moody Cow Restaurant",
+"The Moody Cow",
+"protaras"
+],
+[
+0.012970701376211705,
+"eat",
+"Senso Restaurant - Snack Bar",
+"Senso Cafe",
+"protaras"
+],
+[
+0.013011082203397533,
+"stay",
+"Tasia Maris Sands",
+"Tasia Maris Sands Hotel",
+"ayianapa"
+],
+[
+0.013050781685159784,
+"stay",
+"Toxotis",
+"Toxotis Hotel",
+"protaras"
+],
+[
+0.013117966551803856,
+"eat",
+"To Limani Tis Pinias",
+"Λιμάνι Της Πινιας",
+"protaras"
+],
+[
+0.013149064377375208,
+"stay",
+"Eligonia",
+"Eligonia Hotel Apartments",
+"ayianapa"
+],
+[
+0.013386813732446491,
+"eat",
+"Siko Seaside Restaurant",
+"Siko Seaside",
+"protaras"
+],
+[
+0.013434462556063856,
+"eat",
+"Gardens Restaurant ( Agia Napa )",
+"Gardens Restaurant",
+"ayianapa"
+],
+[
+0.013447265379047828,
+"eat",
+"Fiji Polynesian Restaurant",
+"Fiji Polynesian Cuisine",
+"ayianapa"
+],
+[
+0.013531858314588162,
+"stay",
+"The Vrissaki Beach",
+"Vrissaki Hotel Apartments",
+"protaras"
+],
+[
+0.013531858314588162,
+"stay",
+"Vrissaki",
+"Vrissaki Hotel Apartments",
+"protaras"
+],
+[
+0.013585799943762487,
+"eat",
+"Jello Cafe Restaurant",
+"Jello Cafe Restaurant",
+"ayianapa"
+],
+[
+0.013587798026510821,
+"eat",
+"Liquid Cafe",
+"The Liquid Cafe N Bar",
+"ayianapa"
+],
+[
+0.013596341569828108,
+"eat",
+"Tipsy Turtle",
+"Tipsy o'Turtle Turtle",
+"protaras"
+],
+[
+0.013620022287708774,
+"eat",
+"Cottage House Snack Bar",
+"Cottage House Pub",
+"protaras"
+],
+[
+0.014056419220508721,
+"eat",
+"Kimon Restaurant",
+"Kimon Bar",
+"ayianapa"
+],
+[
+0.014128454724186494,
+"eat",
+"Il Boccon Divino",
+"Il Boccon Divino",
+"protaras"
+],
+[
+0.014231169100662756,
+"eat",
+"Spartiatis Restaurant",
+"Spartiatis",
+"protaras"
+],
+[
+0.014305298134424847,
+"stay",
+"Marlita Beach",
+"Marlita Beach Hotel",
+"protaras"
+],
+[
+0.01442310779597952,
+"eat",
+"Hard Rock Cafe Ayia Napa",
+"Hard Rock Cafe Ayia Napa",
+"ayianapa"
+],
+[
+0.01447295132037844,
+"eat",
+"Loukiana Bakers Arms",
+"The Bakers Arms - Cyprus",
+"protaras"
+],
+[
+0.014519469717823311,
+"stay",
+"Cavo Zoe Seaside",
+"Cavo Zoe Seaside Hotel",
+"protaras"
+],
+[
+0.01463889332539693,
+"stay",
+"Kaos",
+"Kaos Hotel Apartments",
+"ayianapa"
+],
+[
+0.014682294741953195,
+"stay",
+"Flora",
+"Flora Hotel Apartments",
+"protaras"
+],
+[
+0.014768175347571523,
+"eat",
+"Moo - Moo Tavern",
+"Moo Moo",
+"ayianapa"
+],
+[
+0.01484905113569904,
+"stay",
+"Flora-Maria",
+"Flora Maria Hotel",
+"ayianapa"
+],
+[
+0.014945716789548247,
+"eat",
+"Koursaros Rock Live Restaurant ( Pernera )",
+"Koursaros Rock Bar",
+"protaras"
+],
+[
+0.015182018562970164,
+"eat",
+"Sacramento Restaurant",
+"Sacramento Restaurant",
+"ayianapa"
+],
+[
+0.015239085933851423,
+"eat",
+"Evinos Restaurant",
+"Evinos Taverna",
+"ayianapa"
+],
+[
+0.01538726913315829,
+"eat",
+"Malmia Cafe",
+"Malmia",
+"protaras"
+],
+[
+0.015437321054704876,
+"stay",
+"Melissi",
+"Melissi Beach Hotel & Spa",
+"ayianapa"
+],
+[
+0.015437321054704876,
+"stay",
+"Melissi Beach",
+"Melissi Beach Hotel & Spa",
+"ayianapa"
+],
+[
+0.015697297070297135,
+"eat",
+"Crispy Fried Chicken",
+"Crispy Fried Chicken & Pizza",
+"protaras"
+],
+[
+0.01580242100395457,
+"eat",
+"Erofili Restaurant - Bar",
+"Erofili",
+"ayianapa"
+],
+[
+0.015884628220276423,
+"eat",
+"Marquis de Napa Restaurant",
+"Marquis De Napa",
+"ayianapa"
+],
+[
+0.01621178587388448,
+"eat",
+"Il Basilico Italian Restaurant",
+"Il Basilico",
+"protaras"
+],
+[
+0.016369434119706486,
+"stay",
+"Grecian Sands",
+"Grecian Sands Hotel",
+"ayianapa"
+],
+[
+0.016556447645756367,
+"eat",
+"Magic Sandy Bay Restaurant",
+"Magic Sandy bay Restaurant",
+"ayianapa"
+],
+[
+0.01662698574436732,
+"eat",
+"Clarabel Restaurant",
+"Clarabel",
+"ayianapa"
+],
+[
+0.016916941410287586,
+"eat",
+"The Grand Slam Inn",
+"The Grand Slam Inn",
+"protaras"
+],
+[
+0.017087909975125975,
+"stay",
+"Sunrise Gardens",
+"Sunrise Gardens",
+"protaras"
+],
+[
+0.017087909975125975,
+"stay",
+"Sunrise Gardens",
+"Sunrise Gardens",
+"protaras"
+],
+[
+0.017115470871531743,
+"eat",
+"Karas Village Tavern",
+"Karas Village Tavern",
+"protaras"
+],
+[
+0.01756150737267743,
+"stay",
+"Silver Sands Beach",
+"Silver Sands Beach Hotel",
+"protaras"
+],
+[
+0.017693269384920395,
+"eat",
+"Zafiri Restaurant",
+"Zafiri",
+"ayianapa"
+],
+[
+0.01779991770804892,
+"stay",
+"Flokkas",
+"Flokkas Hotel Apartments",
+"protaras"
+],
+[
+0.01780972494077117,
+"stay",
+"Nelia Gardens",
+"Nelia Gardens",
+"ayianapa"
+],
+[
+0.018187734560818073,
+"eat",
+"Yo Thai Asian Restaurant",
+"Yo Thai Asian Fusion",
+"ayianapa"
+],
+[
+0.01855992070930405,
+"stay",
+"Stamatia",
+"Stamatia Hotel",
+"ayianapa"
+],
+[
+0.018680550699774753,
+"eat",
+"Rasoi Indian Cuisine Restaurant",
+"Rasoi Indian Cuisine",
+"ayianapa"
+],
+[
+0.01874402350443577,
+"eat",
+"Mojito Bar & Grill Restaurant",
+"Mojito Restaurant",
+"protaras"
+],
+[
+0.019171548437875222,
+"stay",
+"Cavo Maris Beach",
+"Cavo Maris Beach Hotel & Suites",
+"protaras"
+],
+[
+0.019322796253790776,
+"stay",
+"Mimosa Beach",
+"Mimosa Beach Hotel",
+"protaras"
+],
+[
+0.019380879785154008,
+"stay",
+"Faros",
+"Faros Hotel Ayia Napa",
+"ayianapa"
+],
+[
+0.019590611341226485,
+"stay",
+"River Rock",
+"River Rock Hotel",
+"ayianapa"
+],
+[
+0.019685659380207415,
+"eat",
+"Taipei Town Chinese Restaurant",
+"Taipei Town",
+"ayianapa"
+],
+[
+0.020009109498560492,
+"stay",
+"Napa Prince",
+"Napa Prince Hotel Apartments",
+"ayianapa"
+],
+[
+0.020266950288469702,
+"eat",
+"Speedy Gonzales Mexican Restaurant",
+"Speedy Gonzales Mexican",
+"protaras"
+],
+[
+0.020447013903580006,
+"eat",
+"Second Cup Ayia Napa",
+"Second Cup",
+"ayianapa"
+],
+[
+0.02061177192015238,
+"stay",
+"Androthea",
+"Androthea Hotel",
+"ayianapa"
+],
+[
+0.020743722319296266,
+"stay",
+"Christofinia",
+"Christofinia Hotel",
+"ayianapa"
+],
+[
+0.02079799403879227,
+"stay",
+"Odessa",
+"Odessa Beach Hotel",
+"protaras"
+],
+[
+0.021020444806259798,
+"stay",
+"Anesis",
+"Anesis Hotel",
+"ayianapa"
+],
+[
+0.02118290218913566,
+"eat",
+"Los Hermanos Mexican Restaurant",
+"Los Hermanos Mexican",
+"protaras"
+],
+[
+0.02139584422711425,
+"eat",
+"Ocean Basket (ayia Napa)",
+"Ocean Basket Agia Napa",
+"ayianapa"
+],
+[
+0.02154020742437044,
+"eat",
+"Blue Spice Restaurant",
+"Blue Spice Restaurant",
+"protaras"
+],
+[
+0.022183830049173073,
+"eat",
+"Pig & Whistle Snack Bar",
+"Pig N Whistle Bar and Restaurant",
+"protaras"
+],
+[
+0.02219617822040833,
+"stay",
+"Florence",
+"Florence Hotel Apts",
+"ayianapa"
+],
+[
+0.022449807347124952,
+"stay",
+"Sunrise Oasis",
+"Sunrise Oasis Hotel",
+"protaras"
+],
+[
+0.022456142540493673,
+"eat",
+"Kafkaros Restaurant",
+"Kafkaros Tavern",
+"protaras"
+],
+[
+0.022589522630895937,
+"stay",
+"Sun N Blue",
+"Gaia Sun N Blue Hotel",
+"ayianapa"
+],
+[
+0.022644237272911958,
+"stay",
+"Constantinos the Great Beach",
+"Constantinos The Great Beach Hotel",
+"protaras"
+],
+[
+0.022686178659801045,
+"eat",
+"Raj Indian Restaurant",
+"The Raj Indian Restaurant",
+"protaras"
+],
+[
+0.022709301380782018,
+"stay",
+"The Golden Star Beach",
+"The Golden Star Hotel",
+"protaras"
+],
+[
+0.022775892446628684,
+"stay",
+"Euronapa",
+"Euronapa Hotel Apartments",
+"ayianapa"
+],
+[
+0.02290375244621323,
+"stay",
+"Grecian Bay",
+"Grecian Bay Hotel",
+"ayianapa"
+],
+[
+0.02298091434844843,
+"stay",
+"Konnos Bay",
+"Konnos BAY HOTEL APTS",
+"ayianapa"
+],
+[
+0.023184297486537254,
+"eat",
+"Abacus Restaurant",
+"Abacus Restaurant and Lounge Bar",
+"ayianapa"
+],
+[
+0.023348020118139974,
+"eat",
+"Olive Tree Restaurant ( Ayia Napa )",
+"The Olive Tree",
+"ayianapa"
+],
+[
+0.023542855428628995,
+"eat",
+"Titanic Pub ( Agia Napa )",
+"Titanic Club Ayia Napa",
+"ayianapa"
+],
+[
+0.023822789675128138,
+"eat",
+"Castle Club ( Agia Napa )",
+"The Castle Club",
+"ayianapa"
+],
+[
+0.02386201859143557,
+"stay",
+"Adams Beach",
+"Adams Beach Hotel",
+"ayianapa"
+],
+[
+0.02394184573373076,
+"eat",
+"Cj's Pool Bar",
+"Cj's Pool Bar",
+"protaras"
+],
+[
+0.0240676113769405,
+"stay",
+"Protaras Plaza",
+"Protaras Plaza Hotel",
+"protaras"
+],
+[
+0.025381126334853288,
+"eat",
+"El Chico Mexican Restaurant",
+"El Chico Mexican Restaurant",
+"protaras"
+],
+[
+0.0264082444793373,
+"stay",
+"Melini",
+"Melini Hotel Suites",
+"protaras"
+],
+[
+0.027009781837120675,
+"stay",
+"Flamingo Paradise",
+"Flamingo Paradise Beach Hotel",
+"protaras"
+],
+[
+0.027146965005151052,
+"stay",
+"Petrosana",
+"Petrosana Hotel Café",
+"ayianapa"
+],
+[
+0.02719121913042273,
+"stay",
+"Paloma",
+"Paloma Hotel Apartments",
+"ayianapa"
+],
+[
+0.02800635770304558,
+"stay",
+"Papouis Protaras",
+"Papouis Protaras Hotel",
+"protaras"
+],
+[
+0.028115407984391768,
+"stay",
+"Kapetanios Bay",
+"Kapetanios Bay Hotel",
+"protaras"
+],
+[
+0.028143949521830244,
+"stay",
+"Sunprime Protaras Beach",
+"Sunprime Protaras Beach",
+"protaras"
+],
+[
+0.028308953192923075,
+"stay",
+"Infinity Blu",
+"Infinity Blu-Designed for adults",
+"protaras"
+],
+[
+0.028670908500933557,
+"stay",
+"The King Jason Protaras",
+"The King Jason Hotel",
+"protaras"
+],
+[
+0.029181050873028355,
+"stay",
+"Evalena",
+"Evalena Beach Hotel",
+"protaras"
+],
+[
+0.029691807734818606,
+"stay",
+"Alexia",
+"Alexia Hotel Apartments",
+"ayianapa"
+],
+[
+0.03047408311565171,
+"stay",
+"Grecian Park",
+"Grecian Park Hotel",
+"protaras"
+],
+[
+0.030737506387025156,
+"stay",
+"The Blue Ivy",
+"The Blue Ivy Hotel and Suites",
+"protaras"
+],
+[
+0.03157364753109524,
+"stay",
+"Iliada Beach",
+"Iliada Beach Hotel",
+"protaras"
+],
+[
+0.03204278167132921,
+"stay",
+"Chrystalla",
+"Chrystalla Hotel",
+"protaras"
+],
+[
+0.03248960028370015,
+"eat",
+"Velissima",
+"Velissima Lounge Bar & Club",
+"protaras"
+],
+[
+0.033215818350347974,
+"stay",
+"Napa Mermaid",
+"Napa Mermaid Hotel and Suites",
+"ayianapa"
+],
+[
+0.03326831935959152,
+"eat",
+"Green Garden Restaurant ( Vrysoulles )",
+"Green Garden Restaurant",
+"protaras"
+],
+[
+0.03445872415442462,
+"stay",
+"At Herbal",
+"At Herbal Hotel",
+"protaras"
+],
+[
+0.03614244643046854,
+"stay",
+"Tofinis",
+"Tofinis Hotel",
+"ayianapa"
+],
+[
+0.036234788613776055,
+"stay",
+"Liquid",
+"Liquid Hotel Apartments",
+"ayianapa"
+],
+[
+0.03679399958846656,
+"stay",
+"Alion Beach",
+"Alion Beach Hotel",
+"ayianapa"
+],
+[
+0.03758584661008262,
+"eat",
+"Wan Chai Chinese Restaurant",
+"Wan-Chai Chinese Restaurant",
+"protaras"
+],
+[
+0.0409841824601891,
+"health",
+"Nicosia General Hospital",
+"Nicosia General Hospital",
+"nicosia"
+],
+[
+0.04193340752256365,
+"stay",
+"Anonymous Beach",
+"Anonymous Beach Hotel",
+"ayianapa"
+],
+[
+0.04202915044372412,
+"health",
+"Paphos General Hospital",
+"Paphos General Hospital",
+"paphos"
+],
+[
+0.042264725927067336,
+"stay",
+"Debbiexenia",
+"DebbieXenia Hotel Apartments",
+"protaras"
+],
+[
+0.04264619072671917,
+"stay",
+"Atlantica Aqua Blue",
+"Atlantica Aqua Blue",
+"protaras"
+],
+[
+0.043104357137109264,
+"stay",
+"Florida",
+"Florida Hotel Agia Napa",
+"ayianapa"
+],
+[
+0.04329804640735866,
+"stay",
+"Asterias Beach",
+"Asterias Beach Hotel",
+"ayianapa"
+],
+[
+0.04426025196531262,
+"eat",
+"Mambo's Bar & Restaurant",
+"Mambo's Bar and Restaurant",
+"protaras"
+],
+[
+0.046162225997935936,
+"stay",
+"Louis Althea Beach",
+"Louis Althea Beach",
+"protaras"
+],
+[
+0.04664897305374803,
+"eat",
+"PIZZA HUT ( AGIA NAPA No. 2 )",
+"Pizza Hut",
+"ayianapa"
+],
+[
+0.04664897305374803,
+"eat",
+"Pizza Hut Snack Bar",
+"Pizza Hut",
+"ayianapa"
+],
+[
+0.04715615384954497,
+"eat",
+"Kaliva on the Beach",
+"Kaliva On The Beach",
+"ayianapa"
+],
+[
+0.04762248878155514,
+"stay",
+"Mon Repos",
+"Mon Repos Hotel",
+"ayianapa"
+],
+[
+0.0477316722358669,
+"stay",
+"St. Elias Village",
+"St.Elias Resort",
+"protaras"
+],
+[
+0.04926219591318995,
+"stay",
+"Melpo-Antia",
+"Melpo Antia Hotel and Suites",
+"ayianapa"
+],
+[
+0.0520166496678533,
+"stay",
+"Sunwing Sandy Bay Village",
+"Sunwing Sandy Bay Beach",
+"ayianapa"
+],
+[
+0.05417901642006457,
+"stay",
+"Papantonia",
+"Papantonia Hotel Apts",
+"protaras"
+],
+[
+0.05626733876156623,
+"stay",
+"Capo Bay",
+"Capo Bay Hotel",
+"protaras"
+],
+[
+0.05833056586170264,
+"stay",
+"Napa Plaza",
+"Napa Plaza Hotel",
+"ayianapa"
+],
+[
+0.06895571584927351,
+"stay",
+"Olympic Lagoon Resort",
+"Olympic Lagoon Resort Agia Napa",
+"ayianapa"
+],
+[
+0.07569424276999072,
+"stay",
+"Atlantica Aeneas",
+"Atlantica Aeneas Resort",
+"ayianapa"
+],
+[
+0.07941993448524912,
+"stay",
+"New Famagusta",
+"New Famagusta Hotel",
+"ayianapa"
+],
+[
+0.08365472364474061,
+"stay",
+"Rising Star Beach",
+"Rising Star Hotel",
+"protaras"
+],
+[
+0.0850055993971728,
+"eat",
+"Mexican Ranch Bar - Snacks",
+"Mexican ranch",
+"protaras"
+],
+[
+0.08886138808199166,
+"stay",
+"Golden Coast",
+"Golden Coast Beach Hotel",
+"protaras"
+],
+[
+0.09366621894949327,
+"stay",
+"Simos Magic",
+"Simos Magic Beach Hotel Apartments",
+"ayianapa"
+],
+[
+0.12563975797034932,
+"eat",
+"New York Cafe",
+"New York Cafe",
+"ayianapa"
+],
+[
+0.14280446997626542,
+"health",
+"Engomi Health Centre",
+"Engomi Health Centre",
+"nicosia"
+],
+[
+0.24957573019507323,
+"pharmacy",
+"Πετρούλα Γερολέμου",
+"Φαρμακείο Πετρούλα Γερολέμου - Pharmacy Petroula Yerolemou",
+"protaras"
+],
+[
+0.28544205416876206,
+"eat",
+"Exochi Snack Bar",
+"Exochi Tavern",
+"protaras"
+],
+[
+1.1633048152300445,
+"eat",
+"Polyxenia Isaak Restaurant - Cafe - Bar",
+"Polyxenia Isaak Restaurant",
+"protaras"
+],
+[
+1.6079879401496906,
+"stay",
+"Bohemian Gardens",
+"Bohemian Gardens Hotel",
+"protaras"
+],
+[
+4.1556152401707775,
+"stay",
+"Windmills",
+"Windmills Complex",
+"protaras"
+],
+[
+4.475177182988213,
+"eat",
+"Black Bull",
+"The Black Bull Burger and Grill",
+"protaras"
+]
+]

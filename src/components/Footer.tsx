@@ -33,7 +33,8 @@ export function Footer() {
         <Link href="/practical#emergency">All help numbers</Link>
         <span className="muted">
           Map data ©{" "}
-          <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a>
+          <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a>, places from{" "}
+          <a href="https://docs.overturemaps.org/attribution/" target="_blank" rel="noopener noreferrer">Overture Maps Foundation</a>
         </span>
         <Link href="/credits">Photo credits</Link>
       </div>

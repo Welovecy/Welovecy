@@ -55,6 +55,8 @@ export interface Business {
   i: string; n: string; g: BizGroup; l: string; tw: string; d: DestId;
   a?: string; p?: string; e?: string; w?: string; c?: string;
   r?: number; b?: number; s?: string; sd: string; su: string; x?: number; ll?: LL;
+  /** where the pin came from: "ov" = Overture Maps, otherwise OpenStreetMap */
+  ls?: "ov";
 }
 
 export type PoiKind = "beach" | "sight" | "family" | "pharmacy" | "health" | "market";
@@ -63,6 +65,7 @@ export interface Poi {
   ll?: LL; pr?: "exact" | "source" | "osm" | "approx"; src?: "osm";
   su?: string; sd?: string; reg?: string | number; ed?: string; ch?: string; ft?: string; hrs?: string;
   bf?: boolean; sf?: string; fac?: string[]; acc?: string; alt?: string; info?: string; bw?: string; bwid?: string;
+  ls?: "ov";
 }
 
 /** Everything that can sit on the "what's around" map. */

@@ -17,13 +17,14 @@ export function bizFacts(b: Business): Fact[] {
   if (isStay(b) && b.r) f.push([b.g === "apart" ? "Units" : "Rooms", `${b.r}${b.b ? ` (${b.b} beds)` : ""}`, false]);
   if (b.s && STATUS_NOTE.test(b.s)) f.push(["Licence", "Licensing or classification in process, per the register.", false]);
   f.push(["Opening hours", "Not yet verified.", true]);
-  f.push(["Map position", b.ll ? "Matched to OpenStreetMap." : "No map pin yet. Directions search the address.", !b.ll]);
+  f.push(["Map position", b.ll ? (b.ls === "ov" ? "Matched to Overture Maps." : "Matched to OpenStreetMap.") : "No map pin yet. Directions search the address.", !b.ll]);
   return f;
 }
 
 export function bizSources(b: Business): { list: Source[]; reviewed: string } {
   const list: Source[] = [{ t: isStay(b) ? "Visit Cyprus (Deputy Ministry of Tourism): licensed accommodation list" : "Visit Cyprus (Deputy Ministry of Tourism): licensed restaurants and bars list", u: b.su }];
-  if (b.ll) list.push({ t: "Location: OpenStreetMap contributors", u: `https://www.openstreetmap.org/?mlat=${b.ll[0]}&mlon=${b.ll[1]}#map=18/${b.ll[0]}/${b.ll[1]}` });
+  if (b.ll && b.ls === "ov") list.push({ t: "Location: Overture Maps Foundation", u: "https://overturemaps.org/" });
+  else if (b.ll) list.push({ t: "Location: OpenStreetMap contributors", u: `https://www.openstreetmap.org/?mlat=${b.ll[0]}&mlon=${b.ll[1]}#map=18/${b.ll[0]}/${b.ll[1]}` });
   return { list, reviewed: `register dated ${formatDate(b.sd)}` };
 }
 
@@ -40,7 +41,7 @@ export function poiFacts(r: Poi): Fact[] {
   if (r.reg) f.push(["Register number", String(r.reg), false]);
   f.push([
     "Map position",
-    r.pr === "approx" ? "Approximate, matched to the street. Use Directions for the exact address." : r.ll ? "From the source map data." : "No map pin yet. Directions search the address.",
+    r.ls === "ov" ? "Matched to Overture Maps." : r.pr === "approx" ? "Approximate, matched to the street. Use Directions for the exact address." : r.ll ? "From the source map data." : "No map pin yet. Directions search the address.",
     r.pr === "approx" || !r.ll,
   ]);
   return f;
@@ -56,6 +57,7 @@ export function poiSources(r: Poi): { list: Source[]; reviewed: string } {
   const list: Source[] = [];
   if (r.info) list.push({ t: "Official beach page", u: r.info });
   if (r.bw) list.push({ t: "Bathing water profile (Department of Environment)", u: r.bw });
+  if (r.ls === "ov") list.push({ t: "Location: Overture Maps Foundation", u: "https://overturemaps.org/" });
   if (r.su && r.su !== r.info) {
     list.push({ t: r.k === "pharmacy" ? "Pharmaceutical Services: register of private pharmacies" : r.k === "beach" ? "Source listing" : "Official register or store finder", u: r.su });
   }
