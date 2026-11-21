@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ThemeAuto } from "./ThemeToggle";
 
 export function Footer() {
   return (
@@ -33,6 +34,7 @@ export function Footer() {
         <span className="muted">In an emergency call <strong>112</strong> or <strong>199</strong>, free from any phone.</span>
         <Link href="/practical#emergency">All help numbers</Link>
         <Link href="/credits">Photo credits</Link>
+        <ThemeAuto />
       </div>
       <div className="wrap footline credits-line">
         <span className="muted">

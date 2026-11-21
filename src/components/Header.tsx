@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Mark, PinIcon, SearchIcon } from "./Icons";
 import { useSaved } from "@/lib/store";
+import { ThemeToggle } from "./ThemeToggle";
 
 const NAV: [string, string][] = [
   ["/destinations", "Destinations"],
@@ -35,6 +36,7 @@ export function Header() {
           </Link>
         </nav>
         <div className="tools">
+          <ThemeToggle />
           <Link className="iconbtn" href="/around" aria-label="Around your hotel" title="Around your hotel"><PinIcon /></Link>
           <Link className="iconbtn" href="/search" aria-label="Search" title="Search"><SearchIcon /></Link>
           <button

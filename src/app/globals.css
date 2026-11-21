@@ -293,3 +293,16 @@ html,body{overflow-x:clip}
 .more-routes[open] summary{margin-bottom:6px}
 .stop .dirlink{position:static}
 .credits-line{margin-top:8px;padding-top:0;border-top:0;font-size:12px;line-height:1.5}
+:root[data-theme="light"]{color-scheme:light}
+.linkbtn{background:none;border:0;padding:0;font:inherit;color:var(--accent);text-decoration:underline;cursor:pointer}
+@media (max-width:420px){
+  .top > .wrap{gap:8px}
+  .tools{gap:0}
+  .iconbtn{width:40px;height:40px}
+  .brand{font-size:17px;gap:8px;min-width:0;white-space:nowrap}
+}
+@media (max-width:350px){
+  .brand{font-size:15px}
+  .brand svg{width:24px;height:24px}
+}
+@media (max-width:350px){ .tools a[href="/around"]{display:none} }
