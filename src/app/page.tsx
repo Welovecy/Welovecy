@@ -5,29 +5,57 @@ import { HeroStage } from "@/components/HeroStage";
 import { WhereSearch } from "@/components/WhereSearch";
 import { HomeBase } from "@/components/HomeBase";
 import { HeroDemo, type DemoStop } from "@/components/HeroDemo";
-import { getBusiness, getDest, listingHref, spots } from "@/lib/data";
+import { BUS, BUSINESSES, POIS, getBusiness, getDest, isStay, listingHref, spots } from "@/lib/data";
 import { essentials } from "@/lib/around";
 import { walkMinutes } from "@/lib/geo";
 import { ESSENTIAL_LABEL, KINDS } from "@/lib/kinds";
 
-/** Real hotels in each holiday area, each a short walk from all five essentials. */
-const SHOWCASE: [string, string?][] = [["cy-00364"], ["cy-00026", "Faros Hotel"], ["cy-02979", "Elysium"], ["cy-01746", "Atlantica Miramare"]];
+/** Real hotels in each holiday area, in the order guests ask about them. [id, name to type] */
+const SHOWCASE: [string, string][] = [
+  ["cy-00052", "Olympic Lagoon"], ["cy-02787", "Cap St Georges"], ["wlc-0001", "Sunrise Pearl"],
+  ["cy-01758", "Parklane"], ["cy-00691", "Radisson Blu"],
+];
+const DEMO_MAX_KM = 2.5;
+/** about a 15-minute walk; further than that we give a short drive time */
+const WALK_MAX_KM = 1.2;
+
+/** "Pharmacy" for pharmacies listed under the pharmacist's Greek name; chain branches lose their street. */
+function displayName(kind: string, n: string) {
+  if (kind === "pharmacy" && /[\u0370-\u03ff]/.test(n)) return "Pharmacy";
+  if (kind === "market") return n.split(",")[0].trim();
+  return n;
+}
 
 function demoStops(): DemoStop[] {
   const pool = spots();
-  return SHOWCASE.map(([id, short]) => ({ b: getBusiness(id), short })).filter((x) => x.b?.ll).map(({ b, short }) => ({
-    name: short ?? b!.n,
+  const hotels: DemoStop[] = SHOWCASE.map(([id, short]) => ({ b: getBusiness(id), short })).filter((x) => x.b?.ll).map(({ b, short }) => ({
+    name: short,
     area: (b!.tw && b!.tw !== "Not specified" ? b!.tw : getDest(b!.d)?.name) ?? "",
     href: `${listingHref(b!.i)}/around`,
-    rows: essentials(b!.ll!, pool, b!.i).filter((e) => e.near).map((e) => ({
+    rows: essentials(b!.ll!, pool, b!.i).filter((e) => e.near && e.near.d <= DEMO_MAX_KM).map((e) => ({
       k: e.kind,
       label: ((l) => l.charAt(0).toUpperCase() + l.slice(1))((ESSENTIAL_LABEL[e.kind] ?? "").replace("Nearest ", "")),
-      name: e.kind === "pharmacy" && /[\u0370-\u03ff]/.test(e.near!.s.n) ? "Pharmacy" : e.near!.s.n,
-      time: `${walkMinutes(e.near!.d)} min`,
+      name: displayName(e.kind, e.near!.s.n),
+      time: e.near!.d <= WALK_MAX_KM ? `${walkMinutes(e.near!.d)} min` : `${Math.max(3, Math.round(((e.near!.d * 1.3) / 30) * 60))} min`,
+      mode: (e.near!.d <= WALK_MAX_KM ? "walk" : "drive") as "walk" | "drive",
       color: KINDS[e.kind].c,
       extra: e.kind === "bus" && e.near!.s.rt?.length ? `Bus ${e.near!.s.rt.slice(0, 3).join(", ")}` : undefined,
     })),
   }));
+  const fmt = (n: number) => n.toLocaleString("en-GB");
+  const beaches = POIS.filter((r) => r.k === "beach");
+  const final: DemoStop = {
+    name: "We Love Cyprus", area: "Your guide to the whole island", href: "/destinations",
+    pre: "All of Cyprus,", typed: "in one place", post: ".", cta: "Start exploring",
+    rows: [
+      { k: "beach", label: "Beaches", name: `${fmt(beaches.length)} public beaches, Blue Flag marked`, time: "", color: KINDS.beach.c },
+      { k: "stay", label: "Places to stay", name: `${fmt(BUSINESSES.filter(isStay).length)} licensed hotels and apartments`, time: "", color: KINDS.sight.c },
+      { k: "eat", label: "Eat & drink", name: `${fmt(BUSINESSES.filter((b) => !isStay(b)).length)} restaurants, cafés and bars`, time: "", color: KINDS.eat.c },
+      { k: "pharmacy", label: "Essentials", name: "Pharmacies, clinics, supermarkets", time: "", color: KINDS.pharmacy.c },
+      { k: "bus", label: "Buses", name: `${fmt(Object.keys(BUS.routes).length)} routes and airport transfers`, time: "", color: KINDS.bus.c },
+    ],
+  };
+  return [...hotels, final];
 }
 
 const BEACHES: [string, string][] = [

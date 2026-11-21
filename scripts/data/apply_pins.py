@@ -8,6 +8,14 @@ def main():
     pins = json.load(open("data/work/overture_pins.json", encoding="utf-8")) if os.path.exists("data/work/overture_pins.json") else {}
     biz = json.load(open("data/businesses.json", encoding="utf-8"))
     pois = json.load(open("data/pois.json", encoding="utf-8"))
+    # listings we add ourselves (not in the published register yet), kept in data/extra_businesses.json
+    extra = json.load(open("data/extra_businesses.json", encoding="utf-8")) if os.path.exists("data/extra_businesses.json") else []
+    have = {r["i"] for r in biz}
+    biz += [r for r in extra if r["i"] not in have]
+    # hand-checked pins win over everything
+    manual = json.load(open("data/work/manual_pins.json", encoding="utf-8")) if os.path.exists("data/work/manual_pins.json") else {}
+    for r in biz + pois:
+        if r["i"] in manual: r["ll"] = manual[r["i"]]["ll"]; r["ls"] = "ov"
     added = 0
     for r in biz + pois:
         p = pins.get(r["i"])

@@ -22,6 +22,12 @@ export function bizFacts(b: Business): Fact[] {
 }
 
 export function bizSources(b: Business): { list: Source[]; reviewed: string } {
+  if (b.i.startsWith("wlc-")) {
+    return {
+      list: [{ t: "Location: Overture Maps Foundation", u: "https://overturemaps.org/" }],
+      reviewed: `added by We Love Cyprus on ${formatDate(b.sd)}, not in the published tourism register yet`,
+    };
+  }
   const list: Source[] = [{ t: isStay(b) ? "Visit Cyprus (Deputy Ministry of Tourism): licensed accommodation list" : "Visit Cyprus (Deputy Ministry of Tourism): licensed restaurants and bars list", u: b.su }];
   if (b.ll && b.ls === "ov") list.push({ t: "Location: Overture Maps Foundation", u: "https://overturemaps.org/" });
   else if (b.ll) list.push({ t: "Location: OpenStreetMap contributors", u: `https://www.openstreetmap.org/?mlat=${b.ll[0]}&mlon=${b.ll[1]}#map=18/${b.ll[0]}/${b.ll[1]}` });
