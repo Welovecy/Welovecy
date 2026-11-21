@@ -21,7 +21,6 @@ export function Photo({ photo, label, tint, ratio, priority, hero, className }: 
         <>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={src} alt={photo.t} loading={priority ? "eager" : "lazy"} decoding="async" fetchPriority={priority ? "high" : undefined} />
-          {photo.a ? <span className="credit">{photo.a} · {photo.l}</span> : null}
         </>
       ) : (
         <span className="cap" role="img" aria-label={`Photo to come: ${label}`}><CamIcon />Photo to come: {label}</span>

@@ -32,12 +32,18 @@ export function Footer() {
       <div className="wrap footline">
         <span className="muted">In an emergency call <strong>112</strong> or <strong>199</strong>, free from any phone.</span>
         <Link href="/practical#emergency">All help numbers</Link>
+        <Link href="/credits">Photo credits</Link>
+      </div>
+      <div className="wrap footline credits-line">
         <span className="muted">
           Map data ©{" "}
-          <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a>, places from{" "}
+          <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a>
+          {" · "}Places:{" "}
           <a href="https://docs.overturemaps.org/attribution/" target="_blank" rel="noopener noreferrer">Overture Maps Foundation</a>
+          {" · "}Bus routes:{" "}
+          <a href="https://www.motionbuscard.org.cy/opendata" target="_blank" rel="noopener noreferrer">Public Works Department via Motion Bus Card</a>{" "}
+          (CC BY 4.0, routes with upcoming trips only) · Beaches, pharmacies and businesses from official registers, linked on each page. Bus routes are scheduled, not live.
         </span>
-        <Link href="/credits">Photo credits</Link>
       </div>
     </footer>
   );

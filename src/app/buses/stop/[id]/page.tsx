@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { busRoutesAt, getBusStop } from "@/lib/data";
 import { Crumbs } from "@/components/Bits";
-import { BusSource, RouteRow } from "@/components/Buses";
+import { RouteRow } from "@/components/Buses";
 import { AroundBlock } from "@/components/AroundBlock";
 import { FromBase } from "@/components/FromBase";
 import { directionsTo } from "@/lib/geo";
@@ -39,7 +39,6 @@ export default async function BusStopPage({ params }: P) {
       <section className="wrap" aria-labelledby="h-routes">
         <h2 id="h-routes" style={{ fontSize: 28, marginBottom: 8 }}>Routes from this stop</h2>
         <div>{routes.map((r) => <RouteRow key={r.a + r.r} r={r} />)}</div>
-        <BusSource />
       </section>
       <AroundBlock ll={s.ll} skip={s.i} title="Near this stop" />
     </>

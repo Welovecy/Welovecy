@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { BUS } from "@/lib/data";
 import { PageHead } from "@/components/Bits";
-import { BusSource, RouteRow } from "@/components/Buses";
+import { RouteRow } from "@/components/Buses";
 
 export const metadata: Metadata = { title: "Buses", description: "Every scheduled bus route in the Republic of Cyprus, plus buses and shuttles to Larnaca and Paphos airports." };
 
@@ -45,7 +45,6 @@ export default function Buses() {
           </section>
         );
       })}
-      <section className="wrap"><BusSource /></section>
     </>
   );
 }

@@ -12,6 +12,8 @@ import { FromBase } from "./FromBase";
 import { StayHere } from "./StayHere";
 import { BusesNear } from "./Buses";
 
+const TOWN: Record<string, string> = { ayianapa: "Ayia Napa", protaras: "Protaras", paphos: "Paphos", limassol: "Limassol", larnaca: "Larnaca", nicosia: "Nicosia" };
+
 interface Props { ll: LL; name: string; sub: string; back: string; skip: string; stay?: Base }
 
 export function AroundPage({ ll, name, sub, back, skip, stay }: Props) {
@@ -36,11 +38,11 @@ export function AroundPage({ ll, name, sub, back, skip, stay }: Props) {
         <h2 id="h-ess" style={{ fontSize: 28, marginBottom: 16 }}>Closest to {name}</h2>
         <EssentialsGrid items={a.essentials} area={a.dest} areaName={dest?.name ?? ""} busHref="#buses" />
       </section>
-      <BusesNear ll={ll} />
       <section className="wrap" aria-labelledby="h-ar" style={{ paddingTop: 24 }}>
         <h2 id="h-ar" style={{ fontSize: 28, marginBottom: 16 }}>What&apos;s around</h2>
         <AroundExplorer center={ll} label={name} lists={a.lists} />
       </section>
+      <BusesNear ll={ll} here={TOWN[a.dest] ?? ""} />
       {dest ? <FeaturedBlock destName={dest.name} /> : null}
     </>
   );

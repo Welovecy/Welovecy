@@ -280,3 +280,16 @@ html,body{overflow-x:clip}
 .busroute .meta{font-size:14px;color:var(--muted)}
 .near-cols{align-items:start}
 .near-group{align-content:start}
+.stops{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));align-items:start}
+.stop{background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);padding:16px;display:grid;gap:10px}
+.stop-head{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center}
+.stop-head p{margin:0}
+.stop-name{font-weight:600;font-size:17px}
+.stop-to{margin:0;font-size:15px}
+.more-routes summary{display:inline-flex;align-items:center;gap:6px;cursor:pointer;list-style:none;font-size:14px;font-weight:600;color:var(--accent);padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface)}
+.more-routes summary::-webkit-details-marker{display:none}
+.more-routes summary::after{content:"";width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translateY(-2px);transition:transform .2s}
+.more-routes[open] summary::after{transform:rotate(-135deg) translateY(-1px)}
+.more-routes[open] summary{margin-bottom:6px}
+.stop .dirlink{position:static}
+.credits-line{margin-top:8px;padding-top:0;border-top:0;font-size:12px;line-height:1.5}
