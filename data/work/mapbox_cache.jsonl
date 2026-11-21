@@ -62,3 +62,264 @@
 {"q": "Λεωφόρος Νησί 20, Ayia Napa |box4", "res": null}
 {"q": "Κρυού Νερού 28, Ayia Napa |box4", "res": {"t": "address", "addr": "28 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.986904, 34.006328], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
 {"q": "Λεωφόρος Νησί 52, Ayia Napa |box4", "res": null}
+{"q": "Nissi Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "street", "addr": "Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.989865, 33.975032], "conf": null, "acc": null, "place": "Αγία Νάπα"}}
+{"q": "Nissi Avenue, Agia Napa, Ayia Napa |box4", "res": {"t": "street", "addr": "Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.989865, 33.975032], "conf": null, "acc": null, "place": "Αγία Νάπα"}}
+{"q": "Kryo Nero Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "street", "addr": "Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.986341, 34.00802], "conf": null, "acc": null, "place": "Αγία Νάπα"}}
+{"q": "Kryo Nero Avenue, Agia Napa, Ayia Napa |box4", "res": {"t": "street", "addr": "Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.986341, 34.00802], "conf": null, "acc": null, "place": "Αγία Νάπα"}}
+{"q": "7, 1st of October 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "7, 1st of October, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "65, Nissi Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "65 Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.989574, 33.976371], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "Makronissos 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "Makronissos, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "100, Nissi Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "100 Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.988651, 33.983867], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "74 Cavo Greco Avenue 5330, Ayia Napa |box4", "res": null}
+{"q": "74 Cavo Greco Avenue, Ayia Napa |box4", "res": null}
+{"q": "112, Nissi Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "112 Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.988559, 33.984977], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "Nissi Avenue 5341, Ayia Napa |box4", "res": {"t": "street", "addr": "Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.989865, 33.975032], "conf": null, "acc": null, "place": "Αγία Νάπα"}}
+{"q": "Nissi Avenue, Ayia Napa |box4", "res": {"t": "street", "addr": "Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.989865, 33.975032], "conf": null, "acc": null, "place": "Αγία Νάπα"}}
+{"q": "17, Melissiou Street 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "17 Melissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.987808, 34.007606], "conf": "medium", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "17, Melissiou Street, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "17 Melissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.987808, 34.007606], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "23, Makarios Avenue 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "23, Makarios Avenue, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "Makronissos Area 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "Makronissos Area, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "33, Kryou Nerou 5330, Ayia Napa |box4", "res": {"t": "address", "addr": "33 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.985137, 34.01543], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "33, Kryou Nerou, Ayia Napa |box4", "res": {"t": "address", "addr": "33 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.985137, 34.01543], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "34, Makarios Avenue 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "34, Makarios Avenue, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "105, Kryo Nero Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "105 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.984883, 34.016172], "conf": "low", "acc": "interpolated", "place": "Αγία Νάπα"}}
+{"q": "105, Kryo Nero Avenue, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "105 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.984883, 34.016172], "conf": "low", "acc": "interpolated", "place": "Αγία Νάπα"}}
+{"q": "33 Nissi Avenue 5343, Ayia Napa |box4", "res": {"t": "address", "addr": "33 Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.988819, 33.96577], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "32, Kryo Nero Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "32 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.986024, 34.009359], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "32, Kryo Nero Avenue, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "32 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.986024, 34.009359], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "44, Kryo Nero Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "44 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.984947, 34.015586], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "44, Kryo Nero Avenue, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "44 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.984947, 34.015586], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "27, Kryou Nerou 5340, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "27 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.986091, 34.010116], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "27, Kryou Nerou, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "27 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.986091, 34.010116], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "8, 1st October Street 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "8, 1st October Street, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "10, Kryo Nero Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "10 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.987945, 34.003349], "conf": "low", "acc": "interpolated", "place": "Αγία Νάπα"}}
+{"q": "10, Kryo Nero Avenue, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "10 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.987945, 34.003349], "conf": "low", "acc": "interpolated", "place": "Αγία Νάπα"}}
+{"q": "51, Kryo Nero Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "51 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.986518, 34.016639], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "51, Kryo Nero Avenue, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "51 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.986518, 34.016639], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "30, Kryo Nero Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "30 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.98656, 34.007232], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "30, Kryo Nero Avenue, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "30 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.98656, 34.007232], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "13A, Nissi Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "13a Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.988611, 33.956234], "conf": "low", "acc": "interpolated", "place": "Αγία Νάπα"}}
+{"q": "13A, Nissi Avenue, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "13a Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.988611, 33.956234], "conf": "low", "acc": "interpolated", "place": "Αγία Νάπα"}}
+{"q": "45, Kryo Nero Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "45 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.982754, 34.01774], "conf": "low", "acc": "interpolated", "place": "Αγία Νάπα"}}
+{"q": "45, Kryo Nero Avenue, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "45 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.982754, 34.01774], "conf": "low", "acc": "interpolated", "place": "Αγία Νάπα"}}
+{"q": "12, Makarios Avenue 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "12, Makarios Avenue, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "96, Nissi Ave. 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "96 Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.988731, 33.982059], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "27, 1st October Street 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "27, 1st October Street, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "6, October 1st 5340, Ayia Napa |box4", "res": null}
+{"q": "6, October 1st, Ayia Napa |box4", "res": null}
+{"q": "18, Kryo Nero Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "18 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.987386, 34.005164], "conf": "low", "acc": "interpolated", "place": "Αγία Νάπα"}}
+{"q": "18, Kryo Nero Avenue, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "18 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.987386, 34.005164], "conf": "low", "acc": "interpolated", "place": "Αγία Νάπα"}}
+{"q": "77,Nissi Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "77 Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.989459, 33.979084], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "108, Nissi Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "108 Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.98862, 33.984348], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "98, Nissi Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "98 Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.9887, 33.982944], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "17, 1st Οctober Street 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "17, 1st Οctober Street, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "Xylofagou-Agia Napa Road 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "Xylofagou-Agia Napa Road, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "9, 1st October Street 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "9, 1st October Street, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "2, Nissi Ave. Ayia Napa |box4", "res": null}
+{"q": "13,1st October Street 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "13,1st October Street, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "28, Kryou Nerou 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "28 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.986904, 34.006328], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "28, Kryou Nerou, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "28 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.986904, 34.006328], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "49, Kryou Nerou Ayia Napa |box4", "res": {"t": "address", "addr": "49 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.985027, 34.015907], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "82, Nissi Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "82 Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.989334, 33.978328], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "10, Neofyrou Poullou Street 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "street", "addr": "Νεόφυτου Πούλλου, 5330 Αγία Νάπα, Cyprus", "ll": [34.988866, 33.974948], "conf": null, "acc": null, "place": "Αγία Νάπα"}}
+{"q": "10, Neofyrou Poullou Street, Agia Napa, Ayia Napa |box4", "res": {"t": "street", "addr": "Νεόφυτου Πούλλου, 5330 Αγία Νάπα, Cyprus", "ll": [34.988866, 33.974948], "conf": null, "acc": null, "place": "Αγία Νάπα"}}
+{"q": "14, 1st October Street 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "14, 1st October Street, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "31, Makarios Avenue 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "31, Makarios Avenue, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "6, Nissi Avenue 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "6, Nissi Avenue, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "26, Nissi Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "26 Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.988801, 33.962347], "conf": "low", "acc": "interpolated", "place": "Αγία Νάπα"}}
+{"q": "26, Nissi Avenue, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "26 Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.988801, 33.962347], "conf": "low", "acc": "interpolated", "place": "Αγία Νάπα"}}
+{"q": "1, Kryo Nero Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "1 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.988594, 34.000934], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "1, Kryo Nero Avenue, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "1 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.988594, 34.000934], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "6, J. Kennedy Street 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "street", "addr": "Kennenty, 5330 Αγία Νάπα, Cyprus", "ll": [34.988726, 33.991101], "conf": null, "acc": null, "place": "Αγία Νάπα"}}
+{"q": "6, J. Kennedy Street, Agia Napa, Ayia Napa |box4", "res": {"t": "street", "addr": "Kennenty, 5330 Αγία Νάπα, Cyprus", "ll": [34.988726, 33.991101], "conf": null, "acc": null, "place": "Αγία Νάπα"}}
+{"q": "24, Odysseas Elytes Street 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "24, Odysseas Elytes Street, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "74, Nissi Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "74 Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.989441, 33.976851], "conf": "low", "acc": "interpolated", "place": "Αγία Νάπα"}}
+{"q": "74, Nissi Avenue, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "74 Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.989441, 33.976851], "conf": "low", "acc": "interpolated", "place": "Αγία Νάπα"}}
+{"q": "19, Katalymata Street 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "19 Katalymata, 5330 Αγία Νάπα, Cyprus", "ll": [34.988513, 33.996196], "conf": "medium", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "44, Nissi Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "44 Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.988887, 33.96735], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "Kavo Gkreko - Paralimni Road 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "Kavo Gkreko - Paralimni Road, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "10, Kryou Nerou Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "10 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.987945, 34.003349], "conf": "low", "acc": "interpolated", "place": "Αγία Νάπα"}}
+{"q": "10, Kryou Nerou Avenue, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "10 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.987945, 34.003349], "conf": "low", "acc": "interpolated", "place": "Αγία Νάπα"}}
+{"q": "1, Misiaouli & Kavazoglou Street 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "1 Misiaouli & Kavazoglou, 5330 Αγία Νάπα, Cyprus", "ll": [34.988422, 34.003108], "conf": "low", "acc": "rooftop", "place": "Αγία Νάπα"}}
+{"q": "Misiaouli and Kavazoglou 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "Misiaouli and Kavazoglou, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "4, Nissi Avenue 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "4, Nissi Avenue, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "125, Nissi Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "125 Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.986385, 33.99974], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "65, Tefkros Anthias Street 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "65, Tefkros Anthias Street, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "22, Demokratias Street 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "22 Dimokratias, 5330 Αγία Νάπα, Cyprus", "ll": [34.992649, 34.000587], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "22, Demokratias Street, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "22 Dimokratias, 5330 Αγία Νάπα, Cyprus", "ll": [34.992649, 34.000587], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "6, Petreris Street 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "6, Petreris Street, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "3, Giannis Ritsos Street 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "3, Giannis Ritsos Street, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "Misiaouli & Kavazoglou Street 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "street", "addr": "Misiaouli & Kavazoglou, 5330 Αγία Νάπα, Cyprus", "ll": [34.989839, 34.003035], "conf": null, "acc": null, "place": "Αγία Νάπα"}}
+{"q": "Misiaouli & Kavazoglou Street, Agia Napa, Ayia Napa |box4", "res": {"t": "street", "addr": "Misiaouli & Kavazoglou, 5330 Αγία Νάπα, Cyprus", "ll": [34.989839, 34.003035], "conf": null, "acc": null, "place": "Αγία Νάπα"}}
+{"q": "21 Kryou Nerou 5343, Ayia Napa |box4", "res": {"t": "address", "addr": "21 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.98698, 34.006557], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "21 Kryou Nerou, Ayia Napa |box4", "res": {"t": "address", "addr": "21 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.98698, 34.006557], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "21, Giannis Ritsos Street 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "21, Giannis Ritsos Street, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "36, Tefkros Anthias Street 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "36, Tefkros Anthias Street, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "26, Agias Mavris Street 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "26 Agias Mavris, 5330 Αγία Νάπα, Cyprus", "ll": [34.98973, 33.993278], "conf": "medium", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "75, Nissi Avenue 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "75 Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.989479, 33.978336], "conf": "low", "acc": "rooftop", "place": "Αγία Νάπα"}}
+{"q": "5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": ", Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "22, Cavo Greco Street 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "22, Cavo Greco Street, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "Katalymata Street 5330, Agia Napa, Ayia Napa |box4", "res": {"t": "street", "addr": "Katalymata, 5330 Αγία Νάπα, Cyprus", "ll": [34.989025, 33.997699], "conf": null, "acc": null, "place": "Αγία Νάπα"}}
+{"q": "Katalymata Street, Agia Napa, Ayia Napa |box4", "res": {"t": "street", "addr": "Katalymata, 5330 Αγία Νάπα, Cyprus", "ll": [34.989025, 33.997699], "conf": null, "acc": null, "place": "Αγία Νάπα"}}
+{"q": "G. Kangarin Street 5330, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "G. Kangarin Street, Agia Napa, Ayia Napa |box4", "res": null}
+{"q": "Gavo Greko Avenue Paralimni, Protaras |box4", "res": null}
+{"q": "Protaras Avenue Paralimni |box4", "res": {"t": "street", "addr": "Leoforos Protara, 5296 Παραλίμνι, Cyprus", "ll": [35.015041, 34.052881], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "Paralimni 5311, Ammochostos, Protaras |box4", "res": null}
+{"q": "Paralimni, Ammochostos, Protaras |box4", "res": null}
+{"q": "98, Nissi Avenue Agia Napa, Ayia Napa |box4", "res": {"t": "address", "addr": "98 Leoforos Nissi, 5330 Αγία Νάπα, Cyprus", "ll": [34.9887, 33.982944], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "Protaras Road Paralimni |box4", "res": null}
+{"q": "Cavo Gkreko Street Paralimni, Protaras |box4", "res": null}
+{"q": "Paralimni Ammochostos, Protaras |box4", "res": null}
+{"q": "15, Symis Street 5311, Paralimni, Protaras |box4", "res": null}
+{"q": "15, Symis Street, Paralimni, Protaras |box4", "res": null}
+{"q": "23 Ellinon 5312, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Ellinon, 5295 Παραλίμνι, Cyprus", "ll": [35.033621, 34.037312], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "23 Ellinon, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Ellinon, 5295 Παραλίμνι, Cyprus", "ll": [35.033621, 34.037312], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "24, Afroditis Street 5296, Paralimni, Protaras |box4", "res": {"t": "address", "addr": "24 Afroditis, 5296 Παραλίμνι, Cyprus", "ll": [35.028438, 34.044708], "conf": "medium", "acc": "point", "place": "Παραλίμνι"}}
+{"q": "359, Protaras Avenue 5290, Paralimni |box4", "res": {"t": "street", "addr": "Leoforos Protara, 5296 Παραλίμνι, Cyprus", "ll": [35.015041, 34.052881], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "359, Protaras Avenue, Paralimni |box4", "res": {"t": "street", "addr": "Leoforos Protara, 5296 Παραλίμνι, Cyprus", "ll": [35.015041, 34.052881], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "15 Dios Str 5296, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Dios, 5296 Παραλίμνι, Cyprus", "ll": [35.026471, 34.045907], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "15 Dios Str, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Dios, 5296 Παραλίμνι, Cyprus", "ll": [35.026471, 34.045907], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "4, Vyzakias street 5297, Paralimni, Protaras |box4", "res": null}
+{"q": "4, Vyzakias street, Paralimni, Protaras |box4", "res": null}
+{"q": "6, D. Lagiou Street 5296, Paralimni, Protaras |box4", "res": null}
+{"q": "6, D. Lagiou Street, Paralimni, Protaras |box4", "res": null}
+{"q": "29, Protaras Street 5296, Paralimni |box4", "res": null}
+{"q": "29, Protaras Street, Paralimni |box4", "res": null}
+{"q": "95, Vrysoudion Street 5295, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Vrysoudion, 5295 Παραλίμνι, Cyprus", "ll": [35.043392, 34.02988], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "95, Vrysoudion Street, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Vrysoudion, 5295 Παραλίμνι, Cyprus", "ll": [35.043392, 34.02988], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "17, Filippidou 5296, Paralimni, Protaras |box4", "res": null}
+{"q": "17, Filippidou, Paralimni, Protaras |box4", "res": null}
+{"q": "9 Amphitrites Street 5296, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Amphitritis, 5296 Παραλίμνι, Cyprus", "ll": [35.017738, 34.050524], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "9 Amphitrites Street, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Amphitritis, 5296 Παραλίμνι, Cyprus", "ll": [35.017738, 34.050524], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "64, Pinias Street 5295, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Pinias, 5295 Παραλίμνι, Cyprus", "ll": [35.035618, 34.033683], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "64, Pinias Street, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Pinias, 5295 Παραλίμνι, Cyprus", "ll": [35.035618, 34.033683], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "81, Konnos Street 5297, Paralimni, Protaras |box4", "res": null}
+{"q": "81, Konnos Street, Paralimni, Protaras |box4", "res": null}
+{"q": "47, Protaras Street 5296, Paralimni |box4", "res": null}
+{"q": "47, Protaras Street, Paralimni |box4", "res": null}
+{"q": "1, Protaras Avenue 5296, Paralimni |box4", "res": {"t": "street", "addr": "Leoforos Protara, 5296 Παραλίμνι, Cyprus", "ll": [35.015041, 34.052881], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "1, Protaras Avenue, Paralimni |box4", "res": {"t": "street", "addr": "Leoforos Protara, 5296 Παραλίμνι, Cyprus", "ll": [35.015041, 34.052881], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "45 Konnou str. Protaras, 5297 Paralimni |box4", "res": null}
+{"q": "45 Konnou str. Protaras,  Paralimni |box4", "res": null}
+{"q": "13, Lefkollas 5310, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Lefkollas, 5296 Παραλίμνι, Cyprus", "ll": [35.019231, 34.049022], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "13, Lefkollas, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Lefkollas, 5296 Παραλίμνι, Cyprus", "ll": [35.019231, 34.049022], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "11, Heras Street 5297, Paralimni, Protaras |box4", "res": null}
+{"q": "11, Heras Street, Paralimni, Protaras |box4", "res": null}
+{"q": "3, Amfirtitis Street 5296, Paralimni, Protaras |box4", "res": null}
+{"q": "3, Amfirtitis Street, Paralimni, Protaras |box4", "res": null}
+{"q": "7, Mantaliou Street 5296, Paralimni, Protaras |box4", "res": null}
+{"q": "7, Mantaliou Street, Paralimni, Protaras |box4", "res": null}
+{"q": "17, Ifestou street, Pernera 5296, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Pernera, 5296 Παραλίμνι, Cyprus", "ll": [35.029537, 34.041302], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "17, Ifestou street, Pernera, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Pernera, 5296 Παραλίμνι, Cyprus", "ll": [35.029537, 34.041302], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "3, Demokritos Street 5296, Paralimni, Protaras |box4", "res": null}
+{"q": "3, Demokritos Street, Paralimni, Protaras |box4", "res": null}
+{"q": "11, Amfitritis 5296, Paralimni, Protaras |box4", "res": null}
+{"q": "11, Amfitritis, Paralimni, Protaras |box4", "res": null}
+{"q": "46, Protaras Ave. 5296, Paralimni |box4", "res": null}
+{"q": "46, Protaras Ave., Paralimni |box4", "res": null}
+{"q": "170, Acropoleos Paralimni, Protaras |box4", "res": null}
+{"q": "8, Lefkollas Street 5296, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Lefkollas, 5296 Παραλίμνι, Cyprus", "ll": [35.019231, 34.049022], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "8, Lefkollas Street, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Lefkollas, 5296 Παραλίμνι, Cyprus", "ll": [35.019231, 34.049022], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "33, Protaras Avenue 5296, Paralimni |box4", "res": {"t": "street", "addr": "Leoforos Protara, 5296 Παραλίμνι, Cyprus", "ll": [35.015041, 34.052881], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "33, Protaras Avenue, Paralimni |box4", "res": {"t": "street", "addr": "Leoforos Protara, 5296 Παραλίμνι, Cyprus", "ll": [35.015041, 34.052881], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "465, Kavo Greko Avenue 5296, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Leoforos Protara-Cavo Greco, 5296 Παραλίμνι, Cyprus", "ll": [35.019275, 34.043534], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "465, Kavo Greko Avenue, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Leoforos Protara-Cavo Greco, 5296 Παραλίμνι, Cyprus", "ll": [35.019275, 34.043534], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "58, Protaras Avenue 5340, Paralimni |box4", "res": {"t": "street", "addr": "Leoforos Protara, 5296 Παραλίμνι, Cyprus", "ll": [35.015041, 34.052881], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "58, Protaras Avenue, Paralimni |box4", "res": {"t": "street", "addr": "Leoforos Protara, 5296 Παραλίμνι, Cyprus", "ll": [35.015041, 34.052881], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "71, Hotel Street, Kapparis 5290, Paralimni |box4", "res": {"t": "street", "addr": "Leoforos Kappari, 5290 Παραλίμνι, Cyprus", "ll": [35.054792, 34.00829], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "71, Hotel Street, Kapparis, Paralimni |box4", "res": {"t": "street", "addr": "Leoforos Kappari, 5290 Παραλίμνι, Cyprus", "ll": [35.054792, 34.00829], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "456, Cavo Greko Road 5313, Paralimni, Protaras |box4", "res": null}
+{"q": "456, Cavo Greko Road, Paralimni, Protaras |box4", "res": null}
+{"q": "8, D. Lagiou Street 5296, Paralimni, Protaras |box4", "res": null}
+{"q": "8, D. Lagiou Street, Paralimni, Protaras |box4", "res": null}
+{"q": "7, Konnos Avenue 5296, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Leoforos Konnou, 5330 Αγία Νάπα, Cyprus", "ll": [34.983074, 34.066599], "conf": null, "acc": null, "place": "Αγία Νάπα"}}
+{"q": "7, Konnos Avenue, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Leoforos Konnou, 5330 Αγία Νάπα, Cyprus", "ll": [34.983074, 34.066599], "conf": null, "acc": null, "place": "Αγία Νάπα"}}
+{"q": "20, Athinas Street 5296, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Athinas, 5296 Παραλίμνι, Cyprus", "ll": [35.026393, 34.043205], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "20, Athinas Street, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Athinas, 5296 Παραλίμνι, Cyprus", "ll": [35.026393, 34.043205], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "7, Ellinon Street 5295, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Ellinon, 5295 Παραλίμνι, Cyprus", "ll": [35.033621, 34.037312], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "7, Ellinon Street, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Ellinon, 5295 Παραλίμνι, Cyprus", "ll": [35.033621, 34.037312], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "91, Gregori Afxentiou Street 5281, Paralimni, Protaras |box4", "res": null}
+{"q": "91, Gregori Afxentiou Street, Paralimni, Protaras |box4", "res": null}
+{"q": "Protaras Street 5311, Paralimni |box4", "res": null}
+{"q": "Protaras Street, Paralimni |box4", "res": null}
+{"q": "13, Thaleias Street 5297, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Thaleias, 5296 Παραλίμνι, Cyprus", "ll": [35.030464, 34.041702], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "13, Thaleias Street, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Thaleias, 5296 Παραλίμνι, Cyprus", "ll": [35.030464, 34.041702], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "1, Thaleias Street 5296, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Thaleias, 5296 Παραλίμνι, Cyprus", "ll": [35.030464, 34.041702], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "1, Thaleias Street, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Thaleias, 5296 Παραλίμνι, Cyprus", "ll": [35.030464, 34.041702], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "4, Ellinon Street 5295, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Ellinon, 5295 Παραλίμνι, Cyprus", "ll": [35.033621, 34.037312], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "4, Ellinon Street, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Ellinon, 5295 Παραλίμνι, Cyprus", "ll": [35.033621, 34.037312], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "17, Syttarkas Street 5297, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Syttarkas, 5296 Παραλίμνι, Cyprus", "ll": [35.010292, 34.059719], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "17, Syttarkas Street, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Syttarkas, 5296 Παραλίμνι, Cyprus", "ll": [35.010292, 34.059719], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "573, Kavo Greko Avenue 5297, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Protara - Kavo Gkreko Avenue, 5297 Παραλίμνι, Cyprus", "ll": [34.997375, 34.063594], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "573, Kavo Greko Avenue, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Protara - Kavo Gkreko Avenue, 5297 Παραλίμνι, Cyprus", "ll": [34.997375, 34.063594], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "13, Poseidonos Street 5290, Paralimni |box4", "res": {"t": "street", "addr": "Poseidonos, 5290 Παραλίμνι, Cyprus", "ll": [35.052854, 34.015097], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "13, Poseidonos Street, Paralimni |box4", "res": {"t": "street", "addr": "Poseidonos, 5290 Παραλίμνι, Cyprus", "ll": [35.052854, 34.015097], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "13, Dios Str. 5296, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Dios, 5296 Παραλίμνι, Cyprus", "ll": [35.026471, 34.045907], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "13, Dios Str., Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Dios, 5296 Παραλίμνι, Cyprus", "ll": [35.026471, 34.045907], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "29, Ellinon Street 5295, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Ellinon, 5295 Παραλίμνι, Cyprus", "ll": [35.033621, 34.037312], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "29, Ellinon Street, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Ellinon, 5295 Παραλίμνι, Cyprus", "ll": [35.033621, 34.037312], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "23, Athinas Street 5296, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Athinas, 5296 Παραλίμνι, Cyprus", "ll": [35.026393, 34.043205], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "23, Athinas Street, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Athinas, 5296 Παραλίμνι, Cyprus", "ll": [35.026393, 34.043205], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "15, Ifaistou Street 5296, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Ifaistou, 5296 Παραλίμνι, Cyprus", "ll": [35.031011, 34.038697], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "15, Ifaistou Street, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Ifaistou, 5296 Παραλίμνι, Cyprus", "ll": [35.031011, 34.038697], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "17, Thalias Street 5296, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Thaleias, 5296 Παραλίμνι, Cyprus", "ll": [35.030464, 34.041702], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "17, Thalias Street, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Thaleias, 5296 Παραλίμνι, Cyprus", "ll": [35.030464, 34.041702], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "6, Feidipidou Street 5296, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Feidippidou, 5296 Παραλίμνι, Cyprus", "ll": [35.02167, 34.049554], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "6, Feidipidou Street, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Feidippidou, 5296 Παραλίμνι, Cyprus", "ll": [35.02167, 34.049554], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "Protaras Road 5296, Paralimni |box4", "res": null}
+{"q": "Protaras Road, Paralimni |box4", "res": null}
+{"q": "44, Profiti Elia Street 5296, Paralimni, Protaras |box4", "res": null}
+{"q": "44, Profiti Elia Street, Paralimni, Protaras |box4", "res": null}
+{"q": "6, Thalias Street 5296, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Thaleias, 5296 Παραλίμνι, Cyprus", "ll": [35.030464, 34.041702], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "6, Thalias Street, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Thaleias, 5296 Παραλίμνι, Cyprus", "ll": [35.030464, 34.041702], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "14, Lefkollas Street 5296, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Lefkollas, 5296 Παραλίμνι, Cyprus", "ll": [35.019231, 34.049022], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "14, Lefkollas Street, Paralimni, Protaras |box4", "res": {"t": "street", "addr": "Lefkollas, 5296 Παραλίμνι, Cyprus", "ll": [35.019231, 34.049022], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "17, Syttarkas Str. 5296, Parallimni, Protaras |box4", "res": {"t": "street", "addr": "Syttarkas, 5296 Παραλίμνι, Cyprus", "ll": [35.010292, 34.059719], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "17, Syttarkas Str., Parallimni, Protaras |box4", "res": {"t": "street", "addr": "Syttarkas, 5296 Παραλίμνι, Cyprus", "ll": [35.010292, 34.059719], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "70, Perneras Ave. 5296, Paralimni, Protaras |box4", "res": {"t": "address", "addr": "70 Leoforos Perneras, 5296 Παραλίμνι, Cyprus", "ll": [35.028339, 34.038253], "conf": "low", "acc": "interpolated", "place": "Παραλίμνι"}}
+{"q": "70, Perneras Ave., Paralimni, Protaras |box4", "res": {"t": "address", "addr": "70 Leoforos Perneras, 5296 Παραλίμνι, Cyprus", "ll": [35.028339, 34.038253], "conf": "low", "acc": "interpolated", "place": "Παραλίμνι"}}
+{"q": "75, Pernera Avenue 5296, Paralimni, Protaras |box4", "res": {"t": "address", "addr": "75 Leoforos Perneras, 5295 Παραλίμνι, Cyprus", "ll": [35.031574, 34.036537], "conf": "low", "acc": "rooftop", "place": "Παραλίμνι"}}
+{"q": "75, Pernera Avenue, Paralimni, Protaras |box4", "res": {"t": "address", "addr": "75 Leoforos Perneras, 5295 Παραλίμνι, Cyprus", "ll": [35.031574, 34.036537], "conf": "low", "acc": "rooftop", "place": "Παραλίμνι"}}
+{"q": "2, Iasonos Street 5296, Protaras |box4", "res": {"t": "street", "addr": "Iasonos, 5296 Παραλίμνι, Cyprus", "ll": [35.013176, 34.056422], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "2, Iasonos Street, Protaras |box4", "res": {"t": "street", "addr": "Iasonos, 5296 Παραλίμνι, Cyprus", "ll": [35.013176, 34.056422], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "69, Protaras Avenue 5296, Protaras |box4", "res": {"t": "street", "addr": "Leoforos Protara, 5296 Παραλίμνι, Cyprus", "ll": [35.015041, 34.052881], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "69, Protaras Avenue, Protaras |box4", "res": {"t": "street", "addr": "Leoforos Protara, 5296 Παραλίμνι, Cyprus", "ll": [35.015041, 34.052881], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "8, Amfitritis Street 5296, Protaras |box4", "res": null}
+{"q": "8, Amfitritis Street, Protaras |box4", "res": null}
+{"q": "51, Protaras Street 5295, Protaras |box4", "res": null}
+{"q": "51, Protaras Street, Protaras |box4", "res": null}
+{"q": "435, Protaras-Kavo Gkreko Ave. 5296, Protaras |box4", "res": {"t": "street", "addr": "Leoforos Protara-Cavo Greco, 5296 Παραλίμνι, Cyprus", "ll": [35.019275, 34.043534], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "435, Protaras-Kavo Gkreko Ave., Protaras |box4", "res": {"t": "street", "addr": "Leoforos Protara-Cavo Greco, 5296 Παραλίμνι, Cyprus", "ll": [35.019275, 34.043534], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "42, Protaras Road 5288, Protaras |box4", "res": null}
+{"q": "42, Protaras Road, Protaras |box4", "res": null}
+{"q": "25, Protaras Avenue 5296, Protaras |box4", "res": {"t": "street", "addr": "Leoforos Protara, 5296 Παραλίμνι, Cyprus", "ll": [35.015041, 34.052881], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "25, Protaras Avenue, Protaras |box4", "res": {"t": "street", "addr": "Leoforos Protara, 5296 Παραλίμνι, Cyprus", "ll": [35.015041, 34.052881], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "Georgiou Gourounia 145, Paralimni |box4", "res": {"t": "street", "addr": "Georgiou Gourounia, 5281 Παραλίμνι, Cyprus", "ll": [35.050182, 33.977122], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "Leoforos Protara - Cavo Greko 393, Paralimni |box4", "res": {"t": "street", "addr": "Leoforos Protara - Cavo Greco, 5295 Παραλίμνι, Cyprus", "ll": [35.048188, 34.016479], "conf": null, "acc": null, "place": "Παραλίμνι"}}

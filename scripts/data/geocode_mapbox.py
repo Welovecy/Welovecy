@@ -15,6 +15,12 @@ def km(a, b):
     x = math.sin((b[0]-a[0])*t/2)**2 + math.cos(a[0]*t)*math.cos(b[0]*t)*math.sin((b[1]-a[1])*t/2)**2
     return 2*6371*math.asin(math.sqrt(x))
 
+class CapReached(Exception):
+    pass
+
+PRIORITY = ["ayianapa", "protaras", "paphos", "akamas", "limassol", "larnaca", "nicosia", "troodos"]
+KIND_ORDER = {"hotel": 0, "apart": 0, "pharmacy": 1, "health": 1, "market": 1, "eat": 2, "cafe": 2, "night": 2}
+
 def load_cache():
     c = {}
     if os.path.exists(CACHE):
@@ -25,7 +31,7 @@ def load_cache():
 def query(q, prox, cache, box_km=None):
     key = q + (f" |box{box_km}" if box_km else "")
     if key in cache: return cache[key]["res"]
-    if len(cache) >= HARD_CAP: raise SystemExit(f"Hard cap of {HARD_CAP} requests reached")
+    if len(cache) >= HARD_CAP: raise CapReached()
     params = {"q": q, "country": "cy", "limit": "1", "permanent": "true", "autocomplete": "false",
               "types": "address,street", "access_token": TOKEN}
     if prox: params["proximity"] = f"{prox[1]},{prox[0]}"
@@ -99,38 +105,61 @@ def main():
     biz = json.load(open("data/businesses.json", encoding="utf-8"))
     pois = json.load(open("data/pois.json", encoding="utf-8"))
     centres = town_centres(biz, pois)
-    todo = [("b", r) for r in biz if not r.get("ll") and r.get("a") and r["g"] in ("hotel", "apart")]
-    todo += [("p", r) for r in pois if not r.get("ll") and r.get("a") and r["k"] in ("pharmacy", "market", "health")]
+    compare = "--compare" in sys.argv
+    if compare:
+        # already pinned from OpenStreetMap or official data: how close does Mapbox land?
+        todo = [("b", r) for r in biz if r.get("ll") and r.get("a") and r["g"] in ("hotel", "apart") and r["d"] in PRIORITY[:6]]
+        todo += [("p", r) for r in pois if r.get("ll") and r.get("a") and r.get("src") != "osm" and r["k"] in ("pharmacy", "market", "health")]
+        todo = todo[:int(os.environ.get("COMPARE_N", "150"))]
+    else:
+        todo = [("b", r) for r in biz if not r.get("ll") and r.get("a")]
+        todo += [("p", r) for r in pois if not r.get("ll") and r.get("a") and r["k"] in ("pharmacy", "market", "health")]
+        todo.sort(key=lambda x: (KIND_ORDER[x[1].get("g") or x[1].get("k")] >= 2, PRIORITY.index(x[1]["d"]), KIND_ORDER[x[1].get("g") or x[1].get("k")]))
     if sample:
         pick = [x for x in todo if x[0] == "b"][:8] + [x for x in todo if x[1].get("k") == "pharmacy"][:8] + \
                [x for x in todo if x[1].get("k") == "market"][:2] + [x for x in todo if x[1].get("k") == "health"][:2]
         todo = pick
-    if limit: todo = todo[:limit]
     cache = load_cache(); before = len(cache)
     out = json.load(open("data/work/mapbox_pins.json")) if os.path.exists("data/work/mapbox_pins.json") else {}
     stats = {"exact": 0, "approx": 0, "none": 0}
+    diffs = []
+    by_area = {}
     for kind, r in todo:
-        tw = r.get("tw") if r.get("tw") not in (None, "", "Not specified") else None
-        centre = centres.get(tw) if tw else None
-        known = centre is not None
-        centre = centre or DEST_CENTRE[r["d"]]
-        a = clean(r["a"])
-        a = re.sub(r"Λεωφ\.?\s*", "Λεωφόρος ", a); a = re.sub(r",?\s*(κατ|Κατ|shop|Shop|bldg)\.?\s*[\w ]+$", "", a)
-        TOWN[0] = tw or ""
-        qs = [a if (tw and tw.lower() in a.lower()) else f"{a}, {tw}" if tw else a]
-        best, why = None, ""
-        for q in qs + ([re.sub(r"\b\d{4}\b", "", qs[0]).replace(" ,", ",")] if re.search(r"\b\d{4}\b", qs[0]) else []):
-            res = query(q, centre, cache, 4 if known else 15)
-            grade, why = accept(res, centre, known, q)
-            if grade == "exact": best = (grade, res); break
-            if grade and not best: best = (grade, res)
-        if best:
-            out[r["i"]] = {"ll": [round(best[1]["ll"][0], 6), round(best[1]["ll"][1], 6)], "pr": best[0], "addr": best[1]["addr"]}
-            stats[best[0]] += 1
-        else:
-            stats["none"] += 1
-        if sample: print(f'{best[0] if best else "MISS":6} | {r["n"][:28]:28} | {a[:45]:45} | {(best[1]["addr"] if best else why)[:60]}')
-    json.dump(out, open("data/work/mapbox_pins.json", "w"), ensure_ascii=False, indent=0)
+      try:
+          tw = r.get("tw") if r.get("tw") not in (None, "", "Not specified") else None
+          centre = centres.get(tw) if tw else None
+          known = centre is not None
+          centre = centre or DEST_CENTRE[r["d"]]
+          a = clean(r["a"])
+          a = re.sub(r"Λεωφ\.?\s*", "Λεωφόρος ", a); a = re.sub(r",?\s*(κατ|Κατ|shop|Shop|bldg)\.?\s*[\w ]+$", "", a)
+          TOWN[0] = tw or ""
+          qs = [a if (tw and tw.lower() in a.lower()) else f"{a}, {tw}" if tw else a]
+          best, why = None, ""
+          for q in qs + ([re.sub(r"\b\d{4}\b", "", qs[0]).replace(" ,", ",")] if re.search(r"\b\d{4}\b", qs[0]) else []):
+              res = query(q, centre, cache, 4 if known else 15)
+              grade, why = accept(res, centre, known, q)
+              if grade == "exact": best = (grade, res); break
+              if grade and not best: best = (grade, res)
+          if best and not compare:
+              out[r["i"]] = {"ll": [round(best[1]["ll"][0], 6), round(best[1]["ll"][1], 6)], "pr": best[0], "addr": best[1]["addr"]}
+              stats[best[0]] += 1
+          else:
+              stats["none"] += 1
+          if compare and best:
+              diffs.append((km(best[1]["ll"], r["ll"]), best[0], r["n"], r["d"]))
+              continue
+          if sample: print(f'{best[0] if best else "MISS":6} | {r["n"][:28]:28} | {a[:45]:45} | {(best[1]["addr"] if best else why)[:60]}')
+      except CapReached:
+          print("Stopped at the hard cap."); break
+    if compare:
+        diffs.sort()
+        for grade in ("exact", "approx"):
+            d = [x[0] for x in diffs if x[1] == grade]
+            if d:
+                print(f"{grade}: {len(d)} matched · median {statistics.median(d)*1000:.0f} m · within 100 m {sum(x<=0.1 for x in d)} · within 300 m {sum(x<=0.3 for x in d)} · over 1 km {sum(x>1 for x in d)}")
+        json.dump([list(x) for x in diffs], open("data/work/mapbox_compare.json", "w"), ensure_ascii=False)
+    else:
+        json.dump(out, open("data/work/mapbox_pins.json", "w"), ensure_ascii=False, indent=0)
     used = len(cache) - before
     print(f"records {len(todo)} · exact {stats['exact']} · approx {stats['approx']} · missed {stats['none']} · new requests {used} (~${used*5/1000:.2f}) · total billed so far {len(cache)}")
 
