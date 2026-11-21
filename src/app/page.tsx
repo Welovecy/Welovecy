@@ -7,7 +7,7 @@ import { HomeBase } from "@/components/HomeBase";
 import { HeroDemo, type DemoStop } from "@/components/HeroDemo";
 import { BUS, BUSINESSES, POIS, getBusiness, getDest, isStay, listingHref, spots } from "@/lib/data";
 import { essentials } from "@/lib/around";
-import { walkMinutes } from "@/lib/geo";
+import { WALK_MAX_KM, driveMinutes, walkMinutes } from "@/lib/geo";
 import { ESSENTIAL_LABEL, KINDS } from "@/lib/kinds";
 
 /** Real hotels in each holiday area, in the order guests ask about them. [id, name to type] */
@@ -15,9 +15,6 @@ const SHOWCASE: [string, string][] = [
   ["cy-00052", "Olympic Lagoon"], ["cy-02787", "Cap St Georges"], ["wlc-0001", "Sunrise Pearl"],
   ["cy-01758", "Parklane"], ["cy-00691", "Radisson Blu"],
 ];
-const DEMO_MAX_KM = 2.5;
-/** about a 15-minute walk; further than that we give a short drive time */
-const WALK_MAX_KM = 1.2;
 
 /** "Pharmacy" for pharmacies listed under the pharmacist's Greek name; chain branches lose their street. */
 function displayName(kind: string, n: string) {
@@ -32,11 +29,11 @@ function demoStops(): DemoStop[] {
     name: short,
     area: (b!.tw && b!.tw !== "Not specified" ? b!.tw : getDest(b!.d)?.name) ?? "",
     href: `${listingHref(b!.i)}/around`,
-    rows: essentials(b!.ll!, pool, b!.i).filter((e) => e.near && e.near.d <= DEMO_MAX_KM).map((e) => ({
+    rows: essentials(b!.ll!, pool, b!.i).filter((e) => e.near).map((e) => ({
       k: e.kind,
       label: ((l) => l.charAt(0).toUpperCase() + l.slice(1))((ESSENTIAL_LABEL[e.kind] ?? "").replace("Nearest ", "")),
       name: displayName(e.kind, e.near!.s.n),
-      time: e.near!.d <= WALK_MAX_KM ? `${walkMinutes(e.near!.d)} min` : `${Math.max(3, Math.round(((e.near!.d * 1.3) / 30) * 60))} min`,
+      time: `${e.near!.d <= WALK_MAX_KM ? walkMinutes(e.near!.d) : driveMinutes(e.near!.d)} min`,
       mode: (e.near!.d <= WALK_MAX_KM ? "walk" : "drive") as "walk" | "drive",
       color: KINDS[e.kind].c,
       extra: e.kind === "bus" && e.near!.s.rt?.length ? `Bus ${e.near!.s.rt.slice(0, 3).join(", ")}` : undefined,

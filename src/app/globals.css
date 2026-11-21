@@ -406,3 +406,9 @@ html{-webkit-tap-highlight-color:transparent}
 .mode-icon{display:none;opacity:.75}
 @media (max-width:600px){.mode-word{display:none}.mode-icon{display:inline-block}.demo-rows li{grid-template-columns:auto 78px minmax(0,1fr) auto}}
 .hero2{clip-path:inset(0 round var(--r-lg))}
+@media (max-width:600px){
+  .around-head,.biz-head{padding:20px;gap:10px}
+  .around-head h1,.biz-head h1{font-size:clamp(30px,8vw,40px)}
+  .around-head .actions,.biz-head .actions{gap:8px}
+  .around-head .btn,.biz-head .btn,.around-head .save,.biz-head .save{min-height:42px;height:42px;padding:0 16px;font-size:15px}
+}

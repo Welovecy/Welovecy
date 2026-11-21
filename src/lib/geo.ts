@@ -26,10 +26,21 @@ export function taxiEstimate(d: number): number {
   return Math.round(TAXI.start + TAXI.perKm * d * ROAD_FACTOR);
 }
 
-/** "350 m · 5 min walk" up to about 2 km, then "6.4 km · about €12 by taxi". */
+/** Beyond this a walk stops being the answer and we give the drive. About 15 minutes on foot. */
+export const WALK_MAX_KM = 1.2;
+
+/** Rough door-to-door drive: road distance at town speeds for short hops, faster on longer runs. */
+export function driveMinutes(d: number): number {
+  const road = d * ROAD_FACTOR;
+  // first 3 km at 30 km/h in town, the next 7 at 45, the rest at 60, so further is never quicker
+  const hours = Math.min(road, 3) / 30 + Math.min(Math.max(road - 3, 0), 7) / 45 + Math.max(road - 10, 0) / 60;
+  return Math.max(3, Math.round(hours * 60) + 1);
+}
+
+/** "350 m · 5 min walk" for short walks, then "6.4 km · 12 min drive · about €12 by taxi". */
 export function howFar(d: number): string {
-  if (d <= 2.2) return `${fmtD(d)} · ${walkMinutes(d)} min walk`;
-  return `${fmtD(d)} · about €${taxiEstimate(d)} by taxi`;
+  if (d <= WALK_MAX_KM) return `${fmtD(d)} · ${walkMinutes(d)} min walk`;
+  return `${fmtD(d)} · ${driveMinutes(d)} min drive · about €${taxiEstimate(d)} by taxi`;
 }
 
 export function directionsTo(ll: LL): string {

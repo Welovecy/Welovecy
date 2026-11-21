@@ -24,7 +24,7 @@ export function AroundPage({ ll, name, sub, back, skip, stay }: Props) {
       <div className="wrap">
         <Crumbs items={[["Home", "/"], [name, back], ["What's around"]]} />
         <div className="around-head">
-          <p className="eyebrow">{stay ? "What's around this hotel" : "Exploring around"} · {sub}</p>
+          <p className="eyebrow">{stay ? sub : `Exploring around · ${sub}`}</p>
           <h1>{name}</h1>
           <FromBase ll={ll} skip={stay?.id} />
           <div className="actions">
