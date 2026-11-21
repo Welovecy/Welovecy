@@ -1,0 +1,64 @@
+{"q": "10, Petraki Yiallourou Street 1077, Agioi Omologites", "res": {"t": "address", "addr": "10 Πετράκη Γιάλλουρου, 1077 Λευκωσία, Cyprus", "ll": [35.158115, 33.3708], "conf": "low", "acc": "point", "place": "Λευκωσία"}}
+{"q": "10, Petraki Yiallourou Street, Agioi Omologites", "res": {"t": "address", "addr": "10 Πετράκη Γιάλλουρου, 1077 Λευκωσία, Cyprus", "ll": [35.158115, 33.3708], "conf": "low", "acc": "point", "place": "Λευκωσία"}}
+{"q": "54 Arch. Makariou III 5330, Ayia Napa", "res": {"t": "address", "addr": "54 Λεωφόρος Αρχιεπισκόπου Μακαρίου ΄γ, 2800 Κακοπετριά, Cyprus", "ll": [34.990448, 32.904977], "conf": "low", "acc": "interpolated", "place": "Κακοπετριά"}}
+{"q": "54 Arch. Makariou III, Ayia Napa", "res": {"t": "address", "addr": "54 Λεωφόρος Αρχιεπισκόπου Μακαρίου ΄γ, 2800 Κακοπετριά, Cyprus", "ll": [34.990448, 32.904977], "conf": "low", "acc": "interpolated", "place": "Κακοπετριά"}}
+{"q": "1, Achaion 2413, Egkomi, Nicosia", "res": {"t": "address", "addr": "1 Achaion, 2411 Έγκωμη, Cyprus", "ll": [35.164099, 33.325111], "conf": "low", "acc": "interpolated", "place": "Έγκωμη"}}
+{"q": "1, Achaion, Egkomi, Nicosia", "res": {"t": "address", "addr": "1 Achaion, 2411 Έγκωμη, Cyprus", "ll": [35.164099, 33.325111], "conf": "low", "acc": "interpolated", "place": "Έγκωμη"}}
+{"q": "Anexartisias 2644, Kampia", "res": {"t": "street", "addr": "Ανεξαρτησίας, 2406 Έγκωμη, Cyprus", "ll": [35.16377, 33.34355], "conf": null, "acc": null, "place": "Έγκωμη"}}
+{"q": "Anexartisias, Kampia", "res": {"t": "street", "addr": "Ανεξαρτησίας, 2406 Έγκωμη, Cyprus", "ll": [35.16377, 33.34355], "conf": null, "acc": null, "place": "Έγκωμη"}}
+{"q": "104, Nicolaou Papageorgiou Ave. 2940, Kato Pirgos, Kato Pyrgos", "res": {"t": "street", "addr": "Pyrgos, 2940 Κάτω Πύργος, Cyprus", "ll": [35.185849, 32.679], "conf": null, "acc": null, "place": "Κάτω Πύργος"}}
+{"q": "104, Nicolaou Papageorgiou Ave., Kato Pirgos, Kato Pyrgos", "res": {"t": "street", "addr": "Pyrgos, 2940 Κάτω Πύργος, Cyprus", "ll": [35.185849, 32.679], "conf": null, "acc": null, "place": "Κάτω Πύργος"}}
+{"q": "34, N. Papageorgiou Str. 2940, Kato Pyrgos", "res": {"t": "street", "addr": "Pyrgos, 2940 Κάτω Πύργος, Cyprus", "ll": [35.185849, 32.679], "conf": null, "acc": null, "place": "Κάτω Πύργος"}}
+{"q": "34, N. Papageorgiou Str., Kato Pyrgos", "res": {"t": "street", "addr": "N. Papageorgiou, 8011 Πάφος, Cyprus", "ll": [34.773212, 32.425245], "conf": null, "acc": null, "place": "Πάφος"}}
+{"q": "2, N. Papageorgiou Street 2940, Kato Pyrgos", "res": {"t": "street", "addr": "Pyrgos, 2940 Κάτω Πύργος, Cyprus", "ll": [35.185849, 32.679], "conf": null, "acc": null, "place": "Κάτω Πύργος"}}
+{"q": "2, N. Papageorgiou Street, Kato Pyrgos", "res": {"t": "street", "addr": "N. Papageorgiou, 8011 Πάφος, Cyprus", "ll": [34.773212, 32.425245], "conf": null, "acc": null, "place": "Πάφος"}}
+{"q": "40, N. Papageorgiou Street 2940, Kato Pyrgos", "res": {"t": "street", "addr": "Pyrgos, 2940 Κάτω Πύργος, Cyprus", "ll": [35.185849, 32.679], "conf": null, "acc": null, "place": "Κάτω Πύργος"}}
+{"q": "40, N. Papageorgiou Street, Kato Pyrgos", "res": {"t": "street", "addr": "N. Papageorgiou, 8011 Πάφος, Cyprus", "ll": [34.773212, 32.425245], "conf": null, "acc": null, "place": "Πάφος"}}
+{"q": "Εμπορικό Κέντρο 3 Β, Άχνα, Achna", "res": {"t": "address", "addr": "3 Apostolou Varnava, 4181 'Υψωνας, Cyprus", "ll": [34.688247, 32.960533], "conf": "low", "acc": "rooftop", "place": "'Υψωνας"}}
+{"q": "Καρύων 95Α, Αυγόρου, Avgorou", "res": null}
+{"q": "Λεωφ. Ξυλοφάγου & Αγίας Νάπας 2, Ayia Napa", "res": {"t": "street", "addr": "Ασίας, 3048 Λεμεσός, Cyprus", "ll": [34.665663, 33.014232], "conf": null, "acc": null, "place": "Λεμεσός"}}
+{"q": "Λεωφ. Μακαρίου 18, Ayia Napa", "res": {"t": "address", "addr": "18 Λεωφόρος Αρχιεπισκόπου Μακαρίου Γ’, 3016 Λεμεσός, Cyprus", "ll": [34.675201, 33.020378], "conf": "low", "acc": "rooftop", "place": "Λεμεσός"}}
+{"q": "Αγίας Θέκλας 52, Parking Garage, bldg 2, Ayia Napa", "res": {"t": "address", "addr": "52 Θέκλας Λυσιώτη, 3030 Λεμεσός, Cyprus", "ll": [34.686832, 33.051099], "conf": "low", "acc": "interpolated", "place": "Λεμεσός"}}
+{"q": "Λεωφ. Νησί 20 Κατ. 11, Ayia Napa", "res": {"t": "address", "addr": "11-11b Νίκου Και Δέσποινας Παττίχη, 3071 Λεμεσός, Cyprus", "ll": [34.685512, 33.025066], "conf": "low", "acc": "rooftop", "place": "Λεμεσός"}}
+{"q": "Κρυού Νερού 28, κατ. 2, Ayia Napa", "res": {"t": "address", "addr": "28 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.986904, 34.006328], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "Λεωφ. Νησί 52, Ayia Napa", "res": {"t": "street", "addr": "Çapa Sokak, 1150 Λευκωσία, Cyprus", "ll": [35.175682, 33.360489], "conf": null, "acc": null, "place": "Λευκωσία"}}
+{"q": "Ayia Napa", "res": {"t": "street", "addr": "Çapa Sokak, 1150 Λευκωσία, Cyprus", "ll": [35.175682, 33.360489], "conf": null, "acc": null, "place": "Λευκωσία"}}
+{"q": "1ης Απριλίου 71 5281 Παραλίμνι, Paralimni", "res": {"t": "street", "addr": "Λεωφόρος 1ης Απριλίου, 5292 Παραλίμνι, Cyprus", "ll": [35.014951, 33.988775], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "1ης Απριλίου 71  Παραλίμνι, Paralimni", "res": {"t": "street", "addr": "Λεωφόρος 1ης Απριλίου, 5292 Παραλίμνι, Cyprus", "ll": [35.014951, 33.988775], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "Χαβάρες 24, Αγία Νάπα, Ayia Napa", "res": {"t": "street", "addr": "Çapa Sokak, 1150 Λευκωσία, Cyprus", "ll": [35.175682, 33.360489], "conf": null, "acc": null, "place": "Λευκωσία"}}
+{"q": "Τάκη Σοφοκλέους 5, Δερύνεια, Deryneia", "res": {"t": "address", "addr": "5 Σοφοκλέους, 2121 Αγλαντζιά ή Αγλαγγιά, Cyprus", "ll": [35.143081, 33.375171], "conf": "low", "acc": "rooftop", "place": "Αγλαντζιά ή Αγλαγγιά"}}
+{"q": "10, Petraki Yiallourou Street 1077, Agioi Omologites |box15", "res": {"t": "address", "addr": "10 Πετράκη Γιάλλουρου, 1077 Λευκωσία, Cyprus", "ll": [35.158115, 33.3708], "conf": "low", "acc": "point", "place": "Λευκωσία"}}
+{"q": "10, Petraki Yiallourou Street, Agioi Omologites |box15", "res": {"t": "address", "addr": "10 Πετράκη Γιάλλουρου, 1077 Λευκωσία, Cyprus", "ll": [35.158115, 33.3708], "conf": "low", "acc": "point", "place": "Λευκωσία"}}
+{"q": "54 Arch. Makariou III 5330, Ayia Napa |box4", "res": null}
+{"q": "54 Arch. Makariou III, Ayia Napa |box4", "res": null}
+{"q": "1, Achaion 2413, Egkomi, Nicosia |box15", "res": {"t": "address", "addr": "1 Achaion, 2411 Έγκωμη, Cyprus", "ll": [35.164099, 33.325111], "conf": "low", "acc": "interpolated", "place": "Έγκωμη"}}
+{"q": "1, Achaion, Egkomi, Nicosia |box15", "res": {"t": "address", "addr": "1 Achaion, 2411 Έγκωμη, Cyprus", "ll": [35.164099, 33.325111], "conf": "low", "acc": "interpolated", "place": "Έγκωμη"}}
+{"q": "Anexartisias 2644, Kampia |box15", "res": {"t": "street", "addr": "Ανεξαρτησίας, 2406 Έγκωμη, Cyprus", "ll": [35.16377, 33.34355], "conf": null, "acc": null, "place": "Έγκωμη"}}
+{"q": "Anexartisias, Kampia |box15", "res": {"t": "street", "addr": "Ανεξαρτησίας, 2406 Έγκωμη, Cyprus", "ll": [35.16377, 33.34355], "conf": null, "acc": null, "place": "Έγκωμη"}}
+{"q": "104, Nicolaou Papageorgiou Ave. 2940, Kato Pirgos, Kato Pyrgos |box4", "res": {"t": "street", "addr": "Pyrgos, 2940 Κάτω Πύργος, Cyprus", "ll": [35.185849, 32.679], "conf": null, "acc": null, "place": "Κάτω Πύργος"}}
+{"q": "104, Nicolaou Papageorgiou Ave., Kato Pirgos, Kato Pyrgos |box4", "res": {"t": "street", "addr": "Pyrgos, 2940 Κάτω Πύργος, Cyprus", "ll": [35.185849, 32.679], "conf": null, "acc": null, "place": "Κάτω Πύργος"}}
+{"q": "34, N. Papageorgiou Str. 2940, Kato Pyrgos |box4", "res": {"t": "street", "addr": "Pyrgos, 2940 Κάτω Πύργος, Cyprus", "ll": [35.185849, 32.679], "conf": null, "acc": null, "place": "Κάτω Πύργος"}}
+{"q": "34, N. Papageorgiou Str., Kato Pyrgos |box4", "res": {"t": "street", "addr": "Pyrgos, 2940 Κάτω Πύργος, Cyprus", "ll": [35.185849, 32.679], "conf": null, "acc": null, "place": "Κάτω Πύργος"}}
+{"q": "2, N. Papageorgiou Street 2940, Kato Pyrgos |box4", "res": {"t": "street", "addr": "Pyrgos, 2940 Κάτω Πύργος, Cyprus", "ll": [35.185849, 32.679], "conf": null, "acc": null, "place": "Κάτω Πύργος"}}
+{"q": "2, N. Papageorgiou Street, Kato Pyrgos |box4", "res": {"t": "street", "addr": "Pyrgos, 2940 Κάτω Πύργος, Cyprus", "ll": [35.185849, 32.679], "conf": null, "acc": null, "place": "Κάτω Πύργος"}}
+{"q": "40, N. Papageorgiou Street 2940, Kato Pyrgos |box4", "res": {"t": "street", "addr": "Pyrgos, 2940 Κάτω Πύργος, Cyprus", "ll": [35.185849, 32.679], "conf": null, "acc": null, "place": "Κάτω Πύργος"}}
+{"q": "40, N. Papageorgiou Street, Kato Pyrgos |box4", "res": {"t": "street", "addr": "Pyrgos, 2940 Κάτω Πύργος, Cyprus", "ll": [35.185849, 32.679], "conf": null, "acc": null, "place": "Κάτω Πύργος"}}
+{"q": "Εμπορικό Κέντρο 3 Β, Άχνα, Achna |box15", "res": null}
+{"q": "Καρύων 95Α, Αυγόρου, Avgorou |box15", "res": null}
+{"q": "Λεωφ. Ξυλοφάγου & Αγίας Νάπας 2, Ayia Napa |box4", "res": null}
+{"q": "Λεωφ. Μακαρίου 18, Ayia Napa |box4", "res": null}
+{"q": "Αγίας Θέκλας 52, Parking Garage, bldg 2, Ayia Napa |box4", "res": null}
+{"q": "Λεωφ. Νησί 20 Κατ. 11, Ayia Napa |box4", "res": null}
+{"q": "Κρυού Νερού 28, κατ. 2, Ayia Napa |box4", "res": {"t": "address", "addr": "28 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.986904, 34.006328], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "Λεωφ. Νησί 52, Ayia Napa |box4", "res": null}
+{"q": "Ayia Napa |box4", "res": null}
+{"q": "1ης Απριλίου 71 5281 Παραλίμνι, Paralimni |box4", "res": {"t": "street", "addr": "Λεωφόρος 1ης Απριλίου, 5292 Παραλίμνι, Cyprus", "ll": [35.014951, 33.988775], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "1ης Απριλίου 71  Παραλίμνι, Paralimni |box4", "res": {"t": "street", "addr": "Λεωφόρος 1ης Απριλίου, 5292 Παραλίμνι, Cyprus", "ll": [35.014951, 33.988775], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "Χαβάρες 24, Αγία Νάπα, Ayia Napa |box4", "res": null}
+{"q": "Τάκη Σοφοκλέους 5, Δερύνεια, Deryneia |box15", "res": {"t": "street", "addr": "Sofokleous, 5290 Παραλίμνι, Cyprus", "ll": [35.050717, 33.994911], "conf": null, "acc": null, "place": "Παραλίμνι"}}
+{"q": "Λεωφόρος Ξυλοφάγου & Αγίας Νάπας 2, Ayia Napa |box4", "res": null}
+{"q": "Λεωφόρος Μακαρίου 18, Ayia Napa |box4", "res": null}
+{"q": "Αγίας Θέκλας 52, Parking Garage, Ayia Napa |box4", "res": null}
+{"q": "Λεωφόρος Νησί 20, Ayia Napa |box4", "res": null}
+{"q": "Κρυού Νερού 28, Ayia Napa |box4", "res": {"t": "address", "addr": "28 Λεωφόρος Κρυού Νερού, 5330 Αγία Νάπα, Cyprus", "ll": [34.986904, 34.006328], "conf": "low", "acc": "point", "place": "Αγία Νάπα"}}
+{"q": "Λεωφόρος Νησί 52, Ayia Napa |box4", "res": null}
