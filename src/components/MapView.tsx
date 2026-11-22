@@ -72,7 +72,7 @@ export function MapView({ center, focus, others, kind, label }: Props) {
         m.touchZoomRotate.disableRotation();
         m.addControl(new ml.NavigationControl({ showCompass: false }), "top-right");
         const timer = window.setTimeout(() => { if (!m.loaded()) setState("failed"); }, 9000);
-        m.on("load", () => { window.clearTimeout(timer); setState("ready"); });
+        m.on("load", () => { window.clearTimeout(timer); setState("ready"); box.current?.querySelector(".maplibregl-ctrl-attrib")?.classList.remove("maplibregl-compact-show"); });
         m.on("style.load", () => tint(m));
         m.on("error", (e) => { if (!m.loaded() && /style|fetch|Failed/i.test(String(e.error?.message))) setState("failed"); });
         map.current = m;
