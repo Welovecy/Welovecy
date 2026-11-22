@@ -1,10 +1,10 @@
 import "server-only";
-import type { Business, DestId, LL, Poi, Spot } from "./types";
+import type { Business, DestId, LL, Place, Poi, Spot } from "./types";
 import {
-  BUSINESSES, DEST_CENTRE, PLACES, POIS, bizDirections, bizSub, isStay, listingHref, placeForPoi, placeKind, poiDirections, poiSub, spots, townOf,
+  BUSINESSES, DEST_CENTRE, PLACES, POIS, bizDirections, bizSub, isStay, listingHref, placeForPoi, placeHref, placeKind, poiDirections, poiSub, spots, townOf,
 } from "./data";
 import { aroundLists, essentials, nearestKey, nearestOf } from "./around";
-import { km } from "./geo";
+import { directionsTo, km } from "./geo";
 import { KINDS } from "./kinds";
 
 export const nearestDest = (ll: LL): DestId => nearestKey(ll, DEST_CENTRE);
@@ -27,6 +27,14 @@ export function poiRow(r: Poi): RowData {
     sub: [poiSub(r), r.tw].filter(Boolean).join(" · "),
   };
 }
+export function placeRow(p: Place): RowData {
+  const k = placeKind(p);
+  return {
+    href: placeHref(p.slug), n: p.name, mono: KINDS[k].l, color: KINDS[k].c, dir: p.ll ? directionsTo(p.ll) : undefined,
+    sub: [p.unesco ? "UNESCO World Heritage" : p.cat, p.loc].filter(Boolean).join(" · "),
+  };
+}
+
 export function bizRow(b: Business, extra?: string): RowData {
   return { href: listingHref(b.i), n: b.n, mono: isStay(b) ? "H" : "E", sub: [bizSub(b), extra].filter(Boolean).join(" · "), dir: bizDirections(b) };
 }

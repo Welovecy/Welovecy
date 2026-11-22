@@ -108,3 +108,54 @@ describe("buses", () => {
     expect(bus.near!.s.rt?.length).toBeGreaterThan(0);
   });
 });
+
+import { PROFILES, WINE_ROUTES, getPlace, getPoi } from "@/lib/data";
+import guide from "@data/guide.json";
+import profiles from "@data/profiles.json";
+
+describe("visitor guide and profiles", () => {
+  it("pins every guide place inside the Republic, with a known area", () => {
+    const g = PLACES.filter((p) => p.how || p.loc);
+    expect(g.length).toBeGreaterThan(60);
+    expect(g.filter((p) => !p.ll).map((p) => p.slug)).toEqual([]);
+    expect(g.filter((p) => !inRepublic(p.ll!)).map((p) => p.slug)).toEqual([]);
+  });
+  it("has unique place slugs", () => {
+    const s = PLACES.map((p) => p.slug);
+    expect(new Set(s).size).toBe(s.length);
+  });
+  it("lists all ten Troodos painted churches and three Paphos sites", () => {
+    expect(PLACES.filter((p) => p.unesco === "troodos").length).toBe(10);
+    expect(PLACES.filter((p) => p.unesco === "paphos").map((p) => p.slug).sort()).toEqual(["kato-paphos", "palaipafos", "tombs-kings"]);
+    expect(PLACES.filter((p) => p.unesco === "choirokoitia").length).toBe(1);
+  });
+  it("resolves every profile, locality and wine route reference", () => {
+    const bad: string[] = [];
+    const check = (ref: string) => {
+      const [t, id] = ref.split(":");
+      if (t === "place" ? !getPlace(id) : t === "poi" ? !getPoi(id) : true) bad.push(ref);
+    };
+    for (const p of Object.values(PROFILES)) {
+      p.start.forEach(([r]) => check(r));
+      p.localities.forEach((l) => l.refs.forEach(check));
+    }
+    for (const r of WINE_ROUTES) [...r.wineries, ...(r.places ?? [])].forEach((s) => getPlace(s) || bad.push(s));
+    for (const p of PLACES) if (p.locality) {
+      const [d, l] = p.locality.split("/");
+      if (!PROFILES[d]?.localities.some((x) => x.slug === l)) bad.push(p.locality);
+    }
+    expect(bad).toEqual([]);
+  });
+  it("keeps locality routes unique and centres inside the Republic", () => {
+    for (const p of Object.values(PROFILES)) {
+      const s = p.localities.map((l) => l.slug);
+      expect(new Set(s).size).toBe(s.length);
+      expect(p.localities.filter((l) => !inRepublic(l.centre)).map((l) => l.slug)).toEqual([]);
+    }
+  });
+  it("follows the copy rules", () => {
+    const text = JSON.stringify(guide) + JSON.stringify(profiles);
+    expect(text).not.toMatch(/—/);
+    expect(text).not.toMatch(NORTH_WORDS);
+  });
+});

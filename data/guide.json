@@ -1,0 +1,1585 @@
+{
+ "places": [
+  {
+   "slug": "palaipafos",
+   "name": "Palaipafos and the Sanctuary of Aphrodite",
+   "dest": "paphos",
+   "cat": "Archaeological site",
+   "tint": "#9B7B58",
+   "interests": [
+    "culture"
+   ],
+   "ll": [
+    34.70865,
+    32.57463
+   ],
+   "loc": "Kouklia village, Paphos district",
+   "intro": "The ancient sanctuary of Aphrodite at Kouklia, part of the Paphos World Heritage property.",
+   "how": "Drive east from Paphos toward Kouklia and follow the signs for the sanctuary and museum. Check village bus services before relying on a return journey.",
+   "before": "Use the Kouklia sanctuary as your destination for the ancient temple. Aphrodite's Rock is a separate coastal stop. Allow time for the site and the museum if both are open.",
+   "sources": [
+    {
+     "t": "UNESCO: Paphos",
+     "u": "https://whc.unesco.org/en/list/79/"
+    },
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    },
+    {
+     "t": "Pafos Buses: routes and timetables",
+     "u": "https://www.pafosbuses.com/"
+    }
+   ],
+   "unesco": "paphos",
+   "alt": [
+    "Kouklia",
+    "Palaepaphos",
+    "Temple of Aphrodite"
+   ],
+   "locality": "paphos/kouklia"
+  },
+  {
+   "slug": "agios-nikolaos-tis-stegis",
+   "name": "Agios Nikolaos tis Stegis",
+   "dest": "troodos",
+   "cat": "Painted church",
+   "tint": "#7D6A8C",
+   "interests": [
+    "culture",
+    "villages"
+   ],
+   "ll": [
+    34.97727,
+    32.88955
+   ],
+   "loc": "Outside Kakopetria",
+   "intro": "A frescoed Byzantine church outside Kakopetria, one of the ten Troodos painted churches on the UNESCO list.",
+   "how": "Drive from Kakopetria to the signed church outside the village. Pair it with Panagia Podithou at Galata if opening arrangements allow.",
+   "before": "Check opening times and the photography rules for the frescoed interior.",
+   "sources": [
+    {
+     "t": "UNESCO: Painted Churches in the Troodos Region",
+     "u": "https://whc.unesco.org/en/list/351/"
+    },
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "unesco": "troodos",
+   "alt": [
+    "Saint Nicholas of the Roof"
+   ]
+  },
+  {
+   "slug": "agios-ioannis-lampadistis",
+   "name": "Agios Ioannis Lampadistis Monastery",
+   "dest": "troodos",
+   "cat": "Painted church and monastery",
+   "tint": "#7D6A8C",
+   "interests": [
+    "culture",
+    "villages"
+   ],
+   "ll": [
+    34.99229,
+    32.83018
+   ],
+   "loc": "Kalopanagiotis, Marathasa Valley",
+   "intro": "A riverside monastery complex in Kalopanagiotis with painted churches on the UNESCO list.",
+   "how": "Drive to Kalopanagiotis, then follow local directions to the monastery complex by the river. Allow time for the final walk from parking.",
+   "before": "Ask about the approach if anyone in your group needs a step-free visit.",
+   "sources": [
+    {
+     "t": "UNESCO: Painted Churches in the Troodos Region",
+     "u": "https://whc.unesco.org/en/list/351/"
+    },
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "unesco": "troodos",
+   "alt": [
+    "Saint John Lampadistis"
+   ]
+  },
+  {
+   "slug": "panagia-asinou",
+   "name": "Panagia Phorviotissa (Asinou)",
+   "dest": "troodos",
+   "cat": "Painted church",
+   "tint": "#7D6A8C",
+   "interests": [
+    "culture"
+   ],
+   "ll": [
+    35.0453,
+    32.97316
+   ],
+   "loc": "Near Nikitari",
+   "intro": "A painted church in the hills beyond Nikitari, known simply as Asinou.",
+   "how": "Drive to Nikitari and continue to the signed Asinou church beyond the village.",
+   "before": "Search for Asinou as well as the formal church name.",
+   "sources": [
+    {
+     "t": "UNESCO: Painted Churches in the Troodos Region",
+     "u": "https://whc.unesco.org/en/list/351/"
+    },
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "unesco": "troodos",
+   "alt": [
+    "Asinou",
+    "Panagia Forviotissa"
+   ]
+  },
+  {
+   "slug": "panagia-tou-araka",
+   "name": "Panagia tou Araka",
+   "dest": "troodos",
+   "cat": "Painted church",
+   "tint": "#7D6A8C",
+   "interests": [
+    "culture",
+    "villages"
+   ],
+   "ll": [
+    34.96544,
+    33.0072
+   ],
+   "loc": "Lagoudera",
+   "intro": "A painted church outside Lagoudera in the Pitsilia hills.",
+   "how": "Drive into the Lagoudera area and follow local signs for the church. Pair it with Stavros tou Agiasmati if both can be visited the same day.",
+   "before": "Confirm interior access before driving between villages.",
+   "sources": [
+    {
+     "t": "UNESCO: Painted Churches in the Troodos Region",
+     "u": "https://whc.unesco.org/en/list/351/"
+    },
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "unesco": "troodos",
+   "alt": [
+    "Lagoudera church"
+   ]
+  },
+  {
+   "slug": "panagia-tou-moutoulla",
+   "name": "Panagia tou Moutoulla",
+   "dest": "troodos",
+   "cat": "Painted church",
+   "tint": "#7D6A8C",
+   "interests": [
+    "culture",
+    "villages"
+   ],
+   "ll": [
+    34.98268,
+    32.82419
+   ],
+   "loc": "Moutoullas, Marathasa Valley",
+   "intro": "A small painted church in Moutoullas, in the Marathasa Valley.",
+   "how": "Approach through the Marathasa Valley and navigate to the church in Moutoullas. Combine with Kalopanagiotis if timing allows.",
+   "before": "Confirm opening and the final approach from parking.",
+   "sources": [
+    {
+     "t": "UNESCO: Painted Churches in the Troodos Region",
+     "u": "https://whc.unesco.org/en/list/351/"
+    },
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "unesco": "troodos"
+  },
+  {
+   "slug": "archangelos-michael-pedoulas",
+   "name": "Archangelos Michael Church, Pedoulas",
+   "dest": "troodos",
+   "cat": "Painted church",
+   "tint": "#7D6A8C",
+   "interests": [
+    "culture",
+    "villages"
+   ],
+   "ll": [
+    34.96763,
+    32.83144
+   ],
+   "loc": "Pedoulas village",
+   "intro": "A painted church within Pedoulas village.",
+   "how": "Drive to Pedoulas and follow directions to the church within the village. Allow time to park and walk the last section.",
+   "before": "Use Pedoulas in your map search to find the right church.",
+   "sources": [
+    {
+     "t": "UNESCO: Painted Churches in the Troodos Region",
+     "u": "https://whc.unesco.org/en/list/351/"
+    },
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "unesco": "troodos",
+   "alt": [
+    "Archangel Michael Pedoulas"
+   ]
+  },
+  {
+   "slug": "timios-stavros-pelendri",
+   "name": "Timios Stavros Church, Pelendri",
+   "dest": "troodos",
+   "cat": "Painted church",
+   "tint": "#7D6A8C",
+   "interests": [
+    "culture",
+    "villages"
+   ],
+   "ll": [
+    34.89302,
+    32.96633
+   ],
+   "loc": "Pelendri village",
+   "intro": "The painted Church of the Holy Cross in Pelendri.",
+   "how": "Approach Pelendri from the Limassol or Troodos side, depending on your base, and navigate to the church in the village.",
+   "before": "Use Pelendri in your search. Omodos has a similarly named monastery.",
+   "sources": [
+    {
+     "t": "UNESCO: Painted Churches in the Troodos Region",
+     "u": "https://whc.unesco.org/en/list/351/"
+    },
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "unesco": "troodos",
+   "alt": [
+    "Holy Cross Pelendri"
+   ]
+  },
+  {
+   "slug": "panagia-podithou",
+   "name": "Panagia Podithou",
+   "dest": "troodos",
+   "cat": "Painted church",
+   "tint": "#7D6A8C",
+   "interests": [
+    "culture",
+    "villages"
+   ],
+   "ll": [
+    35.00361,
+    32.89612
+   ],
+   "loc": "Galata village",
+   "intro": "A painted church at Galata, a short drive from Kakopetria.",
+   "how": "Drive to Galata and follow the signs to Panagia Podithou. Pair it with Kakopetria on the same outing.",
+   "before": "Confirm access and any keyholder arrangements.",
+   "sources": [
+    {
+     "t": "UNESCO: Painted Churches in the Troodos Region",
+     "u": "https://whc.unesco.org/en/list/351/"
+    },
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "unesco": "troodos"
+  },
+  {
+   "slug": "stavros-tou-agiasmati",
+   "name": "Stavros tou Agiasmati",
+   "dest": "troodos",
+   "cat": "Painted church",
+   "tint": "#7D6A8C",
+   "interests": [
+    "culture"
+   ],
+   "ll": [
+    34.97896,
+    33.04672
+   ],
+   "loc": "Near Platanistasa",
+   "intro": "A painted church in the countryside outside Platanistasa.",
+   "how": "Drive toward Platanistasa and follow the signs to the church outside the village. Allow extra time for the final rural road.",
+   "before": "Confirm access before pairing it with Panagia tou Araka at Lagoudera.",
+   "sources": [
+    {
+     "t": "UNESCO: Painted Churches in the Troodos Region",
+     "u": "https://whc.unesco.org/en/list/351/"
+    },
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "unesco": "troodos",
+   "alt": [
+    "Holy Cross of Agiasmati"
+   ]
+  },
+  {
+   "slug": "ayia-sotira-palaichori",
+   "name": "Metamorfosis tou Sotiros (Ayia Sotira), Palaichori",
+   "dest": "troodos",
+   "cat": "Painted church",
+   "tint": "#7D6A8C",
+   "interests": [
+    "culture",
+    "villages"
+   ],
+   "ll": [
+    34.92179,
+    33.09473
+   ],
+   "loc": "Palaichori village",
+   "intro": "The painted Church of the Transfiguration of the Saviour in Palaichori.",
+   "how": "Approach via the Palaichori area and use the full church name in your map. Walk the final section if village parking requires it.",
+   "before": "Also search for Transfiguration of the Saviour, Palaichori.",
+   "sources": [
+    {
+     "t": "UNESCO: Painted Churches in the Troodos Region",
+     "u": "https://whc.unesco.org/en/list/351/"
+    },
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "unesco": "troodos",
+   "alt": [
+    "Transfiguration of the Saviour"
+   ]
+  },
+  {
+   "slug": "maa-palaiokastro",
+   "name": "Maa-Palaiokastro",
+   "dest": "paphos",
+   "cat": "Archaeological site",
+   "tint": "#9B7B58",
+   "interests": [
+    "culture"
+   ],
+   "ll": [
+    34.85332,
+    32.36345
+   ],
+   "loc": "Coral Bay headland, Pegeia",
+   "intro": "An archaeological site on the headland at Coral Bay.",
+   "how": "Drive to Coral Bay and use the archaeological site as your destination. By bus, check Pafos Buses route 615 and the walk from the stop.",
+   "before": "Confirm the entrance and museum opening before adding it to a beach day.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    },
+    {
+     "t": "Pafos Buses: routes and timetables",
+     "u": "https://www.pafosbuses.com/"
+    }
+   ],
+   "locality": "paphos/coral-bay"
+  },
+  {
+   "slug": "agios-georgios-pegeia",
+   "name": "Agios Georgios Archaeological Site",
+   "dest": "paphos",
+   "cat": "Archaeological site",
+   "tint": "#9B7B58",
+   "interests": [
+    "culture"
+   ],
+   "ll": [
+    34.90264,
+    32.31991
+   ],
+   "loc": "Agios Georgios, Pegeia",
+   "intro": "Excavations on the coast at Agios Georgios, beyond Coral Bay.",
+   "how": "Drive beyond Coral Bay toward Agios Georgios and follow the local archaeological signs. Check bus connections from Coral Bay if you have no car.",
+   "before": "Map results also show the church and the little harbour, so pick the excavations.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    },
+    {
+     "t": "Pafos Buses: routes and timetables",
+     "u": "https://www.pafosbuses.com/"
+    }
+   ]
+  },
+  {
+   "slug": "kourion",
+   "name": "Kourion Archaeological Site",
+   "dest": "limassol",
+   "cat": "Archaeological site",
+   "tint": "#9B7B58",
+   "interests": [
+    "culture"
+   ],
+   "ll": [
+    34.66564,
+    32.88568
+   ],
+   "loc": "Clifftop near Episkopi, west of Limassol",
+   "intro": "The theatre, mosaics and ruins of ancient Kourion, on the cliff above the beach.",
+   "how": "Drive west toward Episkopi and follow the signs for the archaeological site. If you take a bus to Kourion Beach, check the uphill approach separately.",
+   "before": "Pair it with the Sanctuary of Apollo Hylates and the Kourion Museum when they're open.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "alt": [
+    "Curium"
+   ]
+  },
+  {
+   "slug": "apollo-hylates",
+   "name": "Sanctuary of Apollo Hylates",
+   "dest": "limassol",
+   "cat": "Archaeological site",
+   "tint": "#9B7B58",
+   "interests": [
+    "culture"
+   ],
+   "ll": [
+    34.67272,
+    32.86461
+   ],
+   "loc": "West of Kourion, Episkopi area",
+   "intro": "An ancient sanctuary west of Kourion, with its own entrance.",
+   "how": "Drive west from Kourion and follow the signs to the sanctuary's separate entrance.",
+   "before": "Allow a separate stop and check its own closing time.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "kolossi-castle",
+   "name": "Kolossi Castle",
+   "dest": "limassol",
+   "cat": "Castle",
+   "tint": "#9B7B58",
+   "interests": [
+    "culture",
+    "family"
+   ],
+   "ll": [
+    34.66507,
+    32.93397
+   ],
+   "loc": "Kolossi village, west of Limassol",
+   "intro": "A medieval castle in Kolossi village.",
+   "how": "Drive from Limassol toward Kolossi and use the castle entrance as your destination.",
+   "before": "Pair it with Kourion on the same day. Check the steps before planning an interior visit.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "kourion-museum",
+   "name": "Kourion Archaeological Museum",
+   "dest": "limassol",
+   "cat": "Museum",
+   "tint": "#9B7B58",
+   "interests": [
+    "culture"
+   ],
+   "ll": [
+    34.66962,
+    32.90115
+   ],
+   "loc": "Episkopi village",
+   "intro": "The local archaeological museum for Kourion, in Episkopi village.",
+   "how": "Navigate to the museum in Episkopi village before or after visiting the hilltop ruins.",
+   "before": "Check the museum's opening times separately from the site.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "amathous",
+   "name": "Amathous Archaeological Site",
+   "dest": "limassol",
+   "cat": "Archaeological site",
+   "tint": "#9B7B58",
+   "interests": [
+    "culture"
+   ],
+   "ll": [
+    34.71195,
+    33.14052
+   ],
+   "loc": "Agios Tychonas coast, east of Limassol",
+   "intro": "The ancient city of Amathous on the coast east of Limassol.",
+   "how": "Follow the coastal road east from Limassol toward Agios Tychonas and use the archaeological site, not the beach, as your destination.",
+   "before": "If you come by coastal bus, check the nearest stop and the walk to the gate.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "alt": [
+    "Amathus"
+   ]
+  },
+  {
+   "slug": "kition",
+   "name": "Ancient Kition",
+   "dest": "larnaca",
+   "cat": "Archaeological site",
+   "tint": "#9B7B58",
+   "interests": [
+    "culture"
+   ],
+   "ll": [
+    34.92313,
+    33.63045
+   ],
+   "loc": "Larnaca city, Kathari area",
+   "intro": "Remains of ancient Kition inside Larnaca city.",
+   "how": "Search for the public Kition archaeological entrance and confirm the current access point before you go.",
+   "before": "Use Kition with Larnaca in your search and check opening before planning a visit.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "alt": [
+    "Kition Kathari"
+   ]
+  },
+  {
+   "slug": "kalavasos-tenta",
+   "name": "Kalavasos-Tenta",
+   "dest": "larnaca",
+   "cat": "Archaeological site",
+   "tint": "#9B7B58",
+   "interests": [
+    "culture"
+   ],
+   "ll": [
+    34.7525,
+    33.30306
+   ],
+   "loc": "Near Kalavasos village, Larnaca district",
+   "intro": "A Neolithic settlement near Kalavasos, easy to spot by its large protective roof.",
+   "how": "Leave the A1 motorway toward Kalavasos and follow the site signs to the separate Tenta stop.",
+   "before": "Check access before pairing it with Choirokoitia.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "alt": [
+    "Tenta"
+   ]
+  },
+  {
+   "slug": "idalion",
+   "name": "Idalion Archaeological Site",
+   "dest": "nicosia",
+   "cat": "Archaeological site",
+   "tint": "#9B7B58",
+   "interests": [
+    "culture"
+   ],
+   "ll": [
+    35.01591,
+    33.42312
+   ],
+   "loc": "Dali, Nicosia district",
+   "intro": "The ancient city kingdom of Idalion at Dali.",
+   "how": "Drive southeast from Nicosia toward Dali. Check which entrance serves the archaeological site and museum on your visit date.",
+   "before": "Search for both Dali and Idalion.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "alt": [
+    "Dali"
+   ]
+  },
+  {
+   "slug": "tamassos",
+   "name": "Tamassos Archaeological Site",
+   "dest": "nicosia",
+   "cat": "Archaeological site",
+   "tint": "#9B7B58",
+   "interests": [
+    "culture"
+   ],
+   "ll": [
+    35.02922,
+    33.24397
+   ],
+   "loc": "Politiko village, Nicosia district",
+   "intro": "The ancient site of Tamassos at Politiko.",
+   "how": "Drive southwest from Nicosia toward Politiko and follow the local site directions.",
+   "before": "Check public access and opening before adding it to an inland day.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "alt": [
+    "Politiko"
+   ]
+  },
+  {
+   "slug": "makronissos-tombs",
+   "name": "Makronissos Tombs",
+   "dest": "ayianapa",
+   "cat": "Archaeological site",
+   "tint": "#9B7B58",
+   "interests": [
+    "culture"
+   ],
+   "ll": [
+    34.98314,
+    33.9549
+   ],
+   "loc": "Headland by Makronissos Beach, Ayia Napa",
+   "intro": "Rock-cut tombs on the headland beside Makronissos Beach.",
+   "how": "Head west from central Ayia Napa toward Makronissos Beach. From the beach access, follow the signed approach to the tombs.",
+   "before": "It's an outdoor site, so check the walking surface before you go.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    },
+    {
+     "t": "OSEA: east coast buses",
+     "u": "https://www.osea.com.cy/"
+    }
+   ],
+   "locality": "ayianapa/makronissos"
+  },
+  {
+   "slug": "kykkos",
+   "name": "Kykkos Monastery",
+   "dest": "troodos",
+   "cat": "Monastery",
+   "tint": "#6E7F8C",
+   "interests": [
+    "culture"
+   ],
+   "ll": [
+    34.98276,
+    32.73119
+   ],
+   "loc": "Western Troodos",
+   "intro": "The best-known monastery in Cyprus, high in the western Troodos.",
+   "how": "Drive the signed mountain roads to Kykkos. Use a separate destination for Throni if you include it.",
+   "before": "Check the monastery and museum hours separately.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "machairas",
+   "name": "Machairas Monastery",
+   "dest": "nicosia",
+   "cat": "Monastery",
+   "tint": "#6E7F8C",
+   "interests": [
+    "culture",
+    "nature"
+   ],
+   "ll": [
+    34.94035,
+    33.19073
+   ],
+   "loc": "Machairas mountains, inland from Nicosia",
+   "intro": "A mountain monastery in the Machairas forest.",
+   "how": "Drive from the Nicosia side toward the Machairas forest and follow the monastery signs on the final mountain road.",
+   "before": "Confirm public visiting arrangements around services.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "stavrovouni",
+   "name": "Stavrovouni Monastery",
+   "dest": "larnaca",
+   "cat": "Monastery",
+   "tint": "#6E7F8C",
+   "interests": [
+    "culture"
+   ],
+   "ll": [
+    34.88603,
+    33.4354
+   ],
+   "loc": "Hilltop near Pyrga, Larnaca district",
+   "intro": "A hilltop monastery near Pyrga with wide views.",
+   "how": "Turn off the Nicosia to Limassol road toward Pyrga and follow the signed hill road.",
+   "before": "Visit Cyprus states that women cannot enter the monastery and that photography and video are not allowed. Confirm access before setting off.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "trooditissa",
+   "name": "Trooditissa Monastery",
+   "dest": "troodos",
+   "cat": "Monastery",
+   "tint": "#6E7F8C",
+   "interests": [
+    "culture"
+   ],
+   "ll": [
+    34.91294,
+    32.83832
+   ],
+   "loc": "Southern Troodos slopes, above Platres",
+   "intro": "A monastery on the southern slopes of Troodos.",
+   "how": "Drive from the Platres or Prodromos side and follow the signed mountain approach.",
+   "before": "Check which areas are open to visitors on the day.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "trikoukkia",
+   "name": "Trikoukkia Monastery",
+   "dest": "troodos",
+   "cat": "Monastery",
+   "tint": "#6E7F8C",
+   "interests": [
+    "culture"
+   ],
+   "ll": [
+    34.93689,
+    32.8375
+   ],
+   "loc": "Prodromos area, Troodos",
+   "intro": "A small monastery near Prodromos.",
+   "how": "Drive to Prodromos and use the monastery name for the final approach.",
+   "before": "Confirm opening and entrance arrangements before going.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "timios-stavros-omodos",
+   "name": "Timios Stavros Monastery, Omodos",
+   "dest": "limassol",
+   "cat": "Monastery",
+   "tint": "#6E7F8C",
+   "interests": [
+    "culture",
+    "villages"
+   ],
+   "ll": [
+    34.84766,
+    32.80874
+   ],
+   "loc": "Omodos village centre",
+   "intro": "The monastery at the heart of Omodos, one of the wine villages.",
+   "how": "Drive to Omodos, park in a designated village car park and walk to the centre.",
+   "before": "Use Omodos in your search so you don't end up at the Holy Cross church in Pelendri.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "alt": [
+    "Holy Cross Omodos"
+   ]
+  },
+  {
+   "slug": "agios-neophytos",
+   "name": "Agios Neophytos Monastery",
+   "dest": "paphos",
+   "cat": "Monastery",
+   "tint": "#6E7F8C",
+   "interests": [
+    "culture"
+   ],
+   "ll": [
+    34.84582,
+    32.44689
+   ],
+   "loc": "Near Tala, Paphos district",
+   "intro": "A monastery near Tala with the hermit's Enkleistra cut into the rock.",
+   "how": "Drive inland from Paphos toward Tala and continue to the signed monastery.",
+   "before": "Check visiting arrangements for the Enkleistra and the museum.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "alt": [
+    "Saint Neophytos"
+   ]
+  },
+  {
+   "slug": "chrysorrogiatissa",
+   "name": "Chrysorrogiatissa Monastery",
+   "dest": "paphos",
+   "cat": "Monastery",
+   "tint": "#6E7F8C",
+   "interests": [
+    "culture",
+    "food"
+   ],
+   "ll": [
+    34.9101,
+    32.619
+   ],
+   "loc": "Near Pano Panagia, Paphos district",
+   "intro": "A hillside monastery near Pano Panagia, in the inland wine country.",
+   "how": "Drive inland from Paphos toward Pano Panagia and use the monastery as your destination for the final approach.",
+   "before": "Pair it with Pano Panagia and the surrounding wine villages.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "agia-moni",
+   "name": "Agia Moni Monastery",
+   "dest": "paphos",
+   "cat": "Monastery",
+   "tint": "#6E7F8C",
+   "interests": [
+    "culture"
+   ],
+   "ll": [
+    34.89938,
+    32.61883
+   ],
+   "loc": "Pano Panagia area, Paphos district",
+   "intro": "A small monastery in the hills near Pano Panagia.",
+   "how": "Approach from the Pano Panagia area. Confirm the access road and whether visitors are received before you leave.",
+   "before": "Treat it as a separate visit from Chrysorrogiatissa.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "vasilikon-winery",
+   "name": "Vasilikon Winery",
+   "dest": "paphos",
+   "cat": "Winery",
+   "tint": "#7A4B5A",
+   "interests": [
+    "food"
+   ],
+   "ll": [
+    34.91408,
+    32.41299
+   ],
+   "loc": "Kathikas, Paphos district",
+   "intro": "A winery at Kathikas on the Laona-Akamas wine route.",
+   "how": "Drive to Kathikas and use the winery as your destination.",
+   "before": "Check tasting times with the winery.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "sterna-winery",
+   "name": "Sterna Winery",
+   "dest": "paphos",
+   "cat": "Winery",
+   "tint": "#7A4B5A",
+   "interests": [
+    "food"
+   ],
+   "ll": [
+    34.91721,
+    32.43581
+   ],
+   "loc": "Kathikas, Paphos district",
+   "intro": "A winery and wine museum in Kathikas.",
+   "how": "Drive to Kathikas, then navigate to Sterna by name.",
+   "before": "Confirm whether a tasting or tour is available on your dates.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "vouni-panayia-winery",
+   "name": "Vouni Panayia Winery",
+   "dest": "paphos",
+   "cat": "Winery",
+   "tint": "#7A4B5A",
+   "interests": [
+    "food"
+   ],
+   "ll": [
+    34.921,
+    32.6259
+   ],
+   "loc": "Pano Panagia, Paphos district",
+   "intro": "A winery in Pano Panagia, on the Vouni Panagias-Ambelitis wine route.",
+   "how": "Drive inland to Pano Panagia and navigate directly to the winery.",
+   "before": "Confirm reservations and tasting-room hours.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "nelion-winery",
+   "name": "Nelion Winery",
+   "dest": "paphos",
+   "cat": "Winery",
+   "tint": "#7A4B5A",
+   "interests": [
+    "food"
+   ],
+   "ll": [
+    34.855,
+    32.75131
+   ],
+   "loc": "Diarizos Valley, Paphos district",
+   "intro": "A winery on the Diarizos Valley wine route.",
+   "how": "Use the winery name for the final approach on a Diarizos Valley outing.",
+   "before": "Confirm visitor access and tasting arrangements.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "oenou-yi-winery",
+   "name": "Oenou Yi Winery",
+   "dest": "limassol",
+   "cat": "Winery",
+   "tint": "#7A4B5A",
+   "interests": [
+    "food"
+   ],
+   "ll": [
+    34.84859,
+    32.80897
+   ],
+   "loc": "Omodos, Limassol district",
+   "intro": "A winery in Omodos, in the Limassol wine villages.",
+   "how": "Drive inland from Limassol toward Omodos and route directly to the winery before or after the village centre.",
+   "before": "Check reservations and restaurant hours separately.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "tsiakkas-winery",
+   "name": "Tsiakkas Winery",
+   "dest": "troodos",
+   "cat": "Winery",
+   "tint": "#7A4B5A",
+   "interests": [
+    "food"
+   ],
+   "ll": [
+    34.88448,
+    32.94495
+   ],
+   "loc": "Pelendri, Limassol district",
+   "intro": "A mountain winery near Pelendri on the Pitsilia wine route.",
+   "how": "Drive toward Pelendri and use the winery address for the final approach. Confirm arrival arrangements with the winery.",
+   "before": "The winery publishes a visitor contact and opening information.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "kyperounda-winery",
+   "name": "Kyperounda Winery",
+   "dest": "troodos",
+   "cat": "Winery",
+   "tint": "#7A4B5A",
+   "interests": [
+    "food"
+   ],
+   "ll": [
+    34.94437,
+    32.98197
+   ],
+   "loc": "Kyperounta, Pitsilia",
+   "intro": "A high-altitude winery at Kyperounta.",
+   "how": "Drive to Kyperounta and route directly to the winery from the village approach.",
+   "before": "Confirm whether tours or tastings are available on your chosen day.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "latchi-harbour",
+   "name": "Latchi Harbour",
+   "dest": "akamas",
+   "cat": "Harbour",
+   "tint": "#3A6E8E",
+   "interests": [
+    "nature",
+    "food"
+   ],
+   "ll": [
+    35.04147,
+    32.39328
+   ],
+   "loc": "Latchi, west of Polis",
+   "intro": "The little harbour at Latchi, where boat trips to the Akamas leave from.",
+   "how": "Drive from Polis to the waterfront, or check Pafos Buses route 622. For a cruise, use your operator's boarding point.",
+   "before": "Confirm the departure point and return time with the boat operator.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    },
+    {
+     "t": "Pafos Buses: routes and timetables",
+     "u": "https://www.pafosbuses.com/"
+    }
+   ],
+   "alt": [
+    "Latsi"
+   ]
+  },
+  {
+   "slug": "baths-of-aphrodite",
+   "name": "Baths of Aphrodite",
+   "dest": "akamas",
+   "cat": "Nature and legend",
+   "tint": "#4F7A5A",
+   "interests": [
+    "nature"
+   ],
+   "ll": [
+    35.05631,
+    32.34409
+   ],
+   "loc": "Beyond Latchi, at the edge of Akamas",
+   "intro": "A shaded pool in a grotto where, legend says, Aphrodite bathed.",
+   "how": "Drive west past Latchi to the signed visitor area, or check Pafos Buses route 622 if you have no car.",
+   "before": "Check the final walking approach and current access.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    },
+    {
+     "t": "Pafos Buses: routes and timetables",
+     "u": "https://www.pafosbuses.com/"
+    }
+   ]
+  },
+  {
+   "slug": "akamas-blue-lagoon",
+   "name": "Blue Lagoon, Akamas",
+   "dest": "akamas",
+   "cat": "Bay",
+   "tint": "#4F7A5A",
+   "interests": [
+    "nature",
+    "beaches"
+   ],
+   "ll": [
+    35.0843,
+    32.3056
+   ],
+   "loc": "Akamas peninsula",
+   "intro": "Clear turquoise water off the Akamas peninsula, usually reached by boat from Latchi.",
+   "how": "For a boat visit, navigate to your operator's boarding point at Latchi Harbour and confirm departure and return times.",
+   "before": "Not to be confused with the Blue Lagoon at Cape Greco.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "avakas-gorge",
+   "name": "Avakas Gorge",
+   "dest": "paphos",
+   "cat": "Gorge",
+   "tint": "#4F7A5A",
+   "interests": [
+    "nature"
+   ],
+   "ll": [
+    34.91494,
+    32.3285
+   ],
+   "loc": "Akamas foothills, beyond Pegeia's west coast",
+   "intro": "A narrow limestone gorge in the Akamas foothills.",
+   "how": "Use the signed access from the Agios Georgios and Avakas area. Check current road and trail information before you leave.",
+   "before": "Plan it as its own outing, follow local notices and check the walk suits your group.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "limassol-old-port",
+   "name": "Limassol Old Port",
+   "dest": "limassol",
+   "cat": "Harbour",
+   "tint": "#3A6E8E",
+   "interests": [
+    "food"
+   ],
+   "ll": [
+    34.66992,
+    33.04267
+   ],
+   "loc": "Limassol waterfront, beside the marina",
+   "intro": "Limassol's restored old port, between the marina and the old town.",
+   "how": "Navigate to the Old Port and walk toward the old town or the Molos promenade from there.",
+   "before": "Pick a specific museum, restaurant or car park as your next stop.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "cyprus-museum",
+   "name": "Cyprus Museum",
+   "dest": "nicosia",
+   "cat": "Museum",
+   "tint": "#6A665F",
+   "interests": [
+    "culture",
+    "family"
+   ],
+   "ll": [
+    35.17173,
+    33.35575
+   ],
+   "loc": "Mouseiou Street, central Nicosia",
+   "intro": "The island's main archaeology museum, in central Nicosia.",
+   "how": "Navigate to the museum, or walk from the central bus area around Solomos Square.",
+   "before": "Check opening times and allow time for the archaeology collections.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "famagusta-gate",
+   "name": "Famagusta Gate",
+   "dest": "nicosia",
+   "cat": "Landmark",
+   "tint": "#6A665F",
+   "interests": [
+    "culture"
+   ],
+   "ll": [
+    35.17432,
+    33.371
+   ],
+   "loc": "Eastern side of Nicosia's walled old town",
+   "intro": "A historic gate in Nicosia's Venetian walls, often used for cultural events.",
+   "how": "Walk through the old town or navigate to the gate by name. Check any events inside separately.",
+   "before": "Include Nicosia in your map search.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "laiki-geitonia",
+   "name": "Laiki Geitonia",
+   "dest": "nicosia",
+   "cat": "Old town quarter",
+   "tint": "#6A665F",
+   "interests": [
+    "culture",
+    "food"
+   ],
+   "ll": [
+    35.16985,
+    33.36225
+   ],
+   "loc": "Nicosia old town",
+   "intro": "A pedestrian quarter of restored houses, cafés and shops in Nicosia's old town.",
+   "how": "Walk from Eleftheria Square into the old town and use Laiki Geitonia as your waypoint.",
+   "before": "Pair it with the nearby museums and the old-town streets.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "kakopetria",
+   "name": "Kakopetria Old Village",
+   "dest": "troodos",
+   "cat": "Village",
+   "tint": "#857B6E",
+   "interests": [
+    "villages",
+    "culture"
+   ],
+   "ll": [
+    34.98955,
+    32.90324
+   ],
+   "loc": "Solea Valley, Troodos foothills",
+   "intro": "A preserved old village of stone houses in the Solea Valley.",
+   "how": "Drive up the Solea Valley to Kakopetria, use the designated car park and walk into the old village.",
+   "before": "Pair it with Agios Nikolaos tis Stegis, which has its own church pin.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "kalopanagiotis",
+   "name": "Kalopanagiotis",
+   "dest": "troodos",
+   "cat": "Village",
+   "tint": "#857B6E",
+   "interests": [
+    "villages",
+    "nature"
+   ],
+   "ll": [
+    34.99201,
+    32.82808
+   ],
+   "loc": "Marathasa Valley, Troodos",
+   "intro": "A hillside village in the Marathasa Valley.",
+   "how": "Drive into Kalopanagiotis on the signed mountain roads and park near the part of the village you want to see.",
+   "before": "The riverside Lampadistis monastery is a separate stop.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ]
+  },
+  {
+   "slug": "platres",
+   "name": "Platres",
+   "dest": "troodos",
+   "cat": "Village",
+   "tint": "#857B6E",
+   "interests": [
+    "villages",
+    "nature"
+   ],
+   "ll": [
+    34.88862,
+    32.86486
+   ],
+   "loc": "Southern slopes of Troodos",
+   "intro": "A mountain resort village on the southern slopes of Troodos.",
+   "how": "Drive inland from Limassol toward Pano Platres, or approach from Troodos Square.",
+   "before": "If you add a walk, use a specific trailhead and check current route conditions.",
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    }
+   ],
+   "alt": [
+    "Pano Platres"
+   ]
+  }
+ ],
+ "enrich": {
+  "kato-paphos": {
+   "unesco": "paphos",
+   "loc": "Kato Paphos, by the harbour",
+   "locality": "paphos/kato-paphos",
+   "how": "Walk from the harbour promenade to the park entrance. From elsewhere in town, start from Paphos Harbour Station.",
+   "before": "Start with the villa mosaics if your time is short, and choose your priority sites before you go in. Paths are exposed to the sun.",
+   "alt": [
+    "Nea Paphos",
+    "Paphos mosaics"
+   ]
+  },
+  "tombs-kings": {
+   "unesco": "paphos",
+   "loc": "Tombs of the Kings Avenue, north of the harbour",
+   "locality": "paphos/tombs-of-the-kings",
+   "how": "Go to the separate ticket entrance on Tombs of the Kings Avenue. Check Pafos Buses for the nearest stop from your hotel.",
+   "before": "The ground is uneven, with steps and open sun. The mosaics in Kato Paphos have a different entrance."
+  },
+  "paphos-castle": {
+   "loc": "End of the Paphos Harbour promenade",
+   "locality": "paphos/kato-paphos",
+   "how": "Walk along the harbour waterfront to the castle at the end of the promenade.",
+   "before": "Check whether the interior is open, separately from the waterfront. The archaeological park has its own entrance."
+  },
+  "choirokoitia": {
+   "unesco": "choirokoitia",
+   "loc": "Near Choirokoitia village, Larnaca district",
+   "how": "From the A1 motorway between Larnaca and Limassol, follow the signs for the archaeological site, not the village centre.",
+   "before": "See the Neolithic settlement and reconstructed round houses. Check how much of the hillside route suits your group."
+  },
+  "napa-monastery": {
+   "loc": "Central Ayia Napa, by the town square",
+   "locality": "ayianapa/town-centre",
+   "how": "Walk from the centre. From the coastal hotel strip, use the square as your arrival point.",
+   "before": "Check which parts of the complex and any museum are open."
+  },
+  "st-lazarus": {
+   "loc": "Old Larnaca, Agiou Lazarou Square",
+   "how": "Walk inland from Finikoudes to the church square. Use the square as your target by car or taxi.",
+   "before": "Check any restrictions around services."
+  },
+  "hala-sultan": {
+   "loc": "West side of Larnaca Salt Lake, near the airport",
+   "how": "Drive or take a taxi from Larnaca on the signed Salt Lake approach. Check the walking route separately if you're on foot.",
+   "before": "An active place of worship. Check dress and access information before entering."
+  },
+  "cape-greco": {
+   "loc": "Between Ayia Napa and Protaras",
+   "locality": "ayianapa/cape-greco",
+   "how": "Drive from either resort, but pick a specific stop such as the sea caves, a viewpoint or Agioi Anargyroi Chapel before you set off.",
+   "before": "It's a wide park, not one place. A general park pin won't take you to the viewpoint you want."
+  },
+  "sea-caves": {
+   "locality": "ayianapa/cape-greco"
+  },
+  "nissi": {
+   "locality": "ayianapa/nissi-avenue"
+  },
+  "makronissos": {
+   "locality": "ayianapa/makronissos"
+  },
+  "fig-tree-bay": {
+   "locality": "protaras/central-protaras"
+  },
+  "profitis-ilias": {
+   "loc": "Hill above central Protaras",
+   "locality": "protaras/central-protaras",
+   "how": "Approach from Protaras and head for the steps at the bottom of the chapel hill. Check parking separately.",
+   "before": "The visit involves steps up to the hilltop."
+  },
+  "konnos": {
+   "loc": "Between Protaras and Cape Greco",
+   "locality": "protaras/konnos",
+   "how": "Drive down the signed beach road, or check the nearest bus stop and the final walk.",
+   "before": "The last part of the approach is steep. Step-free access isn't confirmed."
+  },
+  "deryneia": {
+   "loc": "Inland from Paralimni",
+   "locality": "protaras/deryneia",
+   "ll": [
+    35.06487,
+    33.96091
+   ],
+   "how": "Drive inland from Paralimni. By bus, check OSEA for your date and the return journey.",
+   "before": "Use a specific museum or the village square as your map destination."
+  },
+  "aphrodite-rock": {
+   "loc": "Coast east of Paphos, beyond Kouklia",
+   "locality": "paphos/kouklia",
+   "how": "Follow the signs for Petra tou Romiou and use the signed visitor parking and pedestrian approach.",
+   "before": "Search for Petra tou Romiou. The Sanctuary of Aphrodite is a separate place, at Kouklia.",
+   "alt": [
+    "Petra tou Romiou"
+   ]
+  },
+  "finikoudes": {
+   "loc": "Larnaca seafront",
+   "how": "Walk from central Larnaca or navigate to the promenade.",
+   "before": "Saint Lazarus is inland in the old town. Use its square as a separate waypoint."
+  },
+  "salt-lake": {
+   "loc": "Between Larnaca city and the airport",
+   "how": "Pick a signed viewing or walking point. Hala Sultan Tekke is a separate destination.",
+   "before": "Water levels and birds vary through the year."
+  },
+  "lefkara": {
+   "loc": "Inland Larnaca district",
+   "how": "Drive inland via the signed Lefkara turn-off, use the village parking and walk to the centre.",
+   "before": "Pair it with Kato Drys if you have time.",
+   "alt": [
+    "Pano Lefkara"
+   ]
+  }
+ },
+ "wineRoutes": [
+  {
+   "n": "Laona-Akamas",
+   "loc": "Kathikas and northwestern Paphos district",
+   "ll": [
+    34.91245,
+    32.42565
+   ],
+   "dest": "paphos",
+   "how": "From Paphos or Coral Bay, drive inland to Kathikas. From Polis, approach from the north.",
+   "before": "Start with one winery that confirms your visit and add a village lunch.",
+   "wineries": [
+    "vasilikon-winery",
+    "sterna-winery"
+   ]
+  },
+  {
+   "n": "Vouni Panagias-Ambelitis",
+   "loc": "Pano Panagia and inland Paphos",
+   "ll": [
+    34.91956,
+    32.6315
+   ],
+   "dest": "paphos",
+   "how": "Drive inland from Paphos using Pano Panagia as your main waypoint. Chrysorrogiatissa Monastery has its own pin.",
+   "before": "Check winery tastings and monastery access separately.",
+   "wineries": [
+    "vouni-panayia-winery"
+   ],
+   "places": [
+    "chrysorrogiatissa"
+   ]
+  },
+  {
+   "n": "Diarizos Valley",
+   "loc": "Salamiou and Pretori, inland Paphos district",
+   "ll": [
+    34.84003,
+    32.68947
+   ],
+   "dest": "paphos",
+   "how": "From the coast, follow the inland route toward Salamiou or Pretori, using booked stops as your waypoints.",
+   "before": "Don't rely on a village name alone to find a tasting room.",
+   "wineries": [
+    "nelion-winery"
+   ]
+  },
+  {
+   "n": "Krasochoria of Limassol",
+   "loc": "Omodos, Vouni, Koilani and Lofou",
+   "ll": [
+    34.84809,
+    32.80781
+   ],
+   "dest": "limassol",
+   "how": "From Limassol, drive inland to one cluster of villages. Omodos makes a good first stop.",
+   "before": "Pair one confirmed tasting with a walk or lunch in a nearby village.",
+   "wineries": [
+    "oenou-yi-winery"
+   ],
+   "places": [
+    "timios-stavros-omodos"
+   ]
+  },
+  {
+   "n": "Commandaria",
+   "loc": "Commandaria villages north of Limassol",
+   "ll": null,
+   "dest": "limassol",
+   "how": "Drive inland from Limassol toward your chosen Commandaria village, using Laneia or Kouka as a waypoint.",
+   "before": "Confirm which producer can host you. Visits are arranged directly with each producer.",
+   "wineries": []
+  },
+  {
+   "n": "Pitsilia",
+   "loc": "Pelendri and Kyperounta",
+   "ll": [
+    34.89554,
+    32.96671
+   ],
+   "dest": "troodos",
+   "how": "From Limassol or Troodos, follow the mountain roads to the village hosting your tasting.",
+   "before": "Pair it with Timios Stavros in Pelendri if the church is open.",
+   "wineries": [
+    "tsiakkas-winery",
+    "kyperounda-winery"
+   ],
+   "places": [
+    "timios-stavros-pelendri"
+   ]
+  },
+  {
+   "n": "Mountainous Larnaca-Nicosia",
+   "loc": "Countryside between Larnaca and Nicosia",
+   "ll": null,
+   "dest": "larnaca",
+   "how": "Start from the city closest to your booked winery and add a village stop after checking journey times.",
+   "before": "Contact each producer for tasting information.",
+   "wineries": []
+  }
+ ],
+ "source": {
+  "t": "We Love Cyprus Visitor Guide",
+  "date": "2026-11-22"
+ }
+}

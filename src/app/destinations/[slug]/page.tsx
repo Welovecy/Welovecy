@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { DESTINATIONS, EXPERIENCES, MAKERS, getDest, getPlace, photoFor } from "@/lib/data";
+import { DESTINATIONS, EXPERIENCES, MAKERS, PLACES_BY_DEST, getDest, getPlace, photoFor } from "@/lib/data";
 import { DestCard, ExperienceCard, FeaturedBlock, MakerCard, PlaceCard } from "@/components/Cards";
 import { Crumbs, Facts, Sources } from "@/components/Bits";
 import { Photo } from "@/components/Photo";
@@ -10,6 +10,8 @@ import { ListingSection } from "@/components/Listing";
 import { StayPanel } from "@/components/StayPanel";
 import { ListRow } from "@/components/ListRow";
 import { bizRow, staysBySea, staysIn } from "@/lib/views";
+import { getProfile } from "@/lib/data";
+import { LocalityChooser, PlanVisit, StartHere } from "@/components/Profile";
 import { fmtD } from "@/lib/geo";
 import type { Fact } from "@/lib/types";
 
@@ -67,13 +69,71 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
         <ListingSection dest={d.id} kind="sight" title="Must-see" id="s-must" />
         <ListingSection dest={d.id} kind="beach" title="Beaches" id="s-beach" />
         {stay}
-        <section className="wrap">
+        {PLACES_BY_DEST(d.id).length >= 5 ? null : <section className="wrap">
           <div className="empty">
             <h2 style={{ fontSize: 24 }}>Sights and stories for this area are being written.</h2>
             <p className="muted">Ayia Napa, Protaras, Paphos and Larnaca are ready to explore in full.</p>
             <Link className="btn btn-primary" href="/destinations/ayianapa">Explore Ayia Napa</Link>
           </div>
+        </section>}
+      </>
+    );
+  }
+
+  const profile = getProfile(d.id);
+  if (profile) {
+    const operator = d.id === "paphos" ? { t: "Pafos Buses", u: "https://www.pafosbuses.com/" } : { t: "OSEA", u: "https://www.osea.com.cy/" };
+    return (
+      <>
+        <div className="wrap hero">
+          <Crumbs items={[["Home", "/"], ["Destinations", "/destinations"], [d.name]]} />
+          <div style={{ height: 16 }} />
+          <Photo photo={photoFor(`dest-${d.id}`)} label={d.hero || d.name} tint={d.tint} ratio="16/9" priority hero className="hero-photo" />
+          <div className="hero-copy">
+            <h1 className="h-hero">{d.name}</h1>
+            <p className="lead">{profile.intro}</p>
+            <div className="actions">
+              <a className="btn btn-primary" href="#s-stay">Explore around your hotel</a>
+              <SaveButton item={{ key: href, n: d.name, href, sub: "Destination" }} />
+            </div>
+            <LocalityChooser d={d} profile={profile} />
+          </div>
+        </div>
+        <div className="subnav">
+          <nav className="wrap" aria-label="On this page">
+            {[["s-start", "Start here"], ["s-must", "Sights"], ["s-beach", "Beaches"], ["s-eat", "Eat & drink"], ["s-stay", "Stay"], ["s-plan", "Plan"]].map(([id, l]) => (
+              <a key={id} href={`#${id}`}>{l}</a>
+            ))}
+          </nav>
+        </div>
+        <section className="wrap" id="s-start" aria-labelledby="h-start">
+          <div className="sec-head"><h2 id="h-start">Start here</h2></div>
+          <StartHere items={profile.start} />
         </section>
+        <ListingSection dest={d.id} kind="sight" title="Sights" id="s-must" limit={8} viewAll={`/must-see#ms-${d.id}`} />
+        <ListingSection dest={d.id} kind="beach" title="Beaches" id="s-beach" limit={8} viewAll="/beaches" />
+        <section className="wrap" id="s-eat" aria-labelledby="h-eat">
+          <div className="sec-head"><h2 id="h-eat">Eat &amp; drink</h2></div>
+          <p style={{ maxWidth: 720 }}>{profile.food}</p>
+          <div className="chips" style={{ marginTop: 12 }}>
+            {profile.localities.map((l) => <Link key={l.slug} className="chip stay-chip" href={`/destinations/${d.id}/${l.slug}#eat`}>{l.title}</Link>)}
+          </div>
+        </section>
+        {exps.length || makers.length ? (
+          <section className="wrap" aria-labelledby="h-makers">
+            <div className="sec-head"><h2 id="h-makers">Makers and local stories</h2></div>
+            <div className="grid-3">{exps.map((e) => <ExperienceCard key={e.slug} e={e} />)}{makers.map((m) => <MakerCard key={m.slug} m={m} />)}</div>
+          </section>
+        ) : null}
+        {stay}
+        <FeaturedBlock destName={d.name} />
+        <PlanVisit d={d} profile={profile} operator={operator} />
+        {d.next?.length ? (
+          <section className="wrap" aria-labelledby="h-next">
+            <div className="sec-head"><h2 id="h-next">Continue exploring</h2></div>
+            <div className="grid">{d.next.map((n) => { const x = getDest(n); return x ? <DestCard key={n} d={x} /> : null; })}</div>
+          </section>
+        ) : null}
       </>
     );
   }

@@ -21,6 +21,8 @@ export function Footer() {
         <div>
           <h4>Explore</h4>
           <Link href="/things">Things to do</Link>
+          <Link href="/unesco">UNESCO World Heritage</Link>
+          <Link href="/wine">Wine routes</Link>
           <Link href="/stories">Stories</Link>
           <Link href="/about">About</Link>
         </div>

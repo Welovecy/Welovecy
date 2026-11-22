@@ -1,12 +1,13 @@
 import type { MetadataRoute } from "next";
-import { BUSINESSES, DESTINATIONS, INTERESTS, PLACES, POIS, isStay, listingHref, placeForPoi, placeHref } from "@/lib/data";
+import { BUSINESSES, DESTINATIONS, INTERESTS, PLACES, POIS, PROFILES, isStay, listingHref, placeForPoi, placeHref } from "@/lib/data";
 import { absolute, DATA_REVIEWED } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date(DATA_REVIEWED + "T00:00:00Z");
   const paths = [
-    "/", "/destinations", "/must-see", "/beaches", "/stay", "/around", "/essentials", "/practical", "/buses", "/things", "/stories", "/about",
+    "/", "/destinations", "/must-see", "/beaches", "/stay", "/around", "/essentials", "/practical", "/buses", "/unesco", "/wine", "/things", "/stories", "/about",
     ...DESTINATIONS.flatMap((d) => [`/destinations/${d.id}`, `/stay/${d.id}`]),
+    ...Object.entries(PROFILES).flatMap(([d, p]) => p.localities.map((l) => `/destinations/${d}/${l.slug}`)),
     ...PLACES.map((p) => placeHref(p.slug)),
     ...INTERESTS.map((i) => `/things/${i.id}`),
     ...BUSINESSES.filter(isStay).map((b) => listingHref(b.i)),

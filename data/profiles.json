@@ -1,0 +1,399 @@
+{
+ "profiles": {
+  "ayianapa": {
+   "intro": "Ayia Napa takes you from the bustle of Nissi Beach to the cliffs and coves of Cape Greco. In the centre, the old monastery and THALASSA Museum offer a change of pace from the beach, while the harbour gives you a place to start an evening walk. Stay close to the centre if you want dinner and nightlife nearby, or base yourself along the western coast if beach time comes first.",
+   "start": [
+    [
+     "place:nissi",
+     "The sandy bay and offshore islet are the signature view."
+    ],
+    [
+     "place:makronissos",
+     "Start at the beach, then follow the signed route to the tombs."
+    ],
+    [
+     "place:napa-monastery",
+     "A historic stop near the centre of the old town."
+    ],
+    [
+     "poi:p35",
+     "An indoor option when you want a break from the sun."
+    ],
+    [
+     "place:cape-greco",
+     "Cliffs, caves and viewpoints. Pick your stop before you set off."
+    ]
+   ],
+   "day": "Spend the morning at Nissi or Makronissos. Come back to the centre for the museum or monastery, then walk down to the harbour for dinner. Give Cape Greco its own half-day if your group wants time for several viewpoints.",
+   "travel": "If you're staying in the centre, start with the square and harbour on foot. For the western beaches and the road towards Protaras, check OSEA for the right direction, stop and return bus on your travel date. For Cape Greco, choose the exact place you want to visit before checking the walk from the stop.",
+   "food": "Head to the harbour for a waterfront table, the centre for a meal close to the evening buzz, or Nissi Avenue if you want to stay near your hotel.",
+   "faqs": [
+    [
+     "Can we do Nissi and the centre without a car?",
+     "Yes. Plan them as two separate stops. Check the walking distance from your hotel or use the OSEA timetable for the bus between them."
+    ],
+    [
+     "Is Cape Greco one place I can put into Maps?",
+     "It's a wider area. Choose a specific stop, such as the sea caves or Agioi Anargyroi Chapel, and use its own directions."
+    ],
+    [
+     "Where should we stay for beaches and evenings out?",
+     "Nissi Avenue puts you close to the beach. The centre puts you a walk from evenings out. Open your hotel's page to see exactly what's around it."
+    ]
+   ],
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    },
+    {
+     "t": "OSEA: east coast buses",
+     "u": "https://www.osea.com.cy/"
+    }
+   ],
+   "localities": [
+    {
+     "slug": "town-centre",
+     "title": "Town centre",
+     "centre": [
+      34.9892,
+      33.9996
+     ],
+     "radius": 0.7,
+     "bio": "Stay here for the square, the museum, restaurants and evenings on foot. Check the walking route from your hotel to the beach you want.",
+     "lead": "Lead with the monastery and THALASSA.",
+     "refs": [
+      "place:napa-monastery",
+      "poi:p35"
+     ]
+    },
+    {
+     "slug": "harbour",
+     "title": "Harbour",
+     "centre": [
+      34.9817,
+      34.0023
+     ],
+     "radius": 0.5,
+     "bio": "The waterfront for an evening walk, dinner by the boats and boat trips along the coast. Boat departure points belong to each operator, so check yours.",
+     "lead": "Lead with the waterfront and an evening walk.",
+     "refs": [
+      "poi:p38",
+      "poi:p37"
+     ]
+    },
+    {
+     "slug": "nissi-avenue",
+     "title": "Nissi Avenue",
+     "centre": [
+      34.9888,
+      33.971
+     ],
+     "radius": 1.2,
+     "bio": "A beach-first base west of the centre. Choose by distance to your favourite beach entrance and where you want to spend the evening.",
+     "lead": "Lead with Nissi Beach.",
+     "refs": [
+      "place:nissi"
+     ]
+    },
+    {
+     "slug": "makronissos",
+     "title": "Makronissos",
+     "centre": [
+      34.9833,
+      33.957
+     ],
+     "radius": 1.0,
+     "bio": "Start here for sandy coves and the nearby rock-cut tombs. Check your way back if you plan to eat in the centre.",
+     "lead": "Lead with Makronissos Beach and the tombs.",
+     "refs": [
+      "place:makronissos",
+      "place:makronissos-tombs"
+     ]
+    },
+    {
+     "slug": "cape-greco",
+     "title": "Cape Greco",
+     "centre": [
+      34.966,
+      34.07
+     ],
+     "radius": 2.5,
+     "bio": "Treat the headland as an outing, with separate stops for the sea caves, viewpoints and the chapel. It's an easy trip from Protaras too.",
+     "lead": "Lead with the viewpoints and the chapel.",
+     "refs": [
+      "place:cape-greco",
+      "place:sea-caves",
+      "poi:p34",
+      "place:konnos"
+     ]
+    }
+   ]
+  },
+  "protaras": {
+   "intro": "Protaras is a holiday base built around the sea, with Fig Tree Bay at the heart of the resort and smaller bays stretching along the coast. Stay in central Protaras if you want the beach and dinner close together, try Pernera for a different stretch of seafront, or look around Kapparis to explore the northern end of the resort. Inland, Paralimni and Deryneia make it easy to spend an afternoon away from the beach.",
+   "start": [
+    [
+     "place:fig-tree-bay",
+     "Golden sand at the heart of the resort, with the islet just offshore."
+    ],
+    [
+     "place:konnos",
+     "A small cove below pine-covered slopes, with a steep final approach."
+    ],
+    [
+     "place:profitis-ilias",
+     "A hilltop chapel and viewpoint over the resort. Expect steps."
+    ],
+    [
+     "place:deryneia",
+     "An inland town for an afternoon away from the beach."
+    ]
+   ],
+   "day": "Start at Fig Tree Bay, eat in central Protaras and save Profitis Ilias for later if the steps suit your group. Make Konnos a separate morning, when you have time to check the approach and parking.",
+   "travel": "Start with the area closest to your hotel. Central Protaras and Pernera work well as separate starting points for walks, meals and beaches. For a trip between areas or into Paralimni, check OSEA by date and direction. Konnos and Profitis Ilias each have their own last stretch on foot, so check the approach as well as the distance.",
+   "food": "Browse around your hotel or beach first. Look in central Protaras for meals near the main resort strip, Pernera for that part of the coast, or Paralimni and Deryneia for an inland meal. Check kitchen hours and whether you need to book.",
+   "faqs": [
+    [
+     "Fig Tree Bay or Konnos with a pushchair?",
+     "Compare the approach from where you're staying. Konnos has a steep approach and step-free access isn't confirmed, so don't count on it."
+    ],
+    [
+     "What's near Sunrise Pearl?",
+     "Open the hotel's page and tap See what's around for the closest beach, food and essentials, with distances and directions."
+    ],
+    [
+     "Are Protaras and Pernera the same when booking?",
+     "They're separate starting points for a holiday. Use your hotel's location and the beach or dinner area you prefer to compare them."
+    ]
+   ],
+   "sources": [
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    },
+    {
+     "t": "OSEA: east coast buses",
+     "u": "https://www.osea.com.cy/"
+    }
+   ],
+   "localities": [
+    {
+     "slug": "central-protaras",
+     "title": "Central Protaras",
+     "centre": [
+      35.0125,
+      34.0565
+     ],
+     "radius": 1.0,
+     "bio": "Begin around Fig Tree Bay and the resort centre for a beach-and-dinner day. Check the walking route from your accommodation to both.",
+     "lead": "Lead with Fig Tree Bay and Profitis Ilias.",
+     "refs": [
+      "place:fig-tree-bay",
+      "place:profitis-ilias"
+     ]
+    },
+    {
+     "slug": "pernera",
+     "title": "Pernera",
+     "centre": [
+      35.032,
+      34.0425
+     ],
+     "radius": 1.0,
+     "bio": "Bays and coastal paths along a quieter stretch of seafront. Use your hotel's pin to compare the most convenient beach and restaurants.",
+     "lead": "Lead with the bays and coastal walks.",
+     "refs": []
+    },
+    {
+     "slug": "kapparis",
+     "title": "Kapparis",
+     "centre": [
+      35.056,
+      34.013
+     ],
+     "radius": 1.2,
+     "bio": "A base for the northern end of the coast. Check where you'll eat in the evening and how to get back from central Protaras.",
+     "lead": "Lead with the northern-coast beaches.",
+     "refs": []
+    },
+    {
+     "slug": "paralimni",
+     "title": "Paralimni",
+     "centre": [
+      35.038,
+      33.982
+     ],
+     "radius": 1.5,
+     "bio": "The working town just inland, for practical services and an inland meal away from the seafront.",
+     "lead": "Lead with inland places to eat and drink.",
+     "refs": [],
+     "nearby": true
+    },
+    {
+     "slug": "deryneia",
+     "title": "Deryneia",
+     "centre": [
+      35.06487,
+      33.96091
+     ],
+     "radius": 1.2,
+     "bio": "An inland town for exploring beyond the seafront. Link to a specific museum or the village square when you plan your visit.",
+     "lead": "Lead with its own inland sights.",
+     "refs": [
+      "place:deryneia"
+     ],
+     "nearby": true
+    },
+    {
+     "slug": "konnos",
+     "title": "Konnos",
+     "centre": [
+      34.984,
+      34.07
+     ],
+     "radius": 1.0,
+     "bio": "A separate beach outing south of central Protaras. The descent to the bay is worth knowing about before you go.",
+     "lead": "Lead with Konnos Bay and the approach to the cove.",
+     "refs": [
+      "place:konnos"
+     ]
+    }
+   ]
+  },
+  "paphos": {
+   "intro": "Paphos has two places worth getting to know on a first visit. Down by the harbour, Kato Paphos brings the Roman mosaics, the waterfront and the castle into one outing. Inland, Ktima, the old town, has market streets and a different pace. Stay around the harbour if you want the waterfront on your doorstep, explore the old town for a change of scene, and plan Coral Bay and Kouklia as outings in their own right.",
+   "start": [
+    [
+     "place:kato-paphos",
+     "Start with the villa mosaics, then choose what else fits your time."
+    ],
+    [
+     "place:tombs-kings",
+     "Rock-cut tombs with their own entrance. Allow for uneven ground."
+    ],
+    [
+     "place:paphos-castle",
+     "A waterfront stroll before or after the archaeological park."
+    ],
+    [
+     "place:palaipafos",
+     "The ancient sanctuary of Aphrodite at Kouklia."
+    ],
+    [
+     "place:aphrodite-rock",
+     "The coastal landmark where, legend says, Aphrodite rose from the sea."
+    ]
+   ],
+   "day": "Visit the mosaics first, stay by the harbour for lunch and spend the afternoon in the old town. Give the Tombs of the Kings their own slot if you want to see them properly, and another half-day for Kouklia or Coral Bay.",
+   "travel": "Use the harbour as your meeting point for a day around the waterfront. The old town, Tombs of the Kings and Coral Bay are separate destinations, so check the route from your hotel and the return timetable. For Kouklia, use the Sanctuary of Aphrodite as your map destination. For Aphrodite's Rock, use Petra tou Romiou.",
+   "food": "Choose harbour restaurants for a waterfront meal, old-town cafés and tavernas while exploring Ktima, or Coral Bay when you're spending the day in Pegeia.",
+   "faqs": [
+    [
+     "Are the mosaics and the Tombs of the Kings one stop?",
+     "No. Both are part of the Paphos World Heritage property but have separate entrances. Start at the harbour for the mosaics and use the Tombs of the Kings entrance for the tombs."
+    ],
+    [
+     "Is Coral Bay in central Paphos?",
+     "No, Coral Bay is in Pegeia. Treat it as a separate outing or a beach base, and check Pafos Buses for your outward and return journeys."
+    ],
+    [
+     "Is Aphrodite's Rock the same as the sanctuary?",
+     "No. The sanctuary is at Kouklia. Aphrodite's Rock is the coastal landmark at Petra tou Romiou."
+    ]
+   ],
+   "sources": [
+    {
+     "t": "UNESCO: Paphos",
+     "u": "https://whc.unesco.org/en/list/79/"
+    },
+    {
+     "t": "Visit Cyprus",
+     "u": "https://www.visitcyprus.com/"
+    },
+    {
+     "t": "Pafos Buses",
+     "u": "https://www.pafosbuses.com/"
+    }
+   ],
+   "localities": [
+    {
+     "slug": "kato-paphos",
+     "title": "Kato Paphos and the harbour",
+     "centre": [
+      34.7565,
+      32.41
+     ],
+     "radius": 1.0,
+     "bio": "A practical base for the waterfront and the archaeological park. Start at the harbour when you plan a walk between nearby sights.",
+     "lead": "Lead with the park, the harbour and the castle.",
+     "refs": [
+      "place:kato-paphos",
+      "place:paphos-castle"
+     ]
+    },
+    {
+     "slug": "old-town",
+     "title": "Old Town (Ktima)",
+     "centre": [
+      34.7758,
+      32.4242
+     ],
+     "radius": 0.9,
+     "bio": "Come for the market streets, cafés and a different side of the city. Check opening times and your route back to the waterfront.",
+     "lead": "Lead with Ktima and its market streets.",
+     "refs": []
+    },
+    {
+     "slug": "tombs-of-the-kings",
+     "title": "Tombs of the Kings area",
+     "centre": [
+      34.7715,
+      32.409
+     ],
+     "radius": 1.0,
+     "bio": "Use the avenue and the tombs entrance as reference points when comparing hotels. The tombs have their own entrance, separate from the harbour park.",
+     "lead": "Lead with the archaeological site and its own entrance.",
+     "refs": [
+      "place:tombs-kings"
+     ]
+    },
+    {
+     "slug": "coral-bay",
+     "title": "Coral Bay (Pegeia)",
+     "centre": [
+      34.854,
+      32.368
+     ],
+     "radius": 1.5,
+     "bio": "A beach resort area in Pegeia, as a nearby coastal base or a day out from Paphos.",
+     "lead": "Lead with the beach and the resort.",
+     "refs": [
+      "place:maa-palaiokastro"
+     ],
+     "nearby": true
+    },
+    {
+     "slug": "kouklia",
+     "title": "Kouklia",
+     "centre": [
+      34.707,
+      32.574
+     ],
+     "radius": 1.5,
+     "bio": "The village of the Sanctuary of Aphrodite, a clear day out from Paphos. Aphrodite's Rock at Petra tou Romiou is a separate stop on the coast.",
+     "lead": "Lead with the sanctuary, then Petra tou Romiou.",
+     "refs": [
+      "place:palaipafos",
+      "place:aphrodite-rock"
+     ],
+     "nearby": true
+    }
+   ]
+  }
+ },
+ "source": {
+  "t": "We Love Cyprus Destination Profiles",
+  "date": "2026-11-22"
+ }
+}

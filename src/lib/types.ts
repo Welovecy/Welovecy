@@ -35,6 +35,24 @@ export interface Place {
   sources: Source[];
   nearby?: string[];
   ll?: LL;
+  /** from the visitor guide */
+  loc?: string;
+  how?: string;
+  before?: string;
+  unesco?: UnescoId;
+  alt?: string[];
+  /** owning locality page, "region/locality" */
+  locality?: string;
+}
+
+export type UnescoId = "paphos" | "choirokoitia" | "troodos";
+
+export interface WineRoute { n: string; loc: string; ll: LL | null; dest: DestId; how: string; before: string; wineries: string[]; places?: string[] }
+
+export interface Locality { slug: string; title: string; centre: LL; radius: number; bio: string; lead: string; refs: string[]; nearby?: boolean }
+export interface Profile {
+  intro: string; start: [string, string][]; day: string; travel: string; food: string;
+  faqs: [string, string][]; sources: Source[]; localities: Locality[];
 }
 
 export interface Experience {

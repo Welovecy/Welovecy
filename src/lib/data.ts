@@ -4,8 +4,10 @@ import businessesJson from "@data/businesses.json";
 import poisJson from "@data/pois.json";
 import imagesJson from "@data/images.json";
 import busJson from "@data/bus.json";
+import guideJson from "@data/guide.json";
+import profilesJson from "@data/profiles.json";
 import type {
-  BusData, BusRoute, Business, Destination, DestId, Experience, Interest, LL, Maker, Photo, Place, Poi, Spot,
+  BusData, BusRoute, Business, Destination, DestId, Experience, Interest, LL, Maker, Photo, Place, Poi, Profile, Spot, WineRoute,
 } from "./types";
 import { stars } from "./text";
 import { directionsTo, km, searchMaps } from "./geo";
@@ -22,7 +24,23 @@ const raw = content as unknown as {
 
 export const DESTINATIONS: Destination[] = raw.DEST;
 export const INTERESTS: Interest[] = raw.INTERESTS;
-export const PLACES: Place[] = Object.entries(raw.PLACES).map(([slug, p]) => ({ ...p, slug, ll: raw.PLL[slug] }));
+type GuidePlace = Omit<Place, "why" | "features" | "practical" | "nearby">;
+const guide = guideJson as unknown as {
+  places: GuidePlace[]; enrich: Record<string, Partial<Place>>; wineRoutes: WineRoute[]; source: { t: string; date: string };
+};
+/** Hand-written places, enriched with the visitor guide, then the guide's own new places. */
+export const PLACES: Place[] = [
+  ...Object.entries(raw.PLACES).map(([slug, p]) => ({ ...p, slug, ll: raw.PLL[slug], ...(guide.enrich[slug] ?? {}) } as Place)),
+  ...guide.places.map((g) => ({
+    ...g, why: "", features: [],
+    practical: [["Location", g.loc ?? "", false], ["Opening hours", "Check before you go.", true]] as Place["practical"],
+  } as Place)),
+];
+export const WINE_ROUTES = guide.wineRoutes;
+export const GUIDE_SOURCE = guide.source;
+export const PROFILES = (profilesJson as unknown as { profiles: Record<string, Profile> }).profiles;
+export const getProfile = (dest: string) => PROFILES[dest];
+export const getLocality = (dest: string, slug: string) => PROFILES[dest]?.localities.find((l) => l.slug === slug);
 export const EXPERIENCES: Experience[] = Object.entries(raw.EXPERIENCES).map(([slug, e]) => ({ ...e, slug }));
 export const MAKERS: Maker[] = Object.entries(raw.BUSINESSES).map(([slug, b]) => ({ ...b, slug }));
 export const BUSINESSES = businessesJson as unknown as Business[];
@@ -48,6 +66,11 @@ for (const p of PLACES) {
     if (d < bd) { bd = d; best = r; }
   }
   if (best) { PLACE_BEACH.set(p.slug, best); POI_PLACE.set(best.i, p.slug); }
+}
+for (const r of POIS) {
+  if ((r.k !== "sight" && r.k !== "family") || !r.ll || POI_PLACE.has(r.i)) continue;
+  const p = PLACES.find((x) => x.ll && placeKind(x) !== "beach" && km(x.ll, r.ll!) < 0.12);
+  if (p) POI_PLACE.set(r.i, p.slug);
 }
 /** The place page that stands in for this record, if any. */
 export const placeForPoi = (id: string) => POI_PLACE.get(id);

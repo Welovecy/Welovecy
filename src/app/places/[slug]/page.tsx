@@ -10,6 +10,8 @@ import { AroundBlock } from "@/components/AroundBlock";
 import { NearbyCards } from "@/components/Cards";
 import { BeachFacts, BeachSources } from "@/components/BeachFacts";
 import { directionsTo } from "@/lib/geo";
+import Link from "next/link";
+import { UnescoBadge, UNESCO_NAMES, localityOf } from "@/components/Guide";
 
 export const dynamicParams = false;
 export function generateStaticParams() { return PLACES.map((p) => ({ slug: p.slug })); }
@@ -27,47 +29,71 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
   const d = getDest(p.dest)!;
   const href = placeHref(p.slug);
   const beach = PLACE_BEACH.get(p.slug);
+  const photo = photoFor(`place-${p.slug}`);
+  const loc = localityOf(p);
+  const crumbs: [string, string?][] = [["Home", "/"], [d.name, `/destinations/${d.id}`], ...(loc ? [[loc.title, loc.href] as [string, string]] : []), [p.name]];
+  const actions = (
+    <div className="actions">
+      {p.ll ? <a className="btn btn-primary" href={`${href}/around`}>See what&apos;s around</a> : null}
+      {p.ll ? <a className="btn btn-ghost" href={directionsTo(p.ll)} target="_blank" rel="noopener noreferrer">Directions</a> : null}
+      <SaveButton item={{ key: href, n: p.name, href, sub: `${p.cat} · ${d.name}` }} />
+      <ShareButton title={p.name} />
+    </div>
+  );
   return (
     <>
-      <div className="wrap hero">
-        <Crumbs items={[["Home", "/"], [d.name, `/destinations/${d.id}`], [p.name]]} />
-        <div style={{ height: 16 }} />
-        <Photo photo={photoFor(`place-${p.slug}`)} label={p.name} tint={p.tint} ratio="16/9" priority hero className="hero-photo" />
-        <div className="hero-copy">
-          <p className="eyebrow">{p.cat} · {d.name}</p>
-          <h1 className="h-hero">{p.name}</h1>
-          <p className="lead">{p.intro}</p>
-          <div className="actions">
-            {p.ll ? <a className="btn btn-primary" href={`${href}/around`}>See what&apos;s around</a> : null}
-            <SaveButton item={{ key: href, n: p.name, href, sub: `${p.cat} · ${d.name}` }} />
-            <ShareButton title={p.name} />
+      {photo ? (
+        <div className="wrap hero">
+          <Crumbs items={crumbs} />
+          <div style={{ height: 16 }} />
+          <Photo photo={photo} label={p.name} tint={p.tint} ratio="16/9" priority hero className="hero-photo" />
+          <div className="hero-copy">
+            <p className="eyebrow">{p.cat} · {d.name}</p>
+            <h1 className="h-hero">{p.name}</h1>
+            {p.unesco ? <UnescoBadge id={p.unesco} /> : null}
+            <p className="lead">{p.intro}</p>
+            {actions}
           </div>
         </div>
-      </div>
+      ) : (
+        <div className="wrap">
+          <Crumbs items={crumbs} />
+          <div className="around-head place-head" style={{ ["--tint" as string]: p.tint }}>
+            <p className="eyebrow">{p.cat} · {p.loc ?? d.name}</p>
+            <h1>{p.name}</h1>
+            {p.unesco ? <UnescoBadge id={p.unesco} /> : null}
+            <p className="lead" style={{ margin: 0 }}>{p.intro}</p>
+            {p.ll ? <FromBase ll={p.ll} /> : null}
+            {actions}
+          </div>
+        </div>
+      )}
       <section className="wrap">
         <div className="split">
           <div className="prose">
-            <h2>Why visit</h2>
-            <p>{p.why}</p>
-            <h2>What you&apos;ll find</h2>
-            <ul className="list">{p.features.map((x) => <li key={x}>{x}</li>)}</ul>
+            {p.why ? <><h2>Why visit</h2><p>{p.why}</p></> : null}
+            {p.features.length ? <><h2>What you&apos;ll find</h2><ul className="list">{p.features.map((x) => <li key={x}>{x}</li>)}</ul></> : null}
             {p.legend ? <div className="legend"><span className="label">Local legend</span><p>{p.legend}</p></div> : null}
+            {p.how ? <><h2>Getting there</h2><p>{p.how}</p></> : null}
+            {p.before ? <div className="before"><span className="label">Before you go</span><p>{p.before}</p></div> : null}
             {beach ? <BeachFacts r={beach} /> : null}
             <h2>Practical</h2>
             <Facts rows={p.practical} />
-            <Sources list={p.sources} />
+            <Sources list={p.sources} reviewed={p.how ? "visitor guide, 22 November 2026. Check opening, access and return transport before you travel." : undefined} />
             {beach ? <BeachSources r={beach} /> : null}
           </div>
           <div className="panel">
             <h3 style={{ fontSize: 22 }}>Location</h3>
-            <p>{d.name}</p>
+            <p>{p.loc ?? d.name}</p>
+            {loc ? <p className="muted small">Part of <Link href={loc.href}>{loc.title}</Link></p> : null}
+            {p.unesco ? <p className="muted small">One of the sites in the <Link href={`/unesco#${p.unesco}`}>{UNESCO_NAMES[p.unesco]}</Link> World Heritage property.</p> : null}
             {p.ll ? <a className="btn btn-ghost" href={directionsTo(p.ll)} target="_blank" rel="noopener noreferrer">Get directions</a> : null}
           </div>
         </div>
       </section>
       {p.ll ? (
         <>
-          <section className="wrap" style={{ paddingBottom: 0 }}><FromBase ll={p.ll} /></section>
+          {photo ? <section className="wrap" style={{ paddingBottom: 0 }}><FromBase ll={p.ll} /></section> : null}
           <AroundBlock ll={p.ll} skip={`place-${p.slug}`} title={`Near ${p.name}`} moreHref={`${href}/around`} />
         </>
       ) : null}
