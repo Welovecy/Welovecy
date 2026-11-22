@@ -20,6 +20,15 @@ function isDark() {
   return window.matchMedia("(prefers-color-scheme: dark)").matches;
 }
 
+/** Give the sea a soft blue so the coast reads at a glance, in both themes. */
+function tint(m: MapT) {
+  const dark = isDark();
+  for (const l of m.getStyle()?.layers ?? []) {
+    if (l.type === "fill" && /^water/.test(l.id)) m.setPaintProperty(l.id, "fill-color", dark ? "#16303F" : "#CFE4F1");
+    if (l.type === "background") m.setPaintProperty(l.id, "background-color", dark ? "#1E2124" : "#F6F4EF");
+  }
+}
+
 function esc(s: string) {
   return s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
 }
@@ -64,6 +73,7 @@ export function MapView({ center, focus, others, kind, label }: Props) {
         m.addControl(new ml.NavigationControl({ showCompass: false }), "top-right");
         const timer = window.setTimeout(() => { if (!m.loaded()) setState("failed"); }, 9000);
         m.on("load", () => { window.clearTimeout(timer); setState("ready"); });
+        m.on("style.load", () => tint(m));
         m.on("error", (e) => { if (!m.loaded() && /style|fetch|Failed/i.test(String(e.error?.message))) setState("failed"); });
         map.current = m;
       } catch {
@@ -95,7 +105,7 @@ export function MapView({ center, focus, others, kind, label }: Props) {
     };
     const pop = (n: Near) =>
       `<a class="mp-pop" href="${esc(n.s.href)}"><b>${esc(n.s.n)}</b><span>${esc(n.s.sub || KINDS[n.s.k].n)}</span><span>${fmtD(n.d)} away</span></a>`;
-    for (const n of others.slice(0, 60)) {
+    for (const n of others.slice(0, 30)) {
       const el = document.createElement("button");
       el.type = "button"; el.className = "mp-dot"; el.style.background = KINDS[n.s.k].c; el.setAttribute("aria-label", n.s.n);
       add(el, n.s.ll, pop(n));
