@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
 import {
-  BUSINESSES, POIS, bizDirections, bizSub, getBusiness, getDest, getPoi, isStay, listingHref, placeForPoi, placeHref, poiDirections, poiSub,
+  BUSINESSES, POIS, bizDirections, bizSub, getBusiness, getDest, getPoi, isStay, listingHref, placeForPoi, placeHref, poiDirections, poiSub, photoFor,
 } from "@/lib/data";
 import { bizFacts, bizSources, poiFacts, poiSources } from "@/lib/listing";
 import { Crumbs, Facts, KindDot, Sources } from "@/components/Bits";
@@ -11,6 +11,7 @@ import { FromBase } from "@/components/FromBase";
 import { AroundBlock } from "@/components/AroundBlock";
 import { StayHere } from "@/components/StayHere";
 import { KINDS } from "@/lib/kinds";
+import { Photo } from "@/components/Photo";
 
 type P = { params: Promise<{ id: string }> };
 
@@ -81,6 +82,7 @@ function PoiView({ id }: { id: string }) {
   const href = listingHref(r.i);
   const src = poiSources(r);
   const isBeach = r.k === "beach";
+  const photo = isBeach ? photoFor(`beach-${r.i}`) : undefined;
   return (
     <>
       <div className="wrap">
@@ -97,6 +99,7 @@ function PoiView({ id }: { id: string }) {
           </div>
         </div>
       </div>
+      {photo ? <div className="wrap"><Photo photo={photo} label={r.n} tint="#2E6E8E" ratio="21/9" priority hero className="g-photo" /></div> : null}
       <section className="wrap" style={{ paddingBottom: 0 }}>
         <div className="prose" style={{ maxWidth: 760 }}>
           {r.k === "pharmacy" ? <p className="basebar plain">Listed in the official pharmacy register. Opening hours and tonight&apos;s duty pharmacy are not shown here yet.</p> : null}

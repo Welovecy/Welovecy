@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
-import { DESTINATIONS, PLACE_BEACH, POIS, getDest, getPlace, listingHref, placeForPoi, placeHref, poiDirections, poiSub } from "@/lib/data";
+import Link from "next/link";
+import { DESTINATIONS, PLACE_BEACH, POIS, getDest, getPlace, listingHref, photoFor, placeForPoi, placeHref, poiDirections, poiSub } from "@/lib/data";
+import { Photo } from "@/components/Photo";
 import { PageHead } from "@/components/Bits";
 import { PlaceCard } from "@/components/Cards";
 import { BeachBrowser, type BeachItem } from "@/components/BeachBrowser";
@@ -19,6 +21,7 @@ export default function Beaches() {
     };
   }).sort((a, b) => a.n.localeCompare(b.n));
   const featured = [...PLACE_BEACH.keys()].map((s) => getPlace(s)!).filter(Boolean);
+  const pictured = beaches.filter((r) => !placeForPoi(r.i) && photoFor(`beach-${r.i}`));
   const areas = DESTINATIONS.filter((d) => items.some((i) => i.area === d.id)).map((d) => [d.id, d.name] as [string, string]);
   return (
     <>
@@ -27,6 +30,21 @@ export default function Beaches() {
         <section className="wrap" aria-labelledby="h-fav" style={{ paddingTop: 16 }}>
           <div className="sec-head"><h2 id="h-fav">Our favourites</h2></div>
           <div className="grid">{featured.map((p) => <PlaceCard key={p.slug} p={p} />)}</div>
+        </section>
+      ) : null}
+      {pictured.length ? (
+        <section className="wrap" aria-labelledby="h-pics">
+          <div className="sec-head"><h2 id="h-pics">More beaches we love</h2></div>
+          <div className="grid">
+            {pictured.map((r) => (
+              <div className="card" key={r.i}>
+                <Link href={listingHref(r.i)} className="card-link">
+                  <Photo photo={photoFor(`beach-${r.i}`)} label={r.n} tint="#2E6E8E" ratio="4/3" />
+                  <div><p className="eyebrow">{r.tw || getDest(r.d)?.name}</p><h3 className="mt4">{r.n}</h3><p className="mt6">{poiSub(r)}{r.bf ? " · Blue Flag" : ""}</p></div>
+                </Link>
+              </div>
+            ))}
+          </div>
         </section>
       ) : null}
       <section className="wrap" aria-labelledby="h-all">
