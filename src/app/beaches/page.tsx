@@ -28,7 +28,7 @@ export default function Beaches() {
       <PageHead title="Beaches" lead={`${beaches.length} beaches across the Republic of Cyprus, with facilities and Blue Flag status from official sources.`} crumbs={[["Home", "/"], ["Beaches"]]} />
       {featured.length ? (
         <section className="wrap" aria-labelledby="h-fav" style={{ paddingTop: 16 }}>
-          <div className="sec-head"><h2 id="h-fav">Our favourites</h2></div>
+          <div className="sec-head"><h2 id="h-fav">Our favourites</h2><Link href="/hotels-near">Hotels near the beach</Link></div>
           <div className="grid">{featured.map((p) => <PlaceCard key={p.slug} p={p} />)}</div>
         </section>
       ) : null}

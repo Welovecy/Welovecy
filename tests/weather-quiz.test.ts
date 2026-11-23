@@ -97,3 +97,18 @@ describe("guides and month pages", () => {
     expect(monthCopy(0).mountains).toMatch(/snow/);
   });
 });
+
+import { BEACH_HOTELS, NEAR_KM } from "../src/lib/hotelsNear";
+describe("hotels near the beach", () => {
+  it("has unique pages, each with enough hotels, sorted closest first", () => {
+    expect(BEACH_HOTELS.length).toBeGreaterThan(20);
+    expect(new Set(BEACH_HOTELS.map((b) => b.slug)).size).toBe(BEACH_HOTELS.length);
+    for (const b of BEACH_HOTELS) {
+      expect(b.slug, b.name).toMatch(/^[a-z0-9-]+$/);
+      expect(b.hotels.length).toBeGreaterThanOrEqual(4);
+      for (let i = 1; i < b.hotels.length; i++) expect(b.hotels[i].d).toBeGreaterThanOrEqual(b.hotels[i - 1].d);
+      expect(b.hotels.at(-1)!.d).toBeLessThanOrEqual(NEAR_KM);
+    }
+    expect(BEACH_HOTELS.some((b) => b.slug === "nissi-beach")).toBe(true);
+  });
+});

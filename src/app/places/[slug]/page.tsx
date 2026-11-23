@@ -13,6 +13,7 @@ import { NearbyCards } from "@/components/Cards";
 import { BeachFacts, BeachSources } from "@/components/BeachFacts";
 import { directionsTo } from "@/lib/geo";
 import Link from "next/link";
+import { hotelsNearFor, hotelsNearHref } from "@/lib/hotelsNear";
 import { UnescoBadge, UNESCO_NAMES, localityOf } from "@/components/Guide";
 
 export const dynamicParams = false;
@@ -31,6 +32,7 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
   const d = getDest(p.dest)!;
   const href = placeHref(p.slug);
   const beach = PLACE_BEACH.get(p.slug);
+  const stay = hotelsNearFor(beach?.i);
   const photo = photoFor(`place-${p.slug}`);
   const loc = localityOf(p);
   const crumbs: [string, string?][] = [["Home", "/"], [d.name, `/destinations/${d.id}`], ...(loc ? [[loc.title, loc.href] as [string, string]] : []), [p.name]];
@@ -38,6 +40,7 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
     <div className="actions">
       {p.ll ? <a className="btn btn-primary" href={`${href}/around`}>See what&apos;s around</a> : null}
       {p.ll ? <a className="btn btn-ghost" href={directionsTo(p.ll)} target="_blank" rel="noopener noreferrer">Directions</a> : null}
+      {stay ? <Link className="btn btn-ghost" href={hotelsNearHref(stay.slug)}>Hotels nearby</Link> : null}
       <SaveButton item={{ key: href, n: p.name, href, sub: `${p.cat} · ${d.name}` }} />
       <ShareButton title={p.name} />
     </div>

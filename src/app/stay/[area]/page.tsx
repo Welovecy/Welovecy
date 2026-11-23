@@ -7,6 +7,7 @@ import { ListRow } from "@/components/ListRow";
 import { StayPanel } from "@/components/StayPanel";
 import { bizRow, staysBySea, staysIn } from "@/lib/views";
 import { fmtD } from "@/lib/geo";
+import { BEACH_HOTELS, hotelsNearHref } from "@/lib/hotelsNear";
 
 type P = { params: Promise<{ area: string }> };
 export const dynamicParams = false;
@@ -22,6 +23,7 @@ export default async function StayArea({ params }: P) {
   if (!d) notFound();
   const mapped = staysBySea(d.id);
   const ids = new Set(mapped.map((m) => m.b.i));
+  const byBeach = BEACH_HOTELS.filter((b) => b.d === d.id);
   const rest = staysIn(d.id).filter((b) => !ids.has(b.i)).sort((a, b) => a.n.localeCompare(b.n));
   return (
     <>
@@ -33,6 +35,12 @@ export default async function StayArea({ params }: P) {
       <section className="wrap" style={{ paddingTop: 24 }}>
         <div className="split">
           <div className="near-group">
+            {byBeach.length ? (
+              <div style={{ marginBottom: 28 }}>
+                <h2 style={{ fontSize: 26 }}>Choose by beach</h2>
+                <div className="chips">{byBeach.map((b) => <Link key={b.slug} className="chip" href={hotelsNearHref(b.slug)}>{b.name}</Link>)}</div>
+              </div>
+            ) : null}
             {mapped.length ? (
               <>
                 <h2 style={{ fontSize: 26 }}>Closest to the sea</h2>

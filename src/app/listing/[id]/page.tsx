@@ -11,6 +11,7 @@ import { FromBase } from "@/components/FromBase";
 import { AroundBlock } from "@/components/AroundBlock";
 import { StayHere } from "@/components/StayHere";
 import { KINDS } from "@/lib/kinds";
+import { hotelsNearFor, hotelsNearHref } from "@/lib/hotelsNear";
 import { Photo } from "@/components/Photo";
 
 type P = { params: Promise<{ id: string }> };
@@ -95,6 +96,7 @@ function PoiView({ id }: { id: string }) {
           <div className="actions">
             {r.ll ? <Link className="btn btn-primary" href={`${href}/around`}>See what&apos;s around</Link> : null}
             <a className="btn btn-ghost" href={poiDirections(r)} target="_blank" rel="noopener noreferrer">Get directions</a>
+            {isBeach && hotelsNearFor(r.i) ? <Link className="btn btn-ghost" href={hotelsNearHref(hotelsNearFor(r.i)!.slug)}>Hotels nearby</Link> : null}
             <SaveButton item={{ key: href, n: r.n, href, sub: poiSub(r) }} />
           </div>
         </div>
