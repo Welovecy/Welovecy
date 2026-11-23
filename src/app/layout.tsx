@@ -7,6 +7,7 @@ import { TabBar } from "@/components/TabBar";
 import { THEME_SCRIPT } from "@/components/ThemeToggle";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 import { JsonLd } from "@/components/JsonLd";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -54,6 +55,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
         <TabBar />
         <RegisterSW />
+        <Analytics />
       </body>
     </html>
   );
