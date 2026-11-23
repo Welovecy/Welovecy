@@ -1,0 +1,394 @@
+[
+ {
+  "id": "aphrodite",
+  "q": "Which goddess is said to have been born from the sea at Petra tou Romiou?",
+  "o": [
+   "Aphrodite",
+   "Athena",
+   "Artemis",
+   "Hera"
+  ],
+  "a": 0,
+  "why": "Legend says Aphrodite rose from the waves at this rock on the Paphos coast, which is why it's also called Aphrodite's Rock.",
+  "href": "/places/aphrodite-rock",
+  "link": "Aphrodite's Rock"
+ },
+ {
+  "id": "drive",
+  "q": "Which side of the road do you drive on in Cyprus?",
+  "o": [
+   "Left",
+   "Right",
+   "Either, it depends on the town",
+   "Right, except on motorways"
+  ],
+  "a": 0,
+  "why": "Cyprus drives on the left, like the UK. Hire cars usually have red number plates so locals know to give you a little extra room.",
+  "href": "/practical",
+  "link": "Practical tips"
+ },
+ {
+  "id": "plug",
+  "q": "Which plug will you need for your phone charger?",
+  "o": [
+   "The UK three-pin plug",
+   "The European two-pin plug",
+   "The US flat-pin plug",
+   "The Australian plug"
+  ],
+  "a": 0,
+  "why": "Cyprus uses the same three-pin sockets as the UK, so visitors from Britain don't need an adapter.",
+  "href": "/practical",
+  "link": "Practical tips"
+ },
+ {
+  "id": "euro",
+  "q": "What currency do you pay with in Cyprus?",
+  "o": [
+   "Euro",
+   "Cypriot pound",
+   "Drachma",
+   "Lira"
+  ],
+  "a": 0,
+  "why": "Cyprus switched from the Cypriot pound to the euro on 1 January 2008.",
+  "href": "/practical",
+  "link": "Practical tips"
+ },
+ {
+  "id": "emergency",
+  "q": "What number do you call in an emergency?",
+  "o": [
+   "112 or 199",
+   "999 only",
+   "911",
+   "100"
+  ],
+  "a": 0,
+  "why": "Both 112 and 199 reach the emergency services, free from any phone.",
+  "href": "/practical#emergency",
+  "link": "Emergency numbers"
+ },
+ {
+  "id": "halloumi",
+  "q": "Halloumi is famous for doing what on the grill?",
+  "o": [
+   "Holding its shape instead of melting",
+   "Turning blue",
+   "Melting into a sauce",
+   "Puffing up like bread"
+  ],
+  "a": 0,
+  "why": "Halloumi has a high melting point, so it browns on the grill and squeaks when you bite it.",
+  "href": "/stories",
+  "link": "Food stories"
+ },
+ {
+  "id": "olympus",
+  "q": "What is the highest mountain in Cyprus?",
+  "o": [
+   "Mount Olympus",
+   "Mount Ida",
+   "Stavrovouni",
+   "Mount Athos"
+  ],
+  "a": 0,
+  "why": "Mount Olympus in the Troodos range rises to 1,952 metres. In winter there's enough snow up there to ski.",
+  "href": "/destinations/troodos",
+  "link": "Troodos"
+ },
+ {
+  "id": "ski",
+  "q": "Can you go skiing in Cyprus?",
+  "o": [
+   "Yes, on Mount Olympus in winter",
+   "No, it never snows",
+   "Only on artificial indoor slopes",
+   "Only in Paphos"
+  ],
+  "a": 0,
+  "why": "The Troodos mountains get snow most winters, and there are ski lifts on Mount Olympus.",
+  "href": "/destinations/troodos",
+  "link": "Troodos"
+ },
+ {
+  "id": "commandaria",
+  "q": "Commandaria is one of the oldest named wines in the world. What kind of wine is it?",
+  "o": [
+   "A sweet dessert wine",
+   "A sparkling rosé",
+   "A dry white",
+   "A red table wine"
+  ],
+  "a": 0,
+  "why": "Commandaria is a sweet wine made from sun-dried grapes in villages on the slopes above Limassol.",
+  "href": "/wine",
+  "link": "Wine routes"
+ },
+ {
+  "id": "churches",
+  "q": "How many painted churches in the Troodos mountains are on the UNESCO World Heritage list?",
+  "o": [
+   "Ten",
+   "Three",
+   "Twenty",
+   "One"
+  ],
+  "a": 0,
+  "why": "Ten churches and monasteries, many with simple barn-like roofs hiding remarkable painted interiors.",
+  "href": "/unesco",
+  "link": "UNESCO World Heritage"
+ },
+ {
+  "id": "choirokoitia",
+  "q": "Choirokoitia, a UNESCO site between Larnaca and Limassol, is a village from which age?",
+  "o": [
+   "The Neolithic, the late Stone Age",
+   "The Roman era",
+   "The Middle Ages",
+   "The Bronze Age"
+  ],
+  "a": 0,
+  "why": "People lived in Choirokoitia's round stone houses around 9,000 years ago.",
+  "href": "/places/choirokoitia",
+  "link": "Choirokoitia"
+ },
+ {
+  "id": "mosaics",
+  "q": "Kato Paphos Archaeological Park is best known for its…",
+  "o": [
+   "Roman floor mosaics",
+   "Ancient pyramids",
+   "Viking longships",
+   "Medieval stained glass"
+  ],
+  "a": 0,
+  "why": "The Roman villas at Kato Paphos have some of the finest floor mosaics in the Mediterranean.",
+  "href": "/places/kato-paphos",
+  "link": "Kato Paphos"
+ },
+ {
+  "id": "tombs",
+  "q": "At the Tombs of the Kings in Paphos, who was actually buried there?",
+  "o": [
+   "Wealthy officials and aristocrats, not kings",
+   "Every king of Cyprus",
+   "Roman emperors",
+   "Crusader knights"
+  ],
+  "a": 0,
+  "why": "The name comes from how grand the rock-cut tombs are. The people buried there were high-ranking officials and nobles.",
+  "href": "/places/tombs-kings",
+  "link": "Tombs of the Kings"
+ },
+ {
+  "id": "nissi",
+  "q": "Which Ayia Napa beach has a small island you can wade across to?",
+  "o": [
+   "Nissi Beach",
+   "Fig Tree Bay",
+   "Konnos Bay",
+   "Makronissos"
+  ],
+  "a": 0,
+  "why": "Nissi means island in Greek. On calm days you can walk across the sandbank to it.",
+  "href": "/places/nissi",
+  "link": "Nissi Beach"
+ },
+ {
+  "id": "figtree",
+  "q": "How did Fig Tree Bay in Protaras get its name?",
+  "o": [
+   "From a fig tree that has stood near the beach for centuries",
+   "From the fig farms that once covered the town",
+   "From a ship called The Fig Tree",
+   "From the shape of the bay"
+  ],
+  "a": 0,
+  "why": "The bay is named after a fig tree said to have grown by the beach for centuries.",
+  "href": "/places/fig-tree-bay",
+  "link": "Fig Tree Bay"
+ },
+ {
+  "id": "capegreco",
+  "q": "What is Cape Greco best known for?",
+  "o": [
+   "Sea caves, cliffs and clear water",
+   "A long sandy beach",
+   "A theme park",
+   "A ski slope"
+  ],
+  "a": 0,
+  "why": "The headland between Ayia Napa and Protaras is a national forest park with sea caves and a natural rock arch.",
+  "href": "/places/cape-greco",
+  "link": "Cape Greco"
+ },
+ {
+  "id": "flamingos",
+  "q": "Which birds turn Larnaca Salt Lake pink in winter?",
+  "o": [
+   "Flamingos",
+   "Pelicans",
+   "Parrots",
+   "Swans"
+  ],
+  "a": 0,
+  "why": "Thousands of flamingos spend the winter on the lake, usually from around November to March.",
+  "href": "/places/salt-lake",
+  "link": "Larnaca Salt Lake"
+ },
+ {
+  "id": "lazarus",
+  "q": "Which saint is the famous church in the centre of Larnaca named after?",
+  "o": [
+   "Saint Lazarus",
+   "Saint Nicholas",
+   "Saint George",
+   "Saint Paul"
+  ],
+  "a": 0,
+  "why": "Tradition says Lazarus lived in Larnaca after leaving Bethany, and the church of Agios Lazaros stands over his tomb.",
+  "href": "/places/st-lazarus",
+  "link": "Agios Lazaros"
+ },
+ {
+  "id": "lefkara",
+  "q": "Lefkara village is famous for which handmade craft?",
+  "o": [
+   "Lace embroidery",
+   "Glass blowing",
+   "Pottery",
+   "Leather sandals"
+  ],
+  "a": 0,
+  "why": "Lefkaritika lace is made by hand in the village. Legend has it Leonardo da Vinci bought a piece for Milan Cathedral.",
+  "href": "/places/lefkara",
+  "link": "Lefkara"
+ },
+ {
+  "id": "turtles",
+  "q": "Which animals come ashore to nest on the beaches of the Akamas, around Lara Bay?",
+  "o": [
+   "Sea turtles",
+   "Seals",
+   "Penguins",
+   "Crocodiles"
+  ],
+  "a": 0,
+  "why": "Green and loggerhead turtles nest at Lara Bay in summer, and the beaches are protected for them.",
+  "href": "/destinations/akamas",
+  "link": "Akamas"
+ },
+ {
+  "id": "mouflon",
+  "q": "Which wild sheep is the national animal of Cyprus?",
+  "o": [
+   "The mouflon",
+   "The ibex",
+   "The alpaca",
+   "The bighorn"
+  ],
+  "a": 0,
+  "why": "The shy mouflon lives in the Paphos Forest, and you'll see it on Cypriot coins.",
+  "href": "/destinations/troodos",
+  "link": "Troodos"
+ },
+ {
+  "id": "kalimera",
+  "q": "A Cypriot says “Kalimera!” as you arrive for breakfast. What does it mean?",
+  "o": [
+   "Good morning",
+   "Cheers",
+   "Thank you",
+   "Welcome"
+  ],
+  "a": 0,
+  "why": "Kalimera is good morning. Thank you is efcharistó, and cheers is yiamas.",
+  "href": "/practical",
+  "link": "Practical tips"
+ },
+ {
+  "id": "coffee",
+  "q": "Ordering a Cyprus coffee “metrio” gets you…",
+  "o": [
+   "A medium-sweet coffee",
+   "A large coffee",
+   "A coffee with milk",
+   "An iced coffee"
+  ],
+  "a": 0,
+  "why": "Sketo is no sugar, metrio is medium sweet and glykis is sweet.",
+  "href": "/practical",
+  "link": "Practical tips"
+ },
+ {
+  "id": "kleftiko",
+  "q": "What is kleftiko?",
+  "o": [
+   "Lamb slow-cooked in a sealed oven",
+   "A honey pastry",
+   "A cheese pie",
+   "A fish soup"
+  ],
+  "a": 0,
+  "why": "Kleftiko is lamb cooked slowly for hours, traditionally in a clay oven sealed with dough.",
+  "href": "/stories",
+  "link": "Food stories"
+ },
+ {
+  "id": "meze",
+  "q": "If you order a meze in a Cypriot taverna, what arrives?",
+  "o": [
+   "Lots of small dishes, one after another",
+   "One big platter of grilled fish",
+   "A single bowl of soup",
+   "A dessert sampler"
+  ],
+  "a": 0,
+  "why": "A meze can run to 20 or more dishes, so pace yourself.",
+  "href": "/stories",
+  "link": "Food stories"
+ },
+ {
+  "id": "island",
+  "q": "Cyprus is the Mediterranean's third largest island. Which two are bigger?",
+  "o": [
+   "Sicily and Sardinia",
+   "Crete and Corsica",
+   "Malta and Rhodes",
+   "Mallorca and Crete"
+  ],
+  "a": 0,
+  "why": "Only Sicily and Sardinia are bigger.",
+  "href": "/destinations",
+  "link": "All destinations"
+ },
+ {
+  "id": "kolossi",
+  "q": "Kolossi Castle near Limassol was run by which order of knights?",
+  "o": [
+   "The Knights Hospitaller",
+   "The Knights of the Round Table",
+   "The Teutonic Knights",
+   "The Samurai"
+  ],
+  "a": 0,
+  "why": "The Knights Hospitaller ran a large estate here, and Commandaria wine takes its name from their Grand Commandery.",
+  "href": "/places/kolossi-castle",
+  "link": "Kolossi Castle"
+ },
+ {
+  "id": "kourion",
+  "q": "What is the star sight at ancient Kourion, on the cliffs west of Limassol?",
+  "o": [
+   "A Greco-Roman theatre overlooking the sea",
+   "A Viking fort",
+   "A lighthouse",
+   "A Venetian palace"
+  ],
+  "a": 0,
+  "why": "The restored theatre still hosts summer concerts and plays, with the sea as the backdrop.",
+  "href": "/places/kourion",
+  "link": "Kourion"
+ }
+]

@@ -12,6 +12,8 @@ import { ListRow } from "@/components/ListRow";
 import { bizRow, staysBySea, staysIn } from "@/lib/views";
 import { getProfile } from "@/lib/data";
 import { LocalityChooser, PlanVisit, StartHere } from "@/components/Profile";
+import { WeatherNow } from "@/components/Weather";
+import { ClimateChart } from "@/components/ClimateChart";
 import { fmtD } from "@/lib/geo";
 import type { Fact } from "@/lib/types";
 
@@ -97,11 +99,12 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
               <SaveButton item={{ key: href, n: d.name, href, sub: "Destination" }} />
             </div>
             <LocalityChooser d={d} profile={profile} />
+            <a href="#s-weather" className="wx-link"><WeatherNow d={d.id} name={d.name} compact /></a>
           </div>
         </div>
         <div className="subnav">
           <nav className="wrap" aria-label="On this page">
-            {[["s-start", "Start here"], ["s-must", "Sights"], ["s-beach", "Beaches"], ["s-eat", "Eat & drink"], ["s-stay", "Stay"], ["s-plan", "Plan"]].map(([id, l]) => (
+            {[["s-start", "Start here"], ["s-must", "Sights"], ["s-beach", "Beaches"], ["s-eat", "Eat & drink"], ["s-stay", "Stay"], ["s-weather", "Weather"], ["s-plan", "Plan"]].map(([id, l]) => (
               <a key={id} href={`#${id}`}>{l}</a>
             ))}
           </nav>
@@ -127,6 +130,12 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
         ) : null}
         {stay}
         <FeaturedBlock destName={d.name} />
+        <section className="wrap" id="s-weather" aria-labelledby="h-weather">
+          <div className="sec-head"><h2 id="h-weather">Weather</h2><Link href="/weather">Every area, every month</Link></div>
+          <WeatherNow d={d.id} name={d.name} />
+          <h3 className="h-sub" style={{ marginTop: 40 }}>Month by month</h3>
+          <ClimateChart d={d.id} name={d.name} />
+        </section>
         <PlanVisit d={d} profile={profile} operator={operator} />
         {d.next?.length ? (
           <section className="wrap" aria-labelledby="h-next">
@@ -148,11 +157,12 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
           <h1 className="h-hero">{d.name}</h1>
           <p className="lead">{d.line}</p>
           <div className="actions"><SaveButton item={{ key: href, n: d.name, href, sub: "Destination" }} /></div>
+          <a href="#s-weather" className="wx-link"><WeatherNow d={d.id} name={d.name} compact /></a>
         </div>
       </div>
       <div className="subnav">
         <nav className="wrap" aria-label="On this page">
-          {[["s-overview", "Overview"], ["s-must", "Must-see"], ["s-beach", "Beaches"], ["s-stay", "Stay"], ["featured", "Featured"], ["s-plan", "Plan"]].map(([id, l]) => (
+          {[["s-overview", "Overview"], ["s-must", "Must-see"], ["s-beach", "Beaches"], ["s-stay", "Stay"], ["featured", "Featured"], ["s-weather", "Weather"], ["s-plan", "Plan"]].map(([id, l]) => (
             <a key={id} href={`#${id}`}>{l}</a>
           ))}
         </nav>
@@ -177,6 +187,12 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
       ) : null}
       {stay}
       <FeaturedBlock destName={d.name} />
+      <section className="wrap" id="s-weather" aria-labelledby="h-weather">
+        <div className="sec-head"><h2 id="h-weather">Weather</h2><Link href="/weather">Every area, every month</Link></div>
+        <WeatherNow d={d.id} name={d.name} />
+        <h3 className="h-sub" style={{ marginTop: 40 }}>Month by month</h3>
+        <ClimateChart d={d.id} name={d.name} />
+      </section>
       <section className="wrap" id="s-plan" aria-labelledby="h-plan">
         <h2 id="h-plan" className="h-sub">Plan your visit</h2>
         <div className="split">

@@ -88,11 +88,8 @@ export const getExperience = (slug: string) => EXPERIENCES.find((e) => e.slug ==
 export const getMaker = (slug: string) => MAKERS.find((m) => m.slug === slug);
 export const getInterest = (id: string) => INTERESTS.find((i) => i.id === id);
 
-/** Rough centre of each area, used to find the nearest area for any point. */
-export const DEST_CENTRE: Record<DestId, LL> = {
-  ayianapa: [34.9875, 33.9995], protaras: [35.017, 34.05], paphos: [34.775, 32.43], akamas: [35.03, 32.43],
-  limassol: [34.68, 33.04], larnaca: [34.915, 33.63], nicosia: [35.17, 33.36], troodos: [34.94, 32.86],
-};
+export { DEST_CENTRE } from "./centres";
+import { DEST_CENTRE } from "./centres";
 
 export const isStay = (b: Business) => b.g === "hotel" || b.g === "apart";
 export const townOf = (tw: string | undefined, d: DestId) =>

@@ -23,6 +23,8 @@ export function Footer() {
           <Link href="/things">Things to do</Link>
           <Link href="/unesco">UNESCO World Heritage</Link>
           <Link href="/wine">Wine routes</Link>
+          <Link href="/weather">Weather</Link>
+          <Link href="/quiz">Cyprus quiz</Link>
           <Link href="/stories">Stories</Link>
           <Link href="/about">About</Link>
         </div>

@@ -4,6 +4,7 @@ import { DestCard, ExperienceCard, PlaceCard } from "@/components/Cards";
 import { HeroStage } from "@/components/HeroStage";
 import { WhereSearch } from "@/components/WhereSearch";
 import { HomeBase } from "@/components/HomeBase";
+import { QuestionOfTheDay } from "@/components/Quiz";
 import { HeroDemo, type DemoStop } from "@/components/HeroDemo";
 import { BUS, BUSINESSES, POIS, getBusiness, getDest, isStay, listingHref, spots } from "@/lib/data";
 import { essentials } from "@/lib/around";
@@ -118,6 +119,10 @@ export default function Home() {
       <section className="wrap" aria-labelledby="h-must">
         <div className="sec-head"><h2 id="h-must">Must-see</h2><Link href="/must-see">See them all</Link></div>
         <Picks list={MUST} />
+      </section>
+      <section className="wrap" aria-labelledby="h-play">
+        <div className="sec-head"><h2 id="h-play">How well do you know Cyprus?</h2><Link href="/quiz">Take the quiz</Link></div>
+        <QuestionOfTheDay />
       </section>
       <section className="wrap" aria-labelledby="h-people">
         <div className="sec-head"><h2 id="h-people">Meet the people behind the places</h2><Link href="/stories">All stories</Link></div>
