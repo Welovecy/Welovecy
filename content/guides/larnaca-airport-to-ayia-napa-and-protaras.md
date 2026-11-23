@@ -27,7 +27,9 @@ sources:
     u: https://cyprus-mail.com/2021/01/22/transport-ministry-issues-fixed-price-list-for-airport-taxi-fares
   - t: "Visit Cyprus: transportation"
     u: https://www.visitcyprus.com/useful-info/transportation/
-related: []
+related:
+  - paphos-airport-to-paphos-and-coral-bay
+  - pharmacies-on-duty-in-cyprus
 ---
 
 You've landed. Here's the simplest way to get from the arrivals hall to your sunbed, depending on when you land and where you're staying.
