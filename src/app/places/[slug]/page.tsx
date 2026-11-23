@@ -1,3 +1,5 @@
+import { JsonLd } from "@/components/JsonLd";
+import { absolute } from "@/lib/site";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PLACES, PLACE_BEACH, getDest, getPlace, photoFor, placeHref } from "@/lib/data";
@@ -40,8 +42,20 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
       <ShareButton title={p.name} />
     </div>
   );
+  const ld = {
+    "@context": "https://schema.org",
+    "@type": beach ? "Beach" : "TouristAttraction",
+    name: p.name,
+    description: p.intro,
+    url: absolute(href),
+    ...(photo ? { image: photo.u } : {}),
+    ...(p.ll ? { geo: { "@type": "GeoCoordinates", latitude: p.ll[0], longitude: p.ll[1] } } : {}),
+    address: { "@type": "PostalAddress", addressRegion: d.name, addressCountry: "CY" },
+    ...(p.unesco ? { additionalType: "https://schema.org/LandmarksOrHistoricalBuildings" } : {}),
+  };
   return (
     <>
+      <JsonLd data={ld} />
       {photo ? (
         <div className="wrap hero">
           <Crumbs items={crumbs} />

@@ -6,9 +6,11 @@ import { RegisterSW } from "@/components/RegisterSW";
 import { TabBar } from "@/components/TabBar";
 import { THEME_SCRIPT } from "@/components/ThemeToggle";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
+import { JsonLd } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+  alternates: { canonical: "./" },
   title: { default: `${SITE_NAME}: a guide to the Republic of Cyprus`, template: `%s · ${SITE_NAME}` },
   description: "Beaches, must-see places and what's around your hotel, from the island's largest community.",
   applicationName: SITE_NAME,
@@ -33,6 +35,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en-GB" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
+        <JsonLd data={{
+          "@context": "https://schema.org",
+          "@graph": [
+            { "@type": "Organization", "@id": `${SITE_URL}/#org`, name: SITE_NAME, url: SITE_URL, logo: `${SITE_URL}/icons/icon-512.png` },
+            { "@type": "WebSite", "@id": `${SITE_URL}/#site`, name: SITE_NAME, url: SITE_URL, inLanguage: "en-GB", publisher: { "@id": `${SITE_URL}/#org` } },
+          ],
+        }} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         {/* eslint-disable-next-line @next/next/no-page-custom-font */}

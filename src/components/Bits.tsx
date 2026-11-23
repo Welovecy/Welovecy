@@ -1,10 +1,18 @@
+import { JsonLd } from "./JsonLd";
+import { absolute } from "@/lib/site";
 import Link from "next/link";
 import type { Fact, Source } from "@/lib/types";
 import { formatDate } from "@/lib/text";
 
 export function Crumbs({ items }: { items: [string, string?][] }) {
+  const ld = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map(([name, href], i) => ({ "@type": "ListItem", position: i + 1, name, ...(href ? { item: absolute(href) } : {}) })),
+  };
   return (
     <nav aria-label="Breadcrumb" className="crumbs">
+      <JsonLd data={ld} />
       {items.map(([label, href], i) => (
         <span key={i} style={{ display: "contents" }}>
           {i > 0 && <span aria-hidden="true">/</span>}
