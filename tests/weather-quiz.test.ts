@@ -1,3 +1,4 @@
+import fs from "node:fs";
 import { describe, expect, it, vi } from "vitest";
 vi.mock("server-only", () => ({}));
 import quiz from "../data/quiz.json";
@@ -71,6 +72,19 @@ describe("guides and month pages", () => {
         expect(s, g.slug).not.toMatch(/kyrenia|varosha|occupied|north cyprus|northern cyprus/i);
       }
       for (const s of g.sources) expect(s.u).not.toMatch(/utm_source/);
+    }
+  });
+  it("guide links point at real pages", () => {
+    const slugs = new Set(GUIDES.map((g) => g.slug));
+    const content = JSON.parse(fs.readFileSync("data/content.json", "utf8")) as { PLACES: Record<string, unknown>; DEST: { id: string }[] };
+    const places = new Set(Object.keys(content.PLACES));
+    const dests = new Set(content.DEST.map((d) => d.id));
+    for (const g of GUIDES) {
+      for (const r of g.related) expect(slugs.has(r), `${g.slug} related ${r}`).toBe(true);
+      for (const [, kind, id] of g.html.matchAll(/href="\/(guides|places|destinations)\/([a-z0-9-]+)/g)) {
+        const ok = kind === "guides" ? slugs.has(id) : kind === "places" ? places.has(id) : dests.has(id);
+        expect(ok, `${g.slug} links /${kind}/${id}`).toBe(true);
+      }
     }
   });
   it("month copy reads sensibly all year", () => {
