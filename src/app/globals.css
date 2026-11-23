@@ -537,3 +537,31 @@ html{-webkit-tap-highlight-color:transparent}
 .quiz-mark{width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font-size:13px;color:#fff;font-weight:700}
 .quiz-review .ok .quiz-mark{background:#2F8A5B}
 .quiz-review .no .quiz-mark{background:#C0303A}
+
+/* guides */
+.g-title{max-width:18ch}
+.g-meta{margin-top:12px}
+.g-photo{border-radius:var(--r-lg);overflow:hidden}
+.g-body{display:grid;gap:28px;max-width:760px}
+.g-quick{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);padding:20px 22px}
+.g-quick ul{margin:8px 0 0;padding-left:20px;display:grid;gap:8px}
+.g-prose{max-width:none}
+.g-prose h2{font-size:28px;margin-top:20px;text-wrap:balance}
+.g-prose h3{font-size:20px;margin-top:8px}
+.g-prose p,.g-prose li{font-size:17px;line-height:1.65}
+.g-prose ul,.g-prose ol{margin:0;padding-left:22px;display:grid;gap:8px}
+.g-prose a{color:var(--accent)}
+.g-prose blockquote{margin:0;padding:14px 18px;border-left:3px solid var(--accent);background:var(--surface);border-radius:0 var(--r-md) var(--r-md) 0}
+.g-table{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r-md)}
+.g-table table{border-collapse:collapse;width:100%;min-width:520px;font-size:15px}
+.g-table th,.g-table td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+.g-table th{font-weight:600;background:var(--surface)}
+.g-table tr:last-child td{border-bottom:0}
+.g-rel{list-style:none;margin:0;padding:0;display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.g-rel a{display:grid;gap:6px;padding:18px;border:1px solid var(--line);border-radius:var(--r-md);text-decoration:none;color:var(--fg);background:var(--card)}
+.g-rel span{color:var(--muted);font-size:15px}
+.month-links{list-style:none;margin:0;padding:0;display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(180px,1fr))}
+.month-links a{display:block;padding:12px 16px;border:1px solid var(--line);border-radius:var(--r-md);text-decoration:none;color:var(--fg);background:var(--card);font-weight:500}
+.chip.on{color:var(--fg);border-color:var(--fg)}
+.month-nav{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:12px 40px}
+.month-nav a{color:var(--accent);font-weight:500;text-decoration:none}

@@ -57,3 +57,29 @@ describe("weather endpoint", () => {
     expect(j.days[1].hi).toBe(22); expect(j.days[1].lo).toBe(15);
   });
 });
+
+import { GUIDES } from "../src/lib/guides";
+import { monthCopy } from "../src/lib/months";
+describe("guides and month pages", () => {
+  it("every guide is complete, sourced and on-brand", () => {
+    expect(GUIDES.length).toBeGreaterThan(0);
+    for (const g of GUIDES) {
+      expect(g.title && g.description && g.date, g.slug).toBeTruthy();
+      expect(g.sources.length, g.slug).toBeGreaterThan(0);
+      for (const s of [g.title, g.description, g.html, ...g.quick]) {
+        expect(s, g.slug).not.toMatch(/—/);
+        expect(s, g.slug).not.toMatch(/kyrenia|varosha|occupied|north cyprus|northern cyprus/i);
+      }
+      for (const s of g.sources) expect(s.u).not.toMatch(/utm_source/);
+    }
+  });
+  it("month copy reads sensibly all year", () => {
+    for (let m = 0; m < 12; m++) {
+      const c = monthCopy(m);
+      for (const s of [c.lead, c.swim, c.heat, c.wet, c.pack, c.mountains]) { expect(s).not.toMatch(/—|NaN|undefined/); expect(s.length).toBeGreaterThan(20); }
+    }
+    expect(monthCopy(7).swim).toMatch(/^Yes/);
+    expect(monthCopy(1).swim).toMatch(/bracing|Some/);
+    expect(monthCopy(0).mountains).toMatch(/snow/);
+  });
+});

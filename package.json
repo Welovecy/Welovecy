@@ -13,7 +13,9 @@
     "data:overture": "python3 scripts/data/fetch_overture.py && python3 scripts/data/match_overture.py data/work/overture_cyprus.json"
   },
   "dependencies": {
+    "gray-matter": "4.0.3",
     "maplibre-gl": "5.23.0",
+    "marked": "18.1.2",
     "next": "15.5.28",
     "react": "19.1.1",
     "react-dom": "19.1.1",

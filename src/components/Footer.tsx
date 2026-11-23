@@ -20,6 +20,7 @@ export function Footer() {
         </div>
         <div>
           <h4>Explore</h4>
+          <Link href="/guides">Guides</Link>
           <Link href="/things">Things to do</Link>
           <Link href="/unesco">UNESCO World Heritage</Link>
           <Link href="/wine">Wine routes</Link>

@@ -15,7 +15,7 @@ export function MonthPicker({ areas }: { areas: { id: DestId; name: string }[] }
           <button key={x} type="button" aria-pressed={m === i} className="chip" onClick={() => setM(i)}>{x}</button>
         ))}
       </div>
-      <h3 className="mpick-h">{MONTHS[m]} in Cyprus</h3>
+      <div className="sec-head" style={{ marginTop: 20 }}><h3 className="mpick-h" style={{ margin: 0 }}>{MONTHS[m]} in Cyprus</h3><Link href={`/weather/${MONTHS[m].toLowerCase()}`}>Read about {MONTHS[m]}</Link></div>
       <ul className="mpick-list">
         {areas.map((a) => {
           const c = CLIMATE[a.id];
