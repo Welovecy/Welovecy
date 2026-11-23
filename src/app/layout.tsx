@@ -8,6 +8,7 @@ import { THEME_SCRIPT } from "@/components/ThemeToggle";
 import { FB_GROUP, FB_PAGE, SITE_NAME, SITE_URL } from "@/lib/site";
 import { JsonLd } from "@/components/JsonLd";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -57,6 +58,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <TabBar />
         <RegisterSW />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

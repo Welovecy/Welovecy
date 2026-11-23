@@ -10,6 +10,8 @@ import { SaveButton } from "@/components/SaveButton";
 import { FromBase } from "@/components/FromBase";
 import { AroundBlock } from "@/components/AroundBlock";
 import { StayHere } from "@/components/StayHere";
+import { absolute } from "@/lib/site";
+import { JsonLd } from "@/components/JsonLd";
 import { districtsFor, dutyHref, onRota } from "@/lib/duty";
 import { KINDS } from "@/lib/kinds";
 import { hotelsNearFor, hotelsNearHref } from "@/lib/hotelsNear";
@@ -88,8 +90,18 @@ function PoiView({ id }: { id: string }) {
   const src = poiSources(r);
   const isBeach = r.k === "beach";
   const photo = isBeach ? photoFor(`beach-${r.i}`) : undefined;
+  const type = isBeach ? "Beach" : r.k === "pharmacy" ? "Pharmacy" : r.k === "health" ? "MedicalClinic" : r.k === "market" ? "GroceryStore" : "TouristAttraction";
+  const ld = {
+    "@context": "https://schema.org", "@type": type, name: r.n, url: absolute(href),
+    ...(photo ? { image: photo.u } : {}),
+    ...(r.ll && r.pr !== "approx" ? { geo: { "@type": "GeoCoordinates", latitude: r.ll[0], longitude: r.ll[1] } } : {}),
+    address: { "@type": "PostalAddress", ...(r.a ? { streetAddress: r.a } : {}), ...(r.tw ? { addressLocality: r.tw } : {}), addressCountry: "CY" },
+    ...(r.ph && /^\d{8}$/.test(String(r.ph)) ? { telephone: `+357${r.ph}` } : {}),
+    ...(isBeach && r.bf ? { award: "Blue Flag 2026" } : {}),
+  };
   return (
     <>
+      <JsonLd data={ld} />
       <div className="wrap">
         <Crumbs items={[["Home", "/"], [isBeach ? "Beaches" : r.k === "sight" || r.k === "family" ? "Must-see" : "Essentials", isBeach ? "/beaches" : r.k === "sight" || r.k === "family" ? "/must-see" : `/essentials/${r.d}/${r.k}`], [r.n]]} />
         <div className="around-head">

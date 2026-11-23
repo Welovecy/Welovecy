@@ -1,3 +1,4 @@
+import { StoriesSoon } from "@/components/StoriesSoon";
 import { Community } from "@/components/Community";
 import Link from "next/link";
 import { DESTINATIONS, EXPERIENCES, INTERESTS, getPlace, photoFor } from "@/lib/data";
@@ -127,8 +128,8 @@ export default function Home() {
         <QuestionOfTheDay />
       </section>
       <section className="wrap" aria-labelledby="h-people">
-        <div className="sec-head"><h2 id="h-people">Meet the people behind the places</h2><Link href="/stories">All stories</Link></div>
-        <div className="grid-3">{EXPERIENCES.map((e) => <ExperienceCard key={e.slug} e={e} />)}</div>
+        <div className="sec-head"><h2 id="h-people">Meet the people behind the places</h2>{EXPERIENCES.length ? <Link href="/stories">All stories</Link> : null}</div>
+        {EXPERIENCES.length ? <div className="grid-3">{EXPERIENCES.map((e) => <ExperienceCard key={e.slug} e={e} />)}</div> : <StoriesSoon />}
       </section>
       <Community />
       <section className="wrap">

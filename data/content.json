@@ -1099,40 +1099,7 @@
    ]
   }
  },
- "EXPERIENCES": {
-  "lefkara-craft": {
-   "name": "Lace and silver morning in Lefkara",
-   "dest": "larnaca",
-   "place": "lefkara",
-   "tint": "#A0805E",
-   "sample": true,
-   "intro": "Sit with a maker, watch a piece of lace come together stitch by stitch, then visit a silver workshop.",
-   "detail": "This is a sample experience to show how the page works. The real version will feature a named Lefkara maker, in their own words, with photography from our team.",
-   "practical": [
-    [
-     "Duration",
-     "To be confirmed with the maker.",
-     true
-    ],
-    [
-     "Price",
-     "To be confirmed with the maker.",
-     true
-    ],
-    [
-     "Booking",
-     "Direct link to the maker, added once confirmed.",
-     true
-    ],
-    [
-     "Language",
-     "To be confirmed.",
-     true
-    ]
-   ],
-   "business": "silver-sample"
-  }
- },
+ "EXPERIENCES": {},
  "BUSINESSES": {
   "silver-sample": {
    "name": "[Lefkara silver workshop]",
