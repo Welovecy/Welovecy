@@ -6,6 +6,7 @@ import { PageHead } from "@/components/Bits";
 import { ListRow } from "@/components/ListRow";
 import { poiRow } from "@/lib/views";
 import { ESS_KINDS } from "../../kinds";
+import { districtsFor, dutyHref } from "@/lib/duty";
 
 type P = { params: Promise<{ area: string; kind: string }> };
 export const dynamicParams = false;
@@ -34,6 +35,14 @@ export default async function EssentialsList({ params }: P) {
         </div>
       </PageHead>
       <section className="wrap pad-top">
+        {k[0] === "pharmacy" && districtsFor(d.id).length ? (
+          <div className="duty-banner">
+            <span>Which pharmacy is open tonight?</span>
+            <span className="chips" style={{ margin: 0 }}>
+              {districtsFor(d.id).map((x) => <Link key={x.id} className="btn btn-primary" href={dutyHref(x.id)}>{districtsFor(d.id).length > 1 ? x.short : "See the duty rota"}</Link>)}
+            </span>
+          </div>
+        ) : null}
         {list.length ? (
           <>
             <p className="dir-count" style={{ marginBottom: 10 }}>{list.length} listed</p>

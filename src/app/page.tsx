@@ -100,6 +100,7 @@ export default function Home() {
         <div className="chips stay-chips">
           {DESTINATIONS.map((d) => <Link key={d.id} className="chip" href={`/destinations/${d.id}`}>{d.name}</Link>)}
         </div>
+        <p style={{ marginTop: 14 }}><Link href="/pharmacies-on-duty">Pharmacies on duty tonight</Link> · <Link href="/weather">Weather now</Link> · <Link href="/practical#emergency">Emergency numbers</Link></p>
       </section>
       <section className="wrap" aria-labelledby="h-dest">
         <div className="sec-head"><h2 id="h-dest">Choose a destination</h2></div>

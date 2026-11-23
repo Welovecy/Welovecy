@@ -579,3 +579,24 @@ html{-webkit-tap-highlight-color:transparent}
 /* Facebook group invite at the end of a guide */
 .community-line { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin: 28px 0; padding: 16px 18px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); }
 .community-line span { font-weight: 500; }
+
+/* Pharmacies on duty */
+.duty-hours{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:baseline;margin-top:6px}
+.duty-hours strong{font-family:var(--display);font-size:clamp(22px,3vw,28px);letter-spacing:-.01em}
+.duty-tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:4px 0 16px}
+.duty-list{list-style:none;margin:0;padding:0;display:grid;gap:14px;max-width:760px}
+.duty-card{background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);padding:18px 18px 16px;display:grid;gap:10px}
+.duty-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.duty-top>div{min-width:0}
+.duty-card h3{font-size:22px;margin:0 0 4px}
+.duty-addr{margin:0;font-weight:500;overflow-wrap:anywhere}
+.duty-near{margin:2px 0 0;color:var(--muted);font-size:15px;overflow-wrap:anywhere}
+.duty-dist{margin:0;color:var(--muted);font-size:15px}
+.duty-me{flex:none;font-weight:700;color:var(--k-pharm);font-size:15px;white-space:nowrap}
+.duty-actions{display:flex;flex-wrap:wrap;gap:8px}
+.duty-actions .btn{min-height:44px;padding:0 18px;font-size:15px}
+.duty-week{width:100%;border-collapse:collapse;max-width:760px}
+.duty-week th,.duty-week td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:top;font-size:15px}
+.duty-week th{font-weight:600;white-space:nowrap}
+.duty-banner{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between;padding:14px 16px;border-radius:var(--r-md);background:var(--accent-soft);margin:0 0 18px;max-width:760px}
+.duty-banner span{font-weight:600}

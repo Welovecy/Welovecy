@@ -67,7 +67,7 @@ export function PlanVisit({ d, profile, operator }: { d: Destination; profile: P
         <div className="panel">
           <h3 style={{ fontSize: 20 }}>Essentials</h3>
           <p style={{ margin: 0 }}>Pharmacies, clinics and supermarkets, plus emergency numbers.</p>
-          <p className="small" style={{ margin: 0 }}><Link href={`/essentials/${d.id}/pharmacy`}>Essentials in {d.name}</Link> · <Link href="/practical#emergency">Help numbers</Link></p>
+          <p className="small" style={{ margin: 0 }}><Link href={`/essentials/${d.id}/pharmacy`}>Essentials in {d.name}</Link> · <Link href="/pharmacies-on-duty">Pharmacies on duty tonight</Link> · <Link href="/practical#emergency">Help numbers</Link></p>
         </div>
       </div>
       <h3 style={{ fontSize: 22, margin: "32px 0 8px" }}>Questions people ask</h3>

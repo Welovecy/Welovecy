@@ -10,3 +10,4 @@ public/data/
 __pycache__/
 .DS_Store
 data/work/overture_cyprus.json
+data/raw/duty/

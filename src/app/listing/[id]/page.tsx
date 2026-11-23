@@ -10,6 +10,7 @@ import { SaveButton } from "@/components/SaveButton";
 import { FromBase } from "@/components/FromBase";
 import { AroundBlock } from "@/components/AroundBlock";
 import { StayHere } from "@/components/StayHere";
+import { districtsFor, dutyHref, onRota } from "@/lib/duty";
 import { KINDS } from "@/lib/kinds";
 import { hotelsNearFor, hotelsNearHref } from "@/lib/hotelsNear";
 import { Photo } from "@/components/Photo";
@@ -66,6 +67,9 @@ export default async function ListingPage({ params }: P) {
       </div>
       <section className="wrap" style={{ paddingBottom: 0 }}>
         <div className="prose" style={{ maxWidth: 760 }}>
+          {stay && districtsFor(b.d).length ? (
+            <p className="basebar plain">Need a pharmacy tonight? <Link href={dutyHref(districtsFor(b.d)[0].id)}>See the duty pharmacies near here</Link>.</p>
+          ) : null}
           <h2>Details</h2>
           <Facts rows={bizFacts(b)} />
           <Sources list={src.list} reviewed={src.reviewed} />
@@ -104,7 +108,12 @@ function PoiView({ id }: { id: string }) {
       {photo ? <div className="wrap"><Photo photo={photo} label={r.n} tint="#2E6E8E" ratio="21/9" priority hero className="g-photo" /></div> : null}
       <section className="wrap" style={{ paddingBottom: 0 }}>
         <div className="prose" style={{ maxWidth: 760 }}>
-          {r.k === "pharmacy" ? <p className="basebar plain">Listed in the official pharmacy register. Opening hours and tonight&apos;s duty pharmacy are not shown here yet.</p> : null}
+          {r.k === "pharmacy" ? (
+            <p className="basebar plain">
+              Listed in the official pharmacy register.{onRota(r.i) ? " It takes turns on the official duty rota." : ""}{" "}
+              {districtsFor(r.d).length ? <Link href={dutyHref(districtsFor(r.d)[0].id)}>See which pharmacies are on duty tonight</Link> : null}
+            </p>
+          ) : null}
           {r.k === "health" ? <p className="basebar plain">In an emergency call <strong>112</strong> or <strong>199</strong>. Services and opening hours are not confirmed here.</p> : null}
           <h2>Details</h2>
           <Facts rows={poiFacts(r)} />

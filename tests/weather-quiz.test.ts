@@ -112,3 +112,35 @@ describe("hotels near the beach", () => {
     expect(BEACH_HOTELS.some((b) => b.slug === "nissi-beach")).toBe(true);
   });
 });
+
+import duty from "../data/duty.json";
+import { DISTRICTS, addDays, cyToday, daysLeft, dutyHours, dutyOn } from "../src/lib/duty";
+describe("pharmacies on duty", () => {
+  it("covers every district, every day, with pharmacy phones only", () => {
+    const d = duty as unknown as { from: string; to: string; d: Record<string, Record<string, { ph?: string; te: string; ll?: number[] }[]>> };
+    for (const x of DISTRICTS) {
+      const days = Object.keys(d.d[x.id]);
+      const span = Math.round((Date.parse(d.to) - Date.parse(d.from)) / 864e5) + 1;
+      expect(days.length, x.id).toBeGreaterThanOrEqual(span);
+      for (const list of Object.values(d.d[x.id])) for (const p of list) {
+        expect(p.te).toMatch(/^[A-Z]/);
+        expect(p.ll).toBeTruthy();
+        if (p.ph) expect(p.ph).toMatch(/^2\d{7}$/); // landlines only: mobile (9x) numbers would be personal
+      }
+    }
+    expect(JSON.stringify(d)).not.toMatch(/Οικία|Τηλέφωνο/);
+  });
+  it("knows the hours and the date in Cyprus", () => {
+    expect(dutyHours("2026-11-23").text).toBe("13:30 to 15:00 and 18:30 to 22:00");
+    expect(dutyHours("2026-11-25").text).toBe("13:30 to 22:00");
+    expect(dutyHours("2026-11-29").text).toBe("08:00 to 22:00");
+    expect(dutyHours("2026-12-25").text).toBe("08:00 to 22:00");
+    expect(cyToday(new Date("2026-11-23T22:30:00Z"))).toBe("2026-11-24");
+    expect(dutyOn("famagusta", "2026-11-23")?.length).toBe(2);
+    expect(addDays("2026-12-31", 1)).toBe("2027-01-01");
+  });
+  // Fails the build-time test run three weeks before the rota runs out: time to download the next one.
+  it("has the next three weeks of rota", () => {
+    expect(daysLeft(), "Duty pharmacy rota ends soon: get the next season's files from gov.cy and run scripts/content/duty.py").toBeGreaterThan(21);
+  });
+});

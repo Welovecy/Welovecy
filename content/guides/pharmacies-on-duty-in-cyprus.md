@@ -10,8 +10,8 @@ quick:
   - "Any closed pharmacy shows the duty pharmacies in a lit window by the door, with their phone numbers."
   - "Emergency? Call 112 or 199."
 cta:
-  text: Find the nearest pharmacy to your hotel
-  href: /essentials
+  text: See which pharmacies are on duty tonight
+  href: /pharmacies-on-duty
 sources:
   - t: "Pharmaceutical Services (Ministry of Health): pharmacies on duty, rota and rules"
     u: https://www.gov.cy/moh-phs/documents/diimereyonta-farmakeia/
@@ -37,11 +37,12 @@ After 22:00 in winter, the duty pharmacist can still be called for an urgent pre
 
 ## How to find one tonight
 
-1. **Look in any pharmacy window.** Every pharmacy, open or closed, must display the names, addresses and phone numbers of the pharmacies on duty in a lit window by the door. Your nearest pharmacy is the quickest place to check.
-2. **Check the official rota.** The Ministry of Health's Pharmaceutical Services publishes the full rota for each district (Nicosia, Limassol, Larnaca, Famagusta and Paphos) for the whole year. Ayia Napa, Protaras and Paralimni are on the Famagusta list.
-3. **Ask at your hotel reception.** They usually have the day's list.
+1. **Check We Love Cyprus.** [Pharmacies on duty tonight](/pharmacies-on-duty) shows today's rota for every area, with phone numbers and directions.
+2. **Look in any pharmacy window.** Every pharmacy, open or closed, must display the names, addresses and phone numbers of the pharmacies on duty in a lit window by the door. Your nearest pharmacy is the quickest place to check.
+3. **Check the official rota.** The Ministry of Health's Pharmaceutical Services publishes the full rota for each district (Nicosia, Limassol, Larnaca, Famagusta and Paphos), season by season. Ayia Napa, Protaras and Paralimni are on the Famagusta list.
+4. **Ask at your hotel reception.** They usually have the day's list.
 
-On We Love Cyprus, every hotel page shows the nearest pharmacy and how far it is. We're working on showing tonight's duty pharmacies there too.
+On We Love Cyprus, every hotel page also shows the nearest pharmacy and how far it is.
 
 ## Good to know
 
