@@ -12,6 +12,7 @@ import { ListRow } from "@/components/ListRow";
 import { bizRow, staysBySea, staysIn } from "@/lib/views";
 import { getProfile } from "@/lib/data";
 import { LocalityChooser, PlanVisit, StartHere } from "@/components/Profile";
+import { AirportLine } from "@/components/AirportLine";
 import { WeatherNow } from "@/components/Weather";
 import { ClimateChart } from "@/components/ClimateChart";
 import { fmtD } from "@/lib/geo";
@@ -130,6 +131,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
         ) : null}
         {stay}
         <FeaturedBlock destName={d.name} />
+        <AirportLine d={d.id} name={d.name} />
         <section className="wrap" id="s-weather" aria-labelledby="h-weather">
           <div className="sec-head"><h2 id="h-weather">Weather</h2><Link href="/weather">Every area, every month</Link></div>
           <WeatherNow d={d.id} name={d.name} />
@@ -187,7 +189,8 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
       ) : null}
       {stay}
       <FeaturedBlock destName={d.name} />
-      <section className="wrap" id="s-weather" aria-labelledby="h-weather">
+      <AirportLine d={d.id} name={d.name} />
+        <section className="wrap" id="s-weather" aria-labelledby="h-weather">
         <div className="sec-head"><h2 id="h-weather">Weather</h2><Link href="/weather">Every area, every month</Link></div>
         <WeatherNow d={d.id} name={d.name} />
         <h3 className="h-sub" style={{ marginTop: 40 }}>Month by month</h3>

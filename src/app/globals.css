@@ -566,3 +566,12 @@ html{-webkit-tap-highlight-color:transparent}
 .month-nav{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:12px 40px}
 .month-nav a{color:var(--accent);font-weight:500;text-decoration:none}
 .g-textcard .card-link{display:block;padding:22px;border:1px solid var(--line);border-radius:var(--r-lg);background:var(--card);height:100%}
+.dist-big{display:flex;gap:28px;flex-wrap:wrap;margin:20px 0 8px}
+.dist-big div{display:grid;gap:2px}
+.dist-big b{font:700 44px/1 var(--display,inherit);letter-spacing:-.03em}
+.dist-big span{color:var(--muted);font-size:14px}
+.dist-matrix table{min-width:1100px;font-size:13px}
+.dist-matrix th,.dist-matrix td{padding:8px 10px;text-align:center;white-space:nowrap}
+.dist-matrix tbody th{text-align:left;position:sticky;left:0;background:var(--card)}
+.air-line{list-style:none;margin:0;padding:0;display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.air-line a{display:grid;gap:4px;padding:18px;border:1px solid var(--line);border-radius:var(--r-md);background:var(--card);text-decoration:none;color:var(--fg)}

@@ -38,6 +38,10 @@ export default function GuidesPage() {
           </div>
         </section>
       ))}
+      <section className="wrap" aria-labelledby="h-dist">
+        <div className="sec-head"><h2 id="h-dist">How far is it?</h2><Link href="/distances">All distances</Link></div>
+        <p>Driving distances and times from Larnaca and Paphos airports to every resort, and between all the main towns.</p>
+      </section>
       <section className="wrap" aria-labelledby="h-months">
         <div className="sec-head"><h2 id="h-months">Cyprus month by month</h2><Link href="/weather">Weather now</Link></div>
         <ul className="month-links">
