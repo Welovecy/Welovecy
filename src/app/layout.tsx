@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 import { RegisterSW } from "@/components/RegisterSW";
 import { TabBar } from "@/components/TabBar";
 import { THEME_SCRIPT } from "@/components/ThemeToggle";
-import { SITE_NAME, SITE_URL } from "@/lib/site";
+import { FB_GROUP, FB_PAGE, SITE_NAME, SITE_URL } from "@/lib/site";
 import { JsonLd } from "@/components/JsonLd";
 import { Analytics } from "@vercel/analytics/next";
 
@@ -39,10 +39,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <JsonLd data={{
           "@context": "https://schema.org",
           "@graph": [
-            { "@type": "Organization", "@id": `${SITE_URL}/#org`, name: SITE_NAME, url: SITE_URL, logo: `${SITE_URL}/icons/icon-512.png` },
+            { "@type": "Organization", "@id": `${SITE_URL}/#org`, name: SITE_NAME, url: SITE_URL, logo: `${SITE_URL}/icons/icon-512.png`, sameAs: [FB_PAGE, FB_GROUP] },
             { "@type": "WebSite", "@id": `${SITE_URL}/#site`, name: SITE_NAME, url: SITE_URL, inLanguage: "en-GB", publisher: { "@id": `${SITE_URL}/#org` } },
           ],
         }} />
+        <link rel="alternate" type="application/rss+xml" title="We Love Cyprus guides" href="/feed.xml" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         {/* eslint-disable-next-line @next/next/no-page-custom-font */}

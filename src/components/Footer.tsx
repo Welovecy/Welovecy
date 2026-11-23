@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ThemeAuto } from "./ThemeToggle";
+import { FB_GROUP, FB_PAGE } from "@/lib/site";
 
 export function Footer() {
   return (
@@ -33,6 +34,10 @@ export function Footer() {
           <h4>Businesses</h4>
           <Link href="/list-your-business">List your business</Link>
           <Link href="/list-your-business#update">Suggest an update</Link>
+          <h4 style={{ marginTop: 18 }}>Community</h4>
+          <a href={FB_GROUP} target="_blank" rel="noopener noreferrer">Facebook group</a>
+          <a href={FB_PAGE} target="_blank" rel="noopener noreferrer">Facebook Page</a>
+          <a href="/feed.xml">New guides (RSS)</a>
         </div>
       </div>
       <div className="wrap footline">

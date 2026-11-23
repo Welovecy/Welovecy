@@ -1,3 +1,4 @@
+import { Community } from "@/components/Community";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -56,6 +57,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         ) : null}
         <div className="prose g-prose" dangerouslySetInnerHTML={{ __html: g.html }} />
         {g.cta ? <p className="g-cta"><Link className="btn btn-primary" href={g.cta.href}>{g.cta.text}</Link></p> : null}
+        <Community compact />
         {g.sources.length ? (
           <div className="sources">
             <strong>Sources, checked {formatDate(g.updated)}</strong>

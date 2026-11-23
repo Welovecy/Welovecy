@@ -1,3 +1,4 @@
+import { Community } from "@/components/Community";
 import Link from "next/link";
 import { DESTINATIONS, EXPERIENCES, INTERESTS, getPlace, photoFor } from "@/lib/data";
 import { DestCard, ExperienceCard, PlaceCard } from "@/components/Cards";
@@ -128,6 +129,7 @@ export default function Home() {
         <div className="sec-head"><h2 id="h-people">Meet the people behind the places</h2><Link href="/stories">All stories</Link></div>
         <div className="grid-3">{EXPERIENCES.map((e) => <ExperienceCard key={e.slug} e={e} />)}</div>
       </section>
+      <Community />
       <section className="wrap">
         <div className="panel" style={{ gridTemplateColumns: "repeat(auto-fit,minmax(260px,1fr))", alignItems: "center" }}>
           <div style={{ display: "grid", gap: 10 }}>
