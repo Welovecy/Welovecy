@@ -40,7 +40,7 @@ export default function Beaches() {
               <div className="card" key={r.i}>
                 <Link href={listingHref(r.i)} className="card-link">
                   <Photo photo={photoFor(`beach-${r.i}`)} label={r.n} tint="#2E6E8E" ratio="4/3" />
-                  <div><p className="eyebrow">{r.tw || getDest(r.d)?.name}</p><h3 className="mt4">{r.n}</h3><p className="mt6">{poiSub(r)}{r.bf ? " · Blue Flag" : ""}</p></div>
+                  <div><p className="eyebrow">{r.tw || getDest(r.d)?.name}</p><h3 className="mt4">{r.n}</h3><p className="mt6">{poiSub(r)}</p></div>
                 </Link>
               </div>
             ))}
