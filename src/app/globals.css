@@ -565,3 +565,4 @@ html{-webkit-tap-highlight-color:transparent}
 .chip.on{color:var(--fg);border-color:var(--fg)}
 .month-nav{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:12px 40px}
 .month-nav a{color:var(--accent);font-weight:500;text-decoration:none}
+.g-textcard .card-link{display:block;padding:22px;border:1px solid var(--line);border-radius:var(--r-lg);background:var(--card);height:100%}

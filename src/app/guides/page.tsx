@@ -13,7 +13,8 @@ export const metadata: Metadata = {
 };
 
 export default function GuidesPage() {
-  const topics = [...new Set(GUIDES.map((g) => g.topic))];
+  const order = ["Getting around", "Beaches", "Things to do", "Living in Cyprus"];
+  const topics = [...new Set(GUIDES.map((g) => g.topic))].sort((a, b) => (order.indexOf(a) + 99 * +(order.indexOf(a) < 0)) - (order.indexOf(b) + 99 * +(order.indexOf(b) < 0)));
   return (
     <>
       <PageHead title="Guides" lead="Straight answers for your trip, checked against official sources." crumbs={[["Home", "/"], ["Guides"]]} />
@@ -22,9 +23,9 @@ export default function GuidesPage() {
           <div className="sec-head"><h2 id={`h-${t}`}>{t}</h2></div>
           <div className="grid-3">
             {GUIDES.filter((g) => g.topic === t).map((g) => (
-              <div className="card" key={g.slug}>
+              <div className={`card${g.image ? "" : " g-textcard"}`} key={g.slug}>
                 <Link href={guideHref(g.slug)} className="card-link">
-                  <Photo photo={g.image ? photoFor(g.image) : undefined} label={g.title} tint="#7E8EA0" ratio="16/10" />
+                  {g.image ? <Photo photo={photoFor(g.image)} label={g.title} tint="#7E8EA0" ratio="16/10" /> : null}
                   <div>
                     <p className="eyebrow">{g.topic}</p>
                     <h3 className="mt4">{g.title}</h3>
