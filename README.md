@@ -67,7 +67,7 @@ The domain stays registered at Squarespace. Only its DNS records change, so it p
 
 1. Sign in at vercel.com with GitHub.
 2. **Add New → Project**, pick `welovecy`, leave the settings as detected (Next.js), press **Deploy**.
-3. In **Settings → Environment Variables** add `NEXT_PUBLIC_SITE_URL` = `https://welovecy.com`, then redeploy.
+3. In **Settings → Environment Variables** add `NEXT_PUBLIC_SITE_URL` = `https://www.welovecy.com` (www is the main address; welovecy.com redirects to it), then redeploy.
 4. Check the preview address (something like `welovecy.vercel.app`) on your phone before touching the domain.
 
 ### 3. Add the domain in Vercel

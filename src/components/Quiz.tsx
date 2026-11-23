@@ -6,7 +6,7 @@ import bank from "@data/quiz.json";
 export interface QItem { id: string; q: string; o: string[]; a: number; why: string; href: string; link: string }
 const BANK = bank as QItem[];
 const ROUND = 10;
-const SITE = "https://welovecy.com";
+const SITE = "https://www.welovecy.com";
 
 function shuffle<T>(xs: T[]): T[] {
   const a = xs.slice();
