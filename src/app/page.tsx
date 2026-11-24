@@ -20,7 +20,7 @@ export const revalidate = 600;
 
 /** The opening line. Swap here to test another headline. */
 const HEADLINE = "Know Cyprus like a local.";
-const LEAD = "Beaches, food, buses and tonight's pharmacy. Some of it even the locals don't know.";
+const LEAD = "Visiting or living here? Where to go, what's nearby, how to get there. And much more.";
 
 /** Real hotels in each holiday area, in the order guests ask about them. [id, name to type] */
 const SHOWCASE: [string, string][] = [
