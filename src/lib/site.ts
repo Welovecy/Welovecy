@@ -6,3 +6,6 @@ export const DATA_REVIEWED = "2026-11-18";
 /** Our Facebook community and Page. */
 export const FB_GROUP = "https://www.facebook.com/groups/860311064157221/";
 export const FB_PAGE = "https://www.facebook.com/WeLoveCyprusPage";
+/** Public email addresses. hello@ for visitors, business@ for venues and partners. */
+export const EMAIL_HELLO = "hello@welovecy.com";
+export const EMAIL_BUSINESS = "business@welovecy.com";
