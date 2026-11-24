@@ -810,5 +810,28 @@
   "sd": "2026-11-24",
   "su": "https://www.booking.com/hotel/cy/mountain-rose-garden-amp-restaurant.html",
   "x": 1
+ },
+ {
+  "i": "wlc-0047",
+  "n": "Glasshouse Lounge Restaurant",
+  "g": "eat",
+  "l": "Restaurant and bar",
+  "tw": "Ayia Napa",
+  "d": "ayianapa",
+  "a": "Adams Beach Hotel, 6th floor, Nissi Avenue 87, Ayia Napa 5340",
+  "p": "+357 97 775775",
+  "w": "https://www.glasshouse.com.cy",
+  "ll": [
+   34.98838,
+   33.96661
+  ],
+  "ls": "us",
+  "sd": "2026-11-24",
+  "su": "https://www.glasshouse.com.cy",
+  "x": 1,
+  "in": "cy-00011",
+  "fl": "Rooftop, 6th floor",
+  "hrs": "Wednesday to Sunday from 17:30, kitchen from 18:30. Closed Monday and Tuesday.",
+  "vt": "restaurant"
  }
 ]

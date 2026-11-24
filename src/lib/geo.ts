@@ -25,6 +25,12 @@ export function walkMinutes(d: number): number {
 export function taxiEstimate(d: number): number {
   return Math.round(TAXI.start + TAXI.perKm * d * ROAD_FACTOR);
 }
+/** Night tariffs, waiting and detours push fares up, so we show our day figure up to 25% more. */
+export const TAXI_MARGIN = 1.25;
+export function taxiRange(d: number): [number, number] {
+  const lo = taxiEstimate(d);
+  return [lo, Math.max(lo + 1, Math.ceil(lo * TAXI_MARGIN))];
+}
 
 /** Beyond this a walk stops being the answer and we give the drive. About 15 minutes on foot. */
 export const WALK_MAX_KM = 1.2;
@@ -37,10 +43,11 @@ export function driveMinutes(d: number): number {
   return Math.max(3, Math.round(hours * 60) + 1);
 }
 
-/** "350 m · 5 min walk" for short walks, then "6.4 km · 12 min drive · about €12 by taxi". */
+/** "350 m · 5 min walk" for short walks, then "6.4 km · 12 min drive · €12–15 by taxi (estimate)". */
 export function howFar(d: number): string {
   if (d <= WALK_MAX_KM) return `${fmtD(d)} · ${walkMinutes(d)} min walk`;
-  return `${fmtD(d)} · ${driveMinutes(d)} min drive · about €${taxiEstimate(d)} by taxi`;
+  const [lo, hi] = taxiRange(d);
+  return `${fmtD(d)} · ${driveMinutes(d)} min drive · €${lo}–${hi} by taxi (estimate)`;
 }
 
 export function directionsTo(ll: LL): string {

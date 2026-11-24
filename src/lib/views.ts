@@ -9,8 +9,12 @@ import { KINDS } from "./kinds";
 
 export const nearestDest = (ll: LL): DestId => nearestKey(ll, DEST_CENTRE);
 
+/** Restaurants, bars and the like that sit inside this hotel. */
+export const insideOf = (id?: string): Business[] => (id ? BUSINESSES.filter((b) => b.in === id) : []);
+
 export function aroundData(ll: LL, skip?: string) {
-  const pool = spots();
+  const inside = new Set(insideOf(skip).map((b) => b.i));
+  const pool = inside.size ? spots().filter((s) => !inside.has(s.key)) : spots();
   return {
     essentials: essentials(ll, pool, skip),
     lists: aroundLists(ll, pool, skip, 30),

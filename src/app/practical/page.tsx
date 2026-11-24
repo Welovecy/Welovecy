@@ -36,7 +36,7 @@ export default function Practical() {
             <tbody>{TAXI.map(([a, b, c]) => <tr key={a}><td>{a}</td><td>{b}</td><td>{c}</td></tr>)}</tbody>
           </table>
         </div>
-        <p className="tag" style={{ marginTop: 12 }}>Taxi estimates on this site use the day tariff and an allowance for road distance. Your meter decides the real fare.</p>
+        <p className="tag" style={{ marginTop: 12 }}>Taxi estimates on this site start from the day tariff with an allowance for road distance, and go up to 25% more to cover night rates, waiting and detours. Your meter decides the real fare.</p>
         <Sources
           list={[
             { t: "Visit Cyprus: transport and taxi tariffs", u: "https://www.visitcyprus.com/" },
