@@ -17,7 +17,7 @@ export function bizFacts(b: Business): Fact[] {
   if (isStay(b) && b.r) f.push([b.g === "apart" ? "Units" : "Rooms", `${b.r}${b.b ? ` (${b.b} beds)` : ""}`, false]);
   if (b.s && STATUS_NOTE.test(b.s)) f.push(["Licence", "Licensing or classification in process, per the register.", false]);
   f.push(["Opening hours", "Not yet verified.", true]);
-  f.push(["Map position", b.ll ? (b.pr === "area" ? "Approximate, matched to the postcode area. Use Directions for the exact address." : b.pr === "approx" ? "Approximate, matched to the street. Use Directions for the exact address." : b.ls === "ov" ? "Matched to Overture Maps." : "Matched to OpenStreetMap.") : "No map pin yet. Directions search the address.", !b.ll || !!b.pr]);
+  f.push(["Map position", b.ll ? (b.pr === "area" ? "Approximate, matched to the postcode area. Use Directions for the exact address." : b.pr === "approx" ? "Approximate, matched to the street. Use Directions for the exact address." : b.ls === "ov" ? "Matched to Overture Maps." : b.ls === "us" ? "Pinned by We Love Cyprus from the hotel's own map listing." : "Matched to OpenStreetMap.") : "No map pin yet. Directions search the address.", !b.ll || !!b.pr]);
   return f;
 }
 
@@ -28,9 +28,9 @@ export function bizSources(b: Business): { list: Source[]; reviewed: string } {
       reviewed: `added by We Love Cyprus on ${formatDate(b.sd)}, not in the published tourism register yet`,
     };
   }
-  const list: Source[] = [{ t: isStay(b) ? "Visit Cyprus (Deputy Ministry of Tourism): licensed accommodation list" : "Visit Cyprus (Deputy Ministry of Tourism): licensed restaurants and bars list", u: b.su }];
+  const list: Source[] = b.x ? [{ t: "Added by We Love Cyprus: not on the official register under this name yet", u: b.su }] : [{ t: isStay(b) ? "Visit Cyprus (Deputy Ministry of Tourism): licensed accommodation list" : "Visit Cyprus (Deputy Ministry of Tourism): licensed restaurants and bars list", u: b.su }];
   if (b.ll && b.ls === "ov") list.push({ t: "Location: Overture Maps Foundation", u: "https://overturemaps.org/" });
-  else if (b.ll) list.push({ t: "Location: OpenStreetMap contributors", u: `https://www.openstreetmap.org/?mlat=${b.ll[0]}&mlon=${b.ll[1]}#map=18/${b.ll[0]}/${b.ll[1]}` });
+  else if (b.ll && b.ls !== "us") list.push({ t: "Location: OpenStreetMap contributors", u: `https://www.openstreetmap.org/?mlat=${b.ll[0]}&mlon=${b.ll[1]}#map=18/${b.ll[0]}/${b.ll[1]}` });
   return { list, reviewed: `register dated ${formatDate(b.sd)}` };
 }
 

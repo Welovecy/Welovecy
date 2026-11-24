@@ -1,3 +1,36 @@
 [
-  {"i":"wlc-0001","n":"Sunrise Pearl Hotel & Spa","g":"hotel","l":"Hotel","tw":"Protaras","d":"protaras","a":"37 Protaras Avenue, Protaras","ll":[35.016336,34.05205],"ls":"ov","sd":"2026-11-21","su":"https://overturemaps.org/","x":1}
+ {
+  "i": "wlc-0001",
+  "n": "Sunrise Pearl Hotel & Spa",
+  "g": "hotel",
+  "l": "Hotel",
+  "tw": "Protaras",
+  "d": "protaras",
+  "a": "37 Protaras Avenue, Protaras",
+  "ll": [
+   35.016336,
+   34.05205
+  ],
+  "ls": "ov",
+  "sd": "2026-11-21",
+  "su": "https://overturemaps.org/",
+  "x": 1
+ },
+ {
+  "i": "wlc-0002",
+  "n": "Aya Resort",
+  "g": "hotel",
+  "l": "Hotel",
+  "tw": "Ayia Napa",
+  "d": "ayianapa",
+  "a": "Ayia Napa",
+  "ll": [
+   34.99183,
+   33.95084
+  ],
+  "ls": "us",
+  "sd": "2026-11-24",
+  "su": "https://maps.app.goo.gl/dUfBvpm3KaqsWqap9",
+  "x": 1
+ }
 ]

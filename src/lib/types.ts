@@ -74,7 +74,7 @@ export interface Business {
   a?: string; p?: string; e?: string; w?: string; c?: string;
   r?: number; b?: number; s?: string; sd: string; su: string; x?: number; ll?: LL;
   /** where the pin came from: "ov" = Overture Maps, "osm" = OpenStreetMap */
-  ls?: "ov" | "osm";
+  ls?: "ov" | "osm" | "us";
   /** "approx" = pinned to the street, "area" = only to the postcode: fine for area lists, too rough for "what's around" */
   pr?: "approx" | "area";
   /** venue type and cuisines, for restaurants, cafes, bars and clubs (scripts/geo/classify.py) */
