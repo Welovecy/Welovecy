@@ -14,17 +14,22 @@ def in_republic(ll):
     lat, lon = ll
     if lat < 34.55 or lat > 35.25 or lon < 32.25 or lon > 34.6: return False
     if 32.75 <= lon < 33.25 and lat > 35.175: return False
+    if 32.75 <= lon < 32.95 and lat > 35.095: return False
     if 33.25 <= lon < 33.43 and lat > 35.185: return False
     if 33.43 <= lon < 33.95 and lat > 35.14: return False
     if lon >= 33.95 and lat > 35.1: return False
     return True
 biz = json.load(open(PATH, encoding="utf-8"))
 pins = json.load(open("data/work/osm_pins.json", encoding="utf-8")) if os.path.exists("data/work/osm_pins.json") else {}
+# register hotels we matched by hand to an OpenStreetMap pin (from the reviewed hotel list)
+checked = json.load(open("data/work/checked_pins.json", encoding="utf-8")) if os.path.exists("data/work/checked_pins.json") else {}
 hand = json.load(open("data/work/venue_tags.json", encoding="utf-8")) if os.path.exists("data/work/venue_tags.json") else {}
 added = collections.Counter()
 for b in biz:
     if b["g"] in ("eat", "cafe", "night", "hotel", "apart"):
         b["n"] = clean_name(b["n"])
+    if b["i"] in checked and not b.get("ll"):
+        b["ll"] = checked[b["i"]]["ll"]; b["ls"] = "osm"; added["checked by hand"] += 1
     p = pins.get(b["i"], {})
     # hotels only take exact matches: a street or postcode pin would put wrong distances on "Hotels near" pages
     exact_only = b["g"] in ("hotel", "apart")

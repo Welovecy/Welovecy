@@ -32,5 +32,783 @@
   "sd": "2026-11-24",
   "su": "https://maps.app.goo.gl/dUfBvpm3KaqsWqap9",
   "x": 1
+ },
+ {
+  "i": "wlc-0003",
+  "n": "Cosmo Napa Hotel",
+  "g": "hotel",
+  "l": "Hotel",
+  "tw": "Ayia Napa",
+  "d": "ayianapa",
+  "a": "Ayia Napa",
+  "ll": [
+   34.9915,
+   33.99557
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://cosmonapa.com/",
+  "x": 1,
+  "w": "https://cosmonapa.com/"
+ },
+ {
+  "i": "wlc-0004",
+  "n": "Elenapa Holiday Apartments",
+  "g": "apart",
+  "l": "Hotel apartments",
+  "tw": "Ayia Napa",
+  "d": "ayianapa",
+  "a": "Ayia Napa",
+  "ll": [
+   34.98954,
+   34.00058
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.elenapacyprus.com/",
+  "x": 1,
+  "w": "https://www.elenapacyprus.com/"
+ },
+ {
+  "i": "wlc-0005",
+  "n": "Napa Suites",
+  "g": "hotel",
+  "l": "Hotel apartments",
+  "tw": "Ayia Napa",
+  "d": "ayianapa",
+  "a": "Ayia Napa",
+  "ll": [
+   34.99388,
+   34.00048
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://napasuites.com/",
+  "x": 1,
+  "w": "https://napasuites.com/"
+ },
+ {
+  "i": "wlc-0006",
+  "n": "La Casa Di Napa",
+  "g": "hotel",
+  "l": "Hotel",
+  "tw": "Ayia Napa",
+  "d": "ayianapa",
+  "a": "Ayia Napa",
+  "ll": [
+   34.99041,
+   33.98979
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://lacasadinapa.com/",
+  "x": 1,
+  "w": "https://lacasadinapa.com/"
+ },
+ {
+  "i": "wlc-0007",
+  "n": "Margarita Napa Apartments",
+  "g": "apart",
+  "l": "Hotel apartments",
+  "tw": "Ayia Napa",
+  "d": "ayianapa",
+  "a": "Ayia Napa",
+  "ll": [
+   34.98814,
+   33.99377
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.booking.com/hotel/cy/margarita-napa-apartments.html",
+  "x": 1
+ },
+ {
+  "i": "wlc-0008",
+  "n": "So Nice Beach Resort",
+  "g": "hotel",
+  "l": "Hotel",
+  "tw": "Ayia Napa",
+  "d": "ayianapa",
+  "a": "Ayia Napa",
+  "ll": [
+   34.98866,
+   33.95748
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://sohotels.com.cy/so-nice-club-resort",
+  "x": 1,
+  "w": "https://sohotels.com.cy/so-nice-club-resort"
+ },
+ {
+  "i": "wlc-0009",
+  "n": "Tasia Maris Beach Hotel",
+  "g": "hotel",
+  "l": "Hotel",
+  "tw": "Ayia Napa",
+  "d": "ayianapa",
+  "a": "Ayia Napa",
+  "ll": [
+   34.98852,
+   33.98063
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://tasiamarisbeach.com/",
+  "x": 1,
+  "w": "https://tasiamarisbeach.com/"
+ },
+ {
+  "i": "wlc-0010",
+  "n": "Captain Karas",
+  "g": "hotel",
+  "l": "Hotel",
+  "tw": "Paralimni",
+  "d": "protaras",
+  "a": "Paralimni",
+  "ll": [
+   35.05386,
+   34.00943
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://captainkaras.com/",
+  "x": 1,
+  "w": "https://captainkaras.com/"
+ },
+ {
+  "i": "wlc-0011",
+  "n": "Flouressia Gardens Aparthotel",
+  "g": "apart",
+  "l": "Hotel",
+  "tw": "Protaras",
+  "d": "protaras",
+  "a": "Protaras",
+  "ll": [
+   35.02468,
+   34.04524
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://flouressia.com/",
+  "x": 1,
+  "w": "https://flouressia.com/"
+ },
+ {
+  "i": "wlc-0012",
+  "n": "Mandalena Hotel Apartments",
+  "g": "apart",
+  "l": "Hotel",
+  "tw": "Protaras",
+  "d": "protaras",
+  "a": "Protaras",
+  "ll": [
+   35.0228,
+   34.04007
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.mandalenahotel.com/",
+  "x": 1,
+  "w": "https://www.mandalenahotel.com/"
+ },
+ {
+  "i": "wlc-0013",
+  "n": "Tsolias",
+  "g": "apart",
+  "l": "Hotel",
+  "tw": "Protaras",
+  "d": "protaras",
+  "a": "Protaras",
+  "ll": [
+   35.01185,
+   34.05195
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.booking.com/hotel/cy/tsolias-apartments-protaras.html",
+  "x": 1
+ },
+ {
+  "i": "wlc-0014",
+  "n": "Amphora Hotel and Suites",
+  "g": "hotel",
+  "l": "Hotel",
+  "tw": "Paphos",
+  "d": "paphos",
+  "a": "Paphos",
+  "ll": [
+   34.74845,
+   32.42455
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://theamphoraresort.com/",
+  "x": 1,
+  "w": "https://theamphoraresort.com/"
+ },
+ {
+  "i": "wlc-0015",
+  "n": "Anastasia Holiday Apartments",
+  "g": "apart",
+  "l": "Hotel apartments",
+  "tw": "Chloraka",
+  "d": "paphos",
+  "a": "Chloraka",
+  "ll": [
+   34.80719,
+   32.39729
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.booking.com/hotel/cy/anastasia-holiday-apartments-khloraka.html",
+  "x": 1
+ },
+ {
+  "i": "wlc-0016",
+  "n": "Aphrodite Sands Resort",
+  "g": "hotel",
+  "l": "Hotel",
+  "tw": "Mandria",
+  "d": "paphos",
+  "a": "Mandria",
+  "ll": [
+   34.7137,
+   32.52895
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://aphroditesands.com/",
+  "x": 1,
+  "w": "https://aphroditesands.com/"
+ },
+ {
+  "i": "wlc-0017",
+  "n": "Apollonia Holiday Apartments",
+  "g": "apart",
+  "l": "Hotel apartments",
+  "tw": "Paphos",
+  "d": "paphos",
+  "a": "Paphos",
+  "ll": [
+   34.75771,
+   32.42185
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://apollonia.com.cy/",
+  "x": 1,
+  "w": "https://apollonia.com.cy/"
+ },
+ {
+  "i": "wlc-0018",
+  "n": "Club St. George Resort",
+  "g": "hotel",
+  "l": "Hotel",
+  "tw": "Chloraka",
+  "d": "paphos",
+  "a": "Chloraka",
+  "ll": [
+   34.81746,
+   32.43257
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://clubstgeorge.com/",
+  "x": 1,
+  "w": "https://clubstgeorge.com/"
+ },
+ {
+  "i": "wlc-0019",
+  "n": "Elysia Park",
+  "g": "apart",
+  "l": "Hotel",
+  "tw": "Geroskipou",
+  "d": "paphos",
+  "a": "Geroskipou",
+  "ll": [
+   34.76323,
+   32.42745
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://elysia-park.com/",
+  "x": 1,
+  "w": "https://elysia-park.com/"
+ },
+ {
+  "i": "wlc-0020",
+  "n": "Kings Holiday Apartments",
+  "g": "apart",
+  "l": "Hotel apartments",
+  "tw": "Paphos",
+  "d": "paphos",
+  "a": "Paphos",
+  "ll": [
+   34.77686,
+   32.40963
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://kingsholidayapartments.com/",
+  "x": 1,
+  "w": "https://kingsholidayapartments.com/"
+ },
+ {
+  "i": "wlc-0021",
+  "n": "M Boutique Hotel",
+  "g": "hotel",
+  "l": "Hotel",
+  "tw": "Paphos",
+  "d": "paphos",
+  "a": "Paphos",
+  "ll": [
+   34.7565,
+   32.4145
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://m-boutiquehotel.com/",
+  "x": 1,
+  "w": "https://m-boutiquehotel.com/"
+ },
+ {
+  "i": "wlc-0022",
+  "n": "Panklitos Apartments",
+  "g": "apart",
+  "l": "Hotel apartments",
+  "tw": "Paphos",
+  "d": "paphos",
+  "a": "Paphos",
+  "ll": [
+   34.77783,
+   32.41251
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://panklitos.com/",
+  "x": 1,
+  "w": "https://panklitos.com/"
+ },
+ {
+  "i": "wlc-0023",
+  "n": "Petsas Apartments",
+  "g": "apart",
+  "l": "Hotel apartments",
+  "tw": "Peyia",
+  "d": "paphos",
+  "a": "Peyia",
+  "ll": [
+   34.85654,
+   32.37722
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.booking.com/hotel/cy/petsas-apartment.html",
+  "x": 1
+ },
+ {
+  "i": "wlc-0024",
+  "n": "Rantzo",
+  "g": "hotel",
+  "l": "Hotel",
+  "tw": "Pissouri",
+  "d": "limassol",
+  "a": "Pissouri",
+  "ll": [
+   34.68265,
+   32.70323
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.booking.com/hotel/cy/rantzo-holiday-apartments.en-gb.html",
+  "x": 1
+ },
+ {
+  "i": "wlc-0025",
+  "n": "Sanders Seaview",
+  "g": "hotel",
+  "l": "Hotel",
+  "tw": "Paphos",
+  "d": "paphos",
+  "a": "Paphos",
+  "ll": [
+   34.78803,
+   32.40927
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://sandersstay.com/property/17410",
+  "x": 1,
+  "w": "https://sandersstay.com/property/17410"
+ },
+ {
+  "i": "wlc-0026",
+  "n": "Valentina Apartments",
+  "g": "apart",
+  "l": "Hotel apartments",
+  "tw": "Paphos",
+  "d": "paphos",
+  "a": "Paphos",
+  "ll": [
+   34.77171,
+   32.41362
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.booking.com/hotel/cy/valentina-apartments.html",
+  "x": 1
+ },
+ {
+  "i": "wlc-0027",
+  "n": "Valentino's Apartments",
+  "g": "apart",
+  "l": "Hotel apartments",
+  "tw": "Paphos",
+  "d": "paphos",
+  "a": "Paphos",
+  "ll": [
+   34.76884,
+   32.41949
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.valentinosapartmentspaphos.com/",
+  "x": 1,
+  "w": "https://www.valentinosapartmentspaphos.com/"
+ },
+ {
+  "i": "wlc-0028",
+  "n": "Astrofegia Apartments",
+  "g": "apart",
+  "l": "Hotel apartments",
+  "tw": "Argaka",
+  "d": "akamas",
+  "a": "Argaka",
+  "ll": [
+   35.11067,
+   32.50778
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.booking2cyprus.com/en/hotel/astrofegia-apartments",
+  "x": 1
+ },
+ {
+  "i": "wlc-0029",
+  "n": "Bougainvillea Hotel Apartments",
+  "g": "apart",
+  "l": "Hotel",
+  "tw": "Polis",
+  "d": "akamas",
+  "a": "Polis",
+  "ll": [
+   35.03766,
+   32.42417
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://bougainvillea.com.cy/",
+  "x": 1,
+  "w": "https://bougainvillea.com.cy/"
+ },
+ {
+  "i": "wlc-0030",
+  "n": "Socrates Apartments",
+  "g": "apart",
+  "l": "Hotel apartments",
+  "tw": "Neo Chorio",
+  "d": "akamas",
+  "a": "Neo Chorio",
+  "ll": [
+   35.02919,
+   32.36176
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.booking.com/hotel/cy/socrates-neo-chorio.html",
+  "x": 1
+ },
+ {
+  "i": "wlc-0031",
+  "n": "Castle Holiday Apartments",
+  "g": "apart",
+  "l": "Hotel apartments",
+  "tw": "Germasogeia",
+  "d": "limassol",
+  "a": "Germasogeia",
+  "ll": [
+   34.70003,
+   33.09842
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.castleholidayapartments.net/",
+  "x": 1,
+  "w": "https://www.castleholidayapartments.net/"
+ },
+ {
+  "i": "wlc-0032",
+  "n": "Corina Suites & Apartments",
+  "g": "apart",
+  "l": "Hotel apartments",
+  "tw": "Germasogeia",
+  "d": "limassol",
+  "a": "Germasogeia",
+  "ll": [
+   34.69917,
+   33.08473
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.corinasuites.com/",
+  "x": 1,
+  "w": "https://www.corinasuites.com/"
+ },
+ {
+  "i": "wlc-0033",
+  "n": "Nostalgia",
+  "g": "apart",
+  "l": "Hotel",
+  "tw": "Agios Tychonas",
+  "d": "limassol",
+  "a": "Agios Tychonas",
+  "ll": [
+   34.70747,
+   33.12044
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.nostalgia-apts.com/",
+  "x": 1,
+  "w": "https://www.nostalgia-apts.com/"
+ },
+ {
+  "i": "wlc-0034",
+  "n": "Pissouri Image",
+  "g": "hotel",
+  "l": "Hotel",
+  "tw": "Pissouri",
+  "d": "limassol",
+  "a": "Pissouri",
+  "ll": [
+   34.65442,
+   32.72268
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.ergoncy.com/pissouri-image",
+  "x": 1,
+  "w": "https://www.ergoncy.com/pissouri-image"
+ },
+ {
+  "i": "wlc-0035",
+  "n": "Sunquest Gardens Holiday Resort",
+  "g": "hotel",
+  "l": "Hotel",
+  "tw": "Potamos Germasogeias",
+  "d": "limassol",
+  "a": "Potamos Germasogeias",
+  "ll": [
+   34.70077,
+   33.09607
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.booking.com/hotel/cy/sunquest-gardens-holiday-resort-co-ownership.html",
+  "x": 1
+ },
+ {
+  "i": "wlc-0036",
+  "n": "Elya Beach Luxury Suites",
+  "g": "hotel",
+  "l": "Hotel apartments",
+  "tw": "Alaminos",
+  "d": "larnaca",
+  "a": "Alaminos",
+  "ll": [
+   34.7536,
+   33.41642
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://elyabeachluxurysuites.reserve-online.net/about",
+  "x": 1
+ },
+ {
+  "i": "wlc-0037",
+  "n": "Jimmy's Suites Larnaca",
+  "g": "hotel",
+  "l": "Hotel apartments",
+  "tw": "Larnaca",
+  "d": "larnaca",
+  "a": "Larnaca",
+  "ll": [
+   34.9163,
+   33.63346
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.jimmyssuiteslarnaca.com/",
+  "x": 1,
+  "w": "https://www.jimmyssuiteslarnaca.com/"
+ },
+ {
+  "i": "wlc-0038",
+  "n": "Lysithea Hotel Apartments",
+  "g": "apart",
+  "l": "Hotel",
+  "tw": "Pyla",
+  "d": "larnaca",
+  "a": "Pyla",
+  "ll": [
+   34.9799,
+   33.69896
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.booking.com/hotel/cy/lysithea-apts.en-gb.html",
+  "x": 1
+ },
+ {
+  "i": "wlc-0039",
+  "n": "Mesogios House Suites",
+  "g": "hotel",
+  "l": "Hotel apartments",
+  "tw": "Larnaca",
+  "d": "larnaca",
+  "a": "Larnaca",
+  "ll": [
+   34.92061,
+   33.63534
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.mesogioshousesuites.com/",
+  "x": 1,
+  "w": "https://www.mesogioshousesuites.com/"
+ },
+ {
+  "i": "wlc-0040",
+  "n": "Petalmo City Apartments",
+  "g": "apart",
+  "l": "Hotel apartments",
+  "tw": "Larnaca",
+  "d": "larnaca",
+  "a": "Larnaca",
+  "ll": [
+   34.91678,
+   33.63488
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.booking.com/hotel/cy/petalmo-city-apartments.en-gb.html",
+  "x": 1
+ },
+ {
+  "i": "wlc-0041",
+  "n": "Roseum Boutique Hotel",
+  "g": "hotel",
+  "l": "Hotel",
+  "tw": "Larnaca",
+  "d": "larnaca",
+  "a": "Larnaca",
+  "ll": [
+   34.91347,
+   33.63426
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.google.com.cy/travel/hotels/entity/ChoIgbbzhefU18SrARoNL2cvMTFoN3JuaHIzZBAB?ap=MAA&gl=cy&gsas=1&hl=en&rp=SAI&ts=CAESABpRCjMSLzIlMHgxNGRlMTc2N2NhNDk0ZDU1OjB4MzI0YzNjODA3ZmM0MTQ2ZToGQ3lwcnVzGgASGhIUCgcI5g8QCBgDEgcI5g8QCBgEGAEyAhAAKgkKBToDRVVSGgA&un=1",
+  "x": 1
+ },
+ {
+  "i": "wlc-0042",
+  "n": "Aelia Wellness",
+  "g": "hotel",
+  "l": "Hotel",
+  "tw": "Pera Orinis",
+  "d": "nicosia",
+  "a": "Pera Orinis",
+  "ll": [
+   35.02729,
+   33.30579
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://aeliawellness.com.cy/",
+  "x": 1,
+  "w": "https://aeliawellness.com.cy/"
+ },
+ {
+  "i": "wlc-0043",
+  "n": "Allegra GSP Sport Center",
+  "g": "hotel",
+  "l": "Hotel",
+  "tw": "Latsia",
+  "d": "nicosia",
+  "a": "Latsia",
+  "ll": [
+   35.11342,
+   33.36034
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.allegragspsportcenter.com/welcome.shtm",
+  "x": 1,
+  "w": "https://www.allegragspsportcenter.com/welcome.shtm"
+ },
+ {
+  "i": "wlc-0044",
+  "n": "Eclectic Apartments",
+  "g": "apart",
+  "l": "Hotel apartments",
+  "tw": "Nicosia",
+  "d": "nicosia",
+  "a": "Nicosia",
+  "ll": [
+   35.16302,
+   33.36947
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://eclecticapartmentscy.com/",
+  "x": 1,
+  "w": "https://eclecticapartmentscy.com/"
+ },
+ {
+  "i": "wlc-0045",
+  "n": "Chrysanthis",
+  "g": "hotel",
+  "l": "Hotel",
+  "tw": "Kakopetria",
+  "d": "troodos",
+  "a": "Kakopetria",
+  "ll": [
+   34.97194,
+   32.91918
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://chrysanthissuites.com/",
+  "x": 1,
+  "w": "https://chrysanthissuites.com/"
+ },
+ {
+  "i": "wlc-0046",
+  "n": "Mountain Rose",
+  "g": "hotel",
+  "l": "Hotel",
+  "tw": "Pedoulas",
+  "d": "troodos",
+  "a": "Pedoulas",
+  "ll": [
+   34.9673,
+   32.82727
+  ],
+  "ls": "osm",
+  "sd": "2026-11-24",
+  "su": "https://www.booking.com/hotel/cy/mountain-rose-garden-amp-restaurant.html",
+  "x": 1
  }
 ]

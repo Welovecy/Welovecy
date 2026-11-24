@@ -9,6 +9,7 @@ function inRepublic([lat, lon]: [number, number]) {
   if (lat < 34.55 || lat > 35.25 || lon < 32.25 || lon > 34.6) return false;
   // Rough line of control, west to east. Republic land stays south of it.
   if (lon >= 32.75 && lon < 33.25 && lat > 35.175) return false; // Morphou bay
+  if (lon >= 32.75 && lon < 32.95 && lat > 35.095) return false; // Lefka
   if (lon >= 33.25 && lon < 33.43 && lat > 35.185) return false; // north Nicosia
   if (lon >= 33.43 && lon < 33.95 && lat > 35.14) return false; // Mesaoria
   if (lon >= 33.95 && lat > 35.1) return false; // Famagusta and beyond
