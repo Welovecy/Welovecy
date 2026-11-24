@@ -54,11 +54,11 @@ export function HeroDemo({ stops }: { stops: DemoStop[] }) {
   const show = ready && (phase === "shown" || reduced.current);
   return (
     <div className="demo" onPointerEnter={() => setPaused(true)} onPointerLeave={() => setPaused(false)}>
-      <h1 className="demo-title">
+      <h2 className="demo-title">
         <span className="demo-pre">{s.pre ?? "Staying at"}</span>{" "}
         <span className="demo-typed" aria-hidden="true">{typed}<span className={`caret${phase === "shown" ? " blink" : ""}`} /></span>
         <span className="sr">{word(i)}</span>{s.post ?? "?"}
-      </h1>
+      </h2>
       <Link href={s.href} className={`demo-card${ready ? " ready" : ""}${show ? " in" : " busy"}${s.cta ? " final" : ""}`} aria-label={s.cta ? s.cta : `See what's around ${s.name}, ${s.area}`}>
         <div className="demo-head">
           <span className="demo-pin" aria-hidden="true" />

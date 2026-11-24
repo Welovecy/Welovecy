@@ -12,6 +12,15 @@ import { BUS, BUSINESSES, POIS, getBusiness, getDest, isStay, listingHref, spots
 import { essentials } from "@/lib/around";
 import { WALK_MAX_KM, driveMinutes, walkMinutes } from "@/lib/geo";
 import { ESSENTIAL_LABEL, KINDS } from "@/lib/kinds";
+import { HomeHero, QuickLinks, RightNow } from "@/components/HomeHero";
+import { DISTRICTS, cyToday, dutyOn } from "@/lib/duty";
+
+/** Rebuilt every 10 minutes so tonight's pharmacy count is always today's. */
+export const revalidate = 600;
+
+/** The opening line. Swap here to test another headline. */
+const HEADLINE = "Know Cyprus like a local.";
+const LEAD = "Beaches, food, buses and tonight's pharmacy, all in one place.";
 
 /** Real hotels in each holiday area, in the order guests ask about them. [id, name to type] */
 const SHOWCASE: [string, string][] = [
@@ -83,21 +92,30 @@ export default function Home() {
   return (
     <>
       <div className="wrap">
-        <div className="hero2">
+        <HomeHero>
+          <p className="eyebrow">From the We Love Cyprus community</p>
+          <h1 className="vhero-title">{HEADLINE}</h1>
+          <p className="vhero-lead">{LEAD}</p>
+          <RightNow pharmacies={DISTRICTS.reduce((n, d) => n + (dutyOn(d.id, cyToday())?.length ?? 0), 0)} />
+          <QuickLinks />
+        </HomeHero>
+      </div>
+      <HomeBase />
+      <section className="wrap" aria-label="What's around your hotel" style={{ paddingTop: 28 }}>
+        <div className="sec-head"><h2 style={{ fontSize: 24 }}>Staying somewhere? See what&apos;s around you.</h2></div>
+        <div className="hero2 hero2-second">
           <HeroStage photo={photoFor("home-hero")} label="Aphrodite's Rock at sunset" tint="#7E8EA0" />
           <div className="hero2-inner">
-            <p className="eyebrow">Cyprus, the island of love</p>
             <HeroDemo stops={demoStops()} />
-            <WhereSearch placeholder="Where are you staying or going?" hint="Any hotel, town or beach. For example Protaras, Nissi Beach or Paphos." />
+            <WhereSearch placeholder="Your hotel, town or beach" hint="Walking and driving times are estimates. For example Protaras, Nissi Beach or Paphos." />
           </div>
         </div>
         <div className="intro-line">
           <p>Legend says Aphrodite rose from the sea here. Millions of us have been falling for this island ever since. <span className="muted">Come find your own reason.</span></p>
         </div>
-      </div>
-      <HomeBase />
+      </section>
       <section className="wrap" aria-labelledby="h-areas" style={{ paddingTop: 24 }}>
-        <h2 id="h-areas" style={{ fontSize: 24, marginBottom: 14 }}>Or explore an area</h2>
+        <h2 id="h-areas" style={{ fontSize: 24, marginBottom: 14 }}>Explore by area</h2>
         <div className="chips stay-chips">
           {DESTINATIONS.map((d) => <Link key={d.id} className="chip" href={`/destinations/${d.id}`}>{d.name}</Link>)}
         </div>
