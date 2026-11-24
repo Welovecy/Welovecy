@@ -3,7 +3,8 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const KEY = "wlc-consent";
-const CLARITY = process.env.NEXT_PUBLIC_CLARITY_ID;
+/** Microsoft Clarity project for welovecy.com (a public ID, safe to keep in code). */
+const CLARITY = process.env.NEXT_PUBLIC_CLARITY_ID || "zitl4a1c8f";
 type Choice = "yes" | "no";
 
 function read(): Choice | null { try { const v = localStorage.getItem(KEY); return v === "yes" || v === "no" ? v : null; } catch { return null; } }
