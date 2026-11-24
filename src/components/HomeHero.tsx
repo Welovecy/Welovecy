@@ -110,7 +110,7 @@ export function QuickLinks() {
     ["beach", "Beaches", "/beaches"],
     ["eat", "Eat out", "/eat-drink"],
     ["bus", "Buses", "/buses"],
-    ["pharmacy", "Pharmacies", "/pharmacies-on-duty"],
+    ["pharmacy", "Pharmacy", "/pharmacies-on-duty"],
   ];
   return (
     <nav className="quick" aria-label="Start here">
