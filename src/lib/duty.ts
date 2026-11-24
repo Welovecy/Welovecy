@@ -62,7 +62,7 @@ export function dutyOn(district: string, iso: string): DutyItem[] | undefined {
  */
 export function dirFor(x: DutyItem) {
   const street = x.a.replace(/\s*\([^)]*\)/g, "").replace(/,?\s*κατ\.?\s*\d+/i, "").trim();
-  return searchMaps(`Φαρμακείο ${street} ${x.t}`);
+  return searchMaps(`Φαρμακείο ${street}${street.includes(x.t) ? "" : ` ${x.t}`}`);
 }
 
 /** How far a duty pharmacy is from each of our area centres in its district. */
