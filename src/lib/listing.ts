@@ -17,7 +17,7 @@ export function bizFacts(b: Business): Fact[] {
   if (isStay(b) && b.r) f.push([b.g === "apart" ? "Units" : "Rooms", `${b.r}${b.b ? ` (${b.b} beds)` : ""}`, false]);
   if (b.s && STATUS_NOTE.test(b.s)) f.push(["Licence", "Licensing or classification in process, per the register.", false]);
   f.push(["Opening hours", "Not yet verified.", true]);
-  f.push(["Map position", b.ll ? (b.ls === "ov" ? "Matched to Overture Maps." : "Matched to OpenStreetMap.") : "No map pin yet. Directions search the address.", !b.ll]);
+  f.push(["Map position", b.ll ? (b.pr === "area" ? "Approximate, matched to the postcode area. Use Directions for the exact address." : b.pr === "approx" ? "Approximate, matched to the street. Use Directions for the exact address." : b.ls === "ov" ? "Matched to Overture Maps." : "Matched to OpenStreetMap.") : "No map pin yet. Directions search the address.", !b.ll || !!b.pr]);
   return f;
 }
 

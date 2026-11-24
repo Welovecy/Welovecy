@@ -124,7 +124,7 @@ export function poiDirections(r: Poi): string {
   return searchMaps(`${r.a || r.n}, ${r.tw || ""}, Cyprus`);
 }
 export function bizDirections(b: Business): string {
-  if (b.ll) return directionsTo(b.ll);
+  if (b.ll && !b.pr) return directionsTo(b.ll);
   return searchMaps(`${b.n}, ${b.a || ""}, ${townOf(b.tw, b.d)}, Cyprus`);
 }
 
@@ -150,7 +150,8 @@ export function spots(): Spot[] {
   for (const b of BUSINESSES) {
     if (!b.ll) continue;
     const k = isStay(b) ? "stay" : b.g === "night" ? "night" : "eat";
-    out.push({ key: b.i, n: b.n, k, ll: b.ll, href: listingHref(b.i), sub: [b.l, stars(b.c)].filter(Boolean).join(" · ") });
+    if (b.vt === "cabaret" || b.pr === "area") continue;
+    out.push({ key: b.i, n: b.n, k, ll: b.ll, href: listingHref(b.i), sub: [b.l, stars(b.c)].filter(Boolean).join(" · "), approx: b.pr === "approx" || undefined, dir: bizDirections(b) });
   }
   for (const s of BUS.stops) {
     const rt = routeList(s.rk);

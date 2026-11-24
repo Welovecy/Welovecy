@@ -600,3 +600,15 @@ html{-webkit-tap-highlight-color:transparent}
 .duty-week th{font-weight:600;white-space:nowrap}
 .duty-banner{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between;padding:14px 16px;border-radius:var(--r-md);background:var(--accent-soft);margin:0 0 18px;max-width:760px}
 .duty-banner span{font-weight:600}
+
+/* Eat and drink */
+.going-from{display:grid;gap:8px;margin:0 0 18px;max-width:760px}
+.going-from .chips{margin:0}
+.chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.going-unmapped{margin-top:22px;max-width:760px}
+.going-unmapped summary{cursor:pointer;font-weight:600;padding:8px 0}
+.going-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.going-tile{display:grid;gap:4px;padding:16px;border-radius:var(--r-md);background:var(--card);border:1px solid var(--line);text-decoration:none;color:inherit}
+.going-tile:hover{border-color:var(--fg)}
+.going-tile strong{font-size:18px}
+.going-tile span{color:var(--muted);font-size:14px}

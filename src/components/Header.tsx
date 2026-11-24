@@ -11,6 +11,7 @@ const NAV: [string, string][] = [
   ["/must-see", "Must-see"],
   ["/beaches", "Beaches"],
   ["/stay", "Where to stay"],
+  ["/eat-drink", "Eat and drink"],
   ["/around", "Around you"],
 ];
 

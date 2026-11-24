@@ -49,3 +49,15 @@ def cuisines(b, osm_cu="", hand=None):
     if not found and venue_type(b) == "taverna": found.append("cypriot")
     if "pizzeria" in (b.get("l") or "").lower() and "italian" not in found: found.append("italian")
     return found[:3]
+
+SMALL = {"and", "of", "the", "at", "in", "on", "by", "a", "to", "de", "la", "le", "di", "del"}
+def clean_name(n):
+    """Readable display names: no trailing (town) or (owner) notes from the register, no shouting capitals."""
+    s = re.sub(r"\s*\([^()]*\)\s*$", "", n).strip() or n
+    s = re.sub(r"\s{2,}", " ", s)
+    latin = re.sub(r"[^A-Za-z]", "", s)
+    if len(latin) > 4 and sum(c.isupper() for c in latin) / len(latin) > 0.8:
+        words = s.lower().split(" ")
+        s = " ".join(w if (i and w in SMALL) else (w[:1].upper() + w[1:]) for i, w in enumerate(words))
+        s = re.sub(r"'S\b", "'s", s)
+    return re.sub(r"\bRest\.(?=\s|$)", "Restaurant", s, flags=re.I)

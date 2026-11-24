@@ -144,3 +144,28 @@ describe("pharmacies on duty", () => {
     expect(daysLeft(), "Duty pharmacy rota ends soon: get the next season's files from gov.cy and run scripts/content/duty.py").toBeGreaterThan(21);
   });
 });
+
+import { GOING, VENUE_PAGES, CUISINE_PAGES, venuesIn } from "../src/lib/going";
+import { BUSINESSES } from "../src/lib/data";
+describe("eat and drink", () => {
+  it("builds unique, worthwhile pages", () => {
+    expect(GOING.length).toBeGreaterThan(40);
+    const keys = GOING.map((g) => `${g.area}/${g.slug}`);
+    expect(new Set(keys).size).toBe(keys.length);
+    for (const g of GOING) expect(g.list.length, g.title).toBeGreaterThanOrEqual(4);
+    const slugs = [...VENUE_PAGES.map((v) => v.slug), ...CUISINE_PAGES.map((c) => c.slug)];
+    expect(new Set(slugs).size).toBe(slugs.length);
+  });
+  it("never lists cabarets, and every venue has a type", () => {
+    for (const g of GOING) for (const b of g.list) expect(b.vt).not.toBe("cabaret");
+    const v = BUSINESSES.filter((b) => b.g === "eat" || b.g === "cafe" || b.g === "night");
+    for (const b of v) expect(b.vt, b.n).toBeTruthy();
+    expect(venuesIn("ayianapa").length).toBeGreaterThan(50);
+  });
+  it("shows clean names and sensible pins", () => {
+    for (const b of BUSINESSES) {
+      expect(b.n, b.i).not.toMatch(/\(\s*[^)]*\)\s*$/);
+      if (b.ll) { expect(b.ll[0]).toBeGreaterThan(34.5); expect(b.ll[0]).toBeLessThan(35.25); expect(b.ll[1]).toBeGreaterThan(32.2); expect(b.ll[1]).toBeLessThan(34.15); }
+    }
+  });
+});

@@ -3,6 +3,7 @@ import { MONTH_SLUGS } from "@/lib/months";
 import { GUIDES, guideHref } from "@/lib/guides";
 import { BEACH_HOTELS, hotelsNearHref } from "@/lib/hotelsNear";
 import { DISTRICTS, dutyHref } from "@/lib/duty";
+import { GOING, goingHref } from "@/lib/going";
 import type { MetadataRoute } from "next";
 import { BUSINESSES, DESTINATIONS, INTERESTS, PLACES, POIS, PROFILES, isStay, listingHref, placeForPoi, placeHref } from "@/lib/data";
 import { absolute, DATA_REVIEWED } from "@/lib/site";
@@ -10,7 +11,9 @@ import { absolute, DATA_REVIEWED } from "@/lib/site";
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date(DATA_REVIEWED + "T00:00:00Z");
   const paths = [
-    "/", "/destinations", "/must-see", "/beaches", "/stay", "/around", "/essentials", "/practical", "/buses", "/unesco", "/wine", "/weather", "/quiz", "/guides", "/distances", "/hotels-near", "/pharmacies-on-duty",
+    "/", "/destinations", "/must-see", "/beaches", "/stay", "/around", "/essentials", "/practical", "/buses", "/unesco", "/wine", "/weather", "/quiz", "/guides", "/distances", "/hotels-near", "/pharmacies-on-duty", "/eat-drink",
+    ...[...new Set(GOING.map((g) => g.area))].map((a) => goingHref(a)),
+    ...GOING.map((g) => goingHref(g.area, g.slug)),
     ...DISTRICTS.map((d) => dutyHref(d.id)),
     ...BEACH_HOTELS.map((b) => hotelsNearHref(b.slug)),
     ...AIRPORTS.flatMap((a) => POPULAR.map((id) => `/distances/${a.slug}-to-${slugOf(id)}`)),
