@@ -52,7 +52,7 @@ export function DutyCards({ items }: { items: DutyCard[] }) {
             {x.dist.length ? <p className="duty-dist">{x.dist.join(" · ")}</p> : null}
             <div className="duty-actions">
               {x.ph ? <a className="btn btn-primary" href={`tel:+357${x.ph}`}>Call {x.ph.replace(/(\d{2})(\d{6})/, "$1 $2")}</a> : null}
-              <a className="btn btn-ghost" href={x.dir} target="_blank" rel="noopener noreferrer">Directions</a>
+              <a className="btn btn-ghost" href={x.dir} target="_blank" rel="noopener noreferrer">Find on map</a>
               {x.href ? <Link className="btn btn-ghost" href={x.href}>Pharmacy details</Link> : null}
             </div>
           </li>

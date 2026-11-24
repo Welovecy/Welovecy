@@ -54,7 +54,7 @@ export function DutyView({ district }: { district: string }) {
           <h2 id="h-know" style={{ fontSize: 24 }}>Good to know</h2>
           <ul style={{ paddingLeft: 20, display: "grid", gap: 8 }}>
             <li>The rota covers the whole district, so tonight&apos;s pharmacy may be in the next town. Check the drive before you set off.</li>
-            <li>Addresses are shown in Greek, as they appear on the street. Show them to a taxi driver, or tap Directions.</li>
+            <li>Addresses are shown in Greek, as they appear on the street. Show them to a taxi driver, or tap Find on map: the pharmacy whose phone number matches is the one on duty. If in doubt, call.</li>
             <li>Every pharmacy, open or closed, shows the duty list in a lit window by the door.</li>
             <li>Bring your prescription or the generic name of your medicine. <Link href="/guides/pharmacies-on-duty-in-cyprus">More about pharmacies in Cyprus</Link>.</li>
           </ul>

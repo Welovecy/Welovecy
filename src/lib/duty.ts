@@ -2,7 +2,7 @@ import "server-only";
 import raw from "../../data/duty.json";
 import type { DestId, LL } from "./types";
 import { DEST_CENTRE } from "./centres";
-import { directionsTo, km, searchMaps } from "./geo";
+import { km, searchMaps } from "./geo";
 
 /**
  * Pharmacies on duty, from the Ministry of Health's official rota (one file per district, converted by
@@ -55,8 +55,14 @@ export function dutyOn(district: string, iso: string): DutyItem[] | undefined {
   return DUTY.d[district]?.[iso];
 }
 
+/**
+ * Google Maps search for the pharmacy itself. Most rota addresses have no exact pin, and a bare address
+ * lands on whatever shop is nearby; "Φαρμακείο" + street + town puts the right pharmacy first (its phone
+ * number matches the rota), so we use that for every card.
+ */
 export function dirFor(x: DutyItem) {
-  return x.ll && !x.approx ? directionsTo(x.ll) : searchMaps(`${x.a}, ${x.t}, Cyprus`);
+  const street = x.a.replace(/\s*\([^)]*\)/g, "").replace(/,?\s*κατ\.?\s*\d+/i, "").trim();
+  return searchMaps(`Φαρμακείο ${street} ${x.t}`);
 }
 
 /** How far a duty pharmacy is from each of our area centres in its district. */
