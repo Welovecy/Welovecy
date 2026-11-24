@@ -5,6 +5,8 @@ on:
       bbox:
         description: "minlon minlat maxlon maxlat"
         default: "33.90 34.93 34.11 35.03"
+permissions:
+  contents: write
 jobs:
   coast:
     runs-on: ubuntu-latest
@@ -16,7 +18,11 @@ jobs:
           python-version: "3.12"
       - run: pip install osmium==4.0.2
       - run: python3 scripts/geo/coast_extract.py ${{ github.event.inputs.bbox }} coast.json
-      - uses: actions/upload-artifact@v4
-        with:
-          name: coast
-          path: coast.json
+      - name: Push to the coastline branch
+        run: |
+          git config user.name "We Love Cyprus data bot"
+          git config user.email "welovecy@users.noreply.github.com"
+          git checkout -B coastline
+          git add -f coast.json
+          git commit -m "Coastline extract [skip ci]"
+          git push -f origin coastline
