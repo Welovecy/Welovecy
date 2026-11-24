@@ -9,6 +9,8 @@ import { EMAIL_BUSINESS, EMAIL_HELLO, FB_GROUP, FB_PAGE, SITE_NAME, SITE_URL } f
 import { JsonLd } from "@/components/JsonLd";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Track } from "@/components/Track";
+import { Consent } from "@/components/Consent";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -59,6 +61,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <RegisterSW />
         <Analytics />
         <SpeedInsights />
+        <Track />
+        <Consent />
       </body>
     </html>
   );

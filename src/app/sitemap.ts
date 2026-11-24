@@ -18,7 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...BEACH_HOTELS.map((b) => hotelsNearHref(b.slug)),
     ...AIRPORTS.flatMap((a) => POPULAR.map((id) => `/distances/${a.slug}-to-${slugOf(id)}`)),
     ...MONTH_SLUGS.map((m) => `/weather/${m}`),
-    ...GUIDES.map((g) => guideHref(g.slug)), "/things", "/stories", "/about",
+    ...GUIDES.map((g) => guideHref(g.slug)), "/things", "/stories", "/about", "/privacy",
     ...DESTINATIONS.flatMap((d) => [`/destinations/${d.id}`, `/stay/${d.id}`]),
     ...Object.entries(PROFILES).flatMap(([d, p]) => p.localities.map((l) => `/destinations/${d}/${l.slug}`)),
     ...PLACES.map((p) => placeHref(p.slug)),

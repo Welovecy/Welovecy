@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CookieSettings } from "./Consent";
 import { ThemeAuto } from "./ThemeToggle";
 import { EMAIL_HELLO, FB_GROUP, FB_PAGE } from "@/lib/site";
 
@@ -47,6 +48,8 @@ export function Footer() {
         <span className="muted">In an emergency call <strong>112</strong> or <strong>199</strong>, free from any phone.</span>
         <Link href="/practical#emergency">All help numbers</Link>
         <Link href="/credits">Photo credits</Link>
+        <Link href="/privacy">Privacy</Link>
+        <CookieSettings />
         <ThemeAuto />
       </div>
       <div className="wrap footline credits-line">
