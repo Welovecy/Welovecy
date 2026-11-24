@@ -24,6 +24,6 @@ describe("geo", () => {
     expect(driveMinutes(1.5)).toBe(5);
     expect(driveMinutes(14.3)).toBe(25);
     for (let d = 1.3; d < 15; d += 0.1) expect(driveMinutes(d + 0.1)).toBeGreaterThanOrEqual(driveMinutes(d));
-    expect(howFar(10)).toBe(`10 km · ${driveMinutes(10)} min drive · about €16 by taxi`);
+    expect(howFar(10)).toBe(`10 km · ${driveMinutes(10)} min drive · €16–20 by taxi (estimate)`);
   });
 });

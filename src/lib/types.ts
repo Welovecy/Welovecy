@@ -80,6 +80,8 @@ export interface Business {
   /** venue type and cuisines, for restaurants, cafes, bars and clubs (scripts/geo/classify.py) */
   vt?: VenueType;
   cz?: CuisineId[];
+  /** a venue inside a hotel: the hotel's id, where in the building, and opening hours from the venue itself */
+  in?: string; fl?: string; hrs?: string;
 }
 
 export type VenueType = "restaurant" | "taverna" | "cafe" | "snack" | "bar" | "pub" | "club" | "beachbar" | "cabaret";

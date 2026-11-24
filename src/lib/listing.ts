@@ -1,6 +1,6 @@
 import "server-only";
 import type { Business, Fact, Poi, Source } from "./types";
-import { getDest, isStay, townOf } from "./data";
+import { getBusiness, getDest, isStay, townOf } from "./data";
 import { stars, formatDate } from "./text";
 import { beachFacts } from "@/components/BeachFacts";
 
@@ -16,12 +16,16 @@ export function bizFacts(b: Business): Fact[] {
   if (b.e) f.push(["Email", b.e, false]);
   if (isStay(b) && b.r) f.push([b.g === "apart" ? "Units" : "Rooms", `${b.r}${b.b ? ` (${b.b} beds)` : ""}`, false]);
   if (b.s && STATUS_NOTE.test(b.s)) f.push(["Licence", "Licensing or classification in process, per the register.", false]);
-  f.push(["Opening hours", "Not yet verified.", true]);
-  f.push(["Map position", b.ll ? (b.pr === "area" ? "Approximate, matched to the postcode area. Use Directions for the exact address." : b.pr === "approx" ? "Approximate, matched to the street. Use Directions for the exact address." : b.ls === "ov" ? "Matched to Overture Maps." : b.ls === "us" ? "Pinned by We Love Cyprus from the hotel's own map listing." : "Matched to OpenStreetMap.") : "No map pin yet. Directions search the address.", !b.ll || !!b.pr]);
+  if (b.in) { const h = getBusiness(b.in); if (h) f.push(["Where", `${b.fl ? b.fl + ", " : ""}${h.n}`, false]); }
+  f.push(b.hrs ? ["Opening hours", b.hrs, false] : ["Opening hours", "Not yet verified.", true]);
+  f.push(["Map position", b.in ? "Same building as the hotel." : b.ll ? (b.pr === "area" ? "Approximate, matched to the postcode area. Use Directions for the exact address." : b.pr === "approx" ? "Approximate, matched to the street. Use Directions for the exact address." : b.ls === "ov" ? "Matched to Overture Maps." : b.ls === "us" ? "Pinned by We Love Cyprus from the hotel's own map listing." : "Matched to OpenStreetMap.") : "No map pin yet. Directions search the address.", !b.ll || !!b.pr]);
   return f;
 }
 
 export function bizSources(b: Business): { list: Source[]; reviewed: string } {
+  if (b.in) {
+    return { list: [{ t: `${b.n}: official website`, u: b.su }], reviewed: `checked by We Love Cyprus on ${formatDate(b.sd)}` };
+  }
   if (b.i.startsWith("wlc-")) {
     return {
       list: [{ t: "Location: Overture Maps Foundation", u: "https://overturemaps.org/" }],

@@ -15,6 +15,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { districtsFor, dutyHref, onRota } from "@/lib/duty";
 import { KINDS } from "@/lib/kinds";
 import { hotelsNearFor, hotelsNearHref } from "@/lib/hotelsNear";
+import { InHotel } from "@/components/InHotel";
 import { Photo } from "@/components/Photo";
 
 type P = { params: Promise<{ id: string }> };
@@ -59,6 +60,7 @@ export default async function ListingPage({ params }: P) {
         <div className="biz-head">
           <p className="eyebrow">{bizSub(b)}</p>
           <h1>{b.n}</h1>
+          {b.in && getBusiness(b.in) ? <p className="lead" style={{ marginTop: 6 }}>{b.fl ? `${b.fl} of ` : "Inside "}<Link href={listingHref(b.in)}>{getBusiness(b.in)!.n}</Link></p> : null}
           {b.ll ? <FromBase ll={b.ll} skip={b.i} /> : null}
           <div className="actions">
             {b.ll ? <Link className="btn btn-primary" href={`${href}/around`}>See what&apos;s around</Link> : null}
@@ -80,6 +82,7 @@ export default async function ListingPage({ params }: P) {
           <p className="muted small">Run this business? <Link href="/list-your-business#update">Suggest an update</Link>.</p>
         </div>
       </section>
+      {stay ? <InHotel hotelId={b.i} hotelName={b.n} /> : null}
       {b.ll ? <AroundBlock ll={b.ll} skip={b.i} title={stay ? "Around this hotel" : "Near here"} moreHref={`${href}/around`} /> : null}
     </>
   );

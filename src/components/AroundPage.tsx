@@ -11,6 +11,7 @@ import { FeaturedBlock } from "./Cards";
 import { FromBase } from "./FromBase";
 import { StayHere } from "./StayHere";
 import { BusesNear } from "./Buses";
+import { InHotel } from "./InHotel";
 
 const TOWN: Record<string, string> = { ayianapa: "Ayia Napa", protaras: "Protaras", paphos: "Paphos", limassol: "Limassol", larnaca: "Larnaca", nicosia: "Nicosia" };
 
@@ -34,6 +35,7 @@ export function AroundPage({ ll, name, sub, back, skip, stay }: Props) {
           </div>
         </div>
       </div>
+      {stay ? <InHotel hotelId={stay.id} hotelName={name} /> : null}
       <section className="wrap" aria-labelledby="h-ess" style={{ paddingBottom: 24 }}>
         <h2 id="h-ess" style={{ fontSize: 28, marginBottom: 16 }}>Closest to {name}</h2>
         <EssentialsGrid items={a.essentials} area={a.dest} areaName={dest?.name ?? ""} busHref="#buses" />
