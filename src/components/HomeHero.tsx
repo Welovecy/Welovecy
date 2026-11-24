@@ -76,7 +76,7 @@ export function RightNow({ pharmacies }: { pharmacies: number }) {
       <li>
         <Link href="/weather">
           {w ? <><strong>{w.t}°</strong> {symbolInfo(w.sym).label.toLowerCase()}</> : <strong>Weather</strong>}
-          <span className="now-sub">Ayia Napa now</span>
+          <span className="now-sub">Ayia Napa</span>
         </Link>
       </li>
       <li>
@@ -108,9 +108,9 @@ const ICON: Record<string, ReactNode> = {
 export function QuickLinks() {
   const links: [string, string, string][] = [
     ["beach", "Beaches", "/beaches"],
-    ["eat", "Eat and drink", "/eat-drink"],
+    ["eat", "Eat out", "/eat-drink"],
     ["bus", "Buses", "/buses"],
-    ["pharmacy", "Pharmacy tonight", "/pharmacies-on-duty"],
+    ["pharmacy", "Pharmacies", "/pharmacies-on-duty"],
   ];
   return (
     <nav className="quick" aria-label="Start here">
