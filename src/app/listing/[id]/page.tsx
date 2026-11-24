@@ -50,10 +50,12 @@ export default async function ListingPage({ params }: P) {
   const stay = isStay(b);
   const src = bizSources(b);
   const base = stay && b.ll ? { id: b.i, n: b.n, ll: b.ll, href, around: `${href}/around`, area: b.d } : undefined;
+  const photo = photoFor(`biz-${b.i}`);
   return (
     <>
       <div className="wrap">
         <Crumbs items={[["Home", "/"], [stay ? "Where to stay" : d.name, stay ? `/stay/${d.id}` : `/destinations/${d.id}`], [b.n]]} />
+        {photo ? <Photo photo={photo} label={b.n} tint="#2E6E8E" ratio="21/9" priority hero className="g-photo" /> : null}
         <div className="biz-head">
           <p className="eyebrow">{bizSub(b)}</p>
           <h1>{b.n}</h1>
