@@ -34,6 +34,34 @@ def http(url, data=None, timeout=180):
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return json.loads(r.read().decode("utf-8"))
 
+def geofabrik():
+    """The whole-island extract from Geofabrik, read locally with pyosmium. Steadier than Overpass."""
+    import osmium
+    path = "/tmp/cyprus.osm.pbf"
+    req = urllib.request.Request("https://download.geofabrik.de/europe/cyprus-latest.osm.pbf", headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=300) as r, open(path, "wb") as f: f.write(r.read())
+    want = lambda t: t.get("amenity") in VENUE_T or t.get("tourism") in HOTEL_T or t.get("leisure") == "beach_resort"
+    out = []
+    def add(kind, oid, t, lat, lon):
+        if not (t.get("name") or t.get("name:en")): return
+        if not (BBOX[0] <= lat <= BBOX[2] and BBOX[1] <= lon <= BBOX[3]): return
+        out.append({"id": f"{kind}{oid}", "n": t.get("name", ""), "en": t.get("name:en", ""), "el": t.get("name:el", ""),
+                    "t": t.get("amenity") if t.get("amenity") in VENUE_T else t.get("tourism") or t.get("leisure"), "cu": t.get("cuisine", ""),
+                    "ll": [round(lat, 5), round(lon, 5)], "ph": re.sub(r"\D", "", t.get("phone") or t.get("contact:phone") or "")[-8:],
+                    "st": t.get("stars", ""), "web": t.get("website") or t.get("contact:website") or ""})
+    class H(osmium.SimpleHandler):
+        def node(self, n):
+            t = dict(n.tags)
+            if want(t) and n.location.valid(): add("n", n.id, t, n.location.lat, n.location.lon)
+        def way(self, w):
+            t = dict(w.tags)
+            if not want(t): return
+            pts = [(x.location.lat, x.location.lon) for x in w.nodes if x.location.valid()]
+            if pts: add("w", w.id, t, sum(p[0] for p in pts) / len(pts), sum(p[1] for p in pts) / len(pts))
+    H().apply_file(path, locations=True)
+    print(f"geofabrik: {len(out)} named places")
+    return out
+
 def overpass():
     q = (f"[out:json][timeout:180];("
          f'nwr["amenity"~"^(restaurant|cafe|bar|pub|nightclub|fast_food|ice_cream|biergarten)$"]{BBOX};'
@@ -59,7 +87,10 @@ def overpass():
 
 def main():
     biz = json.load(open("data/businesses.json", encoding="utf-8"))
-    osm = overpass()
+    try:
+        osm = geofabrik()
+    except Exception as ex:
+        print("geofabrik failed, trying overpass:", ex); osm = overpass()
     for o in osm: o["k"] = [k for k in {norm(o["n"]), norm(o["en"]), norm(o["el"])} if len(k) >= 3]
     by_ph = {}
     for o in osm:
