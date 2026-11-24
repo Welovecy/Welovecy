@@ -1,0 +1,5774 @@
+[
+{
+"osm": "w1435511564",
+"n": "Robin East",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.64578,
+32.97829
+],
+"web": ""
+},
+{
+"osm": "n10677139305",
+"n": "Pissouri Image",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.65442,
+32.72268
+],
+"web": ""
+},
+{
+"osm": "n908103482",
+"n": "Hylatio",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.65482,
+32.72709
+],
+"web": ""
+},
+{
+"osm": "n13086707701",
+"n": "Unity",
+"en": "Unity Block 9",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.66294,
+33.00988
+],
+"web": ""
+},
+{
+"osm": "n12988296544",
+"n": "Ulysses House",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.67314,
+33.04467
+],
+"web": ""
+},
+{
+"osm": "n10229664146",
+"n": "La Maltese Mansion",
+"en": "",
+"t": "hotel",
+"stars": "3.5",
+"ll": [
+34.67517,
+33.04643
+],
+"web": "https://www.lamaltesemansion.com"
+},
+{
+"osm": "w28286512",
+"n": "Episkopiana Hotel and Sports Resort",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.67713,
+32.89087
+],
+"web": ""
+},
+{
+"osm": "w639130778",
+"n": "4107",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.67971,
+32.60809
+],
+"web": ""
+},
+{
+"osm": "w639132297",
+"n": "4108",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.67977,
+32.60776
+],
+"web": ""
+},
+{
+"osm": "w639130779",
+"n": "4101",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.67998,
+32.60828
+],
+"web": ""
+},
+{
+"osm": "w639132296",
+"n": "4114",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68006,
+32.60764
+],
+"web": ""
+},
+{
+"osm": "w639133039",
+"n": "5101",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68018,
+32.60743
+],
+"web": ""
+},
+{
+"osm": "w639134786",
+"n": "4118",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68018,
+32.60774
+],
+"web": ""
+},
+{
+"osm": "w639130054",
+"n": "2122",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68028,
+32.60855
+],
+"web": ""
+},
+{
+"osm": "w639134787",
+"n": "4122",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68035,
+32.60769
+],
+"web": ""
+},
+{
+"osm": "w639130051",
+"n": "2119",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68038,
+32.60862
+],
+"web": ""
+},
+{
+"osm": "w639052158",
+"n": "3117",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68043,
+32.60826
+],
+"web": ""
+},
+{
+"osm": "w639133040",
+"n": "5108",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68045,
+32.60724
+],
+"web": ""
+},
+{
+"osm": "w639052150",
+"n": "3120",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68046,
+32.60813
+],
+"web": ""
+},
+{
+"osm": "w639130059",
+"n": "2118",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68052,
+32.60865
+],
+"web": ""
+},
+{
+"osm": "w639052156",
+"n": "3116",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68054,
+32.60829
+],
+"web": ""
+},
+{
+"osm": "w639052155",
+"n": "3115",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68055,
+32.6081
+],
+"web": ""
+},
+{
+"osm": "w639133041",
+"n": "5109",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68056,
+32.60716
+],
+"web": ""
+},
+{
+"osm": "w639052151",
+"n": "3110",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68064,
+32.6083
+],
+"web": ""
+},
+{
+"osm": "w639052154",
+"n": "3109",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68066,
+32.60811
+],
+"web": ""
+},
+{
+"osm": "w639052152",
+"n": "3101",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68084,
+32.60808
+],
+"web": ""
+},
+{
+"osm": "w639052153",
+"n": "3102",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68086,
+32.60825
+],
+"web": ""
+},
+{
+"osm": "w639130057",
+"n": "2109",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68089,
+32.60883
+],
+"web": ""
+},
+{
+"osm": "w639133038",
+"n": "5118",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68093,
+32.60699
+],
+"web": ""
+},
+{
+"osm": "w638961050",
+"n": "1129",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68099,
+32.608
+],
+"web": ""
+},
+{
+"osm": "w639130061",
+"n": "2108",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68101,
+32.60889
+],
+"web": ""
+},
+{
+"osm": "w638961049",
+"n": "1130",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68104,
+32.60816
+],
+"web": ""
+},
+{
+"osm": "w638961048",
+"n": "1139",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68113,
+32.60859
+],
+"web": ""
+},
+{
+"osm": "w638961046",
+"n": "1140",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68123,
+32.60868
+],
+"web": ""
+},
+{
+"osm": "w639130064",
+"n": "2101",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68124,
+32.60911
+],
+"web": ""
+},
+{
+"osm": "w638961051",
+"n": "1121",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68135,
+32.60791
+],
+"web": ""
+},
+{
+"osm": "w638961047",
+"n": "1146",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.6814,
+32.60886
+],
+"web": ""
+},
+{
+"osm": "w638956058",
+"n": "1101",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.6815,
+32.60692
+],
+"web": ""
+},
+{
+"osm": "w638956056",
+"n": "1110",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.6819,
+32.60705
+],
+"web": ""
+},
+{
+"osm": "w638956057",
+"n": "1211",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.682,
+32.60699
+],
+"web": ""
+},
+{
+"osm": "w638956055",
+"n": "1220",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.6824,
+32.60696
+],
+"web": ""
+},
+{
+"osm": "n908080145",
+"n": "Rantzo",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.68265,
+32.70323
+],
+"web": ""
+},
+{
+"osm": "w1095631484",
+"n": "Kapetanios Odyssia",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.68589,
+33.06038
+],
+"web": ""
+},
+{
+"osm": "n2594305790",
+"n": "Club Aphrodite",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.68782,
+32.92426
+],
+"web": ""
+},
+{
+"osm": "n6039096894",
+"n": "Metro Court Apartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.68885,
+33.0644
+],
+"web": ""
+},
+{
+"osm": "n14209160625",
+"n": "Boutique Residence",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.6939,
+33.08318
+],
+"web": ""
+},
+{
+"osm": "n11432184861",
+"n": "Atlantica Miramare Beach",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.69403,
+33.08843
+],
+"web": ""
+},
+{
+"osm": "n11438633200",
+"n": "The Ermitage",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.69478,
+33.08943
+],
+"web": ""
+},
+{
+"osm": "n13854388827",
+"n": "Q Coconuts Seaside Suites",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.69589,
+33.09279
+],
+"web": ""
+},
+{
+"osm": "n5020583808",
+"n": "Athena Holiday Homes",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.69626,
+33.08999
+],
+"web": ""
+},
+{
+"osm": "n4290864214",
+"n": "Chrielka",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.69652,
+33.06881
+],
+"web": ""
+},
+{
+"osm": "n4339917598",
+"n": "Estella Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.69656,
+33.08842
+],
+"web": ""
+},
+{
+"osm": "n321568330",
+"n": "Lime Gardens",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.69698,
+33.08111
+],
+"web": ""
+},
+{
+"osm": "w442547187",
+"n": "Corina Suites & Apartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.69917,
+33.08473
+],
+"web": ""
+},
+{
+"osm": "n4341255706",
+"n": "Old Bridge Apartments Complex",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.69939,
+33.0869
+],
+"web": ""
+},
+{
+"osm": "w361916261",
+"n": "Sunquest Gardens Holiday Resort",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.69961,
+33.09347
+],
+"web": ""
+},
+{
+"osm": "n4194042741",
+"n": "Tycoon Hotel Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.69963,
+33.0915
+],
+"web": "https://tycooncy.com/"
+},
+{
+"osm": "w1464871395",
+"n": "Castle Holiday Apartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.70003,
+33.09842
+],
+"web": ""
+},
+{
+"osm": "n4005814027",
+"n": "Sunquest Gardens Holiday Resort",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.70077,
+33.09607
+],
+"web": ""
+},
+{
+"osm": "n3114630740",
+"n": "Atlantica Gardens",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.70165,
+33.0995
+],
+"web": "https://www.atlanticahotels.com/en/Hotels/Cyprus/AtlanticaGardensHotel"
+},
+{
+"osm": "n6045819189",
+"n": "Atlantica Gardens",
+"en": "Atlantica offices",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.70244,
+33.09968
+],
+"web": ""
+},
+{
+"osm": "n2962649585",
+"n": "Valana Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.70264,
+33.09117
+],
+"web": ""
+},
+{
+"osm": "n9878431217",
+"n": "Corporate Apt",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.70284,
+33.03933
+],
+"web": ""
+},
+{
+"osm": "n6457492080",
+"n": "Roman cs",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.70342,
+33.10299
+],
+"web": ""
+},
+{
+"osm": "w442525225",
+"n": "Vegaz Apartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.70444,
+33.10981
+],
+"web": ""
+},
+{
+"osm": "w45192896",
+"n": "Marathon Beach Apartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.70483,
+33.1112
+],
+"web": ""
+},
+{
+"osm": "n1012845834",
+"n": "Sandiz Beach Apts",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.70643,
+33.11722
+],
+"web": ""
+},
+{
+"osm": "w45341709",
+"n": "Navaria Beach Apts",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.70695,
+33.11876
+],
+"web": ""
+},
+{
+"osm": "n14183552898",
+"n": "Nostalgia",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.70747,
+33.12044
+],
+"web": ""
+},
+{
+"osm": "w83391455",
+"n": "Lulwa Beach",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.70927,
+33.13381
+],
+"web": ""
+},
+{
+"osm": "n1012845865",
+"n": "Amathusia Beach Apts",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.71056,
+33.12949
+],
+"web": ""
+},
+{
+"osm": "n10009628462",
+"n": "White Arches Apt #2",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.71067,
+33.13156
+],
+"web": "https://trulycyprus.com/"
+},
+{
+"osm": "n9976766812",
+"n": "White Arches Apt #1",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.71167,
+33.1294
+],
+"web": "https://trulycyprus.com/"
+},
+{
+"osm": "n8911800917",
+"n": "Kritonos 14",
+"en": "Kritonos 14",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.7118,
+33.05462
+],
+"web": ""
+},
+{
+"osm": "w418900227",
+"n": "Aphrodite Sands Resort",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.7137,
+32.52895
+],
+"web": ""
+},
+{
+"osm": "n5325257922",
+"n": "Amathusa Coastal Height Villa 21",
+"en": "Amathusa Coastal Height Villa 21",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.71477,
+33.15399
+],
+"web": "http://cypruspropertyagent.com"
+},
+{
+"osm": "w772939787",
+"n": "Euphoria Art Land",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.72576,
+33.18947
+],
+"web": "https://euphoriartland.com/"
+},
+{
+"osm": "w1104083129",
+"n": "Asminia Suites Hotel",
+"en": "",
+"t": "hotel",
+"stars": "5",
+"ll": [
+34.73858,
+32.43439
+],
+"web": ""
+},
+{
+"osm": "n5793444153",
+"n": "Pyrgos village, Oxies 3",
+"en": "Pyrgos village, Oxies 3",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.74246,
+33.17566
+],
+"web": ""
+},
+{
+"osm": "w1393812589",
+"n": "Amphora Resort",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.74795,
+32.42365
+],
+"web": "https://theamphoraresort.com/"
+},
+{
+"osm": "w581372492",
+"n": "Amphora Hotel and Suites",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.74845,
+32.42455
+],
+"web": ""
+},
+{
+"osm": "n6046968275",
+"n": "House by the Beach",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.74864,
+33.39771
+],
+"web": ""
+},
+{
+"osm": "n1529186191",
+"n": "Avanti Village",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.74868,
+32.43046
+],
+"web": ""
+},
+{
+"osm": "n11527613908",
+"n": "Shades of Blue Apartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.75087,
+32.42766
+],
+"web": ""
+},
+{
+"osm": "w13711509",
+"n": "Aloe Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.75137,
+32.4232
+],
+"web": ""
+},
+{
+"osm": "n8886982517",
+"n": "Phaedrus Living",
+"en": "Phaedrus Living",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.75281,
+32.42124
+],
+"web": ""
+},
+{
+"osm": "n8080508914",
+"n": "Westpark",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.75281,
+32.42171
+],
+"web": "https://www.booking.com/hotel/cy/limnaria-westpark.html"
+},
+{
+"osm": "n3754987306",
+"n": "Elya Beach Luxury",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.7536,
+33.41642
+],
+"web": "https://elyabeachsuites.com/"
+},
+{
+"osm": "n5562858835",
+"n": "Kato Paphos Apartment",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.75425,
+32.42389
+],
+"web": ""
+},
+{
+"osm": "n5568929021",
+"n": "Diana 50",
+"en": "Diana 50",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.75522,
+32.42078
+],
+"web": ""
+},
+{
+"osm": "n4786746121",
+"n": "Daphne Hotel Pahos",
+"en": "Daphne Hotel Pahos",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.75553,
+32.41325
+],
+"web": ""
+},
+{
+"osm": "n5780016353",
+"n": "Valentinos court",
+"en": "Valentinos court",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.75563,
+32.42014
+],
+"web": ""
+},
+{
+"osm": "n13649945067",
+"n": "M Boutique Hotel Designed for Adults",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.7565,
+32.4145
+],
+"web": "https://m-boutiquehotel.com"
+},
+{
+"osm": "n60209754",
+"n": "Porto Paphos",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.75652,
+32.41278
+],
+"web": ""
+},
+{
+"osm": "n1305719150",
+"n": "Apollonia Holiday Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.75771,
+32.42185
+],
+"web": ""
+},
+{
+"osm": "n14331395206",
+"n": "Luxury Fani House Next to Harbor area with Jacuzzi",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.75792,
+32.41197
+],
+"web": ""
+},
+{
+"osm": "n1606912582",
+"n": "Paradise Gardens II",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.75867,
+32.42474
+],
+"web": ""
+},
+{
+"osm": "n7192436086",
+"n": "Simila Paradise Gardens",
+"en": "Simila Paradise Gardens",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.7587,
+32.42671
+],
+"web": "http://www.Simila-Cyprus.com"
+},
+{
+"osm": "n5448344625",
+"n": "Sirena Cypria",
+"en": "Sirena Cypria",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.75939,
+32.42763
+],
+"web": ""
+},
+{
+"osm": "n13584327745",
+"n": "Aphrodite Gardens",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.75944,
+32.43083
+],
+"web": "https://www.leptosestates.com/project/aphrodite-gardens/"
+},
+{
+"osm": "n8883185417",
+"n": "Arya's Apartments - Margarita Gardens",
+"en": "Arya's Apartments - Margarita Gardens",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.75953,
+32.41898
+],
+"web": ""
+},
+{
+"osm": "n12669752926",
+"n": "Constantia Garden Apartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.75954,
+32.4213
+],
+"web": ""
+},
+{
+"osm": "n7149355485",
+"n": "Marina Complex",
+"en": "Marina Complex",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.75965,
+32.41959
+],
+"web": ""
+},
+{
+"osm": "n5566260521",
+"n": "Marina Complex",
+"en": "Marina Complex",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.76105,
+32.4288
+],
+"web": ""
+},
+{
+"osm": "n5879685587",
+"n": "SEK kato pafos apartments",
+"en": "SEK kato pafos apartments",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.76168,
+32.43323
+],
+"web": ""
+},
+{
+"osm": "n13307667970",
+"n": "Elysia Park Reception",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.76271,
+32.429
+],
+"web": ""
+},
+{
+"osm": "n13793822001",
+"n": "Sander Olive",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.76281,
+32.42122
+],
+"web": ""
+},
+{
+"osm": "w544392871",
+"n": "Elysia Park",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.76323,
+32.42745
+],
+"web": ""
+},
+{
+"osm": "n6689832785",
+"n": "Diana 47",
+"en": "Diana 47",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.76417,
+32.42959
+],
+"web": ""
+},
+{
+"osm": "w1288035528",
+"n": "Roman Park Apartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.76419,
+32.41138
+],
+"web": ""
+},
+{
+"osm": "n6457490856",
+"n": "Farm",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.76533,
+32.99977
+],
+"web": ""
+},
+{
+"osm": "n4793814734",
+"n": "Block A",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.76561,
+32.4117
+],
+"web": ""
+},
+{
+"osm": "n4793814232",
+"n": "Block B",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.76586,
+32.41188
+],
+"web": ""
+},
+{
+"osm": "n7093222485",
+"n": "Avalon Village houses",
+"en": "Avalon Village houses",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.76593,
+33.02642
+],
+"web": ""
+},
+{
+"osm": "n4796872766",
+"n": "Block C",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.76608,
+32.41209
+],
+"web": ""
+},
+{
+"osm": "n5628419621",
+"n": "Hesperides Gardens Apartamenty",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.76619,
+32.42961
+],
+"web": ""
+},
+{
+"osm": "n5750886121",
+"n": "Diep Apt",
+"en": "Diep Apt",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.76657,
+32.41092
+],
+"web": ""
+},
+{
+"osm": "n13426814730",
+"n": "Valentino's House",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.76702,
+32.42092
+],
+"web": ""
+},
+{
+"osm": "w539868781",
+"n": "Valentino’s apartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.76884,
+32.41949
+],
+"web": ""
+},
+{
+"osm": "w1368389354",
+"n": "Sea Anemone Apartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.769,
+32.41219
+],
+"web": ""
+},
+{
+"osm": "w291656002",
+"n": "Kefalos Beach Village",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.76952,
+32.40619
+],
+"web": ""
+},
+{
+"osm": "n60457889",
+"n": "Pafiana",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.76958,
+32.45361
+],
+"web": ""
+},
+{
+"osm": "n11250760637",
+"n": "Valentina Appartments",
+"en": "Valentina Appartments",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.77171,
+32.41362
+],
+"web": ""
+},
+{
+"osm": "n5958993400",
+"n": "The Library Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.77172,
+33.29578
+],
+"web": "http://www.libraryhotelcyprus.com/"
+},
+{
+"osm": "n1683608836",
+"n": "Charalambos",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.77297,
+33.29546
+],
+"web": "https://www.charalambosholidaycottage.com/"
+},
+{
+"osm": "w191270936",
+"n": "Robinson Cyprus",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.77486,
+33.46145
+],
+"web": "https://www.robinson.com/en/en/resort-holiday/cyprus/"
+},
+{
+"osm": "w1090246182",
+"n": "Royal Stay",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.77506,
+32.42114
+],
+"web": ""
+},
+{
+"osm": "n9610896657",
+"n": "Artists Lodge",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.77543,
+32.41938
+],
+"web": ""
+},
+{
+"osm": "n9606247112",
+"n": "Rooms",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.77654,
+32.42058
+],
+"web": ""
+},
+{
+"osm": "n11764412052",
+"n": "Kings Holiday Appartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.77686,
+32.40963
+],
+"web": ""
+},
+{
+"osm": "n13060990801",
+"n": "Panklitos Apartments",
+"en": "Panklitos Apartments",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.77783,
+32.41251
+],
+"web": "https://panklitos.com/"
+},
+{
+"osm": "n6565479285",
+"n": "Alona Sunset",
+"en": "Alona Sunset",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.78479,
+32.40679
+],
+"web": ""
+},
+{
+"osm": "w1298066139",
+"n": "Livia's Apartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.7867,
+32.41354
+],
+"web": ""
+},
+{
+"osm": "n11553442369",
+"n": "Sanders Seaview",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.78798,
+32.40913
+],
+"web": ""
+},
+{
+"osm": "n11518686669",
+"n": "Sanders Seaview",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.78803,
+32.40927
+],
+"web": ""
+},
+{
+"osm": "n1317539116",
+"n": "Akti Beach Village",
+"en": "",
+"t": "hotel",
+"stars": "4",
+"ll": [
+34.79056,
+32.39783
+],
+"web": "https://www.aktivillage.com.cy/"
+},
+{
+"osm": "n6855480785",
+"n": "Acropaphos",
+"en": "Acropaphos",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.7906,
+32.40808
+],
+"web": ""
+},
+{
+"osm": "n7830066285",
+"n": "Μελανία Κέντρο Δ - μπλοκ 2.",
+"en": "Melania Centre D - Block 2.",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.79107,
+32.40851
+],
+"web": ""
+},
+{
+"osm": "n10840945006",
+"n": "acasa cipru",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.79151,
+32.40752
+],
+"web": ""
+},
+{
+"osm": "n9122892917",
+"n": "A&A",
+"en": "A&A",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.79359,
+33.27236
+],
+"web": ""
+},
+{
+"osm": "n9988635717",
+"n": "Pari Holiday Studio Apartments Hotel",
+"en": "Pari Holiday Studio Apartments Hotel",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.79738,
+32.41153
+],
+"web": "https://www.booking.com/hotel/cy/pari-holiday-apartments-2.html"
+},
+{
+"osm": "n4005822794",
+"n": "New Day Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.79771,
+32.45325
+],
+"web": ""
+},
+{
+"osm": "n3224566872",
+"n": "Andris Heights",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.79856,
+32.47863
+],
+"web": "https://www.tripadvisor.com/Hotel_Review-g2091907-d3411210-Reviews-Andris_Heights-Mesa_Chorio_Paphos_District.html"
+},
+{
+"osm": "n4905893822",
+"n": "Hilltop View",
+"en": "Hilltop View",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.80173,
+33.4932
+],
+"web": ""
+},
+{
+"osm": "w834572218",
+"n": "Eleni Holiday Village Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.80186,
+32.39472
+],
+"web": ""
+},
+{
+"osm": "w545278594",
+"n": "St. George Gardens",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.80291,
+32.39488
+],
+"web": ""
+},
+{
+"osm": "n7181036231",
+"n": "Ellis Island Breeze",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.80352,
+32.40306
+],
+"web": ""
+},
+{
+"osm": "w17475942",
+"n": "St. George",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.8038,
+32.39542
+],
+"web": ""
+},
+{
+"osm": "n4991167188",
+"n": "Anastasia Holiday Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.80719,
+32.39729
+],
+"web": ""
+},
+{
+"osm": "n13789871977",
+"n": "Oinoessa",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.81519,
+32.8738
+],
+"web": ""
+},
+{
+"osm": "n13774932676",
+"n": "Oinoessa",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.81519,
+32.87383
+],
+"web": ""
+},
+{
+"osm": "n13774932673",
+"n": "Oinoessa",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.81519,
+32.87419
+],
+"web": ""
+},
+{
+"osm": "n10738978454",
+"n": "Xenios Cottages",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.81651,
+32.87592
+],
+"web": ""
+},
+{
+"osm": "n10738989427",
+"n": "Apokryfo Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.81687,
+32.87667
+],
+"web": ""
+},
+{
+"osm": "n2493655953",
+"n": "Club St. George Resort 5*",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.81731,
+32.4332
+],
+"web": ""
+},
+{
+"osm": "w241766494",
+"n": "Club St. George Resort 5*",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.81746,
+32.43257
+],
+"web": ""
+},
+{
+"osm": "n5421172321",
+"n": "mentzis",
+"en": "mentzis",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.81927,
+33.59813
+],
+"web": ""
+},
+{
+"osm": "w639740391",
+"n": "Skarinou Traditional Houses",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.82206,
+33.35692
+],
+"web": ""
+},
+{
+"osm": "n11525106169",
+"n": "Possidon block",
+"en": "Possidon block",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.82379,
+33.58615
+],
+"web": ""
+},
+{
+"osm": "n5954794685",
+"n": "The Olympians Apartments",
+"en": "The Olympians Apartments",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.82384,
+33.5864
+],
+"web": ""
+},
+{
+"osm": "n11525100869",
+"n": "Artemis block",
+"en": "Artemis block",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.82442,
+33.58643
+],
+"web": ""
+},
+{
+"osm": "w363425697",
+"n": "Cynthiana",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.82447,
+32.38863
+],
+"web": ""
+},
+{
+"osm": "n11787308869",
+"n": "Andre Marie Studios",
+"en": "Andre Marie Studios",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.8317,
+32.79172
+],
+"web": ""
+},
+{
+"osm": "n6282556685",
+"n": "Patsalos Beach Club",
+"en": "Patsalos Beach Club",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.83993,
+33.60877
+],
+"web": ""
+},
+{
+"osm": "n8441018419",
+"n": "Reel Paradise Villa",
+"en": "Reel Paradise Villa",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.84005,
+33.60002
+],
+"web": ""
+},
+{
+"osm": "n4302038291",
+"n": "Relax Apartment",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.84774,
+33.54803
+],
+"web": ""
+},
+{
+"osm": "n13763026449",
+"n": "The Mansion",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.84809,
+32.80893
+],
+"web": ""
+},
+{
+"osm": "n4302044591",
+"n": "Helen of Troy gardens",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.84919,
+33.55336
+],
+"web": ""
+},
+{
+"osm": "n1989682909",
+"n": "Kapetanios Aqua Resort (ex Aqua Sol Holiday Village)",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.84933,
+32.38098
+],
+"web": "https://www.kapetaniosgroup.com"
+},
+{
+"osm": "w146233662",
+"n": "Elysian Spa",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.85009,
+33.55144
+],
+"web": ""
+},
+{
+"osm": "n1989612213",
+"n": "Ascos Coral Beach Hotel",
+"en": "",
+"t": "hotel",
+"stars": "4",
+"ll": [
+34.85032,
+32.37929
+],
+"web": ""
+},
+{
+"osm": "n10944069428",
+"n": "Palatakia Village Houses",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.85091,
+33.30535
+],
+"web": ""
+},
+{
+"osm": "w396463583",
+"n": "Crown Resorts Horizon",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.85463,
+32.37501
+],
+"web": ""
+},
+{
+"osm": "w351184127",
+"n": "Melis Derelict",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.85557,
+32.38288
+],
+"web": ""
+},
+{
+"osm": "w351934707",
+"n": "Petsas Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.85654,
+32.37722
+],
+"web": ""
+},
+{
+"osm": "n5343736622",
+"n": "Majestic Garden 3 Filip",
+"en": "Majestic Garden 3 Filip",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.85804,
+33.55313
+],
+"web": ""
+},
+{
+"osm": "n6178310085",
+"n": "Coral Bay 12",
+"en": "Coral Bay 12",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.8599,
+32.36182
+],
+"web": ""
+},
+{
+"osm": "w318697297",
+"n": "Panetri Coral Bay Resort",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.86048,
+32.35451
+],
+"web": ""
+},
+{
+"osm": "n6978352485",
+"n": "Villa Tatiana",
+"en": "Villa Tatiana",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.86103,
+32.35468
+],
+"web": ""
+},
+{
+"osm": "n5491847921",
+"n": "Villa Anthia",
+"en": "Villa Anthia",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.86176,
+32.35946
+],
+"web": ""
+},
+{
+"osm": "n14331402381",
+"n": "Guesthouse Apartment 05",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.86647,
+33.3065
+],
+"web": "https://lefkara.travel"
+},
+{
+"osm": "n6178305386",
+"n": "Vrysi Village 6",
+"en": "Vrysi Village 6",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.87031,
+32.3803
+],
+"web": ""
+},
+{
+"osm": "n6457492079",
+"n": "Moonacre",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.87161,
+33.47757
+],
+"web": ""
+},
+{
+"osm": "n5931931186",
+"n": "Windmills apartment",
+"en": "Windmills apartment",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.87177,
+33.50433
+],
+"web": ""
+},
+{
+"osm": "n6178305387",
+"n": "Kastalia Park",
+"en": "Kastalia Park",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.872,
+32.37108
+],
+"web": ""
+},
+{
+"osm": "n13686488168",
+"n": "Pineview Boutique Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.87321,
+32.91902
+],
+"web": ""
+},
+{
+"osm": "n4318717294",
+"n": "Racherou 33",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.87548,
+32.37317
+],
+"web": ""
+},
+{
+"osm": "n5813207253",
+"n": "Piece of Wonderland in Peyia",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.8762,
+32.38005
+],
+"web": ""
+},
+{
+"osm": "n6178305390",
+"n": "Peyia Sunset",
+"en": "Peyia Sunset",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.87867,
+32.3811
+],
+"web": ""
+},
+{
+"osm": "n9668422091",
+"n": "Peyia Sunset",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.88147,
+32.37767
+],
+"web": ""
+},
+{
+"osm": "w1031417768",
+"n": "Ne Ta Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.88329,
+32.3824
+],
+"web": ""
+},
+{
+"osm": "w628634138",
+"n": "Stone Wood Cottages",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.88654,
+32.8401
+],
+"web": ""
+},
+{
+"osm": "n6624752985",
+"n": "Apartment for Rent Peyia",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.88683,
+32.38784
+],
+"web": ""
+},
+{
+"osm": "n4676270358",
+"n": "Edelweiss",
+"en": "Edelweiss",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.88871,
+32.86141
+],
+"web": ""
+},
+{
+"osm": "n13128952008",
+"n": "Minerva",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.88897,
+32.86111
+],
+"web": ""
+},
+{
+"osm": "n10265297209",
+"n": "POED Residences",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.89158,
+32.85626
+],
+"web": ""
+},
+{
+"osm": "n11928041824",
+"n": "Zorbas Sea View",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.89274,
+33.6379
+],
+"web": ""
+},
+{
+"osm": "w392938277",
+"n": "Dinglis",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.89294,
+33.63835
+],
+"web": ""
+},
+{
+"osm": "w404142266",
+"n": "Cap St.George Beach Club Rosort",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.89327,
+32.32515
+],
+"web": ""
+},
+{
+"osm": "w392938270",
+"n": "LIV MACKENZIE BEACH SUITES",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.89344,
+33.63829
+],
+"web": ""
+},
+{
+"osm": "w993248076",
+"n": "ΑΝΑΠΑΥΤΗΡΙΑ ΠΕΟ",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.89925,
+32.97478
+],
+"web": ""
+},
+{
+"osm": "n7029911285",
+"n": "Pakore Apts No 6",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.8997,
+33.63446
+],
+"web": ""
+},
+{
+"osm": "n7029894786",
+"n": "Flat41",
+"en": "Flat41",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.90025,
+33.63436
+],
+"web": ""
+},
+{
+"osm": "n7107606786",
+"n": "Home N.A.",
+"en": "Home N.A.",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.90034,
+33.63434
+],
+"web": ""
+},
+{
+"osm": "n6986594986",
+"n": "Relaxing holiday apartment",
+"en": "Relaxing holiday apartment",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.90085,
+33.63401
+],
+"web": ""
+},
+{
+"osm": "n6388586485",
+"n": "Liv the city",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.90887,
+33.63324
+],
+"web": ""
+},
+{
+"osm": "n1271403959",
+"n": "Ambelikos",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.90917,
+32.99109
+],
+"web": ""
+},
+{
+"osm": "n6469259640",
+"n": "Swallows Nest",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.90965,
+33.62941
+],
+"web": ""
+},
+{
+"osm": "n6469258279",
+"n": "Sparrows Nest",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.9097,
+33.6294
+],
+"web": ""
+},
+{
+"osm": "n5538315122",
+"n": "Traditional Papasavvas house",
+"en": "Traditional Papasavvas house",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.91012,
+32.42555
+],
+"web": ""
+},
+{
+"osm": "n6457491297",
+"n": "TUS Airways",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.91019,
+33.62939
+],
+"web": ""
+},
+{
+"osm": "n4340315489",
+"n": "paradisos Hill hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.91098,
+33.62322
+],
+"web": ""
+},
+{
+"osm": "n4128068789",
+"n": "Alkisti City Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.91125,
+33.63564
+],
+"web": ""
+},
+{
+"osm": "n12743880335",
+"n": "Hotel Indigo Larnaca by IHG",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.91142,
+33.63271
+],
+"web": ""
+},
+{
+"osm": "n13107849848",
+"n": "St. Lazaros Studios 2",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.91157,
+33.63372
+],
+"web": ""
+},
+{
+"osm": "n6457490853",
+"n": "Kurdish syrian family",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.91288,
+33.60592
+],
+"web": ""
+},
+{
+"osm": "n12691258378",
+"n": "Roseum Boutique Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.91347,
+33.63426
+],
+"web": ""
+},
+{
+"osm": "w535273281",
+"n": "Achilleus City Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.91374,
+33.63697
+],
+"web": ""
+},
+{
+"osm": "w535273279",
+"n": "Josephine Boutique Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.91384,
+33.63652
+],
+"web": ""
+},
+{
+"osm": "n5189407097",
+"n": "Angela's",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.91444,
+33.63031
+],
+"web": ""
+},
+{
+"osm": "n4827654434",
+"n": "Leonardo boutiques hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.91449,
+33.63387
+],
+"web": "https://www.leonardo-hotels.com/larnaca/leonardo-boutique-hotel-larnaca"
+},
+{
+"osm": "n4895208788",
+"n": "Blazer Residence",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.91549,
+33.63551
+],
+"web": "https://blazerresidence.com/"
+},
+{
+"osm": "w641985627",
+"n": "Mercure Larnaca City",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.91561,
+33.63518
+],
+"web": ""
+},
+{
+"osm": "n5961755929",
+"n": "P. Ioannou Flats",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.91606,
+33.63488
+],
+"web": ""
+},
+{
+"osm": "n9229621017",
+"n": "Jimmy's Suites Larnaca",
+"en": "Jimmy's Suites Larnaca",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.9163,
+33.63346
+],
+"web": "https://jimmyssuiteslarnaca.com"
+},
+{
+"osm": "n5187231004",
+"n": "Patsalos Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.91659,
+33.63323
+],
+"web": ""
+},
+{
+"osm": "n8907997765",
+"n": "Petalmo City Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.91678,
+33.63488
+],
+"web": ""
+},
+{
+"osm": "n6874094885",
+"n": "Mariandry Boutique Apartments",
+"en": "Mariandry Boutique Apartments",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.91707,
+33.6316
+],
+"web": "http://www.mariandrycy.com"
+},
+{
+"osm": "w199507860",
+"n": "The Rise Boutique Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.91817,
+33.63354
+],
+"web": ""
+},
+{
+"osm": "n5591879126",
+"n": "City familly home",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.91969,
+33.62446
+],
+"web": ""
+},
+{
+"osm": "n3124495929",
+"n": "Saint Elena Boutique Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.92027,
+33.62834
+],
+"web": ""
+},
+{
+"osm": "n2029568015",
+"n": "Mesogios House Suites",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.92061,
+33.63534
+],
+"web": ""
+},
+{
+"osm": "n6046238147",
+"n": "Artemis Apartment",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.9218,
+33.3895
+],
+"web": "https://abnb.me/tExQsGq0FR"
+},
+{
+"osm": "n4314940991",
+"n": "Michaella Court",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.92216,
+33.62217
+],
+"web": ""
+},
+{
+"osm": "n13705758601",
+"n": "",
+"en": "Lasa Valley Villa",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.92357,
+32.52198
+],
+"web": ""
+},
+{
+"osm": "n6457492075",
+"n": "Syrian Family",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.92451,
+33.61484
+],
+"web": ""
+},
+{
+"osm": "w107181318",
+"n": "Jubilee Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.92536,
+32.87718
+],
+"web": ""
+},
+{
+"osm": "w538072115",
+"n": "Patricia Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.93113,
+33.63667
+],
+"web": ""
+},
+{
+"osm": "n771233254",
+"n": "Secret Forest",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.9351,
+32.46526
+],
+"web": "https://secretfo.rest/en/"
+},
+{
+"osm": "n4344405928",
+"n": "Valencia Grove Villa",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.93899,
+32.46222
+],
+"web": "https://www.booking.com/hotel/cy/valencia-grove-villa.html"
+},
+{
+"osm": "n6457492076",
+"n": "Iranian Christian family",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.94738,
+33.62267
+],
+"web": ""
+},
+{
+"osm": "n5956500993",
+"n": "Livadia",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.94936,
+32.95396
+],
+"web": "http://www.livadiahotelcyprus.com/"
+},
+{
+"osm": "n6036535172",
+"n": "Studios For Rent",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.95576,
+32.42149
+],
+"web": ""
+},
+{
+"osm": "n1484797747",
+"n": "Pine Wood",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.95871,
+32.83831
+],
+"web": ""
+},
+{
+"osm": "n2959275599",
+"n": "Central Hotel Pedoulas",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.96219,
+32.83073
+],
+"web": ""
+},
+{
+"osm": "n3215974746",
+"n": "Palates Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.9623,
+32.39598
+],
+"web": "http://www.droushiahotelpalates.com"
+},
+{
+"osm": "w1036069215",
+"n": "Drousia Holiday Apartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.96314,
+32.39964
+],
+"web": ""
+},
+{
+"osm": "w1280592006",
+"n": "Sveltos",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.96332,
+33.65657
+],
+"web": ""
+},
+{
+"osm": "w1036071214",
+"n": "",
+"en": "Droushia Heights Hotel",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.96371,
+32.39952
+],
+"web": ""
+},
+{
+"osm": "n6457490854",
+"n": "Stana",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.96566,
+33.5568
+],
+"web": ""
+},
+{
+"osm": "w393971286",
+"n": "Klashiana Hotel Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.96693,
+33.66555
+],
+"web": ""
+},
+{
+"osm": "w251700958",
+"n": "Mountain Rose",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.9673,
+32.82727
+],
+"web": ""
+},
+{
+"osm": "n2715179020",
+"n": "Philippou Beach Holiday Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.96778,
+33.66854
+],
+"web": ""
+},
+{
+"osm": "n5939364549",
+"n": "Color Cyprus Amozoniu Apartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.96796,
+33.66429
+],
+"web": "https://colorcyprus.com"
+},
+{
+"osm": "n2526209090",
+"n": "Lucky Hotel Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.96809,
+33.66531
+],
+"web": ""
+},
+{
+"osm": "n2715177044",
+"n": "Philippou Beach Holiday Villas",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.96828,
+33.66846
+],
+"web": ""
+},
+{
+"osm": "n4697385149",
+"n": "Color Cyprus Dhekelia Apartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.96856,
+33.66719
+],
+"web": "https://colorcyprus.com/"
+},
+{
+"osm": "w1215373910",
+"n": "Mercure",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.96923,
+33.67146
+],
+"web": ""
+},
+{
+"osm": "w1062663532",
+"n": "Mercure",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.96937,
+33.67131
+],
+"web": ""
+},
+{
+"osm": "n7110760032",
+"n": "EvaChrist 2",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.97114,
+33.66871
+],
+"web": ""
+},
+{
+"osm": "w52583145",
+"n": "Antoniou Apts",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.97161,
+33.67142
+],
+"web": ""
+},
+{
+"osm": "w1111119933",
+"n": "Regatta",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.97163,
+33.67657
+],
+"web": ""
+},
+{
+"osm": "n12545770952",
+"n": "Chrysanthis",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.97194,
+32.91918
+],
+"web": "https://chrysanthissuites.com/"
+},
+{
+"osm": "n4431479390",
+"n": "Apartment Antoniou's",
+"en": "Apartment Antoniou's",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.97202,
+33.67008
+],
+"web": ""
+},
+{
+"osm": "n10919546405",
+"n": "Ionion 10",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.97203,
+33.90269
+],
+"web": ""
+},
+{
+"osm": "n5760887321",
+"n": "villas2let",
+"en": "villas2let",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.97388,
+33.90289
+],
+"web": ""
+},
+{
+"osm": "n2094180275",
+"n": "Vergi",
+"en": "",
+"t": "hotel",
+"stars": "2",
+"ll": [
+34.97461,
+33.67636
+],
+"web": "https://www.vergihotel.com/"
+},
+{
+"osm": "w199520722",
+"n": "Stavros Hotel Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.97591,
+33.68057
+],
+"web": ""
+},
+{
+"osm": "n4383890394",
+"n": "Sunrise 7",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.97664,
+33.91837
+],
+"web": ""
+},
+{
+"osm": "n2095053917",
+"n": "Paschalis Hotel Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.97827,
+33.68864
+],
+"web": "http://paschalis.com/"
+},
+{
+"osm": "n2095053910",
+"n": "Golden Day Original Hotel Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.9783,
+33.68884
+],
+"web": ""
+},
+{
+"osm": "w199520716",
+"n": "Lysithea Hotel Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.9799,
+33.69896
+],
+"web": ""
+},
+{
+"osm": "n4347567241",
+"n": "Kiki villa 2016",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.97992,
+33.69222
+],
+"web": ""
+},
+{
+"osm": "n5667297622",
+"n": "Villa Poppeli",
+"en": "Villa Poppeli",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.98021,
+33.92406
+],
+"web": ""
+},
+{
+"osm": "n6745975685",
+"n": "Holiday beach",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.98032,
+33.92936
+],
+"web": ""
+},
+{
+"osm": "n4138974389",
+"n": "Pierre ann",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.9838,
+33.99674
+],
+"web": ""
+},
+{
+"osm": "n3741607302",
+"n": "Theophan",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.98454,
+34.00646
+],
+"web": ""
+},
+{
+"osm": "w81179328",
+"n": "Grecian Park",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.98536,
+34.06811
+],
+"web": "https://grecianpark.com/"
+},
+{
+"osm": "w227521769",
+"n": "Bella Napa Bay",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.98598,
+34.01417
+],
+"web": ""
+},
+{
+"osm": "w95806266",
+"n": "Panthea Holiday Village",
+"en": "",
+"t": "hotel",
+"stars": "4",
+"ll": [
+34.98637,
+33.99551
+],
+"web": ""
+},
+{
+"osm": "n827290258",
+"n": "Panas Holiday Village",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.98661,
+33.98702
+],
+"web": ""
+},
+{
+"osm": "w1034382609",
+"n": "SOHO Hotel Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.98679,
+34.01528
+],
+"web": ""
+},
+{
+"osm": "n1271407169",
+"n": "Linos Inn",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.9869,
+32.90197
+],
+"web": ""
+},
+{
+"osm": "n13056650874",
+"n": "CHRISTOPHER'S SANDY BEACH SUITES",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.98728,
+33.97786
+],
+"web": ""
+},
+{
+"osm": "n4377441992",
+"n": "Hotel Margadina Anex",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.98731,
+34.006
+],
+"web": ""
+},
+{
+"osm": "n6638718385",
+"n": "Mediterranean Sea View Apartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.98732,
+33.65522
+],
+"web": ""
+},
+{
+"osm": "n5893384385",
+"n": "Simila Cyprus Edmund Holiday Villa",
+"en": "Simila Cyprus Edmund Holiday Villa",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.98734,
+34.06138
+],
+"web": "http://www.Simila-Cyprus.com"
+},
+{
+"osm": "w200182815",
+"n": "Vias Hotel Apartments",
+"en": "",
+"t": "hotel",
+"stars": "2",
+"ll": [
+34.98756,
+34.00134
+],
+"web": "http://www.viashotel.com/"
+},
+{
+"osm": "n5627904324",
+"n": "Ametyst hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.98781,
+33.95265
+],
+"web": ""
+},
+{
+"osm": "w131992815",
+"n": "A. Tsokkos Hotels",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.98788,
+33.99606
+],
+"web": ""
+},
+{
+"osm": "n14377745301",
+"n": "Irene's",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.98794,
+32.90175
+],
+"web": ""
+},
+{
+"osm": "n11822218421",
+"n": "Margarita Napa Apartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.98814,
+33.99377
+],
+"web": ""
+},
+{
+"osm": "n5735528721",
+"n": "Vivian's Lovely villa",
+"en": "Vivian's Lovely villa",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.98835,
+33.65402
+],
+"web": ""
+},
+{
+"osm": "n4714002690",
+"n": "Adams Beach Hotel",
+"en": "Adams Beach Hotel",
+"t": "hotel",
+"stars": "5",
+"ll": [
+34.98838,
+33.96661
+],
+"web": "https://www.adams.com.cy/"
+},
+{
+"osm": "w82757382",
+"n": "Tasia Maris Beach Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.98852,
+33.98063
+],
+"web": "http://www.tasiamarishotels.com/"
+},
+{
+"osm": "w772160291",
+"n": "Napa blue apartment",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.98856,
+33.99261
+],
+"web": ""
+},
+{
+"osm": "w200182812",
+"n": "Marenapa Apartments",
+"en": "",
+"t": "hotel",
+"stars": "2",
+"ll": [
+34.98863,
+34.00317
+],
+"web": ""
+},
+{
+"osm": "n963479633",
+"n": "So Nice Boutique Suites",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.98866,
+33.95748
+],
+"web": "http://www.sonice.com.cy/"
+},
+{
+"osm": "w279359771",
+"n": "Cleopatra Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.98885,
+33.99384
+],
+"web": ""
+},
+{
+"osm": "n9778409617",
+"n": "Sunny pool apartment",
+"en": "Sunny pool apartment",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.98904,
+33.65432
+],
+"web": ""
+},
+{
+"osm": "n6251220185",
+"n": "17 Freminore Apartments",
+"en": "17 Freminore Apartments",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.98916,
+33.99111
+],
+"web": ""
+},
+{
+"osm": "n6311316991",
+"n": "17 Freminore Apt",
+"en": "17 Freminore Apt",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.98919,
+33.99104
+],
+"web": ""
+},
+{
+"osm": "n9088696267",
+"n": "Maria Zintili appartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.98923,
+33.99639
+],
+"web": ""
+},
+{
+"osm": "n9787352879",
+"n": "Protaras Holiday Villa (Imagine Villa Rentals)",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.98933,
+33.98212
+],
+"web": ""
+},
+{
+"osm": "n2095645408",
+"n": "Lourentzos Apartments",
+"en": "",
+"t": "hotel",
+"stars": "2",
+"ll": [
+34.98935,
+33.96648
+],
+"web": ""
+},
+{
+"osm": "w132435560",
+"n": "Elenapa Holiday Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.98954,
+34.00058
+],
+"web": ""
+},
+{
+"osm": "n9969458817",
+"n": "Kleio Apartments Hotel",
+"en": "Kleio Apartments Hotel",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.98954,
+34.0035
+],
+"web": "https://www.booking.com/hotel/cy/kleio-apartments-agia-napa.html"
+},
+{
+"osm": "w132063414",
+"n": "Pirates Inn",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.98957,
+33.99749
+],
+"web": ""
+},
+{
+"osm": "n4754396821",
+"n": "Aeneas",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.9897,
+33.96833
+],
+"web": ""
+},
+{
+"osm": "n8809148318",
+"n": "Simos magic app",
+"en": "Simos magic app",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.98986,
+33.99446
+],
+"web": ""
+},
+{
+"osm": "w608082546",
+"n": "River View Boutique Apts",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.99014,
+34.0026
+],
+"web": ""
+},
+{
+"osm": "w82757362",
+"n": "Atlantica hotels",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.99018,
+33.96887
+],
+"web": ""
+},
+{
+"osm": "n4374639489",
+"n": "Tsokkos Maria Hotel Apts",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.99037,
+34.00237
+],
+"web": "https://www.tsokkos.com/"
+},
+{
+"osm": "n9676400251",
+"n": "La Casa Di Napa",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.99041,
+33.98979
+],
+"web": "https://lacasadinapa.com/"
+},
+{
+"osm": "n2095645429",
+"n": "Salmary Hotel Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.99086,
+33.99212
+],
+"web": ""
+},
+{
+"osm": "n4915061322",
+"n": "Atlantica Stavrolia Gardens 3*",
+"en": "Atlantica Stavrolia Gardens 3*",
+"t": "hotel",
+"stars": "3",
+"ll": [
+34.99117,
+33.96571
+],
+"web": ""
+},
+{
+"osm": "n9196359618",
+"n": "Cosmo Napa Hotel",
+"en": "Cosmo Napa Hotel",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.9915,
+33.99557
+],
+"web": ""
+},
+{
+"osm": "n5176063221",
+"n": "Nissi 3, Block E",
+"en": "Nissi 3, Block E",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.99155,
+33.97512
+],
+"web": ""
+},
+{
+"osm": "n4271739493",
+"n": "Ocean Bay",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.99195,
+33.69143
+],
+"web": ""
+},
+{
+"osm": "n5080876611",
+"n": "Cristabelle",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.99266,
+33.9973
+],
+"web": ""
+},
+{
+"osm": "n5834614185",
+"n": "Jackie house",
+"en": "Jackie house",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.99272,
+33.98536
+],
+"web": ""
+},
+{
+"osm": "n5864770587",
+"n": "Simila Cyprus Villas Nissi & Nesea",
+"en": "Simila Cyprus Villas Nissi & Nesea",
+"t": "apartment",
+"stars": "",
+"ll": [
+34.99281,
+33.98147
+],
+"web": ""
+},
+{
+"osm": "n5010858922",
+"n": "Sunny Blue",
+"en": "Sunny Blue",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.99302,
+33.9976
+],
+"web": ""
+},
+{
+"osm": "n3209243697",
+"n": "Casale Panayiotis",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.99326,
+32.82935
+],
+"web": ""
+},
+{
+"osm": "w82757367",
+"n": "Hotel Napa Suites",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.99388,
+34.00048
+],
+"web": "https://napasuites.com"
+},
+{
+"osm": "w199710191",
+"n": "Paramount",
+"en": "",
+"t": "hotel",
+"stars": "3",
+"ll": [
+34.99422,
+34.06785
+],
+"web": ""
+},
+{
+"osm": "w82244486",
+"n": "Narcissos Hotel Apts",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.9956,
+34.06359
+],
+"web": ""
+},
+{
+"osm": "n4353774589",
+"n": "Kecropas",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+34.99568,
+34.06901
+],
+"web": ""
+},
+{
+"osm": "n957644096",
+"n": "Orestis Hotel Apts",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.00149,
+34.06144
+],
+"web": ""
+},
+{
+"osm": "w713963875",
+"n": "Treetops Hotel",
+"en": "",
+"t": "hotel",
+"stars": "2",
+"ll": [
+35.00418,
+32.80218
+],
+"web": ""
+},
+{
+"osm": "w81582625",
+"n": "Starlight Luxury Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.01108,
+34.05413
+],
+"web": ""
+},
+{
+"osm": "n12184758221",
+"n": "Protaras Plaza",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.01147,
+34.05702
+],
+"web": ""
+},
+{
+"osm": "n950786478",
+"n": "Tsolias",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.01185,
+34.05195
+],
+"web": ""
+},
+{
+"osm": "n950786341",
+"n": "Chrystal Blue Suites",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.0129,
+34.05067
+],
+"web": "https://www.chrystal.blue/"
+},
+{
+"osm": "w81582647",
+"n": "Ketsios Hotel Apts",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.01361,
+34.04958
+],
+"web": ""
+},
+{
+"osm": "n10020261255",
+"n": "Seafront Apartment 4",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.01386,
+34.05458
+],
+"web": ""
+},
+{
+"osm": "n10020261254",
+"n": "Seafront Apartment 3",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.01391,
+34.05452
+],
+"web": ""
+},
+{
+"osm": "n10020261253",
+"n": "Seafront Apartment 2",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.01396,
+34.05445
+],
+"web": ""
+},
+{
+"osm": "n10020261252",
+"n": "Seafront Apartment 1",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.01401,
+34.05439
+],
+"web": ""
+},
+{
+"osm": "n763146833",
+"n": "Marelia",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.01629,
+34.03833
+],
+"web": ""
+},
+{
+"osm": "n12179990982",
+"n": "Fig Tree Giannis Appartments:",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.01746,
+34.04895
+],
+"web": ""
+},
+{
+"osm": "w1152599741",
+"n": "Anapolis Hotel Apts",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.0195,
+34.04241
+],
+"web": "https://cyprus.com/listing/anapolis-hotel-apartments/"
+},
+{
+"osm": "n12188122666",
+"n": "Flisvos Beach Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.02005,
+34.04894
+],
+"web": "https://flisvosbeach.com/"
+},
+{
+"osm": "n13160542590",
+"n": "Blue Crystal Sun & Sea Seaview Apt",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.02123,
+34.04813
+],
+"web": ""
+},
+{
+"osm": "n11230639804",
+"n": "Rising Star Beach",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.02173,
+34.04999
+],
+"web": ""
+},
+{
+"osm": "w82681593",
+"n": "Artemis Hotel Apts",
+"en": "",
+"t": "hotel",
+"stars": "3",
+"ll": [
+35.02202,
+34.0411
+],
+"web": "https://artemisapartments.hotelsprotaras.com/en/"
+},
+{
+"osm": "w81524582",
+"n": "Mandalena Hotel Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.0228,
+34.04007
+],
+"web": "https://www.mandalenahotel.com/"
+},
+{
+"osm": "n6661270485",
+"n": "Villa Cycas",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.02298,
+34.03862
+],
+"web": ""
+},
+{
+"osm": "n3461580204",
+"n": "Flouressia Gardens Aparthotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.02468,
+34.04524
+],
+"web": ""
+},
+{
+"osm": "n2903655764",
+"n": "Palm View Apartment",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.02609,
+34.03772
+],
+"web": "https://www.cyprusonlineholidays.com/"
+},
+{
+"osm": "n6866148385",
+"n": "Prodromi Hights",
+"en": "Prodromi Hights",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.02702,
+32.41689
+],
+"web": ""
+},
+{
+"osm": "w800771702",
+"n": "Aelia Wellness",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.02729,
+33.30579
+],
+"web": ""
+},
+{
+"osm": "n5839004386",
+"n": "Marlita Beach Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.0274,
+34.04511
+],
+"web": ""
+},
+{
+"osm": "w82463335",
+"n": "Polycarpia Hotel",
+"en": "",
+"t": "hotel",
+"stars": "4",
+"ll": [
+35.02771,
+34.04049
+],
+"web": "https://www.tsokkos.com/"
+},
+{
+"osm": "n11861689169",
+"n": "Anastasia Waterpark Beach Resort",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.02802,
+34.04358
+],
+"web": ""
+},
+{
+"osm": "n10731163283",
+"n": "Ksquared",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.02844,
+34.04294
+],
+"web": "https://www.booking.com/hotel/cy/ksquared.en-gb.html"
+},
+{
+"osm": "n6846961885",
+"n": "Villa Mojito",
+"en": "Villa Mojito",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.02864,
+34.0429
+],
+"web": ""
+},
+{
+"osm": "n5935519663",
+"n": "Socrates apartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.02919,
+32.36176
+],
+"web": ""
+},
+{
+"osm": "n393398884",
+"n": "Kozis Hotel Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.02985,
+32.4195
+],
+"web": ""
+},
+{
+"osm": "w82623265",
+"n": "Tetyk Hotel & Suites",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.02988,
+34.04123
+],
+"web": "https://tetykhotel.com-hotel.com/"
+},
+{
+"osm": "n6516284286",
+"n": "Eleonas Garden",
+"en": "Eleonas Garden",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.03084,
+33.94229
+],
+"web": ""
+},
+{
+"osm": "n2903657772",
+"n": "Camelot Holiday Apartment",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.03101,
+34.03567
+],
+"web": "https://www.heartofcyprus.com/en/cyprus/protaras/hotel/camelot.aspx"
+},
+{
+"osm": "n2903659072",
+"n": "Knights Holiday Apartment",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.03107,
+34.03566
+],
+"web": "https://www.heartofcyprus.com/en/cyprus/protaras/hotel/knights.aspx"
+},
+{
+"osm": "n6438697385",
+"n": "Villa Kyros",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.03372,
+34.0317
+],
+"web": "https://www.tripadvisor.com/VacationRentalReview-g667803-d2115754-Kyros-Protaras_Paralimni_Famagusta_District.html"
+},
+{
+"osm": "n393402842",
+"n": "Nicki Holiday Resort",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.03384,
+32.412
+],
+"web": ""
+},
+{
+"osm": "w1149714108",
+"n": "Althea Kalamies Luxury Villas",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.03483,
+34.03868
+],
+"web": "https://louisvillas.com/en/protaras-althea-kalamies-services.html"
+},
+{
+"osm": "w1149714113",
+"n": "Louma Apts",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.03486,
+34.03701
+],
+"web": "https://www.facebook.com/loumapernera/"
+},
+{
+"osm": "w1037349250",
+"n": "Mariela Hotel Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.03494,
+32.42845
+],
+"web": ""
+},
+{
+"osm": "w215782448",
+"n": "Nicos & Olympia Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.0354,
+32.42828
+],
+"web": ""
+},
+{
+"osm": "n2011993244",
+"n": "C & A Tourist Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.03664,
+32.4277
+],
+"web": "https://www.ca-tourist-apts.com.cy/"
+},
+{
+"osm": "n12506397688",
+"n": "Latchi Escape",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.03761,
+32.37507
+],
+"web": ""
+},
+{
+"osm": "n1275510873",
+"n": "Bougainvillea Hotel Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.03766,
+32.42417
+],
+"web": ""
+},
+{
+"osm": "w1158695756",
+"n": "Chris Le Mare Gold Luxury Villa",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.03881,
+34.03329
+],
+"web": "https://louisvillas.com/en/louis-chris-le-mare-gold-services.html"
+},
+{
+"osm": "n6178305389",
+"n": "Arsinoe Beach Village",
+"en": "Arsinoe Beach Village",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.03919,
+32.40941
+],
+"web": ""
+},
+{
+"osm": "n6178305388",
+"n": "Riviera Beach Villas",
+"en": "Riviera Beach Villas",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.0403,
+32.39122
+],
+"web": ""
+},
+{
+"osm": "n11800313869",
+"n": "White House",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.04035,
+32.41547
+],
+"web": ""
+},
+{
+"osm": "n3136378029",
+"n": "Y + P Latchi Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.04102,
+32.3934
+],
+"web": ""
+},
+{
+"osm": "n13793804261",
+"n": "Chris Le Mare Luxury Villa",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.04272,
+34.02514
+],
+"web": "https://louisvillas.com/en/chris-le-mare-services.html"
+},
+{
+"osm": "n5753234021",
+"n": "Protaras Sea View",
+"en": "Protaras Sea View",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.0449,
+34.02982
+],
+"web": ""
+},
+{
+"osm": "n2903691554",
+"n": "Bambos Apartment Spot On Villa Rentals",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.04828,
+33.99596
+],
+"web": "https://www.cyprusonlineholidays.com/"
+},
+{
+"osm": "n1320674604",
+"n": "DeMari Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.04902,
+34.01041
+],
+"web": ""
+},
+{
+"osm": "n1865740133",
+"n": "Apollon Court",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.05007,
+33.99808
+],
+"web": ""
+},
+{
+"osm": "n2903719384",
+"n": "Tiffany Apartment Spot On Villa Rentals",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.05048,
+33.99327
+],
+"web": "https://www.cyprusonlineholidays.com/"
+},
+{
+"osm": "n10737821509",
+"n": "Apartment Docena",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.0512,
+34.00315
+],
+"web": "https://premierholidayrentals.com/listing/apartment-docena-2-bedroom-apartment-with-communal-pool/"
+},
+{
+"osm": "n10737821508",
+"n": "Varvara Gardens Holiday Apartment",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.05139,
+34.00338
+],
+"web": "https://www.facebook.com/varvaragardensholidayapartment/"
+},
+{
+"osm": "n4281838091",
+"n": "Villa Garmar",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.05214,
+34.01652
+],
+"web": ""
+},
+{
+"osm": "n5893336986",
+"n": "Simila Cyprus Sandy Beach Villa",
+"en": "Simila Cyprus Sandy Beach Villa",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.05217,
+32.44945
+],
+"web": "http://www.Simila-Cyprus.com"
+},
+{
+"osm": "n514958286",
+"n": "Captain Karas hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.05386,
+34.00943
+],
+"web": ""
+},
+{
+"osm": "n6295513686",
+"n": "Kapary",
+"en": "Kapary",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.05395,
+33.9965
+],
+"web": ""
+},
+{
+"osm": "n5882249585",
+"n": "ΣΑΚ",
+"en": "SAK",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.05428,
+33.99127
+],
+"web": ""
+},
+{
+"osm": "n2903982489",
+"n": "Althea Apartment Spot On Villa Rentals",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.05434,
+34.00057
+],
+"web": "https://www.cyprusonlineholidays.com/"
+},
+{
+"osm": "n11975770869",
+"n": "",
+"en": "Agastiniotis Macara ciubuc masinarie profile",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.05442,
+33.39915
+],
+"web": ""
+},
+{
+"osm": "n5929096286",
+"n": "Thetis apartments block E",
+"en": "Thetis apartments block E",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.05477,
+33.99867
+],
+"web": ""
+},
+{
+"osm": "n13978609602",
+"n": "Cyprus Sunflower",
+"en": "Cyprus Sunflower",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.05545,
+34.00167
+],
+"web": ""
+},
+{
+"osm": "w635004306",
+"n": "Archontiko Anastasias",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.0629,
+33.54401
+],
+"web": ""
+},
+{
+"osm": "n6178310086",
+"n": "Argaka Village 4",
+"en": "Argaka Village 4",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.06871,
+32.48422
+],
+"web": ""
+},
+{
+"osm": "w396560024",
+"n": "Maraş Orduevi",
+"en": "Golden Plage Hotel",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.10618,
+33.96164
+],
+"web": ""
+},
+{
+"osm": "n2076641117",
+"n": "Astrofegia Apartments",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.11067,
+32.50778
+],
+"web": ""
+},
+{
+"osm": "n12350672857",
+"n": "Allegra GSP Sport Center",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.11342,
+33.36034
+],
+"web": ""
+},
+{
+"osm": "w641322494",
+"n": "Arkin Palm Beach Hotel",
+"en": "Arkin Palm Beach Hotel",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.11974,
+33.95832
+],
+"web": ""
+},
+{
+"osm": "n2085596506",
+"n": "Portofino Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.12136,
+33.94679
+],
+"web": ""
+},
+{
+"osm": "n2085596501",
+"n": "Altun Tabya Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.12192,
+33.94056
+],
+"web": ""
+},
+{
+"osm": "w334156228",
+"n": "The European Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.12425,
+33.92797
+],
+"web": ""
+},
+{
+"osm": "w1346010525",
+"n": "Golden Palms Guest House & Café",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.12446,
+33.94303
+],
+"web": "https://goldenpalmsguest.wixsite.com/house"
+},
+{
+"osm": "n9759122017",
+"n": "loft apartments",
+"en": "loft apartments",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.12678,
+32.82757
+],
+"web": ""
+},
+{
+"osm": "w1349586433",
+"n": "Port View Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.13082,
+33.93079
+],
+"web": "http://www.portviewotel.com/"
+},
+{
+"osm": "n8080855219",
+"n": "Arken 22",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.13251,
+33.91579
+],
+"web": ""
+},
+{
+"osm": "n6942828583",
+"n": "Premium Inn",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.13288,
+33.92427
+],
+"web": "https://www.premiuminnhotel.com/"
+},
+{
+"osm": "n4328124095",
+"n": "Evolve Park",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.13417,
+33.92489
+],
+"web": ""
+},
+{
+"osm": "n8080840320",
+"n": "Halil hoca 3",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.13512,
+33.91767
+],
+"web": ""
+},
+{
+"osm": "n5595409240",
+"n": "Cyprus Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.13521,
+33.92398
+],
+"web": ""
+},
+{
+"osm": "n8080847721",
+"n": "Halil hoca 2",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.13524,
+33.91787
+],
+"web": ""
+},
+{
+"osm": "n8080857219",
+"n": "Polaris",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.13585,
+33.92437
+],
+"web": ""
+},
+{
+"osm": "n8080853417",
+"n": "Gunes",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.13655,
+33.9208
+],
+"web": ""
+},
+{
+"osm": "n8080856823",
+"n": "Ahmeda",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.13753,
+33.91452
+],
+"web": ""
+},
+{
+"osm": "n8080858121",
+"n": "Hurhal",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.13761,
+33.9146
+],
+"web": ""
+},
+{
+"osm": "n8080847726",
+"n": "Mekan apt",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.13779,
+33.91406
+],
+"web": ""
+},
+{
+"osm": "n8080847718",
+"n": "Uxun 14",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.13783,
+33.915
+],
+"web": ""
+},
+{
+"osm": "n8080847725",
+"n": "Hasan Hoca Residence",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.13784,
+33.91377
+],
+"web": ""
+},
+{
+"osm": "n8080856819",
+"n": "Uzun 16",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.13835,
+33.91453
+],
+"web": ""
+},
+{
+"osm": "n5433634222",
+"n": "Kent residency",
+"en": "Kent residency",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.13932,
+33.8825
+],
+"web": ""
+},
+{
+"osm": "n8080856818",
+"n": "Uzun 22",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.13938,
+33.91477
+],
+"web": ""
+},
+{
+"osm": "n11890718669",
+"n": "",
+"en": "vulcanizare PY",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.1424,
+33.3429
+],
+"web": ""
+},
+{
+"osm": "n11949641469",
+"n": "ΛΑΜΠΟΥΣΙΑΝΑ",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.14811,
+33.36463
+],
+"web": ""
+},
+{
+"osm": "n6564590786",
+"n": "Stefanos",
+"en": "Ev",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.14867,
+33.38496
+],
+"web": ""
+},
+{
+"osm": "n3763688866",
+"n": "Necmettin Erbakan Yurt Müdürlüğü",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.14934,
+33.90498
+],
+"web": ""
+},
+{
+"osm": "n14303930376",
+"n": "Savvas Apartment",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.15131,
+33.37233
+],
+"web": ""
+},
+{
+"osm": "n11974885869",
+"n": "",
+"en": "Cyproperties 33-34 MAK3B 33-34",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.15184,
+33.29784
+],
+"web": ""
+},
+{
+"osm": "n6162880687",
+"n": "Costanian",
+"en": "Costanian",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.15212,
+33.37252
+],
+"web": ""
+},
+{
+"osm": "n8080853420",
+"n": "Halken 13",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.15721,
+33.88316
+],
+"web": ""
+},
+{
+"osm": "n13903780904",
+"n": "The :Landmark Nicosia",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.15776,
+33.37195
+],
+"web": "https://thelandmarknicosiatowers.com/"
+},
+{
+"osm": "n11925078769",
+"n": "",
+"en": "Theodoros Ioannides scoala de limbi sraine",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.16195,
+33.31885
+],
+"web": ""
+},
+{
+"osm": "w539709867",
+"n": "Europa Plaza Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.16299,
+33.34654
+],
+"web": ""
+},
+{
+"osm": "n12837459801",
+"n": "Eclectic Apartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.16302,
+33.36947
+],
+"web": "http://eclecticapartments.com"
+},
+{
+"osm": "n5879653193",
+"n": "Tofaridou's buildings",
+"en": "Tofaridou's buildings",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.16494,
+33.38463
+],
+"web": ""
+},
+{
+"osm": "n5948844085",
+"n": "Propileon 25-27",
+"en": "Propileon 25-27",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.16505,
+33.38455
+],
+"web": ""
+},
+{
+"osm": "n10039393799",
+"n": "Lykavitos Apartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.16692,
+33.37938
+],
+"web": ""
+},
+{
+"osm": "n5543105172",
+"n": "Ledras 231 Apartments",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.17048,
+33.36125
+],
+"web": ""
+},
+{
+"osm": "w539868780",
+"n": "Semeli",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.1707,
+33.36672
+],
+"web": ""
+},
+{
+"osm": "n5619324560",
+"n": "Central Square Apartment",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.17075,
+33.3598
+],
+"web": ""
+},
+{
+"osm": "n2959204691",
+"n": "Royiatiko Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.17117,
+33.36043
+],
+"web": ""
+},
+{
+"osm": "w633695989",
+"n": "CITY CENTRE STUDIO APARTMENTS",
+"en": "CITY CENTRE STUDIO APARTMENTS",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.1726,
+33.36177
+],
+"web": "https://www.facebook.com/City-Centre-Studio-Apartments-105953368630039"
+},
+{
+"osm": "n5009551854",
+"n": "Castelli",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.17263,
+33.35767
+],
+"web": ""
+},
+{
+"osm": "n11608107571",
+"n": "Πολυκατοικία Πεδιαίος",
+"en": "Pediaios Court",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.17269,
+33.35028
+],
+"web": ""
+},
+{
+"osm": "n8311070384",
+"n": "Vouni King Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.17271,
+32.74209
+],
+"web": "https://vounikinghotel.com/"
+},
+{
+"osm": "n11342881470",
+"n": "Pediaios Court",
+"en": "Pediaios Court",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.17273,
+33.34974
+],
+"web": ""
+},
+{
+"osm": "n11391072569",
+"n": "Πολυκατοικία Πεδιαίος",
+"en": "Pediaios Court",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.17279,
+33.35029
+],
+"web": ""
+},
+{
+"osm": "n7972544985",
+"n": "Wang's Apartment",
+"en": "Wang's Apartment",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.17297,
+33.32415
+],
+"web": ""
+},
+{
+"osm": "w536961570",
+"n": "Crown Inn",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.1744,
+33.3426
+],
+"web": ""
+},
+{
+"osm": "n13393145224",
+"n": "To Hani",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.17445,
+33.37865
+],
+"web": ""
+},
+{
+"osm": "n10973626363",
+"n": "Djumba Hotel & Cafe",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.17737,
+33.3583
+],
+"web": ""
+},
+{
+"osm": "n2138239234",
+"n": "Averof",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.17738,
+33.34704
+],
+"web": ""
+},
+{
+"osm": "n5595693323",
+"n": "Tasev Guesthouse",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.17738,
+33.35804
+],
+"web": ""
+},
+{
+"osm": "w540284617",
+"n": "Saray Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.17792,
+33.36062
+],
+"web": ""
+},
+{
+"osm": "w539480471",
+"n": "Enkaya HOTEL",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.17797,
+33.36213
+],
+"web": ""
+},
+{
+"osm": "w27194418",
+"n": "Ledra Palace",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.17803,
+33.35483
+],
+"web": ""
+},
+{
+"osm": "w539486079",
+"n": "Hotel Gold Flower",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.17911,
+33.36139
+],
+"web": ""
+},
+{
+"osm": "n14095353901",
+"n": "Nagas Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.1795,
+33.35954
+],
+"web": ""
+},
+{
+"osm": "n4377028691",
+"n": "Aphrodite",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.1807,
+32.90321
+],
+"web": "https://aphrodite.traveleto.com"
+},
+{
+"osm": "n13412944301",
+"n": "Nicosia Eagle Eye Boutique Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.18128,
+33.36311
+],
+"web": "https://cyprioteagleeye.com/"
+},
+{
+"osm": "w972597275",
+"n": "Güzelyurt Belediyesi Oteli",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.1843,
+33.0007
+],
+"web": ""
+},
+{
+"osm": "n9144761113",
+"n": "Twins",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.18746,
+32.6735
+],
+"web": ""
+},
+{
+"osm": "w702369006",
+"n": "Oscar Park Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.18757,
+33.89504
+],
+"web": ""
+},
+{
+"osm": "n4137344989",
+"n": "Royal Hotel & Casino",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.18781,
+33.36575
+],
+"web": ""
+},
+{
+"osm": "n6802865386",
+"n": "omağ dereboyu apt",
+"en": "omağ dereboyu apartment",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.1886,
+33.34813
+],
+"web": ""
+},
+{
+"osm": "n13383318803",
+"n": "",
+"en": "Eser Apartment Deraboyu",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.18919,
+33.35056
+],
+"web": ""
+},
+{
+"osm": "n5363367422",
+"n": "Yapım apt",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.18925,
+33.34761
+],
+"web": ""
+},
+{
+"osm": "n6802886285",
+"n": "yapim 47",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.18957,
+33.34806
+],
+"web": ""
+},
+{
+"osm": "w322115315",
+"n": "Merit Lefkoşa Hotel & Casino",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.19031,
+33.35228
+],
+"web": "https://www.merithotels.com/tr_index_merit_lefkosa.php"
+},
+{
+"osm": "n10739143705",
+"n": "Erbatu Adapark",
+"en": "Erbatu Adapark",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.19109,
+33.88429
+],
+"web": ""
+},
+{
+"osm": "n5287741033",
+"n": "Kasinides",
+"en": "Kasinides",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.19202,
+33.38645
+],
+"web": ""
+},
+{
+"osm": "n13644715002",
+"n": "",
+"en": "Osmanoglu apartment 38",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.19236,
+33.34299
+],
+"web": ""
+},
+{
+"osm": "n13383149001",
+"n": "",
+"en": "Metehan Omağ intense sitesi",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.19249,
+33.32818
+],
+"web": ""
+},
+{
+"osm": "n13673800401",
+"n": "",
+"en": "Cnademir Apartment 3",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.19261,
+33.34934
+],
+"web": ""
+},
+{
+"osm": "w435771314",
+"n": "Venus Hotel",
+"en": "",
+"t": "hotel",
+"stars": "3",
+"ll": [
+35.19283,
+33.90122
+],
+"web": ""
+},
+{
+"osm": "w28972776",
+"n": "Grand Pasha Hotel & Casino",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.19349,
+33.34727
+],
+"web": ""
+},
+{
+"osm": "n14230060541",
+"n": "Güneş Hotel",
+"en": "",
+"t": "hotel",
+"stars": "",
+"ll": [
+35.19507,
+33.34592
+],
+"web": ""
+},
+{
+"osm": "n13383314301",
+"n": "",
+"en": "OSMANOĞLU Apartments 33",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.19766,
+33.32376
+],
+"web": ""
+},
+{
+"osm": "w1365007375",
+"n": "Miracle Apartmanı 2",
+"en": "",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.19916,
+33.33084
+],
+"web": ""
+},
+{
+"osm": "n5367587521",
+"n": "Kristal apartman",
+"en": "Kristal apt",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.19942,
+33.33966
+],
+"web": ""
+},
+{
+"osm": "n13651556901",
+"n": "",
+"en": "M Haci Ali Apartment 37",
+"t": "apartment",
+"stars": "",
+"ll": [
+35.19977,
+33.31885
+],
+"web": ""
+}
+]
