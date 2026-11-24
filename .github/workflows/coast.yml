@@ -1,0 +1,22 @@
+name: Extract coastline for map graphics
+on:
+  workflow_dispatch:
+    inputs:
+      bbox:
+        description: "minlon minlat maxlon maxlat"
+        default: "33.90 34.93 34.11 35.03"
+jobs:
+  coast:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install osmium==4.0.2
+      - run: python3 scripts/geo/coast_extract.py ${{ github.event.inputs.bbox }} coast.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: coast
+          path: coast.json
