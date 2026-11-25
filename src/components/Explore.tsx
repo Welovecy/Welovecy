@@ -105,6 +105,7 @@ export function EventCard({ e, compact }: { e: CyEvent; compact?: boolean }) {
         <p className="ex-ev-when">{whenText(e)}{e.time ? ` · ${e.time}` : ""}</p>
         {e.recurrence && !compact && <p className="ex-ev-rec">{e.recurrence}</p>}
         {!compact && <p className="ex-ev-desc">{e.desc}</p>}
+        {!compact && e.price && <p className="ex-ev-rec">{e.price}</p>}
         {!compact && (
           <div className="ex-ev-acts">
             {e.start && <a href={`/api/ics/${e.id}`} data-ev="Add to calendar" data-ev-target={e.id}>Add to calendar</a>}
