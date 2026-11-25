@@ -11,14 +11,14 @@ const I = {
   search: <><circle cx="11" cy="11" r="6.5" /><path d="m20 20-4-4" /></>,
 };
 const TABS: [string, string, keyof typeof I][] = [
-  ["/", "Home", "home"], ["/destinations", "Explore", "explore"], ["/around", "Around you", "around"], ["/saved", "Saved", "saved"], ["/search", "Search", "search"],
+  ["/", "Home", "home"], ["/explore", "Explore", "explore"], ["/around", "Around you", "around"], ["/saved", "Saved", "saved"], ["/search", "Search", "search"],
 ];
 
 /** Phone-style tab bar. Shown on small screens only; the header menu covers everything else. */
 export function TabBar() {
   const path = usePathname();
   const saved = useSaved();
-  const on = (h: string) => (h === "/" ? path === "/" : path === h || path.startsWith(h + "/") || (h === "/destinations" && /^\/(places|beaches|must-see|stay|things|buses)/.test(path)));
+  const on = (h: string) => (h === "/" ? path === "/" : path === h || path.startsWith(h + "/") || (h === "/explore" && /^\/(destinations|places|beaches|must-see|stay|things|buses)/.test(path)));
   return (
     <nav className="tabbar" aria-label="Quick links">
       {TABS.map(([h, label, icon]) => (

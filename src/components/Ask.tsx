@@ -155,6 +155,8 @@ export function Ask() {
   const [q, setQ] = useState("");
   const [busy, setBusy] = useState(false);
   const [calm, setCalm] = useState(false); // hidden while scrolling down, back on scroll up
+  const [mini, setMini] = useState(false); // label shows briefly on each page, then she's just the orb
+  useEffect(() => { setMini(false); const t = setTimeout(() => setMini(true), 4000); return () => clearTimeout(t); }, [path]);
   const scroller = useRef<HTMLDivElement>(null);
   const field = useRef<HTMLTextAreaElement>(null);
   const sheet = useRef<HTMLElement>(null);
@@ -251,8 +253,8 @@ export function Ask() {
   return (
     <>
       {!open && (
-        <button className={`aph-fab${calm ? " is-calm" : ""}`} onClick={show} aria-label="Ask Aphrodite, our AI guide">
-          <Orb size={26} /><span>Ask Aphrodite</span>
+        <button className={`aph-fab${calm ? " is-calm" : ""}${mini ? " is-mini" : ""}`} onClick={show} aria-label="Ask Aphrodite, our AI guide">
+          <Orb size={26} /><span className="aph-fab-l">Ask Aphrodite</span>
         </button>
       )}
       {open && (

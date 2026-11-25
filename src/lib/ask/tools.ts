@@ -12,6 +12,8 @@ import { fmtD, howFar, km, walkMinutes, WALK_MAX_KM } from "../geo";
 import { norm } from "../text";
 import { cuisineLabel } from "../going";
 import sitemap from "../../app/sitemap";
+import { EVENTS, datesTbc, overlaps, whenText } from "../events";
+import { addDays as addD } from "../duty";
 
 /**
  * The assistant's tools. Each one reads our own data (official registers, the pharmacy rota, MET Norway),
@@ -80,6 +82,19 @@ export const TOOLS = [
     input_schema: {
       type: "object",
       properties: { place: { type: "string", description: "Place name or 'my base'." }, airport: { type: "boolean", description: "True for airport bus services." } },
+    },
+  },
+  {
+    name: "events",
+    description: "Public events and festivals in Cyprus from our checked list (festivals, Christmas markets, music, shows, markets, sport), each with its official source. Use for 'what's on', 'this weekend', festivals, Christmas, concerts. Work out dates from today's date.",
+    input_schema: {
+      type: "object",
+      properties: {
+        from: { type: "string", description: "YYYY-MM-DD, default today" },
+        to: { type: "string", description: "YYYY-MM-DD, default 60 days after from" },
+        district: { type: "string", enum: ["famagusta", "larnaca", "limassol", "paphos", "nicosia"], description: "Optional. famagusta = Ayia Napa, Protaras, Paralimni." },
+        type: { type: "string", enum: ["festival", "christmas", "music", "show", "market", "sport", "other"] },
+      },
     },
   },
   {
@@ -272,6 +287,22 @@ function sitePages(a: Args) {
   return { results: hits.slice(0, 6).map((h) => ({ page: h.x.words || "home", link: url(h.x.path) })) };
 }
 
+function events(a: Args) {
+  const iso = (v: unknown) => (/^\d{4}-\d{2}-\d{2}$/.test(S(v)) ? S(v) : "");
+  const from = iso(a.from) || cyToday();
+  const to = iso(a.to) || addD(from, 60);
+  const district = S(a.district), type = S(a.type);
+  const fit = (e: (typeof EVENTS)[number]) => (!district || e.district === district || e.district === "all") && (!type || e.type === type);
+  const dated = EVENTS.filter((e) => fit(e) && overlaps(e, from, to)).sort((x, y) => x.start!.localeCompare(y.start!));
+  const tbc = datesTbc().filter(fit);
+  const row = (e: (typeof EVENTS)[number]) => ({ n: e.name, type: e.type, when: whenText(e), time: e.time, town: e.town, about: e.desc, price: e.price, organiser: e.organiserUrl, tickets: e.ticketUrl, source: e.source, link: url(`/explore/events#${e.id}`) });
+  return {
+    from, to, results: dated.slice(0, 10).map(row), dates_not_announced: tbc.slice(0, 5).map(row),
+    note: dated.length ? undefined : "Nothing listed for these dates yet. Our events list is growing; suggest the events page or asking in the Facebook group.",
+    link: url(type === "festival" || type === "christmas" ? "/explore/festivals" : "/explore/events"),
+  };
+}
+
 export async function runTool(name: string, args: Args, ctx: Ctx): Promise<unknown> {
   switch (name) {
     case "find_places": return findPlaces(args);
@@ -282,6 +313,7 @@ export async function runTool(name: string, args: Args, ctx: Ctx): Promise<unkno
     case "buses": return buses(args, ctx);
     case "guides": return guides(args);
     case "site_pages": return sitePages(args);
+    case "events": return events(args);
     default: return { error: "unknown tool" };
   }
 }

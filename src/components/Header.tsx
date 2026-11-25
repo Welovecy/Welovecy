@@ -7,7 +7,7 @@ import { useSaved } from "@/lib/store";
 import { ThemeToggle } from "./ThemeToggle";
 
 const NAV: [string, string][] = [
-  ["/destinations", "Destinations"],
+  ["/explore", "Explore"],
   ["/must-see", "Must-see"],
   ["/beaches", "Beaches"],
   ["/stay", "Where to stay"],
