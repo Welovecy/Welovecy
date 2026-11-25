@@ -13,7 +13,9 @@ export default function Privacy() {
         <h2>Cookies</h2>
         <p>If you accept cookies, we also use Microsoft Clarity to see how pages are used: where people tap, how far they scroll and where they get stuck, including anonymous replays of visits. Clarity hides anything typed into forms. If you decline, Clarity doesn&apos;t load. You can change your choice any time with Cookie settings at the bottom of every page.</p>
         <h2>Saved places</h2>
-        <p>Places you save and the hotel you mark as &ldquo;I&apos;m staying here&rdquo; are kept in your own browser. They never reach us.</p>
+        <p>Places you save and the hotel you mark as &ldquo;I&apos;m staying here&rdquo; are kept in your own browser. If you use Ask, the hotel you marked goes with your question so the answer can be about where you are.</p>
+        <h2>Ask</h2>
+        <p>Questions you type into Ask are answered by an AI model from Anthropic, using our guide. They aren&apos;t used to train it. We keep a record of the questions people ask, with numbers and email addresses removed, to see what visitors need and improve the guide. Please don&apos;t type personal details.</p>
         <h2>If you email us</h2>
         <p>We keep your message and address to reply and for our records. We don&apos;t add you to any mailing list without asking.</p>
         <h2>Your rights</h2>

@@ -14,6 +14,7 @@ import { WALK_MAX_KM, driveMinutes, walkMinutes } from "@/lib/geo";
 import { ESSENTIAL_LABEL, KINDS } from "@/lib/kinds";
 import { HomeHero, QuickLinks, RightNow } from "@/components/HomeHero";
 import { DISTRICTS, cyToday, dutyOn } from "@/lib/duty";
+import { AskBar } from "@/components/Ask";
 
 /** Rebuilt every 10 minutes so tonight's pharmacy count is always today's. */
 export const revalidate = 600;
@@ -99,6 +100,7 @@ export default function Home() {
           <RightNow pharmacies={DISTRICTS.reduce((n, d) => n + (dutyOn(d.id, cyToday())?.length ?? 0), 0)} />
           <QuickLinks />
         </HomeHero>
+        <AskBar />
       </div>
       <HomeBase />
       <section className="wrap" aria-label="What's around your hotel" style={{ paddingTop: 28 }}>
