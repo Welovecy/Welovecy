@@ -817,3 +817,5 @@ html{-webkit-tap-highlight-color:transparent}
 .aph-fab-l{display:inline-block;max-width:140px;overflow:hidden;white-space:nowrap;transition:max-width .45s ease,opacity .3s ease}
 .aph-fab.is-mini{padding:0 9px;gap:0}
 .aph-fab.is-mini .aph-fab-l{max-width:0;opacity:0}
+.ex-ev-rec{margin:2px 0 0;font-size:13px;color:var(--muted)}
+.ex-ev-date .ex-now{font-size:18px}

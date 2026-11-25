@@ -7,7 +7,7 @@ import { symbolInfo } from "@/lib/weather";
 import { openAphrodite } from "./Ask";
 import { EMAIL_BUSINESS } from "@/lib/site";
 import type { DestId } from "@/lib/types";
-import { DISTRICT_LABEL, DISTRICT_OF, TYPE_LABEL, eventMap, overlaps, whenText, type CyEvent, type District, type EventType } from "@/lib/events";
+import { DISTRICT_LABEL, DISTRICT_OF, TYPE_LABEL, cyToday, eventMap, overlaps, whenText, type CyEvent, type District, type EventType } from "@/lib/events";
 
 /* ---------- Tabs ---------- */
 export function ExploreTabs({ on }: { on: "places" | "events" | "festivals" }) {
@@ -93,22 +93,24 @@ const Arrow = () => <svg width="16" height="16" viewBox="0 0 24 24" fill="none" 
 export function EventCard({ e, compact }: { e: CyEvent; compact?: boolean }) {
   const d = e.start ? new Date(e.start + "T12:00:00Z") : null;
   const map = eventMap(e);
+  const onNow = !!e.start && e.start < cyToday() && (e.end ?? e.start) >= cyToday();
   return (
     <article className={`ex-ev${compact ? " is-compact" : ""}`} id={e.id}>
       <div className="ex-ev-date" aria-hidden="true">
-        {d ? <><b>{d.getUTCDate()}</b><span>{d.toLocaleDateString("en-GB", { month: "short", timeZone: "UTC" })}</span></> : <><b>TBC</b><span>{e.usual?.match(/January|February|March|April|May|June|July|August|September|October|November|December/)?.[0]?.slice(0, 3) ?? ""}</span></>}
+        {onNow ? <><b className="ex-now">On</b><span>now</span></> : d ? <><b>{d.getUTCDate()}</b><span>{d.toLocaleDateString("en-GB", { month: "short", timeZone: "UTC" })}</span></> : <><b>TBC</b><span>{e.usual?.match(/January|February|March|April|May|June|July|August|September|October|November|December/)?.[0]?.slice(0, 3) ?? ""}</span></>}
       </div>
       <div className="ex-ev-body">
         <p className="ex-ev-kind">{TYPE_LABEL[e.type]} · {e.town}</p>
         <h3>{e.name}</h3>
         <p className="ex-ev-when">{whenText(e)}{e.time ? ` · ${e.time}` : ""}</p>
+        {e.recurrence && !compact && <p className="ex-ev-rec">{e.recurrence}</p>}
         {!compact && <p className="ex-ev-desc">{e.desc}</p>}
         {!compact && (
           <div className="ex-ev-acts">
             {e.start && <a href={`/api/ics/${e.id}`} data-ev="Add to calendar" data-ev-target={e.id}>Add to calendar</a>}
             {map && <a href={map} target="_blank" rel="noopener">Directions</a>}
             {e.guide && <Link href={e.guide}>Our guide</Link>}
-            {e.organiserUrl && <a href={e.organiserUrl} target="_blank" rel="noopener">{e.organiser ? `${e.organiser}` : "Organiser"}</a>}
+            {e.organiserUrl && <a href={e.organiserUrl} target="_blank" rel="noopener">{e.organiser || "Organiser"}</a>}
             {e.ticketUrl && <a href={e.ticketUrl} target="_blank" rel="noopener">Tickets</a>}
           </div>
         )}

@@ -87,6 +87,9 @@ export function ics(e: CyEvent): string {
   ].join("\r\n");
 }
 
-export const eventMap = (e: CyEvent) =>
-  e.ll ? `https://www.google.com/maps/dir/?api=1&destination=${e.ll[0]},${e.ll[1]}`
-    : e.venue ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([e.venue, e.address, e.town, "Cyprus"].filter(Boolean).join(", "))}` : undefined;
+export function eventMap(e: CyEvent) {
+  if (e.ll) return `https://www.google.com/maps/dir/?api=1&destination=${e.ll[0]},${e.ll[1]}`;
+  const realTown = e.district !== "all" && !/announced|island|various/i.test(e.town);
+  if (!e.venue && !realTown) return undefined;
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([e.venue, e.address, realTown ? e.town : "", "Cyprus"].filter(Boolean).join(", "))}`;
+}
