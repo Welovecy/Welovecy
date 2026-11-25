@@ -36,3 +36,20 @@ describe("ask tools", () => {
     expect(r.results[0].link).toContain("larnaca-airport-to-ayia-napa");
   });
 });
+
+import { cardsFrom } from "@/lib/ask/tools";
+describe("ask cards", () => {
+  it("pharmacy cards carry call and map", async () => {
+    const c = cardsFrom("pharmacies_on_duty", await runTool("pharmacies_on_duty", { district: "paphos", date: "2026-12-02" }, { base: null }));
+    expect(c[0].tel).toMatch(/^\+357 /);
+    expect(c[0].map).toContain("google.com/maps");
+  });
+  it("hotel cards offer 'my hotel'", async () => {
+    const c = cardsFrom("find_places", await runTool("find_places", { query: "Adams Beach", kind: "stay" }, { base: null }));
+    expect(c[0].stay?.id).toBe("cy-00011");
+  });
+  it("site pages finds new sections from the sitemap", async () => {
+    const r = (await runTool("site_pages", { query: "wine" }, { base: null })) as { results: { link: string }[] };
+    expect(r.results.some((x) => x.link.endsWith("/wine"))).toBe(true);
+  });
+});

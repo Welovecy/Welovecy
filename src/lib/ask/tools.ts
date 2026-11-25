@@ -1,6 +1,7 @@
 import "server-only";
 import type { DestId, LL, Spot } from "../types";
-import { BUS, DESTINATIONS, PLACES, POIS, BUSINESSES, busRoutesAt, getDest, isStay, spots } from "../data";
+import { BUS, DESTINATIONS, PLACES, POIS, BUSINESSES, bizDirections, busRoutesAt, getBusiness, getDest, getPlace, getPoi, isStay, listingHref, photoFor, poiDirections, spots } from "../data";
+import { symbolInfo } from "../weather";
 import { DEST_CENTRE } from "../centres";
 import { nearestOf, byDistance } from "../around";
 import { CLIMATE, MONTHS, cyTime, sunTimes } from "../weather";
@@ -10,6 +11,7 @@ import { GUIDES, guideHref } from "../guides";
 import { fmtD, howFar, km, walkMinutes, WALK_MAX_KM } from "../geo";
 import { norm } from "../text";
 import { cuisineLabel } from "../going";
+import sitemap from "../../app/sitemap";
 
 /**
  * The assistant's tools. Each one reads our own data (official registers, the pharmacy rota, MET Norway),
@@ -81,13 +83,18 @@ export const TOOLS = [
     },
   },
   {
+    name: "site_pages",
+    description: "Find any page on welovecy.com by topic when the other tools don't cover it: eat and drink lists by area and cuisine, hotels near a beach, airport distances, weather by month, practical info, essentials, UNESCO sites, wine routes, things to do, the quiz. Returns page links.",
+    input_schema: { type: "object", properties: { query: { type: "string" } }, required: ["query"] },
+  },
+  {
     name: "guides",
     description: "Search our written guides (buses, driving, airport transfers, beaches by area, public holidays, food, winter, kids, nightlife, things to do). Returns quick facts and the link.",
     input_schema: { type: "object", properties: { query: { type: "string" } }, required: ["query"] },
   },
 ] as const;
 
-export interface Ctx { base?: { n: string; ll: LL; href: string } | null }
+export interface Ctx { base?: { n: string; ll: LL; href: string } | null; page?: string }
 type Args = Record<string, unknown>;
 const S = (v: unknown) => (typeof v === "string" ? v.trim() : "");
 const url = (href: string) => `https://welovecy.com${href}`;
@@ -247,6 +254,16 @@ function guides(a: Args) {
   return { results: scored.map(({ g }) => ({ title: g.title, about: g.description, quick: g.quick.slice(0, 6), link: url(guideHref(g.slug)), updated: g.updated })) };
 }
 
+/** Every page in the sitemap, so new sections are searchable the moment they ship. */
+let pageIndex: { path: string; words: string }[] | null = null;
+function sitePages(a: Args) {
+  pageIndex ||= sitemap().map((e) => { const path = new URL(e.url).pathname; return { path, words: norm(path.replace(/[/-]+/g, " ")) }; })
+    .filter((x) => !x.path.startsWith("/listing/"));
+  const words = norm(S(a.query)).split(" ").filter((w) => w.length > 2);
+  const hits = pageIndex.map((x) => ({ x, s: words.filter((w) => x.words.includes(w)).length })).filter((h) => h.s).sort((p, q) => q.s - p.s || p.x.path.length - q.x.path.length);
+  return { results: hits.slice(0, 6).map((h) => ({ page: h.x.words || "home", link: url(h.x.path) })) };
+}
+
 export async function runTool(name: string, args: Args, ctx: Ctx): Promise<unknown> {
   switch (name) {
     case "find_places": return findPlaces(args);
@@ -256,6 +273,7 @@ export async function runTool(name: string, args: Args, ctx: Ctx): Promise<unkno
     case "weather": return weather(args);
     case "buses": return buses(args, ctx);
     case "guides": return guides(args);
+    case "site_pages": return sitePages(args);
     default: return { error: "unknown tool" };
   }
 }
@@ -263,3 +281,75 @@ export async function runTool(name: string, args: Args, ctx: Ctx): Promise<unkno
 /** For the area list in the system prompt. */
 export const AREA_LINES = DESTINATIONS.map((d) => `${d.id} = ${d.name}${districtsFor(d.id).length ? ` (pharmacy district: ${districtsFor(d.id).map((x) => x.id).join(" or ")})` : ""}`).join("\n");
 export { byDistance };
+
+/* ---------- Cards: the tappable results shown under an answer ---------- */
+
+export interface CardBase { id: string; n: string; ll: LL; href: string; around: string; area?: string }
+export interface Card {
+  k: "pharmacy" | "place" | "weather" | "bus";
+  n: string; sub?: string; meta?: string; href?: string; map?: string; tel?: string; img?: string; stay?: CardBase;
+}
+const own = (link?: unknown) => (typeof link === "string" ? link.replace(/^https:\/\/welovecy\.com/, "") : undefined);
+const telOf = (p?: string | number) => (p ? `+357 ${String(p).replace(/^\+?357\s*/, "").trim()}` : undefined);
+
+function placeCard(r: Record<string, unknown>, meta?: string): Card {
+  const href = own(r.link);
+  const c: Card = { k: "place", n: String(r.n), sub: String(r.about ?? r.kind ?? ""), meta, href };
+  const lm = href && /^\/listing\/([^/]+)$/.exec(href);
+  const pm = href && /^\/places\/([^/]+)$/.exec(href);
+  if (lm) {
+    const id = decodeURIComponent(lm[1]);
+    const b = getBusiness(id);
+    if (b) {
+      c.map = bizDirections(b); c.tel = telOf(b.p); c.img = photoFor(`biz-${b.i}`)?.u;
+      c.sub = [b.vt ? b.vt[0].toUpperCase() + b.vt.slice(1) : b.l, b.tw && b.tw !== "Not specified" ? b.tw : getDest(b.d)?.name].filter(Boolean).join(" · ");
+      if (isStay(b) && b.ll) c.stay = { id: b.i, n: b.n, ll: b.ll, href: listingHref(b.i), around: `${listingHref(b.i)}/around`, area: b.d };
+    }
+    const p = getPoi(id);
+    if (p) { c.map = poiDirections(p); c.tel = telOf(p.ph); c.img = photoFor(`beach-${p.i}`)?.u; c.sub = [p.k === "beach" ? "Beach" : c.sub, p.tw].filter(Boolean).join(" · "); }
+  } else if (pm) {
+    const pl = getPlace(pm[1]);
+    if (pl) { c.img = photoFor(`place-${pl.slug}`)?.u; c.sub = pl.cat; if (pl.ll) c.map = `https://www.google.com/maps/dir/?api=1&destination=${pl.ll[0]},${pl.ll[1]}`; }
+  }
+  return c;
+}
+
+/** Turn a tool's result into cards. The route keeps only the ones the answer actually mentions. */
+export function cardsFrom(name: string, out: unknown): Card[] {
+  const o = (out ?? {}) as Record<string, unknown>;
+  const list = (k: string) => (Array.isArray(o[k]) ? (o[k] as Record<string, unknown>[]) : []);
+  switch (name) {
+    case "pharmacies_on_duty":
+      return list("pharmacies").map((x) => ({ k: "pharmacy", n: `Pharmacy in ${x.town}`, sub: String(x.address ?? ""), meta: String(o.hours ?? "").replace(/\s*\(.*\)$/, ""), tel: x.phone as string, map: x.map as string, href: own(o.link) }));
+    case "find_places":
+      return list("results").map((r) => placeCard(r));
+    case "whats_near":
+      return list("results").map((r) => placeCard(r, [r.distance, String(r.getting_there ?? "").replace(/ \(estimate\)/g, "")].filter(Boolean).join(" · ")));
+    case "buses":
+      return list("stops").map((s) => ({ k: "bus", n: String(s.n), sub: `Routes ${(s.routes as string[] | undefined)?.slice(0, 6).join(", ") ?? ""}`, meta: String(s.getting_there ?? "").replace(/ \(estimate\)/g, ""), href: own(s.link) }));
+    case "weather": {
+      const f = o.forecast as { t?: number; sym?: string } | undefined;
+      const t = o.today as { sunset?: string } | undefined;
+      if (!f || typeof f !== "object" || typeof f.t !== "number") return [];
+      return [{ k: "weather", n: String(o.area), meta: `${Math.round(f.t)}°C · ${symbolInfo(f.sym ?? "").label}`, sub: t?.sunset ? `Sunset ${t.sunset}` : undefined, href: own(o.link) }];
+    }
+    default: return [];
+  }
+}
+
+/** A line for the prompt about the page the visitor is looking at, so "here" and "this beach" work. */
+export function pageContext(path?: string): string {
+  if (!path) return "";
+  const lm = /^\/listing\/([^/]+)/.exec(path);
+  if (lm) {
+    const id = decodeURIComponent(lm[1]);
+    const n = getBusiness(id)?.n ?? getPoi(id)?.n;
+    if (n) return `The visitor is looking at the page for ${n}. "Here" or "this place" means ${n}.`;
+  }
+  const pm = /^\/places\/([^/]+)/.exec(path);
+  if (pm) { const pl = getPlace(pm[1]); if (pl) return `The visitor is looking at the page for ${pl.name}. "Here" means ${pl.name}.`; }
+  const dm = /^\/(?:destinations|stay|eat-drink)\/([a-z]+)/.exec(path);
+  if (dm && getDest(dm[1])) return `The visitor is browsing ${getDest(dm[1])!.name}.`;
+  if (path.startsWith("/pharmacies-on-duty")) return "The visitor is on the pharmacies on duty page.";
+  return "";
+}
