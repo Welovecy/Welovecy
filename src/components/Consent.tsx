@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const KEY = "wlc-consent";
@@ -41,10 +40,10 @@ export function Consent() {
   };
   return (
     <div className="consent" role="dialog" aria-live="polite" aria-label="Cookies">
-      <p><strong>Help us make this better?</strong> With your OK, we use cookies to see which pages help and where people get stuck. No ads, and we never sell data. <Link href="/privacy">Privacy</Link></p>
+      <p><strong>We use cookies</strong><br />We use cookies to understand how people use our site and to improve it.</p>
       <div className="consent-btns">
-        <button type="button" className="btn btn-ghost" onClick={() => pick("no")}>No thanks</button>
-        <button type="button" className="btn btn-primary" onClick={() => pick("yes")}>That&apos;s fine</button>
+        <button type="button" className="btn btn-ghost" onClick={() => pick("no")}>Decline</button>
+        <button type="button" className="btn btn-primary" onClick={() => pick("yes")}>Accept</button>
       </div>
     </div>
   );
