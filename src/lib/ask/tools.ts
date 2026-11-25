@@ -171,6 +171,14 @@ function findPlaces(a: Args) {
   return { total, results: out.slice(0, 8).map(({ s: _s, ...r }) => r), note: total > 8 ? "More on the site's area pages." : undefined };
 }
 
+/** Venue details worth knowing when choosing: type, cuisines, where in a hotel, opening hours. */
+function aboutBiz(id: string): string | undefined {
+  const b = getBusiness(id);
+  if (!b) return undefined;
+  const host = b.in ? getBusiness(b.in)?.n : undefined;
+  return [b.vt ?? b.l, b.cz?.map(cuisineLabel).join("/"), host ? `inside ${host}${b.fl ? `, ${b.fl}` : ""}` : "", b.hrs].filter(Boolean).join(" · ");
+}
+
 function whatsNear(a: Args, ctx: Ctx) {
   const at = resolve(S(a.place), ctx);
   if (!at) return { error: `Couldn't find "${S(a.place)}". Ask which hotel, beach or town they mean.` };
@@ -179,7 +187,7 @@ function whatsNear(a: Args, ctx: Ctx) {
   const list = nearestOf(at.ll, spots(), kind, n, at.key);
   return {
     from: { n: at.n, link: url(at.href) },
-    results: list.map(({ s, d }) => ({ n: s.n, about: s.sub, ...near(s.ll, d), approx_pin: s.approx || undefined, link: url(s.href) })),
+    results: list.map(({ s, d }) => ({ n: s.n, about: aboutBiz(s.key) ?? s.sub, ...near(s.ll, d), approx_pin: s.approx || undefined, link: url(s.href) })),
     see_all: url(`${at.href.startsWith("/listing/") ? at.href + "/around" : "/around"}`),
   };
 }
