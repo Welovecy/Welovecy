@@ -675,3 +675,38 @@ html{-webkit-tap-highlight-color:transparent}
 .demo-title{min-height:3.12em!important;display:flex;align-items:flex-end}
 @media (min-width:601px){.demo-title{min-height:3.12em!important}}
 .now-line a{min-height:78px}
+/* Ask: floating button and chat sheet */
+.ask-fab{position:fixed;z-index:45;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(20px + env(safe-area-inset-bottom,0px));display:flex;align-items:center;gap:8px;height:48px;padding:0 18px 0 16px;border:0;border-radius:999px;background:var(--accent);color:var(--accent-ink);font:600 15px/1 var(--body);box-shadow:0 12px 30px -10px rgba(0,0,0,.45);cursor:pointer}
+.ask-fab:active{transform:scale(.97)}
+@media (max-width:900px){.ask-fab{bottom:calc(80px + env(safe-area-inset-bottom,0px));height:44px}}
+.ask-open body{overflow:hidden}
+.ask-wrap{position:fixed;inset:0;z-index:70;background:rgba(0,0,0,.35);display:flex;align-items:flex-end;justify-content:flex-end}
+.ask{padding:0;display:flex;flex-direction:column;width:420px;height:min(640px,calc(100dvh - 48px));margin:0 24px 24px 0;background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:0 30px 80px -20px rgba(0,0,0,.5);overflow:hidden}
+@media (max-width:640px){.ask{width:100%;height:92dvh;margin:0;border-radius:var(--r-lg) var(--r-lg) 0 0;border-bottom:0}}
+.ask-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px max(16px,env(safe-area-inset-right,0px)) 12px max(16px,env(safe-area-inset-left,0px));border-bottom:1px solid var(--line)}
+.ask-head b{display:block;font:700 17px/1.2 var(--display);letter-spacing:-.01em}
+.ask-head small{display:block;color:var(--muted);font-size:13px;margin-top:2px}
+.ask-x{flex:none;width:40px;height:40px;border-radius:50%;border:0;background:var(--surface);color:var(--fg);display:grid;place-items:center;cursor:pointer}
+.ask-body{flex:1;overflow-y:auto;overscroll-behavior:contain;padding:16px max(16px,env(safe-area-inset-right,0px)) 8px max(16px,env(safe-area-inset-left,0px));display:flex;flex-direction:column;gap:10px}
+.ask-hello p{margin:0 0 12px;font-size:15px;line-height:1.45;color:var(--muted)}
+.ask-starters{display:grid;gap:8px}
+.ask-starters button{text-align:left;padding:12px 14px;border-radius:var(--r-md);border:1px solid var(--line);background:var(--card);color:var(--fg);font:500 15px/1.3 var(--body);cursor:pointer}
+.ask-msg{max-width:88%;padding:10px 14px;border-radius:18px;font-size:15px;line-height:1.45;overflow-wrap:anywhere}
+.ask-msg.user{align-self:flex-end;background:var(--accent);color:var(--accent-ink);border-bottom-right-radius:6px;white-space:pre-wrap}
+.ask-msg.assistant{align-self:flex-start;background:var(--card);border:1px solid var(--line);border-bottom-left-radius:6px}
+.ask-msg p{margin:0}.ask-msg p+p,.ask-msg p+ul,.ask-msg ul+p{margin-top:8px}
+.ask-msg ul{margin:6px 0 0;padding-left:18px}.ask-msg li+li{margin-top:4px}
+.ask-msg a{color:var(--accent);font-weight:600}
+.ask-dots{display:flex;gap:5px;padding:14px 16px}
+.ask-dots i{width:7px;height:7px;border-radius:50%;background:var(--muted);animation:askdot 1s infinite ease-in-out}
+.ask-dots i:nth-child(2){animation-delay:.15s}.ask-dots i:nth-child(3){animation-delay:.3s}
+@keyframes askdot{0%,80%,100%{opacity:.3;transform:translateY(0)}40%{opacity:1;transform:translateY(-3px)}}
+@media (prefers-reduced-motion:reduce){.ask-dots i{animation:none}}
+.ask-form{display:flex;gap:8px;align-items:flex-end;padding:10px max(12px,env(safe-area-inset-right,0px)) 6px max(12px,env(safe-area-inset-left,0px));border-top:1px solid var(--line)}
+.ask-form textarea{flex:1;min-width:0;resize:none;max-height:120px;padding:11px 14px;border-radius:22px;border:1px solid var(--line);background:var(--card);color:var(--fg);font:16px/1.35 var(--body)}
+.ask-form button{flex:none;width:44px;height:44px;border-radius:50%;border:0;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;cursor:pointer}
+.ask-form button:disabled{opacity:.4;cursor:default}
+.ask-note{margin:0;padding:2px 16px calc(10px + env(safe-area-inset-bottom,0px));font-size:12px;color:var(--muted);text-align:center}
+.ask-note a{color:inherit}
+.ask-fab{transition:opacity var(--fast),transform var(--fast)}
+.ask-fab-off{opacity:0;transform:translateY(12px);pointer-events:none}
