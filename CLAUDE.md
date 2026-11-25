@@ -25,6 +25,7 @@ Next.js 15 App Router, React 19, TypeScript, Vitest. Static pages (about 3,000) 
 - `src/lib/going.ts`: eat and drink pages by area and cuisine. `src/lib/hotelsNear.ts`: hotels near beaches.
 - `src/components/HomeHero.tsx`: homepage video, live strip, shortcuts. `HeroDemo.tsx`: the "Staying at…?" demo (keep its title at a fixed height).
 - `src/components/Track.tsx`: tap tracking (Call, Map, Facebook, Outbound, Staying here, Email). `Consent.tsx`: cookie banner; Microsoft Clarity (project `zitl4a1c8f`) loads only after Accept.
+- Aphrodite, the AI guide: `src/components/Ask.tsx` (orb button, homepage `AskBar`, glass sheet, cards; open from anywhere with `openAphrodite(q)`), `src/app/api/ask/route.ts` (Claude Haiku 5.5, persona and rules, cards, follow-ups, rate limit, `Ask` analytics event), `src/lib/ask/tools.ts` (tools over our data plus a sitemap search, so new data and pages are known on the next deploy). Needs `ANTHROPIC_API_KEY` in Vercel (Production and Preview); spend limit set in the Claude Console.
 - `src/lib/site.ts`: emails (hello@ / business@), Facebook links.
 
 ## Pages
