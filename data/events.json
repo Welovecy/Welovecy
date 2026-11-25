@@ -1,0 +1,26 @@
+{
+  "note": "Public events and festivals. Every entry needs a source_url to an official or organiser page. Built from research checked by hand; see scripts/content/events_import.py.",
+  "events": [
+    {
+      "id": "green-monday-2027", "name": "Green Monday", "type": "festival", "status": "confirmed",
+      "start": "2027-03-15", "end": "2027-03-15", "town": "Island-wide", "district": "all",
+      "desc": "Clean Monday marks the start of Lent. Families head to the countryside for picnics and kite flying. A public holiday.",
+      "price": "Free", "source": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-2027-English.pdf", "sourceName": "Central Bank of Cyprus: bank holidays 2027",
+      "guide": "/guides/green-monday-and-kataklysmos-2027", "checked": "2026-11-23"
+    },
+    {
+      "id": "easter-2027", "name": "Orthodox Easter", "type": "festival", "status": "confirmed",
+      "start": "2027-04-30", "end": "2027-05-03", "town": "Island-wide", "district": "all",
+      "desc": "The biggest celebration of the Cypriot year: Good Friday processions, the midnight Resurrection service with bonfires, then Easter Sunday feasts. Easter Sunday is 2 May.",
+      "price": "Free", "source": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-2027-English.pdf", "sourceName": "Central Bank of Cyprus: bank holidays 2027",
+      "guide": "/guides/easter-in-cyprus-2027", "checked": "2026-11-23"
+    },
+    {
+      "id": "kataklysmos-2027", "name": "Kataklysmos, the Festival of the Flood", "type": "festival", "status": "confirmed",
+      "start": "2027-06-21", "end": "2027-06-21", "town": "Island-wide, biggest in Larnaca", "district": "all",
+      "desc": "Pentecost Monday, celebrated by the sea. Larnaca's seafront usually hosts the biggest festivities, with water games, music and stalls around the holiday.",
+      "price": "Free", "source": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-2027-English.pdf", "sourceName": "Central Bank of Cyprus: bank holidays 2027",
+      "guide": "/guides/green-monday-and-kataklysmos-2027", "checked": "2026-11-23"
+    }
+  ]
+}
