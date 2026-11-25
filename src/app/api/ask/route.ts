@@ -119,6 +119,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ answer: "That one needs a bit more digging than I can do here. Try the search, or ask in our Facebook group." });
   } catch (e) {
     console.error("ask failed", e);
-    return NextResponse.json({ answer: "I couldn't answer just now. Please try again in a moment." }, { status: 502 });
+    const detail = process.env.VERCEL_ENV === "production" ? undefined : String(e).slice(0, 400);
+    return NextResponse.json({ answer: "I couldn't answer just now. Please try again in a moment.", detail }, { status: 502 });
   }
 }
