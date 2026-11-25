@@ -26,7 +26,8 @@ Next.js 15 App Router, React 19, TypeScript, Vitest. Static pages (about 3,000) 
 - `src/components/HomeHero.tsx`: homepage video, live strip, shortcuts. `HeroDemo.tsx`: the "Staying at…?" demo (keep its title at a fixed height).
 - `src/components/Track.tsx`: tap tracking (Call, Map, Facebook, Outbound, Staying here, Email). `Consent.tsx`: cookie banner; Microsoft Clarity (project `zitl4a1c8f`) loads only after Accept.
 - Aphrodite, the AI guide: `src/components/Ask.tsx` (orb button, homepage `AskBar`, glass sheet, cards; open from anywhere with `openAphrodite(q)`), `src/app/api/ask/route.ts` (Claude Haiku 5.5, persona and rules, cards, follow-ups, rate limit, `Ask` analytics event), `src/lib/ask/tools.ts` (tools over our data plus a sitemap search, so new data and pages are known on the next deploy). Needs `ANTHROPIC_API_KEY` in Vercel (Production and Preview); spend limit set in the Claude Console.
+- Explore: `src/app/explore` (Places, `/events`, `/festivals`), `src/components/Explore.tsx`, feature card in `src/lib/explore.ts`. Events in `data/events.json` via `src/lib/events.ts`: every event needs a checked source_url (official or organiser first); unconfirmed dates go in as `dates_tbc` with `usual`. Add to calendar via `/api/ics/[id]`. Aphrodite reads events through the `events` tool.
 - `src/lib/site.ts`: emails (hello@ / business@), Facebook links.
 
 ## Pages
-Home, destinations, places, beaches, must-see, stay, hotels-near, eat-drink, around, listing/[id] (+ /around), guides, buses, weather, pharmacies-on-duty, practical, essentials, distances, unesco, wine, quiz, saved, search, about, list-your-business, privacy, credits.
+Home, explore (+ events, festivals), destinations, places, beaches, must-see, stay, hotels-near, eat-drink, around, listing/[id] (+ /around), guides, buses, weather, pharmacies-on-duty, practical, essentials, distances, unesco, wine, quiz, saved, search, about, list-your-business, privacy, credits.
