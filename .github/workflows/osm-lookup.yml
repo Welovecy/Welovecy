@@ -1,0 +1,28 @@
+name: Look up places in OpenStreetMap by name
+on:
+  workflow_dispatch:
+    inputs:
+      pattern:
+        description: "Names to find, as a regular expression (e.g. planetarium|technopolis)"
+        required: true
+permissions:
+  contents: write
+jobs:
+  lookup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install osmium==4.0.2
+      - run: python3 scripts/geo/osm_lookup.py "${{ github.event.inputs.pattern }}" lookup.json
+      - name: Push to the osm-lookup branch
+        run: |
+          git config user.name "We Love Cyprus data bot"
+          git config user.email "welovecy@users.noreply.github.com"
+          git checkout -B osm-lookup
+          git add -f lookup.json
+          git commit -m "OSM lookup [skip ci]"
+          git push -f origin osm-lookup
