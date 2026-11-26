@@ -1,6 +1,14 @@
 import type { AroundKind, LL, Spot } from "./types";
 import { km } from "./geo";
 import { ESSENTIAL_CAP_KM, ESSENTIAL_KINDS } from "./kinds";
+import { SEASONS, cyMonth, isClosed } from "./season";
+
+/** Places shut for the season stay in the list, after the ones that are open. Only touches lists that hold one. */
+const openFirst = (list: Near[]) => {
+  if (!list.some((n) => SEASONS[n.s.key])) return list;
+  const m = cyMonth();
+  return [...list].sort((a, b) => Number(isClosed(SEASONS[a.s.key], m)) - Number(isClosed(SEASONS[b.s.key], m)));
+};
 
 export interface Near { s: Spot; d: number }
 
@@ -12,7 +20,7 @@ export function byDistance(center: LL, pool: Spot[], skip?: string): Near[] {
 }
 
 export function nearestOf(center: LL, pool: Spot[], kind: AroundKind, n: number, skip?: string): Near[] {
-  return byDistance(center, pool.filter((s) => s.k === kind), skip).slice(0, n);
+  return openFirst(byDistance(center, pool.filter((s) => s.k === kind), skip)).slice(0, n);
 }
 
 export interface Essential { kind: AroundKind; near: Near | null }
@@ -33,6 +41,7 @@ export function aroundLists(center: LL, pool: Spot[], skip: string | undefined, 
     const list = (out[n.s.k] ||= []);
     if (list.length < perKind) list.push(n);
   }
+  for (const k of Object.keys(out)) out[k] = openFirst(out[k]);
   return out;
 }
 

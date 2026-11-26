@@ -18,6 +18,8 @@ import { hotelsNearFor, hotelsNearHref } from "@/lib/hotelsNear";
 import { InHotel } from "@/components/InHotel";
 import { Photo } from "@/components/Photo";
 import { ReportPin } from "@/components/MapNote";
+import { SeasonBanner } from "@/components/Season";
+import { cyMonth } from "@/lib/season";
 
 type P = { params: Promise<{ id: string }> };
 
@@ -63,6 +65,7 @@ export default async function ListingPage({ params }: P) {
           <h1>{b.n}</h1>
           {b.in && getBusiness(b.in) ? <p className="lead" style={{ marginTop: 6 }}>{b.fl ? `${b.fl} of ` : "Inside "}<Link href={listingHref(b.in)}>{getBusiness(b.in)!.n}</Link></p> : null}
           {b.at && getPoi(b.at) ? <p className="lead" style={{ marginTop: 6 }}>Inside <Link href={listingHref(b.at)}>{getPoi(b.at)!.n}</Link></p> : null}
+          <SeasonBanner k={b.i} built={cyMonth()} />
           {b.ll ? <FromBase ll={b.ll} skip={b.i} /> : null}
           <div className="actions">
             {b.ll ? <Link className="btn btn-primary" href={`${href}/around`}>See what&apos;s around</Link> : null}
@@ -118,6 +121,7 @@ function PoiView({ id }: { id: string }) {
           {r.desc ? <p className="lead" style={{ marginTop: 6 }}>{r.desc}</p> : null}
           {r.place && getPlace(r.place) ? <p className="lead" style={{ marginTop: 6 }}>{r.k === "nature" && r.cat === "Nature trail" ? "Starts at " : "At "}<Link href={placeHref(r.place)}>{getPlace(r.place)!.name}</Link></p> : null}
           {r.notice ? <div className="notice" role="status"><strong>Check first</strong><p>{r.notice}</p></div> : null}
+          <SeasonBanner k={r.i} built={cyMonth()} />
           {r.bf ? <p><span className="flag flag-accent">Blue Flag 2026</span></p> : null}
           {r.ll && r.pr !== "approx" ? <FromBase ll={r.ll} /> : null}
           <div className="actions">
