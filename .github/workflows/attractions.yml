@@ -1,0 +1,24 @@
+name: Extract attractions and entrances
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  attractions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install osmium==4.0.2
+      - run: python3 scripts/geo/attractions_extract.py attractions.json
+      - name: Push to the osm-attractions branch
+        run: |
+          git config user.name "We Love Cyprus data bot"
+          git config user.email "welovecy@users.noreply.github.com"
+          git checkout -B osm-attractions
+          git add -f attractions.json
+          git commit -m "Attractions extract [skip ci]"
+          git push -f origin osm-attractions
