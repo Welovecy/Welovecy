@@ -74,3 +74,10 @@ describe("attractions", () => {
     expect(r.results[0].n).toContain("Fasouri");
   });
 });
+
+describe("diving", () => {
+  it("lists dive centres near Protaras as an activity", async () => {
+    const r = (await runTool("whats_near", { place: "Fig Tree Bay", kind: "activity", limit: 5 }, { base: null })) as { results: { n: string }[] };
+    expect(r.results.length).toBe(5);
+  });
+});

@@ -89,7 +89,7 @@ export interface Business {
 export type VenueType = "restaurant" | "taverna" | "cafe" | "snack" | "bar" | "pub" | "club" | "beachbar" | "cabaret";
 export type CuisineId = "cypriot" | "greek" | "seafood" | "italian" | "asian" | "indian" | "middleeast" | "grill" | "burger" | "mexican" | "brunch" | "dessert" | "british" | "vegan";
 
-export type PoiKind = "beach" | "sight" | "family" | "pharmacy" | "health" | "market";
+export type PoiKind = "beach" | "sight" | "family" | "activity" | "pharmacy" | "health" | "market";
 export interface Poi {
   i: string; k: PoiKind; n: string; d: DestId; tw?: string; a?: string; ph?: string | number;
   ll?: LL; pr?: "exact" | "source" | "osm" | "approx"; src?: "osm";

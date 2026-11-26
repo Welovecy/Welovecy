@@ -23,7 +23,7 @@ import { addDays as addD } from "../duty";
  */
 
 const AREAS = DESTINATIONS.map((d) => d.id).join(", ");
-const KINDS = ["beach", "sight", "family", "eat", "night", "stay", "pharmacy", "health", "market", "bus"] as const;
+const KINDS = ["beach", "sight", "family", "activity", "eat", "night", "stay", "pharmacy", "health", "market", "bus"] as const;
 
 export const TOOLS = [
   {

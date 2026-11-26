@@ -16,6 +16,7 @@
    "ent": false,
    "web": "https://www.protarasaquarium.com/",
    "a": "Leoforos Protara-Cavo Greco 19 Protaras",
+   "ph": "+35723741111",
    "osm": "w81256976",
    "inside": [
     "cy-00511"
@@ -46,6 +47,7 @@
    "ent": false,
    "web": "https://camel-park.com/",
    "a": null,
+   "ph": null,
    "osm": "w1052232485",
    "inside": [
     "cy-01000"
@@ -76,6 +78,7 @@
    "ent": false,
    "web": "http://www.fasouri-watermania.com/",
    "a": null,
+   "ph": "+357-25714235",
    "osm": "w53771432",
    "inside": [
     "cy-01978"
@@ -110,6 +113,7 @@
    "ent": false,
    "web": "https://www.aphroditewaterpark.com/en",
    "a": "Poseidonos Ave Paphos",
+   "ph": null,
    "osm": "w7710505",
    "inside": [
     "cy-02867",
@@ -141,6 +145,7 @@
    "ent": false,
    "web": "https://pafoszoo.com/",
    "a": "Xylomantrou Street, Agiou Georgiou Πέγεια",
+   "ph": null,
    "osm": "w139497392",
    "inside": [],
    "desc": "A zoo in Agios Georgios, Peyia, near Coral Bay.",
@@ -169,6 +174,7 @@
    "ent": false,
    "web": "https://limassolzoo.com/",
    "a": "Λόρδου Βύρωνος Λεμεσός",
+   "ph": "+357 25588345",
    "osm": "w112318489",
    "inside": [],
    "desc": "The municipal zoo inside Limassol's Municipal Gardens.",
@@ -197,6 +203,7 @@
    "ent": false,
    "web": "https://goldendonkeys.com/",
    "a": null,
+   "ph": null,
    "osm": "n4267577790",
    "inside": [],
    "desc": "A donkey farm near Skarinou, between Larnaca and Limassol.",
@@ -225,6 +232,7 @@
    "ent": false,
    "web": "https://www.paradoxmuseumlimassol.com/",
    "a": null,
+   "ph": null,
    "osm": "n10916623937",
    "inside": [],
    "desc": "A museum of optical illusions near Limassol's Old Port. Indoors, so good on a hot or rainy day.",
@@ -253,6 +261,7 @@
    "ent": false,
    "web": "https://cypruswinemuseum.com/",
    "a": "Pafou 42 Ερήμη",
+   "ph": "+357 25 873 808;+357 25 873 809",
    "osm": "n1758132232",
    "inside": [
     "cy-01207"
@@ -283,6 +292,7 @@
    "ent": false,
    "web": "https://cyprusmotormuseum.com.cy/",
    "a": "Επιμυθέος 6 Λεμεσός",
+   "ph": "+357 7000 9000;+357 99 252 626",
    "osm": "n4841547321",
    "inside": [],
    "desc": "A museum of historic and classic cars in Limassol.",
@@ -311,6 +321,7 @@
    "ent": false,
    "web": "https://www.boccf.org/el-gr/boccf/museums-collections/mouseio-pieride/",
    "a": "Zinonos Kitieos 4",
+   "ph": "0035724145375",
    "osm": "n4228446593",
    "inside": [],
    "desc": "A museum of the Bank of Cyprus Cultural Foundation in Larnaca town centre.",
@@ -339,6 +350,7 @@
    "ent": false,
    "web": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/medical-museum-kyriazi-larnaka-larnaca/",
    "a": "Stadiou 35 Λάρνακα",
+   "ph": "+357 97606424",
    "osm": "n6718182785",
    "inside": [],
    "desc": "A small medical history museum in Larnaca.",
@@ -367,6 +379,7 @@
    "ent": true,
    "web": "https://leventisgallery.org/",
    "a": "Anastasiou G. Leventi 5 Nicosia",
+   "ph": null,
    "osm": "w20493985",
    "inside": [],
    "desc": "Cypriot, Greek and European art, including the Paris Collection.",
@@ -395,6 +408,7 @@
    "ent": true,
    "web": "https://leventismuseum.org.cy/",
    "a": "Ιπποκράτους 17 Nicosia",
+   "ph": null,
    "osm": "w808783874",
    "inside": [],
    "desc": "The story of Nicosia, in Laiki Geitonia.",
@@ -423,6 +437,7 @@
    "ent": false,
    "web": "https://cvar.severis.org/en/",
    "a": "Ερμού 285 Λευκωσία",
+   "ph": null,
    "osm": "w1091059677",
    "inside": [],
    "desc": "A museum and arts centre in the old city of Nicosia.",
@@ -451,6 +466,7 @@
    "ent": false,
    "web": "https://nimac.org.cy/",
    "a": "Παλιάς Ηλεκτρικής 19 Λευκωσία",
+   "ph": "+357 22797400;+357 22432531",
    "osm": "n13234136635",
    "inside": [],
    "desc": "Nicosia's municipal arts centre, in the old power station.",
@@ -479,6 +495,7 @@
    "ent": false,
    "web": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd58_en/fd58_en?OpenDocument",
    "a": "Keryneias Avenue 1 Aglantzia",
+   "ph": "+35722462906",
    "osm": "w808434888",
    "inside": [
     "cy-02572"
@@ -513,6 +530,7 @@
    "ent": true,
    "web": "https://kingsavenuemall.com/",
    "a": "Λεωφόρος Τάφων των Βασιλέων 2",
+   "ph": null,
    "osm": "w147476732",
    "inside": [
     "cy-03053",
@@ -554,6 +572,7 @@
    "ent": true,
    "web": "https://marinaayianapa.com/",
    "a": null,
+   "ph": null,
    "osm": "w1068160351",
    "inside": [
     "cy-00337"
@@ -584,6 +603,7 @@
    "ent": true,
    "web": "https://etkocyprus.com/",
    "a": null,
+   "ph": null,
    "osm": "w1210719866",
    "inside": [],
    "desc": "An event venue at the ETKO winery in Limassol.",
@@ -612,6 +632,7 @@
    "ent": false,
    "web": "https://www.rialto.com.cy/",
    "a": "Andrea Drousioti 19",
+   "ph": null,
    "osm": "n4500648289",
    "inside": [],
    "desc": "A theatre and music venue in Limassol town centre.",
@@ -640,6 +661,7 @@
    "ent": true,
    "web": "https://www.pattihio.com.cy/",
    "a": "Αγίας Ζώνης 4 Limassol",
+   "ph": null,
    "osm": "w269171005",
    "inside": [],
    "desc": "Limassol's municipal theatre.",
@@ -668,6 +690,7 @@
    "ent": false,
    "web": "https://www.thoc.org.cy/",
    "a": "Kambou 29 Strovolos",
+   "ph": "+357 22 864370",
    "osm": "w1047395016",
    "inside": [],
    "desc": "A stage of the Cyprus Theatre Organisation (THOC) in Strovolos, Nicosia.",
@@ -684,8 +707,8 @@
   },
   {
    "i": "att-latchi-watersports",
-   "k": "family",
-   "cat": "Water sports",
+   "k": "activity",
+   "cat": "Water sports and diving",
    "n": "Latchi Watersports Centre",
    "alt": "Latchi Watersports; Latsi Watersports",
    "ll": [
@@ -696,6 +719,7 @@
    "ent": false,
    "web": "https://www.latchiwatersportscentre.com/",
    "a": null,
+   "ph": "+357 26 322 095",
    "osm": "n6462022486",
    "inside": [],
    "desc": "A water sports centre at Latchi, near Polis.",
@@ -724,6 +748,7 @@
    "ent": false,
    "web": null,
    "a": null,
+   "ph": null,
    "osm": "n310731897",
    "inside": [],
    "desc": "A waterfall on a nature trail near Platres in the Troodos mountains.",
@@ -752,6 +777,7 @@
    "ent": false,
    "web": "https://cyprusski.com/",
    "a": null,
+   "ph": null,
    "osm": "w956746345",
    "inside": [],
    "desc": "Ski runs at Sun Valley on Mount Olympus. Opening depends on snow, so check conditions before you go.",
@@ -780,6 +806,7 @@
    "ent": false,
    "web": "https://thecyprusplanetarium.com/",
    "a": null,
+   "ph": null,
    "osm": "n11332794458",
    "inside": [],
    "desc": "The island's first planetarium, with dome shows, virtual reality and telescopes, in the Tamassos and Orini area near Nicosia.",
@@ -812,6 +839,7 @@
    "ent": false,
    "web": "https://www.technopolis20.com/",
    "a": "Λεωφόρος Νικολάου Νικολαΐδη",
+   "ph": "+357 70 002420",
    "osm": "n5198087428",
    "inside": [],
    "desc": "A cultural centre in Paphos that hosts concerts, including its own jazz festival.",
@@ -844,6 +872,7 @@
    "ent": false,
    "web": null,
    "a": null,
+   "ph": null,
    "osm": "n1309548988",
    "inside": [],
    "desc": "A waterfall reached on a short nature trail from Pano Platres in the Troodos mountains.",
@@ -872,6 +901,7 @@
    "ent": false,
    "web": null,
    "a": null,
+   "ph": null,
    "osm": "w966813911",
    "inside": [],
    "desc": "The visitor centre of the Troodos UNESCO Global Geopark, near Amiantos.",
@@ -900,6 +930,7 @@
    "ent": false,
    "web": null,
    "a": "Larnaka",
+   "ph": null,
    "osm": "n5021578905",
    "inside": [],
    "desc": "A ferry that capsized on her maiden voyage in 1980 and lies off Larnaca at 18 to 42 metres. Reached by boat with a dive centre.",
@@ -915,6 +946,497 @@
    ],
    "sea": true,
    "pinNote": "Offshore, about 3.7 km from the shore at Larnaca. Dive centres take you there by boat."
+  },
+  {
+   "i": "att-dive-taba",
+   "k": "activity",
+   "cat": "Dive centre",
+   "n": "Taba Diving Centre",
+   "alt": "",
+   "ll": [
+    35.029435,
+    34.041062
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://tabadiving.com/",
+   "a": "Pernera 20 Protaras",
+   "ph": "+357 23 832680",
+   "osm": "n10057152456",
+   "inside": [],
+   "desc": "A dive centre in Pernera, Protaras. Nearby dive sites include Green Bay and the Chapel at Cape Greco.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://tabadiving.com/"
+    },
+    {
+     "t": "PADI: Taba Diving Centre",
+     "u": "https://padi.com/dive-center/cyprus/taba-diving-centre-limited"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/10057152456"
+    }
+   ]
+  },
+  {
+   "i": "att-dive-the-rock",
+   "k": "activity",
+   "cat": "Dive centre",
+   "n": "Dive the Rock",
+   "alt": "Dive The Rock Protaras",
+   "ll": [
+    35.031716,
+    34.030208
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://divetherock.com/",
+   "a": "Leoforos Perneras 10",
+   "ph": "+357 96 796 800",
+   "osm": "n10665358099",
+   "inside": [],
+   "desc": "A dive centre on Pernera Avenue, Protaras. Nearby dive sites include Green Bay and the Chapel at Cape Greco.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://divetherock.com/"
+    },
+    {
+     "t": "SSI: Dive the Rock",
+     "u": "https://www.divessi.com/ja/divecenter/dive-the-rock-julio-halal-paralimni-cyprus-742067"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/10665358099"
+    }
+   ]
+  },
+  {
+   "i": "att-dive-herbies",
+   "k": "activity",
+   "cat": "Dive centre",
+   "n": "Herbie's Diving Paradise",
+   "alt": "Herbies Diving",
+   "ll": [
+    35.028865,
+    34.043189
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://www.herbiesdiving.com/en/",
+   "a": null,
+   "ph": "+357 23 814292;+357 99 441818",
+   "osm": "n4784929625",
+   "inside": [],
+   "desc": "A dive centre in Protaras. Nearby dive sites include Green Bay and the Chapel at Cape Greco.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.herbiesdiving.com/en/"
+    },
+    {
+     "t": "PADI: Herbie's Diving Paradise",
+     "u": "https://padi.com/dive-center/cyprus/herbies-diving-paradise-ltd"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/4784929625"
+    }
+   ]
+  },
+  {
+   "i": "att-dive-scuba-tech",
+   "k": "activity",
+   "cat": "Dive centre",
+   "n": "Scuba Tech Diving Centre",
+   "alt": "Scuba Tech Divers",
+   "ll": [
+    35.022527,
+    34.039422
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://www.scubatechdivers.com/",
+   "a": "Leoforos Protara-Cavo Greco 298",
+   "ph": "+35799184002",
+   "osm": "n4614382290",
+   "inside": [],
+   "desc": "A dive centre on the Protaras to Cape Greco road. Nearby dive sites include Green Bay and the Chapel at Cape Greco.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.scubatechdivers.com/"
+    },
+    {
+     "t": "Scuba Tech: bookings",
+     "u": "https://booking.page/en/company/page/scubatechdivers"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/4614382290"
+    }
+   ]
+  },
+  {
+   "i": "att-dive-stop",
+   "k": "activity",
+   "cat": "Dive centre",
+   "n": "Dive Stop Cyprus",
+   "alt": "Premier Scuba Diving Center",
+   "ll": [
+    35.030745,
+    34.037007
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://divestopcyprus.com/",
+   "a": null,
+   "ph": "+357 96 039632",
+   "osm": "n10658564277",
+   "inside": [],
+   "desc": "A dive centre in Protaras. Nearby dive sites include Green Bay and the Chapel at Cape Greco.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://divestopcyprus.com/"
+    },
+    {
+     "t": "Dive centre directory: Dive Stop Cyprus",
+     "u": "https://cursosdebuceo.com/en/dive-centers/-/dive-stop-cyprus-premier-scuba-diving-center/219627"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/10658564277"
+    }
+   ]
+  },
+  {
+   "i": "att-dive-gotodive",
+   "k": "activity",
+   "cat": "Dive centre",
+   "n": "Gotodive Cyprus",
+   "alt": "Gotodive",
+   "ll": [
+    35.009892,
+    34.058365
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://www.gotodive.eu/",
+   "a": "Leoforos Cavo Greco 459",
+   "ph": "+357 96 038877",
+   "osm": "n12224179143",
+   "inside": [],
+   "desc": "A dive centre on Cape Greco Avenue, Protaras. Nearby dive sites include Green Bay and the Chapel at Cape Greco.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.gotodive.eu/"
+    },
+    {
+     "t": "index.cy: Gotodive Diving Center",
+     "u": "https://index.cy/places/gotodive-diving-center-cyprus/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/12224179143"
+    }
+   ]
+  },
+  {
+   "i": "att-dive-easy-divers",
+   "k": "activity",
+   "cat": "Dive centre",
+   "n": "Easy Divers Cyprus",
+   "alt": "J.R. Easy Divers; Easy Divers",
+   "ll": [
+    35.017525,
+    34.046038
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://www.ezdivers.com/",
+   "a": null,
+   "ph": "+357 99 085054",
+   "osm": "n952464275",
+   "inside": [],
+   "desc": "A dive centre in Protaras. Nearby dive sites include Green Bay and the Chapel at Cape Greco.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.ezdivers.com/"
+    },
+    {
+     "t": "Cyprus Diving Centres Association: Easy Divers",
+     "u": "https://cyprusdiving.org.cy/index.php/dive-centers-by-town/paralimni-dive-centers/item/32-j-r-easy-divers"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/952464275"
+    }
+   ]
+  },
+  {
+   "i": "att-dive-i-dive",
+   "k": "activity",
+   "cat": "Dive centre",
+   "n": "I Dive Cyprus",
+   "alt": "I-Dive; I Dive Tec Rec",
+   "ll": [
+    35.016819,
+    34.051031
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://idivercyprus.com/",
+   "a": null,
+   "ph": "+35799689961; +357 95 159569",
+   "osm": "n947267495",
+   "inside": [],
+   "desc": "A dive centre in Protaras. Nearby dive sites include Green Bay and the Chapel at Cape Greco.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://idivercyprus.com/"
+    },
+    {
+     "t": "Cyprus Diving Centres Association: I-Dive",
+     "u": "https://cyprusdiving.org.cy/index.php/dive-centers-by-town/paralimni-dive-centers/item/43-i-dive-tec-rec-centers-plc"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/947267495"
+    }
+   ]
+  },
+  {
+   "i": "att-dive-aquanaut",
+   "k": "activity",
+   "cat": "Dive centre",
+   "n": "Aquanaut Diving School",
+   "alt": "Aqua Naut Diving School; Aquanaut",
+   "ll": [
+    34.999833,
+    34.067238
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://www.scubadivecyprus.com/",
+   "a": null,
+   "ph": null,
+   "osm": "n10078023001",
+   "inside": [],
+   "desc": "A dive school near Cape Greco. Nearby dive sites include Green Bay and the Chapel at Cape Greco.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.scubadivecyprus.com/"
+    },
+    {
+     "t": "Manawa: Aquanaut Diving School",
+     "u": "https://www.manawa.com/en/providers/4319-aquanaut-diving-school"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/10078023001"
+    }
+   ]
+  },
+  {
+   "i": "att-dive-cyprus-diving-centre",
+   "k": "activity",
+   "cat": "Dive centre",
+   "n": "Cyprus Diving Centre",
+   "alt": "Kistler & Zweifel Diving",
+   "ll": [
+    35.027398,
+    34.041251
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://en.cyprus-divingcentre.com/",
+   "a": null,
+   "ph": "+357 99 399 404",
+   "osm": "n10731079749",
+   "inside": [],
+   "desc": "A dive centre in Pernera, Protaras. Nearby dive sites include Green Bay and the Chapel at Cape Greco.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://en.cyprus-divingcentre.com/"
+    },
+    {
+     "t": "Visit Cyprus: diving and dive centres",
+     "u": "https://www.visitcyprus.com/discover-cyprus/sun-sea/diving/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/10731079749"
+    }
+   ]
+  },
+  {
+   "i": "att-dive-cypria",
+   "k": "activity",
+   "cat": "Dive centre",
+   "n": "Dive Cypria",
+   "alt": "",
+   "ll": [
+    35.013135,
+    34.050295
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": "Leoforos Protara 390 Protaras",
+   "ph": "+357 97 754194",
+   "osm": "w502810419",
+   "inside": [],
+   "desc": "A dive centre on Protaras Avenue. Nearby dive sites include Green Bay and the Chapel at Cape Greco.",
+   "srcs": [
+    {
+     "t": "PADI: Dive Cypria",
+     "u": "https://www.padi.com/dive-center/cyprus/dive-cypria/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/502810419"
+    }
+   ]
+  },
+  {
+   "i": "att-dive-cydive",
+   "k": "activity",
+   "cat": "Dive centre",
+   "n": "CyDive",
+   "alt": "Cydive Mediterraneo Dive Resort",
+   "ll": [
+    34.756361,
+    32.412163
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://cydive.com",
+   "a": "Λεωφόρος Ποσειδώνος Paphos",
+   "ph": "+357 26 934271",
+   "osm": "n6047601063",
+   "inside": [],
+   "desc": "A dive centre on Poseidonos Avenue, Paphos. Nearby dives include Amphora Cave and the Laboe wreck.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://cydive.com"
+    },
+    {
+     "t": "Visit Cyprus: diving and dive centres",
+     "u": "https://www.visitcyprus.com/discover-cyprus/sun-sea/diving/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/6047601063"
+    }
+   ]
+  },
+  {
+   "i": "att-dive-coral-bay",
+   "k": "activity",
+   "cat": "Dive centre",
+   "n": "Coral Bay Divers",
+   "alt": "",
+   "ll": [
+    34.857802,
+    32.365625
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://coralbaydivers.com/",
+   "a": "Laxion 20 Πέγεια",
+   "ph": null,
+   "osm": "n4360871992",
+   "inside": [],
+   "desc": "A dive centre at Coral Bay, Peyia. Nearby dives include Amphora Cave and the Laboe wreck.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://coralbaydivers.com/"
+    },
+    {
+     "t": "PADI: Coral Bay Divers",
+     "u": "https://padi.com/dive-center/cyprus/coral-bay-divers"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/4360871992"
+    }
+   ]
+  },
+  {
+   "i": "att-dive-in-larnaca",
+   "k": "activity",
+   "cat": "Dive centre",
+   "n": "Dive-In Larnaca",
+   "alt": "Dive In Larnaca",
+   "ll": [
+    34.901234,
+    33.63756
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://dive-in.com.cy/",
+   "a": null,
+   "ph": "+357 99 279829",
+   "osm": "n6536394785",
+   "inside": [],
+   "desc": "A dive centre in Larnaca, the nearest town to the Zenobia wreck.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://dive-in.com.cy/"
+    },
+    {
+     "t": "Visit Cyprus: diving and dive centres",
+     "u": "https://www.visitcyprus.com/discover-cyprus/sun-sea/diving/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/6536394785"
+    }
+   ]
+  },
+  {
+   "i": "att-dive-pissouri",
+   "k": "activity",
+   "cat": "Dive centre",
+   "n": "Pissouri Bay Divers",
+   "alt": "",
+   "ll": [
+    34.651506,
+    32.724537
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://pissouribaydivers.com/",
+   "a": "Ampelonon 54 Pissouri",
+   "ph": "+357 96 530761",
+   "osm": "n10033251211",
+   "inside": [],
+   "desc": "A dive centre at Pissouri Bay, between Limassol and Paphos.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://pissouribaydivers.com/"
+    },
+    {
+     "t": "Visit Cyprus: diving and dive centres",
+     "u": "https://www.visitcyprus.com/discover-cyprus/sun-sea/diving/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/10033251211"
+    }
+   ]
   },
   {
    "i": "att-limassol-marina",

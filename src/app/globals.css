@@ -3,19 +3,19 @@
   --bg:#FBFAF7; --surface:#F2F0EB; --card:#FFFFFF; --fg:#1D1D1F; --muted:#5D5D62; --line:#E3E0D8;
   --accent:#0A64A6; --accent-ink:#FFFFFF; --accent-soft:#E3EEF7; --danger:#B3261E; --danger-ink:#FFFFFF;
   --flag:#7A4B00; --flag-bg:#FFF1D6; --photo-ink:#FFFFFF;
-  --k-beach:#1F6FA8; --k-sight:#B26A00; --k-eat:#B4462B; --k-night:#7A4FB0; --k-family:#2F8A5B; --k-pharm:#178A7A; --k-health:#C0303A; --k-market:#566270; --k-stay:#1D1D1F; --k-bus:#2457C5;
+  --k-beach:#1F6FA8; --k-sight:#B26A00; --k-eat:#B4462B; --k-night:#7A4FB0; --k-family:#2F8A5B; --k-act:#0E7C9E; --k-pharm:#178A7A; --k-health:#C0303A; --k-market:#566270; --k-stay:#1D1D1F; --k-bus:#2457C5;
   --display:"Inter Tight", "Helvetica Neue", Arial, sans-serif;
   --body:"Inter", "Helvetica Neue", Arial, sans-serif;
   --r-lg:24px; --r-md:16px; --r-sm:10px;
   --fast:200ms; --slow:450ms;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--olive:#9BAA6A;--sun:#F29A2E;
-  --k-beach:#62B0EA; --k-sight:#F0A64A; --k-eat:#F08566; --k-night:#B79AF0; --k-family:#6CCB97; --k-pharm:#5CD1BF; --k-health:#FF7A82; --k-market:#A8B4C2; --k-stay:#F2F1EE; --k-bus:#7FA6F5;
+  --k-beach:#62B0EA; --k-sight:#F0A64A; --k-eat:#F08566; --k-night:#B79AF0; --k-family:#6CCB97; --k-act:#4CC3E6; --k-pharm:#5CD1BF; --k-health:#FF7A82; --k-market:#A8B4C2; --k-stay:#F2F1EE; --k-bus:#7FA6F5;
   --bg:#121315; --surface:#1B1D20; --card:#1F2124; --fg:#F2F1EE; --muted:#A9A9AE; --line:#2E3136;
   --accent:#5AA9E6; --accent-ink:#06121C; --accent-soft:#16283A; --danger:#FF7A72; --danger-ink:#1A0605;
   --flag:#FFD38A; --flag-bg:#3A2A0C; --photo-ink:#FFFFFF; color-scheme:dark}}
 :root[data-theme="dark"]{--olive:#9BAA6A;--sun:#F29A2E;
-  --k-beach:#62B0EA; --k-sight:#F0A64A; --k-eat:#F08566; --k-night:#B79AF0; --k-family:#6CCB97; --k-pharm:#5CD1BF; --k-health:#FF7A82; --k-market:#A8B4C2; --k-stay:#F2F1EE; --k-bus:#7FA6F5;
+  --k-beach:#62B0EA; --k-sight:#F0A64A; --k-eat:#F08566; --k-night:#B79AF0; --k-family:#6CCB97; --k-act:#4CC3E6; --k-pharm:#5CD1BF; --k-health:#FF7A82; --k-market:#A8B4C2; --k-stay:#F2F1EE; --k-bus:#7FA6F5;
   --bg:#121315; --surface:#1B1D20; --card:#1F2124; --fg:#F2F1EE; --muted:#A9A9AE; --line:#2E3136;
   --accent:#5AA9E6; --accent-ink:#06121C; --accent-soft:#16283A; --danger:#FF7A72; --danger-ink:#1A0605;
   --flag:#FFD38A; --flag-bg:#3A2A0C; --photo-ink:#FFFFFF; color-scheme:dark}

@@ -109,7 +109,7 @@ function PoiView({ id }: { id: string }) {
     <>
       <JsonLd data={ld} />
       <div className="wrap">
-        <Crumbs items={[["Home", "/"], [isBeach ? "Beaches" : r.k === "sight" || r.k === "family" ? "Must-see" : "Essentials", isBeach ? "/beaches" : r.k === "sight" || r.k === "family" ? "/must-see" : `/essentials/${r.d}/${r.k}`], [r.n]]} />
+        <Crumbs items={[["Home", "/"], [isBeach ? "Beaches" : r.k === "sight" || r.k === "family" || r.k === "activity" ? "Must-see" : "Essentials", isBeach ? "/beaches" : r.k === "sight" || r.k === "family" ? "/must-see" : `/essentials/${r.d}/${r.k}`], [r.n]]} />
         <div className="around-head">
           <p className="eyebrow"><KindDot color={K.c} /> <span style={{ marginLeft: 6 }}>{poiSub(r)}{r.tw ? ` · ${r.tw}` : ""}</span></p>
           <h1>{r.n}</h1>
