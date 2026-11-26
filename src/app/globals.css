@@ -834,3 +834,18 @@ html{-webkit-tap-highlight-color:transparent}
 
 /* Hero pages without a PageHead (weather): space and tone the lead like the rest */
 .wrap.hero > h1 + .lead{margin-top:12px;color:var(--muted)}
+/* Partner card in Aphrodite: the disclosure reads as a quiet label, never hidden */
+.aph-card-partner .aph-ad{align-self:flex-start;font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:none;padding:0}
+/* Partner pages: spacious, two short columns, a plain disclosure */
+.partner-body{display:grid;gap:12px;padding-block:8px 48px;max-width:860px}
+.partner-cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:24px 40px;margin-bottom:12px}
+.partner-h{font-size:clamp(22px,3vw,28px);margin:20px 0 8px}
+.partner-tags{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:12px 0 0}
+.partner-tags li{border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:14px;background:var(--card)}
+.partner-list{margin:0;padding-left:20px;display:grid;gap:6px}
+.partner-note{font-size:14px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px;margin-top:20px}
+.partner-logo{height:48px;width:auto;object-fit:contain}
+.partner-slot{margin:28px 0 8px;padding:20px;border:1px solid var(--line);border-radius:var(--r-lg,20px);background:var(--card);display:grid;gap:8px;max-width:680px}
+.partner-slot h2{font-size:22px;margin:0}
+.partner-slot p{margin:0}
+.partner-slot .actions{margin-top:8px}

@@ -40,6 +40,7 @@ How to answer:
 - Walks: give the length and difficulty grade if the tools have them, say to check trail conditions, and suggest water, shoes and a hat in summer.
 - Waterparks, beach bars and anything marked seasonal: say it is seasonal and to check dates. Never suggest them for rain, cold or winter. If a result says it is closed for the season, say so plainly and don't suggest it as something to do now, unless the visitor asked about it by name or is planning a later trip. Opening hours we have not verified: say to check with the venue.
 - Don't lead with price. Don't rank businesses as "best" unless a guide does; describe what they are instead.
+- Airports and taxis: for getting to or from an airport, or a taxi, call transfer_partner with where they're staying (and the guides or buses tools for the options). Give the independent options first: airport bus or shuttle, the taxi rank. If the tool returns a partner, add one short, natural line, e.g. "If you'd rather be met at arrivals and driven to the door, [Name](page link) is our advertising partner for Coral Bay and Peyia. You book and confirm the price with them directly." Only name a transfer or taxi company the tool returned. If it asks for a location, ask where they're staying first. If they want the cheapest way, lead with the bus.
 - Health: you can find pharmacies and clinics, but never give medical advice or dosing. For anything urgent say call 112.
 - Only the Republic of Cyprus. Don't recommend places in the north.
 - Off-topic (not about Cyprus, travel or living here): politely say you only help with Cyprus.
@@ -126,6 +127,7 @@ export async function POST(req: Request) {
     base: b && typeof b.n === "string" && Array.isArray(b.ll) && b.ll.length === 2 && b.ll.every((x) => typeof x === "number")
       ? { n: b.n.slice(0, 100), ll: b.ll, href: typeof b.href === "string" && b.href.startsWith("/") ? b.href : "/around" } : null,
     page: typeof input.page === "string" ? input.page.slice(0, 200) : undefined,
+    earlier: history.filter((m) => m.role === "assistant").map((m) => m.content).join("\n").slice(-4000),
   };
 
   const tools = TOOLS.map((t, i) => (i === TOOLS.length - 1 ? { ...t, cache_control: { type: "ephemeral" } } : t));
@@ -146,7 +148,9 @@ export async function POST(req: Request) {
         const q = question;
         try { await track("Ask", { q: scrub(q), tools: used.join(",").slice(0, 100) || "none", page: (input.page || "").slice(0, 100) }); } catch {}
         console.log(JSON.stringify({ ask: scrub(q), tools: used, usage: res.usage }));
-        return NextResponse.json({ answer: answer || "Sorry, I couldn't find an answer to that.", cards: pickCards(found, answer), follow });
+        const cards = pickCards(found, answer);
+        for (const c of cards) if (c.k === "partner") { try { await track("Partner shown", { partner: c.pid ?? c.n, page: (input.page || "").slice(0, 100) }); } catch {} }
+        return NextResponse.json({ answer: answer || "Sorry, I couldn't find an answer to that.", cards, follow });
       }
       msgs.push({ role: "assistant", content: res.content });
       const results: Block[] = [];

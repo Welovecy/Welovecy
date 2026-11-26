@@ -13,9 +13,10 @@ import type { LL } from "@/lib/types";
  * Anything can open her with: window.dispatchEvent(new CustomEvent("aphrodite:open", { detail: { q } }))
  */
 interface Card {
-  k: "pharmacy" | "place" | "weather" | "bus";
+  k: "pharmacy" | "place" | "weather" | "bus" | "partner";
   n: string; sub?: string; meta?: string; href?: string; map?: string; tel?: string; img?: string;
   stay?: { id: string; n: string; ll: LL; href: string; around: string; area?: string };
+  book?: string; pid?: string;
 }
 interface Msg { role: "user" | "assistant"; text: string; cards?: Card[]; follow?: string[]; fresh?: boolean }
 
@@ -115,16 +116,17 @@ function CardView({ c, baseId, onNav }: { c: Card; baseId?: string; onNav: () =>
             {c.sub && <p>{c.sub}</p>}
           </div>
         </div>
-        {c.meta && <span className="aph-meta">{c.meta}</span>}
+        {c.meta && <span className={c.k === "partner" ? "aph-meta aph-ad" : "aph-meta"}>{c.meta}</span>}
         <div className="aph-acts">
-          {c.tel && <a href={`tel:${c.tel.replace(/\s/g, "")}`}><Svg d={Icon.call} s={16} />Call</a>}
+          {c.tel && <a href={`tel:${c.tel.replace(/\s/g, "")}`} {...(c.k === "partner" ? { "data-ev": "Partner call", "data-ev-target": c.pid } : {})}><Svg d={Icon.call} s={16} />Call</a>}
           {c.map && <a href={c.map} target="_blank" rel="noopener"><Svg d={Icon.map} s={16} />Map</a>}
           {c.stay && c.stay.id !== baseId && (
             <button type="button" data-ev="Staying here" data-ev-target="aphrodite" onClick={() => { setBase(c.stay!); setSet(true); }}>
               <Svg d={Icon.home} s={16} />{set ? "Saved" : "My hotel"}
             </button>
           )}
-          {c.href && <Link href={c.href} onClick={onNav}>Open<Svg d={Icon.open} s={15} /></Link>}
+          {c.k === "partner" && c.book && <a href={c.book} target="_blank" rel="noopener sponsored" data-ev="Partner book" data-ev-target={c.pid}>Book<Svg d={Icon.open} s={15} /></a>}
+          {c.href && <Link href={c.href} onClick={onNav} {...(c.k === "partner" ? { "data-ev": "Partner page", "data-ev-target": c.pid } : {})}>{c.k === "partner" ? "Details" : "Open"}{c.k === "partner" ? null : <Svg d={Icon.open} s={15} />}</Link>}
         </div>
       </div>
     </article>
