@@ -84,3 +84,21 @@ describe("airport answers and the sitemap", () => {
     expect(urls.length).toBeLessThan(50000);
   });
 });
+
+describe("airport guide lookups carry the partner check", () => {
+  it("names Go for Protaras, nobody for Limassol or the airport alone", async () => {
+    const go = (await runTool("guides", { query: "Larnaca airport Protaras" }, { base: null })) as { partner?: { name: string } };
+    expect(go.partner?.name).toBe("Go Airport Transfers");
+    const none = (await runTool("guides", { query: "Larnaca airport Limassol" }, { base: null })) as { partner?: unknown };
+    expect(none.partner).toBeUndefined();
+    const bare = (await runTool("guides", { query: "Larnaca airport" }, { base: null })) as { partner?: unknown };
+    expect(bare.partner).toBeUndefined();
+    const cb = (await runTool("guides", { query: "Paphos airport Coral Bay" }, { base: null })) as { partner?: { name: string } };
+    expect(cb.partner?.name).toBe("Coral Bay Taxis");
+  });
+  it("tells Aphrodite Coral Bay and Peyia are in the Paphos area", async () => {
+    const { AREA_LINES } = await import("@/lib/ask/tools");
+    expect(AREA_LINES).toMatch(/paphos = Paphos \(includes Coral Bay[^)]*Peyia/);
+    expect(AREA_LINES).toMatch(/akamas = [^\n]*Polis/);
+  });
+});
