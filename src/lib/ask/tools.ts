@@ -120,7 +120,7 @@ export const TOOLS = [
   },
   {
     name: "guides",
-    description: "Search our written guides (buses, driving, airport transfers, beaches by area, public holidays, food, winter, kids, nightlife, things to do). Returns quick facts and the link.",
+    description: "Search our written guides (airports to each resort, buses, driving, taxis and fares, beaches by area, public holidays, food, winter, kids, nightlife, things to do). Returns quick facts, the full text of the best match, and the link. Always use it for getting from an airport.",
     input_schema: { type: "object", properties: { query: { type: "string" } }, required: ["query"] },
   },
 ] as const;
@@ -291,7 +291,9 @@ function guides(a: Args) {
     const hay = norm(`${g.title} ${g.description} ${g.topic}`);
     return { g, s: words.filter((w) => hay.includes(w)).length };
   }).filter((x) => x.s).sort((x, y) => y.s - x.s).slice(0, 3);
-  return { results: scored.map(({ g }) => ({ title: g.title, about: g.description, quick: g.quick.slice(0, 6), link: url(guideHref(g.slug)), updated: g.updated })) };
+  // The best match comes with its full text (buses, fares, times live in the body, not just the quick facts).
+  const plain = (html: string) => html.replace(/<[^>]+>/g, " ").replace(/&amp;/g, "&").replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/\s+/g, " ").trim();
+  return { results: scored.map(({ g }, i) => ({ title: g.title, about: g.description, quick: g.quick.slice(0, 6), text: i === 0 ? plain(g.html).slice(0, 3200) : undefined, link: url(guideHref(g.slug)), updated: g.updated })) };
 }
 
 /** Every page in the sitemap, so new sections are searchable the moment they ship. */

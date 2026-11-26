@@ -65,3 +65,22 @@ describe("links in Aphrodite's answers", () => {
     expect(fixLinks("[duty](https://welovecy.com/pharmacies-on-duty/larnaca)")).toContain("/pharmacies-on-duty/larnaca");
   });
 });
+
+describe("airport answers and the sitemap", () => {
+  it("the airport guide search hands Aphrodite the Intercity bus and fixed fares", async () => {
+    const r = (await runTool("guides", { query: "Larnaca airport Protaras" }, { base: null })) as { results: { title: string; text?: string }[] };
+    expect(r.results[0].title).toMatch(/Larnaca Airport to Ayia Napa/);
+    expect(r.results[0].text).toMatch(/Intercity/);
+    expect(r.results[0].text).toMatch(/€50/);
+  });
+  it("lists attractions and venues, never partner or bus stop pages", async () => {
+    const { default: sitemap } = await import("@/app/sitemap");
+    const urls = sitemap().map((e) => new URL(e.url).pathname);
+    expect(urls).toContain("/listing/att-trail-artemis");
+    expect(urls).toContain("/listing/att-tio-larnaca");
+    expect(urls.some((u) => u.startsWith("/listing/cy-"))).toBe(true);
+    expect(urls.some((u) => u.startsWith("/partners/") || u.startsWith("/buses/stop/"))).toBe(false);
+    expect(new Set(urls).size).toBe(urls.length);
+    expect(urls.length).toBeLessThan(50000);
+  });
+});
