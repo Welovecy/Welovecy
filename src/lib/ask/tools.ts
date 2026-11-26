@@ -17,7 +17,7 @@ import aliasJson from "@data/aliases.json";
 const ALIAS = (aliasJson as { aliases: Record<string, string[]> }).aliases;
 import { EVENTS, datesTbc, overlaps, whenText } from "../events";
 import { addDays as addD } from "../duty";
-import { PARTNER_LABEL, partnerFor, partnerHref, type PartnerService, type Stay } from "../partners";
+import { PARTNERS, PARTNER_LABEL, partnerFor, partnerHref, type PartnerService, type Stay } from "../partners";
 
 /**
  * The assistant's tools. Each one reads our own data (official registers, the pharmacy rota, MET Norway),
@@ -377,6 +377,31 @@ function transferPartner(a: Args, ctx: Ctx) {
     },
     how_to_mention: "After the independent options, one short natural line: name them as our advertising partner for this area, link their page, say they book and confirm the price directly. No prices, no promises about availability or times, never 'best'.",
   };
+}
+
+/* ---------- Links in answers: only pages that exist ---------- */
+let known: Set<string> | null = null;
+function knownPaths(): Set<string> {
+  if (known) return known;
+  known = new Set(sitemap().map((e) => new URL(e.url).pathname));
+  for (const b of BUSINESSES) known.add(listingHref(b.i));
+  for (const r of POIS) known.add(listingHref(r.i));
+  for (const p of PARTNERS) known.add(partnerHref(p.id));
+  for (const x of ["/credits", "/list-your-business", "/search", "/saved", "/essentials", "/privacy", "/about"]) known.add(x);
+  for (const st of BUS.stops) known.add(`/buses/stop/${st.i}`);
+  for (const d of DESTINATIONS) { known.add(`/essentials/${d.id}`); for (const k of ["pharmacy", "health", "market", "info"]) known.add(`/essentials/${d.id}/${k}`); known.add(`/eat-drink/${d.id}`); }
+  for (const p of [...known]) if (p.startsWith("/listing/") || p.startsWith("/places/")) known.add(`${p}/around`);
+  return known;
+}
+/** Every welovecy.com link in an answer must be a real page: fix the common slip (an area as a place), or keep just the words. */
+export function fixLinks(answer: string): string {
+  return answer.replace(/\[([^\]]+)\]\((https:\/\/(?:www\.)?welovecy\.com)(\/[^)\s#?]*)?([#?][^)\s]*)?\)/g, (m, text: string, host: string, path = "/", rest = "") => {
+    const p = path.replace(/\/$/, "") || "/";
+    if (knownPaths().has(p)) return m;
+    const area = /^\/places\/([a-z]+)$/.exec(p);
+    if (area && getDest(area[1])) return `[${text}](${host}/destinations/${area[1]}${rest})`;
+    return text;
+  });
 }
 
 /** For the area list in the system prompt. */
