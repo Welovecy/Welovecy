@@ -14146,5 +14146,4155 @@
 "ov": "1e3343ad-2cb8-4dcc-b5e9-2f82fac7efb2",
 "on": "Royal Artemis Medical Center",
 "score": 0.9
+},
+"sup-00936": {
+"ll": [
+35.039742,
+33.978357
+],
+"ov": "d2966745-a680-4981-a5a1-1ad012a31f2e",
+"on": "Kokkinos Supermarket",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00924": {
+"ll": [
+35.084412,
+33.877928
+],
+"ov": "ff6f28c5-e282-4182-945a-062a85076457",
+"on": "Litsas Supermarket",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00931": {
+"ll": [
+34.92021,
+33.605436
+],
+"ov": "000d8bf9-3f6b-4928-b71c-d7abbec47a0a",
+"on": "Supermarket Tremetousiotis / Υπεραγορά Τρεμετουσιώτης",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00858": {
+"ll": [
+34.920977,
+33.624689
+],
+"ov": "978811ea-8442-4be2-b013-d8cbe3be8751",
+"on": "METRO Larnaka",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00878": {
+"ll": [
+34.948637,
+33.628229
+],
+"ov": "3852ada6-1d35-4c23-8a44-077c49534ea5",
+"on": "Stelios Supermarket Livadia",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00926": {
+"ll": [
+34.668221,
+32.905558
+],
+"ov": "5fd090c7-a92b-4ad0-842a-3ec81aa157d0",
+"on": "Lysiotis supermarket",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00928": {
+"ll": [
+34.697386,
+33.010809
+],
+"ov": "8cca5f66-558c-4085-ae42-b7e66d7e00ce",
+"on": "Karseras Supermarkets & Quality Fruit & Butchers",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00942": {
+"ll": [
+34.692404,
+32.995226
+],
+"ov": "447e4a23-d22f-4c02-a3aa-818bc71c5194",
+"on": "ΣΤΚ  Τιρκας Υπεραγορα- Φρουταρια",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00941": {
+"ll": [
+34.695349,
+32.998003
+],
+"ov": "bc0a5b35-04d8-48a0-9a04-d47954b8dddf",
+"on": "Alakati",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00811": {
+"ll": [
+34.680849,
+33.037722
+],
+"ov": "cc651ccb-2ef7-4862-bf1c-b98871259359",
+"on": "Papantoniou Supermarket Katholiki",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00821": {
+"ll": [
+34.691885,
+33.052237
+],
+"ov": "c16cdfd4-0385-4e9f-bbf9-fb2e539fb8c4",
+"on": "Σκλαβενίτης",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00817": {
+"ll": [
+34.701326,
+33.076452
+],
+"ov": "b59a8471-42b2-419a-aa0a-16fbfb430adf",
+"on": "Σκλαβενίτης",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00908": {
+"ll": [
+34.692118,
+33.029329
+],
+"ov": "e9e9aac2-d837-4b9f-9a3a-114bd3735f33",
+"on": "Smart Supermarket Naafi",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00947": {
+"ll": [
+34.684069,
+33.037668
+],
+"ov": "83a71f20-65f3-4dbc-a4ec-9f7eab46ab15",
+"on": "το μποστανι 2",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00948": {
+"ll": [
+34.693653,
+33.034338
+],
+"ov": "c1b32eec-6449-48de-b9cd-a640710dd5a8",
+"on": "Limnia Fruit Market",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00940": {
+"ll": [
+34.670782,
+33.012041
+],
+"ov": "29c5407f-8d5e-415b-abe0-afc46992b0fc",
+"on": "ΤΟ ΑΛΕΤΡΙ",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00909": {
+"ll": [
+34.703009,
+33.081545
+],
+"ov": "7712aa28-65cc-470e-b2e1-f4930510c882",
+"on": "Smart Discount Shop",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00943": {
+"ll": [
+34.697271,
+33.06464
+],
+"ov": "4b668219-985d-4d66-9c13-91bbed4eb79e",
+"on": "ΣΤΚ Ττιρκας",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00867": {
+"ll": [
+34.742052,
+33.00581
+],
+"ov": "6ae07daf-d591-4231-ac16-83d9ee980a77",
+"on": "Plus Discount Market",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00808": {
+"ll": [
+34.682562,
+32.972605
+],
+"ov": "e570de45-9570-4454-a568-b87920ed2cf8",
+"on": "Papantoniou Supermarket",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00939": {
+"ll": [
+34.660524,
+33.008801
+],
+"ov": "5c461eef-03d1-4d0a-9f2d-a57a614d0e56",
+"on": "Id Laiko Pazaraki",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00918": {
+"ll": [
+35.111315,
+33.306524
+],
+"ov": "7dc318ac-262d-4cac-8f65-09341c4ba143",
+"on": "KKOLIAS Supermarket Co Ltd",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00899": {
+"ll": [
+35.115816,
+33.293188
+],
+"ov": "ff8d3cfb-0714-40c3-814e-e8312419a8c8",
+"on": "Ioannides Supermarket",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00887": {
+"ll": [
+35.120855,
+33.377127
+],
+"ov": "f8321e2d-9f57-4b1b-9478-40140e3e02e7",
+"on": "POPLiFE SUPERMARKETS",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00875": {
+"ll": [
+35.176992,
+33.338144
+],
+"ov": "3cf76bad-b504-4525-be86-dcacc67f8f8a",
+"on": "MAS A&T Diomidous",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00855": {
+"ll": [
+35.125551,
+33.3241
+],
+"ov": "d776e4c2-cf67-4992-a509-88bba71b5ea1",
+"on": "METRO Strovolos",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00822": {
+"ll": [
+34.804251,
+32.409121
+],
+"ov": "66d303fd-a2aa-4f64-9c05-57720ef013aa",
+"on": "Vasilis Fish Market",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00819": {
+"ll": [
+34.75626,
+32.4615
+],
+"ov": "54eee021-9e9f-4e7e-bd64-21462c1e8665",
+"on": "Papantoniou Supermarket Geroskipou",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00823": {
+"ll": [
+34.756525,
+32.413126
+],
+"ov": "f4234953-20c8-48e1-80ec-344223b221fb",
+"on": "Papantoniou Supermarket",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00910": {
+"ll": [
+34.805311,
+32.445616
+],
+"ov": "14c7dd60-b021-49af-9b73-ee0429cba53b",
+"on": "Smart",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00826": {
+"ll": [
+34.781416,
+32.425608
+],
+"ov": "2085fd47-7300-44a4-af6e-01571e59db78",
+"on": "Papantoniou",
+"score": 1.0,
+"by": "phone"
+},
+"sup-00824": {
+"ll": [
+35.035753,
+32.429422
+],
+"ov": "7fd48670-1756-46dc-9644-0be9e973b3a0",
+"on": "Papantoniou Supermarket",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00027": {
+"ll": [
+34.987375,
+33.995325
+],
+"ov": "8a0cced3-cd99-49cf-999b-494ee101ec80",
+"on": "Marios Michaelides",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00036": {
+"ll": [
+34.988829,
+33.983889
+],
+"ov": "757973bd-b7ac-4daa-842b-bcbe0a7786ca",
+"on": "Schwitzer pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00037": {
+"ll": [
+35.062326,
+33.958136
+],
+"ov": "ef85b995-d395-4149-ba70-6a0b5d3348a8",
+"on": "Prokopiou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00019": {
+"ll": [
+35.062361,
+33.962294
+],
+"ov": "d8aa5d58-5075-4583-ac56-c4f96c3481a3",
+"on": "Φαρμακείο Νίκος Γ. Λίλης",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00024": {
+"ll": [
+35.009644,
+33.893591
+],
+"ov": "9fd1fad9-c994-418a-8159-15ea9a074022",
+"on": "Andri Mastrou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00035": {
+"ll": [
+35.044546,
+33.999184
+],
+"ov": "ba91a315-d54a-43b4-ae0f-566adc9105d3",
+"on": "Poyiadji Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00026": {
+"ll": [
+35.044197,
+33.997744
+],
+"ov": "0303ae62-034e-488b-a7b0-76f3b7a18498",
+"on": "PHARMACY Elena Michael",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00043": {
+"ll": [
+35.048767,
+34.016138
+],
+"ov": "4524feb6-8f68-41f1-a1ec-0311db35a581",
+"on": "Kapparis E.M. Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00040": {
+"ll": [
+35.032415,
+33.98222
+],
+"ov": "35cb875f-92e4-41cf-8f0c-f7702bd9c114",
+"on": "Stella G. Stylianou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00091": {
+"ll": [
+34.860147,
+33.495264
+],
+"ov": "93fdbfd3-f52a-45a4-bae8-5c7b0889a22d",
+"on": "Φαρμακείο Ειρήνη Μιχαήλ",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00052": {
+"ll": [
+34.866617,
+33.495462
+],
+"ov": "57849be6-8363-4a3a-941f-0279b2eb7c9a",
+"on": "Φαρμακείο Αλεθρικό Pharmacy Alethriko",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00079": {
+"ll": [
+34.945509,
+33.595375
+],
+"ov": "7b850e2d-99c4-4d30-875a-02ae8f5249aa",
+"on": "Pharmacy Kyprianou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00111": {
+"ll": [
+34.927532,
+33.592051
+],
+"ov": "0690b884-966b-470f-b5da-834de77da3f0",
+"on": "Iliana Pirillou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00084": {
+"ll": [
+34.876371,
+33.58552
+],
+"ov": "e00823b7-2358-4f32-be91-03b9bc606201",
+"on": "Kalliopi Konstantinou, Dromolaxia Pharmacy-Jomelita Ltd.",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00132": {
+"ll": [
+34.84621,
+33.572725
+],
+"ov": "cb7497c3-5052-48e0-9a49-22899e6e2f85",
+"on": "Φαρμακείο Άννα Τρουλλή Πολεου",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00129": {
+"ll": [
+34.849005,
+33.575655
+],
+"ov": "8ac18c53-dec3-45e7-a07e-476900367798",
+"on": "Tanteles Nicolas Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00066": {
+"ll": [
+34.916136,
+33.6201
+],
+"ov": "cd045088-f6ec-48f9-a45f-a083ba51cf3e",
+"on": "Adamantia Zachariou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00102": {
+"ll": [
+34.931396,
+33.622831
+],
+"ov": "08003a54-b301-4584-bde7-07c88dfabfc2",
+"on": "Emma Pharmacy Andreas Panousis",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00060": {
+"ll": [
+34.919394,
+33.630129
+],
+"ov": "f7fc0716-0e58-4757-817d-b8c3db4241ab",
+"on": "Φαρμακείο Αντώνη Γρηγορά - Grigoras Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00059": {
+"ll": [
+34.924879,
+33.63328
+],
+"ov": "e75af20b-b211-4995-a511-8378984ec445",
+"on": "Φαρμακείο Γιώργος Γιώρκας",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00092": {
+"ll": [
+34.927034,
+33.602602
+],
+"ov": "8bf12fdb-72ec-44f9-8e0d-2bb9b1fd4e23",
+"on": "Health and Beyond Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00109": {
+"ll": [
+34.918783,
+33.61907
+],
+"ov": "052a77df-95e5-4b5c-9838-0bd932043f88",
+"on": "Pharmacy Zoritsa Perikleous",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00072": {
+"ll": [
+34.919519,
+33.636541
+],
+"ov": "ab476fb5-6c85-4bc2-9dfd-f60c4d79f94e",
+"on": "Kypros Kaimis Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00067": {
+"ll": [
+34.911219,
+33.620386
+],
+"ov": "534b839b-a827-445f-823b-c4d8a7874b62",
+"on": "Angelina Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00108": {
+"ll": [
+34.917898,
+33.612963
+],
+"ov": "4f4a30cf-1ef5-4692-8921-7401991245e7",
+"on": "Constantinos Pascalis Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00057": {
+"ll": [
+34.936708,
+33.626169
+],
+"ov": "f8f9e695-5360-4c38-9b73-b224228bd071",
+"on": "Φαρμακεία Λευτέρης Γεωργίου",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00104": {
+"ll": [
+34.91099,
+33.621469
+],
+"ov": "a2e5a23d-38b2-439e-b3ab-01e8c2b0f43a",
+"on": "Lisa Papadopoulou Kalogerakou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00112": {
+"ll": [
+34.934202,
+33.621737
+],
+"ov": "c9bbd5f5-a783-47d0-8abe-f99749505ff4",
+"on": "Φαρμακείο Ελισάβετ Παπαχρίστου",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00137": {
+"ll": [
+34.915552,
+33.635313
+],
+"ov": "2e4bc3f5-cb84-4556-8960-d40d6b35a6ad",
+"on": "Margarita Christodoulou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00101": {
+"ll": [
+34.935287,
+33.620989
+],
+"ov": "098159d2-b52a-47bc-b018-9af6f72f6a0e",
+"on": "Mikaela Panayiotou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00100": {
+"ll": [
+34.916449,
+33.633043
+],
+"ov": "e24565cb-e448-45f1-a9b4-389f6bc8f1c9",
+"on": "Φαρμακείο Ορφανίδης",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00086": {
+"ll": [
+34.926495,
+33.615835
+],
+"ov": "f62897a8-d663-46d6-9283-63a31f337b65",
+"on": "Pharmacy Maria Synesiou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00051": {
+"ll": [
+34.908522,
+33.629396
+],
+"ov": "488f6711-d6e2-41ac-a6f2-4a9ee3f2a73c",
+"on": "Aspris Nicos",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00050": {
+"ll": [
+34.912653,
+33.636789
+],
+"ov": "777978db-ab01-4a72-973b-99aa0e7f464f",
+"on": "Apostolides Pavlos Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00138": {
+"ll": [
+34.915405,
+33.634226
+],
+"ov": "0cacca6c-dce8-417e-87b1-b6beffa588b6",
+"on": "Pavlos Christodoulou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00106": {
+"ll": [
+34.916731,
+33.626043
+],
+"ov": "05462eef-e03d-41dc-bc4d-c80f7f7e007a",
+"on": "Izk Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00070": {
+"ll": [
+34.9167,
+33.629202
+],
+"ov": "e530dc51-728c-4cb2-9493-893f1cd7165c",
+"on": "Stavros Iacovides Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00071": {
+"ll": [
+34.916204,
+33.617853
+],
+"ov": "0e4cacc7-723d-4999-9865-073673cead2f",
+"on": "Stalo Ioannidou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00048": {
+"ll": [
+34.948858,
+33.625261
+],
+"ov": "417bbfbe-d399-46f5-aa84-553300031468",
+"on": "Φαρμακείο Νεκτάριος Κουμπάρου",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00114": {
+"ll": [
+34.949129,
+33.621389
+],
+"ov": "d9611069-512a-4656-a332-ab22a8a9bb8f",
+"on": "Pharmacy Christoulla Roti - Φαρμακείο Χριστούλλα Ρωτή",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00131": {
+"ll": [
+34.861677,
+33.594931
+],
+"ov": "23ae4dc2-5658-4901-aeb2-4c53120810ca",
+"on": "Pharmacy Victoria",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00130": {
+"ll": [
+34.992346,
+33.783632
+],
+"ov": "31f35b6d-bcc3-45bb-8960-2ad0f30c25be",
+"on": "Niki Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00135": {
+"ll": [
+34.832258,
+33.578062
+],
+"ov": "9ebb5f21-5efb-4ad0-bd23-7f335ef5d2ad",
+"on": "Φαρμακείο Στέλλα Δημητρίου",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00107": {
+"ll": [
+34.950312,
+33.463108
+],
+"ov": "570b58ed-a128-4c87-b1bd-40fd08bce53a",
+"on": "Pharmacy Psevdas",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00103": {
+"ll": [
+34.974878,
+33.677572
+],
+"ov": "a35deed7-859c-44a4-bc05-6749954e1e17",
+"on": "Christina Papagiorgiou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00117": {
+"ll": [
+34.977591,
+33.847719
+],
+"ov": "34cf667b-8332-4317-9217-d506ad8e01f5",
+"on": "Stamatis",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00119": {
+"ll": [
+35.015173,
+33.740524
+],
+"ov": "adf77e39-658a-4141-b786-0baaf9653902",
+"on": "Pharmacy Antonis Sialos",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00213": {
+"ll": [
+34.709272,
+33.056433
+],
+"ov": "c13e3fc2-c4d7-4bed-afa2-393134df403e",
+"on": "Andreas Koupepas",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00257": {
+"ll": [
+34.711075,
+33.059862
+],
+"ov": "49fe21c2-a4de-4619-b667-4d08e6f098aa",
+"on": "Pharmacy Vassilis Nikolaou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00230": {
+"ll": [
+34.713831,
+33.06539
+],
+"ov": "fd990739-901a-4dbe-947c-decd8a0a753c",
+"on": "Pharmacy Marina Lefteride/Φαρμακείο Μαρίνα Λεφτερίδη",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00231": {
+"ll": [
+34.698723,
+33.07361
+],
+"ov": "aabbf240-fd7c-46ac-98dd-ca2739fd1273",
+"on": "Natasa Leonidou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00322": {
+"ll": [
+34.69644,
+33.068594
+],
+"ov": "10aa6f2c-c2d8-4677-9243-be7372c23a16",
+"on": "Gisa",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00222": {
+"ll": [
+34.710409,
+33.12678
+],
+"ov": "bd6a5c7a-d263-44f3-b845-23ad0fcdd7e6",
+"on": "GK Nemesos",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00171": {
+"ll": [
+34.677191,
+32.891531
+],
+"ov": "93b84193-7974-4217-bc11-124c519d3601",
+"on": "Pharmacy Eleni Georgiou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00210": {
+"ll": [
+34.673172,
+32.905104
+],
+"ov": "5be3ebc7-aa57-4763-8ebc-7d3def136f90",
+"on": "Φαρμακείο Κωνσταντίνος Κονναρής",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00251": {
+"ll": [
+34.703161,
+33.081209
+],
+"ov": "18651cf4-6205-4454-b7ed-3dcab8e11477",
+"on": "Angela Michaelidou.",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00296": {
+"ll": [
+34.695845,
+33.088583
+],
+"ov": "0413e896-a537-4756-9bbb-b6834b1ac29d",
+"on": "Alice Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00236": {
+"ll": [
+34.701593,
+33.076885
+],
+"ov": "65aea64c-5767-4536-a085-659ebe645f31",
+"on": "Vangelis Lysiotis",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00191": {
+"ll": [
+34.694986,
+33.086988
+],
+"ov": "e8c8cb52-c03b-4285-94f7-a963a96cf1d2",
+"on": "Dora Theophilou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00209": {
+"ll": [
+34.692724,
+33.080473
+],
+"ov": "24e5e1ed-ef66-48dc-a028-37f5fbf00b32",
+"on": "Pharmacy Marios Konnaris",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00331": {
+"ll": [
+34.705595,
+33.086599
+],
+"ov": "e9eca618-ac50-412c-a94c-3922c42b5c4d",
+"on": "Neofyta Christophorou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00170": {
+"ll": [
+34.700689,
+33.075727
+],
+"ov": "1573956a-5a5f-45d8-928c-dc6c2e1df0ff",
+"on": "Pharmacy PharmDr. Stanislava Georgiou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00327": {
+"ll": [
+34.694803,
+33.08098
+],
+"ov": "dd15ee2e-0516-441b-894e-ee28fac2e54f",
+"on": "Fuse Pharmacies Yermasogia",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00261": {
+"ll": [
+34.699064,
+33.097219
+],
+"ov": "20677a49-7250-411f-bb4e-83472236f90b",
+"on": "Chryso Panagi Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00332": {
+"ll": [
+34.680956,
+33.013502
+],
+"ov": "416628e8-888f-4684-8b9f-ca08db9d5361",
+"on": "Pharmacy Alexandros Christoforou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00253": {
+"ll": [
+34.693815,
+33.009256
+],
+"ov": "638fd030-623f-4b5f-935a-6e60d9e276da",
+"on": "Pharmacy Andria Neocleous",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00224": {
+"ll": [
+34.678938,
+32.996218
+],
+"ov": "93d74b6a-2531-481b-aaca-8e577740db99",
+"on": "Pharmacy Georgia Konstantinou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00314": {
+"ll": [
+34.691881,
+33.002398
+],
+"ov": "661d860a-5e74-48cf-aa26-48c528f678a6",
+"on": "Φαρμακείο Καρμελία Τορναρίτη",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00215": {
+"ll": [
+34.69311,
+32.999498
+],
+"ov": "97dd6f34-b25b-4b06-b791-187354c4fe43",
+"on": "Φαρμακείο Νίκος & Άντρη Κρητικού",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00289": {
+"ll": [
+34.680426,
+33.006643
+],
+"ov": "d2184729-1e06-4299-ab04-48e9cd7070c6",
+"on": "Φαρμακείο Πέτρος Πετρίδης",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00143": {
+"ll": [
+34.678656,
+33.0278
+],
+"ov": "ff31d3ae-8224-4c29-90d5-9103cacaa75a",
+"on": "Pharmacy Anna Popa",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00167": {
+"ll": [
+34.686705,
+33.019247
+],
+"ov": "84a5ac3f-1b30-4ee0-92ab-a392b0d43d49",
+"on": "A&E Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00188": {
+"ll": [
+34.658985,
+33.003325
+],
+"ov": "dd3ca59d-b412-4ab3-9ef4-a9a195472f92",
+"on": "Pharmacy Andreas Zinonos",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00255": {
+"ll": [
+34.701841,
+33.02894
+],
+"ov": "42219d71-a824-4543-8fa2-7954bf567080",
+"on": "Nicolaides Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00193": {
+"ll": [
+34.674809,
+33.012732
+],
+"ov": "d067f429-d69a-4475-9ffd-533940523632",
+"on": "Anna Thrasyvoulou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00173": {
+"ll": [
+34.679312,
+33.020712
+],
+"ov": "bab3deba-e268-4d59-89f4-7d42f95eb307",
+"on": "Φαρμακείο Αντρέας Γεωργούδης",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00275": {
+"ll": [
+34.685019,
+33.03776
+],
+"ov": "b0f7b919-1869-48d8-8a72-b1fbc6fc7fbc",
+"on": "Antonis Papamiltiadous Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00160": {
+"ll": [
+34.690203,
+33.059343
+],
+"ov": "e4cbe84c-9aba-443f-873a-a5f8a3f77e84",
+"on": "Aristos Vasiliou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00290": {
+"ll": [
+34.673777,
+33.016462
+],
+"ov": "c8938c5d-f730-41c9-a553-82cb2aa87f6e",
+"on": "Petridi Pharmacies",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00299": {
+"ll": [
+34.674177,
+33.024729
+],
+"ov": "3396c80c-f7d2-46e2-829b-382a13a09bb4",
+"on": "Φαρμακείο Γεωργία Προδρόμου Μιχαήλ",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00300": {
+"ll": [
+34.683271,
+33.043915
+],
+"ov": "90c566a6-6edd-4555-acea-645fb1b6c581",
+"on": "Φαρμακείο Γιώργος Α. Σακκάς",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00151": {
+"ll": [
+34.688967,
+33.05739
+],
+"ov": "ce77230a-011d-4570-9acb-c7fe3c868be1",
+"on": "Gianna Aggelopoulou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00329": {
+"ll": [
+34.680544,
+33.034952
+],
+"ov": "f6c24daf-8ba9-4af4-9c03-5395c11f4af1",
+"on": "Pharmacy Yiannis Christodoulou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00304": {
+"ll": [
+34.702875,
+33.02812
+],
+"ov": "80ced030-5550-40f7-ae0a-b5b4e9c23e40",
+"on": "En.pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00247": {
+"ll": [
+34.687847,
+33.055342
+],
+"ov": "dd1fd8c0-c9ae-4a0f-9951-9d8de3d24b47",
+"on": "Pharmacy Eleni Michael",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00278": {
+"ll": [
+34.68803,
+33.052938
+],
+"ov": "edc68dce-f2a6-49fb-a06a-8aa1e5b2c7bb",
+"on": "Eleni Papapolyviou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00287": {
+"ll": [
+34.686731,
+33.022776
+],
+"ov": "8f877565-f13f-430a-ab21-73e3a67a9b6c",
+"on": "Eleni Pavlou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00293": {
+"ll": [
+34.687344,
+33.054632
+],
+"ov": "279181a6-e81b-4b96-8db6-14dbc825206e",
+"on": "Pharmacy Elpida Petrou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00198": {
+"ll": [
+34.675791,
+33.045961
+],
+"ov": "fdb2291c-80ba-4ff0-822d-7eeb356b3aec",
+"on": "Elsi Kalotychou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00252": {
+"ll": [
+34.696064,
+33.03364
+],
+"ov": "513198d0-c729-46ec-aeac-8b6340df0571",
+"on": "Eftychia Mountaki - Christos Zacharia Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00305": {
+"ll": [
+34.689661,
+33.032034
+],
+"ov": "9159903a-7933-4514-a69a-9e1b976437dd",
+"on": "Roots Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00152": {
+"ll": [
+34.685923,
+33.058092
+],
+"ov": "f35b7525-d766-4be2-b95b-538550a3baec",
+"on": "Electra Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00273": {
+"ll": [
+34.692278,
+33.067934
+],
+"ov": "e635f534-fc8d-4317-9e8d-0f31fecc22aa",
+"on": "Iakovina Papatheodoulou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00161": {
+"ll": [
+34.691652,
+33.063215
+],
+"ov": "58ceb537-4522-4692-8c78-36c4ad8bbe47",
+"on": "Φαρμακειο Ιωαννα Βασιλειου",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00321": {
+"ll": [
+34.682173,
+33.0217
+],
+"ov": "c67337e9-0433-45f7-8ffd-03952860552d",
+"on": "Ph. Emilia Pharmacy Ltd",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00229": {
+"ll": [
+34.681639,
+33.042139
+],
+"ov": "c16a5ea0-1d93-4cfc-878e-eae23b91ba0b",
+"on": "Kostas Konstantopoulos Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00196": {
+"ll": [
+34.681021,
+33.035315
+],
+"ov": "b52d1d41-14ef-4020-a255-8628f90d2f63",
+"on": "Pharmacy Louis Pari Ioannou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00306": {
+"ll": [
+34.685656,
+33.036882
+],
+"ov": "8e4e2b86-2286-475c-bb11-52ec03c32496",
+"on": "Mary Stefanidou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00336": {
+"ll": [
+34.687174,
+33.040678
+],
+"ov": "b5526d93-b480-4c8b-9c55-37ca1072ab2f",
+"on": "Pharmacy Maria Chrysanthou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00201": {
+"ll": [
+34.687231,
+33.065474
+],
+"ov": "1dbcc7fd-260e-4628-a65d-e3c529669afa",
+"on": "Pharmacy 1",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00319": {
+"ll": [
+34.685307,
+33.025736
+],
+"ov": "1d66b848-b17d-4886-abd0-d5a981433a37",
+"on": "Marina Philippidou-Fourla Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00291": {
+"ll": [
+34.675508,
+33.020269
+],
+"ov": "7e704c79-2bbb-4364-9ecb-695a65b1ac0e",
+"on": "Pharmacy Chrysanthi Family",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00288": {
+"ll": [
+34.682177,
+33.038649
+],
+"ov": "675867a8-b42d-43d9-9f74-e6d94ceb60d0",
+"on": "Michalis Pachoumis Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00212": {
+"ll": [
+34.690235,
+33.019096
+],
+"ov": "eceff245-48e5-4c8e-a1ff-a39d9f089fba",
+"on": "Morpho Kotziamani Pharmacy_ΦΑΡΜΑΚΕΙΟ ΜΟΡΦΩ ΚΟΤΖΙΑΜΑΝΗ",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00334": {
+"ll": [
+34.684267,
+33.031614
+],
+"ov": "43f66bde-246a-4165-824a-750b37a63a4b",
+"on": "Goods Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00146": {
+"ll": [
+34.710123,
+33.024187
+],
+"ov": "1d3a812c-a585-4d56-9af9-cc24bef073dc",
+"on": "Φαρμακείο Όλγας Αγαθοκλέους",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00189": {
+"ll": [
+34.67849,
+33.024134
+],
+"ov": "e7718ad6-2e16-4cb5-8bab-d0448e8c54d5",
+"on": "Pampos Theodorou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00313": {
+"ll": [
+34.681921,
+33.040812
+],
+"ov": "18465eb8-cf3a-4c76-b3e4-1a2454a33199",
+"on": "Yioula Tooulia Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00265": {
+"ll": [
+34.70595,
+33.025782
+],
+"ov": "04cfde71-2951-4d50-8c36-2c9983761cdc",
+"on": "Pharmacy Panayiotou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00245": {
+"ll": [
+34.687748,
+33.029287
+],
+"ov": "4895488d-3d2a-4244-9680-6df9a3e2ce1a",
+"on": "Pavlina Menelaou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00263": {
+"ll": [
+34.667313,
+33.025152
+],
+"ov": "4d6ea170-d74d-4b96-b4ca-67654494ec58",
+"on": "Pavlina Panayidou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00155": {
+"ll": [
+34.684786,
+33.044401
+],
+"ov": "035b6767-d2a6-4880-bd2c-568ba9bb17a3",
+"on": "Healthspot Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00259": {
+"ll": [
+34.667524,
+33.01536
+],
+"ov": "a6ec6bdd-a3f8-4cb8-b32e-3eaaf59828ae",
+"on": "Care Pharmacy By Rania Nikolaou & Elias Christodoulou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00233": {
+"ll": [
+34.685804,
+33.047373
+],
+"ov": "5fd7a75d-b1a6-4d9e-bc38-8f0cc9dc7d3c",
+"on": "PHARMACY LA PHARM Φαρμακείο Λίμπερμαν Σιηρίτ",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00181": {
+"ll": [
+34.690079,
+33.036085
+],
+"ov": "815bbb88-c670-42a5-8580-9b58e5703d1f",
+"on": "Stavri Dimofanous Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00183": {
+"ll": [
+34.690514,
+33.053511
+],
+"ov": "7a0f5608-c98f-4e90-996c-ac0c68ee7377",
+"on": "Sylvana Ereifej Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00283": {
+"ll": [
+34.673838,
+33.029398
+],
+"ov": "0b5869f4-5aac-4583-ad8b-26b8668123c9",
+"on": "Φαρμακείο Τζωρτζίνα Παπαχρίστου",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00272": {
+"ll": [
+34.680376,
+33.039726
+],
+"ov": "b4839f8b-3cbe-4a9f-b723-16d65e870d75",
+"on": "Xadeko Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00324": {
+"ll": [
+34.668493,
+33.004055
+],
+"ov": "d22511b3-a0f4-4420-89ff-4ec75190ad30",
+"on": "Charis Charalampous Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00248": {
+"ll": [
+34.680529,
+33.04405
+],
+"ov": "61db6a00-8be3-46e7-a4c0-5af7a24e7f3b",
+"on": "Μετοχικό Φαρμακείο ΣΕΚ Νο.2",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00254": {
+"ll": [
+34.692717,
+33.01549
+],
+"ov": "cbc48221-82cb-442f-a205-18145535a393",
+"on": "Christina Nikiforou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00214": {
+"ll": [
+34.692232,
+33.023211
+],
+"ov": "a353b791-8304-40ec-af2e-f70a47605246",
+"on": "Pharmacy Chrystala Kourtelou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00311": {
+"ll": [
+34.717981,
+33.011858
+],
+"ov": "e1a77c98-1b4f-4183-8291-94a41e2c6a20",
+"on": "Φαρμακείο Βάσος Τάκη",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00176": {
+"ll": [
+34.689524,
+33.051638
+],
+"ov": "006457d6-d5db-4d12-ac31-4d495da57c92",
+"on": "Φαρμακείο Γ.Γρηγορίου ΛΤΔ",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00194": {
+"ll": [
+34.698259,
+33.043497
+],
+"ov": "ae7c29ab-d46a-4c74-844c-36fa46220661",
+"on": "Iasonides Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00225": {
+"ll": [
+34.695206,
+33.063772
+],
+"ov": "07c637fd-9b1a-4d02-bdc3-6ef79d7a9443",
+"on": "Constantinou Louiza Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00226": {
+"ll": [
+34.696213,
+33.050184
+],
+"ov": "4ca18701-7d71-4a49-9aad-18682fbd3e9e",
+"on": "Maria Konstantinou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00335": {
+"ll": [
+34.697786,
+33.041094
+],
+"ov": "0dad0c9c-5ea3-4aa3-98ed-d650bff66ac8",
+"on": "Christoforou Paris Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00262": {
+"ll": [
+34.7045,
+33.106497
+],
+"ov": "431b5228-1d74-4bb0-a8f4-1032df0e20c3",
+"on": "Bwell Mouttagiaka Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00276": {
+"ll": [
+34.702116,
+32.990343
+],
+"ov": "c023a7d8-3cae-4ff3-b339-52d73db40df0",
+"on": "Costas Papamichael Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00274": {
+"ll": [
+34.745001,
+33.155706
+],
+"ov": "243539e0-8d68-4e82-a3d4-29303fb838a6",
+"on": "Bwell Parekklisia Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00325": {
+"ll": [
+34.732019,
+33.204668
+],
+"ov": "c9ed0797-c085-4883-b2b0-6b449bb329f6",
+"on": "Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00219": {
+"ll": [
+34.684473,
+32.957949
+],
+"ov": "205ad91b-fc4b-4fe5-a386-3f7acc3cfa8f",
+"on": "The Wellcare Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00208": {
+"ll": [
+34.692764,
+32.965876
+],
+"ov": "02f0e75d-7197-4d57-8595-4cc281085190",
+"on": "Zhana Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00399": {
+"ll": [
+35.114542,
+33.215799
+],
+"ov": "2fcba130-c014-4c98-aeb2-bc5b1840b2b3",
+"on": "Φαρμακείο Αλέξανδρος Καουρής / Alexandros Kaouris Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00428": {
+"ll": [
+35.169008,
+33.337263
+],
+"ov": "10d6d57b-8882-4a32-9c4b-ec2e4ee4dedb",
+"on": "Angeliki Constantinidou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00348": {
+"ll": [
+35.170866,
+33.324499
+],
+"ov": "284f00a3-1e7a-4ea2-b8a2-00d1e9460302",
+"on": "Φαρμακείο Μαργαρίτα Αντωνίου",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00526": {
+"ll": [
+35.178158,
+33.332361
+],
+"ov": "dd856c20-aaa0-4402-aadc-475da6948712",
+"on": "Pharmacy Stelios Stylianou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00443": {
+"ll": [
+35.172029,
+33.328619
+],
+"ov": "6097dad3-a73e-499c-b2fa-95102534d5bb",
+"on": "Tasoula Malloupa Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00396": {
+"ll": [
+35.157305,
+33.387056
+],
+"ov": "fe54ac08-5f61-4af9-99e4-89d9fcbf809f",
+"on": "Kallitsioni Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00340": {
+"ll": [
+35.158426,
+33.397417
+],
+"ov": "6dd3e6f5-27ad-4cd4-a042-53e057575af9",
+"on": "Eleni Agapiou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00369": {
+"ll": [
+35.149179,
+33.390669
+],
+"ov": "aeb04868-3d7f-4c12-b25d-58105637d410",
+"on": "Tipha Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00453": {
+"ll": [
+35.157671,
+33.39353
+],
+"ov": "462b8be1-8c8b-42c0-bc0f-568fe2fac1c8",
+"on": "Φαρμακείο  Μιχάλης Μένοικος ΛΤΔ  - Pharmacy Michalis Menikos LTD",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00464": {
+"ll": [
+35.148636,
+33.385103
+],
+"ov": "0381dcc3-8778-494c-acd9-31f79f006b6c",
+"on": "Chara Nicolaou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00548": {
+"ll": [
+35.161524,
+33.386347
+],
+"ov": "383ba02f-a313-40ea-9a97-a7b66f69cfbc",
+"on": "Chloe Philippou pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00400": {
+"ll": [
+35.158674,
+33.391562
+],
+"ov": "cefb9ca5-6e52-45bf-bcb4-864aee23c9ae",
+"on": "We Care Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00421": {
+"ll": [
+35.133932,
+33.129583
+],
+"ov": "93796902-7a0c-440e-9bee-85b6d2924b26",
+"on": "Pharm-Akaki",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00390": {
+"ll": [
+35.180487,
+33.382929
+],
+"ov": "2b28cc04-6a41-41af-a914-774b4d05b677",
+"on": "Ioannou Maria Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00380": {
+"ll": [
+35.136791,
+33.12961
+],
+"ov": "92669500-eb10-4334-80af-8f8cc2982ea8",
+"on": "Akaki Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00349": {
+"ll": [
+35.115398,
+33.293741
+],
+"ov": "8fdd6200-59d0-4eb2-9f26-a9578ecb0fb5",
+"on": "Despo Antoniou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00537": {
+"ll": [
+35.051668,
+33.200895
+],
+"ov": "19ecb994-587b-4639-a956-fa639e279205",
+"on": "Φαρμακείο Ρένα Τσαγγάρη",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00574": {
+"ll": [
+35.064569,
+33.388437
+],
+"ov": "ede0f0d0-e3ba-46f1-a329-67b91b19e76f",
+"on": "Φαρμακειο Καλλιθεα",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00372": {
+"ll": [
+35.153048,
+33.328959
+],
+"ov": "022c02c5-2f2b-4791-a89f-547983485fa8",
+"on": "Alexandra Gianni Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00373": {
+"ll": [
+35.16176,
+33.317522
+],
+"ov": "e4a4def0-8a42-4131-9a97-ac09ee10efe6",
+"on": "Ayios Minas pharmacy LTD",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00357": {
+"ll": [
+35.150602,
+33.305807
+],
+"ov": "77b11178-3235-4abb-abc8-ef3f45b80a98",
+"on": "Eva Assioti Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00463": {
+"ll": [
+35.162548,
+33.315561
+],
+"ov": "8020ed86-0364-4a23-9831-641b17c2a1c3",
+"on": "Marina Neophytou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00564": {
+"ll": [
+35.155081,
+33.331375
+],
+"ov": "202ec9a2-f0fd-4e48-a7b1-3d540eafc8df",
+"on": "Sotia Hini Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00364": {
+"ll": [
+35.164679,
+33.317982
+],
+"ov": "929af2bb-00b4-46f5-ae60-90225a60f806",
+"on": "Charis Georgiou Pharmacy LTD",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00343": {
+"ll": [
+35.168552,
+33.326544
+],
+"ov": "1161f655-434c-4e5e-90d4-ee6c7ce62105",
+"on": "Angelidou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00397": {
+"ll": [
+35.106241,
+33.412577
+],
+"ov": "efc74d73-526b-4e64-a972-9caf766ab847",
+"on": "Maria Kallitsioni Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00365": {
+"ll": [
+35.085684,
+33.277582
+],
+"ov": "912b9669-56fb-43f3-96a6-2e2d17299e3b",
+"on": "George Georgiou Pharmacy / Γιώργος Γεωργίου Φαρμακείο",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00451": {
+"ll": [
+35.18157,
+32.684958
+],
+"ov": "d3e62fe9-af7b-442d-98f2-fe23509e6638",
+"on": "Yiangos Menelaou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00562": {
+"ll": [
+35.16946,
+33.237421
+],
+"ov": "25b96c01-5e4a-4f88-9519-c41e588ab0f2",
+"on": "Φαρμακείο Γεώργιος Χατζηκυριάκος",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00570": {
+"ll": [
+35.148516,
+33.205927
+],
+"ov": "ef8fa092-b30d-4855-9b99-4894621328ba",
+"on": "Harmony Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00504": {
+"ll": [
+35.109034,
+33.29088
+],
+"ov": "2960a071-837b-4aa0-8253-30e264336e18",
+"on": "Φαρμακείο Α + Κ Πόντου",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00513": {
+"ll": [
+35.098875,
+33.303854
+],
+"ov": "8b3029cd-d970-4ab0-bbf5-86fae2174dd8",
+"on": "Andri Salip Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00381": {
+"ll": [
+35.110277,
+33.308451
+],
+"ov": "5db66504-649a-4827-abe0-2f3eadb886ea",
+"on": "Ahmed Elbana Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00341": {
+"ll": [
+35.123411,
+33.295252
+],
+"ov": "59509ee0-ab8e-4d9b-9467-37935b5d97bf",
+"on": "Eleni Aggeli Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00455": {
+"ll": [
+35.122215,
+33.320204
+],
+"ov": "98b83add-3256-4e12-96aa-03c8accada97",
+"on": "Pharmacy Constantinos Mios",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00549": {
+"ll": [
+35.13946,
+33.309423
+],
+"ov": "1238a1a1-cc79-412f-95ad-2ad979ed14cd",
+"on": "Flios Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00433": {
+"ll": [
+35.113733,
+33.28982
+],
+"ov": "34f84686-caca-4ec0-85e9-5fdcc594c1b0",
+"on": "Ανθούπολης",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00493": {
+"ll": [
+35.12731,
+33.315313
+],
+"ov": "bf8fa181-4a7c-4e6f-a4cb-0c700014ab32",
+"on": "Maria Paphiti",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00429": {
+"ll": [
+35.10869,
+33.299807
+],
+"ov": "bbe2c802-827a-42bf-a62b-68149cb856b8",
+"on": "Φαρμακείο Νεκταρία Κωνσταντίνου",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00351": {
+"ll": [
+35.100908,
+33.379774
+],
+"ov": "a3fdffeb-a38d-4066-a9ba-cf9568880ed1",
+"on": "Andreas Antoniou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00523": {
+"ll": [
+35.109514,
+33.383902
+],
+"ov": "035a07b4-057b-4d59-b60f-ceb638e28c6e",
+"on": "G.S Advance Pharmacy LTD",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00426": {
+"ll": [
+35.10862,
+33.38452
+],
+"ov": "5e5b633b-b03c-46e4-9463-deafac54aa65",
+"on": "Eva Kyriacou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00352": {
+"ll": [
+35.103655,
+33.379126
+],
+"ov": "78ca93df-3403-4dc4-9273-8d36af63044e",
+"on": "Ioannis Antoniou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00391": {
+"ll": [
+35.0944,
+33.391031
+],
+"ov": "e0aa96f1-2ae1-4ae6-8690-56608f801d99",
+"on": "Katerina Kayia Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00478": {
+"ll": [
+35.108553,
+33.377813
+],
+"ov": "2a4eb9dd-6fdb-496c-94d0-0bf38c444030",
+"on": "Mary Papadopoulou Pharmacy • M P Gentle Care Ltd",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00401": {
+"ll": [
+35.167383,
+33.344297
+],
+"ov": "49e8a33f-3116-47d8-8206-57dcee39a349",
+"on": "Nicos and Dena Karacosta Pharmacies",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00533": {
+"ll": [
+35.159674,
+33.361425
+],
+"ov": "8fa90503-324e-43f3-ab29-9a31377e575c",
+"on": "Φαρμακείο Καρπασία",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00546": {
+"ll": [
+35.175859,
+33.376348
+],
+"ov": "0cbb004a-3f35-4946-b76a-164f657a5deb",
+"on": "Pharmacy Ferekides",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00556": {
+"ll": [
+35.158499,
+33.354639
+],
+"ov": "6d2a9b88-b619-490c-b207-9c283cf005cb",
+"on": "Φαρμακείο Αντώνης Χατζηαποστόλου",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00524": {
+"ll": [
+35.164991,
+33.366831
+],
+"ov": "3b5b885d-4bb1-4ee4-8903-de14353549f5",
+"on": "Κεντρικό Φαρμακείο",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00405": {
+"ll": [
+35.171831,
+33.373816
+],
+"ov": "5da659fb-85d1-429f-a2a2-9eda317e7dd6",
+"on": "Pharmacy Mouyis",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00496": {
+"ll": [
+35.157225,
+33.368406
+],
+"ov": "bb9df52c-26c4-4783-83d4-595b010c61d0",
+"on": "Vasilina Perissiou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00403": {
+"ll": [
+35.170063,
+33.372746
+],
+"ov": "85f23b60-a4a5-4b4b-ba07-b7816128fad8",
+"on": "PharmaSyn",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00418": {
+"ll": [
+35.176561,
+33.340281
+],
+"ov": "069b5f93-ec03-44f3-b114-6db976466ca7",
+"on": "Φαρμακείο Γιώργος Κουσίδης Giorgos Kousidis Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00367": {
+"ll": [
+35.177366,
+33.337458
+],
+"ov": "83ab20bc-b9d1-4dfb-8858-1afa082994d0",
+"on": "Pharmavet Trading LTD",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00502": {
+"ll": [
+35.158144,
+33.358076
+],
+"ov": "e59b84c4-dbe3-49ca-bd57-9e67d8f2300c",
+"on": "Φαρμακείο Ελένη Πιέρα- Ισσέγιεκ",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00495": {
+"ll": [
+35.169062,
+33.348421
+],
+"ov": "94ca8039-9004-4b2a-a439-f8d7ff53cd15",
+"on": "Κωνσταντίνα Περδίκη",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00383": {
+"ll": [
+35.163534,
+33.373671
+],
+"ov": "708b1851-dfaa-40f7-831e-186b4873c234",
+"on": "Farmakeio Maria Efthymiou Koula",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00427": {
+"ll": [
+35.168175,
+33.368814
+],
+"ov": "fbd535c5-ae92-41d6-9586-4761c10bf6db",
+"on": "Michalis Kyriakoudes Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00407": {
+"ll": [
+35.167418,
+33.360828
+],
+"ov": "6cd24731-bee5-4433-ad03-f6d53bd0dc8f",
+"on": "G. Nicolaou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00447": {
+"ll": [
+35.13809,
+33.218557
+],
+"ov": "d58e0077-8a99-4620-aabc-15612671611b",
+"on": "Φαρμακείο Γιώργος Μάρκου",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00499": {
+"ll": [
+35.132223,
+33.195742
+],
+"ov": "217cf9bd-3422-4569-8833-690ba86ab1f5",
+"on": "E&F Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00449": {
+"ll": [
+35.178621,
+33.382303
+],
+"ov": "a96fd5be-754f-43a7-9ecb-20d432ead28b",
+"on": "My Pal Pharmacy Ltd",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00345": {
+"ll": [
+35.157301,
+33.368341
+],
+"ov": "612942f2-7d95-40ab-86f4-0e3ff86f4e6d",
+"on": "Pharmacy Michalis Akritidis",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00459": {
+"ll": [
+35.139585,
+33.367941
+],
+"ov": "ed037364-7183-44ba-b5d5-7e958e0ec48c",
+"on": "Medadvice Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00488": {
+"ll": [
+35.154263,
+33.368814
+],
+"ov": "1374ae64-8667-4cfd-9095-141df2238200",
+"on": "E&A Pastelidu",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00431": {
+"ll": [
+35.137571,
+33.35228
+],
+"ov": "33bbc350-93ac-45f5-8a4d-78bf19b65355",
+"on": "George K. Constantinou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00344": {
+"ll": [
+35.143021,
+33.366436
+],
+"ov": "8b3fe669-4d2a-4130-8283-ea750151e38a",
+"on": "Despina Athanasiadou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00384": {
+"ll": [
+35.133265,
+33.334511
+],
+"ov": "8d555552-c13e-466f-b61b-64493cc4d67a",
+"on": "Irene Zavrou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00353": {
+"ll": [
+35.134113,
+33.349775
+],
+"ov": "43ae7d9e-dcf9-486f-8f8f-81f387318a7f",
+"on": "Φαρμακείο Ελίνα Αντωνίου",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00550": {
+"ll": [
+35.138327,
+33.347334
+],
+"ov": "5fe0c3b9-807d-48ad-863e-3a087021f072",
+"on": "Eva Frangouli Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00547": {
+"ll": [
+35.123747,
+33.336309
+],
+"ov": "72454a7f-4d8c-4663-9745-436be8c4f086",
+"on": "Φαρμακείο Ήβη Φέσια",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00356": {
+"ll": [
+35.134893,
+33.356684
+],
+"ov": "36fcffc0-7846-43ae-af53-509dec6cff7d",
+"on": "Φαρμακείο Ντίνα Αριστοδήμου",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00528": {
+"ll": [
+35.145445,
+33.352652
+],
+"ov": "ff0f442a-2bea-405e-b23a-1d2c0ba4a257",
+"on": "Lisa Socratous Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00389": {
+"ll": [
+35.140532,
+33.316412
+],
+"ov": "4c798764-c461-41a7-a461-a444bf8d2959",
+"on": "Archangelos Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00535": {
+"ll": [
+35.141787,
+33.361212
+],
+"ov": "ddce8f7f-876e-440f-a02b-7f0188a9bf23",
+"on": "ALOE • Maria Trakkoudi-Kyprianou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00518": {
+"ll": [
+35.141634,
+33.341032
+],
+"ov": "3e697415-7a83-464d-9783-02feb0e3d234",
+"on": "S.O Super Strovolos",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00355": {
+"ll": [
+35.135565,
+33.331198
+],
+"ov": "76ef849a-f49d-472b-a7df-3e0de28cd5c5",
+"on": "Φαρμακείο Π. Αρέστη",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00363": {
+"ll": [
+35.139135,
+33.341574
+],
+"ov": "8a22b60c-5baa-4110-9442-8f7f9e3c8399",
+"on": "Ploutarchos Georgiades Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00434": {
+"ll": [
+35.147131,
+33.345339
+],
+"ov": "759508a5-75de-458d-b02d-ae72112f4fe3",
+"on": "Ktenas Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00569": {
+"ll": [
+35.146765,
+33.357012
+],
+"ov": "37c0737c-a677-4a62-9502-dc6c783c03e7",
+"on": "Healthland Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00440": {
+"ll": [
+35.118387,
+33.333769
+],
+"ov": "ffb5c230-6dab-469e-bcfd-f3a0bdb50418",
+"on": "Charis Lymbouras Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00516": {
+"ll": [
+35.160181,
+33.343958
+],
+"ov": "488e5e73-324c-4bd9-a754-1c99680948fa",
+"on": "Mega cross Vyzantiou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00540": {
+"ll": [
+35.146782,
+33.328598
+],
+"ov": "09c3bac8-22f3-4c7f-b963-d065a9b2de24",
+"on": "Tsangarides Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00573": {
+"ll": [
+35.143251,
+33.349882
+],
+"ov": "b76ed002-8e38-4f1d-844d-ccaf7264d2af",
+"on": "Pharmacy Haris Christofides",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00511": {
+"ll": [
+35.142389,
+33.368052
+],
+"ov": "c1b56b53-6dcb-4880-9c14-ab67e5e9743f",
+"on": "Φαρμακείο Χρίστος Σάββα",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00392": {
+"ll": [
+35.124147,
+33.329977
+],
+"ov": "89b8d4f7-278c-44d3-a717-0db03a052f9a",
+"on": "Φαρμακείο Χριστίνα Καγκελλάρη",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00387": {
+"ll": [
+35.075457,
+33.32435
+],
+"ov": "5d6f8545-aade-4e5f-bd42-b00bd975b3dd",
+"on": "Marios Theodoulou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00470": {
+"ll": [
+35.07707,
+33.323629
+],
+"ov": "c75d0345-6dd8-41f6-bba9-cb093517a80e",
+"on": "xenios_pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00612": {
+"ll": [
+34.793951,
+32.444685
+],
+"ov": "c0aca988-6f83-4eec-9789-a01fb88710c2",
+"on": "Evangelos Manoli Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00644": {
+"ll": [
+34.79973,
+32.414263
+],
+"ov": "5f25bd3e-f80d-4f81-b133-39c2d5838ea5",
+"on": "TC Total Care Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00617": {
+"ll": [
+34.797865,
+32.415197
+],
+"ov": "c5cc8356-8c3f-4932-8e0c-b9c45b11a25d",
+"on": "Melina Nikiforou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00660": {
+"ll": [
+34.781824,
+32.421576
+],
+"ov": "a11f5106-a4ef-4056-93e1-e3f8ffc6bfb0",
+"on": "Φαρμακείο Ελένη και Ραφαέλα Χρυσοστόμου",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00600": {
+"ll": [
+34.804148,
+32.397787
+],
+"ov": "16fb1ea4-8769-4e9d-a12b-2a2dfe63a482",
+"on": "Christos Ioannou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00659": {
+"ll": [
+34.760046,
+32.454008
+],
+"ov": "a35a86e1-f6e8-4e7c-8adc-c97146860b1a",
+"on": "Φαρμακείο Γαλάτεια Χριστοφίδου",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00615": {
+"ll": [
+34.762262,
+32.449957
+],
+"ov": "a0fbb187-2ebb-4af8-8d80-568cb9173815",
+"on": "IVY Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00590": {
+"ll": [
+34.766222,
+32.444708
+],
+"ov": "991adbc7-fef3-4b8a-847e-4a9a5108b0dd",
+"on": "Stephanos Diomedous Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00652": {
+"ll": [
+34.7558,
+32.461973
+],
+"ov": "1db14fe7-fd40-4555-8ac1-a2eb5902e3aa",
+"on": "Sylia Hadjivasili Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00601": {
+"ll": [
+34.748207,
+32.425901
+],
+"ov": "6b2b61c1-210b-4c28-b66a-1aa6b4c5f1ec",
+"on": "Life Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00632": {
+"ll": [
+34.766773,
+32.410635
+],
+"ov": "88c49b8c-ec36-4fbc-a074-f0cab3ef0015",
+"on": "Andrie's Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00638": {
+"ll": [
+34.786345,
+32.451033
+],
+"ov": "88c44be1-8840-41ac-9e17-5712672e6a8d",
+"on": "Pharmacy Vasiliki Smylanaki",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00618": {
+"ll": [
+34.815462,
+32.451826
+],
+"ov": "e6c7ea59-a042-4b83-9063-e713f2f2fffc",
+"on": "pharmacymarianikolaidou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00630": {
+"ll": [
+34.782158,
+32.439032
+],
+"ov": "799bbf9b-7e53-4471-bef5-2a35d9d7ef3a",
+"on": "Φαρμακείο Αλεξάνδρα Πίρπα",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00629": {
+"ll": [
+34.798306,
+32.448359
+],
+"ov": "106fe29f-573a-4e29-9010-b66b99040d94",
+"on": "Amaryllis Petinou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00607": {
+"ll": [
+34.767935,
+32.419035
+],
+"ov": "142d261a-a43a-4499-936c-4474ef25d8da",
+"on": "Georgia Lambrou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00589": {
+"ll": [
+34.775616,
+32.431314
+],
+"ov": "9b8c60d1-4b65-4dd5-aacd-a9b1d6d6cfc6",
+"on": "George Demetriou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00654": {
+"ll": [
+34.789686,
+32.43445
+],
+"ov": "dca6a594-72e7-48ea-9331-3b7bbf875aed",
+"on": "Pharmacy Dora and Kleopas Hadjicharalambous",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00620": {
+"ll": [
+34.779509,
+32.421057
+],
+"ov": "a467f38f-1604-4a5b-acfb-73580d1a11e4",
+"on": "Παναγιώτου Έλενα",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00591": {
+"ll": [
+34.775305,
+32.434015
+],
+"ov": "b7522e0d-7091-4fc3-b68d-a1675f5f66cc",
+"on": "Pharmacy Eleni Epaminonda",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00614": {
+"ll": [
+34.762959,
+32.438623
+],
+"ov": "f2e38d71-2b7b-4931-80fc-1a7442bdc36f",
+"on": "Mavrikou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00594": {
+"ll": [
+34.774355,
+32.438124
+],
+"ov": "c783004f-b230-47e1-b96e-c5b93cb25a84",
+"on": "Machi & Elias Eliade Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00635": {
+"ll": [
+34.780638,
+32.430441
+],
+"ov": "deb0a79d-2df4-4b9e-aabe-de79e53ae341",
+"on": "Pharmacy Ikaros LTD",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00587": {
+"ll": [
+34.781942,
+32.426718
+],
+"ov": "86f04696-dd96-4f77-a791-b8af8415a63c",
+"on": "Pharmacy Ioanna Glara Konstantinou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00581": {
+"ll": [
+34.7922,
+32.418417
+],
+"ov": "67a12f00-2cca-4089-b5d4-7e49eefce27e",
+"on": "Katia Antoniou - Kleanthous Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00648": {
+"ll": [
+34.766699,
+32.4167
+],
+"ov": "80e554fe-9952-4803-af10-2074aeb99e90",
+"on": "Constantia Georgiadou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00595": {
+"ll": [
+34.787441,
+32.42272
+],
+"ov": "477b0b33-0266-4a9a-88e1-f8117097e3ef",
+"on": "Mary Eracleous Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00647": {
+"ll": [
+34.774137,
+32.428572
+],
+"ov": "01c36d4b-75c0-468f-9a9b-67b8f21a0b81",
+"on": "pharmacy Nantia Typographou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00627": {
+"ll": [
+34.77387,
+32.440973
+],
+"ov": "b2012641-49af-4252-a0fd-c9f49d7f7de6",
+"on": "Nikoleta Patatou's pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00651": {
+"ll": [
+34.78404,
+32.421915
+],
+"ov": "ebddbbfa-2560-4c21-bb1e-6f27ae9583c2",
+"on": "Pinelopi Charalampous Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00611": {
+"ll": [
+34.777555,
+32.420111
+],
+"ov": "3f396321-ed3d-4f6f-8e22-c77d4ca97e22",
+"on": "Pitsa Malikkidou Lito Karaolidou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00579": {
+"ll": [
+34.780088,
+32.41102
+],
+"ov": "f3b0b2cd-3c4c-445f-8cc5-70398d1e6e1e",
+"on": "Rafaela Andreou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00633": {
+"ll": [
+34.785791,
+32.422117
+],
+"ov": "0300ffd0-92ec-43d0-a527-27b21549d4b4",
+"on": "Skevi Polatoglou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00586": {
+"ll": [
+34.781698,
+32.437738
+],
+"ov": "e094264e-3653-4a58-8987-161b8b4f1154",
+"on": "Stavroula Yianniou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00596": {
+"ll": [
+34.78652,
+32.432703
+],
+"ov": "1f9930e5-f31d-40e3-ba32-b3c3fbe30d29",
+"on": "Eracleous Charalambos Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00605": {
+"ll": [
+34.773363,
+32.429308
+],
+"ov": "edda5a98-8a30-4c36-b8c5-46afec02c28c",
+"on": "Haritini Kyrou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00623": {
+"ll": [
+34.788439,
+32.433481
+],
+"ov": "a233afc1-b79c-4583-9178-d4b0237e568c",
+"on": "Pharmacy Christiana Papadopoulou",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00653": {
+"ll": [
+34.77566,
+32.4266
+],
+"ov": "fdfcf3ee-33b4-4abf-8c87-640bceb33fc8",
+"on": "Φαρμακείο Χρυστάλλας & Κατερίνας Χατζηγιάγκου",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00584": {
+"ll": [
+34.862711,
+32.379789
+],
+"ov": "501fab1f-e59e-4105-b9d0-bd06b969d23d",
+"on": "Anna Gavriel Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00649": {
+"ll": [
+34.882811,
+32.38061
+],
+"ov": "883e961d-de47-4f49-8b49-a2d84e1eaf65",
+"on": "Christakis Phylaktou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00621": {
+"ll": [
+34.81743,
+32.450228
+],
+"ov": "01f67164-7b0d-499a-8622-36e1e06f6bc9",
+"on": "Kyriaki Panagiotou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00585": {
+"ll": [
+35.035336,
+32.424623
+],
+"ov": "1ccb6adc-6c43-40e1-9517-68d537cb0a1c",
+"on": "John gabriel pharmacy ltd",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00602": {
+"ll": [
+35.037016,
+32.431498
+],
+"ov": "ebd90ea1-4264-40d1-b856-fef405e5ba22",
+"on": "Pharmacy Emmanouel",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00641": {
+"ll": [
+35.035152,
+32.425024
+],
+"ov": "a1631133-b565-4512-8878-574bf8309a17",
+"on": "Pharmacy Sokratous",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00592": {
+"ll": [
+35.029932,
+32.419905
+],
+"ov": "dd491f10-42a8-4228-9689-f38a67a99396",
+"on": "Anna Erotokritou Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00358": {
+"ll": [
+34.911348,
+33.011591
+],
+"ov": "365a6d26-5483-4db1-b5da-7aaccff887ec",
+"on": "Φαρμακείο Δέσποινα Βακανά",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00412": {
+"ll": [
+34.990662,
+32.902807
+],
+"ov": "65104f30-6feb-45ba-b523-b132919ffff4",
+"on": "Φαρμακείο Νάσια Κορωνίδου",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00217": {
+"ll": [
+34.869812,
+32.910349
+],
+"ov": "2e382d2b-577d-4534-bb1e-d6875daf0725",
+"on": "Pharmacy Andreas Kyriazis",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00156": {
+"ll": [
+34.860853,
+32.913534
+],
+"ov": "fa26cb2a-e8f0-4e96-9b65-14285dcfe98b",
+"on": "Bwell Trimiklini Pharmacy",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00737": {
+"ll": [
+34.990335,
+33.978662
+],
+"ov": "643343d2-97e2-43dc-b739-57e758cadf8a",
+"on": "Napa Olympic Private Hospital",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00735": {
+"ll": [
+35.033892,
+33.977182
+],
+"ov": "70ce6aa4-6251-4a28-a82a-3a29e821994b",
+"on": "Lito Private Hospital",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00738": {
+"ll": [
+35.01557,
+34.047773
+],
+"ov": "d1ab0f97-f9c4-4a92-90b7-aad35496aae9",
+"on": "Valessia Polyclinic",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00722": {
+"ll": [
+34.930101,
+33.59955
+],
+"ov": "fdbfd224-363f-4c9a-b6eb-589907a8e021",
+"on": "Κλινικη Δρ Κώστα Χριστοφορου",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00723": {
+"ll": [
+34.924509,
+33.616793
+],
+"ov": "ace61fa7-25e1-41f6-a7f3-569292fdde63",
+"on": "Saint Raphael Private Hospital",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00720": {
+"ll": [
+34.9167,
+33.629202
+],
+"ov": "b7e6b473-c6e5-4b38-b771-d1bb807e56c5",
+"on": "Dr. Andreas Skarparis - Larnaca Center For Plastic Surgery & Hand Surgery",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00721": {
+"ll": [
+34.916986,
+33.622194
+],
+"ov": "91ce8491-1b5a-4913-8cdf-9f78232ede7b",
+"on": "New Phaneromeni Polyclinic",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00706": {
+"ll": [
+34.68347,
+33.040276
+],
+"ov": "d886b204-ff8d-4738-9b94-7ba7c7c5e803",
+"on": "Genesis Centre for Fertility & Human Pre-Implantation Genetics",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00708": {
+"ll": [
+34.724447,
+33.018396
+],
+"ov": "87581504-9be9-4dbf-974f-d3cd32bbec4a",
+"on": "Embryon Fertility Center",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00707": {
+"ll": [
+34.681158,
+33.033659
+],
+"ov": "5195dae1-89c4-4ce4-91dd-951a62552bad",
+"on": "Charity Shop",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00699": {
+"ll": [
+34.688047,
+33.034121
+],
+"ov": "98c1d163-40e0-4f98-b961-54105df917e0",
+"on": "St. Peter and Paul's Private Hospital",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00703": {
+"ll": [
+34.690523,
+33.034998
+],
+"ov": "f50bffcb-5a09-48a1-ae5d-2dbfde6e815f",
+"on": "Zoodochou Pigis Polyclinic",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00698": {
+"ll": [
+34.685038,
+33.029213
+],
+"ov": "b93e7c35-bd91-4cb8-8a00-043838f0b721",
+"on": "Imperial Clinic",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00704": {
+"ll": [
+34.705111,
+33.028185
+],
+"ov": "59d0642a-5bd6-40f8-ab0b-7ac1a6cc6839",
+"on": "Παιδιατρικό Τμήμα Mediterranean Hospital of Cyprus",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00691": {
+"ll": [
+34.684851,
+33.028971
+],
+"ov": "43c7576b-e740-4f61-92d6-aa1fba7632b4",
+"on": "Limassol Ophthalmic Center",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00696": {
+"ll": [
+34.693132,
+33.02865
+],
+"ov": "6111e175-9ffc-4f70-993a-c79ab118a826",
+"on": "Pantheo Eye Center",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00701": {
+"ll": [
+34.68207,
+33.040335
+],
+"ov": "f19e5c65-e2d7-4bfb-a405-59ec2f4b9355",
+"on": "Ygia Hospital Clinic",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00683": {
+"ll": [
+35.1696,
+33.359499
+],
+"ov": "3adfcdb9-4c62-4a2a-82be-19bba9f565e4",
+"on": "Cryos IVF Clinic",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00681": {
+"ll": [
+35.16123,
+33.310556
+],
+"ov": "909e93db-fa6e-4db7-b012-221742fccd1b",
+"on": "Ophthalmos Research and Educational Institute",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00687": {
+"ll": [
+35.111712,
+33.377546
+],
+"ov": "7821d27a-1351-43af-ba6c-bbfdd64af38e",
+"on": "Nefrozoi Medical Center",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00678": {
+"ll": [
+35.139551,
+33.364023
+],
+"ov": "389d4707-54f5-4944-a8e5-571ba6dc2aad",
+"on": "Aretaeio Hospital",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00672": {
+"ll": [
+35.158495,
+33.367689
+],
+"ov": "9a565937-b6f7-4441-bde7-72a009fb79a4",
+"on": "Δρ. Δημήτριος Γρηγορίου - Dr. Dimitrios Grigoriou",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00676": {
+"ll": [
+35.167925,
+33.314817
+],
+"ov": "d0d2e726-6996-4578-8c45-dc32ba431e30",
+"on": "The Cyprus Institute of Neurology and Genetics",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00679": {
+"ll": [
+35.161741,
+33.368525
+],
+"ov": "54e341f6-6807-486c-a286-5f8d99dacabd",
+"on": "RGS-Reproductive Genetic Services, Cyprus & UK",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00673": {
+"ll": [
+35.1584,
+33.36725
+],
+"ov": "93561a6a-1bae-4df1-9ccd-2357d4a800f5",
+"on": "Akeso Fertility Center",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00661": {
+"ll": [
+35.167498,
+33.36521
+],
+"ov": "7d6092ee-d4d9-4664-b7db-2c31737bd785",
+"on": "Saint Anastasios Clinic",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00668": {
+"ll": [
+35.167379,
+33.368029
+],
+"ov": "ab08edf7-65fa-4742-8d36-099912df823f",
+"on": "Ledra Clinic",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00662": {
+"ll": [
+35.148205,
+33.320723
+],
+"ov": "84c714cd-4ac8-4620-b9bd-10575af84cb9",
+"on": "Apollonion Private Hospital",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00685": {
+"ll": [
+35.146259,
+33.34693
+],
+"ov": "80093fd3-a523-407e-a4f2-90c3923f204a",
+"on": "El Greco Medical Centre",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00684": {
+"ll": [
+35.122404,
+33.335112
+],
+"ov": "e0493ac9-d43b-4cce-9298-50ac49169fc7",
+"on": "The Surgery Center 3i",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00686": {
+"ll": [
+35.137758,
+33.348516
+],
+"ov": "d7aebb27-7c1a-4a60-9fc9-62d49e1f2612",
+"on": "Νεφροντίδα - Νεφρολογικό Κέντρο",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00733": {
+"ll": [
+34.762783,
+32.438402
+],
+"ov": "ec23b452-d5e3-4031-bc3b-a24650ae5b90",
+"on": "Iasis Private Hospital",
+"score": 1.0,
+"by": "phone"
+},
+"pri-00728": {
+"ll": [
+34.762629,
+32.417837
+],
+"ov": "46797a0e-b532-41b4-a343-e45697960487",
+"on": "Elpis Medical Centre",
+"score": 1.0,
+"by": "phone"
+},
+"cy-02150": {
+"ll": [
+35.108488,
+33.385298
+],
+"ov": "b2f3caa0-f9b1-4ab3-abaf-a6142330efb4",
+"on": "Chris Pizza",
+"score": 1.0,
+"by": "phone"
+},
+"cy-02168": {
+"ll": [
+34.974726,
+33.250105
+],
+"ov": "9bcc12b3-12d6-4ddf-979b-4f92e58af43d",
+"on": "Acropolis Hill Restaurant",
+"score": 1.0,
+"by": "phone"
+},
+"cy-02172": {
+"ll": [
+35.185156,
+32.681112
+],
+"ov": "8498f6a6-34d6-440c-80c8-4f4437de894c",
+"on": "Ifigeneia Hotel",
+"score": 1.0,
+"by": "phone"
+},
+"cy-02267": {
+"ll": [
+35.159323,
+33.359789
+],
+"ov": "c0116fb5-2416-413b-b9c6-645a9d16f749",
+"on": "Almond Business Hotel",
+"score": 1.0,
+"by": "phone"
+},
+"cy-02568": {
+"ll": [
+35.173861,
+33.364836
+],
+"ov": "abb147cd-d601-4763-8f2e-b5c268ac834c",
+"on": "AKORA all day",
+"score": 1.0,
+"by": "phone"
+},
+"cy-02570": {
+"ll": [
+35.166676,
+33.361712
+],
+"ov": "ef6ea1c2-2e72-44a4-9cdf-f212e8ff5aa5",
+"on": "Bruno Coffee Stores Cyprus",
+"score": 1.0,
+"by": "phone"
+},
+"cy-02578": {
+"ll": [
+35.166861,
+33.361494
+],
+"ov": "a31a85f5-2488-4dfc-bd23-ce21e4b948df",
+"on": "360 Nicosia",
+"score": 1.0,
+"by": "phone"
+},
+"cy-02719": {
+"ll": [
+35.147219,
+33.360659
+],
+"ov": "e8729a81-248f-48b4-a7a9-1bee8a8a3e0e",
+"on": "Alonia & Salonia ",
+"score": 1.0,
+"by": "phone"
+},
+"cy-02727": {
+"ll": [
+35.010195,
+33.256884
+],
+"ov": "4245fb7f-58e6-4baa-a58c-d0a5a3a7f350",
+"on": "Eleorama Village Tavern",
+"score": 1.0,
+"by": "phone"
+},
+"cy-02759": {
+"ll": [
+34.955015,
+33.323984
+],
+"ov": "75c9754c-0608-4481-aa08-b88472362c4e",
+"on": "ProjectandMorevents",
+"score": 1.0,
+"by": "phone"
+},
+"cy-02765": {
+"ll": [
+35.167263,
+33.371
+],
+"ov": "8892866b-15cc-4075-af8f-47264f0b62da",
+"on": "Το Κοντοσούβλι",
+"score": 1.0,
+"by": "phone"
+},
+"cy-02783": {
+"ll": [
+35.072901,
+33.325338
+],
+"ov": "ae8d7d32-e082-4130-8bde-afb63ff41ba6",
+"on": "Coffeehouse TasteHabitat",
+"score": 1.0,
+"by": "phone"
+},
+"cy-01211": {
+"ll": [
+34.675001,
+33.0333
+],
+"ov": "de22a645-06d8-4dc7-8c52-add249a48fde",
+"on": "TA \"Φύλαγρα\"",
+"score": 1.0,
+"by": "phone"
+},
+"cy-01293": {
+"ll": [
+34.710135,
+33.049822
+],
+"ov": "22beb666-06d1-474a-baf1-9e4171c93b4e",
+"on": "Niki's House",
+"score": 1.0,
+"by": "phone"
+},
+"cy-01627": {
+"ll": [
+34.690699,
+33.030493
+],
+"ov": "61af6059-1a4b-4e1e-a5d7-d09aa7e906ab",
+"on": "Ωραίος Τρελλός",
+"score": 1.0,
+"by": "phone"
+},
+"cy-01685": {
+"ll": [
+34.684778,
+33.014601
+],
+"ov": "61d25273-a20c-44e2-b6e2-44cdf29c294a",
+"on": "Elenas Kebab",
+"score": 1.0,
+"by": "phone"
+},
+"cy-01709": {
+"ll": [
+34.713602,
+33.271704
+],
+"ov": "a383cde6-ab49-4cd2-8270-401fb48297ff",
+"on": "Adamos Fish Tavern",
+"score": 1.0,
+"by": "phone"
+},
+"cy-01710": {
+"ll": [
+34.711611,
+33.270452
+],
+"ov": "2282ede6-6cd6-4bd5-942a-3c974c595faf",
+"on": "Sofroniou Beach Restaurant",
+"score": 1.0,
+"by": "phone"
+},
+"cy-01808": {
+"ll": [
+34.800192,
+33.021421
+],
+"ov": "10a78bbf-38b9-48dc-951d-da103e9767fc",
+"on": "Apsiou Tavern",
+"score": 1.0,
+"by": "phone"
+},
+"cy-01814": {
+"ll": [
+34.823645,
+32.83433
+],
+"ov": "44c8fcf7-7be2-464d-b63e-16a62205f7b9",
+"on": "Orea Hellas Restaurant",
+"score": 1.0,
+"by": "phone"
+},
+"cy-01877": {
+"ll": [
+34.851587,
+32.886908
+],
+"ov": "f9231ac7-50d5-472d-bb39-ad7b221066b5",
+"on": "Kouka Tavern",
+"score": 1.0,
+"by": "phone"
+},
+"cy-01886": {
+"ll": [
+34.839804,
+33.042147
+],
+"ov": "eebf6cf6-68a3-4630-8fcc-8bc2f60c6ec1",
+"on": "Γεύσεις Ζωής",
+"score": 1.0,
+"by": "phone"
+},
+"cy-01890": {
+"ll": [
+34.765564,
+33.173967
+],
+"ov": "409be429-5796-4cf6-9eff-df4b83a84741",
+"on": "Chateau Punin",
+"score": 1.0,
+"by": "phone"
+},
+"cy-01894": {
+"ll": [
+34.669481,
+33.039976
+],
+"ov": "ed8e8105-f030-4959-be5a-c12b77ab142a",
+"on": "Ela Cafe",
+"score": 1.0,
+"by": "phone"
+},
+"cy-01948": {
+"ll": [
+34.892467,
+32.965471
+],
+"ov": "95785f83-1f45-4410-bebb-9dc2158f5a64",
+"on": "Ταβέρνα Συμπόσιο",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00607": {
+"ll": [
+34.867048,
+33.49795
+],
+"ov": "0c08d9c4-30c7-4e0d-85c0-d8657dc68cf7",
+"on": "Kokos",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00644": {
+"ll": [
+34.911459,
+33.595388
+],
+"ov": "43226444-617b-423c-b83d-a96c61b9667e",
+"on": "Γυρογευστικό ΛΤΔ",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00666": {
+"ll": [
+34.913626,
+33.636934
+],
+"ov": "051b6b03-f110-4f74-a707-9b72b255b512",
+"on": "Achilleos City Hotel",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00690": {
+"ll": [
+34.913351,
+33.635775
+],
+"ov": "c7a0bde4-2b1d-4d63-8ba9-84bc35fab77b",
+"on": "Chilleo burgers",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00857": {
+"ll": [
+34.925165,
+33.615007
+],
+"ov": "93b07fce-1df1-4783-9eea-18b2aaf58c8e",
+"on": "Εν Τέχνο Καφενείο",
+"score": 1.0,
+"by": "phone"
+},
+"cy-01012": {
+"ll": [
+34.923239,
+33.636648
+],
+"ov": "2b1ba82c-6339-46b7-9f0d-33a993929ae4",
+"on": "CoffeeBrands Makariou",
+"score": 1.0,
+"by": "phone"
+},
+"cy-01091": {
+"ll": [
+34.821531,
+33.375261
+],
+"ov": "64164f53-c68f-447f-9ddc-55a90baeff9f",
+"on": "Meraklomata Tavern",
+"score": 1.0,
+"by": "phone"
+},
+"cy-02797": {
+"ll": [
+34.790728,
+32.397844
+],
+"ov": "abe998b4-057c-4549-9e1b-d02cc367a615",
+"on": "Akti Beach Hotel & Village Resort",
+"score": 1.0,
+"by": "phone"
+},
+"cy-02803": {
+"ll": [
+34.790728,
+32.397844
+],
+"ov": "abe998b4-057c-4549-9e1b-d02cc367a615",
+"on": "Akti Beach Hotel & Village Resort",
+"score": 1.0,
+"by": "phone"
+},
+"cy-02940": {
+"ll": [
+34.783747,
+32.408567
+],
+"ov": "a584da6a-da5e-43b4-9b3b-7c2e16dec7d5",
+"on": "Vesta Holidays Ltd",
+"score": 1.0,
+"by": "phone"
+},
+"cy-02944": {
+"ll": [
+34.755709,
+32.419207
+],
+"ov": "a077bdc7-b509-4b45-be8e-74349cf13faa",
+"on": "The Corner Bakery",
+"score": 1.0,
+"by": "phone"
+},
+"cy-02947": {
+"ll": [
+34.771189,
+32.42613
+],
+"ov": "ae54e853-2531-4c55-857e-6ec2ff7d8acb",
+"on": "Park of Colors",
+"score": 1.0,
+"by": "phone"
+},
+"cy-02948": {
+"ll": [
+34.775047,
+32.41918
+],
+"ov": "2fa63352-a004-4d3d-8e63-29a51550f53e",
+"on": "Pafilia",
+"score": 1.0,
+"by": "phone"
+},
+"cy-02952": {
+"ll": [
+34.774694,
+32.427828
+],
+"ov": "9691a27b-757e-465c-89f1-6a0492bcc932",
+"on": "Localito Specialty Coffee",
+"score": 1.0,
+"by": "phone"
+},
+"cy-02958": {
+"ll": [
+34.780443,
+32.425417
+],
+"ov": "d647c002-768e-4a0f-b9de-6ff28c81ead8",
+"on": "Aliki Flower Shop",
+"score": 1.0,
+"by": "phone"
+},
+"cy-03280": {
+"ll": [
+34.788565,
+32.430372
+],
+"ov": "64c0b2f9-b134-4ee7-96b4-bf0288048a38",
+"on": "Onisiforos",
+"score": 1.0,
+"by": "phone"
+},
+"cy-03430": {
+"ll": [
+34.87995,
+32.48184
+],
+"ov": "87580753-023d-42be-9119-d609f94048f4",
+"on": "The aiora concept",
+"score": 1.0,
+"by": "phone"
+},
+"cy-03559": {
+"ll": [
+34.936922,
+32.407976
+],
+"ov": "7301a981-6bc2-43de-bd2d-71d5d8a5dceb",
+"on": "Karydhia Cottage",
+"score": 1.0,
+"by": "phone"
+},
+"cy-03570": {
+"ll": [
+35.037622,
+32.424109
+],
+"ov": "cfb4ca04-4007-479b-a300-5a57e3161262",
+"on": "Bougainvillea Hotel Apartments",
+"score": 1.0,
+"by": "phone"
+},
+"cy-03576": {
+"ll": [
+35.036341,
+32.424032
+],
+"ov": "58ed42bc-7868-41ce-aa73-034fdbd62eea",
+"on": "Vasilion Agrotourism",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00045": {
+"ll": [
+34.985252,
+34.002268
+],
+"ov": "8694df2f-7056-47c1-bb8c-6ed83cf5da33",
+"on": "Nestor Hotel",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00072": {
+"ll": [
+34.987337,
+33.993195
+],
+"ov": "e3fa2ce7-51f0-4c3d-a070-c5371c68ac62",
+"on": "Levanta",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00082": {
+"ll": [
+34.988649,
+33.982027
+],
+"ov": "b5b40468-a62c-41d6-8b9c-9eeb9a03a729",
+"on": "Carina sports bar",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00085": {
+"ll": [
+34.992685,
+33.997095
+],
+"ov": "8546aa69-b622-4c0f-93be-3761035ad7df",
+"on": "Christabelle Hotel Apartments",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00086": {
+"ll": [
+34.987211,
+33.948683
+],
+"ov": "ca3d3b7a-1f38-4b2d-8f14-ee9a43c9db4f",
+"on": "Cosmelenia Hotel Apartments",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00087": {
+"ll": [
+34.988741,
+33.985346
+],
+"ov": "86da2c94-c1ac-4b2c-8dc7-308072174828",
+"on": "Old Village Tavern",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00101": {
+"ll": [
+34.984457,
+34.001959
+],
+"ov": "87afc7eb-ed0b-4aac-8077-7aa08fd53b9e",
+"on": "Lantiana Napa Aparthotel",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00104": {
+"ll": [
+34.987906,
+33.950064
+],
+"ov": "9ce96afa-6ba4-4fe5-b89f-ff9223a7544d",
+"on": "Makronisos Holiday Village",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00118": {
+"ll": [
+34.992685,
+33.997095
+],
+"ov": "8546aa69-b622-4c0f-93be-3761035ad7df",
+"on": "Christabelle Hotel Apartments",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00130": {
+"ll": [
+34.992685,
+33.997095
+],
+"ov": "8546aa69-b622-4c0f-93be-3761035ad7df",
+"on": "Christabelle Hotel Apartments",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00311": {
+"ll": [
+34.92584,
+33.636007
+],
+"ov": "bbc80474-22d8-46b8-8be7-ba240d5f87c5",
+"on": "Ellis Hotel Apts",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00318": {
+"ll": [
+34.987778,
+33.953402
+],
+"ov": "dc1b8710-f4a0-4f5e-b398-b01902646605",
+"on": "Cup Code Cafe and Bar",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00323": {
+"ll": [
+35.033417,
+34.036524
+],
+"ov": "ed43ee65-e3d3-400d-b2cc-f5653688e916",
+"on": "Maricosta Hotel Apartments & Villas",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00341": {
+"ll": [
+35.032928,
+34.031523
+],
+"ov": "f2d85c99-c9f2-4aa6-a91d-e81d3103f4c6",
+"on": "Polycarpia Hotel Apartments - Protaras",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00375": {
+"ll": [
+35.028109,
+34.043779
+],
+"ov": "c355ff80-16d4-4759-8052-25fa7df47286",
+"on": "Anastasia Hotel Apartments - Protaras",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00382": {
+"ll": [
+35.042194,
+34.030699
+],
+"ov": "12bb5dba-0aa7-4acd-b9b8-ee68e02f751d",
+"on": "Levandis",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00389": {
+"ll": [
+35.022816,
+34.040083
+],
+"ov": "7e91f6f6-1aed-469e-b258-cc09434ff2ab",
+"on": "Mandalena Hotel Apts",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00390": {
+"ll": [
+35.033417,
+34.036524
+],
+"ov": "ed43ee65-e3d3-400d-b2cc-f5653688e916",
+"on": "Maricosta Hotel Apartments & Villas",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00391": {
+"ll": [
+35.033417,
+34.036524
+],
+"ov": "ed43ee65-e3d3-400d-b2cc-f5653688e916",
+"on": "Maricosta Hotel Apartments & Villas",
+"score": 1.0,
+"by": "phone"
+},
+"cy-00520": {
+"ll": [
+35.049761,
+33.976271
+],
+"ov": "d0c55ea1-ffb9-40dd-b9e1-06f34dd5380f",
+"on": "Play4all Bowling Center",
+"score": 1.0,
+"by": "phone"
+},
+"cy-03632": {
+"ll": [
+34.988394,
+32.902964
+],
+"ov": "35f158cd-f755-48c9-993c-b48e5ecd2b1d",
+"on": "Minaides Hotel",
+"score": 1.0,
+"by": "phone"
+},
+"cy-03633": {
+"ll": [
+34.98802,
+32.901762
+],
+"ov": "c0533856-ed91-4fe0-b8cc-8bb2dbf17eef",
+"on": "Linos Inn",
+"score": 1.0,
+"by": "phone"
+},
+"cy-03659": {
+"ll": [
+34.990557,
+32.829592
+],
+"ov": "bc31cdc0-e94a-4714-9963-143de0a0a9d9",
+"on": "Ayios Andronikos Agrotourism House",
+"score": 1.0,
+"by": "phone"
+},
+"cy-03668": {
+"ll": [
+34.99453,
+32.827486
+],
+"ov": "da6f6614-3553-4dcc-b7e5-04448c38e73e",
+"on": "Anastou's Traditional House",
+"score": 1.0,
+"by": "phone"
+},
+"cy-03677": {
+"ll": [
+34.909687,
+32.424524
+],
+"ov": "1b28f969-3985-4ee4-9be9-8f501cfa9643",
+"on": "SPITI Calliope - ex House of Eleni",
+"score": 1.0,
+"by": "phone"
+},
+"cy-03688": {
+"ll": [
+34.939608,
+32.976122
+],
+"ov": "cea07f8f-b5cf-4957-bf76-1cd2c284fb65",
+"on": "Stou Singer",
+"score": 1.0,
+"by": "phone"
+},
+"cy-03705": {
+"ll": [
+34.815184,
+32.872873
+],
+"ov": "feeea475-9d0b-4487-a7e2-028168ad4121",
+"on": "Oinoessa Traditional Boutique Guest Houses - Exclusive Suite with Fireplace (Palati)",
+"score": 1.0,
+"by": "phone"
+},
+"cy-03707": {
+"ll": [
+34.823412,
+32.834314
+],
+"ov": "7e52bae3-41db-4d63-9c07-2ec31e857a70",
+"on": "Oinou Strata",
+"score": 1.0,
+"by": "phone"
+},
+"cy-03713": {
+"ll": [
+34.815073,
+32.874773
+],
+"ov": "4fc21972-ff79-43dc-8a13-24343e877318",
+"on": "𝘼𝙂𝙍𝙊𝙑𝙄𝙉𝙊 S𝙩𝙪𝙙𝙞𝙤𝙨& T𝙖𝙫𝙚𝙧𝙣",
+"score": 1.0,
+"by": "phone"
+},
+"cy-03714": {
+"ll": [
+34.815073,
+32.874773
+],
+"ov": "4fc21972-ff79-43dc-8a13-24343e877318",
+"on": "𝘼𝙂𝙍𝙊𝙑𝙄𝙉𝙊 S𝙩𝙪𝙙𝙞𝙤𝙨& T𝙖𝙫𝙚𝙧𝙣",
+"score": 1.0,
+"by": "phone"
+},
+"cy-03746": {
+"ll": [
+34.848497,
+32.809206
+],
+"ov": "b6fe05a3-eaad-4890-85ec-0b371c6e29df",
+"on": "Stou Kir Yianni Guest House",
+"score": 1.0,
+"by": "phone"
+},
+"cy-03763": {
+"ll": [
+34.922262,
+33.092054
+],
+"ov": "360c3c9a-3cdc-4226-bcc5-fec0a6e569eb",
+"on": "Black 10",
+"score": 1.0,
+"by": "phone"
+},
+"pha-00454": {
+"ll": [
+35.165762,
+33.362989
+],
+"ov": "b5ab6de0-5abd-4855-9210-e74aed6e29ea",
+"on": "Pharmacy Magda Mitsi",
+"score": 1.0,
+"by": "name"
 }
 }

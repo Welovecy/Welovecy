@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PLACES, PLACE_BEACH, getDest, getPlace, linkedToPlace, photoFor, placeHref } from "@/lib/data";
 import { ListRow } from "@/components/ListRow";
+import { ReportPin } from "@/components/MapNote";
 import { poiRow } from "@/lib/views";
 import { Crumbs, Facts, Sources } from "@/components/Bits";
 import { Photo } from "@/components/Photo";
@@ -105,6 +106,7 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
             <h2>Practical</h2>
             <Facts rows={p.practical} />
             <Sources list={p.sources} reviewed={p.how ? "visitor guide, 22 November 2026. Check opening, access and return transport before you travel." : undefined} />
+            <ReportPin name={p.name} href={href} />
             {beach ? <BeachSources r={beach} /> : null}
           </div>
           <div className="panel">
@@ -121,7 +123,7 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
           <div className="sec-head"><h2 id="h-here">{linked.every((r) => r.k === "nature") ? "Walks from here" : "Walks and more here"}</h2></div>
           <ul className="rows">{linked.map((r) => {
             const row = poiRow(r);
-            return <ListRow key={r.i} {...row} sub={[r.cat, r.len, r.grade ? `grade ${r.grade} of 3` : ""].filter(Boolean).join(" · ")} />;
+            return <ListRow key={r.i} {...row} sub={[r.cat, r.len, r.time, r.shape, r.grade ? `grade ${r.grade} of 3` : ""].filter(Boolean).join(" · ")} />;
           })}</ul>
         </section>
       ) : null}

@@ -283,6 +283,63 @@ EXTRA += [
      "desc": "The official tourist information office in Paphos town.", "srcs": [{"t": VC_TIO[0], "u": VC_TIO[1]}]},
 ]
 
+# ---- 26 Nov 2026, second pass: trails on the official map we didn't have yet. Figures from the Visit Cyprus map or the trail's own page. ----
+VC_ZOUMI = ("Visit Cyprus: Prodromos to Zoumi trail", "https://www.visitcyprus.com/discover-cyprus/rural/nature-trails/prodromos-zoumi-linear-lemesos-limassol-lefkosia-nicosia-districts-troodos-forest-nature-trail-2")
+VC_KYP = ("Visit Cyprus: Kyparissia to Germasogeia Dam trail", "https://www.visitcyprus.com/?p=468442")
+B2 = [
+    ("att-trail-prodromos-zoumi", "n12622883686", "nature", "Nature trail", "Prodromos to Zoumi Nature Trail", ["Zoumi trail", "Prodromos Zouri"], None,
+     "A forest trail that starts by the children's play area in Prodromos, the highest village in Cyprus.", VC_ZOUMI,
+     {"len": "3 km", "grade": 2, "time": "1 to 1.5 hours", "shape": "one way"}),
+    ("att-trail-psilo-dendro", "n12249813003", "nature", "Nature trail", "Psilo Dendro to Pouziaris Nature Trail", ["Pouziaris trail", "Psilo Dentro trail"], None,
+     "A long, demanding trail above Platres, starting where the Platres to Mesa Potamos forest road meets the B8, near Psilo Dendro.", VC_TRAILS,
+     {"len": "9 km", "grade": 3, "time": "3 to 4 hours", "place": "platres"}),
+    ("att-trail-teisia-madaris", "n3836205357", "nature", "Nature trail", "Teisia tis Madaris Nature Trail", ["Tisia tis Madaris", "Madari ridge trail"], None,
+     "A ridge walk on Madari, starting below the fire lookout station above Kyperounta.", VC_TRAILS, {"len": "3.5 km", "grade": 3, "time": "1.5 hours"}),
+    ("att-trail-madari", "n2552639232", "nature", "Nature trail", "Madari Nature Trail", ["Madari trail", "Doxa soi o Theos"], None,
+     "A long loop around Madari in four sections, with its start and end at Doxa soi o Theos. Some sections can be walked on their own.", VC_TRAILS,
+     {"len": "13 km", "grade": 3, "time": "5.5 hours", "shape": "loop", "pr": "approx", "pinNote": "An information board for the Madari trails, from OpenStreetMap. The official start is at Doxa soi o Theos."}),
+    ("att-trail-xyliatos", "n2007734498", "nature", "Nature trail", "Xyliatos Dam Nature Trail", ["Xyliatos trail", "Xyliatos reservoir walk"], None,
+     "A walk around the Xyliatos reservoir, starting at the dam's picnic site or above the overflow.", VC_TRAILS,
+     {"len": "3.8 km", "grade": 2, "time": "1 to 1.5 hours", "pinNote": "The Xyliatos Dam picnic site, one of the two official starts, from OpenStreetMap."}),
+    ("att-trail-agia-eirini", "n10297312135", "nature", "Nature trail", "Agia Eirini to Limeria Nature Trail", ["Limeria trail", "Spilies tou Digeni"], None,
+     "A steep uphill trail in the Adelfoi forest, from Agia Eirini village to Limeria.", VC_TRAILS,
+     {"len": "5 km", "grade": 3, "time": "2.5 hours", "shape": "one way", "pr": "approx", "a": "Agia Eirini village",
+      "pinNote": "The Limeria end of the trail, from OpenStreetMap. The official start is in Agia Eirini village, so directions search for the village."}),
+    ("att-trail-kyparissia", "n12623159047", "nature", "Nature trail", "Kyparissia to Germasogeia Dam Nature Trail", ["Germasogeia Dam trail", "Kyparissia trail"], None,
+     "A forest trail in the hills above Limassol, about 3 km off the Parekklisia to Kellaki road. A short loop, or a long walk down to Germasogeia Dam. Both start with a steep descent.", VC_KYP,
+     {"len": "3.7 km loop, or 11 km to the dam", "grade": 2, "time": "1.5 hours (loop), 3 to 3.5 hours (to the dam, grade 3)"}),
+    ("att-trail-persephone", "n1241186373", "nature", "Nature trail", "Persephone Nature Trail", ["Persephoni trail"], None,
+     "An easy trail from Troodos Square through pine forest to a viewpoint over the southern slopes.", VC_TRAILS,
+     {"len": "3 km", "grade": 1, "time": "1 hour", "pr": "approx", "pinNote": "Troodos Square. The trail starts 150 m south of the square, towards the police station."}),
+    ("att-trail-kampos-livadiou", "n4425364591", "nature", "Nature trail", "Kampos tou Livadiou Nature Trail", ["Kampos tou Livadiou trail"], None,
+     "A Troodos forest trail by the Kampos tou Livadiou picnic site, off the Troodos to Karvounas road.", VC_TRAILS,
+     {"len": "3 km", "grade": 2, "time": "1.5 hours", "pr": "approx", "pinNote": "The Kampos tou Livadiou picnic site, from OpenStreetMap. Check the exact start on the official map."}),
+    ("att-trail-selladi-kannavia", "n10301013579", "nature", "Nature trail", "Selladi tou Karamanli to Kannavia Nature Trail", ["Kannavia trail", "Selladi tou Karamanli"], None,
+     "A mountain trail from Selladi tou Karamanli, on the Madari ridge, down towards Kannavia village.", VC_TRAILS,
+     {"len": "4.8 km", "grade": 3, "time": "2.5 hours"}),
+]
+SPEC += [(i, oid, k, cat, n, al, [], web, d, src, x) for i, oid, k, cat, n, al, web, d, src, x in B2]
+FD_TRAILS |= {i for i, *_ in B2}
+EXTRA += [
+    {"i": "att-trail-araka-agiasmati", "k": "nature", "cat": "Nature trail", "n": "Panagia tou Araka to Stavros tou Agiasmati Nature Trail", "alt": "Araka Agiasmati trail; painted churches walk",
+     "ll": [34.96544, 33.0072], "pr": "osm", "place": "panagia-tou-araka", "len": "7 km", "grade": 3, "time": "3 hours",
+     "desc": "A trail between two of the UNESCO painted churches of Troodos, Panagia tou Araka near Lagoudera and Stavros tou Agiasmati near Platanistasa.",
+     "srcs": [{"t": VC_TRAILS[0], "u": VC_TRAILS[1]}, {"t": FD[0], "u": FD[1]}], "pinNote": "Panagia tou Araka church, one end of the trail."},
+]
+# The walks to the two Troodos waterfalls belong on the waterfall listings rather than as separate records.
+WATERFALL_WALK = {"att-kaledonia-falls": {"len": "3 km trail", "grade": 3, "time": "1.5 hours"}, "att-millomeris-falls": {"len": "1.2 km trail", "grade": 3, "time": "30 minutes"}}
+
+# Walking time and route shape from the Visit Cyprus nature trails map (2026) and the trail's own Visit Cyprus page
+# (titles say "Circular" or "Linear"). One-way trails end away from the start, so the listing says to plan the way back.
+TRAIL_TIME = {
+    "att-trail-aphrodite-akamas": ("3.5 hours", "loop"), "att-trail-adonis": ("3.5 hours", "loop"), "att-trail-smigies": ("1 hour short, 2 hours long", "loop"),
+    "att-trail-pissouromoutti": ("2 hours", None), "att-trail-artemis": ("2.5 to 3 hours", None), "att-trail-atalante": ("4 to 5 hours", None),
+    "att-trail-livadi": ("30 minutes", "loop"), "att-trail-mnimata-piskopon": ("3 hours", "one way"), "att-trail-kannoures": ("4 hours downhill", "one way"),
+    "att-trail-prodromos": ("1.5 to 2 hours", "one way"), "att-trail-trooditissa-foini": (None, "one way"), "att-trail-chrysovrysi": (None, "one way"),
+    "att-trail-konnoi-cyclops": ("45 minutes", None), "att-trail-konnoi-anargyroi": ("2 hours", "loop"), "att-trail-sea-caves": ("1.5 hours", "one way"),
+    "att-trail-aphrodite-cape-greco": ("1 hour", None),
+}
+
 out = []
 for row in SPEC:
     i, oid, k, cat, name, alias, inside, web, desc, extra = row[:10]
@@ -301,6 +358,14 @@ for row in SPEC:
     })
     out[-1].update(x)
 for e in EXTRA: out.append({"inside": [], **e})
+for o in out:
+    if o["i"] in WATERFALL_WALK:
+        o.update(WATERFALL_WALK[o["i"]])
+        if not any(x["u"] == VC_TRAILS[1] for x in o["srcs"]): o["srcs"].insert(-1, {"t": VC_TRAILS[0], "u": VC_TRAILS[1]})
+    t = TRAIL_TIME.get(o["i"])
+    if t:
+        if t[0]: o["time"] = t[0]
+        if t[1]: o["shape"] = t[1]
 for o in out:
     if o["i"] == "att-zenobia":
         o["sea"] = True

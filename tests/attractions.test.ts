@@ -15,8 +15,14 @@ describe("attractions data", () => {
   });
   it("trails carry length and an official grade from 1 to 3", () => {
     const trails = items.filter((a) => a.i.startsWith("att-trail-"));
-    expect(trails.length).toBeGreaterThanOrEqual(16);
+    expect(trails.length).toBeGreaterThanOrEqual(27);
     for (const t of trails) { expect(t.len, t.i).toBeTruthy(); expect([1, 2, 3]).toContain(t.grade); }
+  });
+  it("one-way walks warn about the way back", () => {
+    const t = POIS.find((r) => r.i === "att-trail-trooditissa-foini")!;
+    const route = poiFacts(t).find((f) => f[0] === "Route");
+    expect(route?.[1]).toMatch(/plan how you get back/);
+    expect(route?.[2]).toBe(true);
   });
   it("tourist offices all have a phone", () => {
     const tio = items.filter((a) => a.k === "info");

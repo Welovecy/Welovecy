@@ -3,6 +3,7 @@ import { aroundData } from "@/lib/views";
 import { getDest } from "@/lib/data";
 import { EssentialsGrid } from "./Essentials";
 import { NearRow } from "./NearRow";
+import { MapNote } from "./MapNote";
 
 const GROUPS: [Parameters<ReturnType<typeof aroundData>["near"]>[0], string][] = [
   ["beach", "Beaches nearby"], ["sight", "Sights nearby"], ["eat", "Eat & drink nearby"],
@@ -30,6 +31,7 @@ export function AroundBlock({ ll, skip, title, moreHref }: { ll: LL; skip?: stri
           ) : null;
         })}
       </div>
+      <MapNote style={{ marginTop: 16 }} />
     </section>
   );
 }

@@ -1,4 +1,5 @@
 "use client";
+import { MapNote } from "./MapNote";
 import { useState } from "react";
 import { AROUND_TABS, KINDS } from "@/lib/kinds";
 import type { AroundKind, LL } from "@/lib/types";
@@ -36,6 +37,7 @@ export function AroundExplorer({ center, label, lists, initial = "beach" }: Prop
         <div className="map-col">
           <MapView center={center} focus={focus} others={others} kind={tab} label={label} />
           <p className="tag" style={{ marginTop: 10 }}>Numbers on the map match the list. Distances are straight-line; walking and taxi figures are estimates.</p>
+          <MapNote />
         </div>
         <div className="near-group" aria-live="polite">
           <ul className="rows">
