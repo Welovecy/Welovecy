@@ -17,7 +17,7 @@ import aliasJson from "@data/aliases.json";
 const ALIAS = (aliasJson as { aliases: Record<string, string[]> }).aliases;
 import { EVENTS, datesTbc, overlaps, whenText } from "../events";
 import { addDays as addD } from "../duty";
-import { PARTNERS, PARTNER_LABEL, partnerFor, partnerHref, type PartnerService, type Stay } from "../partners";
+import { PARTNERS, PARTNER_LABEL, partnerFor, partnerForGuide, partnerHref, type PartnerService, type Stay } from "../partners";
 
 /**
  * The assistant's tools. Each one reads our own data (official registers, the pharmacy rota, MET Norway),
@@ -284,7 +284,7 @@ function buses(a: Args, ctx: Ctx) {
   };
 }
 
-function guides(a: Args) {
+function guides(a: Args, ctx: Ctx) {
   const q = norm(S(a.query));
   const words = q.split(" ").filter((w) => w.length > 2);
   const scored = GUIDES.map((g) => {
@@ -293,7 +293,14 @@ function guides(a: Args) {
   }).filter((x) => x.s).sort((x, y) => y.s - x.s).slice(0, 3);
   // The best match comes with its full text (buses, fares, times live in the body, not just the quick facts).
   const plain = (html: string) => html.replace(/<[^>]+>/g, " ").replace(/&amp;/g, "&").replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/\s+/g, " ").trim();
-  return { results: scored.map(({ g }, i) => ({ title: g.title, about: g.description, quick: g.quick.slice(0, 6), text: i === 0 ? plain(g.html).slice(0, 3200) : undefined, link: url(guideHref(g.slug)), updated: g.updated })) };
+  const results = scored.map(({ g }, i) => ({ title: g.title, about: g.description, quick: g.quick.slice(0, 6), text: i === 0 ? plain(g.html).slice(0, 3200) : undefined, link: url(guideHref(g.slug)), updated: g.updated }));
+  // An airport guide asked about with a resort the partner covers: hand over the partner check too, in code,
+  // so the recommendation doesn't depend on a second tool call. An airport name alone never matches.
+  const top = scored[0]?.g;
+  const p = top && partnerForGuide(top.slug);
+  const stay = S(a.query).replace(/\b(larnaca|larnaka|paphos|pafos)\s+airport\b/gi, " ");
+  const hit = p && partnerFor("airport_transfer", { text: stay });
+  return hit ? { results, ...transferPartner({ service: "airport_transfer", staying: stay }, ctx) } : { results };
 }
 
 /** Every page in the sitemap, so new sections are searchable the moment they ship. */
@@ -330,7 +337,7 @@ export async function runTool(name: string, args: Args, ctx: Ctx): Promise<unkno
     case "pharmacies_on_duty": return pharmacies(args);
     case "weather": return weather(args);
     case "buses": return buses(args, ctx);
-    case "guides": return guides(args);
+    case "guides": return guides(args, ctx);
     case "site_pages": return sitePages(args);
     case "events": return events(args);
     case "transfer_partner": return transferPartner(args, ctx);
@@ -407,7 +414,15 @@ export function fixLinks(answer: string): string {
 }
 
 /** For the area list in the system prompt. */
-export const AREA_LINES = DESTINATIONS.map((d) => `${d.id} = ${d.name}${districtsFor(d.id).length ? ` (pharmacy district: ${districtsFor(d.id).map((x) => x.id).join(" or ")})` : ""}`).join("\n");
+/** The main towns in each area, from the register, so "Coral Bay" or "Peyia" lands in Paphos rather than Akamas. */
+const AREA_TOWNS: Record<string, string> = Object.fromEntries(DESTINATIONS.map((d) => {
+  const c = new Map<string, number>();
+  const skip = new Set(["Not specified", ...(d.id === "troodos" ? ["Limassol", "Nicosia"] : [])]);
+  for (const b of BUSINESSES) if (b.d === d.id && b.tw && !skip.has(b.tw)) c.set(b.tw, (c.get(b.tw) ?? 0) + 1);
+  return [d.id, [...c.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8).map(([t]) => t).join(", ")];
+}));
+const EXTRA_TOWNS: Record<string, string> = { paphos: "Coral Bay, Kato Paphos", akamas: "Latchi, Baths of Aphrodite", ayianapa: "Makronissos, Nissi Beach", protaras: "Pernera, Kapparis, Fig Tree Bay", limassol: "Old Port, Limassol Marina", troodos: "Troodos Square, Prodromos" };
+export const AREA_LINES = DESTINATIONS.map((d) => `${d.id} = ${d.name} (includes ${[EXTRA_TOWNS[d.id], AREA_TOWNS[d.id]].filter(Boolean).join(", ")})${districtsFor(d.id).length ? ` (pharmacy district: ${districtsFor(d.id).map((x) => x.id).join(" or ")})` : ""}`).join("\n");
 export { byDistance };
 
 /* ---------- Cards: the tappable results shown under an answer ---------- */
@@ -457,6 +472,7 @@ export function cardsFrom(name: string, out: unknown): Card[] {
       return list("results").map((r) => placeCard(r, [r.distance, String(r.getting_there ?? "").replace(/ \(estimate\)/g, "")].filter(Boolean).join(" · ")));
     case "buses":
       return list("stops").map((s) => ({ k: "bus", n: String(s.n), sub: `Routes ${(s.routes as string[] | undefined)?.slice(0, 6).join(", ") ?? ""}`, meta: String(s.getting_there ?? "").replace(/ \(estimate\)/g, ""), href: own(s.link) }));
+    case "guides":
     case "transfer_partner": {
       const p = o.partner as Record<string, string> | null;
       if (!p) return [];
