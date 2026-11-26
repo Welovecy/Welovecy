@@ -2,7 +2,9 @@ import { JsonLd } from "@/components/JsonLd";
 import { absolute } from "@/lib/site";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { PLACES, PLACE_BEACH, getDest, getPlace, photoFor, placeHref } from "@/lib/data";
+import { PLACES, PLACE_BEACH, getDest, getPlace, linkedToPlace, photoFor, placeHref } from "@/lib/data";
+import { ListRow } from "@/components/ListRow";
+import { poiRow } from "@/lib/views";
 import { Crumbs, Facts, Sources } from "@/components/Bits";
 import { Photo } from "@/components/Photo";
 import { SaveButton } from "@/components/SaveButton";
@@ -35,6 +37,10 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
   const stay = hotelsNearFor(beach?.i);
   const photo = photoFor(`place-${p.slug}`);
   const loc = localityOf(p);
+  const linked = linkedToPlace(p.slug);
+  const notice = p.notice ? (
+    <div className="notice" role="status"><strong>Closed</strong><p>{p.notice.t} <a href={p.notice.src.u} target="_blank" rel="noopener noreferrer">Source</a></p></div>
+  ) : null;
   const crumbs: [string, string?][] = [["Home", "/"], [d.name, `/destinations/${d.id}`], ...(loc ? [[loc.title, loc.href] as [string, string]] : []), [p.name]];
   const actions = (
     <div className="actions">
@@ -69,6 +75,7 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
             <h1 className="h-hero">{p.name}</h1>
             {p.unesco ? <UnescoBadge id={p.unesco} /> : null}
             <p className="lead">{p.intro}</p>
+            {notice}
             {actions}
           </div>
         </div>
@@ -80,6 +87,7 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
             <h1>{p.name}</h1>
             {p.unesco ? <UnescoBadge id={p.unesco} /> : null}
             <p className="lead" style={{ margin: 0 }}>{p.intro}</p>
+            {notice}
             {p.ll ? <FromBase ll={p.ll} /> : null}
             {actions}
           </div>
@@ -108,6 +116,15 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
           </div>
         </div>
       </section>
+      {linked.length ? (
+        <section className="wrap" aria-labelledby="h-here">
+          <div className="sec-head"><h2 id="h-here">{linked.every((r) => r.k === "nature") ? "Walks from here" : "Walks and more here"}</h2></div>
+          <ul className="rows">{linked.map((r) => {
+            const row = poiRow(r);
+            return <ListRow key={r.i} {...row} sub={[r.cat, r.len, r.grade ? `grade ${r.grade} of 3` : ""].filter(Boolean).join(" · ")} />;
+          })}</ul>
+        </section>
+      ) : null}
       {p.ll ? (
         <>
           {photo ? <section className="wrap" style={{ paddingBottom: 0 }}><FromBase ll={p.ll} /></section> : null}

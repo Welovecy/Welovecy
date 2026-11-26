@@ -1439,17 +1439,1525 @@
    ]
   },
   {
-   "i": "att-limassol-marina",
-   "k": "sight",
-   "cat": "Marina",
-   "n": "Limassol Marina",
-   "alt": "Marina Lemesou",
+   "i": "att-trail-aphrodite-akamas",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Aphrodite Nature Trail",
+   "alt": "Aphroditi trail; Aphrodite trail Akamas",
    "ll": [
-    34.6698,
-    33.0394
+    35.05711,
+    32.344345
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n2972053686",
+   "inside": [],
+   "desc": "A trail across the Akamas headland that starts at the Baths of Aphrodite, with views over Chrysochou Bay.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/2972053686"
+    }
+   ],
+   "len": "7.5 km",
+   "grade": 3,
+   "place": "baths-of-aphrodite"
+  },
+  {
+   "i": "att-trail-adonis",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Adonis Nature Trail",
+   "alt": "Adonis trail",
+   "ll": [
+    35.05711,
+    32.344345
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n2972053686",
+   "inside": [],
+   "desc": "An Akamas trail that starts at the Baths of Aphrodite, the same start as the Aphrodite trail.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/2972053686"
+    }
+   ],
+   "len": "7.5 km",
+   "grade": 3,
+   "place": "baths-of-aphrodite",
+   "pinNote": "The shared trail start at the Baths of Aphrodite. The Adonis trail itself is not mapped by name."
+  },
+  {
+   "i": "att-trail-smigies",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Smigies Nature Trail",
+   "alt": "Smiyies trail; Smigies picnic site",
+   "ll": [
+    35.024038,
+    32.333115
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n12620092688",
+   "inside": [],
+   "desc": "Two loops through Akamas forest from the Smigies picnic site, 2.5 km from Neo Chorio: a short one and a long one.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/12620092688"
+    }
+   ],
+   "len": "2.5 km or 6 km",
+   "grade": 2
+  },
+  {
+   "i": "att-trail-pissouromoutti",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Pissouromoutti Nature Trail",
+   "alt": "Pissouromouti trail",
+   "ll": [
+    35.023392,
+    32.333533
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n6174511541",
+   "inside": [],
+   "desc": "A short Akamas trail that starts at the Smigies picnic site near Neo Chorio.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/6174511541"
+    }
+   ],
+   "len": "3 km",
+   "grade": 2
+  },
+  {
+   "i": "att-trail-artemis",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Artemis Nature Trail",
+   "alt": "Artemis trail; Chionistra trail",
+   "ll": [
+    34.933128,
+    32.872019
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n12693595973",
+   "inside": [],
+   "desc": "A loop around the top of Mount Olympus (Chionistra), starting on the Chionistra road 300 m from the Troodos to Prodromos road.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/12693595973"
+    }
+   ],
+   "len": "7 km",
+   "grade": 1
+  },
+  {
+   "i": "att-trail-atalante",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Atalante Nature Trail",
+   "alt": "Atalanti trail; Atalante trail",
+   "ll": [
+    34.924151,
+    32.880841
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n391393057",
+   "inside": [],
+   "desc": "A long, fairly level trail around Mount Olympus that starts at Troodos Square.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/391393057"
+    }
+   ],
+   "len": "14 km",
+   "grade": 2
+  },
+  {
+   "i": "att-trail-livadi",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Livadi Nature Trail",
+   "alt": "Livadi tou Pasha trail; Kampos tou Livadiou",
+   "ll": [
+    34.935271,
+    32.888269
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n4425364591",
+   "inside": [],
+   "desc": "A short loop near the Kampos tou Livadiou picnic site, off the Troodos to Karvounas road.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/4425364591"
+    }
+   ],
+   "len": "1.5 km",
+   "grade": 1,
+   "pinNote": "The Kampos tou Livadiou picnic site, where the trail starts, from OpenStreetMap."
+  },
+  {
+   "i": "att-trail-mnimata-piskopon",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Mnimata Piskopon Nature Trail",
+   "alt": "Mnimata ton Piskopon; Bishops' Tombs trail",
+   "ll": [
+    34.935271,
+    32.888269
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n4425364591",
+   "inside": [],
+   "desc": "A Troodos forest trail that starts at the Kampos tou Livadiou picnic site, off the Troodos to Karvounas road.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/4425364591"
+    }
+   ],
+   "len": "8 km",
+   "grade": 3,
+   "pinNote": "The Kampos tou Livadiou picnic site, where the trail starts, from OpenStreetMap."
+  },
+  {
+   "i": "att-trail-kannoures",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Kannoures to Agios Nikolaos tis Stegis Nature Trail",
+   "alt": "Kannoures trail",
+   "ll": [
+    34.977873,
+    32.8852
    ],
    "pr": "approx",
-   "web": "https://www.limassolmarina.com/",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n12622913404",
+   "inside": [],
+   "desc": "A trail down from the Troodos to Karvounas road, 1 km before Troodos Square, to the church of Agios Nikolaos tis Stegis. It can carry on to Kakopetria (12.5 km).",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/12622913404"
+    }
+   ],
+   "len": "9.5 km",
+   "grade": 3,
+   "pinNote": "A point on the trail from OpenStreetMap. The official start is on the Troodos to Karvounas road (B9), 1 km before Troodos Square."
+  },
+  {
+   "i": "att-trail-prodromos",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Prodromos Dam to Stavroulia Nature Trail",
+   "alt": "Stavroulia trail; Prodromos dam trail",
+   "ll": [
+    34.947677,
+    32.847375
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n3834649311",
+   "inside": [],
+   "desc": "A Troodos trail that starts on the Troodos Square to Prodromos road, just above the Prodromos dam.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/3834649311"
+    }
+   ],
+   "len": "4.5 or 5.5 km",
+   "grade": 3
+  },
+  {
+   "i": "att-trail-trooditissa-foini",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Trooditissa to Foini Nature Trail",
+   "alt": "Trooditissa Fini trail; Chantara waterfall walk",
+   "ll": [
+    34.896777,
+    32.837478
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n3876537331",
+   "inside": [],
+   "desc": "A forest walk from near Trooditissa Monastery down to Foini village, past the Chantara waterfall.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: Trooditissa to Foini trail",
+     "u": "https://www.visitcyprus.com/?p=468406"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/3876537331"
+    }
+   ],
+   "len": "4.5 km",
+   "grade": 1,
+   "place": "trooditissa"
+  },
+  {
+   "i": "att-trail-chrysovrysi",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Chrysovrysi Nature Trail",
+   "alt": "Chrysovrysi trail",
+   "ll": [
+    34.92774,
+    32.934504
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n3847157934",
+   "inside": [],
+   "desc": "A short Troodos trail that starts on the Karvounas to Troodos road, 300 m from the Chrysovrysi spring, and ends near Amiantos.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: Chrysovrysi trail",
+     "u": "https://www.visitcyprus.com/?p=468436"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/3847157934"
+    }
+   ],
+   "len": "1.5 km",
+   "grade": 2
+  },
+  {
+   "i": "att-trail-konnoi-cyclops",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Konnoi to Cyclops Cave Nature Trail",
+   "alt": "Cyclops Cave trail; Konnos Cyclops cave",
+   "ll": [
+    34.984122,
+    34.068098
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n12623159064",
+   "inside": [],
+   "desc": "A short walk from the Konnos Bay car park to the Cyclops Cave, in the Cape Greco national forest park.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/12623159064"
+    }
+   ],
+   "len": "1.7 km",
+   "grade": 1,
+   "place": "konnos"
+  },
+  {
+   "i": "att-trail-konnoi-anargyroi",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Konnoi to Agioi Anargyroi Nature Trail",
+   "alt": "Konnos Agioi Anargyroi trail",
+   "ll": [
+    34.975341,
+    34.075263
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "w199912325",
+   "inside": [],
+   "desc": "A loop across Cape Greco linking Konnos Bay, the Agioi Anargyroi chapel and the visitor centre car park.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/199912325"
+    }
+   ],
+   "len": "4.8 km",
+   "grade": 1,
+   "place": "konnos"
+  },
+  {
+   "i": "att-akamas-geo-centre",
+   "k": "sight",
+   "cat": "Information centre",
+   "n": "Akamas Geology and Paleontology Information Centre",
+   "alt": "Akamas Geocenter; Pano Arodes geology centre",
+   "ll": [
+    34.937338,
+    32.410383
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": "+357 26 332332",
+   "osm": "n10671770258",
+   "inside": [],
+   "desc": "Rocks, fossils and the mining past of the island, with Cypriot herbs and a garden for children, in Pano Arodes. Free.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: Akamas Geology and Paleontology Information Center",
+     "u": "https://www.visitcyprus.com/?p=739374"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/10671770258"
+    }
+   ],
+   "hrs": "Monday to Friday 10:00 to 16:00, Saturday 10:00 to 15:00, closed Sunday (Visit Cyprus)"
+  },
+  {
+   "i": "att-episkopi-env-centre",
+   "k": "nature",
+   "cat": "Information centre",
+   "n": "Episkopi Environmental Information Centre",
+   "alt": "Ezousa valley centre",
+   "ll": [
+    34.791552,
+    32.523252
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n9469838798",
+   "inside": [],
+   "desc": "Exhibits and a botanical garden on the geology, plants and wildlife of the Ezousa valley, in Episkopi, Paphos.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: Episkopi Environmental Information Centre",
+     "u": "https://www.visitcyprus.com/?p=739392"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/9469838798"
+    }
+   ],
+   "hrs": "Tuesday to Saturday 08:30 to 14:00, Sunday 10:00 to 14:00 (Visit Cyprus)"
+  },
+  {
+   "i": "att-cedar-valley",
+   "k": "nature",
+   "cat": "Forest valley",
+   "n": "Cedar Valley",
+   "alt": "Koilada ton Kedron",
+   "ll": [
+    34.991488,
+    32.688541
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n334106662",
+   "inside": [],
+   "desc": "A valley in the Paphos forest with thousands of endemic Cyprus cedars, on the country road between Panagia and Kykkos.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: Cedar Valley",
+     "u": "https://www.visitcyprus.com/?p=469529"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/334106662"
+    }
+   ]
+  },
+  {
+   "i": "att-stavros-tis-psokas",
+   "k": "nature",
+   "cat": "Forest station",
+   "n": "Stavros tis Psokas",
+   "alt": "Stavros tis Psokas forest station",
+   "ll": [
+    35.024607,
+    32.63064
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n292189216",
+   "inside": [],
+   "desc": "A forest station in the Paphos forest, home of the Cyprus mouflon, the wild sheep found only on the island.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: Cedar Valley and Stavros tis Psokas",
+     "u": "https://www.visitcyprus.com/?p=469529"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/292189216"
+    }
+   ]
+  },
+  {
+   "i": "att-troodos-botanic",
+   "k": "nature",
+   "cat": "Botanic garden",
+   "n": "Troodos Botanical Garden A.G. Leventis",
+   "alt": "Troodos Botanic Garden; Leventis Botanical Garden",
+   "ll": [
+    34.928896,
+    32.915757
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n5422028823",
+   "inside": [],
+   "desc": "A mountain botanic garden at about 1,400 m showing the plants of the Troodos range, near the Geopark visitor centre.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: Troodos Botanic Garden",
+     "u": "https://www.visitcyprus.com/?p=469541"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/5422028823"
+    }
+   ]
+  },
+  {
+   "i": "att-akamas-botanic",
+   "k": "nature",
+   "cat": "Botanic garden",
+   "n": "Baths of Aphrodite Botanical Garden",
+   "alt": "Akamas Botanical Garden",
+   "ll": [
+    35.056177,
+    32.345086
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "w396462454",
+   "inside": [],
+   "desc": "The botanical garden beside the Baths of Aphrodite.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: Baths of Aphrodite",
+     "u": "https://www.visitcyprus.com/?p=469265"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/396462454"
+    }
+   ],
+   "place": "baths-of-aphrodite"
+  },
+  {
+   "i": "att-larnaca-medieval-museum",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Larnaka Medieval Museum",
+   "alt": "Larnaca Castle museum; Larnaca Medieval Castle",
+   "ll": [
+    34.910491,
+    33.637568
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": "Larnaka",
+   "ph": "+357 24 304576",
+   "osm": "n13782938552",
+   "inside": [],
+   "desc": "The museum on the upper floor of Larnaca's medieval castle, at the end of the Finikoudes promenade.",
+   "srcs": [
+    {
+     "t": "Larnaka Tourism Board: Medieval Museum",
+     "u": "https://larnakaregion.com/directory/product/medieval-museum"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/13782938552"
+    }
+   ],
+   "notice": "Closed for renovation until further notice (Larnaka Tourism Board)."
+  },
+  {
+   "i": "att-larnaca-municipal-gallery",
+   "k": "sight",
+   "cat": "Art gallery",
+   "n": "Larnaka Municipal Gallery",
+   "alt": "Larnaca Municipal Art Gallery",
+   "ll": [
+    34.916849,
+    33.637483
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": "+357 24 658848",
+   "osm": "w20676922",
+   "inside": [],
+   "desc": "A free gallery in an 1881 building on Europe Square, at the start of Finikoudes, with changing exhibitions.",
+   "srcs": [
+    {
+     "t": "Larnaka Tourism Board: Municipal Gallery",
+     "u": "https://larnakaregion.com/directory/product/municipal-art-gallery"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/20676922"
+    }
+   ],
+   "hrs": "Monday to Friday mornings and late afternoons, Saturday 10:00 to 13:00, closed Sunday (Larnaka Tourism Board)"
+  },
+  {
+   "i": "att-salt-pepper-museum",
+   "k": "family",
+   "cat": "Museum",
+   "n": "Salt & Pepper Museum",
+   "alt": "Salt and Pepper Museum",
+   "ll": [
+    34.910994,
+    33.633695
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": "51 Faneromenis Street, Larnaca",
+   "ph": "+357 99 053930",
+   "osm": "n14167090016",
+   "inside": [],
+   "desc": "Over 22,000 salt and pepper shakers from a private collection, with a café, near Agios Lazaros in Larnaca.",
+   "srcs": [
+    {
+     "t": "Larnaka Tourism Board: Salt & Pepper Museum",
+     "u": "https://larnakaregion.com/directory/product/salt-pepper-museum"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/14167090016"
+    }
+   ]
+  },
+  {
+   "i": "att-petreon",
+   "k": "sight",
+   "cat": "Sculpture park",
+   "n": "Sculpture Park Petreon",
+   "alt": "Petreon Sculpture Park; Petreon Mazotos",
+   "ll": [
+    34.788303,
+    33.486863
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": "+357 99 648116",
+   "osm": "n4559679489",
+   "inside": [],
+   "desc": "An open-air park of stone sculptures by Savvas Koulendros near Mazotos. Visits by appointment.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: Sculpture Park Petreon",
+     "u": "https://www.visitcyprus.com/?p=469493"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/4559679489"
+    }
+   ],
+   "hrs": "By appointment (Visit Cyprus)"
+  },
+  {
+   "i": "att-kato-drys-bee",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Kato Drys Bee & Embroidery Museum",
+   "alt": "Bee and Embroidery Museum; Kato Drys bee museum",
+   "ll": [
+    34.850637,
+    33.303673
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": "+357 99 892677",
+   "osm": "n6773607685",
+   "inside": [],
+   "desc": "A village museum about beekeeping and embroidery in Kato Drys, near Lefkara.",
+   "srcs": [
+    {
+     "t": "Larnaka Tourism Board: Kato Drys Bee & Embroidery Museum",
+     "u": "https://larnakaregion.com/directory/product/kato-drys-bee-embroidery-museum"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/6773607685"
+    }
+   ],
+   "hrs": "Wednesday to Sunday 10:00 to 15:00, closed Monday and Tuesday (Larnaka Tourism Board)"
+  },
+  {
+   "i": "att-kato-drys-rural",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Local Rural Museum of Kato Drys",
+   "alt": "Kato Drys rural museum",
+   "ll": [
+    34.850742,
+    33.305038
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n9435943539",
+   "inside": [],
+   "desc": "A small museum of village life in Kato Drys, near Lefkara.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: Kato Drys village",
+     "u": "https://www.visitcyprus.com/?p=472688"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/9435943539"
+    }
+   ]
+  },
+  {
+   "i": "att-lefkara-museum",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Lefkara Museum of Traditional Embroidery and Silversmithing",
+   "alt": "House of Patsalos; Lefkara lace museum",
+   "ll": [
+    34.865245,
+    33.306159
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://www.lefkara.org.cy/en/visitors/guided-tour/museum-of-lefkara",
+   "a": "Ξένη Αναστασιαδη 9 Πάνω Λεύκαρα",
+   "ph": "+357 24 342326",
+   "osm": "n4437658090",
+   "inside": [],
+   "desc": "Lefkara lace, silverwork and village life in the restored House of Patsalos. Free.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.lefkara.org.cy/en/visitors/guided-tour/museum-of-lefkara"
+    },
+    {
+     "t": "Visit Cyprus: Local Museum of Traditional Embroidery and Silversmith-work, Lefkara",
+     "u": "https://www.visitcyprus.com/?p=494019"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/4437658090"
+    }
+   ],
+   "hrs": "Daily 08:30 to 16:00 in winter, 09:30 to 17:00 from mid-April to mid-September (Visit Cyprus)",
+   "place": "lefkara"
+  },
+  {
+   "i": "att-geroskipou-museum",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Local Ethnographic Museum of Geroskipou",
+   "alt": "Geroskipou Folk Art Museum",
+   "ll": [
+    34.759601,
+    32.454509
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "http://www.culture.gov.cy/dmculture/da/da.nsf/All/38CF6DFE0977E664C22571990020C289?OpenDocument",
+   "a": "Γεροσκήπου",
+   "ph": "+357 26306216",
+   "osm": "n244944570",
+   "inside": [],
+   "desc": "Rural crafts and daily life in an 18th-century house in Geroskipou, 3 km east of Paphos.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "http://www.culture.gov.cy/dmculture/da/da.nsf/All/38CF6DFE0977E664C22571990020C289?OpenDocument"
+    },
+    {
+     "t": "Visit Cyprus: Local Ethnographic Museum of Geroskipou",
+     "u": "https://www.visitcyprus.com/?p=471646"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/244944570"
+    }
+   ]
+  },
+  {
+   "i": "att-paphos-ethnographic",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Ethnographic Museum of Paphos",
+   "alt": "Eliades Ethnographic Museum; Paphos Ethnographical Museum",
+   "ll": [
+    34.773109,
+    32.421439
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": "1 Exo Vrisis, Paphos",
+   "ph": "+357 26944833",
+   "osm": "n5804163341",
+   "inside": [],
+   "desc": "A private museum of folk life and finds from the Paphos region, the collection of George Eliades.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: Ethnographic Museum, Pafos",
+     "u": "https://www.visitcyprus.com/?p=468768"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/5804163341"
+    }
+   ]
+  },
+  {
+   "i": "att-marion-arsinoe-museum",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Local Archaeological Museum of Marion-Arsinoe",
+   "alt": "Polis Archaeological Museum; Marion Arsinoe museum",
+   "ll": [
+    35.035533,
+    32.427082
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "http://www.culture.gov.cy/dmculture/da/da.nsf/All/CAF4EC728ABCA91CC225719900208766?OpenDocument",
+   "a": "26 Makariou III Avenue, Polis",
+   "ph": "+357 26 322955",
+   "osm": "n6047356804",
+   "inside": [],
+   "desc": "Finds from the ancient city kingdom of Marion-Arsinoe, in Polis.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "http://www.culture.gov.cy/dmculture/da/da.nsf/All/CAF4EC728ABCA91CC225719900208766?OpenDocument"
+    },
+    {
+     "t": "Visit Cyprus: Local Archaeological Museum of Marion-Arsinoe",
+     "u": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/local-archaeological-museum-of-marion-arsinoe-polis-chrysochous/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/6047356804"
+    }
+   ]
+  },
+  {
+   "i": "att-arsinoe-byzantine",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Byzantine Museum of Arsinoe",
+   "alt": "Peristerona Byzantine Museum",
+   "ll": [
+    34.990776,
+    32.491004
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": "+357 26 352515",
+   "osm": "w220788477",
+   "inside": [],
+   "desc": "One of the largest collections of icons on the island, at the bishopric in Peristerona, 9 km south of Polis.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: Byzantine Museum of Arsinoe",
+     "u": "https://www.visitcyprus.com/?p=468756"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/220788477"
+    }
+   ],
+   "hrs": "Monday to Friday; 10:00 to 16:00 from September to March, split hours in summer; closed weekends (Visit Cyprus)"
+  },
+  {
+   "i": "att-makarios-home",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Family home of Archbishop Makarios III",
+   "alt": "Makarios birthplace; Makarios house Panagia",
+   "ll": [
+    34.91922,
+    32.630188
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": "4",
+   "ph": null,
+   "osm": "n986675213",
+   "inside": [],
+   "desc": "The family home of the Republic's first president, one of two museums about him in Panagia village.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: Panagia village",
+     "u": "https://www.visitcyprus.com/?p=472544"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/986675213"
+    }
+   ]
+  },
+  {
+   "i": "att-idalion-museum",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Local Archaeological Museum of Ancient Idalion",
+   "alt": "Idalion museum; Dali museum",
+   "ll": [
+    35.019224,
+    33.423269
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://www.dali.org.cy/el/episkeptes/2-%CE%B1%CF%81%CF%87%CE%B1%CE%B9%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CE%BC%CE%BF%CF%85%CF%83%CE%B5%CE%AF%CE%B1",
+   "a": null,
+   "ph": "+357 22 444888",
+   "osm": "w399071936",
+   "inside": [],
+   "desc": "Finds from ancient Idalion, and the visitor centre for the site, in Dali.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.dali.org.cy/el/episkeptes/2-%CE%B1%CF%81%CF%87%CE%B1%CE%B9%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CE%BC%CE%BF%CF%85%CF%83%CE%B5%CE%AF%CE%B1"
+    },
+    {
+     "t": "Visit Cyprus: Local Archaeological Museum of Ancient Idalion",
+     "u": "https://www.visitcyprus.com/?p=471731"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/399071936"
+    }
+   ],
+   "place": "idalion"
+  },
+  {
+   "i": "att-fikardou",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Fikardou Rural Museum",
+   "alt": "Fikardou Ethnological Museum; House of Katsinioros",
+   "ll": [
+    34.960126,
+    33.171466
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "http://www.culture.gov.cy/dmculture/da/da.nsf/All/8865F898FAA8A275C22571990020EEAA?OpenDocument",
+   "a": "Fikardou",
+   "ph": "+357 22634731",
+   "osm": "n1547483189",
+   "inside": [],
+   "desc": "Two restored 18th-century houses in Fikardou, a village protected as an ancient monument: rural life and a weaver's workshop.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "http://www.culture.gov.cy/dmculture/da/da.nsf/All/8865F898FAA8A275C22571990020EEAA?OpenDocument"
+    },
+    {
+     "t": "Visit Cyprus: Fikardou Ethnological Museum",
+     "u": "https://visitcyprus.com/?p=471677"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/1547483189"
+    }
+   ]
+  },
+  {
+   "i": "att-fairy-tale-museum",
+   "k": "family",
+   "cat": "Museum",
+   "n": "Fairy Tale Museum",
+   "alt": "Nicosia Fairy Tale Museum",
+   "ll": [
+    35.173512,
+    33.358669
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://fairytalemuseum.org.cy/",
+   "a": "32-33 Granikou Street, Nicosia",
+   "ph": "+357 22 376522",
+   "osm": "n9959060649",
+   "inside": [],
+   "desc": "A museum of fairy tales in old Nicosia.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://fairytalemuseum.org.cy/"
+    },
+    {
+     "t": "Visit Nicosia: museums and art institutions",
+     "u": "https://visitnicosia.com.cy/meet-nicosia-meet-culture/museums-art-institutions/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/9959060649"
+    }
+   ]
+  },
+  {
+   "i": "att-postal-museum",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Cyprus Postal Museum",
+   "alt": "Postal Museum Nicosia",
+   "ll": [
+    35.171182,
+    33.363512
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n14162422254",
+   "inside": [],
+   "desc": "Stamps and the history of the post in Cyprus, in old Nicosia.",
+   "srcs": [
+    {
+     "t": "Nicosia Municipality: Cyprus Postal Museum",
+     "u": "https://www.nicosia.org.cy/en-GB/discover/museums/postal-museum/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/14162422254"
+    }
+   ]
+  },
+  {
+   "i": "att-motorcycle-museum",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Cyprus Classic Motorcycle Museum",
+   "alt": "Classic Motorcycle Museum",
+   "ll": [
+    35.172869,
+    33.358387
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://cyclassicmotormuseum.wixsite.com/cyclassicmotormuseum",
+   "a": "Γρανικού 44 Λευκωσία",
+   "ph": "+357 99 543 215;+357 22 680 222",
+   "osm": "n4557557192",
+   "inside": [],
+   "desc": "Classic motorcycles in old Nicosia. Not the Limassol car museum.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://cyclassicmotormuseum.wixsite.com/cyclassicmotormuseum"
+    },
+    {
+     "t": "Nicosia Municipality: Cyprus Classic Motorcycle Museum",
+     "u": "https://www.nicosia.org.cy/en-GB/discover/museums/classic-motorcycle-museum/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/4557557192"
+    }
+   ]
+  },
+  {
+   "i": "att-pancyprian-museums",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Museums of the Pancyprian Gymnasium",
+   "alt": "Pancyprian Gymnasium Museum",
+   "ll": [
+    35.174053,
+    33.368658
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://lyk-pagkyprion-lef.schools.ac.cy/index.php/el/mouseia",
+   "a": null,
+   "ph": "+357 22 466 014",
+   "osm": "w1088473564",
+   "inside": [],
+   "desc": "The museums of the island's oldest secondary school, in old Nicosia.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://lyk-pagkyprion-lef.schools.ac.cy/index.php/el/mouseia"
+    },
+    {
+     "t": "Nicosia Municipality: Museums of the Pancyprian Gymnasium",
+     "u": "https://www.nicosia.org.cy/en-GB/discover/museums/pancyprian-gymnasium/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/1088473564"
+    }
+   ]
+  },
+  {
+   "i": "att-coinage-museum",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Museum of the History of Cypriot Coinage",
+   "alt": "Coin museum Nicosia; Cypriot Coinage Museum",
+   "ll": [
+    35.172784,
+    33.362211
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://www.boccf.org/en-gb/homepage/museums-collections2/museum-of-the-history/",
+   "a": "Φανερωμένης 86 Λευκωσία",
+   "ph": null,
+   "osm": "n12131116093",
+   "inside": [],
+   "desc": "Coins of Cyprus from ancient times to the euro, in old Nicosia.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.boccf.org/en-gb/homepage/museums-collections2/museum-of-the-history/"
+    },
+    {
+     "t": "Nicosia Municipality: Museum of the History of Cypriot Coinage",
+     "u": "https://www.nicosia.org.cy/en-GB/discover/museums/coinage-museum/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/12131116093"
+    }
+   ]
+  },
+  {
+   "i": "att-zampelas-museum",
+   "k": "sight",
+   "cat": "Art museum",
+   "n": "Zampelas Art Museum",
+   "alt": "Loukia and Michael Zampelas Art Museum",
+   "ll": [
+    35.181896,
+    33.377519
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "w808783878",
+   "inside": [],
+   "desc": "A private art museum in Kaimakli, Nicosia.",
+   "srcs": [
+    {
+     "t": "Nicosia Municipality: Zampelas Art Museum",
+     "u": "https://www.nicosia.org.cy/en-GB/discover/museums/zampelas-art-museum/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/808783878"
+    }
+   ]
+  },
+  {
+   "i": "att-tio-ayia-napa",
+   "k": "info",
+   "cat": "Tourist information",
+   "n": "Ayia Napa Tourist Information Office",
+   "alt": "Agia Napa tourist office; CTO Ayia Napa",
+   "ll": [
+    34.988044,
+    34.001751
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": "12 Kryou Nerou Avenue, Ayia Napa",
+   "ph": "+357 23 721796",
+   "osm": "n1215788675",
+   "inside": [],
+   "desc": "The official tourist information office of the Deputy Ministry of Tourism.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: tourist information offices",
+     "u": "https://www.visitcyprus.com/useful-info/tourist-information-offices/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/1215788675"
+    }
+   ],
+   "hrs": "Monday to Friday, 08:30 to 16:00"
+  },
+  {
+   "i": "att-tio-protaras",
+   "k": "info",
+   "cat": "Tourist information",
+   "n": "Protaras Tourist Information Office",
+   "alt": "Paralimni tourist office; CTO Protaras",
+   "ll": [
+    35.016866,
+    34.049292
+   ],
+   "pr": "osm",
+   "ent": true,
+   "web": "https://www.tourism.gov.cy/",
+   "a": "14 Protara Avenue, Protaras",
+   "ph": "+357 23 832865",
+   "osm": "w81251681",
+   "inside": [],
+   "desc": "The official tourist information office of the Deputy Ministry of Tourism.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.tourism.gov.cy/"
+    },
+    {
+     "t": "Visit Cyprus: tourist information offices",
+     "u": "https://www.visitcyprus.com/useful-info/tourist-information-offices/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/81251681"
+    }
+   ],
+   "hrs": "Monday to Friday, 08:30 to 16:00"
+  },
+  {
+   "i": "att-tio-limassol",
+   "k": "info",
+   "cat": "Tourist information",
+   "n": "Limassol Tourist Information Office",
+   "alt": "Lemesos tourist office; CTO Limassol",
+   "ll": [
+    34.671055,
+    33.042729
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": "Michalis Kakogiannis Square, Old Port, Limassol",
+   "ph": "+357 25 362756",
+   "osm": "n4484146639",
+   "inside": [],
+   "desc": "The official tourist information office at the Old Port, building THK1.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: tourist information offices",
+     "u": "https://www.visitcyprus.com/useful-info/tourist-information-offices/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/4484146639"
+    }
+   ],
+   "hrs": "Monday to Friday, 08:30 to 16:00",
+   "place": "limassol-old-port"
+  },
+  {
+   "i": "att-tio-larnaca",
+   "k": "info",
+   "cat": "Tourist information",
+   "n": "Larnaca Tourist Information Office",
+   "alt": "Larnaka tourist office; CTO Larnaca",
+   "ll": [
+    34.916835,
+    33.636811
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": "Vasileos Pavlou Square, Larnaca",
+   "ph": "+357 24 654322",
+   "osm": "n339951438",
+   "inside": [],
+   "desc": "The official tourist information office on Vasileos Pavlou Square.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: tourist information offices",
+     "u": "https://www.visitcyprus.com/useful-info/tourist-information-offices/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/339951438"
+    }
+   ],
+   "notice": "Closed for renovation from April 2026, due to reopen in mid-November. Until it does, the temporary office is at Matei House, 3 Zinonos Kiteos Street (+357 24 644303), 08:30 to 14:30."
+  },
+  {
+   "i": "att-tio-nicosia",
+   "k": "info",
+   "cat": "Tourist information",
+   "n": "Nicosia Tourist Information Office",
+   "alt": "Lefkosia tourist office; CTO Nicosia",
+   "ll": [
+    35.169892,
+    33.362466
+   ],
+   "pr": "approx",
+   "ent": false,
+   "web": null,
+   "a": "11 Aristokyprou Street, Laiki Geitonia, Nicosia",
+   "ph": "+357 22 674264",
+   "osm": "w28349840",
+   "inside": [],
+   "desc": "The official tourist information office in Laiki Geitonia, east of Eleftheria Square.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: tourist information offices",
+     "u": "https://www.visitcyprus.com/useful-info/tourist-information-offices/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/28349840"
+    }
+   ],
+   "hrs": "Monday to Friday, 08:30 to 16:00",
+   "pinNote": "Approximate: Aristokyprou Street, from OpenStreetMap."
+  },
+  {
+   "i": "att-tio-platres",
+   "k": "info",
+   "cat": "Tourist information",
+   "n": "Platres Tourist Information Office",
+   "alt": "Troodos tourist office; CTO Platres",
+   "ll": [
+    34.890963,
+    32.866236
+   ],
+   "pr": "approx",
+   "ent": false,
+   "web": null,
+   "a": "4C Olympou Street, Pano Platres",
+   "ph": "+357 25 421316",
+   "osm": "w13859981",
+   "inside": [],
+   "desc": "The official tourist information office in Pano Platres.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: tourist information offices",
+     "u": "https://www.visitcyprus.com/useful-info/tourist-information-offices/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/13859981"
+    }
+   ],
+   "hrs": "Monday to Friday, 08:30 to 16:00",
+   "pinNote": "Approximate: Olympou Street, from OpenStreetMap.",
+   "place": "platres"
+  },
+  {
+   "i": "att-tio-polis",
+   "k": "info",
+   "cat": "Tourist information",
+   "n": "Polis Tourist Information Office",
+   "alt": "Polis Chrysochous tourist office; CTO Polis",
+   "ll": [
+    35.032986,
+    32.425262
+   ],
+   "pr": "approx",
+   "ent": false,
+   "web": null,
+   "a": "2 Vasileos Stasioikou A Street, Polis",
+   "ph": "+357 26 322468",
+   "osm": "n2972033650",
+   "inside": [],
+   "desc": "The official tourist information office in Polis.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: tourist information offices",
+     "u": "https://www.visitcyprus.com/useful-info/tourist-information-offices/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/2972033650"
+    }
+   ],
+   "hrs": "Monday to Friday, 08:30 to 16:00",
+   "pinNote": "Approximate: the start of Vasileos Stasioikou Street, from OpenStreetMap."
+  },
+  {
    "inside": [
     "cy-01501",
     "cy-01558",
@@ -1464,6 +2972,17 @@
     "cy-01899",
     "cy-01900"
    ],
+   "i": "att-limassol-marina",
+   "k": "sight",
+   "cat": "Marina",
+   "n": "Limassol Marina",
+   "alt": "Marina Lemesou",
+   "ll": [
+    34.6698,
+    33.0394
+   ],
+   "pr": "approx",
+   "web": "https://www.limassolmarina.com/",
    "desc": "The marina next to Limassol's Old Port, with restaurants and cafés.",
    "srcs": [
     {
@@ -1472,6 +2991,85 @@
     }
    ],
    "pinNote": "Approximate: the middle of the marina's mapped restaurants."
+  },
+  {
+   "inside": [],
+   "i": "att-trail-sea-caves",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Sea Caves to Agioi Anargyroi Nature Trail",
+   "alt": "Sea caves trail; Cape Greco sea caves walk",
+   "ll": [
+    34.96843,
+    34.05459
+   ],
+   "pr": "osm",
+   "place": "sea-caves",
+   "len": "4 km",
+   "grade": 1,
+   "desc": "A clifftop walk from the Ayia Napa sea caves to the Agioi Anargyroi chapel at Cape Greco.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    }
+   ],
+   "pinNote": "The sea caves, where the trail starts."
+  },
+  {
+   "inside": [],
+   "i": "att-trail-aphrodite-cape-greco",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Aphrodite Nature Trail, Cape Greco",
+   "alt": "Aphroditi trail Cape Greco; Kavo Gkreko Aphrodite trail",
+   "ll": [
+    34.970669,
+    34.070709
+   ],
+   "pr": "osm",
+   "place": "cape-greco",
+   "len": "2 km",
+   "grade": 1,
+   "desc": "A short trail from the Cape Greco national forest park visitor centre car park. Not the Akamas trail of the same name.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/12741785061"
+    }
+   ],
+   "pinNote": "The Cape Greco visitor centre, where the trail starts, from OpenStreetMap."
+  },
+  {
+   "inside": [],
+   "i": "att-tio-paphos",
+   "k": "info",
+   "cat": "Tourist information",
+   "n": "Paphos Tourist Information Office",
+   "alt": "Pafos tourist office; CTO Paphos",
+   "d": "paphos",
+   "a": "17 Dimitraki Papamiltiadous Street, corner of Kostaki Karnavalou, Paphos",
+   "ph": "+357 26 932841",
+   "hrs": "Monday to Friday, 08:30 to 16:00",
+   "desc": "The official tourist information office in Paphos town.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: tourist information offices",
+     "u": "https://www.visitcyprus.com/useful-info/tourist-information-offices/"
+    }
+   ]
   }
  ]
 }

@@ -123,20 +123,184 @@ EXTRA = [
      "pinNote": "Approximate: the middle of the marina's mapped restaurants."},
 ]
 
+# ---- Research batch 1 (26 Nov 2026): walks and nature, museums, tourist information offices. ----
+VC_TRAILS = ("Visit Cyprus: nature trails map (2026)", "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf")
+FD = ("Department of Forests: nature trails", "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en")
+VC_TIO = ("Visit Cyprus: tourist information offices", "https://www.visitcyprus.com/useful-info/tourist-information-offices/")
+TIO_HRS = "Monday to Friday, 08:30 to 16:00"
+# id, osm id, kind, category, name, aliases, official site, line, source, extras
+B1 = [
+    # Walks: length and grade from the Visit Cyprus nature trails map; grade scale from the Department of Forests.
+    ("att-trail-aphrodite-akamas", "n2972053686", "nature", "Nature trail", "Aphrodite Nature Trail", ["Aphroditi trail", "Aphrodite trail Akamas"], None,
+     "A trail across the Akamas headland that starts at the Baths of Aphrodite, with views over Chrysochou Bay.", VC_TRAILS, {"len": "7.5 km", "grade": 3, "place": "baths-of-aphrodite"}),
+    ("att-trail-adonis", "n2972053686", "nature", "Nature trail", "Adonis Nature Trail", ["Adonis trail"], None,
+     "An Akamas trail that starts at the Baths of Aphrodite, the same start as the Aphrodite trail.", VC_TRAILS,
+     {"len": "7.5 km", "grade": 3, "place": "baths-of-aphrodite", "pinNote": "The shared trail start at the Baths of Aphrodite. The Adonis trail itself is not mapped by name."}),
+    ("att-trail-smigies", "n12620092688", "nature", "Nature trail", "Smigies Nature Trail", ["Smiyies trail", "Smigies picnic site"], None,
+     "Two loops through Akamas forest from the Smigies picnic site, 2.5 km from Neo Chorio: a short one and a long one.", VC_TRAILS, {"len": "2.5 km or 6 km", "grade": 2}),
+    ("att-trail-pissouromoutti", "n6174511541", "nature", "Nature trail", "Pissouromoutti Nature Trail", ["Pissouromouti trail"], None,
+     "A short Akamas trail that starts at the Smigies picnic site near Neo Chorio.", VC_TRAILS, {"len": "3 km", "grade": 2}),
+    ("att-trail-artemis", "n12693595973", "nature", "Nature trail", "Artemis Nature Trail", ["Artemis trail", "Chionistra trail"], None,
+     "A loop around the top of Mount Olympus (Chionistra), starting on the Chionistra road 300 m from the Troodos to Prodromos road.", VC_TRAILS, {"len": "7 km", "grade": 1}),
+    ("att-trail-atalante", "n391393057", "nature", "Nature trail", "Atalante Nature Trail", ["Atalanti trail", "Atalante trail"], None,
+     "A long, fairly level trail around Mount Olympus that starts at Troodos Square.", VC_TRAILS, {"len": "14 km", "grade": 2}),
+    ("att-trail-livadi", "n4425364591", "nature", "Nature trail", "Livadi Nature Trail", ["Livadi tou Pasha trail", "Kampos tou Livadiou"], None,
+     "A short loop near the Kampos tou Livadiou picnic site, off the Troodos to Karvounas road.", VC_TRAILS,
+     {"len": "1.5 km", "grade": 1, "pinNote": "The Kampos tou Livadiou picnic site, where the trail starts, from OpenStreetMap."}),
+    ("att-trail-mnimata-piskopon", "n4425364591", "nature", "Nature trail", "Mnimata Piskopon Nature Trail", ["Mnimata ton Piskopon", "Bishops' Tombs trail"], None,
+     "A Troodos forest trail that starts at the Kampos tou Livadiou picnic site, off the Troodos to Karvounas road.", VC_TRAILS,
+     {"len": "8 km", "grade": 3, "pinNote": "The Kampos tou Livadiou picnic site, where the trail starts, from OpenStreetMap."}),
+    ("att-trail-kannoures", "n12622913404", "nature", "Nature trail", "Kannoures to Agios Nikolaos tis Stegis Nature Trail", ["Kannoures trail"], None,
+     "A trail down from the Troodos to Karvounas road, 1 km before Troodos Square, to the church of Agios Nikolaos tis Stegis. It can carry on to Kakopetria (12.5 km).", VC_TRAILS,
+     {"len": "9.5 km", "grade": 3, "pr": "approx", "pinNote": "A point on the trail from OpenStreetMap. The official start is on the Troodos to Karvounas road (B9), 1 km before Troodos Square."}),
+    ("att-trail-prodromos", "n3834649311", "nature", "Nature trail", "Prodromos Dam to Stavroulia Nature Trail", ["Stavroulia trail", "Prodromos dam trail"], None,
+     "A Troodos trail that starts on the Troodos Square to Prodromos road, just above the Prodromos dam.", VC_TRAILS, {"len": "4.5 or 5.5 km", "grade": 3}),
+    ("att-trail-trooditissa-foini", "n3876537331", "nature", "Nature trail", "Trooditissa to Foini Nature Trail", ["Trooditissa Fini trail", "Chantara waterfall walk"], None,
+     "A forest walk from near Trooditissa Monastery down to Foini village, past the Chantara waterfall.",
+     ("Visit Cyprus: Trooditissa to Foini trail", "https://www.visitcyprus.com/?p=468406"), {"len": "4.5 km", "grade": 1, "place": "trooditissa"}),
+    ("att-trail-chrysovrysi", "n3847157934", "nature", "Nature trail", "Chrysovrysi Nature Trail", ["Chrysovrysi trail"], None,
+     "A short Troodos trail that starts on the Karvounas to Troodos road, 300 m from the Chrysovrysi spring, and ends near Amiantos.",
+     ("Visit Cyprus: Chrysovrysi trail", "https://www.visitcyprus.com/?p=468436"), {"len": "1.5 km", "grade": 2}),
+    ("att-trail-konnoi-cyclops", "n12623159064", "nature", "Nature trail", "Konnoi to Cyclops Cave Nature Trail", ["Cyclops Cave trail", "Konnos Cyclops cave"], None,
+     "A short walk from the Konnos Bay car park to the Cyclops Cave, in the Cape Greco national forest park.", VC_TRAILS, {"len": "1.7 km", "grade": 1, "place": "konnos"}),
+    ("att-trail-konnoi-anargyroi", "w199912325", "nature", "Nature trail", "Konnoi to Agioi Anargyroi Nature Trail", ["Konnos Agioi Anargyroi trail"], None,
+     "A loop across Cape Greco linking Konnos Bay, the Agioi Anargyroi chapel and the visitor centre car park.", VC_TRAILS, {"len": "4.8 km", "grade": 1, "place": "konnos"}),
+    # Museums and centres: each on an official page.
+    ("att-akamas-geo-centre", "n10671770258", "sight", "Information centre", "Akamas Geology and Paleontology Information Centre", ["Akamas Geocenter", "Pano Arodes geology centre"], None,
+     "Rocks, fossils and the mining past of the island, with Cypriot herbs and a garden for children, in Pano Arodes. Free.",
+     ("Visit Cyprus: Akamas Geology and Paleontology Information Center", "https://www.visitcyprus.com/?p=739374"),
+     {"hrs": "Monday to Friday 10:00 to 16:00, Saturday 10:00 to 15:00, closed Sunday (Visit Cyprus)"}),
+    ("att-episkopi-env-centre", "n9469838798", "nature", "Information centre", "Episkopi Environmental Information Centre", ["Ezousa valley centre"], None,
+     "Exhibits and a botanical garden on the geology, plants and wildlife of the Ezousa valley, in Episkopi, Paphos.",
+     ("Visit Cyprus: Episkopi Environmental Information Centre", "https://www.visitcyprus.com/?p=739392"),
+     {"hrs": "Tuesday to Saturday 08:30 to 14:00, Sunday 10:00 to 14:00 (Visit Cyprus)"}),
+    ("att-cedar-valley", "n334106662", "nature", "Forest valley", "Cedar Valley", ["Koilada ton Kedron"], None,
+     "A valley in the Paphos forest with thousands of endemic Cyprus cedars, on the country road between Panagia and Kykkos.",
+     ("Visit Cyprus: Cedar Valley", "https://www.visitcyprus.com/?p=469529"), {}),
+    ("att-stavros-tis-psokas", "n292189216", "nature", "Forest station", "Stavros tis Psokas", ["Stavros tis Psokas forest station"], None,
+     "A forest station in the Paphos forest, home of the Cyprus mouflon, the wild sheep found only on the island.",
+     ("Visit Cyprus: Cedar Valley and Stavros tis Psokas", "https://www.visitcyprus.com/?p=469529"), {}),
+    ("att-troodos-botanic", "n5422028823", "nature", "Botanic garden", "Troodos Botanical Garden A.G. Leventis", ["Troodos Botanic Garden", "Leventis Botanical Garden"], None,
+     "A mountain botanic garden at about 1,400 m showing the plants of the Troodos range, near the Geopark visitor centre.",
+     ("Visit Cyprus: Troodos Botanic Garden", "https://www.visitcyprus.com/?p=469541"), {}),
+    ("att-akamas-botanic", "w396462454", "nature", "Botanic garden", "Baths of Aphrodite Botanical Garden", ["Akamas Botanical Garden"], None,
+     "The botanical garden beside the Baths of Aphrodite.", ("Visit Cyprus: Baths of Aphrodite", "https://www.visitcyprus.com/?p=469265"), {"place": "baths-of-aphrodite"}),
+    ("att-larnaca-medieval-museum", "n13782938552", "sight", "Museum", "Larnaka Medieval Museum", ["Larnaca Castle museum", "Larnaca Medieval Castle"], None,
+     "The museum on the upper floor of Larnaca's medieval castle, at the end of the Finikoudes promenade.",
+     ("Larnaka Tourism Board: Medieval Museum", "https://larnakaregion.com/directory/product/medieval-museum"),
+     {"notice": "Closed for renovation until further notice (Larnaka Tourism Board).", "ph": "+357 24 304576"}),
+    ("att-larnaca-municipal-gallery", "w20676922", "sight", "Art gallery", "Larnaka Municipal Gallery", ["Larnaca Municipal Art Gallery"], None,
+     "A free gallery in an 1881 building on Europe Square, at the start of Finikoudes, with changing exhibitions.",
+     ("Larnaka Tourism Board: Municipal Gallery", "https://larnakaregion.com/directory/product/municipal-art-gallery"),
+     {"ph": "+357 24 658848", "hrs": "Monday to Friday mornings and late afternoons, Saturday 10:00 to 13:00, closed Sunday (Larnaka Tourism Board)"}),
+    ("att-salt-pepper-museum", "n14167090016", "family", "Museum", "Salt & Pepper Museum", ["Salt and Pepper Museum"], None,
+     "Over 22,000 salt and pepper shakers from a private collection, with a café, near Agios Lazaros in Larnaca.",
+     ("Larnaka Tourism Board: Salt & Pepper Museum", "https://larnakaregion.com/directory/product/salt-pepper-museum"), {"ph": "+357 99 053930", "a": "51 Faneromenis Street, Larnaca"}),
+    ("att-petreon", "n4559679489", "sight", "Sculpture park", "Sculpture Park Petreon", ["Petreon Sculpture Park", "Petreon Mazotos"], None,
+     "An open-air park of stone sculptures by Savvas Koulendros near Mazotos. Visits by appointment.",
+     ("Visit Cyprus: Sculpture Park Petreon", "https://www.visitcyprus.com/?p=469493"), {"ph": "+357 99 648116", "hrs": "By appointment (Visit Cyprus)"}),
+    ("att-kato-drys-bee", "n6773607685", "sight", "Museum", "Kato Drys Bee & Embroidery Museum", ["Bee and Embroidery Museum", "Kato Drys bee museum"], None,
+     "A village museum about beekeeping and embroidery in Kato Drys, near Lefkara.",
+     ("Larnaka Tourism Board: Kato Drys Bee & Embroidery Museum", "https://larnakaregion.com/directory/product/kato-drys-bee-embroidery-museum"),
+     {"ph": "+357 99 892677", "hrs": "Wednesday to Sunday 10:00 to 15:00, closed Monday and Tuesday (Larnaka Tourism Board)"}),
+    ("att-kato-drys-rural", "n9435943539", "sight", "Museum", "Local Rural Museum of Kato Drys", ["Kato Drys rural museum"], None,
+     "A small museum of village life in Kato Drys, near Lefkara.", ("Visit Cyprus: Kato Drys village", "https://www.visitcyprus.com/?p=472688"), {}),
+    ("att-lefkara-museum", "n4437658090", "sight", "Museum", "Lefkara Museum of Traditional Embroidery and Silversmithing", ["House of Patsalos", "Lefkara lace museum"], None,
+     "Lefkara lace, silverwork and village life in the restored House of Patsalos. Free.",
+     ("Visit Cyprus: Local Museum of Traditional Embroidery and Silversmith-work, Lefkara", "https://www.visitcyprus.com/?p=494019"),
+     {"ph": "+357 24 342326", "hrs": "Daily 08:30 to 16:00 in winter, 09:30 to 17:00 from mid-April to mid-September (Visit Cyprus)", "place": "lefkara"}),
+    ("att-geroskipou-museum", "n244944570", "sight", "Museum", "Local Ethnographic Museum of Geroskipou", ["Geroskipou Folk Art Museum"], None,
+     "Rural crafts and daily life in an 18th-century house in Geroskipou, 3 km east of Paphos.",
+     ("Visit Cyprus: Local Ethnographic Museum of Geroskipou", "https://www.visitcyprus.com/?p=471646"), {}),
+    ("att-paphos-ethnographic", "n5804163341", "sight", "Museum", "Ethnographic Museum of Paphos", ["Eliades Ethnographic Museum", "Paphos Ethnographical Museum"], None,
+     "A private museum of folk life and finds from the Paphos region, the collection of George Eliades.",
+     ("Visit Cyprus: Ethnographic Museum, Pafos", "https://www.visitcyprus.com/?p=468768"), {"a": "1 Exo Vrisis, Paphos"}),
+    ("att-marion-arsinoe-museum", "n6047356804", "sight", "Museum", "Local Archaeological Museum of Marion-Arsinoe", ["Polis Archaeological Museum", "Marion Arsinoe museum"], None,
+     "Finds from the ancient city kingdom of Marion-Arsinoe, in Polis.",
+     ("Visit Cyprus: Local Archaeological Museum of Marion-Arsinoe", "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/local-archaeological-museum-of-marion-arsinoe-polis-chrysochous/"),
+     {"ph": "+357 26 322955", "a": "26 Makariou III Avenue, Polis"}),
+    ("att-arsinoe-byzantine", "w220788477", "sight", "Museum", "Byzantine Museum of Arsinoe", ["Peristerona Byzantine Museum"], None,
+     "One of the largest collections of icons on the island, at the bishopric in Peristerona, 9 km south of Polis.",
+     ("Visit Cyprus: Byzantine Museum of Arsinoe", "https://www.visitcyprus.com/?p=468756"),
+     {"ph": "+357 26 352515", "hrs": "Monday to Friday; 10:00 to 16:00 from September to March, split hours in summer; closed weekends (Visit Cyprus)"}),
+    ("att-makarios-home", "n986675213", "sight", "Museum", "Family home of Archbishop Makarios III", ["Makarios birthplace", "Makarios house Panagia"], None,
+     "The family home of the Republic's first president, one of two museums about him in Panagia village.",
+     ("Visit Cyprus: Panagia village", "https://www.visitcyprus.com/?p=472544"), {}),
+    ("att-idalion-museum", "w399071936", "sight", "Museum", "Local Archaeological Museum of Ancient Idalion", ["Idalion museum", "Dali museum"], None,
+     "Finds from ancient Idalion, and the visitor centre for the site, in Dali.",
+     ("Visit Cyprus: Local Archaeological Museum of Ancient Idalion", "https://www.visitcyprus.com/?p=471731"), {"place": "idalion"}),
+    ("att-fikardou", "n1547483189", "sight", "Museum", "Fikardou Rural Museum", ["Fikardou Ethnological Museum", "House of Katsinioros"], None,
+     "Two restored 18th-century houses in Fikardou, a village protected as an ancient monument: rural life and a weaver's workshop.",
+     ("Visit Cyprus: Fikardou Ethnological Museum", "https://visitcyprus.com/?p=471677"), {}),
+    ("att-fairy-tale-museum", "n9959060649", "family", "Museum", "Fairy Tale Museum", ["Nicosia Fairy Tale Museum"], "https://fairytalemuseum.org.cy/",
+     "A museum of fairy tales in old Nicosia.", ("Visit Nicosia: museums and art institutions", "https://visitnicosia.com.cy/meet-nicosia-meet-culture/museums-art-institutions/"),
+     {"a": "32-33 Granikou Street, Nicosia", "ph": "+357 22 376522"}),
+    ("att-postal-museum", "n14162422254", "sight", "Museum", "Cyprus Postal Museum", ["Postal Museum Nicosia"], None,
+     "Stamps and the history of the post in Cyprus, in old Nicosia.", ("Nicosia Municipality: Cyprus Postal Museum", "https://www.nicosia.org.cy/en-GB/discover/museums/postal-museum/"), {}),
+    ("att-motorcycle-museum", "n4557557192", "sight", "Museum", "Cyprus Classic Motorcycle Museum", ["Classic Motorcycle Museum"], None,
+     "Classic motorcycles in old Nicosia. Not the Limassol car museum.", ("Nicosia Municipality: Cyprus Classic Motorcycle Museum", "https://www.nicosia.org.cy/en-GB/discover/museums/classic-motorcycle-museum/"), {}),
+    ("att-pancyprian-museums", "w1088473564", "sight", "Museum", "Museums of the Pancyprian Gymnasium", ["Pancyprian Gymnasium Museum"], None,
+     "The museums of the island's oldest secondary school, in old Nicosia.", ("Nicosia Municipality: Museums of the Pancyprian Gymnasium", "https://www.nicosia.org.cy/en-GB/discover/museums/pancyprian-gymnasium/"), {}),
+    ("att-coinage-museum", "n12131116093", "sight", "Museum", "Museum of the History of Cypriot Coinage", ["Coin museum Nicosia", "Cypriot Coinage Museum"], None,
+     "Coins of Cyprus from ancient times to the euro, in old Nicosia.", ("Nicosia Municipality: Museum of the History of Cypriot Coinage", "https://www.nicosia.org.cy/en-GB/discover/museums/coinage-museum/"), {}),
+    ("att-zampelas-museum", "w808783878", "sight", "Art museum", "Zampelas Art Museum", ["Loukia and Michael Zampelas Art Museum"], None,
+     "A private art museum in Kaimakli, Nicosia.", ("Nicosia Municipality: Zampelas Art Museum", "https://www.nicosia.org.cy/en-GB/discover/museums/zampelas-art-museum/"), {}),
+    # Tourist information offices (Deputy Ministry of Tourism), details from Visit Cyprus.
+    ("att-tio-ayia-napa", "n1215788675", "info", "Tourist information", "Ayia Napa Tourist Information Office", ["Agia Napa tourist office", "CTO Ayia Napa"], None,
+     "The official tourist information office of the Deputy Ministry of Tourism.", VC_TIO, {"a": "12 Kryou Nerou Avenue, Ayia Napa", "ph": "+357 23 721796", "hrs": TIO_HRS}),
+    ("att-tio-protaras", "w81251681", "info", "Tourist information", "Protaras Tourist Information Office", ["Paralimni tourist office", "CTO Protaras"], None,
+     "The official tourist information office of the Deputy Ministry of Tourism.", VC_TIO, {"a": "14 Protara Avenue, Protaras", "ph": "+357 23 832865", "hrs": TIO_HRS}),
+    ("att-tio-limassol", "n4484146639", "info", "Tourist information", "Limassol Tourist Information Office", ["Lemesos tourist office", "CTO Limassol"], None,
+     "The official tourist information office at the Old Port, building THK1.", VC_TIO, {"a": "Michalis Kakogiannis Square, Old Port, Limassol", "ph": "+357 25 362756", "hrs": TIO_HRS, "place": "limassol-old-port"}),
+    ("att-tio-larnaca", "n339951438", "info", "Tourist information", "Larnaca Tourist Information Office", ["Larnaka tourist office", "CTO Larnaca"], None,
+     "The official tourist information office on Vasileos Pavlou Square.", VC_TIO,
+     {"a": "Vasileos Pavlou Square, Larnaca", "ph": "+357 24 654322",
+      "notice": "Closed for renovation from April 2026, due to reopen in mid-November. Until it does, the temporary office is at Matei House, 3 Zinonos Kiteos Street (+357 24 644303), 08:30 to 14:30."}),
+    ("att-tio-nicosia", "w28349840", "info", "Tourist information", "Nicosia Tourist Information Office", ["Lefkosia tourist office", "CTO Nicosia"], None,
+     "The official tourist information office in Laiki Geitonia, east of Eleftheria Square.", VC_TIO,
+     {"a": "11 Aristokyprou Street, Laiki Geitonia, Nicosia", "ph": "+357 22 674264", "hrs": TIO_HRS, "pr": "approx", "pinNote": "Approximate: Aristokyprou Street, from OpenStreetMap."}),
+    ("att-tio-platres", "w13859981", "info", "Tourist information", "Platres Tourist Information Office", ["Troodos tourist office", "CTO Platres"], None,
+     "The official tourist information office in Pano Platres.", VC_TIO,
+     {"a": "4C Olympou Street, Pano Platres", "ph": "+357 25 421316", "hrs": TIO_HRS, "pr": "approx", "pinNote": "Approximate: Olympou Street, from OpenStreetMap.", "place": "platres"}),
+    ("att-tio-polis", "n2972033650", "info", "Tourist information", "Polis Tourist Information Office", ["Polis Chrysochous tourist office", "CTO Polis"], None,
+     "The official tourist information office in Polis.", VC_TIO,
+     {"a": "2 Vasileos Stasioikou A Street, Polis", "ph": "+357 26 322468", "hrs": TIO_HRS, "pr": "approx", "pinNote": "Approximate: the start of Vasileos Stasioikou Street, from OpenStreetMap."}),
+]
+SPEC += [(i, oid, k, cat, n, al, [], web, d, src, x) for i, oid, k, cat, n, al, web, d, src, x in B1]
+FD_TRAILS = {i for i, *_ in B1 if i.startswith("att-trail-")}
+EXTRA += [
+    {"i": "att-trail-sea-caves", "k": "nature", "cat": "Nature trail", "n": "Sea Caves to Agioi Anargyroi Nature Trail", "alt": "Sea caves trail; Cape Greco sea caves walk",
+     "ll": [34.96843, 34.05459], "pr": "osm", "place": "sea-caves", "len": "4 km", "grade": 1,
+     "desc": "A clifftop walk from the Ayia Napa sea caves to the Agioi Anargyroi chapel at Cape Greco.",
+     "srcs": [{"t": VC_TRAILS[0], "u": VC_TRAILS[1]}, {"t": FD[0], "u": FD[1]}], "pinNote": "The sea caves, where the trail starts."},
+    {"i": "att-trail-aphrodite-cape-greco", "k": "nature", "cat": "Nature trail", "n": "Aphrodite Nature Trail, Cape Greco", "alt": "Aphroditi trail Cape Greco; Kavo Gkreko Aphrodite trail",
+     "ll": [34.970669, 34.070709], "pr": "osm", "place": "cape-greco", "len": "2 km", "grade": 1,
+     "desc": "A short trail from the Cape Greco national forest park visitor centre car park. Not the Akamas trail of the same name.",
+     "srcs": [{"t": VC_TRAILS[0], "u": VC_TRAILS[1]}, {"t": FD[0], "u": FD[1]}, {"t": "Location: OpenStreetMap contributors", "u": "https://www.openstreetmap.org/node/12741785061"}],
+     "pinNote": "The Cape Greco visitor centre, where the trail starts, from OpenStreetMap."},
+    {"i": "att-tio-paphos", "k": "info", "cat": "Tourist information", "n": "Paphos Tourist Information Office", "alt": "Pafos tourist office; CTO Paphos", "d": "paphos",
+     "a": "17 Dimitraki Papamiltiadous Street, corner of Kostaki Karnavalou, Paphos", "ph": "+357 26 932841", "hrs": TIO_HRS,
+     "desc": "The official tourist information office in Paphos town.", "srcs": [{"t": VC_TIO[0], "u": VC_TIO[1]}]},
+]
+
 out = []
-for i, oid, k, cat, name, alias, inside, web, desc, extra in SPEC:
+for row in SPEC:
+    i, oid, k, cat, name, alias, inside, web, desc, extra = row[:10]
+    x = row[10] if len(row) > 10 else {}
     o = OSM[oid]
     ent = o["ent"][0]["ll"] if o["ent"] else None
     site = web or o["web"] or None
     srcs = []
     if site: srcs.append({"t": "Official website", "u": site})
     if extra: srcs.append({"t": extra[0], "u": extra[1]})
+    if i in FD_TRAILS: srcs.append({"t": FD[0], "u": FD[1]})
     srcs.append({"t": "Location: OpenStreetMap contributors", "u": f"https://www.openstreetmap.org/{ {'n': 'node', 'w': 'way', 'r': 'relation'}[oid[0]] }/{oid[1:]}"})
     out.append({
         "i": i, "k": k, "cat": cat, "n": name or o["en"] or o["n"], "alt": "; ".join(alias), "ll": ent or o["ll"], "pr": "osm",
         "ent": bool(ent), "web": site, "a": o["addr"] or None, "ph": PHONE.get(i) or o.get("ph") or None, "osm": oid, "inside": inside, "desc": desc, "srcs": srcs,
     })
-for e in EXTRA: out.append({**e, "alt": e["alt"]})
+    out[-1].update(x)
+for e in EXTRA: out.append({"inside": [], **e})
 for o in out:
     if o["i"] == "att-zenobia":
         o["sea"] = True

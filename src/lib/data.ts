@@ -94,6 +94,8 @@ for (const r of POIS) {
   const p = PLACES.find((x) => x.ll && placeKind(x) !== "beach" && km(x.ll, r.ll!) < 0.12);
   if (p) POI_PLACE.set(r.i, p.slug);
 }
+/** Walks, museums and offices that belong to a place page (attractions with a "place" link). */
+export const linkedToPlace = (slug: string) => POIS.filter((r) => r.place === slug);
 /** The place page that stands in for this record, if any. */
 export const placeForPoi = (id: string) => POI_PLACE.get(id);
 

@@ -4242,6 +4242,911 @@
     "name": "GeoPark Geosite 2",
     "surface": "ground"
    }
+  },
+  {
+   "id": "n2972053686",
+   "names": "Aphrodite Trail",
+   "ll": [
+    35.05711,
+    32.344345
+   ],
+   "ent": [],
+   "tags": {
+    "board_type": "nature",
+    "check_date": "2023-02-13",
+    "information": "board",
+    "name": "Aphrodite Trail",
+    "tourism": "information"
+   }
+  },
+  {
+   "id": "n6174511541",
+   "names": "Pissouromoutti trail",
+   "ll": [
+    35.023392,
+    32.333533
+   ],
+   "ent": [],
+   "tags": {
+    "board_type": "map",
+    "hiking": "yes",
+    "information": "board",
+    "name": "Pissouromoutti trail",
+    "tourism": "information"
+   }
+  },
+  {
+   "id": "n391393057",
+   "names": "Αταλάντη | Atalante | Αταλάντη",
+   "ll": [
+    34.924151,
+    32.880841
+   ],
+   "ent": [],
+   "tags": {
+    "access": "yes",
+    "ele": "1700",
+    "fee": "no",
+    "highway": "trailhead",
+    "name": "Αταλάντη",
+    "name:el": "Αταλάντη",
+    "name:en": "Atalante",
+    "operator": "Department of Forests"
+   }
+  },
+  {
+   "id": "n3876537331",
+   "names": "Nature Trial Trooditissa - Fini",
+   "ll": [
+    34.896777,
+    32.837478
+   ],
+   "ent": [],
+   "tags": {
+    "hiking": "yes",
+    "information": "map",
+    "map_size": "region",
+    "map_type": "scheme",
+    "name": "Nature Trial Trooditissa - Fini",
+    "tourism": "information"
+   }
+  },
+  {
+   "id": "n3834649311",
+   "names": "Prodromos Dam - Stavroulia Nataure Trail",
+   "ll": [
+    34.947677,
+    32.847375
+   ],
+   "ent": [],
+   "tags": {
+    "hiking": "yes",
+    "information": "map",
+    "map_size": "region",
+    "name": "Prodromos Dam - Stavroulia Nataure Trail",
+    "tourism": "information"
+   }
+  },
+  {
+   "id": "n13730113864",
+   "names": "Mnimata ton Piskopon | Μνήματα των Πισκόπων",
+   "ll": [
+    34.956617,
+    32.905223
+   ],
+   "ent": [],
+   "tags": {
+    "ele": "1500",
+    "name": "Mnimata ton Piskopon",
+    "name:el": "Μνήματα των Πισκόπων",
+    "natural": "peak"
+   }
+  },
+  {
+   "id": "n3847157934",
+   "names": "Chrysovrysi Trail",
+   "ll": [
+    34.92774,
+    32.934504
+   ],
+   "ent": [],
+   "tags": {
+    "board_type": "notice",
+    "description": "Nature Trial",
+    "information": "board",
+    "name": "Chrysovrysi Trail",
+    "tourism": "information"
+   }
+  },
+  {
+   "id": "w199912325",
+   "names": "Konnoi-Agioi Anargyroi path",
+   "ll": [
+    34.975341,
+    34.075263
+   ],
+   "ent": [],
+   "tags": {
+    "foot": "yes",
+    "highway": "path",
+    "name": "Konnoi-Agioi Anargyroi path",
+    "sac_scale": "mountain_hiking",
+    "surface": "rock",
+    "trail_visibility": "good"
+   }
+  },
+  {
+   "id": "n334106662",
+   "names": "Κοιλάδα των Κέδρων | Cedar Valley",
+   "ll": [
+    34.991488,
+    32.688541
+   ],
+   "ent": [],
+   "tags": {
+    "name": "Κοιλάδα των Κέδρων",
+    "name:en": "Cedar Valley",
+    "tourism": "attraction"
+   }
+  },
+  {
+   "id": "n292189216",
+   "names": "Σταυρός της Ψώκας | Stavros tis Psokas | Σταυρός της Ψώκας",
+   "ll": [
+    35.024607,
+    32.63064
+   ],
+   "ent": [],
+   "tags": {
+    "name": "Σταυρός της Ψώκας",
+    "name:el": "Σταυρός της Ψώκας",
+    "name:en": "Stavros tis Psokas",
+    "name:hu": "Sztavrósz tisz Pszókasz",
+    "name:ru": "Ставрос - тис - Псокас",
+    "place": "hamlet"
+   }
+  },
+  {
+   "id": "n5422028823",
+   "names": "Βοτανικός Κήπος Τροόδους «Α.Γ. Λεβέντης» | Botanical Garden of Troodos \"A.G. Leventis\"",
+   "ll": [
+    34.928896,
+    32.915757
+   ],
+   "ent": [],
+   "tags": {
+    "leisure": "garden",
+    "name": "Βοτανικός Κήπος Τροόδους «Α.Γ. Λεβέντης»",
+    "name:en": "Botanical Garden of Troodos \"A.G. Leventis\""
+   }
+  },
+  {
+   "id": "n12620092688",
+   "names": "Σμιγιές",
+   "ll": [
+    35.024038,
+    32.333115
+   ],
+   "ent": [],
+   "tags": {
+    "access": "yes",
+    "educational": "yes",
+    "highway": "trailhead",
+    "name": "Σμιγιές",
+    "operator": "Τμήμα Δασών"
+   }
+  },
+  {
+   "id": "n12622913404",
+   "names": "Καννούρες - Άγιος Νικόλαος",
+   "ll": [
+    34.977873,
+    32.8852
+   ],
+   "ent": [],
+   "tags": {
+    "access": "yes",
+    "educational": "yes",
+    "highway": "trailhead",
+    "name": "Καννούρες - Άγιος Νικόλαος",
+    "operator": "Τμήμα Δασών"
+   }
+  },
+  {
+   "id": "n12623159064",
+   "names": "Κόννοι - Σπηλιά του Κύκλωπα",
+   "ll": [
+    34.984122,
+    34.068098
+   ],
+   "ent": [],
+   "tags": {
+    "access": "yes",
+    "educational": "yes",
+    "highway": "trailhead",
+    "name": "Κόννοι - Σπηλιά του Κύκλωπα",
+    "operator": "Τμήμα Δασών"
+   }
+  },
+  {
+   "id": "n12693595973",
+   "names": "Artemis Nature Trail",
+   "ll": [
+    34.933128,
+    32.872019
+   ],
+   "ent": [],
+   "tags": {
+    "information": "board",
+    "name": "Artemis Nature Trail",
+    "tourism": "information"
+   }
+  },
+  {
+   "id": "n4425364591",
+   "names": "Κάμπος του Λιβαδιού | Kampos tou Livadiou | Κάμπος του Λιβαδιού",
+   "ll": [
+    34.935271,
+    32.888269
+   ],
+   "ent": [],
+   "tags": {
+    "access": "yes",
+    "capacity": "400",
+    "ele": "1650",
+    "fireplace": "yes",
+    "name": "Κάμπος του Λιβαδιού",
+    "name:el": "Κάμπος του Λιβαδιού",
+    "name:en": "Kampos tou Livadiou",
+    "operator": "Department of Forests",
+    "tourism": "picnic_site",
+    "wheelchair": "no"
+   }
+  },
+  {
+   "id": "n2360188140",
+   "names": "Cyclops Cave",
+   "ll": [
+    34.986517,
+    34.076508
+   ],
+   "ent": [],
+   "tags": {
+    "access": "yes",
+    "description": "Cyclops Cave is at the end of a dirt road near Cape Greko national park, with a few benches and small shelter. Can also be reached by walking on Konnos Nature Trail.",
+    "fee": "no",
+    "name": "Cyclops Cave",
+    "natural": "cave_entrance"
+   }
+  },
+  {
+   "id": "n10671770258",
+   "names": "Κέντρο Πληροφόρησης Γεωλογίας Παλαιοντολογίας Ακάμα | Akamas Geology and Paleontology Information Centre | Κέντρο Πληροφόρησης Γεωλογίας Παλαιοντολογίας Ακάμα",
+   "ll": [
+    34.937338,
+    32.410383
+   ],
+   "ent": [],
+   "tags": {
+    "contact:facebook": "https://www.facebook.com/profile.php?id=100083305662665",
+    "fee": "no",
+    "name": "Κέντρο Πληροφόρησης Γεωλογίας Παλαιοντολογίας Ακάμα",
+    "name:el": "Κέντρο Πληροφόρησης Γεωλογίας Παλαιοντολογίας Ακάμα",
+    "name:en": "Akamas Geology and Paleontology Information Centre",
+    "phone": "+357 26 332332",
+    "tourism": "museum"
+   }
+  },
+  {
+   "id": "n9469838798",
+   "names": "Episkopi Environmental Information Centre",
+   "ll": [
+    34.791552,
+    32.523252
+   ],
+   "ent": [],
+   "tags": {
+    "name": "Episkopi Environmental Information Centre",
+    "office": "yes"
+   }
+  },
+  {
+   "id": "n13782938552",
+   "names": "Μεσαιωνικό Μουσείο Λάρνακας | Larnaka Medieval Museum | Μεσαιωνικό Μουσείο Λάρνακας",
+   "ll": [
+    34.910491,
+    33.637568
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Larnaka",
+    "charge": "2.5 EUR",
+    "description": "Larnaka’s Medieval Museum is housed on the second floor of the Medieval Fort.",
+    "fee": "yes",
+    "museum": "history",
+    "name": "Μεσαιωνικό Μουσείο Λάρνακας",
+    "name:el": "Μεσαιωνικό Μουσείο Λάρνακας",
+    "name:en": "Larnaka Medieval Museum",
+    "opening_hours": "Sep 16-Apr 15 Mo-Fr 08:00-17:00, Sa-Su 09:30-17:00; Apr 16-Sep 15 Mo-Fr 08:00-19:30, Sa-Su 09:30-19:30; PH Off",
+    "phone": "+357 24 304 576",
+    "tourism": "museum"
+   }
+  },
+  {
+   "id": "n6773607685",
+   "names": "Bee & embroidery museum | Bee & embroidery museum",
+   "ll": [
+    34.850637,
+    33.303673
+   ],
+   "ent": [],
+   "tags": {
+    "name": "Bee & embroidery museum",
+    "name:en": "Bee & embroidery museum",
+    "name:ru": "Музей меда и вышивки",
+    "tourism": "museum"
+   }
+  },
+  {
+   "id": "n9435943539",
+   "names": "Rural Museum of Kato Drys | αγροτικό μουσείο Κάτω Δρυς",
+   "ll": [
+    34.850742,
+    33.305038
+   ],
+   "ent": [],
+   "tags": {
+    "check_date": "2023-06-03",
+    "museum": "history",
+    "name": "Rural Museum of Kato Drys",
+    "name:el": "αγροτικό μουσείο Κάτω Δρυς",
+    "tourism": "museum"
+   }
+  },
+  {
+   "id": "n4437658090",
+   "names": "Τοπικο Μουσείο Παραδοσιακής Κεντητικής και Αργυροχοΐας-Λεύκαρα | Museum of Folk Art, Embroidery and Silversmithing Lefkara | Τοπικό Μουσείο Παραδοσιακής Κεντητικής και Αργυροχοΐας-Λεύκαρα",
+   "ll": [
+    34.865245,
+    33.306159
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Πάνω Λεύκαρα",
+    "addr:housenumber": "9",
+    "addr:postcode": "7700",
+    "addr:street": "Ξένη Αναστασιαδη",
+    "check_date": "2023-11-01",
+    "description": "Local Museum of Traditional Embroidery and Silversmith. The House dates back to 19th century. In the left corner of the courtyard a stair leads to the upper floor which has three rooms.",
+    "email": "info@lefkara.org.cy",
+    "fee": "no",
+    "museum": "local",
+    "name": "Τοπικο Μουσείο Παραδοσιακής Κεντητικής και Αργυροχοΐας-Λεύκαρα",
+    "name:el": "Τοπικό Μουσείο Παραδοσιακής Κεντητικής και Αργυροχοΐας-Λεύκαρα",
+    "name:en": "Museum of Folk Art, Embroidery and Silversmithing Lefkara",
+    "name:prefix": "Οδός",
+    "opening_hours": "Mo-Su 08:30-16:00",
+    "operator": "Department of Antiquities",
+    "operator:type": "government",
+    "phone": "+357 24 342422",
+    "tourism": "museum",
+    "website": "https://www.lefkara.org.cy/en/visitors/guided-tour/museum-of-lefkara",
+    "wheelchair": "no"
+   }
+  },
+  {
+   "id": "w20676922",
+   "names": "Larnaca Municipal Gallery",
+   "ll": [
+    34.916849,
+    33.637483
+   ],
+   "ent": [],
+   "tags": {
+    "building": "yes",
+    "check_date": "2026-09-09",
+    "check_date:opening_hours": "2026-09-09",
+    "fee": "no",
+    "name": "Larnaca Municipal Gallery",
+    "opening_hours": "Mo-Fr 09:00-14:30",
+    "toilets": "yes",
+    "tourism": "museum",
+    "wheelchair": "limited",
+    "wikidata": "Q71413347"
+   }
+  },
+  {
+   "id": "n14167090016",
+   "names": "Salt and Pepper Museum",
+   "ll": [
+    34.910994,
+    33.633695
+   ],
+   "ent": [],
+   "tags": {
+    "check_date:opening_hours": "2026-09-09",
+    "contact:facebook": "Salt and Pepper Museum Larnaka",
+    "name": "Salt and Pepper Museum",
+    "opening_hours:signed": "no",
+    "tourism": "museum",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "id": "n4559679489",
+   "names": "Petreon Sculpture Park | Petreon Sculpture Park",
+   "ll": [
+    34.788303,
+    33.486863
+   ],
+   "ent": [],
+   "tags": {
+    "name": "Petreon Sculpture Park",
+    "name:en": "Petreon Sculpture Park",
+    "name:ru": "Парк скульптур",
+    "opening_hours": "closed",
+    "was:tourism": "museum"
+   }
+  },
+  {
+   "id": "n244944570",
+   "names": "Μουσείο Λαϊκής Τέχνης | Local Ethnographic Museum | Μουσείο Λαϊκής Τέχνης",
+   "ll": [
+    34.759601,
+    32.454509
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Γεροσκήπου",
+    "description": "It is housed in a traditional 18th century building, known as the “House of Hadjismith”. This building belonged to Andreas Zimboulakis, a rich and educated man who was appointed British Consular Agent for western Cyprus.",
+    "fee": "no",
+    "museum": "local",
+    "name": "Μουσείο Λαϊκής Τέχνης",
+    "name:el": "Μουσείο Λαϊκής Τέχνης",
+    "name:en": "Local Ethnographic Museum",
+    "opening_hours": "Mo-Su 08:30-16:00",
+    "operator": "Department of Antiquities",
+    "operator:type": "government",
+    "phone": "+357 26306216",
+    "tourism": "museum",
+    "website": "http://www.culture.gov.cy/dmculture/da/da.nsf/All/38CF6DFE0977E664C22571990020C289?OpenDocument",
+    "wheelchair": "no"
+   }
+  },
+  {
+   "id": "n6047356804",
+   "names": "Τοπικό Αρχαιολογικό Moυσείο Μαρίου-Αρσινόης | Local Archaeological Museum of Marion-Arsinoe | Τοπικό Αρχαιολογικό Moυσείο Μαρίου-Αρσινόης",
+   "ll": [
+    35.035533,
+    32.427082
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Polis Chrysochous",
+    "addr:street": "Μακαρίου Γ΄",
+    "description": "It was erected by the Government of Cyprus with the financial support of Nicos Shakolas for storing and exhibiting finds from the ancient city of Marion (renamed Arsinoe in the 3rd century BC), its cemeteries and the surrounding area.",
+    "disabled": "yes",
+    "fee": "no",
+    "museum": "archaeological",
+    "name": "Τοπικό Αρχαιολογικό Moυσείο Μαρίου-Αρσινόης",
+    "name:el": "Τοπικό Αρχαιολογικό Moυσείο Μαρίου-Αρσινόης",
+    "name:en": "Local Archaeological Museum of Marion-Arsinoe",
+    "opening_hours": "Mo-Fr 08:00-16:00; Sa 09:00-15:00; Su off",
+    "operator": "Department of Antiquities",
+    "operator:type": "government",
+    "phone": "+357 26322955",
+    "tourism": "museum",
+    "url": "http://www.mcw.gov.cy/mcw/da/da.nsf/All/CAF4EC728ABCA91CC225719900208766?OpenDocument",
+    "website": "http://www.culture.gov.cy/dmculture/da/da.nsf/All/CAF4EC728ABCA91CC225719900208766?OpenDocument",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "id": "n5804163341",
+   "names": "Ethnographical Museum of Pafos",
+   "ll": [
+    34.773109,
+    32.421439
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Πάφος",
+    "addr:housenumber": "1",
+    "addr:postcode": "8047",
+    "addr:street": "Exo Vrysis",
+    "fee": "yes",
+    "name": "Ethnographical Museum of Pafos",
+    "opening_hours": "Mo-Sa 10:00-17:00, Su 11:00-13:00",
+    "phone": "+357 26944833",
+    "tourism": "museum",
+    "wheelchair": "no"
+   }
+  },
+  {
+   "id": "w220788477",
+   "names": "Byzantine museum",
+   "ll": [
+    34.990776,
+    32.491004
+   ],
+   "ent": [],
+   "tags": {
+    "building": "yes",
+    "name": "Byzantine museum",
+    "tourism": "museum"
+   }
+  },
+  {
+   "id": "n986675213",
+   "names": "Πατρική Οικία του Αρχιεπίσκοπου Μακαρίου Γ΄ | Birthplace of Archbishop Makarios III | Πατρική Οικία του Αρχιεπίσκοπου Μακαρίου Γ΄",
+   "ll": [
+    34.91922,
+    32.630188
+   ],
+   "ent": [],
+   "tags": {
+    "addr:housenumber": "4",
+    "name": "Πατρική Οικία του Αρχιεπίσκοπου Μακαρίου Γ΄",
+    "name:el": "Πατρική Οικία του Αρχιεπίσκοπου Μακαρίου Γ΄",
+    "name:en": "Birthplace of Archbishop Makarios III",
+    "tourism": "museum"
+   }
+  },
+  {
+   "id": "n9959060649",
+   "names": "Μουσείο Παραμυθιού | Fairy Tale Museum | Μουσείο Παραμυθιού",
+   "ll": [
+    35.173512,
+    33.358669
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Λευκωσία",
+    "addr:housenumber": "34",
+    "addr:street": "Γρανικού",
+    "charge": "5 EUR",
+    "check_date": "2026-03-28",
+    "description": "Its goal is to disseminate the cultural heritage of fairy tales, legends, myths and traditions from Cyprus and from all over the world. It arranges narrative tales, thematic exhibitions, educational programs, as well as events and performances.",
+    "fee": "yes",
+    "museum": "local",
+    "name": "Μουσείο Παραμυθιού",
+    "name:el": "Μουσείο Παραμυθιού",
+    "name:en": "Fairy Tale Museum",
+    "opening_hours": "Sa 10:00-14:00; Su-Fr,PH Off",
+    "operator": "Systemic Cyprus Institute",
+    "panoramax": "c896c717-8bd6-4c46-abc8-45bb57230149",
+    "phone": "+357 22 376 522",
+    "tourism": "museum",
+    "website": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/fairytale-museum/"
+   }
+  },
+  {
+   "id": "n14162422254",
+   "names": "Postal Museum",
+   "ll": [
+    35.171182,
+    33.363512
+   ],
+   "ent": [],
+   "tags": {
+    "fee": "no",
+    "name": "Postal Museum",
+    "opening_hours": "Mo-Fr 09:00-15:00; Sa 09:00-13:00",
+    "tourism": "museum",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "id": "n4557557192",
+   "names": "Μουσείο Ιστορικής Μοτοσικλέτας Κύπρου | Cyprus Classic Motorcycle Museum | Μουσείο Ιστορικής Μοτοσικλέτας Κύπρου",
+   "ll": [
+    35.172869,
+    33.358387
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Λευκωσία",
+    "addr:housenumber": "44",
+    "addr:postcode": "1010",
+    "addr:street": "Γρανικού",
+    "charge": "5 EUR",
+    "description": "This museum was established by Andreas Nicolaou and is a personal endeavour which started in 1980. He collected some of the most important historic motorcycles around the island.",
+    "fax": "+357 22 680 222",
+    "fee": "yes",
+    "museum": "transport",
+    "name": "Μουσείο Ιστορικής Μοτοσικλέτας Κύπρου",
+    "name:el": "Μουσείο Ιστορικής Μοτοσικλέτας Κύπρου",
+    "name:en": "Cyprus Classic Motorcycle Museum",
+    "opening_hours": "Mo-Fr 10:00-17:30; Sa 10:00-13:00; Su,PH Off",
+    "operator": "Andreas Nicolaou",
+    "operator:type": "private",
+    "phone": "+357 99 543 215;+357 22 680 222",
+    "start_date": "1980",
+    "tourism": "museum",
+    "website": "https://cyclassicmotormuseum.wixsite.com/cyclassicmotormuseum",
+    "wikidata": "Q5200446",
+    "wikipedia": "en:Cyprus Classic Motorcycle Museum"
+   }
+  },
+  {
+   "id": "w1088473564",
+   "names": "Μουσεία Παγκυπρίου Γυμνασίου | Museums of the Pancyprian Gymnasium | Μουσεία Παγκυπρίου Γυμνασίου",
+   "ll": [
+    35.174053,
+    33.368658
+   ],
+   "ent": [],
+   "tags": {
+    "building": "yes",
+    "building:levels": "2",
+    "email": "pgmuseum@cytanet.com.cy",
+    "fax": "+357 22 466 021",
+    "fee": "no",
+    "name": "Μουσεία Παγκυπρίου Γυμνασίου",
+    "name:el": "Μουσεία Παγκυπρίου Γυμνασίου",
+    "name:en": "Museums of the Pancyprian Gymnasium",
+    "name:ru": "Музеи Панкипрской гимназии",
+    "opening_hours": "Mo-Fr 09:00-15:30; We 09:00-17:00; Sa 09:00-13:00",
+    "phone": "+357 22 466 014",
+    "tourism": "museum",
+    "website": "https://lyk-pagkyprion-lef.schools.ac.cy/index.php/el/mouseia"
+   }
+  },
+  {
+   "id": "n12131116093",
+   "names": "Μουσείο Ιστορίας της Κυπριακής Νομισματοκοπίας | Museum of the History of Cypriot Coinage | Μουσείο Ιστορίας της Κυπριακής Νομισματοκοπίας",
+   "ll": [
+    35.172784,
+    33.362211
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Λευκωσία",
+    "addr:housenumber": "86",
+    "addr:postcode": "1011",
+    "addr:street": "Φανερωμένης",
+    "museum": "history",
+    "name": "Μουσείο Ιστορίας της Κυπριακής Νομισματοκοπίας",
+    "name:el": "Μουσείο Ιστορίας της Κυπριακής Νομισματοκοπίας",
+    "name:en": "Museum of the History of Cypriot Coinage",
+    "name:ru": "Музей истории чеканки кипрских монет",
+    "opening_hours": "Mo-Su 10:00-19:00",
+    "operator": "Bank of Cyprus Cultural Foundation",
+    "operator:type": "private",
+    "panoramax": "53893251-78b2-4f46-8d34-3aa47a8bbcb2",
+    "tourism": "museum",
+    "website": "https://www.boccf.org/en-gb/homepage/museums-collections2/museum-of-the-history/"
+   }
+  },
+  {
+   "id": "w808783878",
+   "names": "Zampelas Art Museum",
+   "ll": [
+    35.181896,
+    33.377519
+   ],
+   "ent": [],
+   "tags": {
+    "building": "yes",
+    "museum": "art",
+    "name": "Zampelas Art Museum",
+    "operator": "Michael - Lucy Zampellas",
+    "tourism": "museum"
+   }
+  },
+  {
+   "id": "w399071936",
+   "names": "Τοπικό Μουσείο Αρχαίου Ιδαλίου | Local Archaeological Museum of Ancient Idalion | Τοπικό Μουσείο Αρχαίου Ιδαλίου",
+   "ll": [
+    35.019224,
+    33.423269
+   ],
+   "ent": [],
+   "tags": {
+    "building": "yes",
+    "fee": "no",
+    "museum": "archaeological",
+    "name": "Τοπικό Μουσείο Αρχαίου Ιδαλίου",
+    "name:el": "Τοπικό Μουσείο Αρχαίου Ιδαλίου",
+    "name:en": "Local Archaeological Museum of Ancient Idalion",
+    "opening_hours": "Mo-Fr 08:30-16:00",
+    "phone": "+357 22 444888",
+    "tourism": "museum",
+    "website": "https://www.dali.org.cy/el/episkeptes/2-%CE%B1%CF%81%CF%87%CE%B1%CE%B9%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CE%BC%CE%BF%CF%85%CF%83%CE%B5%CE%AF%CE%B1"
+   }
+  },
+  {
+   "id": "n1547483189",
+   "names": "Εθνολογικό Μουσείο Φικάρδου | Fikardou Rural Museum | Εθνολογικό Μουσείο Φικάρδου",
+   "ll": [
+    34.960126,
+    33.171466
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Fikardou",
+    "description": "The Fikardou Rural Museum is housed in the House of Katsinioros, in Fikardou village. The whole village has been restored by the Department of Antiquities and has been declared an “Ancient Monument”.",
+    "fee": "no",
+    "museum": "local",
+    "name": "Εθνολογικό Μουσείο Φικάρδου",
+    "name:el": "Εθνολογικό Μουσείο Φικάρδου",
+    "name:en": "Fikardou Rural Museum",
+    "opening_hours": "Tu-Su 09:30-17:00; Mo off; PH off",
+    "operator": "Department of Antiquities",
+    "operator:type": "government",
+    "phone": "+357 22634731",
+    "tourism": "museum",
+    "website": "http://www.culture.gov.cy/dmculture/da/da.nsf/All/8865F898FAA8A275C22571990020EEAA?OpenDocument",
+    "wheelchair": "limited"
+   }
+  },
+  {
+   "id": "w396462454",
+   "names": "Baths of Aphrodite Botanical Garden",
+   "ll": [
+    35.056177,
+    32.345086
+   ],
+   "ent": [],
+   "tags": {
+    "barrier": "fence",
+    "landuse": "forest",
+    "leisure": "park",
+    "name": "Baths of Aphrodite Botanical Garden",
+    "name:uk": "Купальня Афродіти Ботанічний Сад"
+   }
+  },
+  {
+   "id": "n1215788675",
+   "names": "State Tourist Information Office",
+   "ll": [
+    34.988044,
+    34.001751
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Ayia Napa",
+    "addr:housenumber": "12",
+    "addr:postcode": "5330",
+    "addr:street": "Λεωφόρος Κριού Νερού",
+    "information": "office",
+    "name": "State Tourist Information Office",
+    "name:ru": "Государственное бюро туристической информации",
+    "panoramax": "5a43c41e-7816-442b-92a1-0da7c500c601",
+    "phone": "+357 23721796",
+    "tourism": "information"
+   }
+  },
+  {
+   "id": "w81251681",
+   "names": "Tourist Information | Τουριστικές Πληροφορίες",
+   "ll": [
+    35.016861,
+    34.049325
+   ],
+   "ent": [
+    {
+     "ll": [
+      35.016866,
+      34.049292
+     ],
+     "e": "yes"
+    }
+   ],
+   "tags": {
+    "addr:street": "Leoforos Protara",
+    "addr:street:en": "Protaras Avenue",
+    "addr:streetnumber": "16",
+    "building": "yes",
+    "check_date": "2025-09-03",
+    "information": "office",
+    "name": "Tourist Information",
+    "name:el": "Τουριστικές Πληροφορίες",
+    "name:ru": "Кипрская организация по туризму",
+    "opening_hours": "Mo-Fr 08:30-16:00; Sa-Su off",
+    "operator": "Deputy Ministry of Tourism",
+    "tourism": "information",
+    "website": "https://www.tourism.gov.cy/"
+   }
+  },
+  {
+   "id": "n4484146639",
+   "names": "Τουριστικές Πλαηροφοριεσ | Tourist Information | Τουριστικές Πλαηροφοριεσ",
+   "ll": [
+    34.671055,
+    33.042729
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Λεμεσός",
+    "addr:postcode": "3047",
+    "information": "office",
+    "name": "Τουριστικές Πλαηροφοριεσ",
+    "name:el": "Τουριστικές Πλαηροφοριεσ",
+    "name:en": "Tourist Information",
+    "operator": "Ministry of Tourism",
+    "phone": "+357 25362756",
+    "tourism": "information"
+   }
+  },
+  {
+   "id": "n339951438",
+   "names": "Cyprus Tourism Organization",
+   "ll": [
+    34.916835,
+    33.636811
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Larnaca",
+    "addr:postcode": "6023",
+    "addr:street": "Vasileos Pavlou",
+    "check_date": "2025-11-02",
+    "information": "office",
+    "name": "Cyprus Tourism Organization",
+    "operator": "Deputy Ministry of Tourism",
+    "phone": "+357 24654322",
+    "tourism": "information"
+   }
+  },
+  {
+   "id": "w28349840",
+   "names": "Αριστοκύπρου | Αριστοκύπρου",
+   "ll": [
+    35.169892,
+    33.362466
+   ],
+   "ent": [],
+   "tags": {
+    "bicycle": "yes",
+    "highway": "pedestrian",
+    "int_name": "Aristokyprou",
+    "maxspeed": "15",
+    "motor_vehicle": "no",
+    "motor_vehicle:conditional": "destination @ (7:00-10:00)",
+    "name": "Αριστοκύπρου",
+    "name:el": "Αριστοκύπρου",
+    "postal_code": "1011",
+    "surface": "paving_stones"
+   }
+  },
+  {
+   "id": "w13859981",
+   "names": "Olympou",
+   "ll": [
+    34.890963,
+    32.866236
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Olympou",
+    "ref": "E802",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "n2972033650",
+   "names": "Λεωφ Β.Στασίοικου 1 | V.Stasioikou 1 | Λεωφ Β.Στασίοικου 1",
+   "ll": [
+    35.032986,
+    32.425262
+   ],
+   "ent": [],
+   "tags": {
+    "bus": "yes",
+    "gtfs_stop_code": "30461",
+    "highway": "bus_stop",
+    "name": "Λεωφ Β.Στασίοικου 1",
+    "name:el": "Λεωφ Β.Στασίοικου 1",
+    "name:en": "V.Stasioikou 1",
+    "public_transport": "platform",
+    "ref": "30461",
+    "shelter": "yes"
+   }
   }
  ]
 }

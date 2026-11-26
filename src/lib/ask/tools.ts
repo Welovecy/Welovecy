@@ -23,12 +23,12 @@ import { addDays as addD } from "../duty";
  */
 
 const AREAS = DESTINATIONS.map((d) => d.id).join(", ");
-const KINDS = ["beach", "sight", "family", "activity", "eat", "night", "stay", "pharmacy", "health", "market", "bus"] as const;
+const KINDS = ["beach", "sight", "family", "activity", "nature", "info", "eat", "night", "stay", "pharmacy", "health", "market", "bus"] as const;
 
 export const TOOLS = [
   {
     name: "find_places",
-    description: "Search our guide for named places: beaches, sights, hotels, restaurants, bars, cafes, pharmacies, supermarkets. Use for 'where is X', 'tell me about X', or lists like 'seafood in Paphos'. Returns names, short facts and the page link on welovecy.com.",
+    description: "Search our guide for named places: beaches, sights, museums, walks and nature trails, tourist information offices, hotels, restaurants, bars, cafes, pharmacies, supermarkets. Use for 'where is X', 'tell me about X', or lists like 'seafood in Paphos'. Returns names, short facts and the page link on welovecy.com.",
     input_schema: {
       type: "object",
       properties: {
@@ -41,7 +41,7 @@ export const TOOLS = [
   },
   {
     name: "whats_near",
-    description: "What is close to a place (or to where the visitor is staying): nearest beaches, restaurants, bars, supermarkets, pharmacies, clinics, bus stops, sights, hotels. Gives straight-line distance, walk or drive time and a taxi estimate.",
+    description: "What is close to a place (or to where the visitor is staying): nearest beaches, restaurants, bars, supermarkets, pharmacies, clinics, bus stops, sights, walks, tourist offices, hotels. Gives straight-line distance, walk or drive time and a taxi estimate.",
     input_schema: {
       type: "object",
       properties: {
@@ -167,12 +167,12 @@ function findPlaces(a: Args) {
     const k = p.cat.toLowerCase().includes("beach") ? "beach" : "sight";
     if (!want(k) || (area && p.dest !== area)) continue;
     const s = score(p.name, q) || (q && norm(p.intro).includes(q) ? 20 : 0);
-    if (s) out.push({ n: p.name, kind: p.cat, area: areaName(p.dest), facts: p.intro.slice(0, 200), link: url(`/places/${p.slug}`), s: s + 5 });
+    if (s) out.push({ n: p.name, kind: p.cat, area: areaName(p.dest), facts: (p.notice ? `NOTICE: ${p.notice.t} ` : "") + p.intro.slice(0, 200), link: url(`/places/${p.slug}`), s: s + 5 });
   }
   for (const r of POIS) {
     if (!want(r.k) || (area && r.d !== area)) continue;
     const s = Math.max(score(r.n, q), ...(r.alt ? r.alt.split(";").map((x) => score(x, q)) : [0])) || (q && r.cat && norm(r.cat).includes(q) ? 20 : 0) || (q && r.tw && norm(r.tw).includes(q) ? 15 : 0);
-    if (s) out.push({ n: r.n, kind: r.k, area: [r.tw, areaName(r.d)].filter(Boolean).join(", "), facts: [r.cat, r.desc, r.a, r.ph ? `tel ${r.ph}` : "", r.hrs, r.web ? `website ${r.web}` : "", r.srcs ? "opening hours not verified" : ""].filter(Boolean).join(" · "), link: url(`/listing/${encodeURIComponent(r.i)}`), s });
+    if (s) out.push({ n: r.n, kind: r.k, area: [r.tw, areaName(r.d)].filter(Boolean).join(", "), facts: [r.notice ? `NOTICE: ${r.notice}` : "", r.cat, r.len ? `${r.len}${r.grade ? `, difficulty grade ${r.grade} (1 easiest to 3 hardest)` : ""}` : "", r.desc, r.a, r.ph ? `tel ${r.ph}` : "", r.hrs, r.hrsNote, r.web ? `website ${r.web}` : "", r.srcs && !r.hrs ? "opening hours not verified" : ""].filter(Boolean).join(" · "), link: url(`/listing/${encodeURIComponent(r.i)}`), s });
   }
   for (const b of BUSINESSES) {
     const k = isStay(b) ? "stay" : b.g === "night" ? "night" : "eat";

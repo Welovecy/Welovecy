@@ -19,8 +19,8 @@ export function GET() {
     q: norm(`${p.name} ${p.cat} ${(p.alt ?? []).join(" ")} ${p.loc ?? ""}`), d: p.dest,
   });
   for (const r of POIS) {
-    if (!["beach", "sight", "family", "activity"].includes(r.k) || placeForPoi(r.i)) continue;
-    out.push({ t: "p", n: r.n, s: [poiSub(r), r.tw].filter(Boolean).join(" · "), h: listingHref(r.i), q: norm(`${r.n} ${r.alt || ""} ${r.tw || ""} ${(ALIAS[r.i] ?? []).join(" ")}`), d: r.d });
+    if (!["beach", "sight", "family", "activity", "nature", "info"].includes(r.k) || placeForPoi(r.i)) continue;
+    out.push({ t: "p", n: r.n, s: [poiSub(r), r.tw].filter(Boolean).join(" · "), h: listingHref(r.i), q: norm(`${r.n} ${r.alt || ""} ${r.tw || ""} ${r.cat || ""}${r.k === "nature" ? " walk hike hiking" : r.k === "info" ? " tourist information office" : ""} ${(ALIAS[r.i] ?? []).join(" ")}`), d: r.d });
   }
   for (const b of BUSINESSES) {
     if (!isStay(b)) continue;

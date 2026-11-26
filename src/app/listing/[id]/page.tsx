@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
 import {
-  BUSINESSES, POIS, bizDirections, bizSub, getBusiness, getDest, getPoi, isStay, listingHref, placeForPoi, placeHref, poiDirections, poiSub, photoFor,
+  BUSINESSES, POIS, bizDirections, bizSub, getBusiness, getDest, getPlace, getPoi, isStay, listingHref, placeForPoi, placeHref, poiDirections, poiSub, photoFor,
 } from "@/lib/data";
 import { bizFacts, bizSources, poiFacts, poiSources } from "@/lib/listing";
 import { Crumbs, Facts, KindDot, Sources } from "@/components/Bits";
@@ -109,11 +109,13 @@ function PoiView({ id }: { id: string }) {
     <>
       <JsonLd data={ld} />
       <div className="wrap">
-        <Crumbs items={[["Home", "/"], [isBeach ? "Beaches" : r.k === "sight" || r.k === "family" || r.k === "activity" ? "Must-see" : "Essentials", isBeach ? "/beaches" : r.k === "sight" || r.k === "family" ? "/must-see" : `/essentials/${r.d}/${r.k}`], [r.n]]} />
+        <Crumbs items={[["Home", "/"], [isBeach ? "Beaches" : ["sight", "family", "activity", "nature"].includes(r.k) ? "Must-see" : "Essentials", isBeach ? "/beaches" : ["sight", "family", "activity", "nature"].includes(r.k) ? "/must-see" : `/essentials/${r.d}/${r.k}`], [r.n]]} />
         <div className="around-head">
           <p className="eyebrow"><KindDot color={K.c} /> <span style={{ marginLeft: 6 }}>{poiSub(r)}{r.tw ? ` · ${r.tw}` : ""}</span></p>
           <h1>{r.n}</h1>
           {r.desc ? <p className="lead" style={{ marginTop: 6 }}>{r.desc}</p> : null}
+          {r.place && getPlace(r.place) ? <p className="lead" style={{ marginTop: 6 }}>{r.k === "nature" && r.cat === "Nature trail" ? "Starts at " : "At "}<Link href={placeHref(r.place)}>{getPlace(r.place)!.name}</Link></p> : null}
+          {r.notice ? <div className="notice" role="status"><strong>Check first</strong><p>{r.notice}</p></div> : null}
           {r.bf ? <p><span className="flag flag-accent">Blue Flag 2026</span></p> : null}
           {r.ll && r.pr !== "approx" ? <FromBase ll={r.ll} /> : null}
           <div className="actions">
