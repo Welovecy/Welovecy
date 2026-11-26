@@ -758,10 +758,17 @@
      "u": "https://www.troodosgeopark.com/en/katarraktes-troodous/"
     },
     {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
      "t": "Location: OpenStreetMap contributors",
      "u": "https://www.openstreetmap.org/node/310731897"
     }
-   ]
+   ],
+   "len": "3 km trail",
+   "grade": 3,
+   "time": "1.5 hours"
   },
   {
    "i": "att-troodos-ski",
@@ -882,10 +889,17 @@
      "u": "https://www.troodosgeopark.com/en/katarraktes-troodous/"
     },
     {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
      "t": "Location: OpenStreetMap contributors",
      "u": "https://www.openstreetmap.org/node/1309548988"
     }
-   ]
+   ],
+   "len": "1.2 km trail",
+   "grade": 3,
+   "time": "30 minutes"
   },
   {
    "i": "att-troodos-geopark",
@@ -1472,7 +1486,9 @@
    ],
    "len": "7.5 km",
    "grade": 3,
-   "place": "baths-of-aphrodite"
+   "place": "baths-of-aphrodite",
+   "time": "3.5 hours",
+   "shape": "loop"
   },
   {
    "i": "att-trail-adonis",
@@ -1509,7 +1525,9 @@
    "len": "7.5 km",
    "grade": 3,
    "place": "baths-of-aphrodite",
-   "pinNote": "The shared trail start at the Baths of Aphrodite. The Adonis trail itself is not mapped by name."
+   "pinNote": "The shared trail start at the Baths of Aphrodite. The Adonis trail itself is not mapped by name.",
+   "time": "3.5 hours",
+   "shape": "loop"
   },
   {
    "i": "att-trail-smigies",
@@ -1544,7 +1562,9 @@
     }
    ],
    "len": "2.5 km or 6 km",
-   "grade": 2
+   "grade": 2,
+   "time": "1 hour short, 2 hours long",
+   "shape": "loop"
   },
   {
    "i": "att-trail-pissouromoutti",
@@ -1579,7 +1599,8 @@
     }
    ],
    "len": "3 km",
-   "grade": 2
+   "grade": 2,
+   "time": "2 hours"
   },
   {
    "i": "att-trail-artemis",
@@ -1614,7 +1635,8 @@
     }
    ],
    "len": "7 km",
-   "grade": 1
+   "grade": 1,
+   "time": "2.5 to 3 hours"
   },
   {
    "i": "att-trail-atalante",
@@ -1649,7 +1671,8 @@
     }
    ],
    "len": "14 km",
-   "grade": 2
+   "grade": 2,
+   "time": "4 to 5 hours"
   },
   {
    "i": "att-trail-livadi",
@@ -1685,7 +1708,9 @@
    ],
    "len": "1.5 km",
    "grade": 1,
-   "pinNote": "The Kampos tou Livadiou picnic site, where the trail starts, from OpenStreetMap."
+   "pinNote": "The Kampos tou Livadiou picnic site, where the trail starts, from OpenStreetMap.",
+   "time": "30 minutes",
+   "shape": "loop"
   },
   {
    "i": "att-trail-mnimata-piskopon",
@@ -1721,7 +1746,9 @@
    ],
    "len": "8 km",
    "grade": 3,
-   "pinNote": "The Kampos tou Livadiou picnic site, where the trail starts, from OpenStreetMap."
+   "pinNote": "The Kampos tou Livadiou picnic site, where the trail starts, from OpenStreetMap.",
+   "time": "3 hours",
+   "shape": "one way"
   },
   {
    "i": "att-trail-kannoures",
@@ -1757,7 +1784,9 @@
    ],
    "len": "9.5 km",
    "grade": 3,
-   "pinNote": "A point on the trail from OpenStreetMap. The official start is on the Troodos to Karvounas road (B9), 1 km before Troodos Square."
+   "pinNote": "A point on the trail from OpenStreetMap. The official start is on the Troodos to Karvounas road (B9), 1 km before Troodos Square.",
+   "time": "4 hours downhill",
+   "shape": "one way"
   },
   {
    "i": "att-trail-prodromos",
@@ -1792,7 +1821,9 @@
     }
    ],
    "len": "4.5 or 5.5 km",
-   "grade": 3
+   "grade": 3,
+   "time": "1.5 to 2 hours",
+   "shape": "one way"
   },
   {
    "i": "att-trail-trooditissa-foini",
@@ -1828,7 +1859,8 @@
    ],
    "len": "4.5 km",
    "grade": 1,
-   "place": "trooditissa"
+   "place": "trooditissa",
+   "shape": "one way"
   },
   {
    "i": "att-trail-chrysovrysi",
@@ -1863,7 +1895,8 @@
     }
    ],
    "len": "1.5 km",
-   "grade": 2
+   "grade": 2,
+   "shape": "one way"
   },
   {
    "i": "att-trail-konnoi-cyclops",
@@ -1899,7 +1932,8 @@
    ],
    "len": "1.7 km",
    "grade": 1,
-   "place": "konnos"
+   "place": "konnos",
+   "time": "45 minutes"
   },
   {
    "i": "att-trail-konnoi-anargyroi",
@@ -1935,7 +1969,9 @@
    ],
    "len": "4.8 km",
    "grade": 1,
-   "place": "konnos"
+   "place": "konnos",
+   "time": "2 hours",
+   "shape": "loop"
   },
   {
    "i": "att-akamas-geo-centre",
@@ -2958,6 +2994,375 @@
    "pinNote": "Approximate: the start of Vasileos Stasioikou Street, from OpenStreetMap."
   },
   {
+   "i": "att-trail-prodromos-zoumi",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Prodromos to Zoumi Nature Trail",
+   "alt": "Zoumi trail; Prodromos Zouri",
+   "ll": [
+    34.950761,
+    32.833641
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n12622883686",
+   "inside": [],
+   "desc": "A forest trail that starts by the children's play area in Prodromos, the highest village in Cyprus.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: Prodromos to Zoumi trail",
+     "u": "https://www.visitcyprus.com/discover-cyprus/rural/nature-trails/prodromos-zoumi-linear-lemesos-limassol-lefkosia-nicosia-districts-troodos-forest-nature-trail-2"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/12622883686"
+    }
+   ],
+   "len": "3 km",
+   "grade": 2,
+   "time": "1 to 1.5 hours",
+   "shape": "one way"
+  },
+  {
+   "i": "att-trail-psilo-dendro",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Psilo Dendro to Pouziaris Nature Trail",
+   "alt": "Pouziaris trail; Psilo Dentro trail",
+   "ll": [
+    34.895995,
+    32.869186
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n12249813003",
+   "inside": [],
+   "desc": "A long, demanding trail above Platres, starting where the Platres to Mesa Potamos forest road meets the B8, near Psilo Dendro.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/12249813003"
+    }
+   ],
+   "len": "9 km",
+   "grade": 3,
+   "time": "3 to 4 hours",
+   "place": "platres"
+  },
+  {
+   "i": "att-trail-teisia-madaris",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Teisia tis Madaris Nature Trail",
+   "alt": "Tisia tis Madaris; Madari ridge trail",
+   "ll": [
+    34.956153,
+    32.995156
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n3836205357",
+   "inside": [],
+   "desc": "A ridge walk on Madari, starting below the fire lookout station above Kyperounta.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/3836205357"
+    }
+   ],
+   "len": "3.5 km",
+   "grade": 3,
+   "time": "1.5 hours"
+  },
+  {
+   "i": "att-trail-madari",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Madari Nature Trail",
+   "alt": "Madari trail; Doxa soi o Theos",
+   "ll": [
+    34.955919,
+    32.963251
+   ],
+   "pr": "approx",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n2552639232",
+   "inside": [],
+   "desc": "A long loop around Madari in four sections, with its start and end at Doxa soi o Theos. Some sections can be walked on their own.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/2552639232"
+    }
+   ],
+   "len": "13 km",
+   "grade": 3,
+   "time": "5.5 hours",
+   "shape": "loop",
+   "pinNote": "An information board for the Madari trails, from OpenStreetMap. The official start is at Doxa soi o Theos."
+  },
+  {
+   "i": "att-trail-xyliatos",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Xyliatos Dam Nature Trail",
+   "alt": "Xyliatos trail; Xyliatos reservoir walk",
+   "ll": [
+    35.010509,
+    33.03767
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n2007734498",
+   "inside": [],
+   "desc": "A walk around the Xyliatos reservoir, starting at the dam's picnic site or above the overflow.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/2007734498"
+    }
+   ],
+   "len": "3.8 km",
+   "grade": 2,
+   "time": "1 to 1.5 hours",
+   "pinNote": "The Xyliatos Dam picnic site, one of the two official starts, from OpenStreetMap."
+  },
+  {
+   "i": "att-trail-agia-eirini",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Agia Eirini to Limeria Nature Trail",
+   "alt": "Limeria trail; Spilies tou Digeni",
+   "ll": [
+    34.986738,
+    32.95128
+   ],
+   "pr": "approx",
+   "ent": false,
+   "web": null,
+   "a": "Agia Eirini village",
+   "ph": null,
+   "osm": "n10297312135",
+   "inside": [],
+   "desc": "A steep uphill trail in the Adelfoi forest, from Agia Eirini village to Limeria.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/10297312135"
+    }
+   ],
+   "len": "5 km",
+   "grade": 3,
+   "time": "2.5 hours",
+   "shape": "one way",
+   "pinNote": "The Limeria end of the trail, from OpenStreetMap. The official start is in Agia Eirini village, so directions search for the village."
+  },
+  {
+   "i": "att-trail-kyparissia",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Kyparissia to Germasogeia Dam Nature Trail",
+   "alt": "Germasogeia Dam trail; Kyparissia trail",
+   "ll": [
+    34.794996,
+    33.136612
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n12623159047",
+   "inside": [],
+   "desc": "A forest trail in the hills above Limassol, about 3 km off the Parekklisia to Kellaki road. A short loop, or a long walk down to Germasogeia Dam. Both start with a steep descent.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: Kyparissia to Germasogeia Dam trail",
+     "u": "https://www.visitcyprus.com/?p=468442"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/12623159047"
+    }
+   ],
+   "len": "3.7 km loop, or 11 km to the dam",
+   "grade": 2,
+   "time": "1.5 hours (loop), 3 to 3.5 hours (to the dam, grade 3)"
+  },
+  {
+   "i": "att-trail-persephone",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Persephone Nature Trail",
+   "alt": "Persephoni trail",
+   "ll": [
+    34.924126,
+    32.880874
+   ],
+   "pr": "approx",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n1241186373",
+   "inside": [],
+   "desc": "An easy trail from Troodos Square through pine forest to a viewpoint over the southern slopes.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/1241186373"
+    }
+   ],
+   "len": "3 km",
+   "grade": 1,
+   "time": "1 hour",
+   "pinNote": "Troodos Square. The trail starts 150 m south of the square, towards the police station."
+  },
+  {
+   "i": "att-trail-kampos-livadiou",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Kampos tou Livadiou Nature Trail",
+   "alt": "Kampos tou Livadiou trail",
+   "ll": [
+    34.935271,
+    32.888269
+   ],
+   "pr": "approx",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n4425364591",
+   "inside": [],
+   "desc": "A Troodos forest trail by the Kampos tou Livadiou picnic site, off the Troodos to Karvounas road.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/4425364591"
+    }
+   ],
+   "len": "3 km",
+   "grade": 2,
+   "time": "1.5 hours",
+   "pinNote": "The Kampos tou Livadiou picnic site, from OpenStreetMap. Check the exact start on the official map."
+  },
+  {
+   "i": "att-trail-selladi-kannavia",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Selladi tou Karamanli to Kannavia Nature Trail",
+   "alt": "Kannavia trail; Selladi tou Karamanli",
+   "ll": [
+    34.964738,
+    32.988198
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n10301013579",
+   "inside": [],
+   "desc": "A mountain trail from Selladi tou Karamanli, on the Madari ridge, down towards Kannavia village.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/10301013579"
+    }
+   ],
+   "len": "4.8 km",
+   "grade": 3,
+   "time": "2.5 hours"
+  },
+  {
    "inside": [
     "cy-01501",
     "cy-01558",
@@ -3018,7 +3423,9 @@
      "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
     }
    ],
-   "pinNote": "The sea caves, where the trail starts."
+   "pinNote": "The sea caves, where the trail starts.",
+   "time": "1.5 hours",
+   "shape": "one way"
   },
   {
    "inside": [],
@@ -3050,7 +3457,8 @@
      "u": "https://www.openstreetmap.org/node/12741785061"
     }
    ],
-   "pinNote": "The Cape Greco visitor centre, where the trail starts, from OpenStreetMap."
+   "pinNote": "The Cape Greco visitor centre, where the trail starts, from OpenStreetMap.",
+   "time": "1 hour"
   },
   {
    "inside": [],
@@ -3070,6 +3478,35 @@
      "u": "https://www.visitcyprus.com/useful-info/tourist-information-offices/"
     }
    ]
+  },
+  {
+   "inside": [],
+   "i": "att-trail-araka-agiasmati",
+   "k": "nature",
+   "cat": "Nature trail",
+   "n": "Panagia tou Araka to Stavros tou Agiasmati Nature Trail",
+   "alt": "Araka Agiasmati trail; painted churches walk",
+   "ll": [
+    34.96544,
+    33.0072
+   ],
+   "pr": "osm",
+   "place": "panagia-tou-araka",
+   "len": "7 km",
+   "grade": 3,
+   "time": "3 hours",
+   "desc": "A trail between two of the UNESCO painted churches of Troodos, Panagia tou Araka near Lagoudera and Stavros tou Agiasmati near Platanistasa.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: nature trails map (2026)",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/2026/03/Hiking-Map-Nature-Trails.pdf"
+    },
+    {
+     "t": "Department of Forests: nature trails",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd56_en/fd56_en"
+    }
+   ],
+   "pinNote": "Panagia tou Araka church, one end of the trail."
   }
  ]
 }

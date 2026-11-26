@@ -17,6 +17,7 @@ import { KINDS } from "@/lib/kinds";
 import { hotelsNearFor, hotelsNearHref } from "@/lib/hotelsNear";
 import { InHotel } from "@/components/InHotel";
 import { Photo } from "@/components/Photo";
+import { ReportPin } from "@/components/MapNote";
 
 type P = { params: Promise<{ id: string }> };
 
@@ -80,6 +81,7 @@ export default async function ListingPage({ params }: P) {
           <h2>Details</h2>
           <Facts rows={bizFacts(b)} />
           <Sources list={src.list} reviewed={src.reviewed} />
+          <ReportPin name={b.n} href={href} />
           <p className="muted small">Run this business? <Link href="/list-your-business#update">Suggest an update</Link>.</p>
         </div>
       </section>
@@ -140,6 +142,7 @@ function PoiView({ id }: { id: string }) {
           <h2>Details</h2>
           <Facts rows={poiFacts(r)} />
           <Sources list={src.list} reviewed={src.reviewed} />
+          <ReportPin name={r.n} href={href} />
         </div>
       </section>
       {r.inside?.length ? <InHotel hotelId={r.i} hotelName={r.n} place /> : null}

@@ -102,6 +102,8 @@ export interface Poi {
   cat?: string; desc?: string; web?: string | null; sea?: boolean; srcs?: Source[]; ent?: boolean; pinNote?: string; inside?: string[];
   /** walks and nature: the place page it starts from or belongs to, trail length and Visit Cyprus grade (1 easy to 3 hard), a notice (closures) */
   place?: string; len?: string; grade?: number; notice?: string; hrsNote?: string;
+  /** walking time and route: a loop comes back to the start, a one-way walk doesn't */
+  time?: string; shape?: "loop" | "one way";
 }
 
 /** Everything that can sit on the "what's around" map. */

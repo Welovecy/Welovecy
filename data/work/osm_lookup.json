@@ -5147,6 +5147,146 @@
     "ref": "30461",
     "shelter": "yes"
    }
+  },
+  {
+   "id": "n12622883686",
+   "names": "Πρόδρομος - Ζουμί",
+   "ll": [
+    34.950761,
+    32.833641
+   ],
+   "ent": [],
+   "tags": {
+    "access": "yes",
+    "educational": "yes",
+    "highway": "trailhead",
+    "name": "Πρόδρομος - Ζουμί",
+    "operator": "Τμήμα Δασών"
+   }
+  },
+  {
+   "id": "n12249813003",
+   "names": "Πουζιάρη | Pouziaris Trail | Πουζιάρη",
+   "ll": [
+    34.895995,
+    32.869186
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "trailhead",
+    "name": "Πουζιάρη",
+    "name:el": "Πουζιάρη",
+    "name:en": "Pouziaris Trail"
+   }
+  },
+  {
+   "id": "n3836205357",
+   "names": "Tisia tis Madaris Trail",
+   "ll": [
+    34.956153,
+    32.995156
+   ],
+   "ent": [],
+   "tags": {
+    "board_type": "nature",
+    "check_date": "2022-08-11",
+    "information": "board",
+    "name": "Tisia tis Madaris Trail",
+    "tourism": "information"
+   }
+  },
+  {
+   "id": "n2552639232",
+   "names": "Trails of Madari Area",
+   "ll": [
+    34.955919,
+    32.963251
+   ],
+   "ent": [],
+   "tags": {
+    "check_date": "2022-08-11",
+    "information": "map",
+    "name": "Trails of Madari Area",
+    "tourism": "information"
+   }
+  },
+  {
+   "id": "n2007734498",
+   "names": "Φράκτης του Ξυλιάτου | Xyliatos Dam | Φράκτης του Ξυλιάτου",
+   "ll": [
+    35.010509,
+    33.03767
+   ],
+   "ent": [],
+   "tags": {
+    "access": "yes",
+    "capacity": "750",
+    "ele": "600",
+    "fireplace": "yes",
+    "name": "Φράκτης του Ξυλιάτου",
+    "name:el": "Φράκτης του Ξυλιάτου",
+    "name:en": "Xyliatos Dam",
+    "operator": "Department of Forests",
+    "ref": "23",
+    "tourism": "picnic_site",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "id": "n10297312135",
+   "names": "Limeria (Spilies tou Digeni)",
+   "ll": [
+    34.986738,
+    32.95128
+   ],
+   "ent": [],
+   "tags": {
+    "name": "Limeria (Spilies tou Digeni)"
+   }
+  },
+  {
+   "id": "n12623159047",
+   "names": "Κυπάρισσιά",
+   "ll": [
+    34.794996,
+    33.136612
+   ],
+   "ent": [],
+   "tags": {
+    "access": "yes",
+    "educational": "yes",
+    "highway": "trailhead",
+    "name": "Κυπάρισσιά",
+    "operator": "Τμήμα Δασών"
+   }
+  },
+  {
+   "id": "n1241186373",
+   "names": "Atalante Nature Trail",
+   "ll": [
+    34.924126,
+    32.880874
+   ],
+   "ent": [],
+   "tags": {
+    "check_date": "2026-03-04",
+    "information": "board",
+    "name": "Atalante Nature Trail",
+    "tourism": "information"
+   }
+  },
+  {
+   "id": "n10301013579",
+   "names": "Selladi tou Karamanli",
+   "ll": [
+    34.964738,
+    32.988198
+   ],
+   "ent": [],
+   "tags": {
+    "name": "Selladi tou Karamanli",
+    "place": "locality"
+   }
   }
  ]
 }

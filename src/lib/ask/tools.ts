@@ -172,7 +172,7 @@ function findPlaces(a: Args) {
   for (const r of POIS) {
     if (!want(r.k) || (area && r.d !== area)) continue;
     const s = Math.max(score(r.n, q), ...(r.alt ? r.alt.split(";").map((x) => score(x, q)) : [0])) || (q && r.cat && norm(r.cat).includes(q) ? 20 : 0) || (q && r.tw && norm(r.tw).includes(q) ? 15 : 0);
-    if (s) out.push({ n: r.n, kind: r.k, area: [r.tw, areaName(r.d)].filter(Boolean).join(", "), facts: [r.notice ? `NOTICE: ${r.notice}` : "", r.cat, r.len ? `${r.len}${r.grade ? `, difficulty grade ${r.grade} (1 easiest to 3 hardest)` : ""}` : "", r.desc, r.a, r.ph ? `tel ${r.ph}` : "", r.hrs, r.hrsNote, r.web ? `website ${r.web}` : "", r.srcs && !r.hrs ? "opening hours not verified" : ""].filter(Boolean).join(" · "), link: url(`/listing/${encodeURIComponent(r.i)}`), s });
+    if (s) out.push({ n: r.n, kind: r.k, area: [r.tw, areaName(r.d)].filter(Boolean).join(", "), facts: [r.notice ? `NOTICE: ${r.notice}` : "", r.cat, r.len ? `${r.len}${r.grade ? `, difficulty grade ${r.grade} (1 easiest to 3 hardest)` : ""}` : "", r.time ? `about ${r.time}` : "", r.shape === "one way" ? "one-way walk: plan the way back" : r.shape === "loop" ? "loop" : "", r.desc, r.a, r.ph ? `tel ${r.ph}` : "", r.hrs, r.hrsNote, r.web ? `website ${r.web}` : "", r.srcs && !r.hrs ? "opening hours not verified" : ""].filter(Boolean).join(" · "), link: url(`/listing/${encodeURIComponent(r.i)}`), s });
   }
   for (const b of BUSINESSES) {
     const k = isStay(b) ? "stay" : b.g === "night" ? "night" : "eat";

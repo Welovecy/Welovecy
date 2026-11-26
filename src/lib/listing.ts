@@ -49,6 +49,8 @@ export function poiFacts(r: Poi): Fact[] {
   if (r.cat) f.push(["Type", r.cat, false]);
   if (r.notice) f.push(["Status", r.notice, true]);
   if (r.len) f.push(["Length", r.len, false]);
+  if (r.time) f.push(["Walking time", r.time, false]);
+  if (r.shape) f.push(["Route", r.shape === "loop" ? "A loop, back to where you started" : "One way. It ends away from the start, so plan how you get back (a second car, a pickup or a taxi)", r.shape === "one way"]);
   if (r.grade) f.push(["Difficulty", `Grade ${r.grade} on the official scale from 1 (easiest) to 3 (hardest)`, false]);
   if (r.a) f.push(["Address", r.a + (r.tw ? `, ${r.tw}` : ""), false]);
   else if (r.tw) f.push(["Area", r.tw, false]);
