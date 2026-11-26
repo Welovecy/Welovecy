@@ -17,7 +17,14 @@ def main(pattern, out):
     rx = re.compile(fold(pattern))
     path = "/tmp/cyprus.osm.pbf"
     req = urllib.request.Request("https://download.geofabrik.de/europe/cyprus-latest.osm.pbf", headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=300) as r, open(path, "wb") as f: f.write(r.read())
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(req, timeout=300) as r, open(path, "wb") as f: f.write(r.read())
+            break
+        except OSError:
+            import time; time.sleep(20 * (attempt + 1))
+    else:
+        raise SystemExit("download failed")
     ents = {}
     class E(osmium.SimpleHandler):
         def node(self, n):
