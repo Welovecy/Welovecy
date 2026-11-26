@@ -5,6 +5,8 @@ import { notFound } from "next/navigation";
 import { PLACES, PLACE_BEACH, getDest, getPlace, linkedToPlace, photoFor, placeHref } from "@/lib/data";
 import { ListRow } from "@/components/ListRow";
 import { ReportPin } from "@/components/MapNote";
+import { SeasonBanner } from "@/components/Season";
+import { cyMonth } from "@/lib/season";
 import { poiRow } from "@/lib/views";
 import { Crumbs, Facts, Sources } from "@/components/Bits";
 import { Photo } from "@/components/Photo";
@@ -77,6 +79,7 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
             {p.unesco ? <UnescoBadge id={p.unesco} /> : null}
             <p className="lead">{p.intro}</p>
             {notice}
+            <SeasonBanner k={`place-${p.slug}`} built={cyMonth()} />
             {actions}
           </div>
         </div>
@@ -89,6 +92,7 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
             {p.unesco ? <UnescoBadge id={p.unesco} /> : null}
             <p className="lead" style={{ margin: 0 }}>{p.intro}</p>
             {notice}
+            <SeasonBanner k={`place-${p.slug}`} built={cyMonth()} />
             {p.ll ? <FromBase ll={p.ll} /> : null}
             {actions}
           </div>

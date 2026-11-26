@@ -3,6 +3,8 @@ import { directionsTo, howFar } from "@/lib/geo";
 import { KINDS } from "@/lib/kinds";
 import type { Near } from "@/lib/around";
 import { GoIcon } from "./Icons";
+import { SeasonTag } from "./Season";
+import { seasonFor, cyMonth } from "@/lib/season";
 
 export function NearRow({ n, noDistance, num }: { n: Near; noDistance?: boolean; num?: number }) {
   const K = KINDS[n.s.k];
@@ -11,7 +13,7 @@ export function NearRow({ n, noDistance, num }: { n: Near; noDistance?: boolean;
     <li>
       <Link className="row" href={n.s.href}>
         <span className={`mono k${n.s.k === "bus" ? " k-bus" : ""}`} aria-hidden="true" style={{ background: K.c }}>{num ?? K.l}</span>
-        <span className="rowtxt"><strong>{n.s.n}</strong><span>{meta}</span></span>
+        <span className="rowtxt"><strong>{n.s.n}</strong><span>{meta}</span>{seasonFor(n.s.key) ? <SeasonTag k={n.s.key} built={cyMonth()} /> : null}</span>
       </Link>
       <a className="dirlink" href={n.s.dir || directionsTo(n.s.ll)} target="_blank" rel="noopener noreferrer" aria-label={`Directions to ${n.s.n}`}>
         <GoIcon />

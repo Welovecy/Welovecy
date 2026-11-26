@@ -23,24 +23,24 @@ export function aroundData(ll: LL, skip?: string) {
   };
 }
 
-export interface RowData { href: string; n: string; sub: string; mono: string; color?: string; dir?: string }
+export interface RowData { href: string; n: string; sub: string; mono: string; color?: string; dir?: string; sk?: string }
 
 export function poiRow(r: Poi): RowData {
   return {
-    href: listingHref(r.i), n: r.n, mono: KINDS[r.k].l, color: KINDS[r.k].c, dir: poiDirections(r),
+    href: listingHref(r.i), n: r.n, mono: KINDS[r.k].l, color: KINDS[r.k].c, dir: poiDirections(r), sk: r.i,
     sub: [poiSub(r), r.tw].filter(Boolean).join(" · "),
   };
 }
 export function placeRow(p: Place): RowData {
   const k = placeKind(p);
   return {
-    href: placeHref(p.slug), n: p.name, mono: KINDS[k].l, color: KINDS[k].c, dir: p.ll ? directionsTo(p.ll) : undefined,
+    href: placeHref(p.slug), n: p.name, mono: KINDS[k].l, color: KINDS[k].c, dir: p.ll ? directionsTo(p.ll) : undefined, sk: `place-${p.slug}`,
     sub: [p.unesco ? "UNESCO World Heritage" : p.cat, p.loc].filter(Boolean).join(" · "),
   };
 }
 
 export function bizRow(b: Business, extra?: string): RowData {
-  return { href: listingHref(b.i), n: b.n, mono: isStay(b) ? "H" : "E", sub: [bizSub(b), extra].filter(Boolean).join(" · "), dir: bizDirections(b) };
+  return { href: listingHref(b.i), n: b.n, mono: isStay(b) ? "H" : "E", sub: [bizSub(b), extra].filter(Boolean).join(" · "), dir: bizDirections(b), sk: b.i };
 }
 
 /** Beach and sight records for an area that don't already have their own place page. */

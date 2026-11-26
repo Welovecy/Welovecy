@@ -68,7 +68,17 @@ export const POIS = [
   }
 }
 export const IMAGES = imagesJson as unknown as Record<string, Photo>;
-export const BUS = busJson as unknown as BusData;
+/** Operator names in the source use a long dash ("Cyprus Public Transport — Nicosia"); we show "Cyprus Public Transport (Nicosia)". */
+const opName = (op: string) => op.replace(/\s+—\s+(.+)$/, " ($1)");
+export const BUS: BusData = (() => {
+  const raw = busJson as unknown as BusData;
+  return {
+    ...raw,
+    routes: Object.fromEntries(Object.entries(raw.routes).map(([k, r]) => [k, { ...r, op: opName(r.op) }])),
+    ops: Object.fromEntries(Object.entries(raw.ops).map(([k, v]) => [opName(k), v])),
+    airport: raw.airport.map((s) => ({ ...s, op: opName(s.op), route: s.route.replace(/\s+—\s+/g, " to ") })),
+  };
+})();
 const busStopBy = new Map(BUS.stops.map((s) => [s.i, s]));
 export const getBusStop = (id: string) => busStopBy.get(id);
 export const busRoutesAt = (keys: string[]): BusRoute[] =>

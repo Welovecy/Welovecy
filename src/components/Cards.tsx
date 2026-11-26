@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { SeasonTag } from "./Season";
+import { cyMonth, seasonFor } from "@/lib/season";
 import type { Destination, Experience, Maker, Place } from "@/lib/types";
 import { getDest, getExperience, getMaker, getPlace, photoFor, placeHref } from "@/lib/data";
 import { Photo } from "./Photo";
@@ -29,6 +31,7 @@ export function PlaceCard({ p, why }: { p: Place; why?: string }) {
           <h3 className="mt4">{p.name}</h3>
           <p className="mt6">{why || p.intro}</p>
           <DistanceTag ll={p.ll} />
+          {seasonFor(`place-${p.slug}`) ? <SeasonTag k={`place-${p.slug}`} built={cyMonth()} /> : null}
         </div>
       </Link>
       <div><SaveButton item={{ key: placeHref(p.slug), n: p.name, href: placeHref(p.slug), sub: `${p.cat} · ${d?.name ?? ""}` }} /></div>
