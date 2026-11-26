@@ -39,3 +39,10 @@ ask "I need a taxi in Ayia Napa to go to a club" NONE
 ask "We land at Paphos airport tomorrow, how do we get to our hotel?" NONE
 ask "What is the cheapest way from Larnaca airport to Ayia Napa?" "bus"
 ask "Is the waterpark in Ayia Napa open?" "season"
+
+echo "--- airport answers and sitemap"
+n=$(curl -s $B/sitemap.xml | grep -o '<loc>' | wc -l); [ "$n" -gt 4000 ] && ok "sitemap has $n pages" || no "sitemap has only $n pages"
+s=$(curl -s $B/sitemap.xml); [[ "$s" == *"/listing/att-trail-artemis"* ]] && ok "trail pages in sitemap" || no "trail pages missing from sitemap"
+[[ "$s" != *"/partners/"* && "$s" != *"/buses/stop/"* ]] && ok "partners and bus stops still out of sitemap" || no "partner or bus stop pages in sitemap"
+ask "How much is a taxi from Larnaca airport to Ayia Napa?" "50"
+ask "Cheapest way from Larnaca airport to Paralimni?" "Intercity"
