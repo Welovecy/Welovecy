@@ -46,3 +46,7 @@ s=$(curl -s $B/sitemap.xml); [[ "$s" == *"/listing/att-trail-artemis"* ]] && ok 
 [[ "$s" != *"/partners/"* && "$s" != *"/buses/stop/"* ]] && ok "partners and bus stops still out of sitemap" || no "partner or bus stop pages in sitemap"
 ask "How much is a taxi from Larnaca airport to Ayia Napa?" "50"
 ask "Cheapest way from Larnaca airport to Paralimni?" "Intercity"
+
+echo "--- long answers"
+ask "Plan my weekend" "weekend"
+ask "Troodos" "Troodos"
