@@ -25,6 +25,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...INTERESTS.map((i) => `/things/${i.id}`),
     ...BUSINESSES.filter(isStay).map((b) => listingHref(b.i)),
     ...POIS.filter((r) => r.k === "beach" && !placeForPoi(r.i)).map((r) => listingHref(r.i)),
+    // Attractions (museums, walks, dive centres, tourist offices, family days out) and every licensed venue.
+    ...POIS.filter((r) => ["sight", "family", "activity", "nature", "info"].includes(r.k) && !placeForPoi(r.i)).map((r) => listingHref(r.i)),
+    ...BUSINESSES.filter((b) => !isStay(b)).map((b) => listingHref(b.i)),
   ];
   return paths.map((p) => ({ url: absolute(p), lastModified }));
 }
