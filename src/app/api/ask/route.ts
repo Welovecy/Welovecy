@@ -14,6 +14,16 @@ export const maxDuration = 30;
 
 const MODEL = process.env.ASK_MODEL || "claude-haiku-5-5";
 const MAX_TURNS = 5;
+/** Room for her thinking plus a short answer; the rules keep answers short, so this only stops cut-offs. */
+const MAX_TOKENS = 1600;
+
+/**
+ * Server events go to the public site. By default the analytics library posts to the deployment's own
+ * address, which deployment protection locks, so the events never arrived.
+ */
+if (process.env.VERCEL_ENV === "production" && !process.env.VERCEL_WEB_ANALYTICS_ENDPOINT) {
+  process.env.VERCEL_WEB_ANALYTICS_ENDPOINT = "https://www.welovecy.com/_vercel/insights/event";
+}
 const MAX_Q = 500;
 
 // A light per-instance limit: 15 questions per 10 minutes per visitor. Enough for real use, stops abuse.
@@ -138,7 +148,7 @@ export async function POST(req: Request) {
   try {
     for (let turn = 0; turn < MAX_TURNS; turn++) {
       const res = await claude({
-        model: MODEL, max_tokens: 700,
+        model: MODEL, max_tokens: MAX_TOKENS,
         system: [{ type: "text", text: RULES, cache_control: { type: "ephemeral" } }, { type: "text", text: context(ctx) }],
         tools, messages: msgs,
       }, key);
@@ -147,11 +157,11 @@ export async function POST(req: Request) {
         const split = splitFollow(raw);
         const answer = fixLinks(split.answer), follow = split.follow;
         const q = question;
-        try { await track("Ask", { q: scrub(q), tools: used.join(",").slice(0, 100) || "none", page: (input.page || "").slice(0, 100) }); } catch {}
-        console.log(JSON.stringify({ ask: scrub(q), tools: used, usage: res.usage }));
+        try { await track("Ask", { q: scrub(q), tools: used.join(",").slice(0, 100) || "none", page: (input.page || "").slice(0, 100), cut: res.stop_reason === "max_tokens" }, { request: req }); } catch {}
+        console.log(JSON.stringify({ ask: scrub(q), tools: used, stop: res.stop_reason, usage: res.usage }));
         const cards = pickCards(found, answer);
-        for (const c of cards) if (c.k === "partner") { try { await track("Partner shown", { partner: c.pid ?? c.n, page: (input.page || "").slice(0, 100) }); } catch {} }
-        return NextResponse.json({ answer: answer || "Sorry, I couldn't find an answer to that.", cards, follow });
+        for (const c of cards) if (c.k === "partner") { try { await track("Partner shown", { partner: c.pid ?? c.n, page: (input.page || "").slice(0, 100) }, { request: req }); } catch {} }
+        return NextResponse.json({ answer: answer || (res.stop_reason === "max_tokens" ? "That one needs a longer answer than I can give here. Try asking about one part, like a town, a day or a type of place." : "Sorry, I couldn't find an answer to that."), cards, follow });
       }
       msgs.push({ role: "assistant", content: res.content });
       const results: Block[] = [];
