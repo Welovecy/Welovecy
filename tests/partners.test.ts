@@ -53,3 +53,15 @@ describe("partner rules", () => {
     expect(JSON.stringify(raw.partners)).not.toMatch(/€|eur\b|fee|price|renew|contract|invoice|2,?000/i);
   });
 });
+
+describe("links in Aphrodite's answers", () => {
+  it("keeps real pages, fixes an area written as a place, and unlinks the rest", async () => {
+    const { fixLinks } = await import("@/lib/ask/tools");
+    expect(fixLinks("[WaterWorld](https://welovecy.com/places/waterworld)")).toBe("[WaterWorld](https://welovecy.com/places/waterworld)");
+    expect(fixLinks("[Ayia Napa](https://welovecy.com/places/ayianapa)")).toBe("[Ayia Napa](https://welovecy.com/destinations/ayianapa)");
+    expect(fixLinks("see [this](https://welovecy.com/made-up-page) now")).toBe("see this now");
+    expect(fixLinks("[Go](https://welovecy.com/partners/go-airport-transfers)")).toContain("/partners/go-airport-transfers");
+    expect(fixLinks("[Kapnos](https://booking.kapnosairportshuttle.com/x)")).toBe("[Kapnos](https://booking.kapnosairportshuttle.com/x)");
+    expect(fixLinks("[duty](https://welovecy.com/pharmacies-on-duty/larnaca)")).toContain("/pharmacies-on-duty/larnaca");
+  });
+});

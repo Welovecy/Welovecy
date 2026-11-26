@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { track } from "@vercel/analytics/server";
-import { TOOLS, runTool, AREA_LINES, cardsFrom, pageContext, type Card, type Ctx } from "@/lib/ask/tools";
+import { TOOLS, runTool, AREA_LINES, cardsFrom, fixLinks, pageContext, type Card, type Ctx } from "@/lib/ask/tools";
 import { cyToday, fmtDay } from "@/lib/duty";
 import type { LL } from "@/lib/types";
 
@@ -144,7 +144,8 @@ export async function POST(req: Request) {
       }, key);
       if (res.stop_reason !== "tool_use") {
         const raw = res.content.filter((c) => c.type === "text").map((c) => c.text as string).join("\n").trim();
-        const { answer, follow } = splitFollow(raw);
+        const split = splitFollow(raw);
+        const answer = fixLinks(split.answer), follow = split.follow;
         const q = question;
         try { await track("Ask", { q: scrub(q), tools: used.join(",").slice(0, 100) || "none", page: (input.page || "").slice(0, 100) }); } catch {}
         console.log(JSON.stringify({ ask: scrub(q), tools: used, usage: res.usage }));
