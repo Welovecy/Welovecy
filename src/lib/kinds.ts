@@ -7,6 +7,8 @@ export const KINDS: Record<AroundKind, KindMeta> = {
   sight: { n: "Sights", one: "Sight", c: "var(--k-sight)", l: "S" },
   family: { n: "Family days out", one: "Family day out", c: "var(--k-family)", l: "F" },
   activity: { n: "Diving & activities", one: "Activity", c: "var(--k-act)", l: "A" },
+  nature: { n: "Walks & nature", one: "Walk or nature spot", c: "var(--k-nature)", l: "W" },
+  info: { n: "Tourist info", one: "Tourist information office", c: "var(--k-info)", l: "i" },
   eat: { n: "Eat & drink", one: "Place to eat", c: "var(--k-eat)", l: "E" },
   night: { n: "Bars & nightlife", one: "Bar", c: "var(--k-night)", l: "N" },
   stay: { n: "Places to stay", one: "Place to stay", c: "var(--k-stay)", l: "H" },
@@ -18,7 +20,7 @@ export const KINDS: Record<AroundKind, KindMeta> = {
 
 export const AROUND_TABS: [AroundKind, string][] = [
   ["beach", "Beaches"], ["sight", "Sights"], ["eat", "Eat & drink"], ["night", "Bars & nightlife"],
-  ["family", "Family"], ["activity", "Diving & activities"], ["market", "Supermarkets"], ["pharmacy", "Pharmacies"], ["bus", "Buses"], ["health", "Doctors"], ["stay", "Hotels"],
+  ["family", "Family"], ["activity", "Diving & activities"], ["nature", "Walks & nature"], ["market", "Supermarkets"], ["pharmacy", "Pharmacies"], ["bus", "Buses"], ["health", "Doctors"], ["info", "Tourist info"], ["stay", "Hotels"],
 ];
 
 /** What a guest looks for first, in this order. Further than the cap, we say it isn't mapped yet. */

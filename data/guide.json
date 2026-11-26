@@ -1183,7 +1183,14 @@
      "t": "Visit Cyprus",
      "u": "https://www.visitcyprus.com/"
     }
-   ]
+   ],
+   "notice": {
+    "t": "The Department of Forests closed the Avakas Gorge trail for safety, after falling rocks and landslides. It was still closed in May 2026 and we have found no reopening since. Don't enter while it is closed.",
+    "src": {
+     "t": "Cyprus Mail: Forestry Department not responsible for visitors to closed Avakas Gorge (6 May 2026)",
+     "u": "https://cyprus-mail.com/2026/05/06/forestry-department-not-responsible-for-visitors-to-closed-avakas-gorge"
+    }
+   }
   },
   {
    "slug": "limassol-old-port",

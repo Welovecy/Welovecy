@@ -47,11 +47,15 @@ export function poiFacts(r: Poi): Fact[] {
   if (r.k === "health" && r.ft) f.push(["Type", r.ft, false]);
   if (r.k === "market" && r.ch) f.push(["Chain", r.ch, false]);
   if (r.cat) f.push(["Type", r.cat, false]);
+  if (r.notice) f.push(["Status", r.notice, true]);
+  if (r.len) f.push(["Length", r.len, false]);
+  if (r.grade) f.push(["Difficulty", `Grade ${r.grade} on the official scale from 1 (easiest) to 3 (hardest)`, false]);
   if (r.a) f.push(["Address", r.a + (r.tw ? `, ${r.tw}` : ""), false]);
   else if (r.tw) f.push(["Area", r.tw, false]);
   if (r.ph) f.push(["Phone", String(r.ph), false]);
   if (r.web) f.push(["Website", r.web.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""), false]);
-  f.push(r.hrs ? ["Opening hours", r.hrs, false] : ["Opening hours", "Not yet verified.", true]);
+  if (r.k === "nature" && !r.hrs) f.push(["Access", "Open area. Check trail conditions and closures before you go.", true]);
+  else f.push(r.hrs ? ["Opening hours", r.hrs + (r.srcs ? ". Check before you go, hours can change." : ""), !!r.srcs] : ["Opening hours", "Not yet verified.", true]);
   if (r.reg) f.push(["Register number", String(r.reg), false]);
   f.push([
     "Map position",
@@ -62,7 +66,7 @@ export function poiFacts(r: Poi): Fact[] {
 }
 
 export function poiSources(r: Poi): { list: Source[]; reviewed: string } {
-  if (r.srcs) return { list: r.srcs, reviewed: `checked by We Love Cyprus on ${formatDate(r.sd)}. Opening hours are not verified yet, so check with the venue` };
+  if (r.srcs) return { list: r.srcs, reviewed: `checked by We Love Cyprus on ${formatDate(r.sd)}. ${r.hrs ? "Hours are from the sources above and can change" : r.k === "nature" ? "Trail conditions change, so check before you go" : "Opening hours are not verified yet, so check with the venue"}` };
   if (r.src === "osm" && r.ll) {
     return {
       list: [{ t: "OpenStreetMap contributors", u: `https://www.openstreetmap.org/?mlat=${r.ll[0]}&mlon=${r.ll[1]}#map=18/${r.ll[0]}/${r.ll[1]}` }],

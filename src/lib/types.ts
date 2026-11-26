@@ -35,6 +35,8 @@ export interface Place {
   sources: Source[];
   nearby?: string[];
   ll?: LL;
+  /** a current notice, e.g. a closure, with its source */
+  notice?: { t: string; src: Source };
   /** from the visitor guide */
   loc?: string;
   how?: string;
@@ -89,7 +91,7 @@ export interface Business {
 export type VenueType = "restaurant" | "taverna" | "cafe" | "snack" | "bar" | "pub" | "club" | "beachbar" | "cabaret";
 export type CuisineId = "cypriot" | "greek" | "seafood" | "italian" | "asian" | "indian" | "middleeast" | "grill" | "burger" | "mexican" | "brunch" | "dessert" | "british" | "vegan";
 
-export type PoiKind = "beach" | "sight" | "family" | "activity" | "pharmacy" | "health" | "market";
+export type PoiKind = "beach" | "sight" | "family" | "activity" | "nature" | "info" | "pharmacy" | "health" | "market";
 export interface Poi {
   i: string; k: PoiKind; n: string; d: DestId; tw?: string; a?: string; ph?: string | number;
   ll?: LL; pr?: "exact" | "source" | "osm" | "approx"; src?: "osm";
@@ -98,6 +100,8 @@ export interface Poi {
   ls?: "ov";
   /** attractions (data/attractions.json): category label, line, official site, sources, entrance pin, pin note */
   cat?: string; desc?: string; web?: string | null; sea?: boolean; srcs?: Source[]; ent?: boolean; pinNote?: string; inside?: string[];
+  /** walks and nature: the place page it starts from or belongs to, trail length and Visit Cyprus grade (1 easy to 3 hard), a notice (closures) */
+  place?: string; len?: string; grade?: number; notice?: string; hrsNote?: string;
 }
 
 /** Everything that can sit on the "what's around" map. */
