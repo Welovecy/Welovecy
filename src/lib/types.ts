@@ -82,6 +82,8 @@ export interface Business {
   cz?: CuisineId[];
   /** a venue inside a hotel: the hotel's id, where in the building, and opening hours from the venue itself */
   in?: string; fl?: string; hrs?: string;
+  /** an attraction this venue sits inside (a restaurant in a waterpark, a café in a mall) */
+  at?: string;
 }
 
 export type VenueType = "restaurant" | "taverna" | "cafe" | "snack" | "bar" | "pub" | "club" | "beachbar" | "cabaret";
@@ -94,6 +96,8 @@ export interface Poi {
   su?: string; sd?: string; reg?: string | number; ed?: string; ch?: string; ft?: string; hrs?: string;
   bf?: boolean; sf?: string; fac?: string[]; acc?: string; alt?: string; info?: string; bw?: string; bwid?: string;
   ls?: "ov";
+  /** attractions (data/attractions.json): category label, line, official site, sources, entrance pin, pin note */
+  cat?: string; desc?: string; web?: string | null; srcs?: Source[]; ent?: boolean; pinNote?: string; inside?: string[];
 }
 
 /** Everything that can sit on the "what's around" map. */

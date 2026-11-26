@@ -53,3 +53,24 @@ describe("ask cards", () => {
     expect(r.results.some((x) => x.link.endsWith("/wine"))).toBe(true);
   });
 });
+
+import { getBusiness, getPoi } from "@/lib/data";
+import { insideOf } from "@/lib/views";
+describe("attractions", () => {
+  it("loads attractions as places with sources", () => {
+    const a = getPoi("att-ocean-aquarium")!;
+    expect(a.n).toBe("Protaras Ocean Aquarium");
+    expect(a.srcs?.length).toBeGreaterThan(0);
+    expect(a.d).toBe("protaras");
+  });
+  it("links the restaurant inside and pins it to the aquarium", () => {
+    const b = getBusiness("cy-00511")!;
+    expect(b.at).toBe("att-ocean-aquarium");
+    expect(b.pr).toBeUndefined();
+    expect(insideOf("att-kings-avenue-mall").length).toBeGreaterThan(8);
+  });
+  it("Aphrodite finds attractions by alias", async () => {
+    const r = (await runTool("find_places", { query: "Fasouri Waterpark" }, { base: null })) as { results: { n: string }[] };
+    expect(r.results[0].n).toContain("Fasouri");
+  });
+});

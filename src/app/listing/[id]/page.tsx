@@ -61,6 +61,7 @@ export default async function ListingPage({ params }: P) {
           <p className="eyebrow">{bizSub(b)}</p>
           <h1>{b.n}</h1>
           {b.in && getBusiness(b.in) ? <p className="lead" style={{ marginTop: 6 }}>{b.fl ? `${b.fl} of ` : "Inside "}<Link href={listingHref(b.in)}>{getBusiness(b.in)!.n}</Link></p> : null}
+          {b.at && getPoi(b.at) ? <p className="lead" style={{ marginTop: 6 }}>Inside <Link href={listingHref(b.at)}>{getPoi(b.at)!.n}</Link></p> : null}
           {b.ll ? <FromBase ll={b.ll} skip={b.i} /> : null}
           <div className="actions">
             {b.ll ? <Link className="btn btn-primary" href={`${href}/around`}>See what&apos;s around</Link> : null}
@@ -112,11 +113,13 @@ function PoiView({ id }: { id: string }) {
         <div className="around-head">
           <p className="eyebrow"><KindDot color={K.c} /> <span style={{ marginLeft: 6 }}>{poiSub(r)}{r.tw ? ` · ${r.tw}` : ""}</span></p>
           <h1>{r.n}</h1>
+          {r.desc ? <p className="lead" style={{ marginTop: 6 }}>{r.desc}</p> : null}
           {r.bf ? <p><span className="flag flag-accent">Blue Flag 2026</span></p> : null}
           {r.ll && r.pr !== "approx" ? <FromBase ll={r.ll} /> : null}
           <div className="actions">
             {r.ll ? <Link className="btn btn-primary" href={`${href}/around`}>See what&apos;s around</Link> : null}
             <a className="btn btn-ghost" href={poiDirections(r)} target="_blank" rel="noopener noreferrer">Get directions</a>
+            {r.web ? <a className="btn btn-ghost" href={r.web} target="_blank" rel="noopener noreferrer">Website</a> : null}
             {isBeach && hotelsNearFor(r.i) ? <Link className="btn btn-ghost" href={hotelsNearHref(hotelsNearFor(r.i)!.slug)}>Hotels nearby</Link> : null}
             <SaveButton item={{ key: href, n: r.n, href, sub: poiSub(r) }} />
           </div>
@@ -137,6 +140,7 @@ function PoiView({ id }: { id: string }) {
           <Sources list={src.list} reviewed={src.reviewed} />
         </div>
       </section>
+      {r.inside?.length ? <InHotel hotelId={r.i} hotelName={r.n} place /> : null}
       {r.ll ? <AroundBlock ll={r.ll} skip={r.i} title="Near here" moreHref={`${href}/around`} /> : null}
     </>
   );

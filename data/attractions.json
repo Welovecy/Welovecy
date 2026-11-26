@@ -1,0 +1,805 @@
+{
+ "note": "Built by scripts/data/build_attractions.py. Hours are not verified unless a source says so.",
+ "checked": "2026-11-26",
+ "items": [
+  {
+   "i": "att-ocean-aquarium",
+   "k": "family",
+   "cat": "Aquarium",
+   "n": "Protaras Ocean Aquarium",
+   "alt": "Ocean Aquarium; Protaras Aquarium",
+   "ll": [
+    35.047679,
+    34.018407
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://www.protarasaquarium.com/",
+   "a": "Leoforos Protara-Cavo Greco 19 Protaras",
+   "osm": "w81256976",
+   "inside": [
+    "cy-00511"
+   ],
+   "desc": "An aquarium on the road from Protaras to Cape Greco, with a restaurant and café.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.protarasaquarium.com/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/81256976"
+    }
+   ]
+  },
+  {
+   "i": "att-camel-park",
+   "k": "family",
+   "cat": "Animal park",
+   "n": "Camel Park",
+   "alt": "Mazotos Camel Park",
+   "ll": [
+    34.800014,
+    33.507312
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://camel-park.com/",
+   "a": null,
+   "osm": "w1052232485",
+   "inside": [
+    "cy-01000"
+   ],
+   "desc": "An animal park near Mazotos, with a restaurant on site.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://camel-park.com/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/1052232485"
+    }
+   ]
+  },
+  {
+   "i": "att-fasouri-watermania",
+   "k": "family",
+   "cat": "Waterpark",
+   "n": "Fasouri Watermania Waterpark",
+   "alt": "Fasouri Waterpark; Fasouri Watermania",
+   "ll": [
+    34.652072,
+    32.9745
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "http://www.fasouri-watermania.com/",
+   "a": null,
+   "osm": "w53771432",
+   "inside": [
+    "cy-01978"
+   ],
+   "desc": "A waterpark in Fasouri, west of Limassol. Seasonal, so check dates with the park.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "http://www.fasouri-watermania.com/"
+    },
+    {
+     "t": "Limassol Tourism Board: waterpark",
+     "u": "https://www.limassoltourism.com/waterpark/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/53771432"
+    }
+   ]
+  },
+  {
+   "i": "att-aphrodite-waterpark",
+   "k": "family",
+   "cat": "Waterpark",
+   "n": "Paphos Aphrodite Waterpark",
+   "alt": "Aphrodite Waterpark; Pafos Aphrodite Waterpark",
+   "ll": [
+    34.74197,
+    32.441548
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://www.aphroditewaterpark.com/en",
+   "a": "Poseidonos Ave Paphos",
+   "osm": "w7710505",
+   "inside": [
+    "cy-02867",
+    "cy-02868"
+   ],
+   "desc": "The Paphos waterpark on Poseidonos Avenue, Geroskipou. Seasonal, so check dates with the park.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.aphroditewaterpark.com/en"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/7710505"
+    }
+   ]
+  },
+  {
+   "i": "att-pafos-zoo",
+   "k": "family",
+   "cat": "Zoo",
+   "n": "Pafos Zoo",
+   "alt": "Paphos Zoo; Pafos Bird and Animal Park",
+   "ll": [
+    34.893116,
+    32.341968
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://pafoszoo.com/",
+   "a": "Xylomantrou Street, Agiou Georgiou Πέγεια",
+   "osm": "w139497392",
+   "inside": [],
+   "desc": "A zoo in Agios Georgios, Peyia, near Coral Bay.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://pafoszoo.com/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/139497392"
+    }
+   ]
+  },
+  {
+   "i": "att-limassol-zoo",
+   "k": "family",
+   "cat": "Zoo",
+   "n": "Limassol Zoo",
+   "alt": "Limassol Municipal Zoo; Municipal Gardens Zoo",
+   "ll": [
+    34.683382,
+    33.055594
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://limassolzoo.com/",
+   "a": "Λόρδου Βύρωνος Λεμεσός",
+   "osm": "w112318489",
+   "inside": [],
+   "desc": "The municipal zoo inside Limassol's Municipal Gardens.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://limassolzoo.com/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/112318489"
+    }
+   ]
+  },
+  {
+   "i": "att-golden-donkeys",
+   "k": "family",
+   "cat": "Farm",
+   "n": "Golden Donkeys Farm",
+   "alt": "Skarinou Donkey Farm",
+   "ll": [
+    34.818042,
+    33.333837
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://goldendonkeys.com/",
+   "a": null,
+   "osm": "n4267577790",
+   "inside": [],
+   "desc": "A donkey farm near Skarinou, between Larnaca and Limassol.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://goldendonkeys.com/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/4267577790"
+    }
+   ]
+  },
+  {
+   "i": "att-paradox-museum",
+   "k": "family",
+   "cat": "Indoor attraction",
+   "n": "Paradox Museum Limassol",
+   "alt": "Paradox Museum",
+   "ll": [
+    34.670578,
+    33.040582
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://www.paradoxmuseumlimassol.com/",
+   "a": null,
+   "osm": "n10916623937",
+   "inside": [],
+   "desc": "A museum of optical illusions near Limassol's Old Port. Indoors, so good on a hot or rainy day.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.paradoxmuseumlimassol.com/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/10916623937"
+    }
+   ]
+  },
+  {
+   "i": "att-wine-museum",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "The Cyprus Wine Museum",
+   "alt": "Cyprus Wine Museum",
+   "ll": [
+    34.675023,
+    32.916575
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://cypruswinemuseum.com/",
+   "a": "Pafou 42 Ερήμη",
+   "osm": "n1758132232",
+   "inside": [
+    "cy-01207"
+   ],
+   "desc": "A museum about Cypriot wine in Erimi, west of Limassol.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://cypruswinemuseum.com/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/1758132232"
+    }
+   ]
+  },
+  {
+   "i": "att-motor-museum",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Cyprus Historic and Classic Motor Museum",
+   "alt": "Cyprus Motor Museum",
+   "ll": [
+    34.665609,
+    32.993014
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://cyprusmotormuseum.com.cy/",
+   "a": "Επιμυθέος 6 Λεμεσός",
+   "osm": "n4841547321",
+   "inside": [],
+   "desc": "A museum of historic and classic cars in Limassol.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://cyprusmotormuseum.com.cy/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/4841547321"
+    }
+   ]
+  },
+  {
+   "i": "att-pierides-museum",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Pierides Museum",
+   "alt": "Pierides Museum Bank of Cyprus Cultural Foundation",
+   "ll": [
+    34.916163,
+    33.636397
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://www.boccf.org/el-gr/boccf/museums-collections/mouseio-pieride/",
+   "a": "Zinonos Kitieos 4",
+   "osm": "n4228446593",
+   "inside": [],
+   "desc": "A museum of the Bank of Cyprus Cultural Foundation in Larnaca town centre.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.boccf.org/el-gr/boccf/museums-collections/mouseio-pieride/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/4228446593"
+    }
+   ]
+  },
+  {
+   "i": "att-kyriazis-museum",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Kyriazis Medical Museum",
+   "alt": "Kyriazi Medical Museum; Medical Museum Kyriazi",
+   "ll": [
+    34.913138,
+    33.634412
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/medical-museum-kyriazi-larnaka-larnaca/",
+   "a": "Stadiou 35 Λάρνακα",
+   "osm": "n6718182785",
+   "inside": [],
+   "desc": "A small medical history museum in Larnaca.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/medical-museum-kyriazi-larnaka-larnaca/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/6718182785"
+    }
+   ]
+  },
+  {
+   "i": "att-leventis-gallery",
+   "k": "sight",
+   "cat": "Art gallery",
+   "n": "A. G. Leventis Gallery",
+   "alt": "Leventis Gallery; Leventis Art Gallery",
+   "ll": [
+    35.16937,
+    33.358436
+   ],
+   "pr": "osm",
+   "ent": true,
+   "web": "https://leventisgallery.org/",
+   "a": "Anastasiou G. Leventi 5 Nicosia",
+   "osm": "w20493985",
+   "inside": [],
+   "desc": "Cypriot, Greek and European art, including the Paris Collection.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://leventisgallery.org/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/20493985"
+    }
+   ]
+  },
+  {
+   "i": "att-leventis-museum",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "The Leventis Municipal Museum of Nicosia",
+   "alt": "Leventis Museum; Leventis Municipal Museum",
+   "ll": [
+    35.170502,
+    33.361784
+   ],
+   "pr": "osm",
+   "ent": true,
+   "web": "https://leventismuseum.org.cy/",
+   "a": "Ιπποκράτους 17 Nicosia",
+   "osm": "w808783874",
+   "inside": [],
+   "desc": "The story of Nicosia, in Laiki Geitonia.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://leventismuseum.org.cy/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/808783874"
+    }
+   ]
+  },
+  {
+   "i": "att-cvar",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Centre of Visual Arts and Research",
+   "alt": "CVAR; Severis Foundation",
+   "ll": [
+    35.175666,
+    33.368492
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://cvar.severis.org/en/",
+   "a": "Ερμού 285 Λευκωσία",
+   "osm": "w1091059677",
+   "inside": [],
+   "desc": "A museum and arts centre in the old city of Nicosia.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://cvar.severis.org/en/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/1091059677"
+    }
+   ]
+  },
+  {
+   "i": "att-nimac",
+   "k": "sight",
+   "cat": "Arts centre",
+   "n": "NiMAC, Nicosia Municipal Arts Centre",
+   "alt": "NiMAC; Old Powerhouse",
+   "ll": [
+    35.17394,
+    33.366428
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://nimac.org.cy/",
+   "a": "Παλιάς Ηλεκτρικής 19 Λευκωσία",
+   "osm": "n13234136635",
+   "inside": [],
+   "desc": "Nicosia's municipal arts centre, in the old power station.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://nimac.org.cy/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/13234136635"
+    }
+   ]
+  },
+  {
+   "i": "att-athalassa",
+   "k": "family",
+   "cat": "Park and visitor centre",
+   "n": "Athalassa National Forest Park Visitor Centre",
+   "alt": "Athalassa Park; Athalassa National Forest Park",
+   "ll": [
+    35.144043,
+    33.403725
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd58_en/fd58_en?OpenDocument",
+   "a": "Keryneias Avenue 1 Aglantzia",
+   "osm": "w808434888",
+   "inside": [
+    "cy-02572"
+   ],
+   "desc": "The visitor centre of Athalassa National Forest Park in Nicosia.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.moa.gov.cy/moa/fd/fd.nsf/fd58_en/fd58_en?OpenDocument"
+    },
+    {
+     "t": "Visit Cyprus: Athalassa National Forest Park",
+     "u": "https://www.visitcyprus.com/?p=469499"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/808434888"
+    }
+   ]
+  },
+  {
+   "i": "att-kings-avenue-mall",
+   "k": "sight",
+   "cat": "Shopping centre",
+   "n": "Kings Avenue Mall",
+   "alt": "Kings Avenue Mall Pafos",
+   "ll": [
+    34.766836,
+    32.413521
+   ],
+   "pr": "osm",
+   "ent": true,
+   "web": "https://kingsavenuemall.com/",
+   "a": "Λεωφόρος Τάφων των Βασιλέων 2",
+   "osm": "w147476732",
+   "inside": [
+    "cy-03053",
+    "cy-03060",
+    "cy-03068",
+    "cy-03134",
+    "cy-03177",
+    "cy-03228",
+    "cy-03239",
+    "cy-03299",
+    "cy-03324",
+    "cy-03325",
+    "cy-03328",
+    "cy-03343"
+   ],
+   "desc": "A shopping centre in Paphos with restaurants and cafés. Handy on a rainy day.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://kingsavenuemall.com/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/147476732"
+    }
+   ]
+  },
+  {
+   "i": "att-ayia-napa-marina",
+   "k": "sight",
+   "cat": "Marina and event centre",
+   "n": "Ayia Napa Marina",
+   "alt": "Agia Napa Marina; Ayia Napa Marina Event Center",
+   "ll": [
+    34.979485,
+    33.945474
+   ],
+   "pr": "osm",
+   "ent": true,
+   "web": "https://marinaayianapa.com/",
+   "a": null,
+   "osm": "w1068160351",
+   "inside": [
+    "cy-00337"
+   ],
+   "desc": "The marina west of Ayia Napa, with restaurants, Riva Beach House and the event centre that hosts the Christmas village.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://marinaayianapa.com/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/1068160351"
+    }
+   ]
+  },
+  {
+   "i": "att-etko",
+   "k": "sight",
+   "cat": "Event venue",
+   "n": "ETKO",
+   "alt": "ETKO Winery; ETKO Open Air",
+   "ll": [
+    34.662983,
+    33.019444
+   ],
+   "pr": "osm",
+   "ent": true,
+   "web": "https://etkocyprus.com/",
+   "a": null,
+   "osm": "w1210719866",
+   "inside": [],
+   "desc": "An event venue at the ETKO winery in Limassol.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://etkocyprus.com/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/1210719866"
+    }
+   ]
+  },
+  {
+   "i": "att-rialto",
+   "k": "sight",
+   "cat": "Theatre",
+   "n": "Rialto Theatre",
+   "alt": "Rialto",
+   "ll": [
+    34.679552,
+    33.045788
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://www.rialto.com.cy/",
+   "a": "Andrea Drousioti 19",
+   "osm": "n4500648289",
+   "inside": [],
+   "desc": "A theatre and music venue in Limassol town centre.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.rialto.com.cy/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/4500648289"
+    }
+   ]
+  },
+  {
+   "i": "att-pattihio",
+   "k": "sight",
+   "cat": "Theatre",
+   "n": "Pattihio Municipal Theatre",
+   "alt": "Pattichio Theatre; Pattihio",
+   "ll": [
+    34.68117,
+    33.043571
+   ],
+   "pr": "osm",
+   "ent": true,
+   "web": "https://www.pattihio.com.cy/",
+   "a": "Αγίας Ζώνης 4 Limassol",
+   "osm": "w269171005",
+   "inside": [],
+   "desc": "Limassol's municipal theatre.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.pattihio.com.cy/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/269171005"
+    }
+   ]
+  },
+  {
+   "i": "att-thoc-apothikes",
+   "k": "sight",
+   "cat": "Theatre",
+   "n": "THOC Warehouses Theatre",
+   "alt": "THOC; Cyprus Theatre Organisation; Theatro Apothikes",
+   "ll": [
+    35.1263,
+    33.371227
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://www.thoc.org.cy/",
+   "a": "Kambou 29 Strovolos",
+   "osm": "w1047395016",
+   "inside": [],
+   "desc": "A stage of the Cyprus Theatre Organisation (THOC) in Strovolos, Nicosia.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.thoc.org.cy/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/1047395016"
+    }
+   ]
+  },
+  {
+   "i": "att-latchi-watersports",
+   "k": "family",
+   "cat": "Water sports",
+   "n": "Latchi Watersports Centre",
+   "alt": "Latchi Watersports; Latsi Watersports",
+   "ll": [
+    35.044689,
+    32.370287
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://www.latchiwatersportscentre.com/",
+   "a": null,
+   "osm": "n6462022486",
+   "inside": [],
+   "desc": "A water sports centre at Latchi, near Polis.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.latchiwatersportscentre.com/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/6462022486"
+    }
+   ]
+  },
+  {
+   "i": "att-kaledonia-falls",
+   "k": "sight",
+   "cat": "Waterfall",
+   "n": "Kaledonia Waterfall",
+   "alt": "Kalidonia Waterfall; Caledonia Waterfall; Kaledonian Waterfalls",
+   "ll": [
+    34.903055,
+    32.870001
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "osm": "n310731897",
+   "inside": [],
+   "desc": "A waterfall on a nature trail near Platres in the Troodos mountains.",
+   "srcs": [
+    {
+     "t": "Troodos Geopark: waterfalls",
+     "u": "https://www.troodosgeopark.com/en/katarraktes-troodous/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/310731897"
+    }
+   ]
+  },
+  {
+   "i": "att-troodos-ski",
+   "k": "family",
+   "cat": "Ski area",
+   "n": "Troodos ski area (Sun Valley)",
+   "alt": "Mount Olympus ski; Troodos Ski Centre; Sun Valley",
+   "ll": [
+    34.93039,
+    32.867664
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://cyprusski.com/",
+   "a": null,
+   "osm": "w956746345",
+   "inside": [],
+   "desc": "Ski runs at Sun Valley on Mount Olympus. Opening depends on snow, so check conditions before you go.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://cyprusski.com/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/956746345"
+    }
+   ]
+  },
+  {
+   "i": "att-limassol-marina",
+   "k": "sight",
+   "cat": "Marina",
+   "n": "Limassol Marina",
+   "alt": "Marina Lemesou",
+   "ll": [
+    34.6698,
+    33.0394
+   ],
+   "pr": "approx",
+   "web": "https://www.limassolmarina.com/",
+   "inside": [
+    "cy-01501",
+    "cy-01558",
+    "cy-01762",
+    "cy-01892",
+    "cy-01893",
+    "cy-01894",
+    "cy-01895",
+    "cy-01896",
+    "cy-01897",
+    "cy-01898",
+    "cy-01899",
+    "cy-01900"
+   ],
+   "desc": "The marina next to Limassol's Old Port, with restaurants and cafés.",
+   "srcs": [
+    {
+     "t": "Limassol Marina: guide",
+     "u": "https://www.limassolmarina.com/guide-limassol-marina"
+    }
+   ],
+   "pinNote": "Approximate: the middle of the marina's mapped restaurants."
+  }
+ ]
+}

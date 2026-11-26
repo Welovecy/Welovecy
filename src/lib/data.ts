@@ -2,6 +2,8 @@ import "server-only";
 import content from "@data/content.json";
 import businessesJson from "@data/businesses.json";
 import poisJson from "@data/pois.json";
+import attractionsJson from "@data/attractions.json";
+import { DEST_CENTRE as CENTRES } from "./centres";
 import imagesJson from "@data/images.json";
 import busJson from "@data/bus.json";
 import guideJson from "@data/guide.json";
@@ -44,7 +46,27 @@ export const getLocality = (dest: string, slug: string) => PROFILES[dest]?.local
 export const EXPERIENCES: Experience[] = Object.entries(raw.EXPERIENCES).map(([slug, e]) => ({ ...e, slug }));
 export const MAKERS: Maker[] = Object.entries(raw.BUSINESSES).map(([slug, b]) => ({ ...b, slug }));
 export const BUSINESSES = businessesJson as unknown as Business[];
-export const POIS = poisJson as unknown as Poi[];
+/** Attractions: museums, family days out, venues. Each is pinned to its visitor entrance where mapped. */
+const ATTRACTIONS = (attractionsJson as unknown as { checked: string; items: (Poi & { inside: string[] })[] }).items;
+const nearestArea = (ll: LL): DestId => {
+  let best: DestId = "ayianapa", bd = Infinity;
+  for (const [k, c] of Object.entries(CENTRES) as [DestId, LL][]) { const d = km(ll, c); if (d < bd) { bd = d; best = k; } }
+  return best;
+};
+export const POIS = [
+  ...(poisJson as unknown as Poi[]),
+  ...ATTRACTIONS.map((a) => ({ ...a, d: a.d ?? nearestArea(a.ll!), sd: (attractionsJson as { checked: string }).checked })),
+] as Poi[];
+// Venues inside an attraction take the attraction's pin when theirs is rough or missing.
+{
+  const byId = new Map((businessesJson as unknown as Business[]).map((b) => [b.i, b]));
+  for (const a of ATTRACTIONS) for (const id of a.inside ?? []) {
+    const b = byId.get(id);
+    if (!b) continue;
+    b.at = a.i;
+    if (!b.ll || b.pr || b.ls === "ov" && km(b.ll, a.ll!) > 1.5) { b.ll = a.ll; delete b.pr; delete b.ls; }
+  }
+}
 export const IMAGES = imagesJson as unknown as Record<string, Photo>;
 export const BUS = busJson as unknown as BusData;
 const busStopBy = new Map(BUS.stops.map((s) => [s.i, s]));
@@ -111,6 +133,7 @@ export function poiSub(r: Poi): string {
   if (r.k === "health") return r.ft || "Medical";
   if (r.k === "market") return r.ch || "Supermarket";
   if (r.k === "pharmacy") return "Pharmacy";
+  if (r.cat) return r.cat;
   if (r.k === "family") return "Family day out";
   return "Sight";
 }
