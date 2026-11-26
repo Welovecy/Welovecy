@@ -12,6 +12,8 @@ import { fmtD, howFar, km, walkMinutes, WALK_MAX_KM } from "../geo";
 import { norm } from "../text";
 import { cuisineLabel } from "../going";
 import sitemap from "../../app/sitemap";
+import aliasJson from "@data/aliases.json";
+const ALIAS = (aliasJson as { aliases: Record<string, string[]> }).aliases;
 import { EVENTS, datesTbc, overlaps, whenText } from "../events";
 import { addDays as addD } from "../duty";
 
@@ -140,7 +142,7 @@ function resolve(name: string, ctx: Ctx): { n: string; ll: LL; href: string; key
   const pool = spots();
   let best: Spot | null = null, bs = 0;
   for (const s of pool) {
-    const sc = score(s.n, q) + (s.k === "beach" || s.k === "sight" || s.k === "stay" ? 1 : 0);
+    const sc = Math.max(score(s.n, q), ...(ALIAS[s.key] ?? []).map((a) => score(a, q))) + (s.k === "beach" || s.k === "sight" || s.k === "stay" ? 1 : 0);
     if (sc > bs) { bs = sc; best = s; }
   }
   if (best && bs >= 40) return { n: best.n, ll: best.ll, href: best.href, key: best.key };
@@ -169,14 +171,14 @@ function findPlaces(a: Args) {
   }
   for (const r of POIS) {
     if (!want(r.k) || (area && r.d !== area)) continue;
-    const s = score(r.n, q) || (q && r.tw && norm(r.tw).includes(q) ? 15 : 0);
-    if (s) out.push({ n: r.n, kind: r.k, area: [r.tw, areaName(r.d)].filter(Boolean).join(", "), facts: [r.a, r.ph ? `tel ${r.ph}` : "", r.hrs].filter(Boolean).join(" · "), link: url(`/listing/${encodeURIComponent(r.i)}`), s });
+    const s = Math.max(score(r.n, q), ...(r.alt ? r.alt.split(";").map((x) => score(x, q)) : [0])) || (q && r.cat && norm(r.cat).includes(q) ? 20 : 0) || (q && r.tw && norm(r.tw).includes(q) ? 15 : 0);
+    if (s) out.push({ n: r.n, kind: r.k, area: [r.tw, areaName(r.d)].filter(Boolean).join(", "), facts: [r.cat, r.desc, r.a, r.ph ? `tel ${r.ph}` : "", r.hrs, r.web ? `website ${r.web}` : "", r.srcs ? "opening hours not verified" : ""].filter(Boolean).join(" · "), link: url(`/listing/${encodeURIComponent(r.i)}`), s });
   }
   for (const b of BUSINESSES) {
     const k = isStay(b) ? "stay" : b.g === "night" ? "night" : "eat";
     if (b.vt === "cabaret" || !want(k) || (area && b.d !== area)) continue;
     if (cz && !b.cz?.includes(cz as never)) continue;
-    const s = score(b.n, q) || (q && b.cz?.some((c) => norm(cuisineLabel(c)).includes(q)) ? 15 : 0) || (q && b.vt && b.vt.includes(q) ? 15 : 0);
+    const s = Math.max(score(b.n, q), ...(ALIAS[b.i] ?? []).map((a) => score(a, q))) || (q && b.cz?.some((c) => norm(cuisineLabel(c)).includes(q)) ? 15 : 0) || (q && b.vt && b.vt.includes(q) ? 15 : 0);
     if (!s) continue;
     const facts = [b.l, b.c, b.cz?.map(cuisineLabel).join("/"), b.a, b.tw, b.p ? `tel ${b.p}` : "", b.in ? `inside a hotel${b.fl ? `, ${b.fl}` : ""}` : "", b.hrs].filter(Boolean).join(" · ");
     out.push({ n: b.n, kind: k, area: areaName(b.d), facts, link: url(`/listing/${encodeURIComponent(b.i)}`), s });
@@ -191,7 +193,8 @@ function aboutBiz(id: string): string | undefined {
   const b = getBusiness(id);
   if (!b) return undefined;
   const host = b.in ? getBusiness(b.in)?.n : undefined;
-  return [b.vt ?? b.l, b.cz?.map(cuisineLabel).join("/"), host ? `inside ${host}${b.fl ? `, ${b.fl}` : ""}` : "", b.hrs].filter(Boolean).join(" · ");
+  const park = b.at ? POIS.find((p) => p.i === b.at)?.n : undefined;
+  return [b.vt ?? b.l, b.cz?.map(cuisineLabel).join("/"), host ? `inside ${host}${b.fl ? `, ${b.fl}` : ""}` : "", park ? `inside ${park}` : "", b.hrs].filter(Boolean).join(" · ");
 }
 
 function whatsNear(a: Args, ctx: Ctx) {

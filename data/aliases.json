@@ -1,0 +1,17 @@
+{
+  "note": "Other names people use for a record, by id. Used by site search and Aphrodite. Add spellings, old names and brand names here.",
+  "aliases": {
+    "p37": ["Cactus Park", "Park of Mediterranean Plants, Cacti and Succulents"],
+    "cy-00151": ["The Castle Club", "Castle Club Ayia Napa"],
+    "cy-00152": ["The Castle Club", "Castle Club 2"],
+    "cy-00337": ["Riva Beachouse", "Riva Beach Club"],
+    "cy-00185": ["Senor Frogs", "Senior Frogs"],
+    "cy-00228": ["Kaliva"],
+    "cy-00229": ["Kaliva"],
+    "cy-01767": ["Summer Breeze", "Breeze Summer Club"],
+    "cy-01768": ["Summer Breeze", "Breeze Summer Club"],
+    "cy-01239": ["Summer Breeze", "Breeze Summer Club"],
+    "cy-03162": ["Antasia"],
+    "cy-00471": ["Ghetto Cocktail Bar"]
+  }
+}

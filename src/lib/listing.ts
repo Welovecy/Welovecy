@@ -1,6 +1,6 @@
 import "server-only";
 import type { Business, Fact, Poi, Source } from "./types";
-import { getBusiness, getDest, isStay, townOf } from "./data";
+import { getBusiness, getDest, getPoi, isStay, townOf } from "./data";
 import { stars, formatDate } from "./text";
 import { beachFacts } from "@/components/BeachFacts";
 
@@ -17,8 +17,9 @@ export function bizFacts(b: Business): Fact[] {
   if (isStay(b) && b.r) f.push([b.g === "apart" ? "Units" : "Rooms", `${b.r}${b.b ? ` (${b.b} beds)` : ""}`, false]);
   if (b.s && STATUS_NOTE.test(b.s)) f.push(["Licence", "Licensing or classification in process, per the register.", false]);
   if (b.in) { const h = getBusiness(b.in); if (h) f.push(["Where", `${b.fl ? b.fl + ", " : ""}${h.n}`, false]); }
+  if (b.at) { const p = getPoi(b.at); if (p) f.push(["Where", `Inside ${p.n}`, false]); }
   f.push(b.hrs ? ["Opening hours", b.hrs, false] : ["Opening hours", "Not yet verified.", true]);
-  f.push(["Map position", b.in ? "Same building as the hotel." : b.ll ? (b.pr === "area" ? "Approximate, matched to the postcode area. Use Directions for the exact address." : b.pr === "approx" ? "Approximate, matched to the street. Use Directions for the exact address." : b.ls === "ov" ? "Matched to Overture Maps." : b.ls === "us" ? "Pinned by We Love Cyprus from the hotel's own map listing." : "Matched to OpenStreetMap.") : "No map pin yet. Directions search the address.", !b.ll || !!b.pr]);
+  f.push(["Map position", b.in ? "Same building as the hotel." : b.at && !b.pr ? `Same site as ${getPoi(b.at)?.n ?? "the attraction"}.` : b.ll ? (b.pr === "area" ? "Approximate, matched to the postcode area. Use Directions for the exact address." : b.pr === "approx" ? "Approximate, matched to the street. Use Directions for the exact address." : b.ls === "ov" ? "Matched to Overture Maps." : b.ls === "us" ? "Pinned by We Love Cyprus from the hotel's own map listing." : "Matched to OpenStreetMap.") : "No map pin yet. Directions search the address.", !b.ll || !!b.pr]);
   return f;
 }
 
@@ -44,20 +45,23 @@ export function poiFacts(r: Poi): Fact[] {
   if (r.k === "pharmacy") f.push(["Pharmacist", r.n, false]);
   if (r.k === "health" && r.ft) f.push(["Type", r.ft, false]);
   if (r.k === "market" && r.ch) f.push(["Chain", r.ch, false]);
+  if (r.cat) f.push(["Type", r.cat, false]);
   if (r.a) f.push(["Address", r.a + (r.tw ? `, ${r.tw}` : ""), false]);
   else if (r.tw) f.push(["Area", r.tw, false]);
   if (r.ph) f.push(["Phone", String(r.ph), false]);
+  if (r.web) f.push(["Website", r.web.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""), false]);
   f.push(r.hrs ? ["Opening hours", r.hrs, false] : ["Opening hours", "Not yet verified.", true]);
   if (r.reg) f.push(["Register number", String(r.reg), false]);
   f.push([
     "Map position",
-    r.ls === "ov" ? "Matched to Overture Maps." : r.pr === "approx" ? "Approximate, matched to the street. Use Directions for the exact address." : r.ll ? "From the source map data." : "No map pin yet. Directions search the address.",
+    r.pinNote ? r.pinNote : r.ent ? "The visitor entrance, from OpenStreetMap." : r.srcs ? "From OpenStreetMap. Use Directions to find the entrance." : r.ls === "ov" ? "Matched to Overture Maps." : r.pr === "approx" ? "Approximate, matched to the street. Use Directions for the exact address." : r.ll ? "From the source map data." : "No map pin yet. Directions search the address.",
     r.pr === "approx" || !r.ll,
   ]);
   return f;
 }
 
 export function poiSources(r: Poi): { list: Source[]; reviewed: string } {
+  if (r.srcs) return { list: r.srcs, reviewed: `checked by We Love Cyprus on ${formatDate(r.sd)}. Opening hours are not verified yet, so check with the venue` };
   if (r.src === "osm" && r.ll) {
     return {
       list: [{ t: "OpenStreetMap contributors", u: `https://www.openstreetmap.org/?mlat=${r.ll[0]}&mlon=${r.ll[1]}#map=18/${r.ll[0]}/${r.ll[1]}` }],

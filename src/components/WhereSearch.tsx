@@ -3,14 +3,15 @@ import Link from "next/link";
 import { useCallback, useEffect, useId, useMemo, useRef, useState } from "react";
 import { norm } from "@/lib/text";
 
-/** One entry of /search-index.json. t: a = area, p = place or beach, h = hotel or apartment. */
-export interface IndexEntry { t: "a" | "p" | "h"; n: string; s: string; h: string; q: string; d?: string; m?: 1 }
+/** One entry of /search-index.json. t: a = area, p = place or beach, h = hotel or apartment, v = restaurant, café, bar or club. */
+export interface IndexEntry { t: "a" | "p" | "h" | "v"; n: string; s: string; h: string; q: string; d?: string; m?: 1 }
 
 let indexPromise: Promise<IndexEntry[]> | null = null;
 function loadIndex(): Promise<IndexEntry[]> {
   if (!indexPromise) {
     indexPromise = fetch("/search-index.json")
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+      .then((list: IndexEntry[]) => { for (const e of list) e.q ||= norm(`${e.n} ${e.s}`); return list; })
       .catch((e) => { indexPromise = null; throw e; });
   }
   return indexPromise;
@@ -26,8 +27,8 @@ interface Props {
   autoFocus?: boolean;
 }
 
-const GROUPS: [IndexEntry["t"], string, number][] = [["a", "Areas", 3], ["p", "Places and beaches", 5], ["h", "Hotels and apartments", 8]];
-const MONO: Record<IndexEntry["t"], string> = { a: "A", p: "P", h: "H" };
+const GROUPS: [IndexEntry["t"], string, number][] = [["a", "Areas", 3], ["p", "Places and beaches", 5], ["v", "Eat, drink and nightlife", 6], ["h", "Hotels and apartments", 8]];
+const MONO: Record<IndexEntry["t"], string> = { a: "A", p: "P", h: "H", v: "E" };
 
 export function WhereSearch({ scope = "all", dest, placeholder = "Where are you staying or going?", label, hint, autoFocus }: Props) {
   const id = useId();
