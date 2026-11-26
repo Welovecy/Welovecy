@@ -1,0 +1,62 @@
+{
+  "_note": "Advertising partners. Visitor-facing facts only: no fees, contracts or renewal notes ever go in this file (the repository is public). Coverage decides when Aphrodite may mention a partner; see src/lib/partners.ts.",
+  "partners": [
+    {
+      "id": "go-airport-transfers",
+      "status": "active",
+      "name": "Go Airport Transfers",
+      "legal": "Go Airport Transfers LTD",
+      "kind": "East Coast airport transfers",
+      "services": ["airport_transfer"],
+      "coverage": {
+        "label": "Ayia Napa, Protaras and the east coast",
+        "areas": ["ayianapa", "protaras"],
+        "places": ["Ayia Napa", "Protaras", "Paralimni", "Pernera", "Kapparis", "Konnos", "Ayia Thekla", "Sotira", "Deryneia", "Liopetri", "Frenaros", "Avgorou"],
+        "aliases": ["agia napa", "napa", "ayia napa", "protaras", "paralimni", "pernera", "kapparis", "kaparis", "konnos", "ayia thekla", "agia thekla", "makronissos", "nissi", "fig tree bay", "sotira", "deryneia", "derynia", "liopetri", "frenaros", "avgorou", "cape greco", "cavo greco"]
+      },
+      "intro": "A Protaras-based company that meets you at the airport and drives you to your hotel or villa on the east coast, and back again at the end of your stay.",
+      "address": "10 Profitis Ilias, Protaras, Paralimni 5296",
+      "web": "https://goairporttransfers.com/",
+      "book": "https://goairporttransfers.com/transbook/",
+      "phone": null,
+      "email": null,
+      "airports": null,
+      "photo": "dest-protaras",
+      "logo": null,
+      "guides": ["larnaca-airport-to-ayia-napa-and-protaras"],
+      "excludes": "Airport transfers only. Not for local taxis, excursions or areas outside the east coast.",
+      "sources": [{ "t": "Go Airport Transfers", "u": "https://goairporttransfers.com/" }],
+      "pending": ["Phone and WhatsApp", "Email", "Which airports they serve", "Logo and photos", "Approved description"]
+    },
+    {
+      "id": "coral-bay-taxi-transfers",
+      "status": "active",
+      "name": "Coral Bay Taxis",
+      "kind": "Coral Bay and Peyia taxis and airport transfers",
+      "services": ["airport_transfer", "local_taxi"],
+      "coverage": {
+        "label": "Coral Bay, Peyia, Sea Caves and Agios Georgios",
+        "places": ["Coral Bay", "Peyia", "Sea Caves", "Agios Georgios"],
+        "aliases": ["coral bay", "peyia", "pegeia", "pegia", "pegeia pafos", "kolpos ton korallion", "coral beach", "sea caves", "agios georgios pegeias", "agios georgios peyia", "st george", "st georges", "saint george"],
+        "box": [34.835, 32.29, 34.95, 32.395],
+        "towns": ["peyia", "pegeia", "pegeia pafos", "kolpos ton korallion", "coral beach", "coral bay"],
+        "maybe": ["Kissonerga", "Chloraka", "Tala", "Kamares", "Empa", "Kathikas"]
+      },
+      "intro": "A licensed local taxi company based in Peyia and Empa. They run taxis around Coral Bay and Peyia and pick up from Paphos and Larnaca airports, with fares on the taximeter.",
+      "address": "Theodorou Kolokotroni 25, Peyia",
+      "address2": "Nikolaou Ellina 147, Empa",
+      "web": "https://www.coralbaytaxis.com/",
+      "book": "https://www.coralbaytaxis.com/",
+      "phone": "+357 99 603837",
+      "phone2": "+357 99 948576",
+      "email": "info@coralbaytaxis.com",
+      "airports": ["Paphos", "Larnaca"],
+      "photo": "place-agios-georgios-pegeia",
+      "logo": null,
+      "guides": ["paphos-airport-to-paphos-and-coral-bay"],
+      "excludes": "Recommended for stays in Coral Bay and Peyia only, not the rest of the Paphos district.",
+      "sources": [{ "t": "Coral Bay Taxis", "u": "https://www.coralbaytaxis.com/" }],
+      "pending": ["Which nearby villages beyond Peyia to include (their site also lists Kissonerga, Chloraka, Tala, Kamares, Empa and Kathikas)", "WhatsApp number", "Logo and photos", "Approved description"]
+    }
+  ]
+}

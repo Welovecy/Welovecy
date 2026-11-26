@@ -10,6 +10,8 @@ import { GUIDES, getGuide, guideHref } from "@/lib/guides";
 import { photoFor } from "@/lib/data";
 import { absolute, SITE_NAME } from "@/lib/site";
 import { formatDate } from "@/lib/text";
+import { PartnerSlot } from "@/components/PartnerSlot";
+import { partnerForGuide } from "@/lib/partners";
 
 export const dynamicParams = false;
 export function generateStaticParams() { return GUIDES.map((g) => ({ slug: g.slug })); }
@@ -57,6 +59,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         ) : null}
         <div className="prose g-prose" dangerouslySetInnerHTML={{ __html: g.html }} />
         {g.cta ? <p className="g-cta"><Link className="btn btn-primary" href={g.cta.href}>{g.cta.text}</Link></p> : null}
+        {partnerForGuide(g.slug) ? <PartnerSlot p={partnerForGuide(g.slug)!} /> : null}
         <Community compact />
         {g.sources.length ? (
           <div className="sources">

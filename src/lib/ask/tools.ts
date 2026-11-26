@@ -17,6 +17,7 @@ import aliasJson from "@data/aliases.json";
 const ALIAS = (aliasJson as { aliases: Record<string, string[]> }).aliases;
 import { EVENTS, datesTbc, overlaps, whenText } from "../events";
 import { addDays as addD } from "../duty";
+import { PARTNER_LABEL, partnerFor, partnerHref, type PartnerService, type Stay } from "../partners";
 
 /**
  * The assistant's tools. Each one reads our own data (official registers, the pharmacy rota, MET Norway),
@@ -101,6 +102,18 @@ export const TOOLS = [
     },
   },
   {
+    name: "transfer_partner",
+    description: "Call for ANY request about getting to or from an airport, an airport transfer or pickup, or a taxi. Says whether one of our advertising partners covers where the visitor is staying. Only mention a transfer company if this tool returns it.",
+    input_schema: {
+      type: "object",
+      properties: {
+        service: { type: "string", enum: ["airport_transfer", "local_taxi"], description: "airport_transfer for airport pickups and drop-offs; local_taxi for taxis within an area." },
+        staying: { type: "string", description: "Where the visitor is staying: hotel, villa area, village or town, as they said it. 'my base' if they set their hotel on the site. Not the airport." },
+      },
+      required: ["service"],
+    },
+  },
+  {
     name: "site_pages",
     description: "Find any page on welovecy.com by topic when the other tools don't cover it: eat and drink lists by area and cuisine, hotels near a beach, airport distances, weather by month, practical info, essentials, UNESCO sites, wine routes, things to do, the quiz. Returns page links.",
     input_schema: { type: "object", properties: { query: { type: "string" } }, required: ["query"] },
@@ -112,7 +125,7 @@ export const TOOLS = [
   },
 ] as const;
 
-export interface Ctx { base?: { n: string; ll: LL; href: string } | null; page?: string }
+export interface Ctx { base?: { n: string; ll: LL; href: string } | null; page?: string; /** earlier answers in this conversation, so a partner is recommended once */ earlier?: string }
 type Args = Record<string, unknown>;
 const S = (v: unknown) => (typeof v === "string" ? v.trim() : "");
 const url = (href: string) => `https://welovecy.com${href}`;
@@ -318,8 +331,52 @@ export async function runTool(name: string, args: Args, ctx: Ctx): Promise<unkno
     case "guides": return guides(args);
     case "site_pages": return sitePages(args);
     case "events": return events(args);
+    case "transfer_partner": return transferPartner(args, ctx);
     default: return { error: "unknown tool" };
   }
+}
+
+/* ---------- Advertising partners: code decides eligibility, by where the visitor is staying ---------- */
+
+function stayFrom(text: string, ctx: Ctx): Stay | null {
+  const q = norm(text);
+  // "my hotel" alone means the hotel they set on the site; "our villa in Peyia" is a place to look up.
+  const useBase = !q || /^((my|our|the) )?(base|hotel|villa|apartment|accommodation|here)$|^where (i|we) (am|are|m|re) staying$/.test(q);
+  const r = useBase ? (ctx.base ? { ...ctx.base, key: undefined as string | undefined } : null) : resolve(text, ctx);
+  const stay: Stay = { text: useBase ? "" : text };
+  if (!r) return q && !useBase ? stay : null;
+  stay.ll = r.ll;
+  const lm = /^\/listing\/([^/]+)$/.exec(r.href);
+  const pm = /^\/places\/([^/]+)$/.exec(r.href);
+  const dm = /^\/destinations\/([a-z]+)$/.exec(r.href);
+  if (lm) {
+    const id = decodeURIComponent(lm[1]);
+    const b = getBusiness(id), p = getPoi(id);
+    if (b) { stay.town = b.tw; stay.area = b.d; }
+    else if (p) { stay.town = p.tw; stay.area = p.d; }
+  } else if (pm) {
+    const pl = getPlace(pm[1]); if (pl) stay.area = pl.dest;
+  } else if (dm) stay.area = dm[1] as DestId;
+  return stay;
+}
+
+function transferPartner(a: Args, ctx: Ctx) {
+  const service = (S(a.service) === "local_taxi" ? "local_taxi" : "airport_transfer") as PartnerService;
+  const stay = stayFrom(S(a.staying), ctx);
+  if (!stay) return { partner: null, ask: "Ask where they are staying (town, area or hotel) before suggesting any transfer company. Meanwhile give the general options." };
+  const p = partnerFor(service, stay);
+  if (!p) return { partner: null, note: "No partner covers this. Give independent options only (airport bus or shuttle, the taxi rank, booking a transfer in general) and don't name any transfer or taxi company." };
+  if (ctx.earlier && ctx.earlier.toLowerCase().includes(p.name.toLowerCase())) {
+    return { partner: null, already_mentioned: p.name, note: `You already introduced ${p.name} in this conversation. Don't recommend it again; refer back in a few words only if it helps.` };
+  }
+  return {
+    partner: {
+      name: p.name, label: PARTNER_LABEL, what: p.kind, covers: p.coverage.label, about: p.intro,
+      airports: p.airports ?? undefined, phone: p.phone ?? undefined, book: p.book, website: p.web, page: url(partnerHref(p.id)),
+      guide: p.guides[0] ? url(guideHref(p.guides[0])) : undefined,
+    },
+    how_to_mention: "After the independent options, one short natural line: name them as our advertising partner for this area, link their page, say they book and confirm the price directly. No prices, no promises about availability or times, never 'best'.",
+  };
 }
 
 /** For the area list in the system prompt. */
@@ -330,8 +387,10 @@ export { byDistance };
 
 export interface CardBase { id: string; n: string; ll: LL; href: string; around: string; area?: string }
 export interface Card {
-  k: "pharmacy" | "place" | "weather" | "bus";
+  k: "pharmacy" | "place" | "weather" | "bus" | "partner";
   n: string; sub?: string; meta?: string; href?: string; map?: string; tel?: string; img?: string; stay?: CardBase;
+  /** partner cards: their own booking link and id for counting taps */
+  book?: string; pid?: string;
 }
 const own = (link?: unknown) => (typeof link === "string" ? link.replace(/^https:\/\/welovecy\.com/, "") : undefined);
 const telOf = (p?: string | number) => (p ? `+357 ${String(p).replace(/^\+?357\s*/, "").trim()}` : undefined);
@@ -371,6 +430,12 @@ export function cardsFrom(name: string, out: unknown): Card[] {
       return list("results").map((r) => placeCard(r, [r.distance, String(r.getting_there ?? "").replace(/ \(estimate\)/g, "")].filter(Boolean).join(" · ")));
     case "buses":
       return list("stops").map((s) => ({ k: "bus", n: String(s.n), sub: `Routes ${(s.routes as string[] | undefined)?.slice(0, 6).join(", ") ?? ""}`, meta: String(s.getting_there ?? "").replace(/ \(estimate\)/g, ""), href: own(s.link) }));
+    case "transfer_partner": {
+      const p = o.partner as Record<string, string> | null;
+      if (!p) return [];
+      const id = own(p.page)?.replace("/partners/", "");
+      return [{ k: "partner", n: p.name, sub: p.covers, meta: p.label, href: own(p.page), book: p.book, tel: p.phone, pid: id }];
+    }
     case "weather": {
       const f = o.forecast as { t?: number; sym?: string } | undefined;
       const t = o.today as { sunset?: string } | undefined;
