@@ -25,7 +25,10 @@ ask(){ # question, expected partner or NONE
     NONE) if [[ "$ans" != *"Go Airport"* && "$ans" != *"Coral Bay Taxis"* ]]; then ok "no partner: $1"; else no "partner named wrongly: $1"; fi ;;
     *) if [[ "$ans" == *"$2"* ]]; then ok "$2 for: $1"; else no "$2 missing for: $1"; fi ;;
   esac
-  echo "      answer: $ans"; echo "      cards: $cards"; echo
+  echo "      answer: $ans"; echo "      cards: $cards"
+  for l in $(echo "$r" | jq -r '.answer' | grep -oE 'https://(www\.)?welovecy\.com[^) ]*' | sed 's/[#?].*//' | sort -u); do
+    c=$(curl -s -o /dev/null -w "%{http_code}" -L --max-time 20 "$l"); [ "$c" = 200 ] && ok "link works: $l" || no "broken link ($c): $l"
+  done; echo
   sleep 4
 }
 ask "Can you recommend an airport transfer from Larnaca to Protaras?" "Go Airport Transfers"
