@@ -97,7 +97,7 @@ export interface Poi {
   bf?: boolean; sf?: string; fac?: string[]; acc?: string; alt?: string; info?: string; bw?: string; bwid?: string;
   ls?: "ov";
   /** attractions (data/attractions.json): category label, line, official site, sources, entrance pin, pin note */
-  cat?: string; desc?: string; web?: string | null; srcs?: Source[]; ent?: boolean; pinNote?: string; inside?: string[];
+  cat?: string; desc?: string; web?: string | null; sea?: boolean; srcs?: Source[]; ent?: boolean; pinNote?: string; inside?: string[];
 }
 
 /** Everything that can sit on the "what's around" map. */

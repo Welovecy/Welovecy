@@ -767,6 +767,156 @@
    ]
   },
   {
+   "i": "att-cyprus-planetarium",
+   "k": "family",
+   "cat": "Planetarium",
+   "n": "The Cyprus Planetarium",
+   "alt": "Cyprus Planetarium",
+   "ll": [
+    35.04334,
+    33.237181
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://thecyprusplanetarium.com/",
+   "a": null,
+   "osm": "n11332794458",
+   "inside": [],
+   "desc": "The island's first planetarium, with dome shows, virtual reality and telescopes, in the Tamassos and Orini area near Nicosia.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://thecyprusplanetarium.com/"
+    },
+    {
+     "t": "Cyprus Mail: what to know about the island's first planetarium",
+     "u": "https://cyprus-mail.com/2026/01/18/planetarium-cyprus-what-to-know-about-the-islands-first-planetarium"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/11332794458"
+    }
+   ]
+  },
+  {
+   "i": "att-technopolis-20",
+   "k": "sight",
+   "cat": "Arts centre and venue",
+   "n": "Technopolis 20",
+   "alt": "Technopolis20",
+   "ll": [
+    34.777038,
+    32.429077
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://www.technopolis20.com/",
+   "a": "Λεωφόρος Νικολάου Νικολαΐδη",
+   "osm": "n5198087428",
+   "inside": [],
+   "desc": "A cultural centre in Paphos that hosts concerts, including its own jazz festival.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.technopolis20.com/"
+    },
+    {
+     "t": "Cyprus Mail: Technopolis 20 jazz festival",
+     "u": "https://cyprus-mail.com/2026/08/24/here-comes-the-1st-technopolis-20-jazz-festival"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/5198087428"
+    }
+   ]
+  },
+  {
+   "i": "att-millomeris-falls",
+   "k": "sight",
+   "cat": "Waterfall",
+   "n": "Millomeris Waterfall",
+   "alt": "Millomeri Falls; Millomeri Waterfall",
+   "ll": [
+    34.883837,
+    32.864986
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "osm": "n1309548988",
+   "inside": [],
+   "desc": "A waterfall reached on a short nature trail from Pano Platres in the Troodos mountains.",
+   "srcs": [
+    {
+     "t": "Troodos Geopark: waterfalls",
+     "u": "https://www.troodosgeopark.com/en/katarraktes-troodous/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/1309548988"
+    }
+   ]
+  },
+  {
+   "i": "att-troodos-geopark",
+   "k": "family",
+   "cat": "Visitor centre",
+   "n": "Troodos Geopark Visitor Centre",
+   "alt": "Troodos Geopark; Geopark Visitor Center",
+   "ll": [
+    34.92677,
+    32.917675
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "osm": "w966813911",
+   "inside": [],
+   "desc": "The visitor centre of the Troodos UNESCO Global Geopark, near Amiantos.",
+   "srcs": [
+    {
+     "t": "UNESCO: Troodos Global Geopark",
+     "u": "https://en.unesco.org/global-geoparks/troodos"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/966813911"
+    }
+   ]
+  },
+  {
+   "i": "att-zenobia",
+   "k": "sight",
+   "cat": "Wreck dive",
+   "n": "Zenobia shipwreck",
+   "alt": "MS Zenobia; Zenobia wreck",
+   "ll": [
+    34.897244,
+    33.657621
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": "Larnaka",
+   "osm": "n5021578905",
+   "inside": [],
+   "desc": "A ferry that capsized on her maiden voyage in 1980 and lies off Larnaca at 18 to 42 metres. Reached by boat with a dive centre.",
+   "srcs": [
+    {
+     "t": "Larnaka Tourism Board: Zenobia wreck",
+     "u": "https://larnakaregion.com/zenobia-wreck"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/5021578905"
+    }
+   ],
+   "sea": true,
+   "pinNote": "Offshore, about 3.7 km from the shore at Larnaca. Dive centres take you there by boat."
+  },
+  {
    "i": "att-limassol-marina",
    "k": "sight",
    "cat": "Marina",

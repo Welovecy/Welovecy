@@ -118,7 +118,7 @@ function PoiView({ id }: { id: string }) {
           {r.ll && r.pr !== "approx" ? <FromBase ll={r.ll} /> : null}
           <div className="actions">
             {r.ll ? <Link className="btn btn-primary" href={`${href}/around`}>See what&apos;s around</Link> : null}
-            <a className="btn btn-ghost" href={poiDirections(r)} target="_blank" rel="noopener noreferrer">Get directions</a>
+            {r.sea ? null : <a className="btn btn-ghost" href={poiDirections(r)} target="_blank" rel="noopener noreferrer">Get directions</a>}
             {r.web ? <a className="btn btn-ghost" href={r.web} target="_blank" rel="noopener noreferrer">Website</a> : null}
             {isBeach && hotelsNearFor(r.i) ? <Link className="btn btn-ghost" href={hotelsNearHref(hotelsNearFor(r.i)!.slug)}>Hotels nearby</Link> : null}
             <SaveButton item={{ key: href, n: r.n, href, sub: poiSub(r) }} />

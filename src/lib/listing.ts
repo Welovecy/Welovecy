@@ -28,8 +28,9 @@ export function bizSources(b: Business): { list: Source[]; reviewed: string } {
     return { list: [{ t: `${b.n}: official website`, u: b.su }], reviewed: `checked by We Love Cyprus on ${formatDate(b.sd)}` };
   }
   if (b.i.startsWith("wlc-")) {
+    const first: Source[] = b.su && !b.su.includes("overturemaps") ? [{ t: b.su.includes("cyprus-mail.com") ? "Cyprus Mail: restaurant review" : `${b.n}: official website`, u: b.su }] : [];
     return {
-      list: [{ t: "Location: Overture Maps Foundation", u: "https://overturemaps.org/" }],
+      list: [...first, b.ls === "osm" ? { t: "Location: OpenStreetMap contributors", u: `https://www.openstreetmap.org/?mlat=${b.ll![0]}&mlon=${b.ll![1]}#map=18/${b.ll![0]}/${b.ll![1]}` } : { t: "Location: Overture Maps Foundation", u: "https://overturemaps.org/" }],
       reviewed: `added by We Love Cyprus on ${formatDate(b.sd)}, not in the published tourism register yet`,
     };
   }

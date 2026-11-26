@@ -1,0 +1,4247 @@
+{
+ "pattern": "planetar|πλανητ|technopol|τεχνοπολ|λυκουργ|lykourg|μιλλομερ|millomer|μυλομερ|ibrahim|ιμπραημ|χαν ιμπρ|old town|παλια πολη|παλιά πόλη|ktima|κτημα παφ|oniro|ονειρο|edro|zenobia|ζηνοβια|geopark|γεωπαρκ|amiant|αμιαντ|sparti|σπαρτη|dive|καταδυ|diving",
+ "hits": [
+  {
+   "id": "n291469974",
+   "names": "Αμίαντος | Amiantos | Αμίαντος",
+   "ll": [
+    34.917978,
+    32.935746
+   ],
+   "ent": [],
+   "tags": {
+    "name": "Αμίαντος",
+    "name:el": "Αμίαντος",
+    "name:en": "Amiantos",
+    "name:hu": "Amíantosz",
+    "name:ru": "Амиантос",
+    "name:tr": "Amiyando",
+    "place": "village",
+    "wikidata": "Q6377735"
+   }
+  },
+  {
+   "id": "n314155450",
+   "names": "The Dive Centre",
+   "ll": [
+    34.708092,
+    33.125025
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "dive_centre",
+    "name": "The Dive Centre",
+    "sport": "scuba_diving"
+   }
+  },
+  {
+   "id": "n908359033",
+   "names": "Sparti Pub (Leo)",
+   "ll": [
+    34.670581,
+    32.701868
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "pub",
+    "check_date": "2024-10-20",
+    "name": "Sparti Pub (Leo)"
+   }
+  },
+  {
+   "id": "n947267495",
+   "names": "I Dive Cyprus",
+   "ll": [
+    35.016819,
+    34.051031
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "dive_centre",
+    "check_date": "2025-09-05",
+    "email": "varoshiotisa@icloud.com",
+    "name": "I Dive Cyprus",
+    "phone": "+35799689961; +357 95 159569",
+    "scuba_diving:air_filling": "yes",
+    "scuba_diving:courses": "yes",
+    "scuba_diving:filling": "yes",
+    "scuba_diving:nitrox_filling": "yes",
+    "scuba_diving:rental": "yes",
+    "sport": "scuba_diving",
+    "website": "https://idivercyprus.com/"
+   }
+  },
+  {
+   "id": "n952464275",
+   "names": "Easy Divers Cyprus",
+   "ll": [
+    35.017525,
+    34.046038
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "dive_centre",
+    "check_date": "2025-09-02",
+    "contact:facebook": "easydiverscyprus",
+    "email": "dive@ezdivers.com",
+    "instagram": "easydivers_cyprus",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
+    "name": "Easy Divers Cyprus",
+    "opening_hours": "08:00-17:00",
+    "payment:apple_pay": "yes",
+    "payment:cash": "yes",
+    "payment:debit_cards": "yes",
+    "payment:gift_card": "yes",
+    "payment:google_pay": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:mastercard_contactless": "yes",
+    "payment:prepaid_ticket": "yes",
+    "payment:v_pay": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
+    "phone": "+357 99 085054",
+    "scuba_diving:courses": "yes",
+    "scuba_diving:descent_line": "yes",
+    "scuba_diving:entry:boat": "yes",
+    "scuba_diving:entry:shore": "yes",
+    "scuba_diving:equipment": "yes",
+    "scuba_diving:equipment_service": "yes",
+    "scuba_diving:guided_tours": "yes",
+    "scuba_diving:nitrox": "yes",
+    "scuba_diving:repair": "yes",
+    "scuba_diving:type:cave": "yes",
+    "scuba_diving:type:rocks": "yes",
+    "scuba_diving:type:sea": "yes",
+    "scuba_diving:type:snorkeling": "yes",
+    "scuba_diving:type:training": "yes",
+    "scuba_diving:type:wreck": "yes",
+    "sport": "scuba_diving",
+    "website": "https://www.ezdivers.com/",
+    "wheelchair": "limited"
+   }
+  },
+  {
+   "id": "n957286259",
+   "names": "Divers Unlimited",
+   "ll": [
+    35.007441,
+    34.058778
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "dive_centre",
+    "name": "Divers Unlimited",
+    "sport": "scuba_diving"
+   }
+  },
+  {
+   "id": "n957644517",
+   "names": "Dive & Ski AquaNaut",
+   "ll": [
+    35.001225,
+    34.060998
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "dive_centre",
+    "name": "Dive & Ski AquaNaut",
+    "sport": "scuba_diving"
+   }
+  },
+  {
+   "id": "n961870075",
+   "names": "Trans Divers",
+   "ll": [
+    35.020159,
+    34.041953
+   ],
+   "ent": [],
+   "tags": {
+    "check_date": "2025-09-14",
+    "disused:amenity": "dive_centre",
+    "name": "Trans Divers",
+    "phone": "+357 99 626455",
+    "scuba_diving:courses": "yes",
+    "sport": "scuba_diving",
+    "website": "https://www.facebook.com/people/Transdivers-Cyprus/100063660300225/"
+   }
+  },
+  {
+   "id": "n1309548988",
+   "names": "Millomeri Falls | Millomeri Waterfall",
+   "ll": [
+    34.883837,
+    32.864986
+   ],
+   "ent": [],
+   "tags": {
+    "description": "The water falls from a height of 15 meters and is one of the highest natural waterfalls on the island. Until recently, this waterfall was not known because its location was not accessible.",
+    "ele": "15",
+    "name": "Millomeri Falls",
+    "name:en": "Millomeri Waterfall",
+    "name:lt": "Milomeri krioklys",
+    "name:ru": "Водопад Миломери",
+    "name:uk": "Водоспад Міломері",
+    "panoramax": "1390a6bf-fdbc-4606-8a45-cdd1193c780d",
+    "waterway": "waterfall",
+    "wikidata": "Q126882864"
+   }
+  },
+  {
+   "id": "n2094180285",
+   "names": "Viking Divers",
+   "ll": [
+    34.973017,
+    33.67402
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "dive_centre",
+    "email": "vdivers@spidernet.com.cy",
+    "name": "Viking Divers",
+    "phone": "+357 24 644676",
+    "sport": "scuba_diving",
+    "website": "https://www.viking-divers.com/"
+   }
+  },
+  {
+   "id": "n2151133553",
+   "names": "Dive Marine Shop",
+   "ll": [
+    35.34108,
+    33.320879
+   ],
+   "ent": [],
+   "tags": {
+    "name": "Dive Marine Shop",
+    "shop": "scuba_diving"
+   }
+  },
+  {
+   "id": "n2296275100",
+   "names": "Windmills Diving",
+   "ll": [
+    35.031812,
+    34.036365
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "dive_centre",
+    "email": "admin@windmillsdiving.com",
+    "name": "Windmills Diving",
+    "website": "https://www.facebook.com/WindmillsDivingSchool/"
+   }
+  },
+  {
+   "id": "n2340351426",
+   "names": "Abyss Dive Center",
+   "ll": [
+    34.811498,
+    32.396137
+   ],
+   "ent": [],
+   "tags": {
+    "addr:housename": "Argaki Complex",
+    "addr:postcode": "8220",
+    "addr:street": "Chlorakas Avenue",
+    "addr:unit": "shop 1-4",
+    "amenity": "dive_centre",
+    "designation": "dive shop",
+    "name": "Abyss Dive Center"
+   }
+  },
+  {
+   "id": "n2851196568",
+   "names": "Oniro",
+   "ll": [
+    34.873466,
+    32.341776
+   ],
+   "ent": [],
+   "tags": {
+    "addr:street": "Sea Caves Avenue",
+    "check_date": "2025-03-24",
+    "disused:amenity": "bar",
+    "level": "0",
+    "name": "Oniro",
+    "phone": "+35799306611"
+   }
+  },
+  {
+   "id": "n3421370570",
+   "names": "Halil İbrahim Sofrası",
+   "ll": [
+    35.340328,
+    33.318377
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2026-08-13",
+    "name": "Halil İbrahim Sofrası"
+   }
+  },
+  {
+   "id": "n3865514601",
+   "names": "Church of the Virgin Maria to Amiantos",
+   "ll": [
+    34.913342,
+    32.942727
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "greek_orthodox",
+    "name": "Church of the Virgin Maria to Amiantos",
+    "religion": "christian"
+   }
+  },
+  {
+   "id": "n4214923889",
+   "names": "Spartiatis | Spartiatis",
+   "ll": [
+    34.985461,
+    34.069091
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city:en": "Paralimni",
+    "addr:housenumber": "79",
+    "addr:postcode": "5297",
+    "addr:street": "Κοννος",
+    "amenity": "restaurant",
+    "cuisine": "seafood",
+    "email": "spartiatis.restaurant@cytanet.com.cy",
+    "internet_access": "wlan",
+    "name": "Spartiatis",
+    "name:en": "Spartiatis",
+    "opening_hours": "Mo-Fr 12:00-16:00,18:00-00:00;Sa 12:00-16:00,18:30-00:00;Su 18:30-00:00",
+    "payment:cards": "yes",
+    "payment:cash": "yes",
+    "phone": "+357 96 240885"
+   }
+  },
+  {
+   "id": "n4242446089",
+   "names": "Sparti Rope Park",
+   "ll": [
+    34.882997,
+    32.863066
+   ],
+   "ent": [],
+   "tags": {
+    "leisure": "sports_centre",
+    "name": "Sparti Rope Park",
+    "opening_hours": "We-Su 10:00-18:00",
+    "sport": "climbing_adventure",
+    "website": "https://spartipark.com/"
+   }
+  },
+  {
+   "id": "n4304614792",
+   "names": "The Old Town restaurant",
+   "ll": [
+    35.033677,
+    32.42584
+   ],
+   "ent": [],
+   "tags": {
+    "addr:housenumber": "5",
+    "addr:street": "Kyproleontos",
+    "amenity": "restaurant",
+    "cuisine": "fish;greek;italian;mediterranean",
+    "diet:vegetarian": "yes",
+    "email": "oldtownpolis@mail.com",
+    "indoor_seating": "yes",
+    "internet_access": "wlan",
+    "name": "The Old Town restaurant",
+    "opening_hours": "Tu-Su 17:00-22:00",
+    "operator": "Кристина, Вангелис, Костас.",
+    "outdoor_seating": "yes",
+    "phone": "+35799632781",
+    "wheelchair": "limited"
+   }
+  },
+  {
+   "id": "n4340856528",
+   "names": "Dive Marine Shop",
+   "ll": [
+    35.34117,
+    33.320869
+   ],
+   "ent": [],
+   "tags": {
+    "addr:housenumber": "3",
+    "addr:street": "Merdivenleni Yol Sok.",
+    "name": "Dive Marine Shop",
+    "phone": "05428522561",
+    "shop": "scuba_diving"
+   }
+  },
+  {
+   "id": "n4341417709",
+   "names": "Diverso",
+   "ll": [
+    35.153451,
+    33.339176
+   ],
+   "ent": [],
+   "tags": {
+    "female": "yes",
+    "male": "yes",
+    "name": "Diverso",
+    "shop": "hairdresser"
+   }
+  },
+  {
+   "id": "n4353620091",
+   "names": "Bedroom",
+   "ll": [
+    34.702505,
+    33.10744
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "cafe",
+    "name": "Bedroom"
+   }
+  },
+  {
+   "id": "n4360871992",
+   "names": "Coral Bay Divers",
+   "ll": [
+    34.857802,
+    32.365625
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Πέγεια",
+    "addr:housenumber": "20",
+    "addr:postcode": "8575",
+    "addr:street": "Laxion",
+    "amenity": "dive_centre",
+    "name": "Coral Bay Divers",
+    "website": "https://coralbaydivers.com/"
+   }
+  },
+  {
+   "id": "n4564925920",
+   "names": "Agios Georgios Archaeological site - Ledroi",
+   "ll": [
+    35.164898,
+    33.35592
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Nicosia",
+    "addr:housenumber": "3",
+    "addr:street": "Λεωφόρος Δημοσθένη Σεβέρη",
+    "historic": "archaeological_site",
+    "name": "Agios Georgios Archaeological site - Ledroi",
+    "website": "http://public.cyi.ac.cy/starcRepo/explore/objects"
+   }
+  },
+  {
+   "id": "n4583543392",
+   "names": "Ktima Gerolemo",
+   "ll": [
+    34.864185,
+    32.802216
+   ],
+   "ent": [],
+   "tags": {
+    "craft": "winery",
+    "name": "Ktima Gerolemo",
+    "shop": "wine"
+   }
+  },
+  {
+   "id": "n4614382290",
+   "names": "Scuba Tech Diving Centre | Scuba Tech Diving Centre",
+   "ll": [
+    35.022527,
+    34.039422
+   ],
+   "ent": [],
+   "tags": {
+    "addr:housenumber": "298",
+    "addr:postcode": "5296",
+    "addr:street": "Leoforos Protara-Cavo Greco",
+    "check_date": "2025-09-09",
+    "email": "info@scubatechdivers.com",
+    "name": "Scuba Tech Diving Centre",
+    "name:en": "Scuba Tech Diving Centre",
+    "phone": "+35799184002",
+    "shop": "scuba_diving",
+    "website": "https://www.scubatechdivers.com/"
+   }
+  },
+  {
+   "id": "n4776996721",
+   "names": "Bedrock Cafe | Bedrock Cafe",
+   "ll": [
+    34.990158,
+    33.997899
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "nightclub",
+    "name": "Bedrock Cafe",
+    "name:en": "Bedrock Cafe",
+    "name:ru": "бэдрок клуб"
+   }
+  },
+  {
+   "id": "n4784929625",
+   "names": "Herbie's Diving Paradise",
+   "ll": [
+    35.028865,
+    34.043189
+   ],
+   "ent": [],
+   "tags": {
+    "addr:street:en": "Pernera",
+    "addr:streetnumber": "36",
+    "amenity": "dive_centre",
+    "check_date": "2025-09-04",
+    "email": "herbies@herbiesdiving.com",
+    "name": "Herbie's Diving Paradise",
+    "opening_hours": "Mo-Su 08:00-18:30",
+    "phone": "+357 23 814292;+357 99 441818",
+    "scuba_diving:courses": "yes",
+    "scuba_diving:rental": "yes",
+    "website": "https://www.herbiesdiving.com/en/"
+   }
+  },
+  {
+   "id": "n4912913822",
+   "names": "Diving cave | Diving cave",
+   "ll": [
+    34.96361,
+    34.072933
+   ],
+   "ent": [],
+   "tags": {
+    "access": "yes",
+    "fee": "no",
+    "name": "Diving cave",
+    "name:en": "Diving cave",
+    "name:ru": "Пещера для дайвинга",
+    "natural": "cave_entrance",
+    "opening_hours": "24/7",
+    "sport": "cliff_diving",
+    "tourism": "attraction",
+    "wheelchair": "no"
+   }
+  },
+  {
+   "id": "n4931443121",
+   "names": "ktima dafermou | ktima dafermou",
+   "ll": [
+    34.855337,
+    33.320191
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "fast_food",
+    "name": "ktima dafermou",
+    "name:en": "ktima dafermou"
+   }
+  },
+  {
+   "id": "n5021578905",
+   "names": "Zenobia Shipwreck",
+   "ll": [
+    34.897244,
+    33.657621
+   ],
+   "ent": [],
+   "tags": {
+    "access": "yes",
+    "addr:city": "Larnaka",
+    "depth": "13.95",
+    "historic": "wreck",
+    "name": "Zenobia Shipwreck",
+    "scuba_diving:divespot": "yes",
+    "seamark:name": "Zenobia",
+    "seamark:type": "wreck",
+    "seamark:wreck:category": "dangerous",
+    "sport": "scuba_diving",
+    "tourism": "attraction",
+    "wikidata": "Q2603065",
+    "wikipedia": "en:MS Zenobia",
+    "wreck:date_sunk": "1980-06-07"
+   }
+  },
+  {
+   "id": "n5186597091",
+   "names": "İbrahim Özkul Hair Dressing",
+   "ll": [
+    35.202427,
+    33.321898
+   ],
+   "ent": [],
+   "tags": {
+    "addr:street": "Belediye Bulvarı",
+    "name": "İbrahim Özkul Hair Dressing",
+    "shop": "hairdresser"
+   }
+  },
+  {
+   "id": "n5188996451",
+   "names": "Old Town",
+   "ll": [
+    34.92128,
+    33.628196
+   ],
+   "ent": [],
+   "tags": {
+    "addr:street": "Tefkrou",
+    "hairdresser": "barber",
+    "name": "Old Town",
+    "shop": "hairdresser"
+   }
+  },
+  {
+   "id": "n5189464514",
+   "names": "Zenobia Divers",
+   "ll": [
+    34.896683,
+    33.638562
+   ],
+   "ent": [],
+   "tags": {
+    "addr:street": "Piyiale Pasa",
+    "amenity": "dive_centre",
+    "check_date": "2025-06-04",
+    "name": "Zenobia Divers",
+    "website": "https://www.zenobiadivers.com/home-2/"
+   }
+  },
+  {
+   "id": "n5198087428",
+   "names": "Technopolis 20 | Technopolis 20 | Technopolis20",
+   "ll": [
+    34.777038,
+    32.429077
+   ],
+   "ent": [],
+   "tags": {
+    "addr:street": "Λεωφόρος Νικολάου Νικολαΐδη",
+    "alt_name": "Technopolis20",
+    "amenity": "community_centre",
+    "check_date": "2022-12-04",
+    "contact:instagram": "technopolis20",
+    "email": "info@technopolis20.com",
+    "name": "Technopolis 20",
+    "name:en": "Technopolis 20",
+    "official_name": "Technopolis 20 Cultural Centre",
+    "phone": "+357 70 002420",
+    "website": "https://www.technopolis20.com/"
+   }
+  },
+  {
+   "id": "n5203530025",
+   "names": "Ktima demetriou",
+   "ll": [
+    34.880523,
+    33.456498
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "events_venue",
+    "internet_access": "wlan",
+    "name": "Ktima demetriou"
+   }
+  },
+  {
+   "id": "n5226616529",
+   "names": "Σχολη Καταδυσεον",
+   "ll": [
+    35.149581,
+    33.360154
+   ],
+   "ent": [],
+   "tags": {
+    "addr:street": "Νίκης",
+    "name": "Σχολη Καταδυσεον",
+    "shop": "scuba_diving"
+   }
+  },
+  {
+   "id": "n5421997892",
+   "names": "Πάνω Αμίαντος | Pano Amiantos | Πάνω Αμίαντος",
+   "ll": [
+    34.927045,
+    32.915838
+   ],
+   "ent": [],
+   "tags": {
+    "abandoned": "hamlet",
+    "name": "Πάνω Αμίαντος",
+    "name:el": "Πάνω Αμίαντος",
+    "name:en": "Pano Amiantos",
+    "name:tr": "Yukarı Amiyando",
+    "place": "hamlet",
+    "wikidata": "Q47004149"
+   }
+  },
+  {
+   "id": "n5645791722",
+   "names": "Geopark | Geopark",
+   "ll": [
+    34.926521,
+    32.917968
+   ],
+   "ent": [],
+   "tags": {
+    "name": "Geopark",
+    "name:de": "Geopark",
+    "name:en": "Geopark",
+    "tourism": "information"
+   }
+  },
+  {
+   "id": "n6047601063",
+   "names": "CyDive",
+   "ll": [
+    34.756361,
+    32.412163
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Paphos",
+    "addr:street": "Λεωφόρος Ποσειδώνος",
+    "amenity": "dive_centre",
+    "check_date": "2022-11-09",
+    "name": "CyDive",
+    "opening_hours": "08:00-18:30",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+357 26 934271",
+    "scuba_diving:air_fill": "yes",
+    "scuba_diving:education": "yes",
+    "scuba_diving:equipment": "yes",
+    "sport": "scuba_diving",
+    "website": "https://cydive.com"
+   }
+  },
+  {
+   "id": "n6175985887",
+   "names": "Old Town Antic House | Old Town Antic House",
+   "ll": [
+    34.679228,
+    33.047198
+   ],
+   "ent": [],
+   "tags": {
+    "addr:housenumber": "24",
+    "addr:street": "Ζήνωνος",
+    "name": "Old Town Antic House",
+    "name:en": "Old Town Antic House",
+    "tourism": "guest_house"
+   }
+  },
+  {
+   "id": "n6536394785",
+   "names": "Dive-in diving center | Dive-in diving center",
+   "ll": [
+    34.901234,
+    33.63756
+   ],
+   "ent": [],
+   "tags": {
+    "check_date": "2024-10-19",
+    "name": "Dive-in diving center",
+    "name:en": "Dive-in diving center",
+    "name:ru": "Дайв ин дайвинг центр",
+    "shop": "travel_agency"
+   }
+  },
+  {
+   "id": "n7554816485",
+   "names": "Aquatic Centre Dive Centre | Aquatic Centre Dive Centre",
+   "ll": [
+    34.692521,
+    33.080849
+   ],
+   "ent": [],
+   "tags": {
+    "addr:postcode": "4047",
+    "email": "dive@aquatic.centre.com",
+    "name": "Aquatic Centre Dive Centre",
+    "name:en": "Aquatic Centre Dive Centre",
+    "opening_hours": "Mo-Su 09:00-18:00",
+    "phone": "+35725313208",
+    "shop": "sports",
+    "website": "https://aquatic-centre.com"
+   }
+  },
+  {
+   "id": "n7916615095",
+   "names": "Freedom Divers",
+   "ll": [
+    34.737921,
+    32.534173
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Anarita",
+    "addr:housenumber": "2",
+    "addr:postcode": "8502",
+    "addr:street": "Leoforos Agiou Onisiforou",
+    "amenity": "dive_centre",
+    "description": "dive school",
+    "name": "Freedom Divers"
+   }
+  },
+  {
+   "id": "n8191682018",
+   "names": "Ονειροπωλείο | Oneiro Poleio",
+   "ll": [
+    34.910903,
+    33.623074
+   ],
+   "ent": [],
+   "tags": {
+    "addr:housenumber": "121",
+    "addr:postcode": "6031",
+    "addr:street": "Leoforos Faneromenis",
+    "description": "Nuts, Dried Fruits, Organic",
+    "email": "alazaros@cytanet.com.cy",
+    "name": "Ονειροπωλείο",
+    "name:en": "Oneiro Poleio",
+    "phone": "24816600",
+    "shop": "supermarket"
+   }
+  },
+  {
+   "id": "n8296918289",
+   "names": "Σχολή καταδύσεων ΚΙΜΩΝ",
+   "ll": [
+    35.01887,
+    33.73963
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "dive_centre",
+    "name": "Σχολή καταδύσεων ΚΙΜΩΝ",
+    "sport": "scuba_diving"
+   }
+  },
+  {
+   "id": "n8867961554",
+   "names": "Tempo Diving School | Tempo Diving School",
+   "ll": [
+    35.029758,
+    34.040119
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "dive_centre",
+    "check_date": "2025-09-29",
+    "email": "photispetousis@gmail.com",
+    "name": "Tempo Diving School",
+    "name:en": "Tempo Diving School",
+    "name:ru": "Тэмпо школа дайвинга",
+    "phone": "+357 99 545 650",
+    "scuba_diving:courses": "yes",
+    "website": "https://www.facebook.com/photisandclaire/"
+   }
+  },
+  {
+   "id": "n9468528178",
+   "names": "Ktima Dimosthenous",
+   "ll": [
+    34.757399,
+    33.15948
+   ],
+   "ent": [],
+   "tags": {
+    "addr:country": "CY",
+    "addr:hamlet": "Παρεκλησιά",
+    "addr:housenumber": "4",
+    "addr:postcode": "4520",
+    "addr:street": "Odyssea Elyti",
+    "amenity": "events_venue",
+    "mobile": "+35796538601",
+    "name": "Ktima Dimosthenous",
+    "phone": "+35796538601",
+    "website": "ktimademosthenous.com"
+   }
+  },
+  {
+   "id": "n9560487737",
+   "names": "WSBA BSAC diving Club",
+   "ll": [
+    34.57669,
+    33.027264
+   ],
+   "ent": [],
+   "tags": {
+    "club": "sport",
+    "description": "Private access only",
+    "emergency": "yes",
+    "name": "WSBA BSAC diving Club",
+    "operator": "WSBA BSAC Club",
+    "sport": "scuba_diving"
+   }
+  },
+  {
+   "id": "n9784082310",
+   "names": "Sunfish Divers",
+   "ll": [
+    34.985407,
+    34.000226
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "dive_centre",
+    "name": "Sunfish Divers"
+   }
+  },
+  {
+   "id": "n10033251211",
+   "names": "Pissouri Bay Divers",
+   "ll": [
+    34.651506,
+    32.724537
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Pissouri",
+    "addr:housenumber": "54",
+    "addr:postcode": "4607",
+    "addr:street": "Ampelonon",
+    "amenity": "dive_centre",
+    "name": "Pissouri Bay Divers",
+    "website": "https://pissouribaydivers.com/"
+   }
+  },
+  {
+   "id": "n10057152456",
+   "names": "Taba Diving Centre",
+   "ll": [
+    35.029435,
+    34.041062
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Protaras",
+    "addr:housenumber": "20",
+    "addr:postcode": "5296",
+    "addr:street": "Pernera",
+    "amenity": "dive_centre",
+    "check_date": "2025-09-29",
+    "email": "contact@tabadiving.com",
+    "mobile": "+357 99 922230",
+    "name": "Taba Diving Centre",
+    "phone": "+357 23 832680",
+    "scuba_diving:courses": "yes",
+    "website": "https://tabadiving.com/"
+   }
+  },
+  {
+   "id": "n10065475320",
+   "names": "Archiep. Makariou C´ Ave. - Spartis | Archiep. Makariou C´ Ave. - Spartis | Λεωφ. Αρχιεπ. Μακαρίου Γ΄ - Σπάρτης",
+   "ll": [
+    34.851725,
+    33.579173
+   ],
+   "ent": [],
+   "tags": {
+    "bus": "yes",
+    "gtfs_id": "6486",
+    "gtfs_stop_code": "21250",
+    "gtfs_stop_desc": "ArMaC-Sp",
+    "highway": "bus_stop",
+    "name": "Archiep. Makariou C´ Ave. - Spartis",
+    "name:el": "Λεωφ. Αρχιεπ. Μακαρίου Γ΄ - Σπάρτης",
+    "name:en": "Archiep. Makariou C´ Ave. - Spartis",
+    "network": "LPT",
+    "public_transport": "platform",
+    "ref": "21250",
+    "route_ref": "430;446",
+    "transport:zone": "6486"
+   }
+  },
+  {
+   "id": "n10078023001",
+   "names": "Aqua Naut Diving School",
+   "ll": [
+    34.999833,
+    34.067238
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "dive_centre",
+    "description": "Diving School & Rental",
+    "name": "Aqua Naut Diving School",
+    "website": "https://www.scubadivecyprus.com/"
+   }
+  },
+  {
+   "id": "n10539777540",
+   "names": "Ktima Kousioumi",
+   "ll": [
+    35.05416,
+    33.371071
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "events_venue",
+    "name": "Ktima Kousioumi"
+   }
+  },
+  {
+   "id": "n10540339197",
+   "names": "Ave. Archiep. Makariou C - Spartis | Ave. Archiep. Makariou C - Spartis | Λεωφ. Αρχιεπ. Μακαρίου Γ - Σπάρτης",
+   "ll": [
+    35.181758,
+    33.377728
+   ],
+   "ent": [],
+   "tags": {
+    "bus": "yes",
+    "gtfs_id": "3229",
+    "gtfs_stop_code": "779",
+    "gtfs_stop_desc": "ArMaC-Sp",
+    "highway": "bus_stop",
+    "name": "Ave. Archiep. Makariou C - Spartis",
+    "name:el": "Λεωφ. Αρχιεπ. Μακαρίου Γ - Σπάρτης",
+    "name:en": "Ave. Archiep. Makariou C - Spartis",
+    "network": "NPT",
+    "public_transport": "platform",
+    "ref": "779",
+    "route_ref": "31",
+    "transport:zone": "3229"
+   }
+  },
+  {
+   "id": "n10554197701",
+   "names": "Armenias - Lykourgou | Armenias - Lykourgou | Αρμενίας - Λυκούργου",
+   "ll": [
+    35.154222,
+    33.364722
+   ],
+   "ent": [],
+   "tags": {
+    "addr:floor": "G",
+    "bench": "yes",
+    "bin": "yes",
+    "bus": "yes",
+    "gtfs_id": "3533",
+    "gtfs_stop_code": "1202",
+    "gtfs_stop_desc": "Arm-Lyk",
+    "highway": "bus_stop",
+    "level": "0",
+    "lit": "no",
+    "name": "Armenias - Lykourgou",
+    "name:el": "Αρμενίας - Λυκούργου",
+    "name:en": "Armenias - Lykourgou",
+    "network": "NPT",
+    "public_transport": "platform",
+    "ref": "1202",
+    "route_ref": "28;43",
+    "shelter": "yes",
+    "transport:zone": "3533"
+   }
+  },
+  {
+   "id": "n10554825463",
+   "names": "2nd Amiantos 2 | 2nd Amiantos 2 | 2η Αμίαντος 2",
+   "ll": [
+    34.918383,
+    32.935659
+   ],
+   "ent": [],
+   "tags": {
+    "bus": "yes",
+    "gtfs:stop_id": "5362",
+    "gtfs_id": "5362",
+    "gtfs_stop_code": "11191",
+    "gtfs_stop_desc": "2ndAmianto",
+    "highway": "bus_stop",
+    "name": "2nd Amiantos 2",
+    "name:el": "2η Αμίαντος 2",
+    "name:en": "2nd Amiantos 2",
+    "network": "ΕΜΕΛ",
+    "public_transport": "platform",
+    "ref": "11191",
+    "route_ref": "60K",
+    "transport:zone": "5362"
+   }
+  },
+  {
+   "id": "n10554825464",
+   "names": "2nd Amiantos 1 | 2nd Amiantos 1 | 2η Αμίαντος 1",
+   "ll": [
+    34.918356,
+    32.935506
+   ],
+   "ent": [],
+   "tags": {
+    "bus": "yes",
+    "gtfs:stop_id": "5361",
+    "gtfs_id": "5361",
+    "gtfs_stop_code": "11190",
+    "gtfs_stop_desc": "2ndAmianto",
+    "highway": "bus_stop",
+    "name": "2nd Amiantos 1",
+    "name:el": "2η Αμίαντος 1",
+    "name:en": "2nd Amiantos 1",
+    "network": "ΕΜΕΛ",
+    "public_transport": "platform",
+    "ref": "11190",
+    "route_ref": "60K",
+    "transport:zone": "5361"
+   }
+  },
+  {
+   "id": "n10554825465",
+   "names": "Ap. Andreas Church - Amiantos 2 | Ap. Andreas Church - Amiantos 2 | Εκκλησία Απ. Ανδρέα - Αμίαντος 2",
+   "ll": [
+    34.91732,
+    32.937083
+   ],
+   "ent": [],
+   "tags": {
+    "bus": "yes",
+    "gtfs:stop_id": "5360",
+    "gtfs_id": "5360",
+    "gtfs_stop_code": "11189",
+    "gtfs_stop_desc": "ApAnCh-Am",
+    "highway": "bus_stop",
+    "name": "Ap. Andreas Church - Amiantos 2",
+    "name:el": "Εκκλησία Απ. Ανδρέα - Αμίαντος 2",
+    "name:en": "Ap. Andreas Church - Amiantos 2",
+    "network": "ΕΜΕΛ",
+    "public_transport": "platform",
+    "ref": "11189",
+    "route_ref": "60K",
+    "transport:zone": "5360"
+   }
+  },
+  {
+   "id": "n10557014058",
+   "names": "1st Amiantos 2 | 1st Amiantos 2 | 1η Αμίαντος 2",
+   "ll": [
+    34.920096,
+    32.934695
+   ],
+   "ent": [],
+   "tags": {
+    "bus": "yes",
+    "gtfs:stop_id": "7638",
+    "gtfs_id": "7638",
+    "gtfs_stop_code": "11715",
+    "gtfs_stop_desc": "1stAmianto",
+    "highway": "bus_stop",
+    "name": "1st Amiantos 2",
+    "name:el": "1η Αμίαντος 2",
+    "name:en": "1st Amiantos 2",
+    "network": "ΕΜΕΛ",
+    "public_transport": "platform",
+    "ref": "11715",
+    "route_ref": "60K",
+    "transport:zone": "7638"
+   }
+  },
+  {
+   "id": "n10557014059",
+   "names": "1st Amiantos 1 | 1st Amiantos 1 | 1η Αμίαντος 1",
+   "ll": [
+    34.920114,
+    32.934596
+   ],
+   "ent": [],
+   "tags": {
+    "bus": "yes",
+    "gtfs:stop_id": "7637",
+    "gtfs_id": "7637",
+    "gtfs_stop_code": "11714",
+    "gtfs_stop_desc": "1stAmianto",
+    "highway": "bus_stop",
+    "name": "1st Amiantos 1",
+    "name:el": "1η Αμίαντος 1",
+    "name:en": "1st Amiantos 1",
+    "network": "ΕΜΕΛ",
+    "public_transport": "platform",
+    "ref": "11714",
+    "route_ref": "60K",
+    "transport:zone": "7637"
+   }
+  },
+  {
+   "id": "n10557014100",
+   "names": "Millomeris Waterfall | Millomeris Waterfall | Καταρράκτης Μιλλομέρη",
+   "ll": [
+    34.887231,
+    32.863959
+   ],
+   "ent": [],
+   "tags": {
+    "bus": "yes",
+    "gtfs:stop_id": "7595",
+    "gtfs_id": "7595",
+    "gtfs_stop_code": "11725",
+    "gtfs_stop_desc": "MillWatef",
+    "highway": "bus_stop",
+    "name": "Millomeris Waterfall",
+    "name:el": "Καταρράκτης Μιλλομέρη",
+    "name:en": "Millomeris Waterfall",
+    "network": "ΕΜΕΛ",
+    "public_transport": "platform",
+    "ref": "11725",
+    "route_ref": "64;62Z;64A",
+    "transport:zone": "7595"
+   }
+  },
+  {
+   "id": "n10557014250",
+   "names": "Egnatias - Spartis | Egnatias - Spartis | Εγνατίας - Σπάρτης",
+   "ll": [
+    35.147409,
+    33.395673
+   ],
+   "ent": [],
+   "tags": {
+    "bus": "yes",
+    "gtfs_id": "7411",
+    "gtfs_stop_code": "5037",
+    "gtfs_stop_desc": "Egn-Spa",
+    "highway": "bus_stop",
+    "name": "Egnatias - Spartis",
+    "name:el": "Εγνατίας - Σπάρτης",
+    "name:en": "Egnatias - Spartis",
+    "network": "NPT",
+    "public_transport": "platform",
+    "ref": "5037",
+    "route_ref": "44",
+    "transport:zone": "7411"
+   }
+  },
+  {
+   "id": "n10658564277",
+   "names": "Dive Stop Cyprus (Premier Scuba Diving Center)",
+   "ll": [
+    35.030745,
+    34.037007
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "dive_centre",
+    "email": "dive@divestop.com.cy",
+    "name": "Dive Stop Cyprus (Premier Scuba Diving Center)",
+    "phone": "+357 96 039632",
+    "website": "https://divestopcyprus.com/"
+   }
+  },
+  {
+   "id": "n10665358099",
+   "names": "dive the ROCK",
+   "ll": [
+    35.031716,
+    34.030208
+   ],
+   "ent": [],
+   "tags": {
+    "addr:housenumber": "10",
+    "addr:street": "Leoforos Perneras",
+    "amenity": "dive_centre",
+    "check_date": "2025-10-02",
+    "email": "info@divetherock.com",
+    "image": "https://imgur.com/a/Ar7x99B",
+    "name": "dive the ROCK",
+    "phone": "+357 96 796 800",
+    "scuba_diving:air_fill": "yes",
+    "scuba_diving:courses": "yes",
+    "scuba_diving:education": "yes",
+    "scuba_diving:equipment": "yes",
+    "scuba_diving:filling": "yes",
+    "scuba_diving:nitrox": "yes",
+    "scuba_diving:nitrox_filling": "yes",
+    "scuba_diving:trimix_filling": "yes",
+    "website": "https://divetherock.com/"
+   }
+  },
+  {
+   "id": "n10731060889",
+   "names": "Nautilus Scuba Diving Centre",
+   "ll": [
+    35.026554,
+    34.039378
+   ],
+   "ent": [],
+   "tags": {
+    "addr:street:en": "Pernera Avenue",
+    "addr:streetnumber": "98",
+    "check_date": "2025-09-09",
+    "disused:amenity": "dive_centre",
+    "email": "nautilusdivingcyprus@gmail.com",
+    "name": "Nautilus Scuba Diving Centre",
+    "opening_hours": "Mo-Su 08:00-20:00",
+    "phone": "+357 97 712955",
+    "website": "https://nautilusdivingcyprus.com/"
+   }
+  },
+  {
+   "id": "n10731079749",
+   "names": "Cyprus Diving Centre",
+   "ll": [
+    35.027398,
+    34.041251
+   ],
+   "ent": [],
+   "tags": {
+    "addr:street:en": "Aphrodite Street",
+    "addr:streetnumber": "13",
+    "amenity": "dive_centre",
+    "check_date": "2025-09-14",
+    "email": "info@cyprus-divingcentre.com",
+    "name": "Cyprus Diving Centre",
+    "opening_hours": "Mo-Sa 09:00-21:00",
+    "phone": "+357 99 399404",
+    "website": "https://en.cyprus-divingcentre.com/"
+   }
+  },
+  {
+   "id": "n11265949247",
+   "names": "Κτήμα Γερόλεμο | Ktima Gerolemo | Κτήμα Γερόλεμο",
+   "ll": [
+    34.848689,
+    32.809511
+   ],
+   "ent": [],
+   "tags": {
+    "contact:instagram": "https://www.instagram.com/ktima_gerolemo/",
+    "craft": "winery",
+    "name": "Κτήμα Γερόλεμο",
+    "name:el": "Κτήμα Γερόλεμο",
+    "name:en": "Ktima Gerolemo",
+    "opening_hours": "Mo-Su 09:00-16:00",
+    "phone": "+357 99 696 025",
+    "shop": "wine",
+    "website": "https://ktimagerolemo.com"
+   }
+  },
+  {
+   "id": "n11332794458",
+   "names": "Πλανητάριο | The Cyprus Planetarium T&O",
+   "ll": [
+    35.04334,
+    33.237181
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "exhibition_centre",
+    "name": "Πλανητάριο | The Cyprus Planetarium T&O"
+   }
+  },
+  {
+   "id": "n11914043526",
+   "names": "İbrahim Paşa | İbrahim Paşa | Ιμπραχίμ Πασά",
+   "ll": [
+    35.178689,
+    33.360887
+   ],
+   "ent": [],
+   "tags": {
+    "name": "İbrahim Paşa",
+    "name:el": "Ιμπραχίμ Πασά",
+    "name:en": "İbrahim Paşa",
+    "name:tr": "İbrahim Paşa",
+    "place": "neighbourhood",
+    "wikidata": "Q47319755",
+    "wikimedia_commons": "Category:Imprachim Pasa, Nicosia",
+    "wikipedia": "tr:İbrahimpaşa"
+   }
+  },
+  {
+   "id": "n11940290768",
+   "names": "Malama Divers",
+   "ll": [
+    35.054338,
+    34.014606
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "dive_centre",
+    "name": "Malama Divers",
+    "scuba_diving:courses": "yes",
+    "scuba_diving:rental": "yes",
+    "website": "https://www.facebook.com/malamadiverscyprus/"
+   }
+  },
+  {
+   "id": "n12090806443",
+   "names": "Diversity unisex hair studio",
+   "ll": [
+    35.141369,
+    33.361492
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Strovolos",
+    "addr:housenumber": "85",
+    "addr:postcode": "2024",
+    "addr:street": "Ανδρέα Αβρααμίδη",
+    "female": "yes",
+    "male": "yes",
+    "name": "Diversity unisex hair studio",
+    "shop": "hairdresser"
+   }
+  },
+  {
+   "id": "n12092504819",
+   "names": "Merdivenbaşı Tepesi",
+   "ll": [
+    35.305318,
+    33.239189
+   ],
+   "ent": [],
+   "tags": {
+    "name": "Merdivenbaşı Tepesi",
+    "natural": "peak"
+   }
+  },
+  {
+   "id": "n12194355893",
+   "names": "Old Town Café",
+   "ll": [
+    35.17353,
+    33.357784
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "cafe",
+    "name": "Old Town Café"
+   }
+  },
+  {
+   "id": "n12224179143",
+   "names": "Gotodive Cyprus",
+   "ll": [
+    35.009892,
+    34.058365
+   ],
+   "ent": [],
+   "tags": {
+    "addr:housenumber": "459",
+    "addr:street": "Leoforos Cavo Greco",
+    "amenity": "dive_centre",
+    "check_date": "2024-10-05",
+    "email": "info@gotodive.com",
+    "name": "Gotodive Cyprus",
+    "opening_hours": "09:00-20:00",
+    "payment:alipay": "yes",
+    "payment:american_express": "yes",
+    "payment:apple_pay": "yes",
+    "payment:cash": "yes",
+    "payment:diners_club": "yes",
+    "payment:discover_card": "yes",
+    "payment:google_pay": "yes",
+    "payment:invoice": "yes",
+    "payment:jcb": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:paypal": "yes",
+    "payment:sepa": "yes",
+    "payment:unionpay": "yes",
+    "payment:v_pay": "yes",
+    "payment:visa": "yes",
+    "phone": "+357 96 038877",
+    "scuba_diving:courses": "yes",
+    "scuba_diving:equipment": "yes",
+    "scuba_diving:guided_tours": "yes",
+    "scuba_diving:nitrox": "yes",
+    "scuba_diving:rental": "yes",
+    "scuba_diving:repair": "yes",
+    "website": "https://www.gotodive.eu/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "id": "n12277505331",
+   "names": "Latchi Dive Centre | Latchi Dive Centre",
+   "ll": [
+    35.040839,
+    32.394031
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Latchi",
+    "addr:street": "Λεωφόρος Ακάμαντος",
+    "amenity": "dive_centre",
+    "check_date": "2024-10-22",
+    "contact:facebook": "https://www.facebook.com/latchidive",
+    "email": "info@latchidivecentre.com",
+    "level": "0",
+    "mobile": "+357 96 603 611",
+    "name": "Latchi Dive Centre",
+    "name:en": "Latchi Dive Centre",
+    "opening_hours": "Mo-Su 08:00-20:00",
+    "operator": "Latchi Watersports Group",
+    "payment:cash": "yes",
+    "payment:contactless": "yes",
+    "payment:credit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:paypal": "yes",
+    "payment:visa": "yes",
+    "phone": "+357 26 322 095",
+    "scuba_diving:air_filling": "yes",
+    "scuba_diving:courses": "yes",
+    "scuba_diving:rental": "yes",
+    "website": "https://www.latchidivecentre.com/"
+   }
+  },
+  {
+   "id": "n12945880702",
+   "names": "Ktima George Marie",
+   "ll": [
+    34.758419,
+    33.321187
+   ],
+   "ent": [],
+   "tags": {
+    "addr:postcode": "7740",
+    "addr:street": "Livadias 1",
+    "amenity": "restaurant",
+    "name": "Ktima George Marie"
+   }
+  },
+  {
+   "id": "n13197777214",
+   "names": "Republic of the Maldives",
+   "ll": [
+    34.931295,
+    33.638609
+   ],
+   "ent": [],
+   "tags": {
+    "diplomatic": "consulate",
+    "name": "Republic of the Maldives",
+    "office": "diplomatic"
+   }
+  },
+  {
+   "id": "n13776613701",
+   "names": "Old Town Baristro",
+   "ll": [
+    34.774639,
+    32.421967
+   ],
+   "ent": [],
+   "tags": {
+    "addr:street": "Grammou",
+    "amenity": "cafe",
+    "name": "Old Town Baristro"
+   }
+  },
+  {
+   "id": "n13778144524",
+   "names": "Ag. Sila - Spartis",
+   "ll": [
+    34.689642,
+    32.961792
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "bus_stop",
+    "name": "Ag. Sila - Spartis",
+    "ref": "11839"
+   }
+  },
+  {
+   "id": "n13781010601",
+   "names": "Millomeris Cafe",
+   "ll": [
+    34.88348,
+    32.865866
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "cafe",
+    "name": "Millomeris Cafe",
+    "panoramax": "71e9c149-6fa4-4473-bd50-a198ef2f2762"
+   }
+  },
+  {
+   "id": "n14030807102",
+   "names": "Maldives Homes - Cyprus Constructions",
+   "ll": [
+    35.355628,
+    33.631312
+   ],
+   "ent": [],
+   "tags": {
+    "addr:street": "(35.3557017, 33.6314708)",
+    "internet_access": "wlan",
+    "name": "Maldives Homes - Cyprus Constructions",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "id": "w4205228",
+   "names": "İbrahim Hasan Caddesi",
+   "ll": [
+    35.119649,
+    33.926811
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "secondary",
+    "lanes": "1",
+    "name": "İbrahim Hasan Caddesi",
+    "oneway": "yes",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w4205229",
+   "names": "İbrahim Hasan Caddesi",
+   "ll": [
+    35.119698,
+    33.926883
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "secondary",
+    "lanes": "1",
+    "name": "İbrahim Hasan Caddesi",
+    "oneway": "yes",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w4205230",
+   "names": "İbrahim Hasan Caddesi",
+   "ll": [
+    35.121034,
+    33.925553
+   ],
+   "ent": [],
+   "tags": {
+    "foot": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "İbrahim Hasan Caddesi",
+    "oneway": "yes",
+    "sidewalk": "left",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w4205231",
+   "names": "İbrahim Hasan Caddesi",
+   "ll": [
+    35.121282,
+    33.9255
+   ],
+   "ent": [],
+   "tags": {
+    "foot": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "İbrahim Hasan Caddesi",
+    "oneway": "yes",
+    "sidewalk": "left",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w4205232",
+   "names": "İbrahim Hasan Caddesi",
+   "ll": [
+    35.126191,
+    33.922212
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "İbrahim Hasan Caddesi",
+    "oneway": "yes",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w4205233",
+   "names": "İbrahim Hasan Caddesi",
+   "ll": [
+    35.126105,
+    33.922407
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "İbrahim Hasan Caddesi",
+    "oneway": "yes",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w4756353",
+   "names": "Sedron | Serron",
+   "ll": [
+    34.779612,
+    32.437868
+   ],
+   "ent": [],
+   "tags": {
+    "alt_name": "Serron",
+    "highway": "residential",
+    "name": "Sedron",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w5203046",
+   "names": "Spartis",
+   "ll": [
+    34.784147,
+    32.428903
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Spartis",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w5204521",
+   "names": "Lykourgou",
+   "ll": [
+    34.76585,
+    32.439065
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Lykourgou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w5209151",
+   "names": "Σπάρτης | Σπάρτης",
+   "ll": [
+    34.673918,
+    33.042071
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "tertiary",
+    "int_name": "Spartis",
+    "lanes": "1",
+    "maxspeed": "30",
+    "name": "Σπάρτης",
+    "name:el": "Σπάρτης",
+    "oneway": "yes",
+    "panoramax": "d274bf7c-66ad-420f-9ff6-6a99b7001663",
+    "postal_code": "3041",
+    "ref": "U58",
+    "sidewalk": "both",
+    "surface": "paving_stones"
+   }
+  },
+  {
+   "id": "w5405541",
+   "names": "Σεχίντ Ιμπραχήμ | Sehit Ibrahim | Σεχίντ Ιμπραχήμ",
+   "ll": [
+    34.78484,
+    32.416667
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "int_name": "Sehint Imprahim",
+    "name": "Σεχίντ Ιμπραχήμ",
+    "name:el": "Σεχίντ Ιμπραχήμ",
+    "name:en": "Sehit Ibrahim",
+    "name:tr": "Şehit İbrahim",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w5658097",
+   "names": "Lykourgou",
+   "ll": [
+    34.762275,
+    32.448789
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Lykourgou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w8043510",
+   "names": "Lykourgou Kappa",
+   "ll": [
+    35.15912,
+    33.376615
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "Lykourgou Kappa",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w8073716",
+   "names": "Lykourgou",
+   "ll": [
+    35.134209,
+    33.306548
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "yes",
+    "name": "Lykourgou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w10417202",
+   "names": "Şht. Halil Ibrahim Mahallesi",
+   "ll": [
+    35.318122,
+    33.351986
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Şht. Halil Ibrahim Mahallesi"
+   }
+  },
+  {
+   "id": "w10649064",
+   "names": "Şht. Halil Ibrahim Mahallesi",
+   "ll": [
+    35.317998,
+    33.351546
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Şht. Halil Ibrahim Mahallesi"
+   }
+  },
+  {
+   "id": "w10762800",
+   "names": "Amiantos mines",
+   "ll": [
+    34.91958,
+    32.913087
+   ],
+   "ent": [],
+   "tags": {
+    "landuse": "quarry",
+    "name": "Amiantos mines",
+    "resource": "asbestos",
+    "wikidata": "Q21833108"
+   }
+  },
+  {
+   "id": "w20292326",
+   "names": "Spartis",
+   "ll": [
+    35.181502,
+    33.378358
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Spartis",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w20369391",
+   "names": "Lykourgou",
+   "ll": [
+    35.167428,
+    33.378466
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "Lykourgou",
+    "sidewalk": "both",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w20506364",
+   "names": "Spartis",
+   "ll": [
+    34.710657,
+    33.099081
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Spartis",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w21061134",
+   "names": "Lykourgou",
+   "ll": [
+    35.155284,
+    33.310049
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Lykourgou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w21264459",
+   "names": "Lykourgou",
+   "ll": [
+    35.146039,
+    33.386022
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Lykourgou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w21776863",
+   "names": "Spartis",
+   "ll": [
+    35.189359,
+    33.375193
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Spartis",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w22495383",
+   "names": "Spartis",
+   "ll": [
+    35.173397,
+    33.380355
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Spartis",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w22796505",
+   "names": "Spartis",
+   "ll": [
+    34.758429,
+    32.454167
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Spartis",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w23557045",
+   "names": "Şehit Halil İbrahim Sokak",
+   "ll": [
+    35.318425,
+    33.352026
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Şehit Halil İbrahim Sokak"
+   }
+  },
+  {
+   "id": "w24156485",
+   "names": "Lykourgou Logothetou | Lykourgou Logothetou | Λυκουργου Λογοθετου",
+   "ll": [
+    34.694128,
+    32.995105
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Lykourgou Logothetou",
+    "name:el": "Λυκουργου Λογοθετου",
+    "name:en": "Lykourgou Logothetou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w24157222",
+   "names": "Kedron",
+   "ll": [
+    34.711686,
+    33.048851
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Kedron",
+    "oneway": "yes",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w24219993",
+   "names": "Spartis",
+   "ll": [
+    34.678734,
+    32.937052
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Spartis",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w24237561",
+   "names": "Lykourgou",
+   "ll": [
+    34.698181,
+    32.960294
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Lykourgou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w24285126",
+   "names": "Lykourgou",
+   "ll": [
+    35.174334,
+    33.326432
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Lykourgou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w24648155",
+   "names": "Kedrou",
+   "ll": [
+    34.698839,
+    33.052625
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Kedrou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w24716117",
+   "names": "Lykourgou",
+   "ll": [
+    34.912954,
+    33.617026
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "Lykourgou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w24719892",
+   "names": "Σπάρτης | Σπάρτης",
+   "ll": [
+    34.674412,
+    33.042692
+   ],
+   "ent": [],
+   "tags": {
+    "emergency": "yes",
+    "highway": "pedestrian",
+    "int_name": "Spartis",
+    "maxspeed": "15",
+    "motor_vehicle": "destination",
+    "name": "Σπάρτης",
+    "name:el": "Σπάρτης",
+    "postal_code": "3041",
+    "surface": "paving_stones"
+   }
+  },
+  {
+   "id": "w24759963",
+   "names": "Lykourgou",
+   "ll": [
+    34.672921,
+    33.02919
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "maxspeed:type": "CY:urban",
+    "name": "Lykourgou",
+    "oneway": "yes",
+    "sidewalk": "both",
+    "sidewalk:both:surface": "concrete",
+    "smoothness": "good",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w24885239",
+   "names": "Spartis",
+   "ll": [
+    34.999811,
+    33.459704
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Spartis"
+   }
+  },
+  {
+   "id": "w24981348",
+   "names": "Spartis",
+   "ll": [
+    35.153368,
+    33.318999
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Spartis",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w25625440",
+   "names": "Λυκούργου Λογοθετίδη",
+   "ll": [
+    34.671288,
+    33.014179
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "int_name": "Lykourgou Logothetidi",
+    "name": "Λυκούργου Λογοθετίδη",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w26261026",
+   "names": "Spartis",
+   "ll": [
+    34.701304,
+    33.04331
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Spartis",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w26777912",
+   "names": "Şehit İbrahim Nidai Caddesi",
+   "ll": [
+    35.345633,
+    33.161473
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Şehit İbrahim Nidai Caddesi",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w26999540",
+   "names": "Spartis",
+   "ll": [
+    34.910601,
+    33.629623
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Spartis",
+    "oneway": "yes",
+    "sidewalk": "both",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w27040524",
+   "names": "Şehit İbrahim Nidai Caddesi",
+   "ll": [
+    35.340581,
+    33.183147
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Şehit İbrahim Nidai Caddesi",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w27294675",
+   "names": "spartis",
+   "ll": [
+    34.791473,
+    32.426196
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "spartis",
+    "oneway": "no",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w27954542",
+   "names": "Kedron",
+   "ll": [
+    35.121319,
+    33.314816
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Kedron",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w28349713",
+   "names": "Lykourgou",
+   "ll": [
+    35.172445,
+    33.361912
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "pedestrian",
+    "maxspeed": "15",
+    "motor_vehicle": "no",
+    "motor_vehicle:conditional": "destination @ (7:00-10:00)",
+    "name": "Lykourgou",
+    "surface": "paving_stones"
+   }
+  },
+  {
+   "id": "w28352045",
+   "names": "Σπάρτης",
+   "ll": [
+    34.601738,
+    32.955092
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Σπάρτης"
+   }
+  },
+  {
+   "id": "w28943994",
+   "names": "Şehit İbrahim Ali Sokak | Χεϋμπελη Ιμπραιμ Αλη",
+   "ll": [
+    35.182662,
+    33.367506
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lane_markings": "yes",
+    "lanes": "2",
+    "name": "Şehit İbrahim Ali Sokak",
+    "name:el": "Χεϋμπελη Ιμπραιμ Αλη",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w28962496",
+   "names": "Şehit İbrahim Ramadan Sokak | Βασιλη Μιχαηλιδη | Vasili Mihailidi Sokak",
+   "ll": [
+    35.186751,
+    33.364138
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "Şehit İbrahim Ramadan Sokak",
+    "name:el": "Βασιλη Μιχαηλιδη",
+    "old_name": "Vasili Mihailidi Sokak",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w28964885",
+   "names": "Şehit İbrahim Yusuf Sokak",
+   "ll": [
+    35.185292,
+    33.356282
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Şehit İbrahim Yusuf Sokak",
+    "oneway": "yes",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w28973373",
+   "names": "Şht. İbrahim Kolaçoğlu Sokak",
+   "ll": [
+    35.198571,
+    33.338618
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "Şht. İbrahim Kolaçoğlu Sokak",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w28973561",
+   "names": "İbrahim İlkman Caddesi",
+   "ll": [
+    35.195057,
+    33.316969
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "İbrahim İlkman Caddesi",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w30171695",
+   "names": "Şehit İbrahim Nidai Caddesi",
+   "ll": [
+    35.343343,
+    33.170642
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Şehit İbrahim Nidai Caddesi",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w30171696",
+   "names": "Şehit İbrahim Nidai Caddesi",
+   "ll": [
+    35.340819,
+    33.174377
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Şehit İbrahim Nidai Caddesi",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w30171698",
+   "names": "Şehit İbrahim Nidai Caddesi",
+   "ll": [
+    35.339976,
+    33.177282
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Şehit İbrahim Nidai Caddesi",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w30339029",
+   "names": "Lykourgou",
+   "ll": [
+    34.945085,
+    33.589236
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Lykourgou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w31002938",
+   "names": "Lykourgou",
+   "ll": [
+    34.684961,
+    32.922111
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Lykourgou"
+   }
+  },
+  {
+   "id": "w31056703",
+   "names": "Hadzi Ibrahim",
+   "ll": [
+    34.910385,
+    33.636604
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "name": "Hadzi Ibrahim",
+    "name:tr": "Hacı İbrahim",
+    "oneway": "yes",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w31353444",
+   "names": "Spartis",
+   "ll": [
+    34.928906,
+    33.599357
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Spartis",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w32109414",
+   "names": "Şehit İbrahim Latif Caddesi",
+   "ll": [
+    35.307199,
+    33.055593
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Şehit İbrahim Latif Caddesi"
+   }
+  },
+  {
+   "id": "w32109416",
+   "names": "Şehit İbrahim Latif Caddesi",
+   "ll": [
+    35.304068,
+    33.050508
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "tertiary",
+    "name": "Şehit İbrahim Latif Caddesi",
+    "ref": "GR.76",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w32109421",
+   "names": "Şehit İbrahim Latif Caddesi",
+   "ll": [
+    35.304565,
+    33.052816
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "tertiary",
+    "name": "Şehit İbrahim Latif Caddesi",
+    "ref": "GR.76",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w32499627",
+   "names": "Lykourgou",
+   "ll": [
+    35.099601,
+    33.378006
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "Lykourgou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w32592488",
+   "names": "Şehit Hamit İbrahim Sokak",
+   "ll": [
+    35.199139,
+    32.995558
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Şehit Hamit İbrahim Sokak"
+   }
+  },
+  {
+   "id": "w53573345",
+   "names": "Merdivenli Yol Sokak",
+   "ll": [
+    35.340837,
+    33.32076
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "pedestrian",
+    "name": "Merdivenli Yol Sokak",
+    "surface": "cobblestone"
+   }
+  },
+  {
+   "id": "w55526938",
+   "names": "Spartis",
+   "ll": [
+    34.853158,
+    33.579904
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Spartis",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w55702636",
+   "names": "Spartis",
+   "ll": [
+    35.106394,
+    33.379847
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "Spartis",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w76124187",
+   "names": "Neas Spartis",
+   "ll": [
+    34.695395,
+    32.760235
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Neas Spartis"
+   }
+  },
+  {
+   "id": "w76559271",
+   "names": "Donkey Farm | Farmhouse St. Georgios | Agroktima Agios Georgios;Αγρόκτημα Άγιος Γεωργιος",
+   "ll": [
+    34.833286,
+    33.370021
+   ],
+   "ent": [],
+   "tags": {
+    "landuse": "farmyard",
+    "name": "Donkey Farm",
+    "name:el": "Agroktima Agios Georgios;Αγρόκτημα Άγιος Γεωργιος",
+    "name:en": "Farmhouse St. Georgios",
+    "name:ru": "Агроферма Святой Георгий",
+    "tourism": "attraction"
+   }
+  },
+  {
+   "id": "w91642796",
+   "names": "Çallı İbrahim Sokak | Ιψεν",
+   "ll": [
+    35.133352,
+    33.92711
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Çallı İbrahim Sokak",
+    "name:el": "Ιψεν",
+    "name:tr": "Çallı İbrahim Sokak",
+    "surface": "paved"
+   }
+  },
+  {
+   "id": "w91673489",
+   "names": "İbrahim Müteferrika Sokak",
+   "ll": [
+    35.162406,
+    33.016955
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "İbrahim Müteferrika Sokak"
+   }
+  },
+  {
+   "id": "w91686666",
+   "names": "Ahmet İbrahim Sokak | Αγιου Ορους",
+   "ll": [
+    35.126225,
+    33.93066
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Ahmet İbrahim Sokak",
+    "name:el": "Αγιου Ορους",
+    "name:tr": "Ahmet İbrahim Sokak",
+    "surface": "paved"
+   }
+  },
+  {
+   "id": "w98501822",
+   "names": "Lykourgou",
+   "ll": [
+    34.944889,
+    33.588543
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Lykourgou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w98501854",
+   "names": "Lykourgou",
+   "ll": [
+    34.945273,
+    33.588353
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Lykourgou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w98882268",
+   "names": "Şehit Fehim İbrahim Sokak",
+   "ll": [
+    35.169696,
+    32.737427
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Şehit Fehim İbrahim Sokak"
+   }
+  },
+  {
+   "id": "w98882278",
+   "names": "Şehit Erdal İbrahim Sokak",
+   "ll": [
+    35.139612,
+    32.8288
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Şehit Erdal İbrahim Sokak",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w100319068",
+   "names": "Σπάρτης",
+   "ll": [
+    34.88501,
+    32.365767
+   ],
+   "ent": [],
+   "tags": {
+    "bicycle": "yes",
+    "highway": "residential",
+    "int_name": "Spartis",
+    "name": "Σπάρτης",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w100966648",
+   "names": "Şehit İbrahim Nidai Caddesi",
+   "ll": [
+    35.349221,
+    33.151123
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Şehit İbrahim Nidai Caddesi",
+    "oneway": "yes",
+    "ref": "GR.57",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w101272568",
+   "names": "Şehit İbrahim Nidai Caddesi",
+   "ll": [
+    35.349285,
+    33.150787
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Şehit İbrahim Nidai Caddesi",
+    "oneway": "yes",
+    "ref": "GR.57",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w124086692",
+   "names": "Spartis",
+   "ll": [
+    35.14683,
+    33.392667
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Spartis"
+   }
+  },
+  {
+   "id": "w150886157",
+   "names": "Λυκουργου | Lykourgou | Λυκουργου",
+   "ll": [
+    35.06046,
+    33.546467
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Λυκουργου",
+    "name:el": "Λυκουργου",
+    "name:en": "Lykourgou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w158635797",
+   "names": "Merdivenli Yol Sokak",
+   "ll": [
+    35.340597,
+    33.320684
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "pedestrian",
+    "name": "Merdivenli Yol Sokak",
+    "surface": "paving_stones"
+   }
+  },
+  {
+   "id": "w176649354",
+   "names": "Oniron",
+   "ll": [
+    34.979625,
+    33.654159
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Oniron",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w177652381",
+   "names": "Spartis",
+   "ll": [
+    35.141338,
+    33.342737
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "Spartis",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w180458595",
+   "names": "Neas Spartis",
+   "ll": [
+    35.073819,
+    33.394451
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Neas Spartis",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w184069602",
+   "names": "Lykourgou",
+   "ll": [
+    35.026322,
+    33.936085
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Lykourgou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w184422925",
+   "names": "Spartis Street",
+   "ll": [
+    34.984865,
+    33.661267
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Spartis Street",
+    "surface": "unpaved"
+   }
+  },
+  {
+   "id": "w184422926",
+   "names": "Spartis Street",
+   "ll": [
+    34.985458,
+    33.659762
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Spartis Street",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w184423003",
+   "names": "Kedrou",
+   "ll": [
+    34.970765,
+    33.649195
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Kedrou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w184435202",
+   "names": "Spartis",
+   "ll": [
+    34.978191,
+    33.685662
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Spartis",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w191030021",
+   "names": "Παιδικός Πλανήτης | Pedikos Planitis",
+   "ll": [
+    34.787265,
+    32.425476
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Pafos",
+    "addr:housenumber": "8",
+    "addr:postcode": "8020",
+    "addr:street": "Λάμπρου Σιέπη",
+    "amenity": "kindergarten",
+    "building": "kindergarten",
+    "building:levels": "1",
+    "designation": "Kindergarden",
+    "int_name": "Paidikos Planitis",
+    "name": "Παιδικός Πλανήτης",
+    "name:en": "Pedikos Planitis",
+    "operator": "Άντρη Μούσκου",
+    "operator:type": "private",
+    "phone": "+357 26954167"
+   }
+  },
+  {
+   "id": "w197700815",
+   "names": "Lykourgou Logothetou | Lykourgou Logothetou | Λυκουργου Λογοθετου",
+   "ll": [
+    34.693861,
+    32.994876
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Lykourgou Logothetou",
+    "name:el": "Λυκουργου Λογοθετου",
+    "name:en": "Lykourgou Logothetou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w198451728",
+   "names": "Merdivenli Yol Sokak",
+   "ll": [
+    35.341092,
+    33.32078
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "steps",
+    "name": "Merdivenli Yol Sokak",
+    "surface": "cobblestone"
+   }
+  },
+  {
+   "id": "w199520712",
+   "names": "Alpha Divers",
+   "ll": [
+    34.976569,
+    33.682417
+   ],
+   "ent": [],
+   "tags": {
+    "amenity": "dive_centre",
+    "building": "yes",
+    "building:levels": "2",
+    "email": "info@alpha-divers.com",
+    "name": "Alpha Divers",
+    "phone": "+357 24647519",
+    "sport": "scuba_diving",
+    "website": "https://www.alpha-divers.com/"
+   }
+  },
+  {
+   "id": "w203031737",
+   "names": "İbrahim İlkman Caddesi",
+   "ll": [
+    35.195354,
+    33.317303
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "tertiary",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "İbrahim İlkman Caddesi",
+    "oneway": "yes",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w203031740",
+   "names": "İbrahim İlkman Caddesi",
+   "ll": [
+    35.195181,
+    33.317064
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "tertiary",
+    "lanes": "1",
+    "maxspeed": "50",
+    "name": "İbrahim İlkman Caddesi",
+    "oneway": "yes",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w205139664",
+   "names": "Merdivenli Yol Sokak",
+   "ll": [
+    35.341234,
+    33.320784
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Merdivenli Yol Sokak",
+    "surface": "cobblestone"
+   }
+  },
+  {
+   "id": "w205139665",
+   "names": "Merdivenli Yol Sokak",
+   "ll": [
+    35.341446,
+    33.320733
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "pedestrian",
+    "name": "Merdivenli Yol Sokak",
+    "surface": "cobblestone"
+   }
+  },
+  {
+   "id": "w205799645",
+   "names": "İbrahim Ahmet Azizoğlu Sokak",
+   "ll": [
+    35.209576,
+    33.383082
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "İbrahim Ahmet Azizoğlu Sokak",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w205799678",
+   "names": "İbrahim Karabardak Sokak",
+   "ll": [
+    35.216814,
+    33.369933
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "İbrahim Karabardak Sokak",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w206761198",
+   "names": "İbrahim Hakkı Efendi Sokak",
+   "ll": [
+    35.190433,
+    33.345109
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "name": "İbrahim Hakkı Efendi Sokak",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w246181169",
+   "names": "ΣΕΚ Αμίαντος - Εξοχικές κατοικίες",
+   "ll": [
+    34.909306,
+    32.929502
+   ],
+   "ent": [],
+   "tags": {
+    "landuse": "residential",
+    "name": "ΣΕΚ Αμίαντος - Εξοχικές κατοικίες"
+   }
+  },
+  {
+   "id": "w268172248",
+   "names": "Ονειροπόλοι | Oniropoli",
+   "ll": [
+    34.750475,
+    32.442118
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "unclassified",
+    "int_name": "Oneiropoloi",
+    "name": "Ονειροπόλοι",
+    "name:en": "Oniropoli",
+    "surface": "unpaved",
+    "tracktype": "grade4"
+   }
+  },
+  {
+   "id": "w278142337",
+   "names": "Άνεδρα | Anedron",
+   "ll": [
+    34.834598,
+    32.432844
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Άνεδρα",
+    "name:en": "Anedron"
+   }
+  },
+  {
+   "id": "w318764056",
+   "names": "Şehit Çavuş İbrahim Konaçoğlu Sokak",
+   "ll": [
+    35.356437,
+    33.043976
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "unclassified",
+    "name": "Şehit Çavuş İbrahim Konaçoğlu Sokak"
+   }
+  },
+  {
+   "id": "w347102003",
+   "names": "İbrahim Hasan Caddesi",
+   "ll": [
+    35.117767,
+    33.928617
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "İbrahim Hasan Caddesi",
+    "oneway": "no",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w374549741",
+   "names": "Ktimaco Parking",
+   "ll": [
+    35.167642,
+    33.359386
+   ],
+   "ent": [],
+   "tags": {
+    "access": "yes",
+    "amenity": "parking",
+    "fee": "yes",
+    "name": "Ktimaco Parking",
+    "operator": "Ktimaco Ltd",
+    "parking": "surface",
+    "supervised": "yes",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w375396300",
+   "names": "Lykourgou",
+   "ll": [
+    35.02705,
+    33.937887
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Lykourgou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w440194828",
+   "names": "İbrahim Ahmet Azizoğlu Sokak",
+   "ll": [
+    35.207669,
+    33.382339
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "İbrahim Ahmet Azizoğlu Sokak",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w471488134",
+   "names": "Edro III",
+   "ll": [
+    34.873063,
+    32.339352
+   ],
+   "ent": [],
+   "tags": {
+    "access": "no",
+    "historic": "wreck",
+    "name": "Edro III",
+    "name:ru": "Едро III",
+    "seamark:type": "wreck",
+    "seamark:wreck:category": "hull_showing",
+    "tourism": "attraction",
+    "wikidata": "Q22093748",
+    "wreck:date_sunk": "2011-10-08",
+    "wreck:visible_at_high_tide": "yes",
+    "wreck:visible_at_low_tide": "yes"
+   }
+  },
+  {
+   "id": "w498102635",
+   "names": "İbrahim Hakkı Efendi Sokak",
+   "ll": [
+    35.190157,
+    33.34454
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "name": "İbrahim Hakkı Efendi Sokak",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w502810419",
+   "names": "Dive Cypria",
+   "ll": [
+    35.013135,
+    34.050295
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Protaras",
+    "addr:housenumber": "390",
+    "addr:postcode": "5296",
+    "addr:street": "Leoforos Protara",
+    "amenity": "dive_centre",
+    "building": "yes",
+    "building:levels": "2",
+    "check_date": "2025-09-05",
+    "name": "Dive Cypria",
+    "phone": "+357 97 754194",
+    "scuba_diving:courses": "yes",
+    "smoking": "no"
+   }
+  },
+  {
+   "id": "w524419284",
+   "names": "Şehit Asteğmen İbrahim Latif Sokak",
+   "ll": [
+    35.209433,
+    33.38676
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "Şehit Asteğmen İbrahim Latif Sokak",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w524712615",
+   "names": "Spartis",
+   "ll": [
+    34.689968,
+    32.962362
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Spartis",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w529818295",
+   "names": "Kedron",
+   "ll": [
+    34.785243,
+    32.413213
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Kedron",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w537448453",
+   "names": "Kedron",
+   "ll": [
+    35.122717,
+    33.315591
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Kedron",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w537776206",
+   "names": "Şht. Şerifali İbrahim Sokak",
+   "ll": [
+    35.34317,
+    33.198624
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Şht. Şerifali İbrahim Sokak"
+   }
+  },
+  {
+   "id": "w539999279",
+   "names": "Kedron",
+   "ll": [
+    34.714066,
+    33.047838
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Kedron",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w540619084",
+   "names": "Σπαρτης | Spartis | Σπαρτης",
+   "ll": [
+    34.975475,
+    33.845303
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Σπαρτης",
+    "name:el": "Σπαρτης",
+    "name:en": "Spartis",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w540619089",
+   "names": "Σπαρτης | Spartis | Σπαρτης",
+   "ll": [
+    34.974182,
+    33.843707
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Σπαρτης",
+    "name:el": "Σπαρτης",
+    "name:en": "Spartis",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w545284240",
+   "names": "Lykourgou",
+   "ll": [
+    35.026474,
+    33.937202
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Lykourgou",
+    "surface": "unpaved"
+   }
+  },
+  {
+   "id": "w545284243",
+   "names": "Lykourgou",
+   "ll": [
+    35.026759,
+    33.938849
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Lykourgou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w578955804",
+   "names": "Kedron",
+   "ll": [
+    34.88721,
+    32.855379
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Kedron",
+    "ref": "E804",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w649090392",
+   "names": "İbrahim Paşa Sokak",
+   "ll": [
+    35.105321,
+    32.850218
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "İbrahim Paşa Sokak"
+   }
+  },
+  {
+   "id": "w696248208",
+   "names": "Şehit İbrahim Hasan Sokak",
+   "ll": [
+    35.175916,
+    32.955479
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Şehit İbrahim Hasan Sokak"
+   }
+  },
+  {
+   "id": "w706929012",
+   "names": "Şehit İbrahim Ramadan Sokak",
+   "ll": [
+    35.224818,
+    32.937467
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Şehit İbrahim Ramadan Sokak"
+   }
+  },
+  {
+   "id": "w711826403",
+   "names": "İbrahim Hasan Caddesi",
+   "ll": [
+    35.116107,
+    33.930339
+   ],
+   "ent": [],
+   "tags": {
+    "foot": "no",
+    "highway": "secondary",
+    "lanes": "1",
+    "name": "İbrahim Hasan Caddesi",
+    "oneway": "yes",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w711826404",
+   "names": "İbrahim Hasan Caddesi",
+   "ll": [
+    35.116138,
+    33.9304
+   ],
+   "ent": [],
+   "tags": {
+    "foot": "no",
+    "highway": "secondary",
+    "lanes": "1",
+    "name": "İbrahim Hasan Caddesi",
+    "oneway": "yes",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w720338232",
+   "names": "Mulla İbrahim Osman Sokak",
+   "ll": [
+    35.167192,
+    32.736959
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Mulla İbrahim Osman Sokak"
+   }
+  },
+  {
+   "id": "w731784894",
+   "names": "Şehit İbrahim Nidai Caddesi",
+   "ll": [
+    35.348187,
+    33.152483
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Şehit İbrahim Nidai Caddesi",
+    "ref": "GR.57",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w756584407",
+   "names": "Kition Planetarium and Observatory | Kition Planetarium and Observatory",
+   "ll": [
+    34.844023,
+    33.577919
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Kiti",
+    "addr:housenumber": "9",
+    "addr:postcode": "7550",
+    "addr:street": "Ammochostou",
+    "amenity": "planetarium",
+    "building": "detached",
+    "contact:facebook": "https://www.facebook.com/KITIONPLANETARIUMOBSERVATORY",
+    "contact:instagram": "https://www.instagram.com/kpocyprus/",
+    "contact:youtube": "https://www.youtube.com/@cyprusplanetarium",
+    "description": "It is a science center, where people could learn through fun and entertainment, but also receive education in astronomy and general sciences, to get the chance to get involved in real science research.",
+    "email": "planetarium@cytanet.com.cy;observatory@cytanet.com.cy;spacewalk@cytanet.com.cy",
+    "name": "Kition Planetarium and Observatory",
+    "name:en": "Kition Planetarium and Observatory",
+    "phone": "+357 99 99 11 11;+357 24 42 53 00",
+    "start_date": "2008-02-14",
+    "tourism": "museum",
+    "website": "https://www.astronomycyprus.eu/"
+   }
+  },
+  {
+   "id": "w774534365",
+   "names": "Veranda Tou Onirou",
+   "ll": [
+    34.920284,
+    32.629067
+   ],
+   "ent": [],
+   "tags": {
+    "addr:postcode": "8640",
+    "amenity": "restaurant",
+    "bar": "yes",
+    "building": "yes",
+    "internet_access": "wlan",
+    "name": "Veranda Tou Onirou",
+    "opening_hours": "Tu-We, Fr 09:30-21:30; Th, Sa-Mo 09:30-22:30",
+    "outdoor_seating": "yes",
+    "phone": "26 722929"
+   }
+  },
+  {
+   "id": "w776593717",
+   "names": "Şehit İbrahim Nidai Caddesi",
+   "ll": [
+    35.340129,
+    33.178857
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Şehit İbrahim Nidai Caddesi",
+    "oneway": "yes",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w776638879",
+   "names": "Şehit İbrahim Latif Caddesi",
+   "ll": [
+    35.311611,
+    33.056882
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Şehit İbrahim Latif Caddesi"
+   }
+  },
+  {
+   "id": "w827432399",
+   "names": "Spartis",
+   "ll": [
+    34.743433,
+    32.87797
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Spartis",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w830317092",
+   "names": "Lykourgou",
+   "ll": [
+    34.764905,
+    32.438453
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Lykourgou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w839121145",
+   "names": "Spartis",
+   "ll": [
+    34.75057,
+    33.182856
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Spartis",
+    "oneway": "no",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w966813911",
+   "names": "Troodos Geopark",
+   "ll": [
+    34.92677,
+    32.917675
+   ],
+   "ent": [],
+   "tags": {
+    "building": "yes",
+    "charge": "3 EUR",
+    "fee": "yes",
+    "museum": "science",
+    "name": "Troodos Geopark",
+    "tourism": "museum"
+   }
+  },
+  {
+   "id": "w969574883",
+   "names": "Pelendri - Amiantos",
+   "ll": [
+    34.916448,
+    32.938656
+   ],
+   "ent": [],
+   "tags": {
+    "name": "Pelendri - Amiantos"
+   }
+  },
+  {
+   "id": "w969574884",
+   "names": "Amiantos - Dymes",
+   "ll": [
+    34.935459,
+    32.934331
+   ],
+   "ent": [],
+   "tags": {
+    "name": "Amiantos - Dymes"
+   }
+  },
+  {
+   "id": "w969574885",
+   "names": "Amiantos - Kyperounta",
+   "ll": [
+    34.939642,
+    32.93204
+   ],
+   "ent": [],
+   "tags": {
+    "name": "Amiantos - Kyperounta"
+   }
+  },
+  {
+   "id": "w969576752",
+   "names": "Amiantos - Moniatis",
+   "ll": [
+    34.914072,
+    32.914326
+   ],
+   "ent": [],
+   "tags": {
+    "name": "Amiantos - Moniatis"
+   }
+  },
+  {
+   "id": "w972958832",
+   "names": "Kedron",
+   "ll": [
+    34.891679,
+    32.851744
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "no",
+    "name": "Kedron",
+    "ref": "E804",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w983647324",
+   "names": "Şehit İbrahim Nidai Caddesi",
+   "ll": [
+    35.340288,
+    33.180173
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Şehit İbrahim Nidai Caddesi",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w983647325",
+   "names": "Şehit İbrahim Nidai Caddesi",
+   "ll": [
+    35.340226,
+    33.178811
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Şehit İbrahim Nidai Caddesi",
+    "oneway": "yes",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w1020897851",
+   "names": "Zenobia Shipwreck",
+   "ll": [
+    34.897118,
+    33.657298
+   ],
+   "ent": [],
+   "tags": {
+    "area": "yes",
+    "description": "Fishing in any way is prohibited - KDP 379/2021",
+    "description:el": "Απαγορεύεται η αλιεία με οποιονδήποτε τρόπο - ΚΔΠ 379/2021",
+    "fishing": "no",
+    "name": "Zenobia Shipwreck",
+    "seamark:name": "Zenobia Shipwreck",
+    "seamark:restricted_area:restriction": "no_fishing",
+    "seamark:type": "restricted_area"
+   }
+  },
+  {
+   "id": "w1033333902",
+   "names": "Spartis",
+   "ll": [
+    34.672098,
+    32.701923
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Spartis"
+   }
+  },
+  {
+   "id": "w1046625069",
+   "names": "Lykourgou",
+   "ll": [
+    34.945123,
+    33.588215
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Lykourgou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w1094472480",
+   "names": "Τοπικό Αρχαιολογικό Μουσείο των Λεδρών | Local Archaeological Museum Ledroi | Τοπικό Αρχαιολογικό Μουσείο των Λεδρών | Ledron Archaeological Local Museum",
+   "ll": [
+    35.165634,
+    33.355366
+   ],
+   "ent": [],
+   "tags": {
+    "access": "yes",
+    "addr:city": "Lefkosia",
+    "addr:postcode": "1066",
+    "addr:street": "Ανδρέα Δημητρίου",
+    "alt_name": "Ledron Archaeological Local Museum",
+    "archaeological_site": "settlement",
+    "description": "The earliest indications of the settlement of Agios Georgios Hill date back to the Late Chalcolithic Era (approximately 2800 - 2500 BCE) and are documented by the remains of a circular dwelling in the western part of the hill.",
+    "email": "info@visitnicosia.com.cy;antiquitiesdept@da.mcw.gov.cy",
+    "historic": "archaeological_site",
+    "historic:civilization": "ancient_greek",
+    "name": "Τοπικό Αρχαιολογικό Μουσείο των Λεδρών",
+    "name:el": "Τοπικό Αρχαιολογικό Μουσείο των Λεδρών",
+    "name:en": "Local Archaeological Museum Ledroi",
+    "opening_hours": "Mo-Fr 08:30-16:00, Sa-Su off",
+    "phone": "+357 22 889 600",
+    "tourism": "attraction",
+    "website": "https://www.ledroimuseum.com/"
+   }
+  },
+  {
+   "id": "w1125003399",
+   "names": "Amiantos - Kakopetria",
+   "ll": [
+    34.938081,
+    32.920318
+   ],
+   "ent": [],
+   "tags": {
+    "admin_level": "5",
+    "boundary": "administrative",
+    "name": "Amiantos - Kakopetria"
+   }
+  },
+  {
+   "id": "w1146989024",
+   "names": "Hacı İbrahim Ağa Sokak",
+   "ll": [
+    35.285559,
+    33.887913
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Hacı İbrahim Ağa Sokak"
+   }
+  },
+  {
+   "id": "w1149957292",
+   "names": "İbrahim Hasan Caddesi",
+   "ll": [
+    35.122452,
+    33.924628
+   ],
+   "ent": [],
+   "tags": {
+    "foot": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "İbrahim Hasan Caddesi",
+    "oneway": "yes",
+    "sidewalk": "left",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w1149957293",
+   "names": "İbrahim Hasan Caddesi",
+   "ll": [
+    35.122397,
+    33.924479
+   ],
+   "ent": [],
+   "tags": {
+    "foot": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "İbrahim Hasan Caddesi",
+    "oneway": "yes",
+    "sidewalk": "left",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w1225209271",
+   "names": "Ibrahim's Khan",
+   "ll": [
+    34.77862,
+    32.420488
+   ],
+   "ent": [],
+   "tags": {
+    "access": "no",
+    "foot": "yes",
+    "highway": "pedestrian",
+    "lit": "yes",
+    "motor_vehicle": "no",
+    "motor_vehicle:conditional": "destination @ (06:00-09:30)",
+    "name": "Ibrahim's Khan",
+    "surface": "paving_stones"
+   }
+  },
+  {
+   "id": "w1229571202",
+   "names": "Hadzi Ibrahim",
+   "ll": [
+    34.910183,
+    33.636072
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxweight": "3.5",
+    "name": "Hadzi Ibrahim",
+    "name:tr": "Hacı İbrahim",
+    "surface": "asphalt",
+    "width": "4"
+   }
+  },
+  {
+   "id": "w1251946080",
+   "names": "Spartis",
+   "ll": [
+    34.863506,
+    33.494713
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Spartis"
+   }
+  },
+  {
+   "id": "w1254851267",
+   "names": "İbrahim Hasan Caddesi",
+   "ll": [
+    35.119433,
+    33.927063
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "İbrahim Hasan Caddesi",
+    "oneway": "no",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w1271483294",
+   "names": "Şehit Çavuş İbrahim Konaçoğlu Sokak",
+   "ll": [
+    35.357828,
+    33.044269
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Şehit Çavuş İbrahim Konaçoğlu Sokak"
+   }
+  },
+  {
+   "id": "w1271927987",
+   "names": "Şehit İbrahim M. Goççino Sokak",
+   "ll": [
+    35.167126,
+    33.008716
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Şehit İbrahim M. Goççino Sokak"
+   }
+  },
+  {
+   "id": "w1275021702",
+   "names": "İbrahim İlkman Caddesi",
+   "ll": [
+    35.191747,
+    33.314357
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "İbrahim İlkman Caddesi",
+    "sidewalk": "both",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w1300783877",
+   "names": "İbrahim İlkman Caddesi",
+   "ll": [
+    35.195511,
+    33.317237
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "tertiary",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "İbrahim İlkman Caddesi",
+    "oneway": "yes",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w1307696452",
+   "names": "Ottoman Hamam | Ottoman Hammam;Turkish Baths, Ktima-Paphos",
+   "ll": [
+    34.777521,
+    32.419414
+   ],
+   "ent": [],
+   "tags": {
+    "alt_name": "Ottoman Hammam;Turkish Baths, Ktima-Paphos",
+    "building": "yes",
+    "heritage": "yes",
+    "historic": "hammam",
+    "name": "Ottoman Hamam",
+    "ruins": "yes",
+    "tourism": "attraction",
+    "wikidata": "Q106858347",
+    "wikimedia_commons": "File:Turkish Baths, Ktima-Paphos (1).jpg",
+    "wikipedia": "en:Hammam"
+   }
+  },
+  {
+   "id": "w1313048324",
+   "names": "İbrahim Arap Sokak",
+   "ll": [
+    35.207638,
+    33.385502
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "İbrahim Arap Sokak"
+   }
+  },
+  {
+   "id": "w1333702616",
+   "names": "Ibrahim's Khan",
+   "ll": [
+    34.778628,
+    32.420197
+   ],
+   "ent": [],
+   "tags": {
+    "access": "no",
+    "foot": "yes",
+    "highway": "pedestrian",
+    "motor_vehicle": "no",
+    "motor_vehicle:conditional": "destination @ (06:00-09:30)",
+    "name": "Ibrahim's Khan",
+    "surface": "paved",
+    "tunnel": "building_passage"
+   }
+  },
+  {
+   "id": "w1333702617",
+   "names": "Ibrahim's Khan",
+   "ll": [
+    34.778601,
+    32.420125
+   ],
+   "ent": [],
+   "tags": {
+    "access": "no",
+    "foot": "yes",
+    "highway": "pedestrian",
+    "lit": "yes",
+    "motor_vehicle": "no",
+    "motor_vehicle:conditional": "destination @ (06:00-09:30)",
+    "name": "Ibrahim's Khan",
+    "surface": "paved"
+   }
+  },
+  {
+   "id": "w1382760082",
+   "names": "M. Hacı İbrahim Sokak",
+   "ll": [
+    35.188288,
+    33.370113
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "M. Hacı İbrahim Sokak",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w1389916695",
+   "names": "Kedron",
+   "ll": [
+    35.121696,
+    33.315018
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Kedron",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w1389916696",
+   "names": "Kedron",
+   "ll": [
+    35.121957,
+    33.315163
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Kedron",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w1393944830",
+   "names": "Şehit İbrahim Ramadan Sokak | Βασιλη Μιχαηλιδη | Vasili Mihailidi Sokak",
+   "ll": [
+    35.188431,
+    33.364741
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "Şehit İbrahim Ramadan Sokak",
+    "name:el": "Βασιλη Μιχαηλιδη",
+    "old_name": "Vasili Mihailidi Sokak",
+    "oneway": "yes",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w1395648593",
+   "names": "Lykourgou",
+   "ll": [
+    34.944488,
+    33.589755
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "name": "Lykourgou",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w1435304060",
+   "names": "Şehit İbrahim Ali Sokak | Χεϋμπελη Ιμπραιμ Αλη",
+   "ll": [
+    35.183401,
+    33.36751
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "track",
+    "name": "Şehit İbrahim Ali Sokak",
+    "name:el": "Χεϋμπελη Ιμπραιμ Αλη",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w1508607140",
+   "names": "Πλατεία Δημάρχου Λέλλου Δημητριάδη | Old Town Hall Square",
+   "ll": [
+    35.173704,
+    33.364661
+   ],
+   "ent": [],
+   "tags": {
+    "name": "Πλατεία Δημάρχου Λέλλου Δημητριάδη",
+    "name:en": "Old Town Hall Square",
+    "place": "square"
+   }
+  },
+  {
+   "id": "w1531238893",
+   "names": "GeoPark Geosite 2",
+   "ll": [
+    35.038123,
+    33.178323
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "path",
+    "name": "GeoPark Geosite 2",
+    "surface": "ground"
+   }
+  }
+ ]
+}

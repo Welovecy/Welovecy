@@ -833,5 +833,22 @@
   "fl": "Rooftop, 6th floor",
   "hrs": "Wednesday to Sunday from 17:30, kitchen from 18:30. Closed Monday and Tuesday.",
   "vt": "restaurant"
+ },
+ {
+  "i": "wlc-0048",
+  "n": "Oniro by the Sea",
+  "g": "eat",
+  "l": "Restaurant",
+  "tw": "Peyia",
+  "d": "paphos",
+  "ll": [
+   34.873466,
+   32.341776
+  ],
+  "ls": "osm",
+  "sd": "2026-11-26",
+  "su": "https://cyprus-mail.com/2026/05/08/restaurant-review-paphos-favourite-back-to-the-good-old-days",
+  "x": 1,
+  "vt": "restaurant"
  }
 ]

@@ -11,6 +11,11 @@ Opening hours are left unverified unless the operator publishes them.
 import json
 
 OSM = {x["id"]: x for x in json.load(open("data/work/osm_attractions.json"))["items"]}
+# Name lookups (osm-lookup.yml) for places the category extract doesn't cover, e.g. untagged waterfalls.
+for h in json.load(open("data/work/osm_lookup.json"))["hits"]:
+    t = h["tags"]
+    OSM.setdefault(h["id"], {"n": t.get("name", ""), "en": t.get("name:en", ""), "el": t.get("name:el", ""), "ll": h["ll"], "ent": h["ent"],
+                             "web": t.get("website") or t.get("contact:website") or "", "addr": " ".join(x for x in [t.get("addr:street", ""), t.get("addr:housenumber", ""), t.get("addr:city", "")] if x)})
 KINGS = ["cy-03053", "cy-03060", "cy-03068", "cy-03134", "cy-03177", "cy-03228", "cy-03239", "cy-03299", "cy-03324", "cy-03325", "cy-03328", "cy-03343"]
 LIM_MARINA = ["cy-01501", "cy-01558", "cy-01762", "cy-01892", "cy-01893", "cy-01894", "cy-01895", "cy-01896", "cy-01897", "cy-01898", "cy-01899", "cy-01900"]
 
@@ -71,6 +76,23 @@ SPEC = [
     ("att-troodos-ski", "w956746345", "family", "Ski area", "Troodos ski area (Sun Valley)", ["Mount Olympus ski", "Troodos Ski Centre", "Sun Valley"], [], "https://cyprusski.com/",
      "Ski runs at Sun Valley on Mount Olympus. Opening depends on snow, so check conditions before you go.", None),
 ]
+SPEC += [
+    ("att-cyprus-planetarium", "n11332794458", "family", "Planetarium", "The Cyprus Planetarium", ["Cyprus Planetarium"], [], "https://thecyprusplanetarium.com/",
+     "The island's first planetarium, with dome shows, virtual reality and telescopes, in the Tamassos and Orini area near Nicosia.",
+     ("Cyprus Mail: what to know about the island's first planetarium", "https://cyprus-mail.com/2026/01/18/planetarium-cyprus-what-to-know-about-the-islands-first-planetarium")),
+    ("att-technopolis-20", "n5198087428", "sight", "Arts centre and venue", "Technopolis 20", ["Technopolis20"], [], None,
+     "A cultural centre in Paphos that hosts concerts, including its own jazz festival.",
+     ("Cyprus Mail: Technopolis 20 jazz festival", "https://cyprus-mail.com/2026/08/24/here-comes-the-1st-technopolis-20-jazz-festival")),
+    ("att-millomeris-falls", "n1309548988", "sight", "Waterfall", "Millomeris Waterfall", ["Millomeri Falls", "Millomeri Waterfall"], [], None,
+     "A waterfall reached on a short nature trail from Pano Platres in the Troodos mountains.",
+     ("Troodos Geopark: waterfalls", "https://www.troodosgeopark.com/en/katarraktes-troodous/")),
+    ("att-troodos-geopark", "w966813911", "family", "Visitor centre", "Troodos Geopark Visitor Centre", ["Troodos Geopark", "Geopark Visitor Center"], [], None,
+     "The visitor centre of the Troodos UNESCO Global Geopark, near Amiantos.",
+     ("UNESCO: Troodos Global Geopark", "https://en.unesco.org/global-geoparks/troodos")),
+    ("att-zenobia", "n5021578905", "sight", "Wreck dive", "Zenobia shipwreck", ["MS Zenobia", "Zenobia wreck"], [], None,
+     "A ferry that capsized on her maiden voyage in 1980 and lies off Larnaca at 18 to 42 metres. Reached by boat with a dive centre.",
+     ("Larnaka Tourism Board: Zenobia wreck", "https://larnakaregion.com/zenobia-wreck")),
+]
 # Limassol Marina has no single OSM feature yet: use the middle of its mapped restaurants.
 EXTRA = [
     {"i": "att-limassol-marina", "k": "sight", "cat": "Marina", "n": "Limassol Marina", "alt": "Marina Lemesou",
@@ -94,6 +116,10 @@ for i, oid, k, cat, name, alias, inside, web, desc, extra in SPEC:
         "ent": bool(ent), "web": site, "a": o["addr"] or None, "osm": oid, "inside": inside, "desc": desc, "srcs": srcs,
     })
 for e in EXTRA: out.append({**e, "alt": e["alt"]})
+for o in out:
+    if o["i"] == "att-zenobia":
+        o["sea"] = True
+        o["pinNote"] = "Offshore, about 3.7 km from the shore at Larnaca. Dive centres take you there by boat."
 json.dump({"note": "Built by scripts/data/build_attractions.py. Hours are not verified unless a source says so.", "checked": "2026-11-26", "items": out},
           open("data/attractions.json", "w"), ensure_ascii=False, indent=1)
 print(len(out), "attractions,", sum(1 for x in out if x.get("ent")), "with a mapped entrance")
