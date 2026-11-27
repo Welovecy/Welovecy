@@ -1,0 +1,24 @@
+name: Extract petrol stations, car hire and EV chargers
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  motoring:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install osmium==4.0.2
+      - run: python3 scripts/geo/motoring_extract.py motoring.json
+      - name: Push to the osm-motoring branch
+        run: |
+          git config user.name "We Love Cyprus data bot"
+          git config user.email "welovecy@users.noreply.github.com"
+          git checkout -B osm-motoring
+          git add -f motoring.json
+          git commit -m "Motoring extract [skip ci]"
+          git push -f origin osm-motoring
