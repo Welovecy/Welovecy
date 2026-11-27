@@ -861,6 +861,17 @@ html{-webkit-tap-highlight-color:transparent}
 .partner-tags li{border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:14px;background:var(--card)}
 .partner-list{margin:0;padding-left:20px;display:grid;gap:6px}
 .partner-note{font-size:14px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px;margin-top:20px}
+.offers{list-style:none;padding:0;margin:4px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:16px}
+.offer{border:1px solid var(--line);border-radius:var(--r-lg,20px);background:var(--card);overflow:hidden;display:grid;grid-template-rows:auto 1fr}
+.offer img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;background:var(--line)}
+.offer-body{display:grid;gap:8px;padding:16px;align-content:start;min-width:0}
+.offer-body h3{font-size:20px;margin:0;text-wrap:balance}
+.offer-body p{margin:0}
+.offer-body .partner-tags{margin:0}
+.offer-meta{font-size:14px;color:var(--muted)}
+.offer-price{font-size:15px;font-weight:600}
+.offer-body .btn{justify-self:start;margin-top:4px}
+.offer-note{margin-top:8px}
 .partner-logo{height:48px;width:auto;object-fit:contain}
 .partner-slot{margin:28px 0 8px;padding:20px;border:1px solid var(--line);border-radius:var(--r-lg,20px);background:var(--card);display:grid;gap:8px;max-width:680px}
 .partner-slot h2{font-size:22px;margin:0}

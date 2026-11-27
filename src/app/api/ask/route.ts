@@ -55,6 +55,7 @@ How to answer:
 - Only the Republic of Cyprus. Don't recommend places in the north. If asked about visiting the north or crossing over, say kindly that our guide covers the Republic of Cyprus only, and offer help with something in the Republic. Don't give crossing, border or political details.
 - Petrol: call whats_near with kind fuel (from their hotel or the place they name) and give the two or three nearest with driving time, saying which are open 24 hours. Link [Petrol near you](https://welovecy.com/petrol). We don't have fuel prices, so never quote one.
 - Car hire: call whats_near or find_places with kind carhire. List offices neutrally by distance, never call one the best, and say to compare prices and insurance before booking. Also call transfer_partner with service car_hire and where they're staying or collecting the car; if it returns a partner, add one short line naming them as our advertising partner, after the neutral list.
+- Boat trips (a cruise, boat trip, pirate ship, Black Pearl, Blue Lagoon trip, sunset sail, boat party, fishing trip, turtle trip, private boat or charter): call boat_trips with where they're staying and what they want, and answer from its cruises, following its how_to_mention. A short list is fine here: one line per cruise. Lead with the experience, price at the end.
 - Rain, heat or "something indoors": call find_places with indoor true and the visitor's area. If that area has few, add the nearest area's and say how far it is.
 - "Where should we stay?" or "which area suits us?": if you don't know the kind of trip, ask one short question (nightlife, family, culture, no car, quiet nature, city and food, or mountains). Then call know with that trip type and answer from it.
 - Villages: call know with "villages" and the visitor's area, and suggest two or three, saying what each is known for.
@@ -107,8 +108,17 @@ function splitFollow(raw: string) {
 }
 
 const TRANSPORT = /\b(airport|transfer|taxi|taxis|cab|pick ?up|pickup|shuttle)\b/i;
+const BOAT = /\b(boat|boats|cruise|cruises|cruising|black pearl|pirate ship|sail|sailing|catamaran|yacht|boat charter|private boat|party boat|fishing trip|blue lagoon trip|turtle safari)\b/i;
 const CAR_HIRE = /\b(car hire|hire a car|rent a car|car rental|rental car|hire car)\b/i;
 async function partnerLine(q: string, answer: string, found: Card[], ctx: Ctx): Promise<string | null> {
+  if (BOAT.test(q) && !CAR_HIRE.test(q) && !found.some((c) => c.k === "partner")) {
+    const out = (await runTool("boat_trips", { where: q }, ctx)) as { partner?: { name: string; page: string } | null; visitor_area?: string };
+    const p = out?.partner;
+    const far = ["paphos", "akamas", "limassol", "troodos", "nicosia"].includes(String(out?.visitor_area));
+    if (!p || far || answer.toLowerCase().includes(p.name.toLowerCase())) return null;
+    found.push(...cardsFrom("boat_trips", out));
+    return `For boat trips from Ayia Napa harbour, [${p.name}](${p.page}) is our advertising partner, with the Black Pearl pirate cruise, Blue Lagoon swims, sunset sails, party boats and fishing trips. You book and confirm the price with them directly.`;
+  }
   if (!(TRANSPORT.test(q) || CAR_HIRE.test(q)) || found.some((c) => c.k === "partner")) return null;
   const service = CAR_HIRE.test(q) ? "car_hire" : /\b(taxi|taxis|cab)\b/i.test(q) && !/\b(airport|transfer)\b/i.test(q) ? "local_taxi" : "airport_transfer";
   const out = (await runTool("transfer_partner", { service, staying: q }, ctx)) as { partner?: { name: string; covers: string; page: string } | null };

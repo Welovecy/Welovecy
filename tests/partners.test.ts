@@ -112,3 +112,42 @@ describe("car hire partner", () => {
     expect(partnerFor("airport_transfer", { text: "larnaca" })).toBeUndefined();
   });
 });
+
+describe("partner offers", () => {
+  it("CY Cruises has its cruises, each with a source link and a photo, and no commercial terms", async () => {
+    const { offersFor } = await import("@/lib/partners");
+    const fs = await import("node:fs");
+    const o = offersFor("cy-cruises")!;
+    expect(o.items.length).toBeGreaterThanOrEqual(9);
+    for (const c of o.items) {
+      expect(c.u, c.name).toMatch(/^https:\/\/cycruises\.com\//);
+      expect(fs.existsSync(`public/img/partners/${c.img}.webp`), c.img).toBe(true);
+    }
+    expect(JSON.stringify(o)).not.toMatch(/\bfee\b|renew|contract|invoice|9,?000|annual/i);
+    expect(JSON.stringify(o)).not.toMatch(/—/);
+  });
+  it("CY Cruises is never offered for transfers, taxis or car hire", () => {
+    for (const s of ["airport_transfer", "local_taxi", "car_hire"] as const) expect(partnerFor(s, { text: "Ayia Napa harbour" })?.id).not.toBe("cy-cruises");
+  });
+});
+
+describe("boat trips", () => {
+  type B = { partner: { name: string; page: string } | null; cruises?: { name: string; price: string }[]; how_to_mention?: string; visitor_area?: string };
+  const boat = (where: string, ctx = {}) => runTool("boat_trips", { where }, { base: null, ...ctx }) as Promise<B>;
+  it("offers CY Cruises' range on the east coast and when the place isn't said", async () => {
+    for (const w of ["Ayia Napa", "Protaras", "a hotel in Pernera", ""]) {
+      const r = await boat(w);
+      expect(r.partner?.name, w).toBe("CY Cruises");
+      expect(r.cruises?.some((c) => c.name === "Black Pearl Pirate Cruise")).toBe(true);
+      expect(r.how_to_mention).toMatch(/advertising partner/);
+      expect(r.how_to_mention).not.toMatch(/long way/);
+    }
+  });
+  it("tells Aphrodite it's a long way from Paphos and Limassol", async () => {
+    for (const w of ["Paphos", "Limassol"]) expect((await boat(w)).how_to_mention, w).toMatch(/long way from Ayia Napa/);
+  });
+  it("doesn't repeat the partner label later in a conversation", async () => {
+    const r = await boat("Ayia Napa", { earlier: "CY Cruises is our advertising partner." });
+    expect(r.how_to_mention).toMatch(/already introduced/);
+  });
+});
