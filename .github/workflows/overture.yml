@@ -1,0 +1,25 @@
+name: Extract Overture places for Cyprus
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  overture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install duckdb==1.1.3
+      - run: python3 scripts/geo/overture_places.py overture_places.json
+      - name: Push to the overture branch
+        run: |
+          git config user.name "We Love Cyprus data bot"
+          git config user.email "welovecy@users.noreply.github.com"
+          git checkout -B overture
+          gzip -k overture_places.json
+          git add -f overture_places.json.gz
+          git commit -m "Overture places extract [skip ci]"
+          git push -f origin overture
