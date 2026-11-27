@@ -1,0 +1,12 @@
+/places/makronissos
+/listing/bea-01071
+/listing/bea-01072
+/listing/bea-01045
+/listing/bea-01046
+/listing/att-zenobia
+/listing/att-kaledonia-falls
+/listing/att-trail-artemis
+/places/choirokoitia
+/places/baths-of-aphrodite
+/beaches
+/credits

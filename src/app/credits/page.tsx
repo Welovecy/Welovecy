@@ -9,7 +9,7 @@ export default function Credits() {
   const rows = Object.values(IMAGES).filter((i) => (seen.has(i.u) ? false : (seen.add(i.u), true)));
   return (
     <>
-      <PageHead title="Photo credits" lead="Some photography comes from Wikimedia Commons under free licences, until our own shoots replace it." crumbs={[["Home", "/"], ["Photo credits"]]} />
+      <PageHead title="Photo credits" lead="For now, most photos on the guide come from Wikimedia Commons under free licences. We're replacing them step by step with our own professional photography of the whole island. Every photo in use is credited here, with its author and licence." crumbs={[["Home", "/"], ["Photo credits"]]} />
       <section className="wrap pad-top">
         <div className="tablewrap">
           <table>

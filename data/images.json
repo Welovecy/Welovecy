@@ -105,11 +105,11 @@
   "t": "Nissi Beach"
  },
  "place-makronissos": {
-  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Makronissos_Tombs_in_Ayia_Napa_07.JPG/1280px-Makronissos_Tombs_in_Ayia_Napa_07.JPG",
-  "a": "Claus Ableiter",
-  "l": "CC BY-SA 3.0",
-  "p": "https://commons.wikimedia.org/wiki/File:Makronissos_Tombs_in_Ayia_Napa_07.JPG",
-  "t": "Makronissos tombs"
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/03_Cyprus_beach_-_Makronissos_Beach_in_Ayia_Napa_-_sandy_Cyprus_beach_-_Zypern_Urlaubsgebiet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-03_Cyprus_beach_-_Makronissos_Beach_in_Ayia_Napa_-_sandy_Cyprus_beach_-_Zypern_Urlaubsgebiet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Marek Ślusarczyk (Tupungato)",
+  "l": "CC BY 3.0",
+  "p": "https://commons.wikimedia.org/wiki/File:03_Cyprus_beach_-_Makronissos_Beach_in_Ayia_Napa_-_sandy_Cyprus_beach_-_Zypern_Urlaubsgebiet.jpg",
+  "t": "Makronissos Beach, Ayia Napa"
  },
  "place-napa-monastery": {
   "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Agia_%28Ayia%29_Napa_Monastery_%2804%29.jpg/1280px-Agia_%28Ayia%29_Napa_Monastery_%2804%29.jpg",
@@ -154,10 +154,10 @@
   "t": "A lane in Lefkara"
  },
  "place-choirokoitia": {
-  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Khirokitia_near_Larnaca_01-2017_img2.jpg/1280px-Khirokitia_near_Larnaca_01-2017_img2.jpg",
-  "a": "A.Savin",
-  "l": "Free Art License",
-  "p": "https://commons.wikimedia.org/wiki/File:Khirokitia_near_Larnaca_01-2017_img2.jpg",
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Choirokoitia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Choirokoitia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Klaus D. Peter, Wiehl, Germany",
+  "l": "CC BY 3.0 de",
+  "p": "https://commons.wikimedia.org/wiki/File:Choirokoitia.jpg",
   "t": "Choirokoitia"
  },
  "place-salt-lake": {
@@ -531,13 +531,6 @@
   "p": "https://commons.wikimedia.org/wiki/File:Alykes_Beach%2C_Paphos%2C_Cyprus_01.jpg",
   "t": "Alykes Beach"
  },
- "beach-bea-01071": {
-  "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Vrysoudia_II_Beach%2C_Paphos%2C_Cyprus_2.jpg/1280px-Vrysoudia_II_Beach%2C_Paphos%2C_Cyprus_2.jpg",
-  "a": "Karel Frydrýšek",
-  "l": "CC BY-SA 4.0",
-  "p": "https://commons.wikimedia.org/wiki/File:Vrysoudia_II_Beach%2C_Paphos%2C_Cyprus_2.jpg",
-  "t": "Vrysoudia A Beach"
- },
  "beach-bea-00986": {
   "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Stunning_Larnaca_Castle_and_finikoudes_-_panoramio.jpg/1280px-Stunning_Larnaca_Castle_and_finikoudes_-_panoramio.jpg",
   "a": "Georgy Papantoniou",
@@ -614,5 +607,236 @@
   "l": "Courtesy of the operator",
   "p": "https://cycruises.com/",
   "t": "The Black Pearl pirate ship off Ayia Napa"
+ },
+ "beach-bea-01072": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Vrysoudia_II_Beach%2C_Paphos%2C_Cyprus_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Vrysoudia_II_Beach%2C_Paphos%2C_Cyprus_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Fry72, Karel Frydrýšek",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Vrysoudia_II_Beach,_Paphos,_Cyprus_2.jpg",
+  "t": "Vrysoudia B Beach"
+ },
+ "beach-bea-00956": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/02_Cyprus_vacation%2C_sandy_beach_of_Ayia_Thekla%2C_Sotira%2C_Cyprus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-02_Cyprus_vacation%2C_sandy_beach_of_Ayia_Thekla%2C_Sotira%2C_Cyprus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Marek Ślusarczyk (Tupungato)",
+  "l": "CC BY 3.0",
+  "p": "https://commons.wikimedia.org/wiki/File:02_Cyprus_vacation,_sandy_beach_of_Ayia_Thekla,_Sotira,_Cyprus.jpg",
+  "t": "Agia Thekla Beach"
+ },
+ "beach-bea-00967": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Ammoui_Beach_In_Lara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Ammoui_Beach_In_Lara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Andrek33",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Ammoui_Beach_In_Lara.jpg",
+  "t": "Ammoui Beach"
+ },
+ "beach-bea-00980": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/YermasoyiaBeach-Dasoudi_1247.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-YermasoyiaBeach-Dasoudi_1247.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "DrReload",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:YermasoyiaBeach-Dasoudi_1247.jpg",
+  "t": "Dasoudi Beach"
+ },
+ "beach-bea-00983": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Faros_beach_in_Pervolia_village_in_Larnaca_Republic_of_Cyprus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Faros_beach_in_Pervolia_village_in_Larnaca_Republic_of_Cyprus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "NicosiaEurope",
+  "l": "CC BY-SA 3.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Faros_beach_in_Pervolia_village_in_Larnaca_Republic_of_Cyprus.jpg",
+  "t": "Faros Beach"
+ },
+ "beach-bea-01007": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/CIPAR_11.9.2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-CIPAR_11.9.2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "August Dominus",
+  "l": "CC0",
+  "p": "https://commons.wikimedia.org/wiki/File:CIPAR_11.9.2025.jpg",
+  "t": "Landa Beach"
+ },
+ "beach-bea-01046": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Roca_de_Afrodita%2C_Chipre%2C_2021-12-10%2C_DD_63.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Roca_de_Afrodita%2C_Chipre%2C_2021-12-10%2C_DD_63.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Diego Delso",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Roca_de_Afrodita,_Chipre,_2021-12-10,_DD_63.jpg",
+  "t": "Petra tou Romiou"
+ },
+ "beach-bea-01050": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Polyxenia_Beach%2C_Cyprus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Polyxenia_Beach%2C_Cyprus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Ssu",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Polyxenia_Beach,_Cyprus.jpg",
+  "t": "Polyxenia Beach"
+ },
+ "beach-bea-01067": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Vrexi_Beach_Cyprus_Pafos_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Vrexi_Beach_Cyprus_Pafos_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Klapi",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Vrexi_Beach_Cyprus_Pafos_2024.jpg",
+  "t": "Vrexi Beach"
+ },
+ "beach-bea-01075": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/White_River_Beach%2C_Peyia%2C_Cyprus_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-White_River_Beach%2C_Peyia%2C_Cyprus_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Fry72, Karel Frydrýšek",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:White_River_Beach,_Peyia,_Cyprus_01.jpg",
+  "t": "White River Beach"
+ },
+ "beach-bea-01045": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Pernera_beach_Cyprus_%2843675191702%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Pernera_beach_Cyprus_%2843675191702%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "dronepicr",
+  "l": "CC BY 2.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Pernera_beach_Cyprus_(43675191702).jpg",
+  "t": "Pernera Beach"
+ },
+ "beach-bea-01044": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Pernera_Beach_in_November_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Pernera_Beach_in_November_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Marsupium",
+  "l": "CC0",
+  "p": "https://commons.wikimedia.org/wiki/File:Pernera_Beach_in_November_2021.jpg",
+  "t": "Pernera Beach"
+ },
+ "beach-bea-01013": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Loukkos_tou_Mandi_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Loukkos_tou_Mandi_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Marsupium",
+  "l": "CC0",
+  "p": "https://commons.wikimedia.org/wiki/File:Loukkos_tou_Mandi_Beach.jpg",
+  "t": "Loukkos tou Mandi Beach"
+ },
+ "place-agia-moni": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Paphos_March_2013_504_%2810126977154%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Paphos_March_2013_504_%2810126977154%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Alan Samuel from Cardiff, Wales",
+  "l": "CC BY 2.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Paphos_March_2013_504_(10126977154).jpg",
+  "t": "Agia Moni Monastery"
+ },
+ "poi-p34": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Agioi_Anargyroi_Church%2C_Agia_Napa%2C_Kypr_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Agioi_Anargyroi_Church%2C_Agia_Napa%2C_Kypr_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Fry72, Karel Frydrýšek",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Agioi_Anargyroi_Church,_Agia_Napa,_Kypr_01.jpg",
+  "t": "Agioi Anargyroi Chapel"
+ },
+ "poi-p38": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Ayia_Napa_harbour%2C_Cyprus_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Ayia_Napa_harbour%2C_Cyprus_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Wojciech Biegun",
+  "l": "CC BY-SA 3.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Ayia_Napa_harbour,_Cyprus_-_panoramio.jpg",
+  "t": "Ayia Napa Harbour"
+ },
+ "place-baths-of-aphrodite": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Bad_der_Aphrodite_Zypern.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Bad_der_Aphrodite_Zypern.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "McGregger",
+  "l": "CC BY-SA 3.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Bad_der_Aphrodite_Zypern.jpg",
+  "t": "Baths of Aphrodite"
+ },
+ "poi-att-trail-adonis": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Adonis-trail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Adonis-trail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Mboesch",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Adonis-trail.jpg",
+  "t": "Adonis Nature Trail"
+ },
+ "poi-att-trail-aphrodite-akamas": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Akamas-aphrodite-trail-view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Akamas-aphrodite-trail-view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Mboesch",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Akamas-aphrodite-trail-view.jpg",
+  "t": "Aphrodite Nature Trail"
+ },
+ "poi-att-trail-artemis": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Troodos-artemis-nature-trail-a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Troodos-artemis-nature-trail-a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Mboesch",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Troodos-artemis-nature-trail-a.jpg",
+  "t": "Artemis Nature Trail"
+ },
+ "poi-att-trail-livadi": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Troodos-livadi-nature-trail-a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Troodos-livadi-nature-trail-a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Mboesch",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Troodos-livadi-nature-trail-a.jpg",
+  "t": "Livadi Nature Trail"
+ },
+ "poi-att-trail-xyliatos": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Xyliatos-dam-nature-trail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Xyliatos-dam-nature-trail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Mboesch",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Xyliatos-dam-nature-trail.jpg",
+  "t": "Xyliatos Dam Nature Trail"
+ },
+ "poi-att-trail-persephone": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Persephone_Nature_Trail%2C_Troodos%2C_Cyprus_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Persephone_Nature_Trail%2C_Troodos%2C_Cyprus_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Dm Bsg",
+  "l": "CC BY 3.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Persephone_Nature_Trail,_Troodos,_Cyprus_-_panoramio_(4).jpg",
+  "t": "Persephone Nature Trail"
+ },
+ "poi-att-troodos-botanic": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Troodos_Botanical_Garden_kz4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Troodos_Botanical_Garden_kz4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Krzysztof Ziarnek, Kenraiz",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Troodos_Botanical_Garden_kz4.jpg",
+  "t": "Troodos Botanical Garden A.G. Leventis"
+ },
+ "poi-att-larnaca-medieval-museum": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Larnaca_fort.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Larnaca_fort.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Valantis Antoniades",
+  "l": "CC BY-SA 3.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Larnaca_fort.JPG",
+  "t": "Larnaka Medieval Museum"
+ },
+ "poi-att-kyriazis-museum": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Kmm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Kmm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Joannadt",
+  "l": "CC BY-SA 3.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Kmm.jpg",
+  "t": "Kyriazis Medical Museum"
+ },
+ "poi-att-limassol-zoo": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Limassol_Zoo_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Limassol_Zoo_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Xaris333",
+  "l": "CC0",
+  "p": "https://commons.wikimedia.org/wiki/File:Limassol_Zoo_07.jpg",
+  "t": "Limassol Zoo"
+ },
+ "poi-att-my-mall": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/My_Mall_Limassol_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-My_Mall_Limassol_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "JoshuaReen",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:My_Mall_Limassol_Building.jpg",
+  "t": "My Mall Limassol"
+ },
+ "poi-att-millomeris-falls": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Millomeris_Waterfall_-_%CE%9A%CE%B1%CF%84%CE%B1%CF%81%CF%81%CE%AC%CE%BA%CF%84%CE%B7%CF%82_%CF%84%CE%BF%CF%85_%CE%9C%CE%B9%CE%BB%CE%BB%CE%BF%CE%BC%CE%AD%CF%81%CE%B7.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Millomeris_Waterfall_-_%CE%9A%CE%B1%CF%84%CE%B1%CF%81%CF%81%CE%AC%CE%BA%CF%84%CE%B7%CF%82_%CF%84%CE%BF%CF%85_%CE%9C%CE%B9%CE%BB%CE%BB%CE%BF%CE%BC%CE%AD%CF%81%CE%B7.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "AlekosCY",
+  "l": "CC BY-SA 3.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Millomeris_Waterfall_-_%CE%9A%CE%B1%CF%84%CE%B1%CF%81%CF%81%CE%AC%CE%BA%CF%84%CE%B7%CF%82_%CF%84%CE%BF%CF%85_%CE%9C%CE%B9%CE%BB%CE%BB%CE%BF%CE%BC%CE%AD%CF%81%CE%B7.JPG",
+  "t": "Millomeris Waterfall"
+ },
+ "poi-att-kaledonia-falls": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Kalidonia_Waterfall.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Kalidonia_Waterfall.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "AlekosCY",
+  "l": "CC BY-SA 3.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Kalidonia_Waterfall.JPG",
+  "t": "Kaledonia Waterfall"
+ },
+ "poi-att-zenobia": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Zenobia_Wreck_Cyprus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Zenobia_Wreck_Cyprus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Easydivers",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Zenobia_Wreck_Cyprus.jpg",
+  "t": "Zenobia shipwreck"
+ },
+ "poi-att-limassol-marina": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Limassol_Marina_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Limassol_Marina_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Tech bro",
+  "l": "CC BY-SA 3.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Limassol_Marina_09.jpg",
+  "t": "Limassol Marina"
+ },
+ "beach-bea-00975": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Akamas-blue-lagoon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Akamas-blue-lagoon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "a": "Mboesch",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Akamas-blue-lagoon.jpg",
+  "t": "Blue Lagoon"
  }
 }

@@ -64,6 +64,7 @@ export function Footer() {
           {" · "}Bus routes:{" "}
           <a href="https://www.motionbuscard.org.cy/opendata" target="_blank" rel="noopener noreferrer">Public Works Department via Motion Bus Card</a>{" "}
           (CC BY 4.0, routes with upcoming trips only) · Beaches, pharmacies and businesses from official registers, linked on each page. Bus routes are scheduled, not live.
+          {" · "}Photos: Wikimedia Commons contributors under free licences, each credited on <Link href="/credits">Photo credits</Link>. We use them for now while we photograph the whole island ourselves.
         </span>
       </div>
     </footer>

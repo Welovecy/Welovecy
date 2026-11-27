@@ -18,6 +18,20 @@ fs.mkdirSync(out, { recursive: true });
     await p.evaluate(async () => { for (let y = 0; y < document.body.scrollHeight; y += 500) { window.scrollTo(0, y); await new Promise((r) => setTimeout(r, 60)); } window.scrollTo(0, 0); });
     return p;
   };
+  // A list of pages to shoot instead of the Beaches walkthrough
+  if (fs.existsSync("scripts/check/shot_pages.txt")) {
+    const c0 = await ctx(null);
+    for (const path of fs.readFileSync("scripts/check/shot_pages.txt", "utf8").split("\n").map((x) => x.trim()).filter(Boolean)) {
+      const p0 = await c0.newPage();
+      await p0.goto(`${base}${path}`, { waitUntil: "networkidle" });
+      const d0 = p0.locator("text=Decline"); if (await d0.count()) await d0.first().click();
+      await p0.waitForTimeout(1200);
+      await p0.screenshot({ path: `${out}/${path.replace(/[^a-z0-9]+/gi, "_")}.png` });
+      await p0.close();
+    }
+    await b.close();
+    return;
+  }
   let c = await ctx(null); let p = await open(c);
   await shoot(p, "01-top");
   await p.evaluate(() => window.scrollTo(0, 560)); await shoot(p, "02-filters");

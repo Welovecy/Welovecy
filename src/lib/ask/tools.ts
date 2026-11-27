@@ -508,7 +508,7 @@ function placeCard(r: Record<string, unknown>, meta?: string): Card {
       if (isStay(b) && b.ll) c.stay = { id: b.i, n: b.n, ll: b.ll, href: listingHref(b.i), around: `${listingHref(b.i)}/around`, area: b.d };
     }
     const p = getPoi(id);
-    if (p) { c.map = p.sea ? undefined : poiDirections(p); c.tel = telOf(p.ph); c.img = photoFor(`beach-${p.i}`)?.u; c.sub = [p.k === "beach" ? "Beach" : c.sub, p.tw].filter(Boolean).join(" · "); }
+    if (p) { c.map = p.sea ? undefined : poiDirections(p); c.tel = telOf(p.ph); c.img = photoFor(p.k === "beach" ? `beach-${p.i}` : `poi-${p.i}`)?.u; c.sub = [p.k === "beach" ? "Beach" : c.sub, p.tw].filter(Boolean).join(" · "); }
   } else if (pm) {
     const pl = getPlace(pm[1]);
     if (pl) { c.img = photoFor(`place-${pl.slug}`)?.u; c.sub = pl.cat; if (pl.ll) c.map = `https://www.google.com/maps/dir/?api=1&destination=${pl.ll[0]},${pl.ll[1]}`; }
