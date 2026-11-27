@@ -19,6 +19,7 @@ export function Footer() {
           <Link href="/essentials">Pharmacies, clinics and supermarkets</Link>
           <Link href="/practical#emergency">Emergency numbers</Link>
           <Link href="/buses">Buses and airport transfers</Link>
+          <Link href="/petrol">Petrol near you</Link>
           <Link href="/practical#taxi">Taxi fares</Link>
           <Link href="/know-before-you-go">Know before you go</Link>
           <Link href="/cyprus-history">Cyprus history</Link>

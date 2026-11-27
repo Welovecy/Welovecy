@@ -3,6 +3,7 @@ import content from "@data/content.json";
 import businessesJson from "@data/businesses.json";
 import poisJson from "@data/pois.json";
 import attractionsJson from "@data/attractions.json";
+import motoringJson from "@data/motoring.json";
 import { DEST_CENTRE as CENTRES } from "./centres";
 import imagesJson from "@data/images.json";
 import busJson from "@data/bus.json";
@@ -56,6 +57,7 @@ const nearestArea = (ll: LL): DestId => {
 export const POIS = [
   ...(poisJson as unknown as Poi[]),
   ...ATTRACTIONS.map((a) => ({ ...a, d: a.d ?? nearestArea(a.ll!), sd: (attractionsJson as { checked: string }).checked })),
+  ...((motoringJson as unknown as { checked: string; items: Poi[] }).items.map((m) => ({ ...m, d: nearestArea(m.ll!), sd: (motoringJson as { checked: string }).checked }))),
 ] as Poi[];
 // Venues inside an attraction take the attraction's pin when theirs is rough or missing.
 {

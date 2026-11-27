@@ -49,7 +49,11 @@ export default async function EssentialsList({ params }: P) {
             <ul className="rows">{list.map((r) => <ListRow key={r.i} {...poiRow(r)} sub={[poiRow(r).sub, r.a].filter(Boolean).join(" · ")} />)}</ul>
           </>
         ) : <div className="empty"><p>None listed for this area yet.</p></div>}
-        <p className="tag" style={{ marginTop: 16 }}>In an emergency call 112 or 199. Listings come from official registers and chain store finders, retrieved 18 November 2026.</p>
+        {k[0] === "fuel" || k[0] === "carhire" ? (
+          <p className="tag" style={{ marginTop: 16 }}>Locations from OpenStreetMap contributors, retrieved 27 November 2026. Opening hours change, so check before you go.{k[0] === "fuel" ? <> Find the nearest one to you on <Link href="/petrol">Petrol near you</Link>.</> : null}</p>
+        ) : (
+          <p className="tag" style={{ marginTop: 16 }}>In an emergency call 112 or 199. Listings come from official registers and chain store finders, retrieved 18 November 2026.</p>
+        )}
       </section>
     </>
   );

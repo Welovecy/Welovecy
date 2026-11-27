@@ -11,7 +11,7 @@ import { absolute, DATA_REVIEWED } from "@/lib/site";
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date(DATA_REVIEWED + "T00:00:00Z");
   const paths = [
-    "/", "/explore", "/explore/events", "/explore/festivals", "/destinations", "/must-see", "/beaches", "/stay", "/around", "/essentials", "/practical", "/know-before-you-go", "/cyprus-history", "/living-in-cyprus", "/buses", "/unesco", "/wine", "/weather", "/quiz", "/guides", "/distances", "/hotels-near", "/pharmacies-on-duty", "/eat-drink",
+    "/", "/explore", "/explore/events", "/explore/festivals", "/destinations", "/must-see", "/beaches", "/stay", "/around", "/essentials", "/practical", "/know-before-you-go", "/cyprus-history", "/living-in-cyprus", "/petrol", "/buses", "/unesco", "/wine", "/weather", "/quiz", "/guides", "/distances", "/hotels-near", "/pharmacies-on-duty", "/eat-drink",
     ...[...new Set(GOING.map((g) => g.area))].map((a) => goingHref(a)),
     ...GOING.map((g) => goingHref(g.area, g.slug)),
     ...DISTRICTS.map((d) => dutyHref(d.id)),

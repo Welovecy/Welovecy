@@ -1,0 +1,10404 @@
+{
+"checked": "2026-11-27",
+"source": "OpenStreetMap contributors (ODbL), Geofabrik extract",
+"items": [
+{
+"i": "osm-n10731060879",
+"ll": [
+35.0226,
+34.039371
+],
+"tw": "Protaras",
+"ph": "+357 96 503003",
+"web": "https://7777rentacar.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/10731060879"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "7777 Rent A Car (Protaras)"
+},
+{
+"i": "osm-n10181196900",
+"ll": [
+34.712494,
+32.530713
+],
+"a": "5",
+"tw": "Mandria",
+"ph": "+357 99 866060",
+"web": "https://www.agrentacar.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/10181196900"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "A&G Rental and taxi"
+},
+{
+"i": "osm-w199520711",
+"ll": [
+34.978237,
+33.690531
+],
+"tw": "Pyla",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/199520711"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "A.A. Andreou"
+},
+{
+"i": "osm-n11025668955",
+"ll": [
+35.17073,
+33.354548
+],
+"a": "Λεωφόρος Λόρδου Βύρωνος",
+"tw": "Λευκωσία",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11025668955"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "ACE KEM Rental Cars"
+},
+{
+"i": "osm-n12788917843",
+"ll": [
+35.184295,
+33.358439
+],
+"tw": "Aglantzia",
+"ph": "+905338268981",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12788917843"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "ALRENTALS"
+},
+{
+"i": "osm-n4908550721",
+"ll": [
+34.667114,
+33.024315
+],
+"a": "Fragklinou Rousvelt",
+"tw": "Germasogeia",
+"ph": "25880222",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4908550721"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "ASG"
+},
+{
+"i": "osm-n5247753629",
+"ll": [
+34.707002,
+33.119422
+],
+"tw": "Agios Tychonas",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5247753629"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "ASTS Car Rental"
+},
+{
+"i": "osm-n4472461889",
+"ll": [
+34.988434,
+33.986751
+],
+"a": "Leoforos Nissi 46",
+"tw": "Ayia Napa",
+"ph": "+357 23080730",
+"web": "https://aercar.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4472461889"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Sa 08:00-17:30; Mo-Fr 08:00-22:00; Sa 08:00-16:00; Su 08:00-13:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Aercar, Ayia Napa"
+},
+{
+"i": "osm-n6469380034",
+"ll": [
+34.888856,
+33.582295
+],
+"tw": "Dromolaxia",
+"ph": "+357 24080730",
+"web": "https://www.aercar.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/6469380034"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "carhire",
+"cat": "Car hire",
+"n": "Aercar, Dromolaxia"
+},
+{
+"i": "osm-w1282436501",
+"ll": [
+34.727024,
+32.514859
+],
+"tw": "Timi",
+"ph": "+357 26080730",
+"web": "https://aercar.com",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1282436501"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "carhire",
+"cat": "Car hire",
+"n": "Aercar, Timi"
+},
+{
+"i": "osm-n4932074223",
+"ll": [
+34.885808,
+33.59422
+],
+"a": "Dafnis Dromolaxia 7",
+"tw": "Dromolaxia",
+"ph": "+35725321115",
+"web": "https://www.aida.rentals/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4932074223"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 07:00-22:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Aida Car Rentals, Dromolaxia"
+},
+{
+"i": "osm-n4932074122",
+"ll": [
+34.695282,
+33.086827
+],
+"a": "Vasileos Georgiou I 81",
+"tw": "Germasogeia",
+"ph": "+35725321115",
+"web": "https://www.aida.rentals/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4932074122"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 08:00-18:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Aida Car Rentals, Germasogeia"
+},
+{
+"i": "osm-n11228104846",
+"ll": [
+34.766861,
+32.415902
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11228104846"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Akis & Maria Car Hire Ltd"
+},
+{
+"i": "osm-n5188064221",
+"ll": [
+34.879117,
+33.596528
+],
+"tw": "Dromolaxia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5188064221"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Alamo, Dromolaxia",
+"brand": "Alamo"
+},
+{
+"i": "osm-n4811859521",
+"ll": [
+34.725014,
+32.52046
+],
+"tw": "Timi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4811859521"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Alamo, Timi",
+"brand": "Alamo"
+},
+{
+"i": "osm-n14266910043",
+"ll": [
+34.823416,
+32.392166
+],
+"tw": "Kissonerga",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/14266910043"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Alex Rentals"
+},
+{
+"i": "osm-n4548794203",
+"ll": [
+34.704744,
+33.11252
+],
+"tw": "Agios Tychonas",
+"ph": "+357 25 327755",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4548794203"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Allure"
+},
+{
+"i": "osm-n7140902662",
+"ll": [
+34.916574,
+33.635508
+],
+"a": "Thermopyn 4",
+"tw": "Larnaca",
+"ph": "+357 99 960093",
+"web": "https://www.alocarrentals.com",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/7140902662"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 09:00-18:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Alo Car Rentals Larnaca City Centre Branch",
+"brand": "Alo Car Rentals"
+},
+{
+"i": "osm-n9798116472",
+"ll": [
+34.77057,
+32.417502
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9798116472"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Andre S. Georgiou Son Rentals Ltd."
+},
+{
+"i": "osm-n6790879356",
+"ll": [
+35.170981,
+33.359128
+],
+"tw": "Nicosia",
+"ph": "+357 22456450",
+"web": "https://www.petsas.com.cy",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/6790879356"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Andreas Petsas & Sons Public Limited"
+},
+{
+"i": "osm-n4727144596",
+"ll": [
+34.770528,
+32.409619
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4727144596"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Andy Philipps Car Rental Ltd"
+},
+{
+"i": "osm-n3294281204",
+"ll": [
+34.757817,
+32.421971
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/3294281204"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Apollonia - Rent a Car"
+},
+{
+"i": "osm-n11432586206",
+"ll": [
+34.759028,
+32.416821
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11432586206"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Arenda"
+},
+{
+"i": "osm-n313383944",
+"ll": [
+34.704998,
+33.113134
+],
+"a": "Leoforos Amathountos 34",
+"tw": "Limassol",
+"ph": "+357 25329388",
+"web": "https://ascotcyprus.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/313383944"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Ascot Travel & Tours"
+},
+{
+"i": "osm-n1252374561",
+"ll": [
+34.699396,
+33.098521
+],
+"tw": "Germasogeia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1252374561"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Astra, Germasogeia"
+},
+{
+"i": "osm-n11928124529",
+"ll": [
+34.873082,
+33.608492
+],
+"tw": "Larnaca Airport",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11928124529"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Astra, Larnaca Airport"
+},
+{
+"i": "osm-n14208157475",
+"ll": [
+34.870901,
+33.607398
+],
+"tw": "Larnaca Airport",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/14208157475"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Astra, Larnaca Airport"
+},
+{
+"i": "osm-n4290411192",
+"ll": [
+35.172898,
+33.350929
+],
+"a": "1",
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4290411192"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Astra, Nicosia"
+},
+{
+"i": "osm-w1240125013",
+"ll": [
+34.725774,
+32.518034
+],
+"tw": "Timi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1240125013"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Astra, Timi"
+},
+{
+"i": "osm-w1450640568",
+"ll": [
+34.712112,
+32.489635
+],
+"tw": "Timi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1450640568"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Astra, Timi"
+},
+{
+"i": "osm-n14209160829",
+"ll": [
+34.714751,
+33.160277
+],
+"tw": "Parekklisia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/14209160829"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Auto Union"
+},
+{
+"i": "osm-n9749824544",
+"ll": [
+34.692603,
+33.079895
+],
+"tw": "Germasogeia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9749824544"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "AutoRent"
+},
+{
+"i": "osm-n6421324858",
+"ll": [
+34.671922,
+33.033635
+],
+"a": "Fragklinou Rousvelt 4",
+"tw": "Limassol",
+"ph": "+357 99 61 54 82",
+"web": "https://www.autotrustcyprus.com",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/6421324858"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 08:00-22:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "AutoTrust Cyprus Car Rental"
+},
+{
+"i": "osm-n5200989447",
+"ll": [
+34.880776,
+33.593173
+],
+"tw": "Dromolaxia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5200989447"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Avis Budget, Dromolaxia"
+},
+{
+"i": "osm-n13276144055",
+"ll": [
+34.920899,
+33.636978
+],
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/13276144055"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Avis Budget, Larnaca"
+},
+{
+"i": "osm-n5247753315",
+"ll": [
+34.708746,
+33.125395
+],
+"tw": "Agios Tychonas",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5247753315"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Avis, Agios Tychonas"
+},
+{
+"i": "osm-n2038747686",
+"ll": [
+34.875871,
+33.613982
+],
+"tw": "Larnaca Airport",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2038747686"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "carhire",
+"cat": "Car hire",
+"n": "Avis, Larnaca Airport",
+"brand": "Avis"
+},
+{
+"i": "osm-n13278287128",
+"ll": [
+34.871869,
+33.607217
+],
+"tw": "Larnaca Airport",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/13278287128"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Avis, Larnaca Airport"
+},
+{
+"i": "osm-n14208157473",
+"ll": [
+34.87092,
+33.607427
+],
+"tw": "Larnaca Airport",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/14208157473"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Avis, Larnaca Airport",
+"brand": "Avis"
+},
+{
+"i": "osm-n984872298",
+"ll": [
+34.757726,
+32.412243
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/984872298"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Avis, Paphos",
+"brand": "Avis"
+},
+{
+"i": "osm-n11953828438",
+"ll": [
+34.764904,
+32.412282
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11953828438"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Avis, Paphos",
+"brand": "Avis"
+},
+{
+"i": "osm-w1450640572",
+"ll": [
+34.71204,
+32.489451
+],
+"tw": "Timi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1450640572"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Avis, Timi",
+"brand": "Avis"
+},
+{
+"i": "osm-n231550714",
+"ll": [
+35.170618,
+33.354438
+],
+"tw": "Tseri",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/231550714"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Avis, Tseri",
+"brand": "Avis"
+},
+{
+"i": "osm-n2514314868",
+"ll": [
+35.030535,
+34.038232
+],
+"tw": "Protaras",
+"ph": "+357 99 605 030",
+"web": "https://the-brothers-tacos-bikes-for-hire.business.site/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2514314868"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Brothers Takos Rentals"
+},
+{
+"i": "osm-n14208157472",
+"ll": [
+34.870923,
+33.607433
+],
+"tw": "Larnaca Airport",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/14208157472"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Budget, Larnaca Airport",
+"brand": "Budget"
+},
+{
+"i": "osm-n13313172959",
+"ll": [
+34.712057,
+32.489415
+],
+"tw": "Timi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/13313172959"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Budget, Timi",
+"brand": "Budget"
+},
+{
+"i": "osm-w1351654798",
+"ll": [
+35.129596,
+33.932743
+],
+"ph": "+90 542 888 82 22",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1351654798"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Buzz Rent a car"
+},
+{
+"i": "osm-n952464655",
+"ll": [
+35.01493,
+34.048842
+],
+"a": "Leoforos Protara-Cavo Greco 379",
+"tw": "Protaras",
+"ph": "+357 99 627072",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/952464655"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "carhire",
+"cat": "Car hire",
+"n": "C.O.M.A."
+},
+{
+"i": "osm-n6224740085",
+"ll": [
+34.747675,
+32.425704
+],
+"a": "Λεωφόρος Ποσειδώνος 52a",
+"tw": "Paphos",
+"ph": "0035795145125",
+"web": "https://www.cameldrive.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/6224740085"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 09:00-17:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Camel Car Hire"
+},
+{
+"i": "osm-n4266925389",
+"ll": [
+34.989017,
+33.967675
+],
+"a": "Leoforos Nissi",
+"tw": "Ayia Napa",
+"ph": "+35799684162 +35723833966",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4266925389"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "carhire",
+"cat": "Car hire",
+"n": "Car Rental"
+},
+{
+"i": "osm-n4299966397",
+"ll": [
+34.674374,
+33.043211
+],
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4299966397"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Car hire"
+},
+{
+"i": "osm-n9806006782",
+"ll": [
+34.683391,
+32.607085
+],
+"a": "Aphrodite Avenue 3",
+"tw": "Kouklia",
+"ph": "+35725316444",
+"web": "https://www.carwiz.com.cy/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9806006782"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 09:00-17:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Carwiz Rent A Car, Kouklia"
+},
+{
+"i": "osm-n9805985689",
+"ll": [
+34.868962,
+33.596312
+],
+"a": "Agriniou 1",
+"tw": "Larnaca",
+"ph": "+35725316444",
+"web": "https://www.carwiz.com.cy/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9805985689"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 09:00-17:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Carwiz Rent A Car, Larnaca",
+"brand": "Carwiz Rent A Car"
+},
+{
+"i": "osm-n9806028891",
+"ll": [
+34.710291,
+33.129002
+],
+"a": "Leoforos Amathountos 108b",
+"tw": "Limassol",
+"ph": "+35725316444",
+"web": "https://www.carwiz.com.cy/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9806028891"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 09:00-18:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Carwiz Rent A Car, Limassol",
+"brand": "Carwiz Rent A Car"
+},
+{
+"i": "osm-n5187190051",
+"ll": [
+34.917947,
+33.636485
+],
+"a": "Makariou III Avenue",
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5187190051"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Cedars"
+},
+{
+"i": "osm-n3577591354",
+"ll": [
+34.987034,
+33.997516
+],
+"tw": "Ayia Napa",
+"web": "https://www.championrental.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/3577591354"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Champion, Ayia Napa"
+},
+{
+"i": "osm-n5186544977",
+"ll": [
+34.927475,
+33.636909
+],
+"a": "Makariou III Avenue",
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5186544977"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Champion, Larnaca"
+},
+{
+"i": "osm-n957286325",
+"ll": [
+35.007723,
+34.058919
+],
+"tw": "Protaras",
+"ph": "+357 23 721700",
+"web": "https://www.championrental.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/957286325"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 08:00-21:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Champion, Protaras"
+},
+{
+"i": "osm-n962316392",
+"ll": [
+35.018706,
+34.044744
+],
+"tw": "Protaras",
+"ph": "+357 23 721700",
+"web": "https://www.championrental.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/962316392"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 08:00-21:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Champion, Protaras"
+},
+{
+"i": "osm-n6776240985",
+"ll": [
+34.771673,
+32.410677
+],
+"tw": "Paphos",
+"ph": "+35799166116",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/6776240985"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 08:00-17:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Chris & Miranda Car Hire"
+},
+{
+"i": "osm-w265960023",
+"ll": [
+34.687219,
+33.041884
+],
+"a": "Λεωφόρος Αρχιεπισκόπου Μακαρίου Γ’ 178",
+"tw": "Limassol",
+"ph": "+357 25 431187",
+"web": "https://www.chriscarhire.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/265960023"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Chris Car Hire"
+},
+{
+"i": "osm-n4199785689",
+"ll": [
+34.756865,
+32.413297
+],
+"tw": "Paphos",
+"ph": "+357 99 629769",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4199785689"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Chris Rent a Car"
+},
+{
+"i": "osm-n1012845914",
+"ll": [
+34.710264,
+33.129771
+],
+"tw": "Agios Tychonas",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1012845914"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Chris, Agios Tychonas"
+},
+{
+"i": "osm-n4796464422",
+"ll": [
+34.765424,
+32.411444
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4796464422"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Chris, Paphos"
+},
+{
+"i": "osm-n5108993527",
+"ll": [
+34.85786,
+32.363907
+],
+"tw": "Peyia",
+"ph": "99629769",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5108993527"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Chris, Peyia"
+},
+{
+"i": "osm-n5467715854",
+"ll": [
+34.832568,
+33.578113
+],
+"tw": "Pervolia",
+"ph": "+357 99 312121",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5467715854"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Cosmos"
+},
+{
+"i": "osm-n2175203861",
+"ll": [
+34.913959,
+33.637152
+],
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2175203861"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Cosmos Car Rentals"
+},
+{
+"i": "osm-n984872337",
+"ll": [
+34.757606,
+32.412236
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/984872337"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Costas Car Hire"
+},
+{
+"i": "osm-n4439292389",
+"ll": [
+34.765014,
+32.411149
+],
+"a": "Parmenionos 3",
+"tw": "Paphos",
+"ph": "(+357) 97-657-637",
+"web": "http://www.rentcar.cbay.com.cy",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4439292389"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 09:00-18:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "CyBay Rent a Car"
+},
+{
+"i": "osm-n6421284505",
+"ll": [
+34.700095,
+33.100342
+],
+"a": "Vasileos Georgiou I 107",
+"tw": "Limassol",
+"web": "https://www.cycarhire.com",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/6421284505"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "CyCarHire"
+},
+{
+"i": "osm-n3294361032",
+"ll": [
+34.755151,
+32.420032
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/3294361032"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Cybreeze rent a car"
+},
+{
+"i": "osm-n9057179417",
+"ll": [
+34.689289,
+33.07077
+],
+"tw": "Agios Athanasios",
+"ph": "25324900",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9057179417"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Cypro Rental"
+},
+{
+"i": "osm-n2736622886",
+"ll": [
+34.692644,
+33.063682
+],
+"a": "Griva Digeni 80C",
+"tw": "Limassol",
+"ph": "+357 96 802210",
+"web": "https://www.voyagecy.com",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2736622886"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 09:00-21:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Cyprus Voyage Rent A Car"
+},
+{
+"i": "osm-n1252374562",
+"ll": [
+34.699442,
+33.098811
+],
+"tw": "Germasogeia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1252374562"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "DDS"
+},
+{
+"i": "osm-n5055549922",
+"ll": [
+34.971941,
+33.673339
+],
+"tw": "Oroklini",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5055549922"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "DS Cars Larnaca"
+},
+{
+"i": "osm-w535303079",
+"ll": [
+34.902636,
+33.63757
+],
+"a": "Τάσου Μητσοπούλου 12",
+"tw": "Larnaka",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/535303079"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Discount Car Rentals Ltd"
+},
+{
+"i": "osm-n2521940393",
+"ll": [
+34.879392,
+33.596161
+],
+"tw": "Dromolaxia",
+"ph": "+357 99272713",
+"web": "www.express.com.cy",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2521940393"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "carhire",
+"cat": "Car hire",
+"n": "Discovery"
+},
+{
+"i": "osm-n2514314869",
+"ll": [
+35.031788,
+34.034615
+],
+"a": "Leoforos Perneras 48",
+"tw": "Protaras",
+"ph": "+357 23 832 072",
+"web": "https://www.facebook.com/dorosrentacar/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2514314869"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Doros Rent A Car"
+},
+{
+"i": "osm-n11809795569",
+"ll": [
+34.745211,
+32.503337
+],
+"a": "Agia Varvara",
+"tw": "Acheleia",
+"ph": "+357 99 848300",
+"web": "https://exercars.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11809795569"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 08:00-21:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "EXER Rent A Car"
+},
+{
+"i": "osm-n5247753631",
+"ll": [
+34.706988,
+33.119329
+],
+"tw": "Agios Tychonas",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5247753631"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Elshem Ltd."
+},
+{
+"i": "osm-n4388832996",
+"ll": [
+34.879008,
+33.596791
+],
+"tw": "Dromolaxia",
+"ph": "+35799272713",
+"web": "https://www.enterprise.gr/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4388832996"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Enterprise, Dromolaxia",
+"brand": "Enterprise"
+},
+{
+"i": "osm-n9752987042",
+"ll": [
+34.698837,
+33.096282
+],
+"tw": "Germasogeia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9752987042"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Enterprise, Germasogeia",
+"brand": "Enterprise"
+},
+{
+"i": "osm-n4362831895",
+"ll": [
+34.726459,
+32.517927
+],
+"a": "Mega Alexandrou 2",
+"tw": "Timi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4362831895"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Enterprise, Timi",
+"brand": "Enterprise"
+},
+{
+"i": "osm-n13276144032",
+"ll": [
+34.917814,
+33.636221
+],
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/13276144032"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Eugenios"
+},
+{
+"i": "osm-n1012845986",
+"ll": [
+34.699681,
+33.099767
+],
+"a": "Vasileos Georgiou I",
+"tw": "Germasogeia",
+"ph": "(00357)25322250",
+"web": "http://europcar.com.cy",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1012845986"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Fr 08:30-13:00, 15:00-18:00; Sa-Su 08:30-13:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Europcar, Germasogeia",
+"brand": "Europcar"
+},
+{
+"i": "osm-n11928143320",
+"ll": [
+34.872681,
+33.608257
+],
+"tw": "Larnaca Airport",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11928143320"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Europcar, Larnaca Airport"
+},
+{
+"i": "osm-n12487774520",
+"ll": [
+34.870864,
+33.607345
+],
+"tw": "Larnaca Airport",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12487774520"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Europcar, Larnaca Airport"
+},
+{
+"i": "osm-w483662673",
+"ll": [
+34.778445,
+32.407125
+],
+"a": "Morphou 43",
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/483662673"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Europcar, Paphos",
+"brand": "Europcar"
+},
+{
+"i": "osm-n2631324945",
+"ll": [
+34.724541,
+32.515386
+],
+"tw": "Timi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2631324945"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Europcar, Timi",
+"brand": "Europcar"
+},
+{
+"i": "osm-w1450640570",
+"ll": [
+34.712077,
+32.489549
+],
+"tw": "Timi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1450640570"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Europcar, Timi",
+"brand": "Europcar"
+},
+{
+"i": "osm-n11933513606",
+"ll": [
+34.92158,
+33.63647
+],
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11933513606"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Europe Car Rental"
+},
+{
+"i": "osm-n13781618382",
+"ll": [
+34.928285,
+33.637104
+],
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/13781618382"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "F1"
+},
+{
+"i": "osm-n12691451401",
+"ll": [
+35.162533,
+33.360083
+],
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12691451401"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Fast"
+},
+{
+"i": "osm-n4833333623",
+"ll": [
+34.873037,
+33.607629
+],
+"tw": "Larnaca Airport",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4833333623"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Flizzr"
+},
+{
+"i": "osm-n5187182145",
+"ll": [
+34.919163,
+33.636504
+],
+"a": "Makariou III Avenue",
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5187182145"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Formula"
+},
+{
+"i": "osm-w1240125009",
+"ll": [
+34.724249,
+32.520663
+],
+"tw": "Timi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1240125009"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Friends Car Hire"
+},
+{
+"i": "osm-n7010764885",
+"ll": [
+34.753244,
+32.42125
+],
+"a": "Λεωφόρος Ποσειδώνος 13",
+"tw": "Paphos",
+"ph": "+35799927944",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/7010764885"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 08:00-18:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "G.P.N.S. Car rental LTD"
+},
+{
+"i": "osm-n6550952806",
+"ll": [
+34.693674,
+33.084023
+],
+"a": "Vasileos Georgiou I 14A",
+"tw": "Limassol",
+"ph": "+357 99 622 844",
+"web": "https://www.gcrentalscyprus.com",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/6550952806"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 09:00-17:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "GC Car Rentals"
+},
+{
+"i": "osm-n3821097699",
+"ll": [
+34.755962,
+32.420808
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/3821097699"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "GSP Car Rental"
+},
+{
+"i": "osm-n5457117821",
+"ll": [
+35.027621,
+34.041935
+],
+"a": "Afroditis",
+"tw": "Protaras",
+"ph": "+357 99 658462",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5457117821"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 09:00-19:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "George's For Hire"
+},
+{
+"i": "osm-n4133343890",
+"ll": [
+34.881089,
+33.583216
+],
+"tw": "Dromolaxia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4133343890"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Green Motion",
+"brand": "Green Motion"
+},
+{
+"i": "osm-n957286328",
+"ll": [
+35.008168,
+34.058809
+],
+"tw": "Protaras",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/957286328"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Ham-Yam Rentals, Protaras"
+},
+{
+"i": "osm-n957645453",
+"ll": [
+34.997657,
+34.063527
+],
+"tw": "Protaras",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/957645453"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Ham-Yam Rentals, Protaras"
+},
+{
+"i": "osm-w1240125008",
+"ll": [
+34.725198,
+32.520087
+],
+"tw": "Timi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1240125008"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Happy Car Hire"
+},
+{
+"i": "osm-n10658564284",
+"ll": [
+35.030267,
+34.039284
+],
+"tw": "Protaras",
+"ph": "+357 96 670 012",
+"web": "https://happyridecy.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/10658564284"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Happy Ride Rentals"
+},
+{
+"i": "osm-n2101870982",
+"ll": [
+34.988595,
+34.000853
+],
+"tw": "Ayia Napa",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2101870982"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Hertz, Ayia Napa",
+"brand": "Hertz"
+},
+{
+"i": "osm-n890213727",
+"ll": [
+34.694008,
+33.08368
+],
+"tw": "Germasogeia",
+"ph": "+357 25323758",
+"web": "https://www.hertz.com.cy",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/890213727"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Fr 08:00-13:00,14:30-17:30;Sa 08:00-13:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Hertz, Germasogeia",
+"brand": "Hertz"
+},
+{
+"i": "osm-n2038747676",
+"ll": [
+34.87581,
+33.613904
+],
+"tw": "Larnaca Airport",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2038747676"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "carhire",
+"cat": "Car hire",
+"n": "Hertz, Larnaca Airport",
+"brand": "Hertz"
+},
+{
+"i": "osm-n10033276023",
+"ll": [
+34.872797,
+33.608328
+],
+"tw": "Larnaca Airport",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/10033276023"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Hertz, Larnaca Airport",
+"brand": "Hertz"
+},
+{
+"i": "osm-n12487766893",
+"ll": [
+34.87088,
+33.607365
+],
+"tw": "Larnaca Airport",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12487766893"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Hertz, Larnaca Airport"
+},
+{
+"i": "osm-n5979470796",
+"ll": [
+34.766155,
+32.410435
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5979470796"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Fr 08:00-17:00; Sa-Su 08:00-13:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Hertz, Paphos",
+"brand": "Hertz"
+},
+{
+"i": "osm-n12209366825",
+"ll": [
+35.146986,
+33.373973
+],
+"tw": "Strovolos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12209366825"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Hertz, Strovolos"
+},
+{
+"i": "osm-w1450640569",
+"ll": [
+34.712093,
+32.489584
+],
+"tw": "Timi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1450640569"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Hertz, Timi",
+"brand": "Hertz"
+},
+{
+"i": "osm-n231633468",
+"ll": [
+35.143012,
+33.368005
+],
+"a": "Aikaterinis Kornaro 7",
+"tw": "Στρόβολος",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/231633468"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Hertz, Στρόβολος",
+"brand": "Hertz"
+},
+{
+"i": "osm-n4744363840",
+"ll": [
+34.769217,
+32.41042
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4744363840"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Horizon"
+},
+{
+"i": "osm-n6922386285",
+"ll": [
+34.912308,
+33.635788
+],
+"a": "Nikolaou Rossou 26",
+"tw": "Larnaca",
+"ph": "0035795509005",
+"web": "http://itccarrental.busniess.site",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/6922386285"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "carhire",
+"cat": "Car hire",
+"n": "I.T.C"
+},
+{
+"i": "osm-n11250757440",
+"ll": [
+34.759086,
+32.426726
+],
+"a": "Taxiarchon Avenue 37B",
+"tw": "Paphos",
+"web": "https://ippos-brothers-motorcycle-rentals.business.site/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11250757440"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Ippos Brothers Motocycle Rent"
+},
+{
+"i": "osm-n4543021966",
+"ll": [
+34.7018,
+33.104494
+],
+"tw": "Germasogeia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4543021966"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Ivory"
+},
+{
+"i": "osm-n13543652711",
+"ll": [
+34.860498,
+33.593177
+],
+"a": "Λεωφόρος Αρχιεπισκόπου Μακαρίου Γ΄ 24",
+"tw": "Μενεού",
+"ph": "+35724030209",
+"web": "https://welcome.autovillagecyprus.com",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/13543652711"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "JRL AutoVillage"
+},
+{
+"i": "osm-n4905344322",
+"ll": [
+34.869665,
+33.593288
+],
+"tw": "Dromolaxia",
+"web": "https://www.kemrentacar.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4905344322"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "KEM, Dromolaxia"
+},
+{
+"i": "osm-n5643605423",
+"ll": [
+34.877167,
+33.598656
+],
+"tw": "Dromolaxia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5643605423"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "KEM, Dromolaxia"
+},
+{
+"i": "osm-n4427331591",
+"ll": [
+34.876337,
+33.613231
+],
+"tw": "Larnaca Airport",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4427331591"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "KEM, Larnaca Airport"
+},
+{
+"i": "osm-n5769576653",
+"ll": [
+34.695193,
+33.08754
+],
+"tw": "Germasogeia",
+"ph": "+35799849551",
+"web": "https://www.kalina.rent/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5769576653"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 08:30-20:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Kalina"
+},
+{
+"i": "osm-n5189478817",
+"ll": [
+34.898299,
+33.638065
+],
+"a": "Piyiale Pasa",
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5189478817"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Kamouly Car Rental"
+},
+{
+"i": "osm-n4958165021",
+"ll": [
+34.989317,
+33.967958
+],
+"tw": "Ayia Napa",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4958165021"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Kannias Car Rentals"
+},
+{
+"i": "osm-n948449054",
+"ll": [
+35.015132,
+34.052627
+],
+"tw": "Protaras",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/948449054"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Karatis Travel & Tours"
+},
+{
+"i": "osm-n7126522285",
+"ll": [
+34.970847,
+33.669442
+],
+"tw": "Oroklini",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/7126522285"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Kerrys"
+},
+{
+"i": "osm-n2095054054",
+"ll": [
+34.976485,
+33.682182
+],
+"a": "Larnaca-Dhekelia Road 7080",
+"tw": "Pyla",
+"ph": "+357 24 647676",
+"web": "https://www.krc.com.cy/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2095054054"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Fr 08:00-20:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Kikis Rent a Car"
+},
+{
+"i": "osm-n5193381523",
+"ll": [
+34.917979,
+33.636125
+],
+"tw": "Larnaca",
+"ph": "+35799620808",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5193381523"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 08:00-19:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Koukounis car rental"
+},
+{
+"i": "osm-n957644337",
+"ll": [
+35.000355,
+34.062966
+],
+"tw": "Protaras",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/957644337"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Koullouris Car Hire"
+},
+{
+"i": "osm-n12142451530",
+"ll": [
+35.145964,
+33.359019
+],
+"a": "Λεωφόρος Αθαλάσσης 87",
+"tw": "Στρόβολος",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12142451530"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Kyrenia car hire"
+},
+{
+"i": "osm-n11809579052",
+"ll": [
+35.033142,
+32.413144
+],
+"a": "Λεωφόρος Ακάμαντος 37",
+"tw": "Polis",
+"ph": "+357 99153524",
+"web": "http://www.latchiquads.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11809579052"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 08:00-20:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "L. Tsaggaras 79 Moto Rentals"
+},
+{
+"i": "osm-n4760038147",
+"ll": [
+35.027446,
+34.041295
+],
+"a": "Afroditis",
+"tw": "Protaras",
+"ph": "+357 23 721830",
+"web": "https://cyprus-is.com/listing/l-m-a-touristic-ltd-102252/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4760038147"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "L.M.A. Car Hire"
+},
+{
+"i": "osm-n5727372464",
+"ll": [
+34.901505,
+33.630674
+],
+"a": "Λεωφόρος Αρτέμιδος 95",
+"tw": "Larnaca",
+"ph": "+35799176069",
+"web": "https://lanarent.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5727372464"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "carhire",
+"cat": "Car hire",
+"n": "Lanarent"
+},
+{
+"i": "osm-n14280890717",
+"ll": [
+34.917882,
+33.634882
+],
+"a": "Grigori Afxentiou 9",
+"tw": "Larnaca",
+"ph": "+357 94004999",
+"web": "https://www.laythcar.com",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/14280890717"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "carhire",
+"cat": "Car hire",
+"n": "Layth Rent a Car"
+},
+{
+"i": "osm-n9666899128",
+"ll": [
+34.683362,
+32.607124
+],
+"a": "Aphrodite Avenue 3",
+"tw": "Aphrodite Hills",
+"ph": "+357-25320000",
+"web": "https://www.leos.com.cy/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9666899128"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 09:00-21:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Leos Car Rentals, Aphrodite Hills",
+"brand": "LEOS CAR RENTALS"
+},
+{
+"i": "osm-n4414473892",
+"ll": [
+34.710301,
+33.129007
+],
+"a": "Leoforos Amathountos 108",
+"tw": "LIMASSOL",
+"ph": "+357-25320000",
+"web": "https://www.leos.com.cy/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4414473892"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 08:00-18:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Leos Car Rentals, LIMASSOL",
+"brand": "LEOS CAR RENTALS"
+},
+{
+"i": "osm-n5200667700",
+"ll": [
+34.868922,
+33.59626
+],
+"a": "Agriniou 1",
+"tw": "Larnaca",
+"ph": "+35725320000",
+"web": "https://www.leos.com.cy/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5200667700"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Fr 09:00-17:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Leos Car Rentals, Larnaca",
+"brand": "LEOS CAR RENTALS"
+},
+{
+"i": "osm-n14183540865",
+"ll": [
+34.698484,
+33.09675
+],
+"tw": "Germasogeia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/14183540865"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Limo"
+},
+{
+"i": "osm-n9509940041",
+"ll": [
+34.693047,
+33.081376
+],
+"tw": "Germasogeia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9509940041"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Lucky"
+},
+{
+"i": "osm-n5645771221",
+"ll": [
+34.987911,
+34.004617
+],
+"tw": "Ayia Napa",
+"ph": "+35799277168",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5645771221"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 09:00-17:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Macao Rentals"
+},
+{
+"i": "osm-w766507119",
+"ll": [
+34.988502,
+33.98411
+],
+"tw": "Ayia Napa",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/766507119"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Markos"
+},
+{
+"i": "osm-n4297551389",
+"ll": [
+34.751841,
+32.421683
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4297551389"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Mary's car rental"
+},
+{
+"i": "osm-n5247753627",
+"ll": [
+34.707754,
+33.121219
+],
+"tw": "Agios Tychonas",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5247753627"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Maxim"
+},
+{
+"i": "osm-n5630210021",
+"ll": [
+34.772141,
+32.41047
+],
+"a": "Λεωφόρος Τάφων των Βασιλέων",
+"tw": "Paphos",
+"ph": "0035726819880",
+"web": "https://www.cypruscarhire.com.cy/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5630210021"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "carhire",
+"cat": "Car hire",
+"n": "Michael’s Rent - A - Car"
+},
+{
+"i": "osm-n4300081689",
+"ll": [
+34.989408,
+33.979233
+],
+"a": "9",
+"tw": "Ayia Napa",
+"ph": "70009444",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4300081689"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Moto team"
+},
+{
+"i": "osm-n12244400284",
+"ll": [
+35.153863,
+33.338864
+],
+"a": "Σταδίου 63",
+"tw": "Strovolos",
+"ph": "+357 22 103103",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12244400284"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Neon Taxi"
+},
+{
+"i": "osm-n12311726425",
+"ll": [
+34.759294,
+32.412121
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12311726425"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Nestor"
+},
+{
+"i": "osm-n12656785010",
+"ll": [
+35.158994,
+33.343048
+],
+"tw": "Strovolos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12656785010"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Nu Way"
+},
+{
+"i": "osm-n1545653190",
+"ll": [
+34.69491,
+33.086219
+],
+"a": "Vasileos Georgiou I 79a",
+"tw": "Germasogeia",
+"ph": "+357-25431643",
+"web": "www.oasisrent.com.cy",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1545653190"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Oasis"
+},
+{
+"i": "osm-n14163309288",
+"ll": [
+34.714541,
+33.164434
+],
+"tw": "Parekklisia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/14163309288"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Origin"
+},
+{
+"i": "osm-n10722037437",
+"ll": [
+35.018383,
+34.045338
+],
+"tw": "Protaras",
+"ph": "+357 99 283816; +357 99 595073; +357 23 820150",
+"web": "https://www.protarascarrentals.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/10722037437"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: 08:00-19:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "P & P Rentals Ltd"
+},
+{
+"i": "osm-n4353023693",
+"ll": [
+34.715409,
+33.161994
+],
+"tw": "Parekklisia",
+"ph": "+35799161166",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4353023693"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Pandelis & Son"
+},
+{
+"i": "osm-n14246406784",
+"ll": [
+34.807454,
+32.397216
+],
+"tw": "Chloraka",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/14246406784"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Paris K. Rental"
+},
+{
+"i": "osm-n4753208621",
+"ll": [
+34.755644,
+32.419322
+],
+"tw": "Paphos",
+"ph": "+35726941965",
+"web": "https://pentarasrentals.com",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4753208621"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Pentaras Rentals"
+},
+{
+"i": "osm-n1012845960",
+"ll": [
+34.703611,
+33.109162
+],
+"tw": "Mouttagiaka",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1012845960"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Pentayitis"
+},
+{
+"i": "osm-n4516622589",
+"ll": [
+35.038994,
+32.402043
+],
+"tw": "Latchi",
+"ph": "00 357 99 402347",
+"web": "https://cyprus-rent-a-car.info/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4516622589"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Petrides Rentals"
+},
+{
+"i": "osm-n12691252492",
+"ll": [
+35.032265,
+32.414574
+],
+"tw": "Polis",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12691252492"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Petrides Y. Rentals Ltd"
+},
+{
+"i": "osm-n12718209133",
+"ll": [
+35.148581,
+33.374423
+],
+"tw": "Aglantzia",
+"ph": "+357 22 456450",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12718209133"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Petsas, Aglantzia"
+},
+{
+"i": "osm-n552615654",
+"ll": [
+34.698769,
+33.097551
+],
+"tw": "Germasogeia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/552615654"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Petsas, Germasogeia"
+},
+{
+"i": "osm-n14208157478",
+"ll": [
+34.870894,
+33.607386
+],
+"tw": "Larnaca Airport",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/14208157478"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "carhire",
+"cat": "Car hire",
+"n": "Petsas, Larnaca Airport"
+},
+{
+"i": "osm-n9259619751",
+"ll": [
+34.71214,
+32.489636
+],
+"tw": "Timi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9259619751"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Petsas, Timi"
+},
+{
+"i": "osm-n5700023122",
+"ll": [
+35.016139,
+34.05076
+],
+"tw": "Protaras",
+"ph": "+357 23 832292;+357 99 577771",
+"web": "https://phelenarentals.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5700023122"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Phelena Rent A Car"
+},
+{
+"i": "osm-n7279950685",
+"ll": [
+34.738142,
+32.438609
+],
+"a": "Kar & Emilie Widmaier",
+"tw": "Geroskipou",
+"ph": "+35795566123",
+"web": "https://cypruscarrent.info/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/7279950685"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 08:00-20:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Phinist, Geroskipou"
+},
+{
+"i": "osm-n6539322186",
+"ll": [
+34.767187,
+32.410713
+],
+"a": "Λεωφόρος Τάφων των Βασιλέων 26",
+"tw": "Paphos",
+"ph": "+35796818624",
+"web": "https://www.cypruscarrent.info/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/6539322186"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: 24/7; Mo-Su 08:00-18:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Phinist, Paphos"
+},
+{
+"i": "osm-n2514314870",
+"ll": [
+35.030644,
+34.037781
+],
+"tw": "Protaras",
+"ph": "+357 23 833 130;+357 97 683 299",
+"web": "https://www.facebook.com/platontravel/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2514314870"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Platon Travel & Tours"
+},
+{
+"i": "osm-n4350101990",
+"ll": [
+34.708485,
+33.122785
+],
+"a": "Onisilou",
+"tw": "Limassol",
+"ph": "+357 25 315355",
+"web": "https://privilegerentacar.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4350101990"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Privilege Rent a Car"
+},
+{
+"i": "osm-n10724015235",
+"ll": [
+35.017061,
+34.046494
+],
+"a": "Leoforos Protara-Cavo Greco",
+"tw": "Protaras",
+"ph": "+357 23 833133;+357 96 483040;+357 99 339083",
+"web": "https://www.protrusmoto.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/10724015235"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Prot R Us Moto"
+},
+{
+"i": "osm-n2095053921",
+"ll": [
+34.979113,
+33.694516
+],
+"tw": "Pyla",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2095053921"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Quad Bike Safari"
+},
+{
+"i": "osm-n13276144050",
+"ll": [
+34.918991,
+33.636463
+],
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/13276144050"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Rent A Car"
+},
+{
+"i": "osm-n4460167589",
+"ll": [
+34.983165,
+34.001486
+],
+"tw": "Ayia Napa",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4460167589"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Rent Buggy, ATV, Motorbike"
+},
+{
+"i": "osm-n7247417757",
+"ll": [
+34.916916,
+33.609972
+],
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/7247417757"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "RentSyst"
+},
+{
+"i": "osm-n14226141989",
+"ll": [
+34.804383,
+32.398034
+],
+"tw": "Chloraka",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/14226141989"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "RentaMania"
+},
+{
+"i": "osm-n984872316",
+"ll": [
+34.756719,
+32.412122
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/984872316"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Rental Car"
+},
+{
+"i": "osm-n14183580401",
+"ll": [
+34.689452,
+33.071144
+],
+"tw": "Agios Athanasios",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/14183580401"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Rental Car Cyprus"
+},
+{
+"i": "osm-n5200667701",
+"ll": [
+34.868965,
+33.596168
+],
+"tw": "Dromolaxia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5200667701"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Rhodium"
+},
+{
+"i": "osm-n9066613018",
+"ll": [
+34.869068,
+33.601687
+],
+"tw": "Larnaca Airport",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9066613018"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Right Car"
+},
+{
+"i": "osm-w537002138",
+"ll": [
+34.876764,
+33.592057
+],
+"a": "25is Maritou",
+"tw": "Dromolaxia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/537002138"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Right Cars"
+},
+{
+"i": "osm-n952766708",
+"ll": [
+35.016835,
+34.049899
+],
+"a": "Leoforos Protara 16",
+"tw": "Protaras",
+"ph": "+357 23 819 400;+357 99 668 037",
+"web": "https://cy.revieweuro.com/cyprus/roadsun-rent-a-car-ltd-159599",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/952766708"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Road Sun"
+},
+{
+"i": "osm-n9784089425",
+"ll": [
+34.987944,
+34.002821
+],
+"tw": "Ayia Napa",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9784089425"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Roadcar, Ayia Napa"
+},
+{
+"i": "osm-w444663085",
+"ll": [
+34.986087,
+34.068367
+],
+"tw": "Protaras",
+"web": "http://www.hirecarayianapa.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/444663085"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Roadcar, Protaras"
+},
+{
+"i": "osm-n11038801633",
+"ll": [
+34.704107,
+33.110509
+],
+"tw": "Agios Tychonas",
+"ph": "99434255",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11038801633"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "S. Gregoriou"
+},
+{
+"i": "osm-n4850239324",
+"ll": [
+34.753092,
+32.421023
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4850239324"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "S.M.Quads"
+},
+{
+"i": "osm-n14208157471",
+"ll": [
+34.870928,
+33.60744
+],
+"tw": "Larnaca Airport",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/14208157471"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "SIXT, Larnaca Airport",
+"brand": "SIXT"
+},
+{
+"i": "osm-w1252944243",
+"ll": [
+34.861003,
+33.596161
+],
+"tw": "Meneou",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1252944243"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "SIXT, Meneou",
+"brand": "SIXT"
+},
+{
+"i": "osm-n962316571",
+"ll": [
+35.018751,
+34.044729
+],
+"tw": "Protaras",
+"web": "https://www.sixt.com/car-rental/cyprus/protaras/#/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/962316571"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "SIXT, Protaras",
+"brand": "SIXT"
+},
+{
+"i": "osm-n12194329609",
+"ll": [
+35.143847,
+33.374148
+],
+"tw": "Strovolos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12194329609"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "SIXT, Strovolos",
+"brand": "SIXT"
+},
+{
+"i": "osm-n10678537521",
+"ll": [
+34.766211,
+32.444741
+],
+"tw": "Geroskipou",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/10678537521"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "carhire",
+"cat": "Car hire",
+"n": "SavEli Rental"
+},
+{
+"i": "osm-n5105346421",
+"ll": [
+34.853807,
+32.379146
+],
+"tw": "Peyia",
+"ph": "26622880",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5105346421"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Sea Caves"
+},
+{
+"i": "osm-n5191747718",
+"ll": [
+34.915864,
+33.62556
+],
+"a": "Leonida Kioupi",
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5191747718"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Self Drive Cars"
+},
+{
+"i": "osm-n4312222490",
+"ll": [
+34.766566,
+32.410369
+],
+"a": "Λεωφόρος Τάφων των Βασιλέων 15",
+"tw": "Paphos",
+"ph": "+357 97623543;0035797623543",
+"web": "https://www.simila-cyprus.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4312222490"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Fr 09:00-13:00; Sa 10:00-14:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Simila Cyprus"
+},
+{
+"i": "osm-n9752987050",
+"ll": [
+34.699562,
+33.099194
+],
+"tw": "Germasogeia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9752987050"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Simply"
+},
+{
+"i": "osm-n11928144833",
+"ll": [
+34.872369,
+33.607893
+],
+"tw": "Larnaca Airport",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11928144833"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Sixt, Larnaca Airport"
+},
+{
+"i": "osm-n13278287129",
+"ll": [
+34.871869,
+33.607217
+],
+"tw": "Larnaca Airport",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/13278287129"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Sixt, Larnaca Airport"
+},
+{
+"i": "osm-w1450640571",
+"ll": [
+34.71206,
+32.489492
+],
+"tw": "Timi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1450640571"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Sixt, Timi",
+"brand": "Sixt"
+},
+{
+"i": "osm-n4865570521",
+"ll": [
+34.771976,
+32.410549
+],
+"a": "Λεωφόρος Τάφων των Βασιλέων 58",
+"tw": "Πάφος",
+"web": "https://www.sixt.com/car-rental/cyprus/paphos/paphos-west/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4865570521"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Fr 08:00-13:00, 16:00-18:00; Sa 08:00-13:00; PH 08:30-13:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Sixt, Πάφος",
+"brand": "SIXT"
+},
+{
+"i": "osm-n12772774311",
+"ll": [
+35.144721,
+33.363418
+],
+"a": "Pentelis 33a",
+"tw": "Στρόβολος",
+"ph": "+357 94096493",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12772774311"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Smart Shift Car Rent"
+},
+{
+"i": "osm-n5247753632",
+"ll": [
+34.70698,
+33.119291
+],
+"tw": "Agios Tychonas",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5247753632"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Stasino"
+},
+{
+"i": "osm-n9749824543",
+"ll": [
+34.692371,
+33.079217
+],
+"tw": "Agios Athanasios",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9749824543"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Stavros Aresti"
+},
+{
+"i": "osm-w537003430",
+"ll": [
+34.876169,
+33.594813
+],
+"a": "Omonias",
+"tw": "Dromolaxia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/537003430"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "SurPrice Car Rentals"
+},
+{
+"i": "osm-n11335928771",
+"ll": [
+34.93079,
+33.637581
+],
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11335928771"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "TGJ Cruise"
+},
+{
+"i": "osm-n13311458903",
+"ll": [
+35.039355,
+33.981619
+],
+"tw": "Paralimni",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/13311458903"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Taxi"
+},
+{
+"i": "osm-n5906402191",
+"ll": [
+34.983249,
+34.002788
+],
+"tw": "Ayia Napa",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5906402191"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 08:00-19:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "The drivers rent a car"
+},
+{
+"i": "osm-n14183522655",
+"ll": [
+34.690638,
+33.074328
+],
+"tw": "Germasogeia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/14183522655"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Theocharis"
+},
+{
+"i": "osm-n952658656",
+"ll": [
+35.017405,
+34.048629
+],
+"tw": "Protaras",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/952658656"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Thisvi Travel & Tours"
+},
+{
+"i": "osm-n4826958222",
+"ll": [
+34.771026,
+32.410225
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4826958222"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Thunder Motorsports"
+},
+{
+"i": "osm-n11896977207",
+"ll": [
+34.927942,
+33.636094
+],
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11896977207"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Trusted"
+},
+{
+"i": "osm-n5105344025",
+"ll": [
+34.857756,
+32.365803
+],
+"a": "Laxion",
+"tw": "Peyia",
+"ph": "+357 26 812 376",
+"web": "https://www.u2carhirecyprus.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5105344025"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "U2"
+},
+{
+"i": "osm-n4414919391",
+"ll": [
+34.714329,
+33.165304
+],
+"tw": "Parekklisia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4414919391"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "V&S zeys"
+},
+{
+"i": "osm-n10731079786",
+"ll": [
+35.027563,
+34.042031
+],
+"tw": "Protaras",
+"ph": "+357 23 721774;+357 99669166",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/10731079786"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Viking Rent A Car (Pernera)",
+"brand": "Viking"
+},
+{
+"i": "osm-n9630956891",
+"ll": [
+34.770073,
+32.410397
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9630956891"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Viva Car Hire"
+},
+{
+"i": "osm-n4961733170",
+"ll": [
+34.901365,
+33.63634
+],
+"a": "Umm Haram 89",
+"tw": "Larnaca",
+"ph": "+357 96 790 950",
+"web": "https://www.wheelsandgo.com",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4961733170"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Wheels & Go Car Rentals"
+},
+{
+"i": "osm-n947267893",
+"ll": [
+35.016681,
+34.050802
+],
+"tw": "Protaras",
+"ph": "+357 23 832280;+357 99 605212;+357 99 314100",
+"web": "https://www.windmillscars.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/947267893"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Windmills Car Hire"
+},
+{
+"i": "osm-n9752987041",
+"ll": [
+34.698524,
+33.094994
+],
+"tw": "Germasogeia",
+"ph": "99624104",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9752987041"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Y. Nicolaou"
+},
+{
+"i": "osm-n947267291",
+"ll": [
+35.017284,
+34.050214
+],
+"tw": "Protaras",
+"ph": "+357 99 595958; +357 23 832779; +357 23 831408",
+"web": "https://www.facebook.com/yerimosmotorbikesforhire/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/947267291"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: 09:00-18:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Yerimos Motorbikes"
+},
+{
+"i": "osm-n957286191",
+"ll": [
+35.010006,
+34.058172
+],
+"tw": "Protaras",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/957286191"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Yerimos, Protaras"
+},
+{
+"i": "osm-n957286210",
+"ll": [
+35.005322,
+34.058358
+],
+"tw": "Protaras",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/957286210"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Yerimos, Protaras"
+},
+{
+"i": "osm-n957644945",
+"ll": [
+34.99994,
+34.063371
+],
+"tw": "Protaras",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/957644945"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Yerimos, Protaras"
+},
+{
+"i": "osm-n12592771726",
+"ll": [
+35.126933,
+33.370568
+],
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12592771726"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Yiangou"
+},
+{
+"i": "osm-n11942684440",
+"ll": [
+34.929366,
+33.637351
+],
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11942684440"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "Yiasou"
+},
+{
+"i": "osm-n5729805029",
+"ll": [
+34.986605,
+34.006929
+],
+"tw": "Ayia Napa",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5729805029"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 08:00-22:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "Zorpas rent a car"
+},
+{
+"i": "osm-n5114395625",
+"ll": [
+34.988138,
+34.002992
+],
+"a": "Leoforos Kryou Nerou 3",
+"tw": "Ayia Napa",
+"ph": "+35723722833",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5114395625"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Su 08:30-18:00. Check before you go.",
+"k": "carhire",
+"cat": "Car hire",
+"n": "buggies quads scooters rental"
+},
+{
+"i": "osm-n4832806021",
+"ll": [
+34.991058,
+33.99263
+],
+"tw": "Ayia Napa",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4832806021"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "rents bike"
+},
+{
+"i": "osm-n14209129884",
+"ll": [
+34.709928,
+33.132755
+],
+"tw": "Agios Tychonas",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/14209129884"
+}
+],
+"k": "carhire",
+"cat": "Car hire",
+"n": "ΓΚ"
+},
+{
+"i": "osm-w543331836",
+"ll": [
+34.686712,
+33.038773
+],
+"a": "Λεωφόρος Αρχιεπισκόπου Μακαρίου Γ’ 156",
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/543331836"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "AGD",
+"n": "AGD, Limassol"
+},
+{
+"i": "osm-n30353639",
+"ll": [
+34.763088,
+32.449599
+],
+"tw": "Geroskipou",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/30353639"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Agip",
+"n": "Agip, Geroskipou"
+},
+{
+"i": "osm-w1088090024",
+"ll": [
+34.774008,
+32.459155
+],
+"tw": "Konia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1088090024"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Agip",
+"n": "Agip, Konia"
+},
+{
+"i": "osm-n5129480000",
+"ll": [
+34.681359,
+33.038692
+],
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5129480000"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Agip",
+"n": "Agip, Limassol",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-n9708014790",
+"ll": [
+34.692987,
+33.025765
+],
+"a": "Leoforos Spyrou Kyprianou",
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9708014790"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Agip",
+"n": "Agip, Limassol"
+},
+{
+"i": "osm-w87089816",
+"ll": [
+34.706146,
+33.116107
+],
+"a": "Leoforos Amathountos 54",
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/87089816"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Agip",
+"n": "Agip, Limassol",
+"fuels": [
+"95",
+"98",
+"Diesel"
+],
+"self": true
+},
+{
+"i": "osm-w247763927",
+"ll": [
+34.953851,
+33.651645
+],
+"tw": "Livadia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/247763927"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Agip",
+"n": "Agip, Livadia"
+},
+{
+"i": "osm-n40872087",
+"ll": [
+34.805003,
+32.445359
+],
+"tw": "Mesogi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/40872087"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Agip",
+"n": "Agip, Mesogi"
+},
+{
+"i": "osm-n216608995",
+"ll": [
+35.165797,
+33.382205
+],
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/216608995"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Agip",
+"n": "Agip, Nicosia"
+},
+{
+"i": "osm-n3578245749",
+"ll": [
+34.78387,
+32.406097
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/3578245749"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Agip",
+"n": "Agip, Paphos",
+"fuels": [
+"95",
+"98"
+]
+},
+{
+"i": "osm-n1915596168",
+"ll": [
+35.02691,
+33.983003
+],
+"tw": "Paralimni",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1915596168"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Agip",
+"n": "Agip, Paralimni",
+"fuels": [
+"95",
+"98",
+"Diesel",
+"LPG"
+]
+},
+{
+"i": "osm-n3416682602",
+"ll": [
+35.124501,
+33.933801
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/3416682602"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Alpet",
+"n": "Alpet"
+},
+{
+"i": "osm-n3538658212",
+"ll": [
+35.114501,
+33.938691
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/3538658212"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Alpet",
+"n": "Alpet"
+},
+{
+"i": "osm-w335055777",
+"ll": [
+35.12763,
+33.923213
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/335055777"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Alpet",
+"n": "Alpet"
+},
+{
+"i": "osm-n11568788710",
+"ll": [
+35.183528,
+33.358666
+],
+"tw": "Aglantzia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11568788710"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Alpet",
+"n": "Alpet, Aglantzia"
+},
+{
+"i": "osm-w539474761",
+"ll": [
+35.182847,
+33.36281
+],
+"a": "Cemal Gürsel Cadessi",
+"tw": "Lefkoşa",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/539474761"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Alpet",
+"n": "Alpet, Lefkoşa"
+},
+{
+"i": "osm-w534985693",
+"ll": [
+35.156599,
+33.335625
+],
+"tw": "Nisou",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/534985693"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Castrol",
+"n": "Castrol, Nisou"
+},
+{
+"i": "osm-n726624001",
+"ll": [
+35.070145,
+32.930177
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/726624001"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO"
+},
+{
+"i": "osm-n1680130616",
+"ll": [
+34.927685,
+33.536293
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1680130616"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO"
+},
+{
+"i": "osm-n4084668294",
+"ll": [
+34.742396,
+33.326493
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4084668294"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO"
+},
+{
+"i": "osm-n5537585574",
+"ll": [
+35.002175,
+33.380292
+],
+"tw": "Agia Varvara",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5537585574"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Agia Varvara"
+},
+{
+"i": "osm-n13081837586",
+"ll": [
+34.708696,
+33.038416
+],
+"tw": "Agios Athanasios",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/13081837586"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Agios Athanasios"
+},
+{
+"i": "osm-w667226042",
+"ll": [
+34.700827,
+33.059836
+],
+"tw": "Agios Athanasios",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/667226042"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Agios Athanasios",
+"fuels": [
+"95",
+"98",
+"Diesel"
+],
+"self": true
+},
+{
+"i": "osm-n1620415101",
+"ll": [
+34.852774,
+33.455275
+],
+"tw": "Agklisides",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1620415101"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Agklisides",
+"fuels": [
+"95",
+"Diesel"
+]
+},
+{
+"i": "osm-w539277673",
+"ll": [
+35.156849,
+33.389001
+],
+"a": "Λεωφόρος Αγλαντζιάς",
+"tw": "Aglanatzia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/539277673"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Aglanatzia"
+},
+{
+"i": "osm-n243752004",
+"ll": [
+35.155484,
+33.398418
+],
+"tw": "Aglantzia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/243752004"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Aglantzia"
+},
+{
+"i": "osm-n9712412999",
+"ll": [
+34.682363,
+32.952415
+],
+"tw": "Akrotiri",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9712412999"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Akrotiri",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-n13107561369",
+"ll": [
+34.584695,
+32.978035
+],
+"tw": "Akrotiri",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/13107561369"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Akrotiri"
+},
+{
+"i": "osm-w537014501",
+"ll": [
+34.939126,
+33.601738
+],
+"a": "Kyriakou Matsi Avenue",
+"tw": "Aradippou",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/537014501"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Aradippou"
+},
+{
+"i": "osm-w296071006",
+"ll": [
+35.138313,
+33.05154
+],
+"tw": "Astromeritis",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/296071006"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Astromeritis",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-n2095645399",
+"ll": [
+34.991972,
+33.96216
+],
+"tw": "Ayia Napa",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2095645399"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Ayia Napa"
+},
+{
+"i": "osm-w351634645",
+"ll": [
+34.790646,
+32.422152
+],
+"tw": "Chloraka",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/351634645"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Chloraka"
+},
+{
+"i": "osm-w543203590",
+"ll": [
+34.811626,
+32.430268
+],
+"a": "Leoforos Miltiadi Stylianou",
+"tw": "Chloraka",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/543203590"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Chloraka"
+},
+{
+"i": "osm-w1087768123",
+"ll": [
+35.055127,
+33.942952
+],
+"tw": "Deryneia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1087768123"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Deryneia"
+},
+{
+"i": "osm-n226457644",
+"ll": [
+35.162743,
+33.347169
+],
+"tw": "Egkomi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/226457644"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Egkomi"
+},
+{
+"i": "osm-w536119750",
+"ll": [
+35.168024,
+33.329934
+],
+"a": "Κυριάκου Μάτση",
+"tw": "Engomi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/536119750"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Engomi"
+},
+{
+"i": "osm-w536949909",
+"ll": [
+35.171571,
+33.345641
+],
+"a": "Navarinou",
+"tw": "Engomi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/536949909"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Engomi"
+},
+{
+"i": "osm-w28287573",
+"ll": [
+34.665392,
+32.904616
+],
+"tw": "Episkopi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/28287573"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Episkopi"
+},
+{
+"i": "osm-n11108617701",
+"ll": [
+34.697609,
+33.032523
+],
+"tw": "Germasogeia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11108617701"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Germasogeia",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-w83551721",
+"ll": [
+34.66999,
+33.030848
+],
+"tw": "Germasogeia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/83551721"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Germasogeia"
+},
+{
+"i": "osm-w543141179",
+"ll": [
+34.761565,
+32.451321
+],
+"a": "Λεωφόρος Αρχιεπισκόπου Μακαρίου Γ'",
+"tw": "Geroskipou",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/543141179"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Geroskipou"
+},
+{
+"i": "osm-w201180233",
+"ll": [
+35.052278,
+33.387528
+],
+"tw": "Kallithea",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/201180233"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Kallithea"
+},
+{
+"i": "osm-n12848482767",
+"ll": [
+35.08887,
+33.285749
+],
+"tw": "Kato Deftera",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12848482767"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Kato Deftera"
+},
+{
+"i": "osm-n297506955",
+"ll": [
+34.684976,
+33.013867
+],
+"tw": "Kato Polemidia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/297506955"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Kato Polemidia"
+},
+{
+"i": "osm-n11134683430",
+"ll": [
+34.685859,
+33.024112
+],
+"a": "Νίκου και Δέσποινας Παττίχη",
+"tw": "Kato Polemidia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11134683430"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Kato Polemidia"
+},
+{
+"i": "osm-w543737377",
+"ll": [
+34.68679,
+33.015632
+],
+"a": "Methanon",
+"tw": "Kato Polemidia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/543737377"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Kato Polemidia"
+},
+{
+"i": "osm-n3517231457",
+"ll": [
+34.852727,
+33.580903
+],
+"tw": "Kiti",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/3517231457"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Kiti"
+},
+{
+"i": "osm-w1087745468",
+"ll": [
+34.931201,
+33.623286
+],
+"tw": "Kiti",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1087745468"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Kiti"
+},
+{
+"i": "osm-w1088086311",
+"ll": [
+35.146885,
+33.187992
+],
+"tw": "Kokkinotrimithia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1088086311"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Kokkinotrimithia"
+},
+{
+"i": "osm-w189246467",
+"ll": [
+35.13732,
+33.350694
+],
+"a": "Λεωφόρος Σταυρού",
+"tw": "Lakatamia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/189246467"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Lakatamia"
+},
+{
+"i": "osm-w1229925688",
+"ll": [
+35.11088,
+33.309305
+],
+"a": "Melinas Merkouri 22",
+"tw": "Lakatamia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1229925688"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Lakatamia",
+"fuels": [
+"95",
+"98",
+"Diesel"
+],
+"self": true
+},
+{
+"i": "osm-n701156416",
+"ll": [
+34.916829,
+33.623729
+],
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/701156416"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Larnaca"
+},
+{
+"i": "osm-n1634274126",
+"ll": [
+34.922132,
+33.636269
+],
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1634274126"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Larnaca"
+},
+{
+"i": "osm-n13408755353",
+"ll": [
+34.937064,
+33.641057
+],
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/13408755353"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Larnaca"
+},
+{
+"i": "osm-w535049360",
+"ll": [
+34.909094,
+33.629705
+],
+"a": "Artemidos Avenue",
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/535049360"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Larnaca"
+},
+{
+"i": "osm-w539272583",
+"ll": [
+34.935533,
+33.592872
+],
+"a": "Pavlou Liasidi",
+"tw": "Larnaka",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/539272583"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Larnaka"
+},
+{
+"i": "osm-n14294519088",
+"ll": [
+35.11739,
+33.35668
+],
+"tw": "Latsia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/14294519088"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Latsia"
+},
+{
+"i": "osm-w539267453",
+"ll": [
+35.116821,
+33.377665
+],
+"a": "Giannou Kranidioti Avenue",
+"tw": "Latsia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/539267453"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Latsia"
+},
+{
+"i": "osm-n1626992748",
+"ll": [
+34.664524,
+33.015424
+],
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1626992748"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Limassol"
+},
+{
+"i": "osm-n14081770151",
+"ll": [
+34.673856,
+33.015901
+],
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/14081770151"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Limassol"
+},
+{
+"i": "osm-w265959717",
+"ll": [
+34.686967,
+33.04017
+],
+"a": "Λεωφόρος Αρχιεπισκόπου Μακαρίου Γ’ 162",
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/265959717"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Limassol",
+"fuels": [
+"95",
+"98"
+]
+},
+{
+"i": "osm-w267701980",
+"ll": [
+34.684131,
+33.051022
+],
+"a": "Gladstonos 133",
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/267701980"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Limassol"
+},
+{
+"i": "osm-w543329462",
+"ll": [
+34.687409,
+33.045989
+],
+"a": "Λεωφόρος Αρχιεπισκόπου Μακαρίου Γ’",
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/543329462"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Limassol",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-w982903121",
+"ll": [
+34.704768,
+33.082962
+],
+"a": "Spyrou Kyprianou 60",
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/982903121"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Limassol"
+},
+{
+"i": "osm-w1089079609",
+"ll": [
+34.720745,
+32.53526
+],
+"tw": "Mandria",
+"ph": "+35726422230",
+"web": "https://www.eko.com.cy/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1089079609"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Mandria"
+},
+{
+"i": "osm-w801422783",
+"ll": [
+34.732361,
+33.23283
+],
+"tw": "Monagrouli",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/801422783"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Monagrouli"
+},
+{
+"i": "osm-n232731046",
+"ll": [
+35.172669,
+33.35044
+],
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/232731046"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Nicosia"
+},
+{
+"i": "osm-n2678574936",
+"ll": [
+35.183982,
+33.387995
+],
+"a": "Kantaras",
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2678574936"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Nicosia",
+"fuels": [
+"95",
+"98"
+]
+},
+{
+"i": "osm-w219446103",
+"ll": [
+35.153446,
+33.375297
+],
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/219446103"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Nicosia"
+},
+{
+"i": "osm-w536990878",
+"ll": [
+35.157905,
+33.358074
+],
+"a": "Νίκης",
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/536990878"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Nicosia"
+},
+{
+"i": "osm-w537216372",
+"ll": [
+35.175595,
+33.373139
+],
+"a": "Salaminos",
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/537216372"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Nicosia"
+},
+{
+"i": "osm-w539511317",
+"ll": [
+35.170162,
+33.374505
+],
+"a": "Digeni Akrita",
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/539511317"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Nicosia"
+},
+{
+"i": "osm-n1652803254",
+"ll": [
+34.745672,
+32.999051
+],
+"tw": "Palodia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1652803254"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Palodia"
+},
+{
+"i": "osm-w1035352878",
+"ll": [
+34.92586,
+32.418257
+],
+"tw": "Pano Arodes",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1035352878"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Pano Arodes"
+},
+{
+"i": "osm-w544626923",
+"ll": [
+34.698133,
+33.009285
+],
+"a": "Axiou",
+"tw": "Pano Polemidia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/544626923"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Pano Polemidia"
+},
+{
+"i": "osm-n30469209",
+"ll": [
+34.781487,
+32.444503
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/30469209"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Paphos"
+},
+{
+"i": "osm-w542161522",
+"ll": [
+34.76056,
+32.421841
+],
+"a": "Λεωφόρος Σπύρου Κυπριανού",
+"tw": "Paphos",
+"ph": "26949140",
+"web": "http://facebook.com/ekokatopafos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/542161522"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Paphos"
+},
+{
+"i": "osm-w1330757454",
+"ll": [
+34.77256,
+32.418139
+],
+"a": "Apostolou Pavlou 16",
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1330757454"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Paphos"
+},
+{
+"i": "osm-n1915596576",
+"ll": [
+35.035937,
+33.977866
+],
+"tw": "Paralimni",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1915596576"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Paralimni"
+},
+{
+"i": "osm-w541682571",
+"ll": [
+35.04354,
+33.995049
+],
+"tw": "Paralimni",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/541682571"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Paralimni"
+},
+{
+"i": "osm-n2246837007",
+"ll": [
+34.89106,
+32.958068
+],
+"tw": "Pelendri",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2246837007"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Pelendri"
+},
+{
+"i": "osm-w186566257",
+"ll": [
+35.015641,
+33.40201
+],
+"tw": "Pera Chorio Nisou",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/186566257"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Pera Chorio Nisou"
+},
+{
+"i": "osm-n1680548620",
+"ll": [
+35.008927,
+33.39369
+],
+"tw": "Pera Chorio Nisoy",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1680548620"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Pera Chorio Nisoy"
+},
+{
+"i": "osm-n1490398539",
+"ll": [
+34.876908,
+32.355449
+],
+"tw": "Peyia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1490398539"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Peyia"
+},
+{
+"i": "osm-w221250116",
+"ll": [
+34.864642,
+32.379354
+],
+"tw": "Peyia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/221250116"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Peyia"
+},
+{
+"i": "osm-n10796755819",
+"ll": [
+35.065169,
+32.467591
+],
+"tw": "Polis",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/10796755819"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Polis",
+"self": true
+},
+{
+"i": "osm-w183356714",
+"ll": [
+35.032208,
+32.427458
+],
+"tw": "Polis",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/183356714"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Polis"
+},
+{
+"i": "osm-w181158027",
+"ll": [
+35.02518,
+34.035466
+],
+"tw": "Protaras",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/181158027"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Protaras"
+},
+{
+"i": "osm-n1633085824",
+"ll": [
+34.982973,
+33.717161
+],
+"tw": "Pyla",
+"ph": "+357 24 723251",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1633085824"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Pyla"
+},
+{
+"i": "osm-n4271155389",
+"ll": [
+34.992134,
+33.682837
+],
+"tw": "Pyla",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4271155389"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Pyla"
+},
+{
+"i": "osm-w200961900",
+"ll": [
+34.927484,
+33.413711
+],
+"tw": "Pyrga",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/200961900"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Pyrga"
+},
+{
+"i": "osm-n5681753971",
+"ll": [
+34.815465,
+33.360751
+],
+"tw": "Skarinou",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5681753971"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Skarinou"
+},
+{
+"i": "osm-n6200195785",
+"ll": [
+35.02518,
+33.963219
+],
+"tw": "Sotira",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/6200195785"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Sotira"
+},
+{
+"i": "osm-n12279608173",
+"ll": [
+35.143752,
+33.364029
+],
+"tw": "Strovolos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12279608173"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Strovolos"
+},
+{
+"i": "osm-n12350717515",
+"ll": [
+35.124169,
+33.372276
+],
+"tw": "Strovolos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12350717515"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Strovolos"
+},
+{
+"i": "osm-w202343279",
+"ll": [
+35.124665,
+33.350548
+],
+"a": "Spyrou Kyprianou Avenue",
+"tw": "Strovolos",
+"web": "https://www.eko.com.cy/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/202343279"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo,Tu,Th,Fr 06:00-18:00; We,Sa 06:00-15:00. Check before you go.",
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Strovolos",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-w379432453",
+"ll": [
+35.157544,
+33.3521
+],
+"tw": "Strovolos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/379432453"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Strovolos",
+"fuels": [
+"95",
+"Diesel"
+]
+},
+{
+"i": "osm-w537023162",
+"ll": [
+35.133107,
+33.329391
+],
+"a": "Λεωφόρος Στροβόλου",
+"tw": "Strovolos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/537023162"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Strovolos"
+},
+{
+"i": "osm-w538834334",
+"ll": [
+35.106148,
+33.330702
+],
+"a": "Tseriou",
+"tw": "Strovolos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/538834334"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Strovolos"
+},
+{
+"i": "osm-w1109780020",
+"ll": [
+35.154688,
+33.332018
+],
+"tw": "Strovolos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1109780020"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Strovolos"
+},
+{
+"i": "osm-n12098393486",
+"ll": [
+34.710518,
+32.490356
+],
+"tw": "Timi",
+"ph": "+35726222001",
+"web": "https://www.eko.com.cy/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12098393486"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Timi",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-w199391817",
+"ll": [
+34.9715,
+33.654821
+],
+"tw": "Voroklini",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/199391817"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Voroklini"
+},
+{
+"i": "osm-n1633014349",
+"ll": [
+34.977747,
+33.838983
+],
+"tw": "Xylofagou",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1633014349"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Xylofagou"
+},
+{
+"i": "osm-n4346658389",
+"ll": [
+35.023433,
+33.744179
+],
+"tw": "Xylotymvou",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4346658389"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Xylotymvou"
+},
+{
+"i": "osm-n4632523393",
+"ll": [
+34.674143,
+32.988416
+],
+"tw": "Ypsonas",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4632523393"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Ypsonas"
+},
+{
+"i": "osm-w537494484",
+"ll": [
+35.16873,
+33.363073
+],
+"a": "Λεωφόρος Στασίνου 29a",
+"tw": "Λευκωσία",
+"ph": "+35722755121",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/537494484"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Λευκωσία",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-w202196021",
+"ll": [
+35.131537,
+33.361082
+],
+"a": "Λεωφόρος Δημοκρατίας",
+"tw": "Στρόβολος",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/202196021"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Στρόβολος"
+},
+{
+"i": "osm-w846197321",
+"ll": [
+35.142,
+33.368836
+],
+"a": "Λεωφόρος Αθαλάσσης 152",
+"tw": "Στρόβολος",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/846197321"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "EKO",
+"n": "EKO, Στρόβολος"
+},
+{
+"i": "osm-n1629636621",
+"ll": [
+34.916974,
+33.623976
+],
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1629636621"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Eni",
+"n": "Eni, Larnaca"
+},
+{
+"i": "osm-w100599565",
+"ll": [
+35.122403,
+33.340505
+],
+"a": "Λεωφόρος Σπύρου Κυπριανού",
+"tw": "Strovolos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/100599565"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Eni",
+"n": "Eni, Strovolos"
+},
+{
+"i": "osm-n312220810",
+"ll": [
+34.675479,
+32.842918
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/312220810"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso"
+},
+{
+"i": "osm-n1680489702",
+"ll": [
+34.95207,
+33.419095
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1680489702"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso"
+},
+{
+"i": "osm-n4757810051",
+"ll": [
+35.081027,
+33.873401
+],
+"tw": "Acheriou",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4757810051"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Acheriou"
+},
+{
+"i": "osm-n11577078680",
+"ll": [
+34.70931,
+33.060651
+],
+"tw": "Agios Athanasios",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11577078680"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Agios Athanasios"
+},
+{
+"i": "osm-w543963103",
+"ll": [
+34.696769,
+33.069061
+],
+"a": "Kolonakiou",
+"tw": "Agios Athanasios",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/543963103"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Agios Athanasios"
+},
+{
+"i": "osm-w203006721",
+"ll": [
+35.172464,
+33.323218
+],
+"a": "Grigori Afxentiou",
+"tw": "Agios Dometios",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/203006721"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Agios Dometios"
+},
+{
+"i": "osm-w538858409",
+"ll": [
+35.164164,
+33.333203
+],
+"a": "Agiou Nikolaou",
+"tw": "Agios Dometios",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/538858409"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Agios Dometios"
+},
+{
+"i": "osm-n726629099",
+"ll": [
+35.137014,
+33.141786
+],
+"tw": "Akaki",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/726629099"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Akaki"
+},
+{
+"i": "osm-n5927741900",
+"ll": [
+35.068329,
+32.472017
+],
+"tw": "Argaka",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5927741900"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Argaka"
+},
+{
+"i": "osm-w635004292",
+"ll": [
+35.055384,
+33.532907
+],
+"tw": "Athienou",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/635004292"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Athienou",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-w543182080",
+"ll": [
+34.800043,
+32.414488
+],
+"a": "Makariou III",
+"tw": "Chloraka",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/543182080"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Chloraka"
+},
+{
+"i": "osm-w545301786",
+"ll": [
+35.056637,
+33.971113
+],
+"a": "Eleftherias Avenue",
+"tw": "Deryneia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/545301786"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Deryneia"
+},
+{
+"i": "osm-w536119748",
+"ll": [
+35.168092,
+33.331875
+],
+"a": "Κυριάκου Μάτση",
+"tw": "Engomi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/536119748"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Engomi"
+},
+{
+"i": "osm-w28287658",
+"ll": [
+34.667446,
+32.909492
+],
+"tw": "Episkopi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/28287658"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Episkopi"
+},
+{
+"i": "osm-n4354608890",
+"ll": [
+35.04633,
+33.929082
+],
+"tw": "Frenaros",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4354608890"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Frenaros"
+},
+{
+"i": "osm-w537216370",
+"ll": [
+35.174155,
+33.373423
+],
+"a": "Solonos Michailidi",
+"tw": "Kaimakli",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/537216370"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Kaimakli"
+},
+{
+"i": "osm-w428222362",
+"ll": [
+35.080822,
+33.273501
+],
+"tw": "Kato Devtera",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/428222362"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Kato Devtera",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-n1628175751",
+"ll": [
+34.852049,
+33.579583
+],
+"tw": "Kiti",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1628175751"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Kiti"
+},
+{
+"i": "osm-w1088085115",
+"ll": [
+35.14825,
+33.203568
+],
+"tw": "Kokkinotrimithia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1088085115"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Kokkinotrimithia"
+},
+{
+"i": "osm-n8847759517",
+"ll": [
+34.726824,
+32.569121
+],
+"a": "Asprokremmou 10",
+"tw": "Kouklia",
+"ph": "+357 26 222507",
+"web": "https://www.essofuelfinder.com.cy/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/8847759517"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Kouklia",
+"fuels": [
+"95",
+"98"
+]
+},
+{
+"i": "osm-w202593339",
+"ll": [
+35.123738,
+33.321981
+],
+"a": "Strovolou Avenue",
+"tw": "Lakatamia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/202593339"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Lakatamia"
+},
+{
+"i": "osm-w1222236353",
+"ll": [
+35.128857,
+33.324672
+],
+"a": "Λεωφόρος Στροβόλου",
+"tw": "Lakatamia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1222236353"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Lakatamia",
+"fuels": [
+"95",
+"98"
+]
+},
+{
+"i": "osm-n1634326667",
+"ll": [
+34.925604,
+33.615847
+],
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1634326667"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Larnaca"
+},
+{
+"i": "osm-w124721888",
+"ll": [
+34.938631,
+33.641529
+],
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/124721888"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Larnaca"
+},
+{
+"i": "osm-w506405739",
+"ll": [
+34.911085,
+33.61369
+],
+"a": "Leoforos Faneromenis",
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/506405739"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Larnaca"
+},
+{
+"i": "osm-w535707096",
+"ll": [
+34.918754,
+33.618617
+],
+"a": "Griva Digeni Avenue",
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/535707096"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Larnaca"
+},
+{
+"i": "osm-n1680675933",
+"ll": [
+35.097655,
+33.379245
+],
+"tw": "Latsia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1680675933"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Latsia"
+},
+{
+"i": "osm-n2334138395",
+"ll": [
+35.106195,
+33.396905
+],
+"tw": "Latsia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2334138395"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Latsia"
+},
+{
+"i": "osm-n1859765896",
+"ll": [
+34.674039,
+33.023174
+],
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1859765896"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Limassol",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-n4917697422",
+"ll": [
+34.67445,
+33.013916
+],
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4917697422"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Limassol"
+},
+{
+"i": "osm-n8992179604",
+"ll": [
+34.70229,
+33.027992
+],
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/8992179604"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Limassol"
+},
+{
+"i": "osm-w87089819",
+"ll": [
+34.708607,
+33.123894
+],
+"a": "Onisilou 1",
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/87089819"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Limassol"
+},
+{
+"i": "osm-w187105205",
+"ll": [
+34.672025,
+33.037297
+],
+"a": "Tzelal Bagiar",
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/187105205"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Limassol",
+"fuels": [
+"95",
+"98",
+"Diesel"
+],
+"self": true
+},
+{
+"i": "osm-w442425281",
+"ll": [
+34.71812,
+33.163547
+],
+"a": "Grigori Afxentiou 1/5",
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/442425281"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Limassol"
+},
+{
+"i": "osm-w543406315",
+"ll": [
+34.682963,
+33.044216
+],
+"a": "Αγίας Ζώνης",
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/543406315"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Limassol"
+},
+{
+"i": "osm-w543785663",
+"ll": [
+34.69793,
+33.043575
+],
+"a": "Leoforos Spyrou Kyprianou",
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/543785663"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Limassol"
+},
+{
+"i": "osm-w1179961428",
+"ll": [
+34.657353,
+33.000283
+],
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1179961428"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Limassol",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-n12853250414",
+"ll": [
+35.012557,
+33.898374
+],
+"tw": "Liopetri",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12853250414"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Liopetri"
+},
+{
+"i": "osm-w1087747251",
+"ll": [
+35.012585,
+33.898396
+],
+"tw": "Liopetri",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1087747251"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Liopetri"
+},
+{
+"i": "osm-n12881143024",
+"ll": [
+34.998185,
+33.454712
+],
+"tw": "Lympia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12881143024"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Lympia"
+},
+{
+"i": "osm-n1678489409",
+"ll": [
+34.949362,
+33.312837
+],
+"tw": "Mathiatis",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1678489409"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Mathiatis"
+},
+{
+"i": "osm-n3508446967",
+"ll": [
+34.79952,
+32.441148
+],
+"tw": "Mesogi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/3508446967"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Mesogi"
+},
+{
+"i": "osm-w180106177",
+"ll": [
+35.129124,
+33.363933
+],
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/180106177"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Nicosia",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-w537174474",
+"ll": [
+35.162285,
+33.366685
+],
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/537174474"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Nicosia"
+},
+{
+"i": "osm-w537203260",
+"ll": [
+35.166844,
+33.370308
+],
+"a": "Digeni Akrita Avenue",
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/537203260"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Nicosia"
+},
+{
+"i": "osm-w540240166",
+"ll": [
+35.162909,
+33.356186
+],
+"a": "Λεωφόρος Γρίβα Διγενή",
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/540240166"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Nicosia"
+},
+{
+"i": "osm-w540264883",
+"ll": [
+35.184351,
+33.389184
+],
+"a": "Kantaras",
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/540264883"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Nicosia"
+},
+{
+"i": "osm-n2079147640",
+"ll": [
+34.704334,
+33.003345
+],
+"tw": "Pano Polemidia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2079147640"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Pano Polemidia"
+},
+{
+"i": "osm-w85334022",
+"ll": [
+34.776158,
+32.442683
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/85334022"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Paphos"
+},
+{
+"i": "osm-w483662672",
+"ll": [
+34.778156,
+32.40692
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/483662672"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Paphos"
+},
+{
+"i": "osm-w542093807",
+"ll": [
+34.778024,
+32.42366
+],
+"a": "Evagora Pallikaridi",
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/542093807"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Paphos",
+"fuels": [
+"95",
+"98"
+]
+},
+{
+"i": "osm-w545115649",
+"ll": [
+35.02264,
+33.984926
+],
+"tw": "Paralimni",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/545115649"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Paralimni"
+},
+{
+"i": "osm-n1652848217",
+"ll": [
+34.756651,
+32.990958
+],
+"tw": "Paramytha",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1652848217"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Paramytha"
+},
+{
+"i": "osm-n4496281589",
+"ll": [
+34.748755,
+33.160882
+],
+"tw": "Parekklisia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4496281589"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Parekklisia",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-n4437335813",
+"ll": [
+34.681953,
+32.702228
+],
+"tw": "Pissouri",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4437335813"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Pissouri"
+},
+{
+"i": "osm-w781493209",
+"ll": [
+34.726274,
+33.205426
+],
+"tw": "Pyrgos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/781493209"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Pyrgos",
+"fuels": [
+"95",
+"98",
+"Diesel",
+"LPG"
+]
+},
+{
+"i": "osm-w350365786",
+"ll": [
+34.876687,
+32.482293
+],
+"tw": "Stroumpi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/350365786"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Stroumpi"
+},
+{
+"i": "osm-n737476123",
+"ll": [
+35.146513,
+33.32788
+],
+"tw": "Strovolos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/737476123"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Strovolos"
+},
+{
+"i": "osm-w189213965",
+"ll": [
+35.121638,
+33.340383
+],
+"a": "Spyrou Kyprianou Avenue",
+"tw": "Strovolos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/189213965"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Strovolos"
+},
+{
+"i": "osm-w219444993",
+"ll": [
+35.142477,
+33.374487
+],
+"tw": "Strovolos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/219444993"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Strovolos"
+},
+{
+"i": "osm-w422343877",
+"ll": [
+35.155418,
+33.333722
+],
+"tw": "Strovolos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/422343877"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Strovolos"
+},
+{
+"i": "osm-w537016276",
+"ll": [
+35.156612,
+33.358121
+],
+"a": "Νίκης",
+"tw": "Strovolos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/537016276"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: PH,Mo-Su 00:00-24:00. Check before you go.",
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Strovolos"
+},
+{
+"i": "osm-w1320124033",
+"ll": [
+35.148759,
+33.346641
+],
+"a": "Λεωφόρος Στροβόλου",
+"tw": "Strovolos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1320124033"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Strovolos"
+},
+{
+"i": "osm-w538842484",
+"ll": [
+35.078619,
+33.325372
+],
+"a": "Tseriou Avenue",
+"tw": "Tseri",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/538842484"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Tseri"
+},
+{
+"i": "osm-w545039305",
+"ll": [
+35.032534,
+33.757832
+],
+"tw": "Xylotymvou",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/545039305"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Esso",
+"n": "Esso, Xylotymvou"
+},
+{
+"i": "osm-w822486127",
+"ll": [
+35.146529,
+33.418227
+],
+"a": "Larnakos 184",
+"tw": "Aglatzia",
+"ph": "+357 700 70062",
+"web": "https://fillngostations.com/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/822486127"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Fill",
+"n": "Fill, Aglatzia",
+"fuels": [
+"95",
+"98",
+"Diesel"
+],
+"self": true
+},
+{
+"i": "osm-w1167896398",
+"ll": [
+35.053347,
+33.38238
+],
+"tw": "Kallithea",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1167896398"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Fill",
+"n": "Fill, Kallithea",
+"fuels": [
+"95",
+"98",
+"Diesel"
+],
+"self": true
+},
+{
+"i": "osm-n13746564279",
+"ll": [
+34.927859,
+33.580416
+],
+"tw": "Kamares",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/13746564279"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Fill",
+"n": "Fill, Kamares"
+},
+{
+"i": "osm-w1087737200",
+"ll": [
+34.926368,
+33.440376
+],
+"tw": "Pyrga",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1087737200"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Fill",
+"n": "Fill, Pyrga"
+},
+{
+"i": "osm-n697910133",
+"ll": [
+35.11776,
+33.934033
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/697910133"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "K-Pet",
+"n": "K-Pet"
+},
+{
+"i": "osm-n3416681873",
+"ll": [
+35.125266,
+33.933182
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/3416681873"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "K-Pet",
+"n": "K-Pet"
+},
+{
+"i": "osm-n3416682650",
+"ll": [
+35.122385,
+33.936625
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/3416682650"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "K-Pet",
+"n": "K-Pet"
+},
+{
+"i": "osm-n3416682666",
+"ll": [
+35.127843,
+33.93091
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/3416682666"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "K-Pet",
+"n": "K-Pet"
+},
+{
+"i": "osm-n3465220822",
+"ll": [
+35.122794,
+33.931322
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/3465220822"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "K-Pet",
+"n": "K-Pet"
+},
+{
+"i": "osm-n3535494498",
+"ll": [
+35.114959,
+33.929343
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/3535494498"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "K-Pet",
+"n": "K-Pet"
+},
+{
+"i": "osm-n3544104895",
+"ll": [
+35.118616,
+33.936053
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/3544104895"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "K-Pet",
+"n": "K-Pet"
+},
+{
+"i": "osm-w335055784",
+"ll": [
+35.130691,
+33.926288
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/335055784"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "K-Pet",
+"n": "K-Pet"
+},
+{
+"i": "osm-w1087779018",
+"ll": [
+35.116147,
+33.944878
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1087779018"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "K-Pet",
+"n": "K-Pet"
+},
+{
+"i": "osm-n6549242185",
+"ll": [
+35.184176,
+33.358851
+],
+"tw": "Aglantzia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/6549242185"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "K-Pet",
+"n": "K-Pet, Aglantzia"
+},
+{
+"i": "osm-w539488919",
+"ll": [
+35.183309,
+33.36504
+],
+"a": "Şehit Albay Karaoğlanoğlu Caddesi",
+"tw": "Aglantzia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/539488919"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "K-Pet",
+"n": "K-Pet, Aglantzia"
+},
+{
+"i": "osm-w540221198",
+"ll": [
+35.182393,
+33.367745
+],
+"a": "Şehit Albay Karaoğlanoğlu Caddesi",
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/540221198"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "K-Pet",
+"n": "K-Pet, Nicosia"
+},
+{
+"i": "osm-n5943389285",
+"ll": [
+35.04201,
+33.708
+],
+"tw": "Pyla",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5943389285"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "K-Pet",
+"n": "K-Pet, Pyla"
+},
+{
+"i": "osm-n1620510208",
+"ll": [
+34.802081,
+33.351066
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1620510208"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina"
+},
+{
+"i": "osm-n1680130678",
+"ll": [
+34.926011,
+33.541068
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1680130678"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina"
+},
+{
+"i": "osm-w527253314",
+"ll": [
+34.79553,
+33.34592
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/527253314"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina"
+},
+{
+"i": "osm-w545039327",
+"ll": [
+35.024914,
+33.777857
+],
+"a": "Andrea Souroulki Street",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/545039327"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina"
+},
+{
+"i": "osm-w1530668015",
+"ll": [
+34.797844,
+33.348351
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1530668015"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina"
+},
+{
+"i": "osm-n1831426381",
+"ll": [
+34.698446,
+33.07233
+],
+"tw": "Agios Athanasios",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1831426381"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Agios Athanasios",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-w535304033",
+"ll": [
+35.153098,
+33.375347
+],
+"a": "Λεωφόρος Λεμεσού",
+"tw": "Aglangia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/535304033"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Aglangia"
+},
+{
+"i": "osm-w58644909",
+"ll": [
+35.138083,
+33.053614
+],
+"tw": "Astromeritis",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/58644909"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Astromeritis",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-w82757378",
+"ll": [
+34.993118,
+33.990378
+],
+"tw": "Ayia Napa",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/82757378"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Ayia Napa"
+},
+{
+"i": "osm-n1759884192",
+"ll": [
+35.069599,
+33.960755
+],
+"tw": "Deryneia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1759884192"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Deryneia"
+},
+{
+"i": "osm-w537016473",
+"ll": [
+34.876303,
+33.595429
+],
+"a": "25is Maritou",
+"tw": "Dromolaxia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/537016473"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Dromolaxia"
+},
+{
+"i": "osm-w536951310",
+"ll": [
+35.172106,
+33.348074
+],
+"a": "Omirou",
+"tw": "Engomi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/536951310"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Engomi"
+},
+{
+"i": "osm-w574790333",
+"ll": [
+34.760931,
+32.844779
+],
+"tw": "Foini",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/574790333"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Foini"
+},
+{
+"i": "osm-w83551728",
+"ll": [
+34.667398,
+33.026236
+],
+"tw": "Germasogeia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/83551728"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Germasogeia",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-w543590472",
+"ll": [
+34.757994,
+32.459014
+],
+"a": "Λεωφόρος Αρχιεπισκόπου Μακαρίου Γ'",
+"tw": "Geroskipou",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/543590472"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Geroskipou"
+},
+{
+"i": "osm-w398812344",
+"ll": [
+34.991501,
+32.902999
+],
+"tw": "Kakopetria",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/398812344"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Kakopetria"
+},
+{
+"i": "osm-n418648173",
+"ll": [
+34.754524,
+33.31723
+],
+"tw": "Kalavasos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/418648173"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Kalavasos"
+},
+{
+"i": "osm-n9709112612",
+"ll": [
+35.078469,
+33.382147
+],
+"tw": "Kallithea",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9709112612"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Kallithea"
+},
+{
+"i": "osm-w201180234",
+"ll": [
+35.042394,
+33.387048
+],
+"tw": "Kallithea",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/201180234"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Kallithea"
+},
+{
+"i": "osm-w201180235",
+"ll": [
+35.055748,
+33.374224
+],
+"tw": "Kallithea",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/201180235"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Kallithea"
+},
+{
+"i": "osm-w1083608100",
+"ll": [
+34.927367,
+33.58126
+],
+"tw": "Kamares",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1083608100"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Kamares"
+},
+{
+"i": "osm-w543723260",
+"ll": [
+34.68476,
+33.027009
+],
+"a": "Νίκου και Δέσποινας Παττίχη",
+"tw": "Kato Polemidia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/543723260"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Kato Polemidia"
+},
+{
+"i": "osm-n12160436128",
+"ll": [
+35.179892,
+32.688414
+],
+"tw": "Kato Pyrgos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12160436128"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Kato Pyrgos"
+},
+{
+"i": "osm-n365486701",
+"ll": [
+34.846758,
+33.573054
+],
+"tw": "Kiti",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/365486701"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Kiti"
+},
+{
+"i": "osm-n11086663747",
+"ll": [
+34.930809,
+33.628174
+],
+"a": "Spyrou Kyprianou Avenue",
+"tw": "Kiti",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11086663747"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Kiti"
+},
+{
+"i": "osm-w782804591",
+"ll": [
+35.148569,
+33.21219
+],
+"tw": "Klirou",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/782804591"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Klirou",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-n9238984998",
+"ll": [
+34.82921,
+33.392726
+],
+"tw": "Kofinou",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9238984998"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Kofinou"
+},
+{
+"i": "osm-n12164925115",
+"ll": [
+34.671701,
+32.937424
+],
+"tw": "Kolossi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12164925115"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Kolossi"
+},
+{
+"i": "osm-n9882947567",
+"ll": [
+34.940027,
+32.930947
+],
+"tw": "Kyperounta",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9882947567"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Kyperounta",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-w202593348",
+"ll": [
+35.128142,
+33.325103
+],
+"a": "Λεωφόρος Στροβόλου",
+"tw": "Lakatamia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/202593348"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Lakatamia"
+},
+{
+"i": "osm-n1883718195",
+"ll": [
+34.922799,
+33.633516
+],
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1883718195"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Larnaca"
+},
+{
+"i": "osm-n4467707691",
+"ll": [
+34.918617,
+33.638637
+],
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4467707691"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Larnaca"
+},
+{
+"i": "osm-n5028898493",
+"ll": [
+34.925347,
+33.602126
+],
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5028898493"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Larnaca"
+},
+{
+"i": "osm-w535007922",
+"ll": [
+34.91966,
+33.636389
+],
+"a": "Makariou III Avenue",
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/535007922"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Larnaca"
+},
+{
+"i": "osm-w535720595",
+"ll": [
+34.917276,
+33.62229
+],
+"a": "Griva Digeni Avenue",
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/535720595"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Larnaca"
+},
+{
+"i": "osm-w535741521",
+"ll": [
+34.918062,
+33.621232
+],
+"a": "Griva Digeni Avenue",
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/535741521"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Larnaca"
+},
+{
+"i": "osm-w536954327",
+"ll": [
+34.873013,
+33.604753
+],
+"tw": "Larnaca Airport",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/536954327"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Larnaca Airport"
+},
+{
+"i": "osm-w201496785",
+"ll": [
+35.105663,
+33.364469
+],
+"tw": "Latsia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/201496785"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Latsia",
+"fuels": [
+"95",
+"98",
+"Diesel"
+],
+"self": true
+},
+{
+"i": "osm-w539116546",
+"ll": [
+35.109662,
+33.37797
+],
+"a": "Giannou Kranidioti Avenue",
+"tw": "Latsia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/539116546"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Latsia"
+},
+{
+"i": "osm-n3541487488",
+"ll": [
+34.862778,
+33.306834
+],
+"tw": "Lefkara",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/3541487488"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Lefkara"
+},
+{
+"i": "osm-n4402263991",
+"ll": [
+34.674814,
+33.012352
+],
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4402263991"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Limassol"
+},
+{
+"i": "osm-n9005892022",
+"ll": [
+34.692041,
+33.034989
+],
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9005892022"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Limassol"
+},
+{
+"i": "osm-w341379757",
+"ll": [
+34.673568,
+33.022103
+],
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/341379757"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Limassol"
+},
+{
+"i": "osm-w543907299",
+"ll": [
+34.658471,
+33.002919
+],
+"a": "Fragklinou Rousvelt",
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/543907299"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Limassol",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-w544618322",
+"ll": [
+34.706564,
+33.025173
+],
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/544618322"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Limassol"
+},
+{
+"i": "osm-w657562326",
+"ll": [
+34.695181,
+33.044859
+],
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/657562326"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Limassol",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-n21285828",
+"ll": [
+35.002403,
+33.880368
+],
+"tw": "Liopetri",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/21285828"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Liopetri"
+},
+{
+"i": "osm-w537769928",
+"ll": [
+34.949305,
+33.64744
+],
+"tw": "Livadia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/537769928"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Livadia"
+},
+{
+"i": "osm-w537808913",
+"ll": [
+34.941614,
+33.64215
+],
+"tw": "Livadia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/537808913"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Livadia"
+},
+{
+"i": "osm-n390258848",
+"ll": [
+34.800702,
+33.506622
+],
+"tw": "Mazotos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/390258848"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Mazotos"
+},
+{
+"i": "osm-w796446995",
+"ll": [
+34.8007,
+33.506593
+],
+"tw": "Mazotos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/796446995"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Mazotos"
+},
+{
+"i": "osm-n243838394",
+"ll": [
+35.168271,
+33.397828
+],
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/243838394"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Nicosia"
+},
+{
+"i": "osm-n12745103937",
+"ll": [
+35.160867,
+33.371044
+],
+"a": "Λεωφόρος Αρχιεπισκόπου Μακαρίου Γ' 89",
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/12745103937"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Nicosia"
+},
+{
+"i": "osm-w507259291",
+"ll": [
+35.162007,
+33.358829
+],
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/507259291"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Nicosia"
+},
+{
+"i": "osm-w539498745",
+"ll": [
+35.172723,
+33.372452
+],
+"a": "Larnakos",
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/539498745"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Nicosia"
+},
+{
+"i": "osm-w540240164",
+"ll": [
+35.162839,
+33.357445
+],
+"a": "Λεωφόρος Γρίβα Διγενή",
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/540240164"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Nicosia"
+},
+{
+"i": "osm-w1051995072",
+"ll": [
+35.159325,
+33.354754
+],
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1051995072"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Nicosia"
+},
+{
+"i": "osm-w1056645653",
+"ll": [
+35.171199,
+33.344254
+],
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1056645653"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Nicosia"
+},
+{
+"i": "osm-n2517047453",
+"ll": [
+34.981921,
+33.776885
+],
+"tw": "Ormideia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2517047453"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Ormideia",
+"fuels": [
+"95",
+"Diesel"
+]
+},
+{
+"i": "osm-w1031721234",
+"ll": [
+34.779871,
+32.424748
+],
+"tw": "Panagia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1031721234"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Panagia",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-n2597991516",
+"ll": [
+34.845785,
+32.912179
+],
+"tw": "Pano Platres",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2597991516"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Pano Platres",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-w544573427",
+"ll": [
+34.758243,
+32.433801
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/544573427"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Paphos"
+},
+{
+"i": "osm-n1479342484",
+"ll": [
+34.970198,
+32.825938
+],
+"tw": "Pedoulas",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1479342484"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Pedoulas"
+},
+{
+"i": "osm-n1680548636",
+"ll": [
+35.014225,
+33.394343
+],
+"tw": "Pera Chorio Nisoy",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1680548636"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Pera Chorio Nisoy"
+},
+{
+"i": "osm-w544647974",
+"ll": [
+34.861302,
+32.372179
+],
+"a": "Agios Georgios Avenue",
+"tw": "Peyia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/544647974"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Peyia"
+},
+{
+"i": "osm-n2940206569",
+"ll": [
+34.675231,
+32.697396
+],
+"tw": "Pissouri",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2940206569"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Pissouri",
+"fuels": [
+"95",
+"98",
+"Diesel"
+],
+"self": true
+},
+{
+"i": "osm-n130058130",
+"ll": [
+34.884303,
+32.863223
+],
+"tw": "Platres",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/130058130"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Platres"
+},
+{
+"i": "osm-w183356704",
+"ll": [
+35.035603,
+32.428015
+],
+"tw": "Polis",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/183356704"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Polis"
+},
+{
+"i": "osm-w183356715",
+"ll": [
+35.036021,
+32.429858
+],
+"a": "Λεωφόρος Μαρίου 10",
+"tw": "Polis",
+"ph": "26321425",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/183356715"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Polis",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-n558326358",
+"ll": [
+34.690237,
+33.073172
+],
+"tw": "Promachon Eleftherias Agios Athanasios",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/558326358"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Promachon Eleftherias Agios Athanasios",
+"fuels": [
+"95",
+"98",
+"Diesel"
+],
+"self": true
+},
+{
+"i": "osm-n9887147529",
+"ll": [
+35.027497,
+34.032176
+],
+"tw": "Protaras",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9887147529"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: Mo-Fr 09:00-17:00. Check before you go.",
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Protaras",
+"fuels": [
+"95",
+"Diesel"
+]
+},
+{
+"i": "osm-w199102980",
+"ll": [
+34.721315,
+33.199642
+],
+"tw": "Pyrgos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/199102980"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Pyrgos",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-n9718826511",
+"ll": [
+35.020917,
+33.945487
+],
+"tw": "Sotira",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9718826511"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Sotira",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-w189213964",
+"ll": [
+35.126666,
+33.337844
+],
+"tw": "Strovolos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/189213964"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Strovolos"
+},
+{
+"i": "osm-w535314193",
+"ll": [
+35.143047,
+33.374418
+],
+"a": "Λεωφόρος Λεμεσού",
+"tw": "Strovolos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/535314193"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Strovolos"
+},
+{
+"i": "osm-w1087730393",
+"ll": [
+35.146538,
+33.345039
+],
+"tw": "Strovolos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1087730393"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Strovolos"
+},
+{
+"i": "osm-w982891005",
+"ll": [
+34.675186,
+33.020461
+],
+"a": "Λεωφόρος Αρχιεπισκόπου Μακαρίου Γ’ 18",
+"tw": "Trimiklini",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/982891005"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Trimiklini"
+},
+{
+"i": "osm-n1633005239",
+"ll": [
+34.977443,
+33.847629
+],
+"tw": "Xylofagou",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1633005239"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Xylofagou"
+},
+{
+"i": "osm-w545084801",
+"ll": [
+34.976905,
+33.844352
+],
+"a": "Stavrou Andrea",
+"tw": "Xylofagou",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/545084801"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Xylofagou"
+},
+{
+"i": "osm-n5702532738",
+"ll": [
+34.676092,
+32.988869
+],
+"tw": "Ypsonas",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5702532738"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Ypsonas",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-w536935336",
+"ll": [
+35.17136,
+33.337067
+],
+"a": "Grigori Afxentiou",
+"tw": "Άγιος Δομέτιος",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/536935336"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Άγιος Δομέτιος"
+},
+{
+"i": "osm-n11563900576",
+"ll": [
+35.144027,
+33.364409
+],
+"a": "Λεωφόρος Αθαλάσσης 113",
+"tw": "Στρόβολος",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11563900576"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Petrolina",
+"n": "Petrolina, Στρόβολος"
+},
+{
+"i": "osm-n13311448603",
+"ll": [
+34.910303,
+33.038726
+],
+"tw": "Agros",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/13311448603"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Repsol",
+"n": "Repsol, Agros"
+},
+{
+"i": "osm-n4750583523",
+"ll": [
+35.025804,
+33.17921
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4750583523"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell"
+},
+{
+"i": "osm-w1314305968",
+"ll": [
+34.977471,
+33.580541
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1314305968"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell"
+},
+{
+"i": "osm-w1088089287",
+"ll": [
+34.734592,
+32.496843
+],
+"tw": "Acheleia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1088089287"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Acheleia"
+},
+{
+"i": "osm-w982409045",
+"ll": [
+34.6897,
+33.071513
+],
+"tw": "Agios Athanasios",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/982409045"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Agios Athanasios",
+"fuels": [
+"95",
+"98",
+"Diesel"
+],
+"self": true
+},
+{
+"i": "osm-n738305188",
+"ll": [
+35.171398,
+33.338929
+],
+"tw": "Agios Dometios",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/738305188"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Agios Dometios"
+},
+{
+"i": "osm-w1087733940",
+"ll": [
+35.168806,
+33.334842
+],
+"tw": "Agios Dometios",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1087733940"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Agios Dometios"
+},
+{
+"i": "osm-w1088087465",
+"ll": [
+35.13479,
+33.102803
+],
+"tw": "Akaki",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1088087465"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Akaki"
+},
+{
+"i": "osm-w1199268872",
+"ll": [
+35.136709,
+33.134251
+],
+"tw": "Akaki",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1199268872"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Akaki"
+},
+{
+"i": "osm-w1087736266",
+"ll": [
+35.000356,
+33.398222
+],
+"tw": "Alamapra",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1087736266"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Alamapra"
+},
+{
+"i": "osm-w1258722804",
+"ll": [
+34.866548,
+33.497537
+],
+"tw": "Alefthriko",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1258722804"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Alefthriko"
+},
+{
+"i": "osm-n1759884188",
+"ll": [
+35.068001,
+33.960919
+],
+"tw": "Deryneia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1759884188"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Deryneia"
+},
+{
+"i": "osm-n7305923509",
+"ll": [
+34.681811,
+32.971989
+],
+"tw": "Erimi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/7305923509"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Erimi",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-n9712065018",
+"ll": [
+34.666536,
+33.023816
+],
+"a": "Fragklinou Rousvelt 62",
+"tw": "Germasogeia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9712065018"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Germasogeia",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-n13234004773",
+"ll": [
+34.697625,
+33.034665
+],
+"a": "Leoforos Spyrou Kyprianou",
+"tw": "Germasogeia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/13234004773"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Germasogeia"
+},
+{
+"i": "osm-w86885495",
+"ll": [
+34.699941,
+33.030497
+],
+"tw": "Germasogeia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/86885495"
+}
+],
+"hrsNote": "Opening hours on OpenStreetMap: PH,Mo-Su 00:00-18:00+. Check before you go.",
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Germasogeia"
+},
+{
+"i": "osm-n11691251970",
+"ll": [
+34.99433,
+32.44799
+],
+"tw": "Goudi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/11691251970"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Goudi"
+},
+{
+"i": "osm-w974117440",
+"ll": [
+34.992308,
+32.902664
+],
+"tw": "Kakopetria",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/974117440"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Kakopetria"
+},
+{
+"i": "osm-w201180339",
+"ll": [
+35.059086,
+33.368451
+],
+"tw": "Kallithea",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/201180339"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Kallithea",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-n1634274129",
+"ll": [
+34.925184,
+33.636756
+],
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/1634274129"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Larnaca"
+},
+{
+"i": "osm-w535049359",
+"ll": [
+34.903854,
+33.630562
+],
+"a": "Λεωφόρος Αρτέμιδος",
+"tw": "Larnaca",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/535049359"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Larnaca"
+},
+{
+"i": "osm-n552621265",
+"ll": [
+34.681602,
+33.054639
+],
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/552621265"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Limassol",
+"fuels": [
+"95",
+"98"
+]
+},
+{
+"i": "osm-w543404341",
+"ll": [
+34.681873,
+33.04201
+],
+"a": "Thessalonikis 16",
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/543404341"
+}
+],
+"hrs": "Open 24 hours",
+"h24": true,
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Limassol",
+"self": true
+},
+{
+"i": "osm-w544581473",
+"ll": [
+34.671778,
+33.011437
+],
+"a": "Leoforos Omonoias",
+"tw": "Limassol",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/544581473"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Limassol"
+},
+{
+"i": "osm-w1087740558",
+"ll": [
+34.958946,
+33.62919
+],
+"tw": "Livadia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1087740558"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Livadia"
+},
+{
+"i": "osm-n2242852031",
+"ll": [
+34.861514,
+32.913006
+],
+"tw": "Moniatis",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2242852031"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Moniatis"
+},
+{
+"i": "osm-n9038105595",
+"ll": [
+35.164123,
+33.364507
+],
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/9038105595"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Nicosia"
+},
+{
+"i": "osm-w535289847",
+"ll": [
+35.173833,
+33.352424
+],
+"a": "Plateia Georgiou Poulia",
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/535289847"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Nicosia"
+},
+{
+"i": "osm-w537213983",
+"ll": [
+35.171779,
+33.371285
+],
+"a": "Salaminos",
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/537213983"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Nicosia"
+},
+{
+"i": "osm-w537217662",
+"ll": [
+35.175711,
+33.373748
+],
+"a": "Pouliou kai Kapota Avenue",
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/537217662"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Nicosia"
+},
+{
+"i": "osm-w537485293",
+"ll": [
+35.169292,
+33.354237
+],
+"a": "Leoforos Vyronos",
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/537485293"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Nicosia",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-w1100875382",
+"ll": [
+34.777879,
+32.424091
+],
+"tw": "Paphos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1100875382"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Paphos"
+},
+{
+"i": "osm-w1443175409",
+"ll": [
+35.035895,
+32.426866
+],
+"tw": "Polis",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1443175409"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Polis"
+},
+{
+"i": "osm-w1087770852",
+"ll": [
+35.040157,
+33.955078
+],
+"tw": "Sotira",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1087770852"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Sotira"
+},
+{
+"i": "osm-w189269658",
+"ll": [
+35.118237,
+33.33318
+],
+"tw": "Strovolos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/189269658"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Strovolos"
+},
+{
+"i": "osm-w1087732201",
+"ll": [
+35.148671,
+33.352014
+],
+"tw": "Strovolos",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1087732201"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Shell",
+"n": "Shell, Strovolos"
+},
+{
+"i": "osm-w1095704938",
+"ll": [
+35.045458,
+33.254649
+],
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1095704938"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Staroil",
+"n": "Staroil",
+"self": true
+},
+{
+"i": "osm-w1068441597",
+"ll": [
+35.044044,
+33.840439
+],
+"tw": "Avgorou",
+"web": "https://staroilcyprus.com/en/",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1068441597"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Staroil",
+"n": "Staroil, Avgorou"
+},
+{
+"i": "osm-w307796525",
+"ll": [
+34.798005,
+32.400372
+],
+"a": "Chlorakas Avenue",
+"tw": "Chloraka",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/307796525"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Staroil",
+"n": "Staroil, Chloraka"
+},
+{
+"i": "osm-n7004051006",
+"ll": [
+34.669163,
+33.023857
+],
+"tw": "Germasogeia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/7004051006"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Staroil",
+"n": "Staroil, Germasogeia",
+"fuels": [
+"95",
+"Diesel"
+]
+},
+{
+"i": "osm-n13231439565",
+"ll": [
+35.059471,
+32.912805
+],
+"tw": "Kakopetria",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/13231439565"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Staroil",
+"n": "Staroil, Kakopetria"
+},
+{
+"i": "osm-w1087731687",
+"ll": [
+35.119658,
+33.315958
+],
+"tw": "Kato Deftera",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1087731687"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Staroil",
+"n": "Staroil, Kato Deftera"
+},
+{
+"i": "osm-n5528497120",
+"ll": [
+34.861649,
+33.575667
+],
+"tw": "Kiti",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/5528497120"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Staroil",
+"n": "Staroil, Kiti",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-w1346211549",
+"ll": [
+34.861666,
+33.575774
+],
+"tw": "Kiti",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1346211549"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Staroil",
+"n": "Staroil, Kiti"
+},
+{
+"i": "osm-w977963797",
+"ll": [
+35.098834,
+33.315068
+],
+"tw": "Lakatamia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/977963797"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Staroil",
+"n": "Staroil, Lakatamia",
+"fuels": [
+"95",
+"98",
+"Diesel"
+]
+},
+{
+"i": "osm-w1238369878",
+"ll": [
+35.114637,
+33.288018
+],
+"tw": "Lakatamia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/1238369878"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Staroil",
+"n": "Staroil, Lakatamia",
+"fuels": [
+"95",
+"98",
+"Diesel"
+],
+"self": true
+},
+{
+"i": "osm-w782785971",
+"ll": [
+35.137179,
+33.214178
+],
+"a": "Megalou Alexandrou 46",
+"tw": "Paliometocho",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/way/782785971"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "Staroil",
+"n": "Staroil, Paliometocho",
+"fuels": [
+"95",
+"98",
+"Diesel"
+],
+"self": true
+},
+{
+"i": "osm-n4349741691",
+"ll": [
+35.010443,
+33.993254
+],
+"tw": "Ayia Napa",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/4349741691"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "TotalEnergies",
+"n": "TotalEnergies, Ayia Napa"
+},
+{
+"i": "osm-n3558608701",
+"ll": [
+34.819378,
+32.452118
+],
+"tw": "Mesogi",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/3558608701"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "TotalEnergies",
+"n": "TotalEnergies, Mesogi"
+},
+{
+"i": "osm-n2139089019",
+"ll": [
+35.170195,
+33.397337
+],
+"tw": "Nicosia",
+"srcs": [
+{
+"t": "Location and details: OpenStreetMap contributors",
+"u": "https://www.openstreetmap.org/node/2139089019"
+}
+],
+"k": "fuel",
+"cat": "Petrol station",
+"brand": "TotalEnergies",
+"n": "TotalEnergies, Nicosia"
+}
+]
+}

@@ -47,6 +47,9 @@ export function poiFacts(r: Poi): Fact[] {
   if (r.k === "health" && r.ft) f.push(["Type", r.ft, false]);
   if (r.k === "market" && r.ch) f.push(["Chain", r.ch, false]);
   if (r.cat) f.push(["Type", r.cat, false]);
+  if (r.brand && (r.k === "fuel" || r.k === "carhire")) f.push(["Brand", r.brand, false]);
+  if (r.fuels?.length) f.push(["Fuel", r.fuels.join(", "), false]);
+  if (r.airport) f.push(["At the airport", "Yes", false]);
   if (r.notice) f.push(["Status", r.notice, true]);
   if (r.len) f.push(["Length", r.len, false]);
   if (r.time) f.push(["Walking time", r.time, false]);
@@ -57,7 +60,7 @@ export function poiFacts(r: Poi): Fact[] {
   if (r.ph) f.push(["Phone", String(r.ph), false]);
   if (r.web) f.push(["Website", r.web.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""), false]);
   if (r.k === "nature" && !r.hrs) f.push(["Access", "Open area. Check trail conditions and closures before you go.", true]);
-  else f.push(r.hrs ? ["Opening hours", r.hrs + (r.srcs ? ". Check before you go, hours can change." : ""), !!r.srcs] : ["Opening hours", "Not yet verified.", true]);
+  else f.push(r.hrs ? ["Opening hours", r.hrs + (r.srcs ? ". Check before you go, hours can change." : ""), !!r.srcs] : ["Opening hours", r.hrsNote ?? "Not yet verified.", true]);
   if (r.reg) f.push(["Register number", String(r.reg), false]);
   f.push([
     "Map position",
