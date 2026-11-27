@@ -6,13 +6,20 @@ import { norm } from "./text";
  * Advertising partners. The data says who covers what; this file decides, in code, whether a partner may be
  * mentioned for a request. Aphrodite never judges that herself: if partnerFor() returns nothing, she can't name one.
  */
-export type PartnerService = "airport_transfer" | "local_taxi" | "car_hire";
+export type PartnerService = "airport_transfer" | "local_taxi" | "car_hire" | "boat_trip";
 export interface Partner {
   id: string; status: "active" | "paused"; name: string; legal?: string; kind: string; services: PartnerService[];
   coverage: { label: string; areas?: DestId[]; places: string[]; aliases: string[]; box?: [number, number, number, number]; towns?: string[]; maybe?: string[] };
-  intro: string; address?: string; address2?: string; web: string; book: string; phone: string | null; phone2?: string; email: string | null;
+  intro: string; address?: string; address2?: string; web: string; book: string; phone: string | null; phone2?: string; whatsapp?: string; email: string | null;
   airports: string[] | null; hours?: string; checked?: string; photo?: string; logo: string | null; guides: string[]; excludes: string; sources: { t: string; u: string }[]; pending: string[];
 }
+
+import offersJson from "../../data/partner_offers.json";
+
+/** What a partner sells to visitors (cruises and so on), from their own public pages. */
+export interface Offer { id: string; name: string; line: string; hrs: string; route: string; inc: string[]; price: string; img: string; u: string }
+export interface Offers { checked: string; source: string; list: string; items: Offer[]; charter?: { line: string; u: string }; know?: string[] }
+export const offersFor = (id: string) => (offersJson as unknown as Record<string, Offers>)[id];
 
 export const PARTNERS = (partnersJson as unknown as { partners: Partner[] }).partners;
 export const ACTIVE = PARTNERS.filter((p) => p.status === "active");

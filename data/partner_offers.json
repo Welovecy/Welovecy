@@ -1,0 +1,29 @@
+{
+  "_note": "What partners sell to visitors, copied from their own public pages (prices are the public visitor prices they list). Never our fees or contract terms: those stay out of the repository.",
+  "cy-cruises": {
+    "checked": "27 November 2026",
+    "source": "https://cycruises.com/",
+    "list": "https://cycruises.com/ayia-napa-boat-trips/",
+    "items": [
+      { "id": "black-pearl", "name": "Black Pearl Pirate Cruise", "line": "The family favourite. Pirate entertainers, swim stops and lunch on board the Black Pearl.", "hrs": "4 hours", "route": "Ayia Napa, Blue Lagoon, Konnos Bay", "inc": ["Lunch included", "Pirate entertainers"], "price": "Adult €45, child €25", "img": "cycruises/black-pearl-card", "u": "https://cycruises.com/ayia-napa-boat-trips/black-pearl-pirate-cruise-ayia-napa/" },
+      { "id": "santa-napa", "name": "Santa Napa Relax Cruise", "line": "A slower day along the coast with lunch included.", "hrs": "4 hours", "route": "Ayia Napa, Blue Lagoon, Konnos Bay", "inc": ["Lunch included", "Relaxing cruise"], "price": "Adult €35, child €20", "img": "cycruises/santa-napa", "u": "https://cycruises.com/ayia-napa-boat-trips/santa-napa-chill-relax/" },
+      { "id": "blue-lagoon", "name": "Blue Lagoon and Turtle Cove Cruise", "line": "Their longest swim trip, out to the Blue Lagoon and the coves beyond.", "hrs": "4.5 hours", "route": "Ayia Napa, Blue Lagoon, Konnos Bay", "inc": ["Lunch as an optional extra", "Relaxing cruise"], "price": "Adult €35, child €20", "img": "cycruises/blue-lagoon", "u": "https://cycruises.com/ayia-napa-boat-trips/blue-lagoon-cruise-ayia-napa/" },
+      { "id": "harmony", "name": "Harmony Morning and Sunset Cruise", "line": "A small-group sail with swim stops, in the morning or at sunset.", "hrs": "3 hours", "route": "Ayia Napa, Blue Lagoon, Konnos Bay", "inc": ["Small group", "Snacks to buy on board"], "price": "€40 per person", "img": "cycruises/harmony", "u": "https://cycruises.com/ayia-napa-boat-trips/harmony-day-sunset-cruise/" },
+      { "id": "greatest-hits", "name": "Greatest Hits Sunset Cruise", "line": "A sunset party boat playing hits through the decades.", "hrs": "3 hours", "route": "Ayia Napa, Blue Lagoon", "inc": ["Lunch included", "One free drink"], "price": "Adult €45", "img": "cycruises/greatest-hits", "u": "https://cycruises.com/ayia-napa-boat-trips/greatest-hits-through-decades/" },
+      { "id": "fantasy", "name": "Fantasy Boat Party", "line": "The party boat. Adults only, 18 and over.", "hrs": "4 hours", "route": "Ayia Napa, Blue Lagoon, Konnos Bay", "inc": ["Lunch included", "30-minute open bar", "Adults only (18+)"], "price": "Adult €60", "img": "cycruises/fantasy", "u": "https://cycruises.com/ayia-napa-boat-trips/fantasy-boat-party/" },
+      { "id": "fishing", "name": "Fishing Cruise", "line": "Out to fishing spots along the south-east coast.", "hrs": "3 hours", "route": "Ayia Napa, fishing spots on the south-east coast", "inc": ["Snacks and soft drinks", "Fishing"], "price": "Adult €50, child €25", "img": "cycruises/fishing", "u": "https://cycruises.com/ayia-napa-boat-trips/fishing-cruise-ayia-napa/" },
+      { "id": "turtle-safari", "name": "Turtle Safari on the Yellow Fin", "line": "A small-group trip past the sea caves to look for turtles. On request.", "hrs": "2 hours", "route": "Ayia Napa, Sea Caves, Turtle Beach", "inc": ["Small group", "Turtle sightseeing"], "price": "On request", "img": "cycruises/turtle-safari", "u": "https://cycruises.com/ayia-napa-boat-trips/yellow-fin-charter-cruise/" },
+      { "id": "musan", "name": "MUSAN Cruise on the Screamer", "line": "A short small-group trip to the underwater sculpture park. On request.", "hrs": "1 hour", "route": "Ayia Napa harbour, MUSAN underwater sculpture park", "inc": ["Small group"], "price": "On request", "img": "cycruises/musan", "u": "https://cycruises.com/ayia-napa-boat-trips/screamer-charter-boat-on-request/" }
+    ],
+    "charter": { "line": "Every boat in the fleet can be hired for your own group: birthdays, hen and stag parties, weddings, family celebrations and theme parties. Drinks, fruit platters and snack packages are available. Prices and times on request.", "u": "https://cycruises.com/event-bookings/" },
+    "know": [
+      "Every cruise leaves from Ayia Napa harbour. Meet at the Black Pearl 30 minutes before departure.",
+      "Most cruises run the coast past Love Bridge, the sea caves and Cape Greco to the Blue Lagoon and Konnos Bay. The route can change with the weather and sea.",
+      "Cruises run mainly from April to October. Check each cruise for the dates on sale.",
+      "Book online up to 2 hours before departure, or message them on WhatsApp for a last-minute seat.",
+      "Every rate includes a free date change. Choose the refundable rate if you might need to cancel.",
+      "Drinks are on sale on every cruise. Bring swimwear, a towel and sunscreen. No pets on board.",
+      "Hotel transfers are available for some cruises at an extra charge. Ask them when you book."
+    ]
+  }
+}

@@ -255,6 +255,72 @@
         "Approved description",
         "Whether they deliver to hotels"
       ]
+    },
+    {
+      "id": "cy-cruises",
+      "status": "active",
+      "name": "CY Cruises",
+      "kind": "Boat trips from Ayia Napa",
+      "services": [
+        "boat_trip"
+      ],
+      "coverage": {
+        "label": "Ayia Napa harbour, along the coast to Cape Greco, the Blue Lagoon and Protaras",
+        "areas": [
+          "ayianapa"
+        ],
+        "places": [
+          "Ayia Napa harbour",
+          "Love Bridge",
+          "Sea Caves",
+          "Cape Greco",
+          "Blue Lagoon",
+          "Konnos Bay",
+          "Protaras"
+        ],
+        "aliases": [
+          "ayia napa",
+          "agia napa",
+          "napa",
+          "ayia napa harbour",
+          "limanaki",
+          "cape greco",
+          "cavo greco",
+          "blue lagoon",
+          "konnos",
+          "konnos bay",
+          "protaras"
+        ]
+      },
+      "intro": "Ayia Napa's boat trip people. CY Cruises sails from Ayia Napa harbour, where the Black Pearl pirate ship is moored, with family pirate cruises, Blue Lagoon swims, small-group sunset sails, party boats and fishing trips along the south-east coast. Their crew has worked these waters for more than 50 years.",
+      "address": "Ayia Napa harbour (Limanaki), next to the Black Pearl",
+      "web": "https://cycruises.com/",
+      "book": "https://cycruises.com/ayia-napa-boat-trips/",
+      "phone": "+357 97 969640",
+      "whatsapp": "+357 97 969640",
+      "email": "reservations@cycruises.com",
+      "airports": null,
+      "checked": "27 November 2026",
+      "photo": "partner-cycruises-black-pearl",
+      "logo": null,
+      "guides": [],
+      "excludes": "Boat trips and private charters from Ayia Napa harbour only.",
+      "sources": [
+        {
+          "t": "CY Cruises: home page",
+          "u": "https://cycruises.com/"
+        },
+        {
+          "t": "CY Cruises: all cruises",
+          "u": "https://cycruises.com/ayia-napa-boat-trips/"
+        }
+      ],
+      "pending": [
+        "Confirm permission for the photos (taken from their website)",
+        "Approved description",
+        "Whether Aphrodite should suggest them for boat trip questions",
+        "Which WhatsApp number to show (site lists +357 97 969640 and +357 99 574148)"
+      ]
     }
   ]
 }

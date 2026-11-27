@@ -112,3 +112,21 @@ describe("car hire partner", () => {
     expect(partnerFor("airport_transfer", { text: "larnaca" })).toBeUndefined();
   });
 });
+
+describe("partner offers", () => {
+  it("CY Cruises has its cruises, each with a source link and a photo, and no commercial terms", async () => {
+    const { offersFor } = await import("@/lib/partners");
+    const fs = await import("node:fs");
+    const o = offersFor("cy-cruises")!;
+    expect(o.items.length).toBeGreaterThanOrEqual(9);
+    for (const c of o.items) {
+      expect(c.u, c.name).toMatch(/^https:\/\/cycruises\.com\//);
+      expect(fs.existsSync(`public/img/partners/${c.img}.webp`), c.img).toBe(true);
+    }
+    expect(JSON.stringify(o)).not.toMatch(/\bfee\b|renew|contract|invoice|9,?000|annual/i);
+    expect(JSON.stringify(o)).not.toMatch(/—/);
+  });
+  it("CY Cruises is never offered for transfers, taxis or car hire", () => {
+    for (const s of ["airport_transfer", "local_taxi", "car_hire"] as const) expect(partnerFor(s, { text: "Ayia Napa harbour" })?.id).not.toBe("cy-cruises");
+  });
+});
