@@ -87,5 +87,7 @@ page /listing/bea-00986 | grep -q "About this information" && ok "detail page: s
 page /listing/bea-00986 | grep -q "Unconfirmed:" && no "detail page still shows Unconfirmed" || ok "detail page: no Unconfirmed labels"
 page /listing/bea-00999 | grep -q "dh-mapsvg" && ok "no-photo page opens on the map hero" || no "map hero missing"
 page /places/nissi | grep -q "actbar" && ok "place page: action row" || no "place page: action row missing"
+page / | grep -q "Where to?" && ok "homepage: new rails" || no "homepage: rails missing"
+page /destinations/ayianapa | grep -q "Featured spot" && no "destination still shows empty featured block" || ok "destination: no empty featured block"
 page /essentials | grep -q "duty pharmacies" && ok "essentials links to tonight's rota" || no "essentials missing duty link"
 page /petrol | grep -q "Pharmacies on duty tonight" && no "footer still has duty link" || ok "footer has no duty link"
