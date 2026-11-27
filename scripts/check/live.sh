@@ -17,7 +17,9 @@ g=$(page /guides/paphos-airport-to-paphos-and-coral-bay); [[ "$g" == *"Coral Bay
 g=$(page /guides/larnaca-and-paphos-airport-to-limassol); [[ "$g" != *"Advertising partner"* ]] && ok "Limassol guide has no partner card" || no "Limassol guide shows a partner"
 for p in /places/waterworld /listing/att-trail-trooditissa-foini /stay/ayianapa /know-before-you-go /cyprus-history; do c=$(curl -s -o /dev/null -w "%{http_code}" -L "$B$p"); [ "$c" = 200 ] && ok "$p loads" || no "$p returned $c"; done
 
+ASKED=0
 ask(){ # question, expected partner or NONE
+  ASKED=$((ASKED+1)); if [ $ASKED -gt 14 ]; then echo "      (waiting 10 minutes: Aphrodite allows 15 questions per 10 minutes per visitor)"; sleep 610; ASKED=1; fi
   r=$(curl -s --max-time 40 -X POST "$B/api/ask" -H "content-type: application/json" -d "{\"messages\":[{\"role\":\"user\",\"text\":\"$1\"}],\"page\":\"/\"}")
   ans=$(echo "$r" | jq -r '.answer' | tr '\n' ' ')
   cards=$(echo "$r" | jq -r '[.cards[]?.n] | join(", ")')
