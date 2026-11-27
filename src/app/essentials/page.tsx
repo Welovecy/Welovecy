@@ -11,6 +11,10 @@ export default function Essentials() {
     <>
       <PageHead title="Essentials" lead="Every pharmacy in the official register, hospitals and clinics, and supermarkets, area by area." crumbs={[["Home", "/"], ["Essentials"]]} />
       <section className="wrap pad-top">
+        <div className="duty-banner" style={{ marginBottom: 20 }}>
+          <span>Need a pharmacy late at night?</span>
+          <Link className="btn btn-primary" href="/pharmacies-on-duty">See tonight&apos;s duty pharmacies</Link>
+        </div>
         <div className="grid">
           {DESTINATIONS.map((d) => (
             <div key={d.id} className="panel" style={{ gap: 10 }}>
