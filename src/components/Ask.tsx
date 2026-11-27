@@ -320,7 +320,7 @@ export function Ask() {
                     <div className="aph-prev">
                       <button type="button" className="aph-prev-open" onClick={restore}>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7L3 8" /><path d="M3 3v5h5" /><path d="M12 7v5l3 2" /></svg>
-                        <span><b>Previous chat</b> · {when(prev.at)}<small>{prev.msgs.find((m) => m.role === "user")?.text}</small></span>
+                        <span><span className="aph-prev-t"><b>Previous chat</b> · {when(prev.at)}</span><small>{prev.msgs.find((m) => m.role === "user")?.text}</small></span>
                       </button>
                       <button type="button" className="aph-prev-x" onClick={dropPrev} aria-label="Delete previous chat">
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" /></svg>
