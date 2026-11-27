@@ -26,10 +26,33 @@ describe("know before you go", () => {
     ["What should I wear to Kykkos monastery?", "church-dress"],
     ["Will my phone roam for free?", "roaming"],
     ["Do I need a GHIC?", "ghic"],
+    ["Which villages should we visit near Limassol?", "village-omodos"],
+    ["Where can I see lace being made?", "village-lefkara"],
+    ["Where should we stay for nightlife?", "area-nightlife"],
+    ["Best area to stay without a car?", "area-no-car"],
+    ["What happened in 1974?", "hist-1974"],
+    ["Tell me about Richard the Lionheart in Cyprus", "hist-richard"],
   ])("%s finds %s", (q, id) => {
     expect(searchFacts(q).map((f) => f.id)).toContain(id);
   });
   it("finds nothing for an unrelated question", () => {
     expect(searchFacts("xylophone")).toEqual([]);
+  });
+});
+
+import attractions from "../data/attractions.json";
+import { DEST_CENTRE } from "../src/lib/centres";
+import { isIndoor } from "../src/lib/indoor";
+type A = { i: string; cat: string; ll?: [number, number] };
+const near = (ll: [number, number]) => Object.entries(DEST_CENTRE).sort((x, y) => (x[1][0] - ll[0]) ** 2 + (x[1][1] - ll[1]) ** 2 - ((y[1][0] - ll[0]) ** 2 + (y[1][1] - ll[1]) ** 2))[0][0];
+const POIS = (attractions as unknown as { items: A[] }).items.filter((a) => a.ll).map((a) => ({ ...a, d: near(a.ll!) }));
+describe("rainy days", () => {
+  it("every main area has an indoor place", () => {
+    for (const d of ["ayianapa", "protaras", "paphos", "limassol", "larnaca", "nicosia"]) {
+      expect(POIS.some((p) => p.d === d && isIndoor(p.cat)), d).toBe(true);
+    }
+  });
+  it("Thalassa museum counts as Ayia Napa", () => {
+    expect(POIS.find((p) => p.i === "att-thalassa-museum")?.d).toBe("ayianapa");
   });
 });

@@ -1,77 +1,818 @@
 {
-  "_note": "Know before you go: short checked facts for visitors, used by the /know-before-you-go page and by Aphrodite's know tool. Every fact has its source and the date it was checked. Rules that change (entry, drones, e-scooters, roaming) are rechecked monthly.",
-  "checked": "2026-11-27",
-  "sections": [
-    { "id": "entry", "title": "Passports and entry", "lead": "Cyprus is in the EU but not in Schengen, so passports are still stamped here." },
-    { "id": "health", "title": "Health, heat and water", "lead": "In an emergency call 112 and ask for an ambulance." },
-    { "id": "beach", "title": "Beaches and the sea", "lead": "The sea is rated among the cleanest in the EU. Lifeguards keep shorter hours than most people expect." },
-    { "id": "rules", "title": "Rules worth knowing", "lead": "The ones visitors get caught out by. Drones and e-scooters changed in 2026." },
-    { "id": "daily", "title": "Everyday life", "lead": "Time, shops, language, phones and what to wear in church." },
-    { "id": "when", "title": "When to go", "lead": "For swimming, June to October. For warm days without the peak heat, May or October." }
-  ],
-  "facts": [
-    { "id": "uk-90-days", "sec": "entry", "q": "visa british uk passport 90 days stay how long entry tourist",
-      "t": "British visitors can stay up to 90 days in any 180 without a visa, for holidays, family visits, business meetings and events. Work has separate rules. Other passports: check your own government's travel advice.",
-      "src": [{ "t": "GOV.UK: Cyprus entry requirements", "u": "https://www.gov.uk/foreign-travel-advice/cyprus/entry-requirements" }] },
-    { "id": "uk-passport-validity", "sec": "entry", "q": "passport valid validity expiry months issued 10 years blank page",
-      "t": "A British passport must have been issued less than 10 years before you arrive and be valid for at least 3 months after the day you leave, with a blank page for stamps.",
-      "src": [{ "t": "GOV.UK: Cyprus entry requirements", "u": "https://www.gov.uk/foreign-travel-advice/cyprus/entry-requirements" }] },
-    { "id": "not-schengen", "sec": "entry", "q": "schengen ees entry exit system fingerprints stamp border",
-      "t": "Cyprus is not in the Schengen area, so days here don't count towards the Schengen 90 days. The new EU Entry/Exit System (fingerprints and photos) does not apply in Cyprus. Passports are still stamped, so check you get a stamp on the way in and out.",
-      "src": [{ "t": "GOV.UK: Cyprus entry requirements", "u": "https://www.gov.uk/foreign-travel-advice/cyprus/entry-requirements" }, { "t": "Cyprus Mail, 23 Feb 2026: Schengen rules will not apply to Cyprus", "u": "https://cyprus-mail.com/2026/02/23/new-rules-for-schengen-travel-will-not-apply-to-cyprus" }] },
-    { "id": "schengen-2027", "sec": "entry", "q": "schengen join joining 2027 when",
-      "t": "Cyprus is working towards joining Schengen, with 1 July 2027 named as the target. Until it happens, nothing changes for visitors.",
-      "src": [{ "t": "Cyprus Mail, 12 Nov 2026: Schengen target of 1 July", "u": "https://cyprus-mail.com/2026/11/12/greece-aims-for-cyprus-to-join-schengen-on-july-1-christodoulides-says" }] },
-    { "id": "ghic", "sec": "health", "q": "ghic ehic health card insurance doctor hospital nhs",
-      "t": "UK visitors need a GHIC or EHIC for medically necessary state healthcare. It doesn't replace travel insurance: it won't cover private clinics or getting flown home.",
-      "src": [{ "t": "GOV.UK: Cyprus health advice", "u": "https://www.gov.uk/foreign-travel-advice/cyprus/health" }] },
-    { "id": "ehic-costs", "sec": "health", "q": "ehic cost doctor gp a&e emergency prescription ambulance free pay",
-      "t": "With an EHIC, a state GP visit costs €3, a specialist €6, an A&E visit €10 and each prescribed medicine €0.50 at a state pharmacy. Ambulances are free when you show the card. Hospital admission is through a state A&E or a public-system doctor's referral.",
-      "src": [{ "t": "European Commission: EHIC in Cyprus", "u": "https://employment-social-affairs.ec.europa.eu/policies-and-activities/moving-working-europe/eu-social-security-coordination/european-health-insurance-card/how-use-card/cyprus-european-health-insurance-card_en" }] },
-    { "id": "heat", "sec": "health", "q": "heat heatwave hot sun summer sunstroke children car",
-      "t": "In a heatwave the Health Ministry advises staying out of the sun from 11:00 to 17:00, drinking water even when you're not thirsty, and never leaving children or pets in a parked car, even for a few minutes.",
-      "src": [{ "t": "Politis, 14 Jul 2026: Health Ministry heat advice", "u": "https://en.politis.com.cy/news/cy-news/1019139/cyprus-bakes-in-heatwave-health-ministry-issues-safety-advice" }] },
-    { "id": "tap-water", "sec": "health", "q": "tap water drink drinking safe bottled",
-      "t": "Limassol's water board says its tap water meets EU drinking water standards. Many people still buy bottled water for the taste.",
-      "src": [{ "t": "Limassol Water Board: water supply FAQ", "u": "https://eoalemesos.org.cy/en/faqs-water-supply" }] },
-    { "id": "bathing-water", "sec": "beach", "q": "sea water clean quality bathing blue flag",
-      "t": "All 123 monitored bathing sites in Cyprus were rated \"excellent\" for water quality in the 2025 EU report.",
-      "src": [{ "t": "Cyprus Mail, 16 Jun 2026: all bathing waters excellent", "u": "https://cyprus-mail.com/2026/06/16/all-cyprus-bathing-waters-rated-excellent-in-2025" }] },
-    { "id": "lifeguards", "sec": "beach", "q": "lifeguard lifeguards hours safe swim season tower",
-      "t": "Lifeguards are mainly on duty from June to September and hours vary by beach. Around Ayia Napa and Protaras most towers run from about 9:30 to 17:00, and four beaches are covered from 7:00 to 18:30 in summer. No lifeguard on duty means you swim at your own risk.",
-      "src": [{ "t": "Cyprus Mail, 17 Aug 2026: lifeguard hours", "u": "https://cyprus-mail.com/2026/08/17/criminal-to-close-lifeguard-towers-at-6pm-federation-chief-says" }] },
-    { "id": "turtles", "sec": "beach", "q": "turtle turtles lara toxeftra akamas nesting sunbed umbrella",
-      "t": "Lara and Toxeftra in Akamas are turtle nesting beaches. From 1 June to 30 September there are no umbrellas, sunbeds or tents, and no staying on the beach from an hour before sunset. Driving on the sand is banned all year.",
-      "src": [{ "t": "Cyprus Mail, 16 May 2025: turtle nesting rules", "u": "https://cyprus-mail.com/2025/05/16/sea-turtles-nesting-public-urged-to-be-considerate" }] },
-    { "id": "alcohol-age", "sec": "rules", "q": "drinking age alcohol legal age 18 bar served",
-      "t": "You must be 18 to buy or be served alcohol.",
-      "src": [{ "t": "Business in Cyprus: alcoholic drinks trade", "u": "https://www.businessincyprus.gov.cy/business-sectors/alcoholic-drinks-trade/" }] },
-    { "id": "smoking", "sec": "rules", "q": "smoking smoke cigarette vape indoors bar club fine car",
-      "t": "Smoking is banned indoors in bars, clubs and other enclosed public places, and in a car with anyone under 18. The on-the-spot fine for a smoker is €85. Smoking outdoors and on terraces is allowed.",
-      "src": [{ "t": "Cyprus Mail, 2 Aug 2024: smoking fines", "u": "https://cyprus-mail.com/2024/08/02/smoking-fines-add-e1-5m-to-state-coffers-over-last-decade" }] },
-    { "id": "e-scooters", "sec": "rules", "q": "e-scooter scooter electric helmet age rent",
-      "t": "E-scooter riders must be 17 or over (raised from 14 in May 2026) and wear a fastened helmet. Scooters are allowed on roads with a 30 km/h limit and on cycle lanes, never in pedestrian areas. Police can impound them.",
-      "src": [{ "t": "Politis, 19 May 2026: e-scooter age 17", "u": "https://en.politis.com.cy/news/1006295/cyprus-sets-minimum-age-for-e-scooter-use-at-17-years" }, { "t": "ROADPOL: Cyprus personal mobility devices law", "u": "https://www.roadpol.eu/index.php/new-law-regulate-personal-mobility-devices-in-cyprus" }] },
-    { "id": "drones", "sec": "rules", "q": "drone drones fly flying dji filming",
-      "t": "Drones are allowed again after a full ban from March to May 2026. EU rules apply: stay below 120 m and keep it in sight. Keep away from airports, military areas, the British bases, archaeological sites and any wildfire. Rules can change at short notice, so check with the Department of Civil Aviation before you fly.",
-      "src": [{ "t": "Cyprus Mail, 12 May 2026: drone ban lifted", "u": "https://cyprus-mail.com/2026/05/12/drone-ban-lifted-at-british-bases-remains-in-force-near-norths-airport" }, { "t": "EASA: drones below 120 m", "u": "https://www.easa.europa.eu/en/document-library/general-publications/drones-class-0-basics-and-height-limit-120-m" }, { "t": "Cyprus Mail, 27 Aug 2025: no drones near wildfires", "u": "https://cyprus-mail.com/2025/08/27/use-of-private-drones-during-wildfires-banned" }] },
-    { "id": "time", "sec": "daily", "q": "time zone gmt clock hours ahead",
-      "t": "Cyprus time is GMT+2, and the clocks go forward an hour in summer.",
-      "src": [{ "t": "Visit Cyprus: time and working hours", "u": "https://www.visitcyprus.com/useful-info/time-working-hours-holidays/" }] },
-    { "id": "shops", "sec": "daily", "q": "shop shops opening hours sunday supermarket open siesta",
-      "t": "Some shops take a break from 14:00 to 17:00 between 15 June and 31 August. On Sundays shops open later, usually around 11:00. In tourist areas shops and supermarkets stay open late and open on Sundays. Banks, shops and public services close on public holidays.",
-      "src": [{ "t": "Visit Cyprus: time and working hours", "u": "https://www.visitcyprus.com/useful-info/time-working-hours-holidays/" }] },
-    { "id": "language", "sec": "daily", "q": "language english greek speak words phrases hello thank you",
-      "t": "Greek and Turkish are the official languages and English is widely spoken. A few words go a long way: kalimera (good morning), yia sas (hello), efharisto (thank you), parakalo (please).",
-      "src": [{ "t": "Visit Cyprus: languages and religions", "u": "https://www.visitcyprus.com/useful-info/languages-religions/" }, { "t": "Cyprus Mail: customs and useful words", "u": "https://cyprus-mail.com/2025/12/16/essential-tips-customs-and-useful-words-for-cyprus-visitors" }] },
-    { "id": "church-dress", "sec": "daily", "q": "church monastery dress code wear shoulders knees kykkos visit",
-      "t": "Dress modestly in churches and monasteries, with shoulders and knees covered.",
-      "src": [{ "t": "Cyprus Mail: customs and useful words", "u": "https://cyprus-mail.com/2025/12/16/essential-tips-customs-and-useful-words-for-cyprus-visitors" }] },
-    { "id": "roaming", "sec": "daily", "q": "roaming phone mobile data sim ee o2 vodafone three",
-      "t": "UK networks can charge for roaming in Cyprus. As of April 2026, EE charges £2.59 a day, Three £2 and Vodafone £2.57. O2, giffgaff, iD Mobile, Smarty and Tesco include EU roaming. Check your own plan before you fly.",
-      "src": [{ "t": "Which?, 10 Apr 2026: EU roaming explained", "u": "https://which.co.uk/reviews/mobile-phone-providers/article/eu-roaming-and-international-calls-explained" }] },
-    { "id": "best-time", "sec": "when", "q": "best time visit when go month season spring autumn summer winter swim warm",
-      "t": "The sea is 24°C or warmer from June to October, peaking at 27°C in August and September. July and August are the hottest months, with daytime highs around 33°C on the coast. May and October are warm without the peak heat, and November still has a 22°C sea. Winter is mild and green, with snow on Troodos from about January.",
-      "src": [{ "t": "Cyprus Department of Meteorology averages, via Wikipedia: Climate of Cyprus", "u": "https://en.wikipedia.org/wiki/Climate_of_Cyprus" }] }
-  ]
+ "_note": "Know before you go: short checked facts for visitors, used by the /know-before-you-go page and by Aphrodite's know tool. Every fact has its source and the date it was checked. Rules that change (entry, drones, e-scooters, roaming) are rechecked monthly.",
+ "checked": "2026-11-27",
+ "sections": [
+  {
+   "id": "entry",
+   "title": "Passports and entry",
+   "lead": "Cyprus is in the EU but not in Schengen, so passports are still stamped here."
+  },
+  {
+   "id": "health",
+   "title": "Health, heat and water",
+   "lead": "In an emergency call 112 and ask for an ambulance."
+  },
+  {
+   "id": "beach",
+   "title": "Beaches and the sea",
+   "lead": "The sea is rated among the cleanest in the EU. Lifeguards keep shorter hours than most people expect."
+  },
+  {
+   "id": "rules",
+   "title": "Rules worth knowing",
+   "lead": "The ones visitors get caught out by. Drones and e-scooters changed in 2026."
+  },
+  {
+   "id": "daily",
+   "title": "Everyday life",
+   "lead": "Time, shops, language, phones and what to wear in church."
+  },
+  {
+   "id": "when",
+   "title": "When to go",
+   "lead": "For swimming, June to October. For warm days without the peak heat, May or October."
+  },
+  {
+   "id": "areas",
+   "title": "Which area suits your trip",
+   "lead": "Tell Aphrodite what kind of trip it is and she'll point you to the right part of the island."
+  },
+  {
+   "id": "villages",
+   "title": "Villages worth the drive",
+   "lead": "Eleven villages visitors ask about most, each described from its official Visit Cyprus page."
+  },
+  {
+   "id": "history",
+   "title": "Cyprus history",
+   "lead": "11,000 years, each period with a place you can see it today.",
+   "own": "/cyprus-history"
+  }
+ ],
+ "facts": [
+  {
+   "id": "uk-90-days",
+   "sec": "entry",
+   "q": "visa british uk passport 90 days stay how long entry tourist",
+   "t": "British visitors can stay up to 90 days in any 180 without a visa, for holidays, family visits, business meetings and events. Work has separate rules. Other passports: check your own government's travel advice.",
+   "src": [
+    {
+     "t": "GOV.UK: Cyprus entry requirements",
+     "u": "https://www.gov.uk/foreign-travel-advice/cyprus/entry-requirements"
+    }
+   ]
+  },
+  {
+   "id": "uk-passport-validity",
+   "sec": "entry",
+   "q": "passport valid validity expiry months issued 10 years blank page",
+   "t": "A British passport must have been issued less than 10 years before you arrive and be valid for at least 3 months after the day you leave, with a blank page for stamps.",
+   "src": [
+    {
+     "t": "GOV.UK: Cyprus entry requirements",
+     "u": "https://www.gov.uk/foreign-travel-advice/cyprus/entry-requirements"
+    }
+   ]
+  },
+  {
+   "id": "not-schengen",
+   "sec": "entry",
+   "q": "schengen ees entry exit system fingerprints stamp border",
+   "t": "Cyprus is not in the Schengen area, so days here don't count towards the Schengen 90 days. The new EU Entry/Exit System (fingerprints and photos) does not apply in Cyprus. Passports are still stamped, so check you get a stamp on the way in and out.",
+   "src": [
+    {
+     "t": "GOV.UK: Cyprus entry requirements",
+     "u": "https://www.gov.uk/foreign-travel-advice/cyprus/entry-requirements"
+    },
+    {
+     "t": "Cyprus Mail, 23 Feb 2026: Schengen rules will not apply to Cyprus",
+     "u": "https://cyprus-mail.com/2026/02/23/new-rules-for-schengen-travel-will-not-apply-to-cyprus"
+    }
+   ]
+  },
+  {
+   "id": "schengen-2027",
+   "sec": "entry",
+   "q": "schengen join joining 2027 when",
+   "t": "Cyprus is working towards joining Schengen, with 1 July 2027 named as the target. Until it happens, nothing changes for visitors.",
+   "src": [
+    {
+     "t": "Cyprus Mail, 12 Nov 2026: Schengen target of 1 July",
+     "u": "https://cyprus-mail.com/2026/11/12/greece-aims-for-cyprus-to-join-schengen-on-july-1-christodoulides-says"
+    }
+   ]
+  },
+  {
+   "id": "ghic",
+   "sec": "health",
+   "q": "ghic ehic health card insurance doctor hospital nhs",
+   "t": "UK visitors need a GHIC or EHIC for medically necessary state healthcare. It doesn't replace travel insurance: it won't cover private clinics or getting flown home.",
+   "src": [
+    {
+     "t": "GOV.UK: Cyprus health advice",
+     "u": "https://www.gov.uk/foreign-travel-advice/cyprus/health"
+    }
+   ]
+  },
+  {
+   "id": "ehic-costs",
+   "sec": "health",
+   "q": "ehic cost doctor gp a&e emergency prescription ambulance free pay",
+   "t": "With an EHIC, a state GP visit costs €3, a specialist €6, an A&E visit €10 and each prescribed medicine €0.50 at a state pharmacy. Ambulances are free when you show the card. Hospital admission is through a state A&E or a public-system doctor's referral.",
+   "src": [
+    {
+     "t": "European Commission: EHIC in Cyprus",
+     "u": "https://employment-social-affairs.ec.europa.eu/policies-and-activities/moving-working-europe/eu-social-security-coordination/european-health-insurance-card/how-use-card/cyprus-european-health-insurance-card_en"
+    }
+   ]
+  },
+  {
+   "id": "heat",
+   "sec": "health",
+   "q": "heat heatwave hot sun summer sunstroke children car",
+   "t": "In a heatwave the Health Ministry advises staying out of the sun from 11:00 to 17:00, drinking water even when you're not thirsty, and never leaving children or pets in a parked car, even for a few minutes.",
+   "src": [
+    {
+     "t": "Politis, 14 Jul 2026: Health Ministry heat advice",
+     "u": "https://en.politis.com.cy/news/cy-news/1019139/cyprus-bakes-in-heatwave-health-ministry-issues-safety-advice"
+    }
+   ]
+  },
+  {
+   "id": "tap-water",
+   "sec": "health",
+   "q": "tap water drink drinking safe bottled",
+   "t": "Limassol's water board says its tap water meets EU drinking water standards. Many people still buy bottled water for the taste.",
+   "src": [
+    {
+     "t": "Limassol Water Board: water supply FAQ",
+     "u": "https://eoalemesos.org.cy/en/faqs-water-supply"
+    }
+   ]
+  },
+  {
+   "id": "bathing-water",
+   "sec": "beach",
+   "q": "sea water clean quality bathing blue flag",
+   "t": "All 123 monitored bathing sites in Cyprus were rated \"excellent\" for water quality in the 2025 EU report.",
+   "src": [
+    {
+     "t": "Cyprus Mail, 16 Jun 2026: all bathing waters excellent",
+     "u": "https://cyprus-mail.com/2026/06/16/all-cyprus-bathing-waters-rated-excellent-in-2025"
+    }
+   ]
+  },
+  {
+   "id": "lifeguards",
+   "sec": "beach",
+   "q": "lifeguard lifeguards hours safe swim season tower",
+   "t": "Lifeguards are mainly on duty from June to September and hours vary by beach. Around Ayia Napa and Protaras most towers run from about 9:30 to 17:00, and four beaches are covered from 7:00 to 18:30 in summer. No lifeguard on duty means you swim at your own risk.",
+   "src": [
+    {
+     "t": "Cyprus Mail, 17 Aug 2026: lifeguard hours",
+     "u": "https://cyprus-mail.com/2026/08/17/criminal-to-close-lifeguard-towers-at-6pm-federation-chief-says"
+    }
+   ]
+  },
+  {
+   "id": "turtles",
+   "sec": "beach",
+   "q": "turtle turtles lara toxeftra akamas nesting sunbed umbrella",
+   "t": "Lara and Toxeftra in Akamas are turtle nesting beaches. From 1 June to 30 September there are no umbrellas, sunbeds or tents, and no staying on the beach from an hour before sunset. Driving on the sand is banned all year.",
+   "src": [
+    {
+     "t": "Cyprus Mail, 16 May 2025: turtle nesting rules",
+     "u": "https://cyprus-mail.com/2025/05/16/sea-turtles-nesting-public-urged-to-be-considerate"
+    }
+   ]
+  },
+  {
+   "id": "alcohol-age",
+   "sec": "rules",
+   "q": "drinking age alcohol legal age 18 bar served",
+   "t": "You must be 18 to buy or be served alcohol.",
+   "src": [
+    {
+     "t": "Business in Cyprus: alcoholic drinks trade",
+     "u": "https://www.businessincyprus.gov.cy/business-sectors/alcoholic-drinks-trade/"
+    }
+   ]
+  },
+  {
+   "id": "smoking",
+   "sec": "rules",
+   "q": "smoking smoke cigarette vape indoors bar club fine car",
+   "t": "Smoking is banned indoors in bars, clubs and other enclosed public places, and in a car with anyone under 18. The on-the-spot fine for a smoker is €85. Smoking outdoors and on terraces is allowed.",
+   "src": [
+    {
+     "t": "Cyprus Mail, 2 Aug 2024: smoking fines",
+     "u": "https://cyprus-mail.com/2024/08/02/smoking-fines-add-e1-5m-to-state-coffers-over-last-decade"
+    }
+   ]
+  },
+  {
+   "id": "e-scooters",
+   "sec": "rules",
+   "q": "e-scooter scooter electric helmet age rent",
+   "t": "E-scooter riders must be 17 or over (raised from 14 in May 2026) and wear a fastened helmet. Scooters are allowed on roads with a 30 km/h limit and on cycle lanes, never in pedestrian areas. Police can impound them.",
+   "src": [
+    {
+     "t": "Politis, 19 May 2026: e-scooter age 17",
+     "u": "https://en.politis.com.cy/news/1006295/cyprus-sets-minimum-age-for-e-scooter-use-at-17-years"
+    },
+    {
+     "t": "ROADPOL: Cyprus personal mobility devices law",
+     "u": "https://www.roadpol.eu/index.php/new-law-regulate-personal-mobility-devices-in-cyprus"
+    }
+   ]
+  },
+  {
+   "id": "drones",
+   "sec": "rules",
+   "q": "drone drones fly flying dji filming",
+   "t": "Drones are allowed again after a full ban from March to May 2026. EU rules apply: stay below 120 m and keep it in sight. Keep away from airports, military areas, the British bases, archaeological sites and any wildfire. Rules can change at short notice, so check with the Department of Civil Aviation before you fly.",
+   "src": [
+    {
+     "t": "Cyprus Mail, 12 May 2026: drone ban lifted",
+     "u": "https://cyprus-mail.com/2026/05/12/drone-ban-lifted-at-british-bases-remains-in-force-near-norths-airport"
+    },
+    {
+     "t": "EASA: drones below 120 m",
+     "u": "https://www.easa.europa.eu/en/document-library/general-publications/drones-class-0-basics-and-height-limit-120-m"
+    },
+    {
+     "t": "Cyprus Mail, 27 Aug 2025: no drones near wildfires",
+     "u": "https://cyprus-mail.com/2025/08/27/use-of-private-drones-during-wildfires-banned"
+    }
+   ]
+  },
+  {
+   "id": "time",
+   "sec": "daily",
+   "q": "time zone gmt clock hours ahead",
+   "t": "Cyprus time is GMT+2, and the clocks go forward an hour in summer.",
+   "src": [
+    {
+     "t": "Visit Cyprus: time and working hours",
+     "u": "https://www.visitcyprus.com/useful-info/time-working-hours-holidays/"
+    }
+   ]
+  },
+  {
+   "id": "shops",
+   "sec": "daily",
+   "q": "shop shops opening hours sunday supermarket open siesta",
+   "t": "Some shops take a break from 14:00 to 17:00 between 15 June and 31 August. On Sundays shops open later, usually around 11:00. In tourist areas shops and supermarkets stay open late and open on Sundays. Banks, shops and public services close on public holidays.",
+   "src": [
+    {
+     "t": "Visit Cyprus: time and working hours",
+     "u": "https://www.visitcyprus.com/useful-info/time-working-hours-holidays/"
+    }
+   ]
+  },
+  {
+   "id": "language",
+   "sec": "daily",
+   "q": "language english greek speak words phrases hello thank you",
+   "t": "Greek and Turkish are the official languages and English is widely spoken. A few words go a long way: kalimera (good morning), yia sas (hello), efharisto (thank you), parakalo (please).",
+   "src": [
+    {
+     "t": "Visit Cyprus: languages and religions",
+     "u": "https://www.visitcyprus.com/useful-info/languages-religions/"
+    },
+    {
+     "t": "Cyprus Mail: customs and useful words",
+     "u": "https://cyprus-mail.com/2025/12/16/essential-tips-customs-and-useful-words-for-cyprus-visitors"
+    }
+   ]
+  },
+  {
+   "id": "church-dress",
+   "sec": "daily",
+   "q": "church monastery dress code wear shoulders knees kykkos visit",
+   "t": "Dress modestly in churches and monasteries, with shoulders and knees covered.",
+   "src": [
+    {
+     "t": "Cyprus Mail: customs and useful words",
+     "u": "https://cyprus-mail.com/2025/12/16/essential-tips-customs-and-useful-words-for-cyprus-visitors"
+    }
+   ]
+  },
+  {
+   "id": "roaming",
+   "sec": "daily",
+   "q": "roaming phone mobile data sim ee o2 vodafone three",
+   "t": "UK networks can charge for roaming in Cyprus. As of April 2026, EE charges £2.59 a day, Three £2 and Vodafone £2.57. O2, giffgaff, iD Mobile, Smarty and Tesco include EU roaming. Check your own plan before you fly.",
+   "src": [
+    {
+     "t": "Which?, 10 Apr 2026: EU roaming explained",
+     "u": "https://which.co.uk/reviews/mobile-phone-providers/article/eu-roaming-and-international-calls-explained"
+    }
+   ]
+  },
+  {
+   "id": "best-time",
+   "sec": "when",
+   "q": "best time visit when go month season spring autumn summer winter swim warm",
+   "t": "The sea is 24°C or warmer from June to October, peaking at 27°C in August and September. July and August are the hottest months, with daytime highs around 33°C on the coast. May and October are warm without the peak heat, and November still has a 22°C sea. Winter is mild and green, with snow on Troodos from about January.",
+   "src": [
+    {
+     "t": "Cyprus Department of Meteorology averages, via Wikipedia: Climate of Cyprus",
+     "u": "https://en.wikipedia.org/wiki/Climate_of_Cyprus"
+    }
+   ]
+  },
+  {
+   "id": "area-nightlife",
+   "sec": "areas",
+   "q": "area where stay base nightlife party clubs bars young groups lively",
+   "t": "For nightlife, stay in Ayia Napa. It's the island's best-known nightlife strip, with the clubs and bars close together around the centre.",
+   "src": [
+    {
+     "t": "Our guide: Ayia Napa nightlife",
+     "u": "https://welovecy.com/guides/ayia-napa-nightlife"
+    }
+   ]
+  },
+  {
+   "id": "area-family",
+   "sec": "areas",
+   "q": "area where stay base family families kids children toddlers young",
+   "t": "For families with young kids, Protaras and Ayia Napa work best: calm sandy bays, shallow water, waterparks in summer and the Ocean Aquarium.",
+   "src": [
+    {
+     "t": "Our guide: Cyprus with kids",
+     "u": "https://welovecy.com/guides/cyprus-with-kids"
+    },
+    {
+     "t": "Our area page: Protaras",
+     "u": "https://welovecy.com/destinations/protaras"
+    }
+   ]
+  },
+  {
+   "id": "area-culture",
+   "sec": "areas",
+   "q": "area where stay base culture history museums mosaics archaeology",
+   "t": "For culture and history, base yourself in Paphos (mosaics, Tombs of the Kings, the harbour) or Nicosia (the Cyprus Museum and the old city inside the Venetian walls).",
+   "src": [
+    {
+     "t": "Our area page: Paphos",
+     "u": "https://welovecy.com/destinations/paphos"
+    },
+    {
+     "t": "Our area page: Nicosia",
+     "u": "https://welovecy.com/destinations/nicosia"
+    }
+   ]
+  },
+  {
+   "id": "area-no-car",
+   "sec": "areas",
+   "q": "area where stay base no car without car car-free bus walk walking",
+   "t": "Without a car, the easiest bases are Kato Paphos, central Larnaca, Ayia Napa and central Protaras, where the beach, food and buses are a short walk away. A car really helps for the Troodos villages, Akamas and hill villas.",
+   "src": [
+    {
+     "t": "Our guide: where to stay without a car",
+     "u": "https://welovecy.com/guides/where-to-stay-in-cyprus-without-a-car"
+    }
+   ]
+  },
+  {
+   "id": "area-quiet",
+   "sec": "areas",
+   "q": "area where stay base quiet nature peaceful remote couples walking hiking",
+   "t": "For quiet and nature, stay around Polis and Latchi: Akamas walks, the Blue Lagoon boat trips and wild beaches like Lara.",
+   "src": [
+    {
+     "t": "Our area page: Polis, Latchi and Akamas",
+     "u": "https://welovecy.com/destinations/akamas"
+    },
+    {
+     "t": "Our guide: Blue Lagoon boat trips",
+     "u": "https://welovecy.com/guides/blue-lagoon-boat-trips-from-latchi"
+    }
+   ]
+  },
+  {
+   "id": "area-city",
+   "sec": "areas",
+   "q": "area where stay base city food wine restaurants shopping marina",
+   "t": "For a city break with food and wine, Limassol has the old port, the marina, a long seafront and the wine villages in the hills behind it.",
+   "src": [
+    {
+     "t": "Our area page: Limassol",
+     "u": "https://welovecy.com/destinations/limassol"
+    },
+    {
+     "t": "Our guide: things to do in Limassol",
+     "u": "https://welovecy.com/guides/things-to-do-in-limassol"
+    }
+   ]
+  },
+  {
+   "id": "area-mountains",
+   "sec": "areas",
+   "q": "area where stay base mountains cool winter snow troodos hiking villages",
+   "t": "For mountains and cooler air, stay in the Troodos villages: cool in July and August, and snow from about January.",
+   "src": [
+    {
+     "t": "Our area page: Troodos",
+     "u": "https://welovecy.com/destinations/troodos"
+    },
+    {
+     "t": "Our guide: Cyprus in winter",
+     "u": "https://welovecy.com/guides/cyprus-in-winter"
+    }
+   ]
+  },
+  {
+   "id": "village-omodos",
+   "sec": "villages",
+   "q": "village villages omodos wine village limassol troodos",
+   "t": "Omodos (Limassol wine villages, 800 m): a cobbled square, a medieval wine press and Timios Stavros monastery. Known for wine, zivania and arkatena bread, with a big Holy Cross fair every 14 September.",
+   "src": [
+    {
+     "t": "Visit Cyprus: Omodos",
+     "u": "https://www.visitcyprus.com/places-to-go/villages/omodos-village-3/"
+    }
+   ]
+  },
+  {
+   "id": "village-lefkara",
+   "sec": "villages",
+   "q": "village villages lefkara lace silver larnaca",
+   "t": "Lefkara (Larnaca hills, 650 m): famous for lace embroidery and silver filigree, which you can watch being made. Festival every August.",
+   "src": [
+    {
+     "t": "Visit Cyprus: Lefkara",
+     "u": "https://www.visitcyprus.com/places-to-go/villages/lefkara-village-3/"
+    }
+   ]
+  },
+  {
+   "id": "village-kakopetria",
+   "sec": "villages",
+   "q": "village villages kakopetria troodos solea old quarter",
+   "t": "Kakopetria (Troodos, Solea Valley): a protected old quarter of stone alleys, a 1754 watermill, and the painted church of Agios Nikolaos tis Stegis 5 km away.",
+   "src": [
+    {
+     "t": "Visit Cyprus: Kakopetria",
+     "u": "https://www.visitcyprus.com/places-to-go/villages/kakopetria-village-3/"
+    }
+   ]
+  },
+  {
+   "id": "village-kalopanagiotis",
+   "sec": "villages",
+   "q": "village villages kalopanagiotis kalopanayiotis marathasa troodos",
+   "t": "Kalopanagiotis (Troodos, Marathasa Valley): sulphur springs, a Venetian bridge and the UNESCO-listed Agios Ioannis Lampadistis monastery.",
+   "src": [
+    {
+     "t": "Visit Cyprus: Kalopanagiotis",
+     "u": "https://www.visitcyprus.com/places-to-go/villages/kalopanagiotis-village-3/"
+    }
+   ]
+  },
+  {
+   "id": "village-agros",
+   "sec": "villages",
+   "q": "village villages agros roses rose pitsilia",
+   "t": "Agros (Pitsilia, 1,100 m): rose growing and rose oil distilling you can watch, plus lountza, hiromeri and homemade sweets.",
+   "src": [
+    {
+     "t": "Visit Cyprus: Agros",
+     "u": "https://www.visitcyprus.com/discover-cyprus/rural/villages-rural/agros-village-2/"
+    }
+   ]
+  },
+  {
+   "id": "village-fikardou",
+   "sec": "villages",
+   "q": "village villages fikardou pitsilia nicosia monument",
+   "t": "Fikardou (Pitsilia, 900 m): the whole village was declared an ancient monument in 1978, with two house museums of rural life. Machairas monastery is under 15 minutes away.",
+   "src": [
+    {
+     "t": "Visit Cyprus: Fikardou",
+     "u": "https://www.visitcyprus.com/discover-cyprus/rural/villages-rural/fikardou-village-2/"
+    }
+   ]
+  },
+  {
+   "id": "village-lofou",
+   "sec": "villages",
+   "q": "village villages lofou limassol grape festival",
+   "t": "Lofou (Limassol hills, 780 m): old stone architecture, an 1842 village tap, and a grape festival at the end of September.",
+   "src": [
+    {
+     "t": "Visit Cyprus: Lofou",
+     "u": "https://www.visitcyprus.com/discover-cyprus/rural/villages-rural/lofou-village-2/"
+    }
+   ]
+  },
+  {
+   "id": "village-lania",
+   "sec": "villages",
+   "q": "village villages lania artists limassol colourful",
+   "t": "Lania (Troodos foothills, Limassol district): cobbled streets, flower-covered stone houses, artists' studios and old wine jars.",
+   "src": [
+    {
+     "t": "Visit Cyprus: Lania",
+     "u": "https://www.visitcyprus.com/colourful-villages-list/"
+    }
+   ]
+  },
+  {
+   "id": "village-pissouri",
+   "sec": "villages",
+   "q": "village villages pissouri halloumi limassol coast",
+   "t": "Pissouri (Limassol coast, near Cape Aspro): a hillside village known for halloumi and sweet sultana grapes, with old carob stores turned into restaurants.",
+   "src": [
+    {
+     "t": "Visit Cyprus: Pissouri",
+     "u": "https://www.visitcyprus.com/discover-cyprus/rural/villages-rural/pissouri-village-2/"
+    }
+   ]
+  },
+  {
+   "id": "village-tochni",
+   "sec": "villages",
+   "q": "village villages tochni larnaca stone cycling",
+   "t": "Tochni (Larnaca district): one of the oldest villages on the island, built of local stone, with a small Byzantine museum. Good for cycling and horse riding.",
+   "src": [
+    {
+     "t": "Visit Cyprus: Tochni",
+     "u": "https://www.visitcyprus.com/discover-cyprus/rural/villages-rural/tochni-village-2/"
+    }
+   ]
+  },
+  {
+   "id": "village-kathikas",
+   "sec": "villages",
+   "q": "village villages kathikas paphos wine donkey easter",
+   "t": "Kathikas (Paphos hills, about 700 m): century-old houses, wineries, a small donkey sanctuary, and an Easter Passion procession on Good Friday.",
+   "src": [
+    {
+     "t": "Visit Cyprus: Kathikas",
+     "u": "https://www.visitcyprus.com/discover-cyprus/rural/villages-rural/kathikas-village-2/"
+    }
+   ]
+  },
+  {
+   "id": "hist-neolithic",
+   "sec": "history",
+   "q": "history historical neolithic stone age first settlers choirokoitia prehistoric",
+   "t": "Neolithic (from 11,500 BC): The first permanent settlements on the island. See it at Choirokoitia, UNESCO listed.",
+   "period": "Neolithic",
+   "dates": "from 11,500 BC",
+   "what": "The first permanent settlements on the island.",
+   "see": "Choirokoitia, UNESCO listed",
+   "src": [
+    {
+     "t": "Deputy Ministry of Tourism: Cyprus, 11,000 years of history and civilisation",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/files/11000%20YEARS/11000_YEARS_ENG_WEB_15_10_2021_AMENDED.pdf"
+    }
+   ]
+  },
+  {
+   "id": "hist-chalcolithic",
+   "sec": "history",
+   "q": "history historical chalcolithic copper idol",
+   "t": "Chalcolithic (3900 to 2500 BC): Small-scale copper mining begins. See it at Cyprus Museum, Nicosia.",
+   "period": "Chalcolithic",
+   "dates": "3900 to 2500 BC",
+   "what": "Small-scale copper mining begins.",
+   "see": "Cyprus Museum, Nicosia",
+   "src": [
+    {
+     "t": "Deputy Ministry of Tourism: Cyprus, 11,000 years of history and civilisation",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/files/11000%20YEARS/11000_YEARS_ENG_WEB_15_10_2021_AMENDED.pdf"
+    }
+   ]
+  },
+  {
+   "id": "hist-bronze",
+   "sec": "history",
+   "q": "history historical bronze age copper trade",
+   "t": "Bronze Age (2500 to 1050 BC): Copper working and trade across the eastern Mediterranean. See it at Cyprus Museum, Nicosia.",
+   "period": "Bronze Age",
+   "dates": "2500 to 1050 BC",
+   "what": "Copper working and trade across the eastern Mediterranean.",
+   "see": "Cyprus Museum, Nicosia",
+   "src": [
+    {
+     "t": "Deputy Ministry of Tourism: Cyprus, 11,000 years of history and civilisation",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/files/11000%20YEARS/11000_YEARS_ENG_WEB_15_10_2021_AMENDED.pdf"
+    }
+   ]
+  },
+  {
+   "id": "hist-mycenaean",
+   "sec": "history",
+   "q": "history historical mycenaean greeks city kingdoms phoenicians kition",
+   "t": "Mycenaean Greeks and city kingdoms (from the 13th century BC): Greek settlers arrive, and Phoenicians later settle at Kition. See it at Kition, Larnaca.",
+   "period": "Mycenaean Greeks and city kingdoms",
+   "dates": "from the 13th century BC",
+   "what": "Greek settlers arrive, and Phoenicians later settle at Kition.",
+   "see": "Kition, Larnaca",
+   "src": [
+    {
+     "t": "Deputy Ministry of Tourism: Cyprus, 11,000 years of history and civilisation",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/files/11000%20YEARS/11000_YEARS_ENG_WEB_15_10_2021_AMENDED.pdf"
+    }
+   ]
+  },
+  {
+   "id": "hist-archaic",
+   "sec": "history",
+   "q": "history historical archaic classical persian kingdoms tamassos evagoras",
+   "t": "Archaic and Classical (1050 to 312 BC): Independent city kingdoms, then Persian rule. See it at Tamassos Royal Tombs.",
+   "period": "Archaic and Classical",
+   "dates": "1050 to 312 BC",
+   "what": "Independent city kingdoms, then Persian rule.",
+   "see": "Tamassos Royal Tombs",
+   "src": [
+    {
+     "t": "Deputy Ministry of Tourism: Cyprus, 11,000 years of history and civilisation",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/files/11000%20YEARS/11000_YEARS_ENG_WEB_15_10_2021_AMENDED.pdf"
+    }
+   ]
+  },
+  {
+   "id": "hist-hellenistic",
+   "sec": "history",
+   "q": "history historical hellenistic ptolemy alexander",
+   "t": "Hellenistic (310 to 30 BC): Ruled by the Ptolemies after Alexander the Great. See it at Pierides Museum.",
+   "period": "Hellenistic",
+   "dates": "310 to 30 BC",
+   "what": "Ruled by the Ptolemies after Alexander the Great.",
+   "see": "Pierides Museum",
+   "src": [
+    {
+     "t": "Deputy Ministry of Tourism: Cyprus, 11,000 years of history and civilisation",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/files/11000%20YEARS/11000_YEARS_ENG_WEB_15_10_2021_AMENDED.pdf"
+    }
+   ]
+  },
+  {
+   "id": "hist-roman",
+   "sec": "history",
+   "q": "history historical roman romans mosaics paul barnabas christianity",
+   "t": "Roman (30 BC to 395 AD): Paul and Barnabas bring Christianity in 45 AD. See it at Paphos Mosaics.",
+   "period": "Roman",
+   "dates": "30 BC to 395 AD",
+   "what": "Paul and Barnabas bring Christianity in 45 AD.",
+   "see": "Paphos Mosaics",
+   "src": [
+    {
+     "t": "Deputy Ministry of Tourism: Cyprus, 11,000 years of history and civilisation",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/files/11000%20YEARS/11000_YEARS_ENG_WEB_15_10_2021_AMENDED.pdf"
+    }
+   ]
+  },
+  {
+   "id": "hist-byzantine",
+   "sec": "history",
+   "q": "history historical byzantine painted churches frescoes",
+   "t": "Byzantine (395 to 1191): The Church of Cyprus is independent, and the painted churches are built. See it at Troodos painted churches, UNESCO listed.",
+   "period": "Byzantine",
+   "dates": "395 to 1191",
+   "what": "The Church of Cyprus is independent, and the painted churches are built.",
+   "see": "Troodos painted churches, UNESCO listed",
+   "src": [
+    {
+     "t": "Deputy Ministry of Tourism: Cyprus, 11,000 years of history and civilisation",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/files/11000%20YEARS/11000_YEARS_ENG_WEB_15_10_2021_AMENDED.pdf"
+    }
+   ]
+  },
+  {
+   "id": "hist-richard",
+   "sec": "history",
+   "q": "history historical richard lionheart templars crusades berengaria",
+   "t": "Richard the Lionheart (1191 to 1192): Richard conquers Cyprus in 1191 and sells it to the Knights Templar. See it at Limassol Medieval Castle.",
+   "period": "Richard the Lionheart",
+   "dates": "1191 to 1192",
+   "what": "Richard conquers Cyprus in 1191 and sells it to the Knights Templar.",
+   "see": "Limassol Medieval Castle",
+   "src": [
+    {
+     "t": "Deputy Ministry of Tourism: Cyprus, 11,000 years of history and civilisation",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/files/11000%20YEARS/11000_YEARS_ENG_WEB_15_10_2021_AMENDED.pdf"
+    }
+   ]
+  },
+  {
+   "id": "hist-lusignan",
+   "sec": "history",
+   "q": "history historical lusignan frankish medieval kings",
+   "t": "Lusignan (1192 to 1489): Three centuries of Frankish kings. See it at Royal Chapel at Pyrga.",
+   "period": "Lusignan",
+   "dates": "1192 to 1489",
+   "what": "Three centuries of Frankish kings.",
+   "see": "Royal Chapel at Pyrga",
+   "src": [
+    {
+     "t": "Deputy Ministry of Tourism: Cyprus, 11,000 years of history and civilisation",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/files/11000%20YEARS/11000_YEARS_ENG_WEB_15_10_2021_AMENDED.pdf"
+    }
+   ]
+  },
+  {
+   "id": "hist-venetian",
+   "sec": "history",
+   "q": "history historical venetian venice walls caterina cornaro",
+   "t": "Venetian (1489 to 1571): Venice takes over and builds the great walls. See it at Nicosia's Venetian Walls and Famagusta Gate.",
+   "period": "Venetian",
+   "dates": "1489 to 1571",
+   "what": "Venice takes over and builds the great walls.",
+   "see": "Nicosia's Venetian Walls and Famagusta Gate",
+   "src": [
+    {
+     "t": "Deputy Ministry of Tourism: Cyprus, 11,000 years of history and civilisation",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/files/11000%20YEARS/11000_YEARS_ENG_WEB_15_10_2021_AMENDED.pdf"
+    }
+   ]
+  },
+  {
+   "id": "hist-ottoman",
+   "sec": "history",
+   "q": "history historical ottoman turkish rule 1571",
+   "t": "Ottoman (1571 to 1878): Ottoman rule. See it at Hala Sultan Tekke, Larnaca.",
+   "period": "Ottoman",
+   "dates": "1571 to 1878",
+   "what": "Ottoman rule.",
+   "see": "Hala Sultan Tekke, Larnaca",
+   "src": [
+    {
+     "t": "Deputy Ministry of Tourism: Cyprus, 11,000 years of history and civilisation",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/files/11000%20YEARS/11000_YEARS_ENG_WEB_15_10_2021_AMENDED.pdf"
+    }
+   ]
+  },
+  {
+   "id": "hist-british",
+   "sec": "history",
+   "q": "history historical british britain colony",
+   "t": "British (1878 to 1960): Cyprus passes to Britain. See it at Cyprus Museum building, Nicosia.",
+   "period": "British",
+   "dates": "1878 to 1960",
+   "what": "Cyprus passes to Britain.",
+   "see": "Cyprus Museum building, Nicosia",
+   "src": [
+    {
+     "t": "Deputy Ministry of Tourism: Cyprus, 11,000 years of history and civilisation",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/files/11000%20YEARS/11000_YEARS_ENG_WEB_15_10_2021_AMENDED.pdf"
+    }
+   ]
+  },
+  {
+   "id": "hist-independence",
+   "sec": "history",
+   "q": "history historical independence 1960 republic",
+   "t": "Independence (16 August 1960): The Republic of Cyprus is proclaimed. See it at Liberty Monument, Nicosia.",
+   "period": "Independence",
+   "dates": "16 August 1960",
+   "what": "The Republic of Cyprus is proclaimed.",
+   "see": "Liberty Monument, Nicosia",
+   "src": [
+    {
+     "t": "Deputy Ministry of Tourism: Cyprus, 11,000 years of history and civilisation",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/files/11000%20YEARS/11000_YEARS_ENG_WEB_15_10_2021_AMENDED.pdf"
+    }
+   ]
+  },
+  {
+   "id": "hist-1974",
+   "sec": "history",
+   "q": "history historical 1974 invasion coup division divided north green line",
+   "t": "1974 (July 1974): A coup backed by the military junta then ruling Greece, followed by the Turkish invasion. The island has been divided since. See it at Byzantine Museum, Nicosia.",
+   "period": "1974",
+   "dates": "July 1974",
+   "what": "A coup backed by the military junta then ruling Greece, followed by the Turkish invasion. The island has been divided since.",
+   "see": "Byzantine Museum, Nicosia",
+   "src": [
+    {
+     "t": "Deputy Ministry of Tourism: Cyprus, 11,000 years of history and civilisation",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/files/11000%20YEARS/11000_YEARS_ENG_WEB_15_10_2021_AMENDED.pdf"
+    }
+   ]
+  },
+  {
+   "id": "hist-eu",
+   "sec": "history",
+   "q": "history historical eu european union 2004 euro",
+   "t": "European Union (1 May 2004): Cyprus joins the European Union.",
+   "period": "European Union",
+   "dates": "1 May 2004",
+   "what": "Cyprus joins the European Union.",
+   "see": "",
+   "src": [
+    {
+     "t": "Deputy Ministry of Tourism: Cyprus, 11,000 years of history and civilisation",
+     "u": "https://www.visitcyprus.com/wp-content/uploads/files/11000%20YEARS/11000_YEARS_ENG_WEB_15_10_2021_AMENDED.pdf"
+    }
+   ]
+  }
+ ]
 }

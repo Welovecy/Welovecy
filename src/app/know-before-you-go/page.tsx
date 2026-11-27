@@ -15,12 +15,12 @@ export default function KnowBeforeYouGo() {
     <>
       <PageHead title="Know before you go" lead="The rules and facts worth knowing before you land. Each one comes with its source." crumbs={[["Home", "/"], ["Practical info", "/practical"], ["Know before you go"]]}>
         <nav className="chips" aria-label="On this page" style={{ marginTop: 12 }}>
-          {KNOW_SECTIONS.map((s) => <a key={s.id} className="chip" href={`#${s.id}`}>{s.title}</a>)}
+          {KNOW_SECTIONS.map((s) => <a key={s.id} className="chip" href={s.own ?? `#${s.id}`}>{s.title}</a>)}
         </nav>
       </PageHead>
       {KNOW_SECTIONS.map((s) => {
         const facts = factsIn(s.id);
-        if (!facts.length) return null;
+        if (!facts.length || s.own) return null;
         return (
           <section key={s.id} className="wrap pad-top know" id={s.id} aria-labelledby={`h-${s.id}`}>
             <h2 id={`h-${s.id}`} className="h-sub">{s.title}</h2>

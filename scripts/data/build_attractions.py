@@ -319,6 +319,30 @@ B2 = [
      {"len": "4.8 km", "grade": 3, "time": "2.5 hours"}),
 ]
 SPEC += [(i, oid, k, cat, n, al, [], web, d, src, x) for i, oid, k, cat, n, al, web, d, src, x in B2]
+
+# Batch 2 (27 Nov 2026): indoor places for rainy days, so every main area has some.
+VC_MUS = "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/"
+B3 = [
+    ("att-thalassa-museum", "w131894256", "sight", "Museum", "Thalassa Municipal Museum", ["Thalassa Museum", "Thalassa Agia Napa Municipal Museum", "Museum of the Sea Ayia Napa"], "https://thalassamuseum.org.cy/",
+     "Ayia Napa's municipal museum of the sea, in the town centre.", ("Visit Cyprus: Thalassa Agia Napa Municipal Museum", "https://visitcyprus.com/?p=471707"), {}),
+    ("att-paphos-archaeological-museum", "w1181368494", "sight", "Museum", "Paphos District Archaeological Museum", ["Paphos Archaeological Museum", "Pafos Archaeological Museum"], "https://www.mcw.gov.cy/mcw/da/da.nsf/All/306F2D157B5C878FC225719900205580?OpenDocument",
+     "The district archaeological museum of Paphos, run by the Department of Antiquities, on Griva Digeni Avenue.", None, {}),
+    ("att-limassol-archaeological-museum", "n4580756497", "sight", "Museum", "Limassol District Archaeological Museum", ["Archaeological Museum of the Lemesos District", "Lemesos Archaeological Museum", "Limassol Archaeological Museum"], None,
+     "The district archaeological museum of Limassol.", ("Visit Cyprus: Archaeological Museum of the Lemesos District", "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/archaeological-museum-of-the-lemesos-limassol-district/"), {}),
+    ("att-mall-of-engomi", "w10961631", "sight", "Shopping centre", "Mall of Engomi", ["Engomi Mall"], "https://themallofengomi.com/",
+     "A shopping centre in Engomi, Nicosia.", None, {}),
+    ("att-my-mall", "w24158409", "sight", "Shopping centre", "My Mall Limassol", ["My Mall"], "https://www.mymall.com.cy",
+     "A large shopping centre on Franklin Roosevelt Avenue, west Limassol.", None, {}),
+    ("att-metropolis-mall", "w729709277", "sight", "Shopping centre", "Metropolis Mall Larnaca", ["Metropolis Mall"], "https://metropolismall.com.cy/",
+     "A shopping centre on Evropaikis Enosis Avenue, Larnaca.", None, {}),
+    ("att-k-cineplex-limassol", "w28654965", "sight", "Cinema", "K Cineplex Limassol", ["K Cineplex"], "https://kcineplex.com/",
+     "A multiplex cinema in Limassol.", None, {}),
+    ("att-k-cineplex-nicosia", "w290424270", "sight", "Cinema", "K Cineplex Nicosia", ["K Cineplex Strovolos"], "https://kcineplex.com/",
+     "A multiplex cinema in Strovolos, Nicosia.", None, {}),
+    ("att-rio-cinema-limassol", "w255732611", "sight", "Cinema", "Rio Cinema Limassol", ["Rio Cinemas"], "https://www.riocinemas.com.cy/limassol/",
+     "A cinema in central Limassol.", None, {}),
+]
+SPEC += [(i, oid, k, cat, n, al, [], web, d, src, x) for i, oid, k, cat, n, al, web, d, src, x in B3]
 FD_TRAILS |= {i for i, *_ in B2}
 EXTRA += [
     {"i": "att-trail-araka-agiasmati", "k": "nature", "cat": "Nature trail", "n": "Panagia tou Araka to Stavros tou Agiasmati Nature Trail", "alt": "Araka Agiasmati trail; painted churches walk",

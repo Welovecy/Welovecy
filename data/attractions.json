@@ -3363,6 +3363,271 @@
    "time": "2.5 hours"
   },
   {
+   "i": "att-thalassa-museum",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Thalassa Municipal Museum",
+   "alt": "Thalassa Museum; Thalassa Agia Napa Municipal Museum; Museum of the Sea Ayia Napa",
+   "ll": [
+    34.9876,
+    34.002667
+   ],
+   "pr": "osm",
+   "ent": true,
+   "web": "https://thalassamuseum.org.cy/",
+   "a": null,
+   "ph": "+35723816366",
+   "osm": "w131894256",
+   "inside": [],
+   "desc": "Ayia Napa's municipal museum of the sea, in the town centre.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://thalassamuseum.org.cy/"
+    },
+    {
+     "t": "Visit Cyprus: Thalassa Agia Napa Municipal Museum",
+     "u": "https://visitcyprus.com/?p=471707"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/131894256"
+    }
+   ]
+  },
+  {
+   "i": "att-paphos-archaeological-museum",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Paphos District Archaeological Museum",
+   "alt": "Paphos Archaeological Museum; Pafos Archaeological Museum",
+   "ll": [
+    34.771792,
+    32.430353
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://www.mcw.gov.cy/mcw/da/da.nsf/All/306F2D157B5C878FC225719900205580?OpenDocument",
+   "a": "Griva Digeni Avenue 53 Pafos",
+   "ph": "+357 26955801",
+   "osm": "w1181368494",
+   "inside": [],
+   "desc": "The district archaeological museum of Paphos, run by the Department of Antiquities, on Griva Digeni Avenue.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.mcw.gov.cy/mcw/da/da.nsf/All/306F2D157B5C878FC225719900205580?OpenDocument"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/1181368494"
+    }
+   ]
+  },
+  {
+   "i": "att-limassol-archaeological-museum",
+   "k": "sight",
+   "cat": "Museum",
+   "n": "Limassol District Archaeological Museum",
+   "alt": "Archaeological Museum of the Lemesos District; Lemesos Archaeological Museum; Limassol Archaeological Museum",
+   "ll": [
+    34.706855,
+    33.022427
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": null,
+   "a": null,
+   "ph": null,
+   "osm": "n4580756497",
+   "inside": [],
+   "desc": "The district archaeological museum of Limassol.",
+   "srcs": [
+    {
+     "t": "Visit Cyprus: Archaeological Museum of the Lemesos District",
+     "u": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/archaeological-museum-of-the-lemesos-limassol-district/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/node/4580756497"
+    }
+   ]
+  },
+  {
+   "i": "att-mall-of-engomi",
+   "k": "sight",
+   "cat": "Shopping centre",
+   "n": "Mall of Engomi",
+   "alt": "Engomi Mall",
+   "ll": [
+    35.163056,
+    33.317016
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://themallofengomi.com/",
+   "a": null,
+   "ph": null,
+   "osm": "w10961631",
+   "inside": [],
+   "desc": "A shopping centre in Engomi, Nicosia.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://themallofengomi.com/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/10961631"
+    }
+   ]
+  },
+  {
+   "i": "att-my-mall",
+   "k": "sight",
+   "cat": "Shopping centre",
+   "n": "My Mall Limassol",
+   "alt": "My Mall",
+   "ll": [
+    34.652822,
+    32.997434
+   ],
+   "pr": "osm",
+   "ent": true,
+   "web": "https://www.mymall.com.cy",
+   "a": "Fragklinou Rousvelt 285 Limassol",
+   "ph": null,
+   "osm": "w24158409",
+   "inside": [],
+   "desc": "A large shopping centre on Franklin Roosevelt Avenue, west Limassol.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.mymall.com.cy"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/24158409"
+    }
+   ]
+  },
+  {
+   "i": "att-metropolis-mall",
+   "k": "sight",
+   "cat": "Shopping centre",
+   "n": "Metropolis Mall Larnaca",
+   "alt": "Metropolis Mall",
+   "ll": [
+    34.925113,
+    33.603151
+   ],
+   "pr": "osm",
+   "ent": true,
+   "web": "https://metropolismall.com.cy/",
+   "a": "Evropaikis Enosis Avenue 5 Larnaca",
+   "ph": "+357 24 257610",
+   "osm": "w729709277",
+   "inside": [],
+   "desc": "A shopping centre on Evropaikis Enosis Avenue, Larnaca.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://metropolismall.com.cy/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/729709277"
+    }
+   ]
+  },
+  {
+   "i": "att-k-cineplex-limassol",
+   "k": "sight",
+   "cat": "Cinema",
+   "n": "K Cineplex Limassol",
+   "alt": "K Cineplex",
+   "ll": [
+    34.706034,
+    33.106943
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://kcineplex.com/",
+   "a": "Ariadnis 8 Limassol",
+   "ph": null,
+   "osm": "w28654965",
+   "inside": [],
+   "desc": "A multiplex cinema in Limassol.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://kcineplex.com/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/28654965"
+    }
+   ]
+  },
+  {
+   "i": "att-k-cineplex-nicosia",
+   "k": "sight",
+   "cat": "Cinema",
+   "n": "K Cineplex Nicosia",
+   "alt": "K Cineplex Strovolos",
+   "ll": [
+    35.146712,
+    33.32605
+   ],
+   "pr": "osm",
+   "ent": false,
+   "web": "https://kcineplex.com/",
+   "a": "Makedonitissis 109 Strovolos",
+   "ph": null,
+   "osm": "w290424270",
+   "inside": [],
+   "desc": "A multiplex cinema in Strovolos, Nicosia.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://kcineplex.com/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/290424270"
+    }
+   ]
+  },
+  {
+   "i": "att-rio-cinema-limassol",
+   "k": "sight",
+   "cat": "Cinema",
+   "n": "Rio Cinema Limassol",
+   "alt": "Rio Cinemas",
+   "ll": [
+    34.678502,
+    33.041028
+   ],
+   "pr": "osm",
+   "ent": true,
+   "web": "https://www.riocinemas.com.cy/limassol/",
+   "a": null,
+   "ph": null,
+   "osm": "w255732611",
+   "inside": [],
+   "desc": "A cinema in central Limassol.",
+   "srcs": [
+    {
+     "t": "Official website",
+     "u": "https://www.riocinemas.com.cy/limassol/"
+    },
+    {
+     "t": "Location: OpenStreetMap contributors",
+     "u": "https://www.openstreetmap.org/way/255732611"
+    }
+   ]
+  },
+  {
    "inside": [
     "cy-01501",
     "cy-01558",
