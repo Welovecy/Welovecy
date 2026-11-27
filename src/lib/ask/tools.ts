@@ -18,7 +18,7 @@ const ALIAS = (aliasJson as { aliases: Record<string, string[]> }).aliases;
 import { EVENTS, datesTbc, overlaps, whenText } from "../events";
 import { addDays as addD } from "../duty";
 import { isIndoor } from "../indoor";
-import { KNOW_CHECKED, KNOW_HREF, searchFacts } from "../knowledge";
+import { KNOW_CHECKED, KNOW_HREF, KNOW_SECTIONS, searchFacts } from "../knowledge";
 import { PARTNERS, PARTNER_LABEL, partnerFor, partnerForGuide, partnerHref, type PartnerService, type Stay } from "../partners";
 
 /**
@@ -296,7 +296,7 @@ function buses(a: Args, ctx: Ctx) {
 function know(a: Args) {
   const facts = searchFacts(S(a.query));
   if (!facts.length) return { facts: [], note: "No checked fact for this. Try guides or site_pages, or say you don't know.", page: url(KNOW_HREF) };
-  return { checked: KNOW_CHECKED, page: url(KNOW_HREF), facts: facts.map((f) => ({ fact: f.t, sources: f.src.map((x) => x.t + " " + x.u), link: url(`${KNOW_HREF}#${f.id}`) })) };
+  return { checked: KNOW_CHECKED, page: url(KNOW_HREF), facts: facts.map((f) => ({ fact: f.t, sources: f.src.map((x) => x.t + " " + x.u), link: url(`${KNOW_SECTIONS.find((x) => x.id === f.sec)?.own ?? KNOW_HREF}#${f.id}`) })) };
 }
 
 function guides(a: Args, ctx: Ctx) {
