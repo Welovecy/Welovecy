@@ -100,7 +100,7 @@ function PoiView({ id }: { id: string }) {
   const href = listingHref(r.i);
   const src = poiSources(r);
   const isBeach = r.k === "beach";
-  const photo = isBeach ? photoFor(`beach-${r.i}`) : undefined;
+  const photo = photoFor(isBeach ? `beach-${r.i}` : `poi-${r.i}`);
   const type = isBeach ? "Beach" : r.k === "pharmacy" ? "Pharmacy" : r.k === "health" ? "MedicalClinic" : r.k === "market" ? "GroceryStore" : "TouristAttraction";
   const ld = {
     "@context": "https://schema.org", "@type": type, name: r.n, url: absolute(href),
