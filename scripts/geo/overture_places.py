@@ -8,7 +8,8 @@ import duckdb
 
 def latest_release():
     cat = json.load(urllib.request.urlopen("https://stac.overturemaps.org/catalog.json", timeout=60))
-    rels = sorted(l["href"].strip("./").split("/")[0] for l in cat["links"] if l.get("rel") == "child")
+    import re
+    rels = sorted({m.group(0) for l in cat["links"] for m in [re.search(r"\d{4}-\d{2}-\d{2}\.\d+", l.get("href", ""))] if m})
     return rels[-1]
 
 def main(out):
