@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { PageHead, Sources } from "@/components/Bits";
 
 export const metadata: Metadata = { title: "Practical info", description: "Emergency numbers, helplines and urban taxi fares in the Republic of Cyprus." };
@@ -19,7 +20,9 @@ const TAXI: [string, string, string][] = [
 export default function Practical() {
   return (
     <>
-      <PageHead title="Practical info" lead="The numbers and fares worth knowing before you need them." crumbs={[["Home", "/"], ["Practical info"]]} />
+      <PageHead title="Practical info" lead="The numbers and fares worth knowing before you need them." crumbs={[["Home", "/"], ["Practical info"]]}>
+        <p className="small" style={{ marginTop: 8 }}><Link href="/know-before-you-go">Know before you go: passports, health cards, heat, drones and more</Link></p>
+      </PageHead>
       <section className="wrap pad-top" id="emergency" aria-labelledby="h-em">
         <h2 id="h-em" className="h-sub">Emergency and helplines</h2>
         <div className="numbers">
