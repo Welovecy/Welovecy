@@ -4,7 +4,7 @@ set -u
 B=https://www.welovecy.com
 ok(){ echo "PASS  $1"; }; no(){ echo "FAIL  $1"; }
 page(){ curl -sL --max-time 30 -A "Mozilla/5.0 welovecy-livecheck" "$B$1"; }
-for p in /partners/go-airport-transfers /partners/coral-bay-taxi-transfers /partners/dukes-car-rental; do
+for p in /partners/go-airport-transfers /partners/coral-bay-taxi-transfers /partners/dukes-car-rental /partners/cy-cruises; do
   h=$(page $p)
   [[ "$h" == *"noindex"* ]] && ok "$p is noindex" || no "$p is not noindex"
   [[ "$h" == *"Advertising partner"* ]] && ok "$p shows the partner label" || no "$p has no label"
@@ -73,4 +73,7 @@ echo "--- petrol and car hire"
 ask "Where is the nearest petrol station to Nissi Beach?" "min"
 ask "Where can I hire a car in Paphos?" NONE
 ask "I want to hire a car at Larnaca airport" "Dukes Car Rental"
+ask "What boat trips are there in Ayia Napa?" "CY Cruises"
+ask "Is there a pirate ship cruise for kids near Protaras?" "Black Pearl"
+ask "We are in Ayia Napa, any sunset boat party for adults?" "CY Cruises"
 ok_page(){ page /know-before-you-go | grep -q "Lara and Toxeftra" && ok "know page has facts" || no "know page missing facts"; }; ok_page
