@@ -5,7 +5,7 @@ The We Love Cyprus guide. Republic of Cyprus only, never the north. Owner: Dami 
 ## Rules for any change
 - Copy: no em dashes, human tone, short headlines, price never the lead. Taxi fares are always a range ("€X–Y by taxi (estimate)"). Walking, driving and taxi figures are labelled as estimates.
 - Every fact on a page has a source; official registers and tourism sources first. Never invent venues, figures or claims.
-- Only show photos we're allowed to use (CC licences with credit, or the venue's permission). Credits live in `data/images.json`.
+- Only show photos we're allowed to use (CC licences with credit, or the venue's permission). Credits live in `data/images.json` and show only on /credits and in the footer line (never on each page). Keys: `place-<slug>`, `beach-<listing id>`, `poi-<listing id>` (sights, trails, museums), `biz-<id>`, `dest-<id>`. Commons URLs without tracking parameters; `scripts/check/image_urls.js` checks they load. Commons photos are temporary until our own photography replaces them.
 - Mobile first: most visitors are on phones (92%). Check 390px width and that nothing moves after load (layout shift).
 - Before pushing: `npm run typecheck`, `npx vitest run`, `npm run build`. Push to `main` deploys to production on Vercel; branches get preview URLs.
 - Commit as `We Love Cyprus <welovecy@users.noreply.github.com>`.
