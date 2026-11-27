@@ -12,7 +12,7 @@ export function NearRow({ n, noDistance, num }: { n: Near; noDistance?: boolean;
   return (
     <li>
       <Link className="row" href={n.s.href}>
-        <span className={`mono k${n.s.k === "bus" ? " k-bus" : ""}`} aria-hidden="true" style={{ background: K.c }}>{num ?? K.l}</span>
+        <span className={`mono k${n.s.k === "bus" ? " k-bus" : ""}`} aria-hidden="true" style={{ ["--kc" as string]: K.c }}>{num ?? K.l}</span>
         <span className="rowtxt"><strong>{n.s.n}</strong><span>{meta}</span>{seasonFor(n.s.key) ? <SeasonTag k={n.s.key} built={cyMonth()} /> : null}</span>
       </Link>
       <a className="dirlink" href={n.s.dir || directionsTo(n.s.ll)} target="_blank" rel="noopener noreferrer" aria-label={`Directions to ${n.s.n}`}>

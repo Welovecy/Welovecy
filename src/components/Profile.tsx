@@ -1,3 +1,4 @@
+import { cardImg } from "./Rail";
 import Link from "next/link";
 import type { Destination, Profile } from "@/lib/types";
 import { getPlace, getPoi, photoFor, placeHref, listingHref } from "@/lib/data";
@@ -38,7 +39,17 @@ export function StartHere({ items }: { items: [string, string][] }) {
   const rows = res.filter((i) => !cards.includes(i));
   return (
     <>
-      {cards.length ? <div className="grid">{cards.map(({ x, why }) => x!.kind === "place" ? <PlaceCard key={x!.href} p={x!.p} why={why} /> : null)}</div> : null}
+      {cards.length ? (
+        <div className="bx-rail rail-tall">
+          {cards.map(({ x, why }) => { if (x!.kind !== "place") return null; const ph = photoFor(`place-${x!.p.slug}`)!; return (
+            <Link key={x!.href} href={x!.href} className="bx-pic">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={cardImg(ph.u)} alt={ph.t} loading="lazy" decoding="async" />
+              <span className="bx-pic-txt"><b>{x!.p.name}</b><small>{why}</small></span>
+            </Link>
+          ); })}
+        </div>
+      ) : null}
       {rows.length ? (
         <ul className="rows" style={{ marginTop: cards.length ? 16 : 0 }}>
           {rows.map(({ x, why }) => x!.kind === "place"

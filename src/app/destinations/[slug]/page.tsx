@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { DESTINATIONS, EXPERIENCES, MAKERS, PLACES_BY_DEST, getDest, getPlace, photoFor } from "@/lib/data";
-import { DestCard, ExperienceCard, FeaturedBlock, MakerCard, PlaceCard } from "@/components/Cards";
+import { DestCard, ExperienceCard, MakerCard, PlaceCard } from "@/components/Cards";
+import { DetailHero } from "@/components/Detail";
+import { cardImg } from "@/components/Rail";
 import { Crumbs, Facts, Sources } from "@/components/Bits";
 import { Photo } from "@/components/Photo";
 import { SaveButton } from "@/components/SaveButton";
@@ -88,19 +90,15 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
     const operator = d.id === "paphos" ? { t: "Pafos Buses", u: "https://www.pafosbuses.com/" } : { t: "OSEA", u: "https://www.osea.com.cy/" };
     return (
       <>
-        <div className="wrap hero">
+        <DetailHero photo={photoFor(`dest-${d.id}`)} tint={d.tint} eyebrow="Destination" title={d.name} />
+        <div className="wrap dwrap">
           <Crumbs items={[["Home", "/"], ["Destinations", "/destinations"], [d.name]]} />
-          <div style={{ height: 16 }} />
-          <Photo photo={photoFor(`dest-${d.id}`)} label={d.hero || d.name} tint={d.tint} ratio="16/9" priority hero className="hero-photo" />
-          <div className="hero-copy">
-            <h1 className="h-hero">{d.name}</h1>
-            <p className="lead">{profile.intro}</p>
-            <div className="actions">
-              <a className="btn btn-primary" href="#s-stay">Explore around your hotel</a>
-              <SaveButton item={{ key: href, n: d.name, href, sub: "Destination" }} />
-            </div>
-            <LocalityChooser d={d} profile={profile} />
-            <a href="#s-weather" className="wx-link"><WeatherNow d={d.id} name={d.name} compact /></a>
+          <p className="dlead">{profile.intro}</p>
+          <a href="#s-weather" className="wx-link"><WeatherNow d={d.id} name={d.name} compact /></a>
+          <LocalityChooser d={d} profile={profile} />
+          <div className="actions">
+            <a className="btn btn-primary" href="#s-stay">Explore around your hotel</a>
+            <SaveButton item={{ key: href, n: d.name, href, sub: "Destination" }} />
           </div>
         </div>
         <div className="subnav">
@@ -114,8 +112,8 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
           <div className="sec-head"><h2 id="h-start">Start here</h2></div>
           <StartHere items={profile.start} />
         </section>
-        <ListingSection dest={d.id} kind="sight" title="Sights" id="s-must" limit={8} viewAll={`/must-see#ms-${d.id}`} />
-        <ListingSection dest={d.id} kind="beach" title="Beaches" id="s-beach" limit={8} viewAll="/beaches" />
+        <ListingSection dest={d.id} kind="sight" title="Sights" id="s-must" limit={8} viewAll={`/must-see#ms-${d.id}`} skip={profile.start.map(([r]) => r.split(":")[1])} />
+        <ListingSection dest={d.id} kind="beach" title="Beaches" id="s-beach" limit={8} viewAll="/beaches" skip={profile.start.map(([r]) => r.split(":")[1])} />
         <section className="wrap" id="s-eat" aria-labelledby="h-eat">
           <div className="sec-head"><h2 id="h-eat">Eat &amp; drink</h2></div>
           <p style={{ maxWidth: 720 }}>{profile.food}</p>
@@ -130,7 +128,6 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
           </section>
         ) : null}
         {stay}
-        <FeaturedBlock destName={d.name} />
         <AirportLine d={d.id} name={d.name} />
         <section className="wrap" id="s-weather" aria-labelledby="h-weather">
           <div className="sec-head"><h2 id="h-weather">Weather</h2><Link href="/weather">Every area, every month</Link></div>
@@ -142,7 +139,13 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
         {d.next?.length ? (
           <section className="wrap" aria-labelledby="h-next">
             <div className="sec-head"><h2 id="h-next">Continue exploring</h2></div>
-            <div className="grid">{d.next.map((n) => { const x = getDest(n); return x ? <DestCard key={n} d={x} /> : null; })}</div>
+            <div className="bx-rail rail-tall">{d.next.map((n) => { const x = getDest(n); if (!x) return null; const ph = photoFor(`dest-${x.id}`); return (
+              <Link key={n} href={`/destinations/${x.id}`} className="bx-pic" style={ph ? undefined : { background: x.tint }}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                {ph ? <img src={cardImg(ph.u)} alt={ph.t} loading="lazy" decoding="async" /> : null}
+                <span className="bx-pic-txt"><b>{x.name}</b><small>{x.line}</small></span>
+              </Link>
+            ); })}</div>
           </section>
         ) : null}
       </>
@@ -188,7 +191,6 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
         </section>
       ) : null}
       {stay}
-      <FeaturedBlock destName={d.name} />
       <AirportLine d={d.id} name={d.name} />
         <section className="wrap" id="s-weather" aria-labelledby="h-weather">
         <div className="sec-head"><h2 id="h-weather">Weather</h2><Link href="/weather">Every area, every month</Link></div>

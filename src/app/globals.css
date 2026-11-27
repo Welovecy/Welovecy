@@ -224,7 +224,7 @@ dialog::backdrop{background:rgba(0,0,0,.45)}
 .kdot{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
 .dirlink{flex:none;width:48px;height:48px;display:grid;place-items:center;color:var(--accent);border-radius:999px}
 .dirlink:hover{background:var(--surface)}
-.mono.k{color:#fff}
+.mono.k{color:var(--kc);background:color-mix(in srgb,var(--kc) 14%,transparent);border-radius:50%}
 .near-group{display:grid;gap:12px}
 .near-cols{display:grid;gap:28px;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
 .tag{font-size:13px;color:var(--muted)}
@@ -1075,3 +1075,23 @@ html{-webkit-tap-highlight-color:transparent}
 @media (min-width:900px){.dh-photo{height:min(70vh,620px)}.drail{margin-inline:0;padding-inline:0}}
 @media (prefers-reduced-motion:reduce){.dh-photo>img,.dh-pulse{animation:none}}
 .dh .wrap{max-width:760px}
+
+/* ---------- Rails and the slimmer homepage ---------- */
+.rail-sec{display:grid;gap:12px;padding-block:22px 6px}
+.rail-tall{grid-auto-columns:min(64%,240px)}
+.rail-tall .bx-pic{aspect-ratio:3/4}
+.bx-pic-txt small{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.int-row{display:grid;grid-auto-flow:column;grid-auto-columns:min(46%,190px);gap:10px;overflow-x:auto;scrollbar-width:none;margin-inline:-16px;padding:2px 16px 4px;scroll-snap-type:x proximity}
+.int-row::-webkit-scrollbar{display:none}
+.int-tile{scroll-snap-align:start;display:grid;gap:4px;padding:16px;border-radius:18px;background:var(--surface);color:var(--fg);text-decoration:none}
+.int-tile b{font-size:17px}
+.int-tile small{font-size:13px;color:var(--muted)}
+@media (min-width:900px){.int-row{margin-inline:0;padding-inline:0}}
+
+/* Footer on phones: two quiet columns instead of one long wall */
+@media (max-width:640px){
+  footer{padding-block:32px 96px;margin-top:32px}
+  .fcols{grid-template-columns:1fr 1fr;gap:22px 16px}
+  .fcols>div:first-child{grid-column:1/-1}
+  .fcols a{font-size:14px;padding-block:5px}
+}
