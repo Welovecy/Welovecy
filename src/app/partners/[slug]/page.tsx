@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 const SERVICE: Record<string, string> = {
   airport_transfer: "Airport transfers to and from your accommodation",
   local_taxi: "Local taxis around Coral Bay and Peyia",
+  car_hire: "Car hire, collected and returned at Larnaca Airport or their Larnaca office",
 };
 
 export default async function PartnerPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -31,6 +32,7 @@ export default async function PartnerPage({ params }: { params: Promise<{ slug: 
   if (p.phone) contact.push(["Phone", <span key="ph"><a href={tel(p.phone)} data-ev="Partner call" data-ev-target={p.id}>{p.phone}</a>{p.phone2 ? <> or <a href={tel(p.phone2)} data-ev="Partner call" data-ev-target={p.id}>{p.phone2}</a></> : null}</span>]);
   if (p.email) contact.push(["Email", <a key="em" href={`mailto:${p.email}`} data-ev="Partner email" data-ev-target={p.id}>{p.email}</a>]);
   contact.push(["Website", <a key="w" href={p.web} target="_blank" rel="noopener sponsored" data-ev="Partner website" data-ev-target={p.id}>{p.web.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")}</a>]);
+  if (p.hours) contact.push(["Opening hours", p.hours]);
   if (p.address) contact.push([p.address2 ? "Offices" : "Office", p.address2 ? `${p.address}; ${p.address2}` : p.address]);
 
   return (
@@ -43,7 +45,7 @@ export default async function PartnerPage({ params }: { params: Promise<{ slug: 
           <h1 className="h-hero">{p.name}</h1>
           <p className="lead">{p.intro}</p>
           <div className="actions">
-            <a className="btn btn-primary" href={p.book} target="_blank" rel="noopener sponsored" data-ev="Partner book" data-ev-target={p.id}>{p.book === p.web ? "Book or enquire" : "Book your transfer"}</a>
+            <a className="btn btn-primary" href={p.book} target="_blank" rel="noopener sponsored" data-ev="Partner book" data-ev-target={p.id}>{p.services.includes("car_hire") ? "Book a car" : p.book === p.web ? "Book or enquire" : "Book your transfer"}</a>
             {p.phone ? <a className="btn btn-ghost" href={tel(p.phone)} data-ev="Partner call" data-ev-target={p.id}>Call</a> : null}
           </div>
         </div>
@@ -59,7 +61,7 @@ export default async function PartnerPage({ params }: { params: Promise<{ slug: 
           <div>
             <h2 className="partner-h">What they do</h2>
             <ul className="partner-list">{p.services.map((s) => <li key={s}>{SERVICE[s]}</li>)}</ul>
-            {p.airports ? <p className="tag">From {p.airports.join(" and ")} airports.</p> : null}
+            {p.airports ? <p className="tag">{p.services.includes("car_hire") ? `Collection at ${p.airports.join(" and ")} Airport.` : `From ${p.airports.join(" and ")} airports.`}</p> : null}
           </div>
         </div>
 
@@ -70,7 +72,7 @@ export default async function PartnerPage({ params }: { params: Promise<{ slug: 
           You book, pay and confirm the price directly with {p.name}. We Love Cyprus is paid to feature them and doesn&apos;t take bookings or payments.
           {guide ? <> For every way to get there, including the bus, see <Link href={guideHref(guide.slug)}>{guide.title}</Link>.</> : null}
         </p>
-        <Sources list={p.sources} reviewed="details from their own website, checked 26 November 2026" />
+        <Sources list={p.sources} reviewed={`details from their own website, checked ${p.checked ?? "26 November 2026"}`} />
       </section>
     </article>
   );

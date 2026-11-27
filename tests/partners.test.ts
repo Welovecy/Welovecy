@@ -102,3 +102,13 @@ describe("airport guide lookups carry the partner check", () => {
     expect(AREA_LINES).toMatch(/akamas = [^\n]*Polis/);
   });
 });
+
+describe("car hire partner", () => {
+  it("Dukes covers Larnaca stays and Larnaca Airport collection, only for car hire", async () => {
+    const { partnerFor } = await import("../src/lib/partners");
+    expect(partnerFor("car_hire", { text: "hire a car at larnaca airport" })?.id).toBe("dukes-car-rental");
+    expect(partnerFor("car_hire", { area: "larnaca" })?.id).toBe("dukes-car-rental");
+    expect(partnerFor("car_hire", { text: "car hire in paphos" })).toBeUndefined();
+    expect(partnerFor("airport_transfer", { text: "larnaca" })).toBeUndefined();
+  });
+});

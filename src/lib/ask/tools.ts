@@ -110,7 +110,7 @@ export const TOOLS = [
     input_schema: {
       type: "object",
       properties: {
-        service: { type: "string", enum: ["airport_transfer", "local_taxi"], description: "airport_transfer for airport pickups and drop-offs; local_taxi for taxis within an area." },
+        service: { type: "string", enum: ["airport_transfer", "local_taxi", "car_hire"], description: "airport_transfer for airport pickups and drop-offs; local_taxi for taxis within an area; car_hire for hiring a car." },
         staying: { type: "string", description: "Where the visitor is staying: hotel, villa area, village or town, as they said it. 'my base' if they set their hotel on the site. Not the airport." },
       },
       required: ["service"],
@@ -386,7 +386,7 @@ function stayFrom(text: string, ctx: Ctx): Stay | null {
 }
 
 function transferPartner(a: Args, ctx: Ctx) {
-  const service = (S(a.service) === "local_taxi" ? "local_taxi" : "airport_transfer") as PartnerService;
+  const service = (["local_taxi", "car_hire"].includes(S(a.service)) ? S(a.service) : "airport_transfer") as PartnerService;
   const stay = stayFrom(S(a.staying), ctx);
   if (!stay) return { partner: null, ask: "Ask where they are staying (town, area or hotel) before suggesting any transfer company. Meanwhile give the general options." };
   const p = partnerFor(service, stay);
