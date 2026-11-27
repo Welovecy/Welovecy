@@ -165,6 +165,96 @@
         "Logo and photos",
         "Approved description"
       ]
+    },
+    {
+      "id": "dukes-car-rental",
+      "status": "active",
+      "name": "Dukes Car Rental",
+      "kind": "Larnaca car hire",
+      "services": [
+        "car_hire"
+      ],
+      "coverage": {
+        "label": "Larnaca and Larnaca Airport",
+        "areas": [
+          "larnaca"
+        ],
+        "places": [
+          "Larnaca",
+          "Larnaca Airport",
+          "Mackenzie",
+          "Finikoudes",
+          "Oroklini",
+          "Livadia",
+          "Aradippou",
+          "Dromolaxia",
+          "Pervolia",
+          "Kiti"
+        ],
+        "aliases": [
+          "larnaca",
+          "larnaka",
+          "larnaca airport",
+          "larnaka airport",
+          "lca",
+          "mackenzie",
+          "finikoudes",
+          "oroklini",
+          "voroklini",
+          "livadia",
+          "aradippou",
+          "dromolaxia",
+          "pervolia",
+          "kiti",
+          "meneou"
+        ],
+        "towns": [
+          "larnaca",
+          "larnaka",
+          "oroklini",
+          "livadia",
+          "aradippou",
+          "dromolaxia",
+          "pervolia",
+          "kiti",
+          "meneou"
+        ]
+      },
+      "intro": "A family-run car hire company in central Larnaca. Collect and return your car at Larnaca Airport, where they're open 24/7, with roadside assistance around the clock.",
+      "address": "Filiou Zanettou, Shop 2, Laura Court, 6022 Larnaca",
+      "web": "https://www.dukescarrental.com/",
+      "book": "https://www.dukescarrental.com/reservation/dates",
+      "phone": "+357 96 945328",
+      "email": null,
+      "airports": [
+        "Larnaca"
+      ],
+      "photo": "dest-larnaca",
+      "logo": null,
+      "guides": [],
+      "excludes": "Car hire only. Recommended for stays in the Larnaca area and for collection at Larnaca Airport.",
+      "hours": "Larnaca Airport open 24/7. The Larnaca office is closed on Sundays.",
+      "checked": "27 November 2026",
+      "sources": [
+        {
+          "t": "Dukes Car Rental: Larnaca Airport",
+          "u": "https://www.dukescarrental.com/larnaca-airport"
+        },
+        {
+          "t": "Dukes Car Rental: contact",
+          "u": "https://www.dukescarrental.com/contact-us"
+        },
+        {
+          "t": "Dukes Car Rental: about",
+          "u": "https://www.dukescarrental.com/about-us"
+        }
+      ],
+      "pending": [
+        "Paphos Airport service: their site links to it but gives no details",
+        "Logo and photos (with permission)",
+        "Approved description",
+        "Whether they deliver to hotels"
+      ]
     }
   ]
 }

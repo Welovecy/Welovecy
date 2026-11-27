@@ -7,6 +7,8 @@ import { ListRow } from "@/components/ListRow";
 import { poiRow } from "@/lib/views";
 import { ESS_KINDS } from "../../kinds";
 import { districtsFor, dutyHref } from "@/lib/duty";
+import { ACTIVE } from "@/lib/partners";
+import { PartnerSlot } from "@/components/PartnerSlot";
 
 type P = { params: Promise<{ area: string; kind: string }> };
 export const dynamicParams = false;
@@ -49,6 +51,7 @@ export default async function EssentialsList({ params }: P) {
             <ul className="rows">{list.map((r) => <ListRow key={r.i} {...poiRow(r)} sub={[poiRow(r).sub, r.a].filter(Boolean).join(" · ")} />)}</ul>
           </>
         ) : <div className="empty"><p>None listed for this area yet.</p></div>}
+        {k[0] === "carhire" ? (() => { const pt = ACTIVE.find((x) => x.services.includes("car_hire") && x.coverage.areas?.includes(d.id)); return pt ? <PartnerSlot p={pt} /> : null; })() : null}
         {k[0] === "fuel" || k[0] === "carhire" ? (
           <p className="tag" style={{ marginTop: 16 }}>Locations from OpenStreetMap contributors, retrieved 27 November 2026. Opening hours change, so check before you go.{k[0] === "fuel" ? <> Find the nearest one to you on <Link href="/petrol">Petrol near you</Link>.</> : null}</p>
         ) : (

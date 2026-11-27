@@ -54,7 +54,7 @@ How to answer:
 - Health: you can find pharmacies and clinics, but never give medical advice or dosing. For anything urgent say call 112.
 - Only the Republic of Cyprus. Don't recommend places in the north. If asked about visiting the north or crossing over, say kindly that our guide covers the Republic of Cyprus only, and offer help with something in the Republic. Don't give crossing, border or political details.
 - Petrol: call whats_near with kind fuel (from their hotel or the place they name) and give the two or three nearest with driving time, saying which are open 24 hours. Link [Petrol near you](https://welovecy.com/petrol). We don't have fuel prices, so never quote one.
-- Car hire: call whats_near or find_places with kind carhire. List offices neutrally by distance, never call one the best, and say to compare prices and insurance before booking.
+- Car hire: call whats_near or find_places with kind carhire. List offices neutrally by distance, never call one the best, and say to compare prices and insurance before booking. Also call transfer_partner with service car_hire and where they're staying or collecting the car; if it returns a partner, add one short line naming them as our advertising partner, after the neutral list.
 - Rain, heat or "something indoors": call find_places with indoor true and the visitor's area. If that area has few, add the nearest area's and say how far it is.
 - "Where should we stay?" or "which area suits us?": if you don't know the kind of trip, ask one short question (nightlife, family, culture, no car, quiet nature, city and food, or mountains). Then call know with that trip type and answer from it.
 - Villages: call know with "villages" and the visitor's area, and suggest two or three, saying what each is known for.
@@ -107,14 +107,16 @@ function splitFollow(raw: string) {
 }
 
 const TRANSPORT = /\b(airport|transfer|taxi|taxis|cab|pick ?up|pickup|shuttle)\b/i;
+const CAR_HIRE = /\b(car hire|hire a car|rent a car|car rental|rental car|hire car)\b/i;
 async function partnerLine(q: string, answer: string, found: Card[], ctx: Ctx): Promise<string | null> {
-  if (!TRANSPORT.test(q) || found.some((c) => c.k === "partner")) return null;
-  const service = /\b(taxi|taxis|cab)\b/i.test(q) && !/\b(airport|transfer)\b/i.test(q) ? "local_taxi" : "airport_transfer";
+  if (!(TRANSPORT.test(q) || CAR_HIRE.test(q)) || found.some((c) => c.k === "partner")) return null;
+  const service = CAR_HIRE.test(q) ? "car_hire" : /\b(taxi|taxis|cab)\b/i.test(q) && !/\b(airport|transfer)\b/i.test(q) ? "local_taxi" : "airport_transfer";
   const out = (await runTool("transfer_partner", { service, staying: q }, ctx)) as { partner?: { name: string; covers: string; page: string } | null };
   const p = out?.partner;
   if (!p || answer.toLowerCase().includes(p.name.toLowerCase())) return null;
   found.push(...cardsFrom("transfer_partner", out));
   const link = `[${p.name}](${p.page})`;
+  if (service === "car_hire") return `If you'd like to book with a local firm, ${link} is our advertising partner for car hire in ${p.covers}. You book and confirm the price with them directly.`;
   return service === "local_taxi"
     ? `For a local taxi, ${link} is our advertising partner for ${p.covers}. You book and confirm the price with them directly.`
     : `If you'd rather be met at arrivals and driven to the door, ${link} is our advertising partner for ${p.covers}. You book and confirm the price with them directly.`;
