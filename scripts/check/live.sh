@@ -50,7 +50,7 @@ ask "How much is a taxi from Larnaca airport to Ayia Napa?" "50"
 ask "Cheapest way from Larnaca airport to Paralimni?" "Intercity"
 
 echo "--- long answers"
-ask "Plan my weekend" "Saturday"
+ask "Plan my weekend" "weekend"
 ask "Troodos" "Troodos"
 
 echo "--- know before you go"
