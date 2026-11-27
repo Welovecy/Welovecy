@@ -1,0 +1,24 @@
+name: Check Commons images
+on:
+  push:
+    branches: [image-audit]
+    paths: [scripts/content/commons_check.txt]
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 scripts/content/commons_check.py
+      - name: Push results
+        run: |
+          git config user.name "We Love Cyprus data bot"
+          git config user.email "welovecy@users.noreply.github.com"
+          git add -f commons_check
+          git commit -qm "Commons check [skip ci]"
+          git push origin image-audit
