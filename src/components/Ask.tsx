@@ -20,6 +20,31 @@ interface Card {
 }
 interface Msg { role: "user" | "assistant"; text: string; cards?: Card[]; follow?: string[]; fresh?: boolean }
 
+/** The last conversation, kept on this device for a week so it can be reopened from a "Previous chat" line. */
+const LAST = "wlc-aph-last";
+const WEEK = 7 * 24 * 3600 * 1000;
+interface Saved { at: number; msgs: Msg[] }
+function loadLast(): Saved | null {
+  try {
+    const s = JSON.parse(localStorage.getItem(LAST) || "null") as Saved | null;
+    if (!s || !Array.isArray(s.msgs) || !s.msgs.length || Date.now() - s.at > WEEK) return null;
+    return s;
+  } catch { return null; }
+}
+function saveLast(msgs: Msg[]) {
+  try {
+    if (!msgs.some((m) => m.role === "assistant")) return;
+    localStorage.setItem(LAST, JSON.stringify({ at: Date.now(), msgs: msgs.slice(-20).map((m) => ({ ...m, fresh: false })) }));
+  } catch {}
+}
+function forgetLast() { try { localStorage.removeItem(LAST); } catch {} }
+function when(at: number) {
+  const d = new Date(at), now = new Date();
+  const t = d.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
+  const days = Math.round((new Date(now.toDateString()).getTime() - new Date(d.toDateString()).getTime()) / 86400000);
+  return days === 0 ? `Today ${t}` : days === 1 ? `Yesterday ${t}` : d.toLocaleDateString("en-GB", { weekday: "long" });
+}
+
 export const openAphrodite = (q?: string) => window.dispatchEvent(new CustomEvent("aphrodite:open", { detail: { q } }));
 
 function greeting() {
@@ -161,6 +186,7 @@ export function Ask() {
   const [msgs, setMsgs] = useState<Msg[]>([]);
   const [q, setQ] = useState("");
   const [busy, setBusy] = useState(false);
+  const [prev, setPrev] = useState<Saved | null>(null);
   const [calm, setCalm] = useState(false); // hidden while scrolling down, back on scroll up
   const [mini, setMini] = useState(false); // label shows briefly on each page, then she's just the orb
   useEffect(() => { setMini(false); const t = setTimeout(() => setMini(true), 4000); return () => clearTimeout(t); }, [path]);
@@ -198,7 +224,7 @@ export function Ask() {
     };
     fit();
     vv?.addEventListener("resize", fit); vv?.addEventListener("scroll", fit);
-    const esc = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
+    const esc = (e: KeyboardEvent) => e.key === "Escape" && close();
     document.addEventListener("keydown", esc);
     document.documentElement.classList.add("aph-open");
     return () => { vv?.removeEventListener("resize", fit); vv?.removeEventListener("scroll", fit); document.removeEventListener("keydown", esc); document.documentElement.classList.remove("aph-open"); };
@@ -227,18 +253,30 @@ export function Ask() {
         body: JSON.stringify({ messages: next.map(({ role, text }) => ({ role, text })), base: base ? { n: base.n, ll: base.ll, href: base.href } : null, page: path }),
       });
       const j = (await r.json().catch(() => ({}))) as { answer?: string; cards?: Card[]; follow?: string[] };
-      setMsgs([...next, { role: "assistant", text: j.answer || "I couldn't answer just now. Please try again.", cards: j.cards, follow: j.follow, fresh: true }]);
+      const done: Msg[] = [...next, { role: "assistant", text: j.answer || "I couldn't answer just now. Please try again.", cards: j.cards, follow: j.follow, fresh: true }];
+      setMsgs(done);
+      saveLast(done);
     } catch {
       setMsgs([...next, { role: "assistant", text: "No connection right now. Check your signal and try again.", fresh: true }]);
     } finally { setBusy(false); }
   }
 
   function show() {
+    // Each time she opens it's a fresh chat; the last one waits behind a "Previous chat" line.
+    setMsgs([]);
+    setPrev(loadLast());
     setOpen(true);
     try { track("Ask open", { page: path.slice(0, 100) }); } catch {}
     if (window.matchMedia("(min-width: 641px)").matches) setTimeout(() => field.current?.focus(), 300);
   }
-  const close = () => setOpen(false);
+  const close = () => { if (msgs.length) saveLast(msgs); setOpen(false); };
+  const restore = () => {
+    if (!prev) return;
+    setMsgs(prev.msgs.map((m) => ({ ...m, fresh: false })));
+    setPrev(null);
+    try { track("Ask previous chat"); } catch {}
+  };
+  const dropPrev = () => { forgetLast(); setPrev(null); };
 
   // Swipe the sheet down to close it.
   const drag = useRef<{ y: number; dy: number } | null>(null);
@@ -278,6 +316,17 @@ export function Ask() {
             <div className="aph-body" ref={scroller} aria-live="polite">
               {!msgs.length && (
                 <div className="aph-hello">
+                  {prev ? (
+                    <div className="aph-prev">
+                      <button type="button" className="aph-prev-open" onClick={restore}>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7L3 8" /><path d="M3 3v5h5" /><path d="M12 7v5l3 2" /></svg>
+                        <span><span className="aph-prev-t"><b>Previous chat</b> · {when(prev.at)}</span><small>{prev.msgs.find((m) => m.role === "user")?.text}</small></span>
+                      </button>
+                      <button type="button" className="aph-prev-x" onClick={dropPrev} aria-label="Delete previous chat">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" /></svg>
+                      </button>
+                    </div>
+                  ) : null}
                   <div className="aph-msg assistant"><p><strong>{greeting()}</strong> I&apos;m Aphrodite. Beaches, food, buses, late pharmacies, the weather: ask me anything about Cyprus.</p></div>
                   <div className="aph-follow aph-starters">
                     {starters(path, base).map((s) => <button key={s} onClick={() => send(s)}>{s}</button>)}
