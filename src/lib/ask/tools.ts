@@ -27,7 +27,7 @@ import { PARTNERS, PARTNER_LABEL, partnerFor, partnerForGuide, partnerHref, type
  */
 
 const AREAS = DESTINATIONS.map((d) => d.id).join(", ");
-const KINDS = ["beach", "sight", "family", "activity", "nature", "info", "eat", "night", "stay", "pharmacy", "health", "market", "bus"] as const;
+const KINDS = ["beach", "sight", "family", "activity", "nature", "info", "eat", "night", "stay", "pharmacy", "health", "market", "bus", "fuel", "carhire"] as const;
 
 export const TOOLS = [
   {
@@ -414,7 +414,7 @@ function knownPaths(): Set<string> {
   for (const p of PARTNERS) known.add(partnerHref(p.id));
   for (const x of ["/credits", "/list-your-business", "/search", "/saved", "/essentials", "/privacy", "/about"]) known.add(x);
   for (const st of BUS.stops) known.add(`/buses/stop/${st.i}`);
-  for (const d of DESTINATIONS) { known.add(`/essentials/${d.id}`); for (const k of ["pharmacy", "health", "market", "info"]) known.add(`/essentials/${d.id}/${k}`); known.add(`/eat-drink/${d.id}`); }
+  for (const d of DESTINATIONS) { known.add(`/essentials/${d.id}`); for (const k of ["pharmacy", "health", "market", "info", "fuel", "carhire"]) known.add(`/essentials/${d.id}/${k}`); known.add(`/eat-drink/${d.id}`); }
   for (const p of [...known]) if (p.startsWith("/listing/") || p.startsWith("/places/")) known.add(`${p}/around`);
   return known;
 }

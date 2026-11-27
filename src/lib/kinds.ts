@@ -16,11 +16,13 @@ export const KINDS: Record<AroundKind, KindMeta> = {
   health: { n: "Doctors & clinics", one: "Medical", c: "var(--k-health)", l: "M" },
   market: { n: "Supermarkets", one: "Supermarket", c: "var(--k-market)", l: "S" },
   bus: { n: "Bus stops", one: "Bus stop", c: "var(--k-bus)", l: "BUS" },
+  fuel: { n: "Petrol stations", one: "Petrol station", c: "var(--k-fuel)", l: "P" },
+  carhire: { n: "Car hire", one: "Car hire office", c: "var(--k-car)", l: "C" },
 };
 
 export const AROUND_TABS: [AroundKind, string][] = [
   ["beach", "Beaches"], ["sight", "Sights"], ["eat", "Eat & drink"], ["night", "Bars & nightlife"],
-  ["family", "Family"], ["activity", "Diving & activities"], ["nature", "Walks & nature"], ["market", "Supermarkets"], ["pharmacy", "Pharmacies"], ["bus", "Buses"], ["health", "Doctors"], ["info", "Tourist info"], ["stay", "Hotels"],
+  ["family", "Family"], ["activity", "Diving & activities"], ["nature", "Walks & nature"], ["market", "Supermarkets"], ["pharmacy", "Pharmacies"], ["bus", "Buses"], ["fuel", "Petrol"], ["carhire", "Car hire"], ["health", "Doctors"], ["info", "Tourist info"], ["stay", "Hotels"],
 ];
 
 /** What a guest looks for first, in this order. Further than the cap, we say it isn't mapped yet. */

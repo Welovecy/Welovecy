@@ -91,7 +91,7 @@ export interface Business {
 export type VenueType = "restaurant" | "taverna" | "cafe" | "snack" | "bar" | "pub" | "club" | "beachbar" | "cabaret";
 export type CuisineId = "cypriot" | "greek" | "seafood" | "italian" | "asian" | "indian" | "middleeast" | "grill" | "burger" | "mexican" | "brunch" | "dessert" | "british" | "vegan";
 
-export type PoiKind = "beach" | "sight" | "family" | "activity" | "nature" | "info" | "pharmacy" | "health" | "market";
+export type PoiKind = "beach" | "sight" | "family" | "activity" | "nature" | "info" | "pharmacy" | "health" | "market" | "fuel" | "carhire";
 export interface Poi {
   i: string; k: PoiKind; n: string; d: DestId; tw?: string; a?: string; ph?: string | number;
   ll?: LL; pr?: "exact" | "source" | "osm" | "approx"; src?: "osm";
@@ -104,6 +104,8 @@ export interface Poi {
   place?: string; len?: string; grade?: number; notice?: string; hrsNote?: string;
   /** walking time and route: a loop comes back to the start, a one-way walk doesn't */
   time?: string; shape?: "loop" | "one way";
+  /** petrol stations and car hire (data/motoring.json): brand, fuels sold, open 24 hours, self-service, at an airport */
+  brand?: string; fuels?: string[]; h24?: boolean; self?: boolean; airport?: boolean;
 }
 
 /** Everything that can sit on the "what's around" map. */
