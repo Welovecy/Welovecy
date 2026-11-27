@@ -103,6 +103,20 @@ function splitFollow(raw: string) {
   return { answer: lines.filter((_, j) => j !== i).join("\n").trim(), follow };
 }
 
+const TRANSPORT = /\b(airport|transfer|taxi|taxis|cab|pick ?up|pickup|shuttle)\b/i;
+async function partnerLine(q: string, answer: string, found: Card[], ctx: Ctx): Promise<string | null> {
+  if (!TRANSPORT.test(q) || found.some((c) => c.k === "partner")) return null;
+  const service = /\b(taxi|taxis|cab)\b/i.test(q) && !/\b(airport|transfer)\b/i.test(q) ? "local_taxi" : "airport_transfer";
+  const out = (await runTool("transfer_partner", { service, staying: q }, ctx)) as { partner?: { name: string; covers: string; page: string } | null };
+  const p = out?.partner;
+  if (!p || answer.toLowerCase().includes(p.name.toLowerCase())) return null;
+  found.push(...cardsFrom("transfer_partner", out));
+  const link = `[${p.name}](${p.page})`;
+  return service === "local_taxi"
+    ? `For a local taxi, ${link} is our advertising partner for ${p.covers}. You book and confirm the price with them directly.`
+    : `If you'd rather be met at arrivals and driven to the door, ${link} is our advertising partner for ${p.covers}. You book and confirm the price with them directly.`;
+}
+
 /** Only cards for places the answer names, in the order it names them. Pharmacies all go when the answer is about them. */
 function pickCards(all: Card[], answer: string): Card[] {
   const a = answer.toLowerCase();
@@ -161,8 +175,12 @@ export async function POST(req: Request) {
       if (res.stop_reason !== "tool_use") {
         const raw = res.content.filter((c) => c.type === "text").map((c) => c.text as string).join("\n").trim();
         const split = splitFollow(raw);
-        const answer = fixLinks(split.answer), follow = split.follow;
+        let answer = fixLinks(split.answer);
+        const follow = split.follow;
         const q = question;
+        // Safety net: the partner check runs in code for every airport or taxi question, so the model can't skip it.
+        const extra = await partnerLine(q, answer, found, ctx);
+        if (extra) answer = `${answer}\n\n${extra}`;
         try { await track("Ask", { q: scrub(q), tools: used.join(",").slice(0, 100) || "none", page: (input.page || "").slice(0, 100), cut: res.stop_reason === "max_tokens" }, { request: req }); } catch {}
         console.log(JSON.stringify({ ask: scrub(q), tools: used, stop: res.stop_reason, usage: res.usage }));
         const cards = pickCards(found, answer);
