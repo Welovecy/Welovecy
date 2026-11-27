@@ -10,16 +10,18 @@ class H(osmium.SimpleHandler):
         if w.tags.get("natural") == "coastline":
             ways.append([(n.ref, n.lon, n.lat) for n in w.nodes if n.location.valid()])
 H().apply_file(pbf, locations=True)
-# join ways end to start into rings
-by_start = {w[0][0]: w for w in ways}
+# join ways into chains: start from ways nothing leads into, then the leftover loops
+by_start = {w[0][0]: i for i, w in enumerate(ways)}
+has_prev = {by_start[w[-1][0]] for w in ways if w[-1][0] in by_start}
 used, rings = set(), []
-for w in ways:
-    if id(w) in used: continue
-    ring = list(w); used.add(id(w))
+order = [i for i in range(len(ways)) if i not in has_prev] + list(range(len(ways)))
+for i in order:
+    if i in used: continue
+    ring = list(ways[i]); used.add(i)
     while ring[-1][0] != ring[0][0]:
-        nxt = by_start.get(ring[-1][0])
-        if not nxt or id(nxt) in used: break
-        ring += nxt[1:]; used.add(id(nxt))
+        j = by_start.get(ring[-1][0])
+        if j is None or j in used: break
+        ring += ways[j][1:]; used.add(j)
     rings.append([(x, y) for _, x, y in ring])
 def dp(pts, eps):
     if len(pts) < 3: return pts
@@ -34,7 +36,7 @@ def dp(pts, eps):
 sys.setrecursionlimit(100000)
 def area(r): return abs(sum(r[i][0] * r[i - 1][1] - r[i - 1][0] * r[i][1] for i in range(len(r)))) / 2
 rings.sort(key=area, reverse=True)
-keep = [r for r in rings if area(r) > 0.0004]
+keep = [r for r in rings if area(r) > 0.0004 or len(r) > 2000]
 res = {eps: [[[round(x, 4), round(y, 4)] for x, y in dp(r, eps)] for r in keep] for eps in (0.002, 0.004)}
 json.dump({"source": "OpenStreetMap contributors (ODbL), natural=coastline", "rings": len(rings), "kept": len(keep),
            "fine": res[0.002], "coarse": res[0.004]}, open(out, "w"))
