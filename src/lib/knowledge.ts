@@ -3,8 +3,8 @@ import { norm } from "./text";
 
 /** Know before you go: short checked facts with sources (data/knowledge.json). Used by the page and by Aphrodite. */
 export interface KSrc { t: string; u: string }
-export interface KFact { id: string; sec: string; q: string; t: string; src: KSrc[] }
-export interface KSection { id: string; title: string; lead: string }
+export interface KFact { id: string; sec: string; q: string; t: string; src: KSrc[]; period?: string; dates?: string; what?: string; see?: string }
+export interface KSection { id: string; title: string; lead: string; own?: string }
 const K = knowJson as unknown as { checked: string; sections: KSection[]; facts: KFact[] };
 export const KNOW_CHECKED = K.checked;
 export const KNOW_SECTIONS = K.sections;

@@ -123,6 +123,13 @@ section{padding-block:56px}
 .num{background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);padding:18px;display:grid;gap:4px}
 .num strong{font-family:var(--display);font-size:30px;letter-spacing:-0.02em;font-variant-numeric:tabular-nums}
 .know-list{display:grid;gap:12px}
+.history{list-style:none;margin:0;padding:0 0 0 22px;border-left:2px solid var(--line);display:grid;gap:22px}
+.history-step{position:relative;scroll-margin-top:90px}
+.history-step::before{content:"";position:absolute;left:-29px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--accent,#0A64A6);box-shadow:0 0 0 3px var(--bg,#fff)}
+.history-step p{margin:0}
+.history-when{font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted,#5b6575)}
+.history-title{font-size:22px;margin:2px 0 6px}
+.history-step .tag{margin-top:6px}
 .know-fact{background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);padding:16px 18px;scroll-margin-top:90px}
 .know-fact p{margin:0}
 .know-fact p + p{margin-top:8px}

@@ -17,6 +17,7 @@ import aliasJson from "@data/aliases.json";
 const ALIAS = (aliasJson as { aliases: Record<string, string[]> }).aliases;
 import { EVENTS, datesTbc, overlaps, whenText } from "../events";
 import { addDays as addD } from "../duty";
+import { isIndoor } from "../indoor";
 import { KNOW_CHECKED, KNOW_HREF, searchFacts } from "../knowledge";
 import { PARTNERS, PARTNER_LABEL, partnerFor, partnerForGuide, partnerHref, type PartnerService, type Stay } from "../partners";
 
@@ -38,6 +39,7 @@ export const TOOLS = [
         query: { type: "string", description: "Name or words to match, e.g. 'Nissi', 'Adams Beach', 'meze'. Leave empty to list by kind/area." },
         kind: { type: "string", enum: KINDS, description: "Optional filter." },
         area: { type: "string", description: `Optional area id: ${AREAS}.` },
+        indoor: { type: "boolean", description: "True for indoor places only (museums, galleries, aquarium, cinemas, malls, theatres): use for rain, heat or 'something indoors'. Combine with area." },
         cuisine: { type: "string", description: "Optional for kind=eat: cypriot, greek, seafood, italian, asian, indian, middleeast, grill, burger, mexican, brunch, dessert, british, vegan." },
       },
     },
@@ -181,20 +183,21 @@ function findPlaces(a: Args) {
   const kind = S(a.kind);
   const area = asArea(a.area);
   const cz = S(a.cuisine);
+  const indoor = a.indoor === true;
   const out: { n: string; kind: string; area: string; facts: string; link: string; s: number }[] = [];
   const want = (k: string) => !kind || kind === k;
-  for (const p of PLACES) {
+  for (const p of indoor ? [] : PLACES) {
     const k = p.cat.toLowerCase().includes("beach") ? "beach" : "sight";
     if (!want(k) || (area && p.dest !== area)) continue;
     const s = score(p.name, q) || (q && norm(p.intro).includes(q) ? 20 : 0);
     if (s) out.push({ n: p.name, kind: p.cat, area: areaName(p.dest), facts: (p.notice ? `NOTICE: ${p.notice.t} ` : "") + (isClosed(seasonFor(`place-${p.slug}`)) ? `NOTICE: ${seasonLine(seasonFor(`place-${p.slug}`)!)} ` : "") + p.intro.slice(0, 200), link: url(`/places/${p.slug}`), s: s + 5 });
   }
   for (const r of POIS) {
-    if (!want(r.k) || (area && r.d !== area)) continue;
+    if (!want(r.k) || (area && r.d !== area) || (indoor && !isIndoor(r.cat))) continue;
     const s = Math.max(score(r.n, q), ...(r.alt ? r.alt.split(";").map((x) => score(x, q)) : [0])) || (q && r.cat && norm(r.cat).includes(q) ? 20 : 0) || (q && r.tw && norm(r.tw).includes(q) ? 15 : 0);
     if (s) out.push({ n: r.n, kind: r.k, area: [r.tw, areaName(r.d)].filter(Boolean).join(", "), facts: [r.notice ? `NOTICE: ${r.notice}` : "", isClosed(seasonFor(r.i)) ? `NOTICE: ${seasonLine(seasonFor(r.i)!)}` : "", r.cat, r.len ? `${r.len}${r.grade ? `, difficulty grade ${r.grade} (1 easiest to 3 hardest)` : ""}` : "", r.time ? `about ${r.time}` : "", r.shape === "one way" ? "one-way walk: plan the way back" : r.shape === "loop" ? "loop" : "", r.desc, r.a, r.ph ? `tel ${r.ph}` : "", r.hrs, r.hrsNote, r.web ? `website ${r.web}` : "", r.srcs && !r.hrs ? "opening hours not verified" : ""].filter(Boolean).join(" · "), link: url(`/listing/${encodeURIComponent(r.i)}`), s });
   }
-  for (const b of BUSINESSES) {
+  for (const b of indoor ? [] : BUSINESSES) {
     const k = isStay(b) ? "stay" : b.g === "night" ? "night" : "eat";
     if (b.vt === "cabaret" || !want(k) || (area && b.d !== area)) continue;
     if (cz && !b.cz?.includes(cz as never)) continue;
