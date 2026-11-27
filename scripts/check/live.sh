@@ -78,4 +78,4 @@ ask "Is there a pirate ship cruise for kids near Protaras?" "Black Pearl"
 ask "We are in Ayia Napa, any sunset boat party for adults?" "CY Cruises"
 ok_page(){ page /know-before-you-go | grep -q "Lara and Toxeftra" && ok "know page has facts" || no "know page missing facts"; }; ok_page
 page /essentials | grep -q "duty pharmacies" && ok "essentials links to tonight's rota" || no "essentials missing duty link"
-page / | grep -q "Pharmacies on duty tonight</a></div>" && no "footer still has duty link" || ok "footer has no duty link"
+page /petrol | grep -q "Pharmacies on duty tonight" && no "footer still has duty link" || ok "footer has no duty link"
