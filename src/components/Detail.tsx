@@ -54,7 +54,7 @@ export function DetailHero({ photo, ll, tint = "#2E6E8E", eyebrow, title, chips 
 }
 
 /* ---------- Details: only what we know, in one calm list ---------- */
-const META = new Set(["Map position", "Register number"]);
+const META = new Set(["Map position", "Register number", "Licence"]);
 export function InfoList({ rows, title = "Details" }: { rows: Fact[]; title?: string }) {
   const known = rows.filter(([l, , u]) => !u && !META.has(l));
   const unsure = rows.filter(([l, , u]) => u && !META.has(l) && l !== "Status");
@@ -70,7 +70,7 @@ export function InfoList({ rows, title = "Details" }: { rows: Fact[]; title?: st
       {unsure.length ? (
         <p className="inote">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 8v5M12 16h.01" /></svg>
-          <span>{unsure.map(([l]) => l.toLowerCase()).join(", ").replace(/^./, (c) => c.toUpperCase())} {unsure.length > 1 ? "aren't" : "isn't"} confirmed yet. Check with them before you go.</span>
+          <span>{unsure.map(([l]) => l.toLowerCase()).join(", ").replace(/^./, (c) => c.toUpperCase())} {unsure.length > 1 || /s$/.test(unsure[0][0]) ? "aren't" : "isn't"} confirmed yet. Check with them before you go.</span>
         </p>
       ) : null}
     </section>

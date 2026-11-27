@@ -10,7 +10,8 @@ export function bizFacts(b: Business): Fact[] {
   const f: Fact[] = [["Type", b.l, false]];
   const st = stars(b.c);
   if (st) f.push(["Class", st, false]);
-  f.push(["Area", `${townOf(b.tw, b.d)}${b.tw !== "Not specified" && getDest(b.d) ? `, ${getDest(b.d)!.name}` : ""}`, false]);
+  const tn = townOf(b.tw, b.d), dn = getDest(b.d)?.name;
+  f.push(["Area", `${tn}${b.tw !== "Not specified" && dn && dn !== tn ? `, ${dn}` : ""}`, false]);
   f.push(b.a ? ["Address", b.a, false] : ["Address", "Not listed in the register.", true]);
   if (b.p) f.push(["Phone", b.p, false]);
   if (b.e) f.push(["Email", b.e, false]);

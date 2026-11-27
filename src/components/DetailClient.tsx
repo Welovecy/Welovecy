@@ -52,7 +52,7 @@ export function ActionBar({ dir, around, tel, web, save, ask }: { dir?: string; 
         <svg viewBox="0 0 24 24" width="20" height="20" fill={on ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2" strokeLinejoin="round" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z" /></svg>
       </Act>
       <Act icon={I.share} label={shared || "Share"} onClick={share} />
-      {ask ? <Act icon={I.ask} label="Ask" onClick={() => openAphrodite(ask)} /> : null}
+      {ask && [dir, around, tel || web].filter(Boolean).length < 3 ? <Act icon={I.ask} label="Ask" onClick={() => openAphrodite(ask)} /> : null}
     </div>
   );
 }

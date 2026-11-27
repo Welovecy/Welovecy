@@ -988,8 +988,8 @@ html{-webkit-tap-highlight-color:transparent}
 .dh-eye{display:flex;align-items:center;gap:8px;margin:0;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;opacity:.92}
 .dh-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
 .dh-chips span{font-size:13px;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.18);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.22)}
-.dh-map{background:linear-gradient(180deg,color-mix(in srgb,var(--tint) 22%,var(--bg)),var(--bg));overflow:hidden;padding-top:150px}
-.dh-mapsvg{position:absolute;inset:0;width:100%;height:190px;opacity:.95;mask-image:linear-gradient(180deg,#000 55%,transparent);-webkit-mask-image:linear-gradient(180deg,#000 55%,transparent)}
+.dh-map{background:linear-gradient(180deg,color-mix(in srgb,var(--tint) 22%,var(--bg)),var(--bg));overflow:hidden;padding-top:170px}
+.dh-mapsvg{position:absolute;inset:0;width:100%;height:210px;opacity:.95;mask-image:linear-gradient(180deg,#000 55%,transparent);-webkit-mask-image:linear-gradient(180deg,#000 55%,transparent)}
 .dh-land{fill:color-mix(in srgb,var(--tint) 10%,var(--card));stroke:color-mix(in srgb,var(--tint) 55%,transparent);stroke-width:.25}
 .dh-pin{fill:var(--accent);stroke:var(--card);stroke-width:.45}
 .dh-pulse{fill:var(--accent);opacity:.18;transform-box:fill-box;transform-origin:center;animation:dhpulse 2.4s ease-out infinite}
@@ -1011,7 +1011,7 @@ html{-webkit-tap-highlight-color:transparent}
 .fromyou{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 14px;padding:14px 16px;border-radius:16px;background:var(--accent-soft);font-size:15px}
 .fromyou .btn{min-height:38px}
 .dlink{color:var(--accent);font-weight:600;text-decoration:none;white-space:nowrap}
-.dsec{display:grid;gap:12px;margin-top:10px}
+.dsec{display:grid;gap:12px;margin-top:10px;padding-block:0}
 .dsec-h{font-size:clamp(22px,3vw,28px);letter-spacing:-.02em;margin:0}
 .dsec-sub{font-size:17px;margin:0}
 .dsec-row{display:flex;align-items:baseline;justify-content:space-between;gap:12px}

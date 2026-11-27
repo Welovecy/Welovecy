@@ -57,7 +57,7 @@ export default async function ListingPage({ params }: P) {
   const inside = b.at ? getPoi(b.at) : undefined;
   return (
     <>
-      <DetailHero photo={photo} ll={b.ll} tint={stay ? "#3F5E7A" : "#8A4B3C"} eyebrow={`${bizSub(b)}${b.tw && b.tw !== "Not specified" ? ` · ${b.tw}` : ""}`} title={b.n} kind={stay ? "stay" : b.g === "night" ? "night" : "eat"} />
+      <DetailHero photo={photo} ll={b.ll} tint={stay ? "#3F5E7A" : "#8A4B3C"} eyebrow={bizSub(b)} title={b.n} kind={stay ? "stay" : b.g === "night" ? "night" : "eat"} />
       <div className="wrap dwrap">
         <Crumbs items={[["Home", "/"], [stay ? "Where to stay" : d.name, stay ? `/stay/${d.id}` : `/destinations/${d.id}`], [b.n]]} />
         {host ? <p className="dlead">{b.fl ? `${b.fl} of ` : "Inside "}<Link href={listingHref(host.i)}>{host.n}</Link></p> : null}

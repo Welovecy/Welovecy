@@ -75,7 +75,7 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
         </div>
         {beach ? <Facilities list={beach.fac ?? []} /> : null}
         {beach ? <InfoList rows={beachFacts(beach).filter(([l]) => l !== "Facilities" && l !== "Blue Flag" && l !== "Shore")} title="Good to know" /> : null}
-        <InfoList rows={p.practical} title="Practical" />
+        <InfoList rows={beach ? p.practical.filter(([l]) => !["Facilities", "Lifeguards", "Accessibility"].includes(l)) : p.practical} title="Practical" />
         {stay ? <Link className="dcard" href={hotelsNearHref(stay.slug)}><b>Hotels near {p.name}</b><span>Places to stay within an easy walk</span><i aria-hidden="true">›</i></Link> : null}
         {loc ? <Link className="dcard" href={loc.href}><b>{loc.title}</b><span>More in this part of {d.name}</span><i aria-hidden="true">›</i></Link> : null}
       </div>
