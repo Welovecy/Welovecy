@@ -267,7 +267,8 @@
       "coverage": {
         "label": "Ayia Napa harbour, along the coast to Cape Greco, the Blue Lagoon and Protaras",
         "areas": [
-          "ayianapa"
+          "ayianapa",
+          "protaras"
         ],
         "places": [
           "Ayia Napa harbour",
@@ -286,10 +287,20 @@
           "limanaki",
           "cape greco",
           "cavo greco",
-          "blue lagoon",
           "konnos",
           "konnos bay",
-          "protaras"
+          "protaras",
+          "pernera",
+          "paralimni",
+          "kapparis",
+          "ayia thekla",
+          "agia thekla",
+          "makronissos",
+          "nissi",
+          "fig tree bay",
+          "sotira",
+          "deryneia",
+          "liopetri"
         ]
       },
       "intro": "Ayia Napa's boat trip people. CY Cruises sails from Ayia Napa harbour, where the Black Pearl pirate ship is moored, with family pirate cruises, Blue Lagoon swims, small-group sunset sails, party boats and fishing trips along the south-east coast. Their crew has worked these waters for more than 50 years.",
@@ -318,7 +329,6 @@
       "pending": [
         "Confirm permission for the photos (taken from their website)",
         "Approved description",
-        "Whether Aphrodite should suggest them for boat trip questions",
         "Which WhatsApp number to show (site lists +357 97 969640 and +357 99 574148)"
       ]
     }

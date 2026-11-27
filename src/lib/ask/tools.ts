@@ -19,7 +19,7 @@ import { EVENTS, datesTbc, overlaps, whenText } from "../events";
 import { addDays as addD } from "../duty";
 import { isIndoor } from "../indoor";
 import { KNOW_CHECKED, KNOW_HREF, KNOW_SECTIONS, searchFacts } from "../knowledge";
-import { PARTNERS, PARTNER_LABEL, partnerFor, partnerForGuide, partnerHref, type PartnerService, type Stay } from "../partners";
+import { ACTIVE as ACTIVE_PARTNERS, PARTNERS, PARTNER_LABEL, covers, offersFor, partnerFor, partnerForGuide, partnerHref, type PartnerService, type Stay } from "../partners";
 
 /**
  * The assistant's tools. Each one reads our own data (official registers, the pharmacy rota, MET Norway),
@@ -114,6 +114,17 @@ export const TOOLS = [
         staying: { type: "string", description: "Where the visitor is staying: hotel, villa area, village or town, as they said it. 'my base' if they set their hotel on the site. Not the airport." },
       },
       required: ["service"],
+    },
+  },
+  {
+    name: "boat_trips",
+    description: "Call for ANY question about boat trips, cruises, boat parties, pirate ships, sunset sails, Blue Lagoon trips, fishing trips, turtle trips or hiring a boat, especially in Ayia Napa, Protaras or Cape Greco. Returns our advertising partner's cruises from Ayia Napa harbour, with what each includes.",
+    input_schema: {
+      type: "object",
+      properties: {
+        where: { type: "string", description: "Where the visitor is staying or wants to sail from, as they said it. 'my base' if they set their hotel on the site. Empty if they didn't say." },
+        want: { type: "string", description: "What they're after, in a few words: family, kids, relaxing, swimming, sunset, couples, party, adults, fishing, turtles, private group, a birthday." },
+      },
     },
   },
   {
@@ -357,6 +368,7 @@ export async function runTool(name: string, args: Args, ctx: Ctx): Promise<unkno
     case "site_pages": return sitePages(args);
     case "events": return events(args);
     case "transfer_partner": return transferPartner(args, ctx);
+    case "boat_trips": return boatTrips(args, ctx);
     default: return { error: "unknown tool" };
   }
 }
@@ -401,6 +413,35 @@ function transferPartner(a: Args, ctx: Ctx) {
       guide: p.guides[0] ? url(guideHref(p.guides[0])) : undefined,
     },
     how_to_mention: "After the independent options, one short natural line: name them as our advertising partner for this area, link their page, say they book and confirm the price directly. No prices, no promises about availability or times, never 'best'.",
+  };
+}
+
+/** Boat trips: our cruise partner's range when the visitor is on the east coast (or hasn't said where). */
+const FAR = new Set(["paphos", "akamas", "limassol", "troodos", "nicosia"]);
+function boatTrips(a: Args, ctx: Ctx) {
+  const p = ACTIVE_PARTNERS.find((x) => x.services.includes("boat_trip"));
+  const o = p ? offersFor(p.id) : undefined;
+  if (!p || !o) return { partner: null, note: "No boat trip partner. Use find_places with kind activity for boat trips and water sports." };
+  const where = S(a.where);
+  const stay = where ? stayFrom(where, ctx) : (ctx.base ? stayFrom("my base", ctx) : null);
+  const covered = stay ? covers(p, stay) : false;
+  const far = !covered && !!stay?.area && FAR.has(stay.area);
+  const intro = !!ctx.earlier && ctx.earlier.toLowerCase().includes(p.name.toLowerCase());
+  return {
+    partner: { name: p.name, label: PARTNER_LABEL, what: p.kind, covers: p.coverage.label, about: p.intro, phone: p.phone ?? undefined, book: p.book, website: p.web, page: url(partnerHref(p.id)) },
+    sails_from: "Ayia Napa harbour, meeting at the Black Pearl 30 minutes before departure",
+    visitor_area: stay?.area ?? (where || "not said"),
+    cruises: o.items.map((c) => ({ name: c.name, about: c.line, length: c.hrs, route: c.route, includes: c.inc, price: c.price, book: c.u })),
+    private_charter: o.charter?.line,
+    good_to_know: o.know,
+    prices_checked: o.checked,
+    how_to_mention: [
+      far ? `The visitor is in ${stay?.area}, a long way from Ayia Napa. Say these cruises leave from Ayia Napa harbour and how far that is, and only suggest them if they're happy to travel or are visiting the east coast.` : "Build the answer around these cruises.",
+      "Pick the two to four cruises that fit what they want (family and kids: Black Pearl Pirate Cruise; relaxing and swimming: Santa Napa or Blue Lagoon; small group or sunset: Harmony; party: Fantasy Boat Party (18+) or Greatest Hits; fishing; turtles: Turtle Safari). For each: name, one line on why it fits, length, what's included. Offer the rest of the range in a few words.",
+      intro ? `You already introduced ${p.name} as our advertising partner; don't repeat the label, just keep helping with their cruises.` : `Say once, naturally, that ${p.name} is our advertising partner, and link their page [${p.name}](${url(partnerHref(p.id))}), where every cruise is listed.`,
+      "Prices go at the end of a cruise's line, never first, and say prices can change so confirm when booking. Never invent times or dates: say dates and times are on each cruise's booking page.",
+      "There is also a Blue Lagoon near Latchi in Akamas; if they mean that one, say these cruises go to the Blue Lagoon at Cape Greco instead. Describe them by what they offer (they sail from Ayia Napa harbour, where the Black Pearl is moored). Don't call them the best, the biggest or the leading operator, and don't say they're the only one. If the visitor asks for other companies, use find_places with kind activity.",
+    ].join(" "),
   };
 }
 
@@ -489,6 +530,7 @@ export function cardsFrom(name: string, out: unknown): Card[] {
     case "buses":
       return list("stops").map((s) => ({ k: "bus", n: String(s.n), sub: `Routes ${(s.routes as string[] | undefined)?.slice(0, 6).join(", ") ?? ""}`, meta: String(s.getting_there ?? "").replace(/ \(estimate\)/g, ""), href: own(s.link) }));
     case "guides":
+    case "boat_trips":
     case "transfer_partner": {
       const p = o.partner as Record<string, string> | null;
       if (!p) return [];
