@@ -17,6 +17,7 @@ import aliasJson from "@data/aliases.json";
 const ALIAS = (aliasJson as { aliases: Record<string, string[]> }).aliases;
 import { EVENTS, datesTbc, overlaps, whenText } from "../events";
 import { addDays as addD } from "../duty";
+import { KNOW_CHECKED, KNOW_HREF, searchFacts } from "../knowledge";
 import { PARTNERS, PARTNER_LABEL, partnerFor, partnerForGuide, partnerHref, type PartnerService, type Stay } from "../partners";
 
 /**
@@ -112,6 +113,11 @@ export const TOOLS = [
       },
       required: ["service"],
     },
+  },
+  {
+    name: "know",
+    description: "Checked facts visitors ask about, each with its source: passports, visas and Schengen, healthcare and the GHIC/EHIC, heat, tap water, lifeguards, sea quality, turtle beaches, drinking age, smoking, e-scooters, drones, time zone, shop hours and Sundays, language and phrases, church dress, phone roaming, and the best time to visit. Use it for any general 'what should I know' question.",
+    input_schema: { type: "object", properties: { query: { type: "string" } }, required: ["query"] },
   },
   {
     name: "site_pages",
@@ -284,6 +290,12 @@ function buses(a: Args, ctx: Ctx) {
   };
 }
 
+function know(a: Args) {
+  const facts = searchFacts(S(a.query));
+  if (!facts.length) return { facts: [], note: "No checked fact for this. Try guides or site_pages, or say you don't know.", page: url(KNOW_HREF) };
+  return { checked: KNOW_CHECKED, page: url(KNOW_HREF), facts: facts.map((f) => ({ fact: f.t, sources: f.src.map((x) => x.t + " " + x.u), link: url(`${KNOW_HREF}#${f.id}`) })) };
+}
+
 function guides(a: Args, ctx: Ctx) {
   const q = norm(S(a.query));
   const words = q.split(" ").filter((w) => w.length > 2);
@@ -338,6 +350,7 @@ export async function runTool(name: string, args: Args, ctx: Ctx): Promise<unkno
     case "weather": return weather(args);
     case "buses": return buses(args, ctx);
     case "guides": return guides(args, ctx);
+    case "know": return know(args);
     case "site_pages": return sitePages(args);
     case "events": return events(args);
     case "transfer_partner": return transferPartner(args, ctx);

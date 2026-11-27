@@ -20,6 +20,7 @@ export function Footer() {
           <Link href="/practical#emergency">Emergency numbers</Link>
           <Link href="/buses">Buses and airport transfers</Link>
           <Link href="/practical#taxi">Taxi fares</Link>
+          <Link href="/know-before-you-go">Know before you go</Link>
         </div>
         <div>
           <h4>Explore</h4>
