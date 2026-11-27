@@ -1087,3 +1087,11 @@ html{-webkit-tap-highlight-color:transparent}
 .int-tile b{font-size:17px}
 .int-tile small{font-size:13px;color:var(--muted)}
 @media (min-width:900px){.int-row{margin-inline:0;padding-inline:0}}
+
+/* Footer on phones: two quiet columns instead of one long wall */
+@media (max-width:640px){
+  footer{padding-block:32px 96px;margin-top:32px}
+  .fcols{grid-template-columns:1fr 1fr;gap:22px 16px}
+  .fcols>div:first-child{grid-column:1/-1}
+  .fcols a{font-size:14px;padding-block:5px}
+}
