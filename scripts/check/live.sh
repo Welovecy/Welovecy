@@ -15,7 +15,7 @@ s=$(page /sitemap.xml); [[ "$s" != *"/partners/"* ]] && ok "partners not in site
 g=$(page /guides/larnaca-airport-to-ayia-napa-and-protaras); [[ "$g" == *"Go Airport Transfers"* ]] && ok "Larnaca guide has the Go card" || no "Larnaca guide card missing"
 g=$(page /guides/paphos-airport-to-paphos-and-coral-bay); [[ "$g" == *"Coral Bay Taxis"* ]] && ok "Paphos guide has the Coral Bay card" || no "Paphos guide card missing"
 g=$(page /guides/larnaca-and-paphos-airport-to-limassol); [[ "$g" != *"Advertising partner"* ]] && ok "Limassol guide has no partner card" || no "Limassol guide shows a partner"
-for p in /places/waterworld /listing/att-trail-trooditissa-foini /stay/ayianapa; do c=$(curl -s -o /dev/null -w "%{http_code}" -L "$B$p"); [ "$c" = 200 ] && ok "$p loads" || no "$p returned $c"; done
+for p in /places/waterworld /listing/att-trail-trooditissa-foini /stay/ayianapa /know-before-you-go; do c=$(curl -s -o /dev/null -w "%{http_code}" -L "$B$p"); [ "$c" = 200 ] && ok "$p loads" || no "$p returned $c"; done
 
 ask(){ # question, expected partner or NONE
   r=$(curl -s --max-time 40 -X POST "$B/api/ask" -H "content-type: application/json" -d "{\"messages\":[{\"role\":\"user\",\"text\":\"$1\"}],\"page\":\"/\"}")
@@ -50,3 +50,10 @@ ask "Cheapest way from Larnaca airport to Paralimni?" "Intercity"
 echo "--- long answers"
 ask "Plan my weekend" "Saturday"
 ask "Troodos" "Troodos"
+
+echo "--- know before you go"
+ask "Do I need a visa to visit from the UK?" "90"
+ask "Can I fly my drone in Cyprus?" "120"
+ask "Can we visit the north while we are there?" "Republic"
+ask "What is the drinking age?" "18"
+ok_page(){ page /know-before-you-go | grep -q "Lara and Toxeftra" && ok "know page has facts" || no "know page missing facts"; }; ok_page
