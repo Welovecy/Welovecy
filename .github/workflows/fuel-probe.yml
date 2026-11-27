@@ -1,0 +1,17 @@
+name: fuel-probe
+on:
+  push:
+    branches: [fuel-probe]
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Look at the Retail Fuel Price Observatory
+        run: |
+          U="https://eforms.eservices.cyprus.gov.cy/MCIT/MCIT/PetroleumPrices"
+          curl -sL -A "Mozilla/5.0 welovecy-probe" -D h.txt "$U" -o p.html; echo "status:"; head -1 h.txt; wc -c p.html
+          echo "--- forms and selects"; grep -oiE '<(form|select|option|input)[^>]{0,200}>' p.html | head -120
+          echo "--- scripts and endpoints"; grep -oiE '(src|href|action|url)\s*[:=]\s*["'"'"'][^"'"'"']{3,160}' p.html | sort -u | head -80
+          echo "--- terms"; grep -oiE '.{0,120}(terms|copyright|όροι|πνευματικ).{0,160}' p.html | head -10
+          curl -sL -A "Mozilla/5.0 welovecy-probe" "https://data.gov.cy/api/3/action/package_search?q=%CE%BA%CE%B1%CF%8D%CF%83%CE%B9%CE%BC%CE%B1&rows=20" -o d1.json; echo "--- data.gov.cy kafsima"; python3 -c "import json;d=json.load(open('d1.json'));[print(r['title'],'|',r.get('organization',{}).get('title'),'|',[x.get('url') for x in r.get('resources',[])][:3]) for r in d['result']['results']]" || head -c 400 d1.json
+          curl -sL -A "Mozilla/5.0 welovecy-probe" "https://data.gov.cy/api/3/action/package_search?q=fuel&rows=20" -o d2.json; echo "--- data.gov.cy fuel"; python3 -c "import json;d=json.load(open('d2.json'));[print(r['title'],'|',r.get('organization',{}).get('title'),'|',[x.get('url') for x in r.get('resources',[])][:3]) for r in d['result']['results']]" || head -c 400 d2.json
