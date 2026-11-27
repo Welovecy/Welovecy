@@ -118,7 +118,7 @@ export const TOOLS = [
   },
   {
     name: "know",
-    description: "Checked facts visitors ask about, each with its source: passports, visas and Schengen, healthcare and the GHIC/EHIC, heat, tap water, lifeguards, sea quality, turtle beaches, drinking age, smoking, e-scooters, drones, time zone, shop hours and Sundays, language and phrases, church dress, phone roaming, and the best time to visit. Use it for any general 'what should I know' question.",
+    description: "Checked facts visitors ask about, each with its source: passports, visas and Schengen, healthcare and the GHIC/EHIC, heat, tap water, lifeguards, sea quality, turtle beaches, drinking age, smoking, e-scooters, drones, time zone, shop hours and Sundays, language and phrases, church dress, phone roaming, the best time to visit, which area suits which trip, villages, Cyprus history, and living here (residence and the yellow slip, GESY healthcare, driving licence exchange, electricity bills, schools). Use it for any general 'what should I know' question.",
     input_schema: { type: "object", properties: { query: { type: "string" } }, required: ["query"] },
   },
   {

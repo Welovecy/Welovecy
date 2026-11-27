@@ -146,7 +146,12 @@ function Answer({ m, baseId, onNav, onAsk, onDone }: { m: Msg; baseId?: string; 
 }
 
 export function Orb({ size = 28 }: { size?: number }) {
-  return <span className="aph-orb" style={{ width: size, height: size }} aria-hidden="true" />;
+  // Aphrodite's face inside the glass ring. A fixed size, so nothing moves while it loads.
+  return (
+    <span className="aph-orb aph-face" style={{ width: size, height: size }} aria-hidden="true">
+      <img src={size > 48 ? "/aphrodite-192.webp" : "/aphrodite-96.webp"} alt="" width={size} height={size} decoding="async" />
+    </span>
+  );
 }
 
 export function Ask() {

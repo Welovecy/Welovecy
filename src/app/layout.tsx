@@ -11,6 +11,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Track } from "@/components/Track";
 import { Consent } from "@/components/Consent";
+import { InstallPrompt } from "@/components/InstallPrompt";
 import { Ask } from "@/components/Ask";
 
 export const metadata: Metadata = {
@@ -64,6 +65,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SpeedInsights />
         <Track />
         <Consent />
+        <InstallPrompt />
         <Ask />
       </body>
     </html>
