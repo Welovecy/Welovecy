@@ -15,7 +15,11 @@ const SHORT: Record<string, string> = { ayianapa: "Ayia Napa", protaras: "Protar
 function imgFor(i: string, slug?: string) {
   const ph = (slug && photoFor(`place-${slug}`)) || photoFor(`beach-${i}`);
   if (!ph) return undefined;
-  return { u: ph.u.includes("/1280px-") ? ph.u.replace("/1280px-", "/640px-") : ph.u, t: ph.t };
+  // Wikimedia serves thumbnails in set widths; 500px is the closest to the card size.
+  const orig = /^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/(\w\/\w\w)\/([^/]+)$/.exec(ph.u);
+  const u = /\/\d+px-/.test(ph.u) ? ph.u.replace(/\/\d+px-/, "/500px-")
+    : orig ? `https://upload.wikimedia.org/wikipedia/commons/thumb/${orig[1]}/${orig[2]}/500px-${orig[2]}` : ph.u;
+  return { u, t: ph.t };
 }
 
 export default function Beaches() {

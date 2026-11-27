@@ -209,7 +209,7 @@ function IslandMap({ beaches, all, area, areas, origin, onArea }: { beaches: Bea
     const cx = (x0 + x1) / 2, cy = (y0 + y1) / 2;
     return [cx - w / 2, cy - h / 2, w, h];
   };
-  const full = useMemo(() => fit(all.map((b) => toMap(b.ll)), 6), [all]); // eslint-disable-line react-hooks/exhaustive-deps
+  const full = useMemo(() => fit(all.map((b) => toMap(b.ll)), 9), [all]); // eslint-disable-line react-hooks/exhaustive-deps
   const target = useMemo<[number, number, number, number]>(() => {
     const pts = all.filter((b) => b.area === area).map((b) => toMap(b.ll));
     return area && pts.length ? fit(pts, 8) : full;
