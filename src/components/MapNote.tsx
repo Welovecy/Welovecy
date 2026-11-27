@@ -23,3 +23,7 @@ export function ReportPin({ name, href }: { name: string; href: string }) {
     </p>
   );
 }
+
+/** The mail link behind "Something wrong? Tell us" on detail pages. */
+export const reportMail = (name: string, href: string) =>
+  mail(`Wrong location or details: ${name}`, `Page: ${absolute(href)}\n\nWhat's wrong?\n\n`);

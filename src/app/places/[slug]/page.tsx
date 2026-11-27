@@ -3,19 +3,14 @@ import { absolute } from "@/lib/site";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PLACES, PLACE_BEACH, getDest, getPlace, linkedToPlace, photoFor, placeHref } from "@/lib/data";
-import { ListRow } from "@/components/ListRow";
-import { ReportPin } from "@/components/MapNote";
+import { reportMail } from "@/components/MapNote";
+import { DetailHero, InfoList, Facilities, Around, AboutInfo } from "@/components/Detail";
+import { ActionBar, FromYou } from "@/components/DetailClient";
+import { KindIcon } from "@/components/KindIcon";
 import { SeasonBanner } from "@/components/Season";
 import { cyMonth } from "@/lib/season";
-import { poiRow } from "@/lib/views";
-import { Crumbs, Facts, Sources } from "@/components/Bits";
-import { Photo } from "@/components/Photo";
-import { SaveButton } from "@/components/SaveButton";
-import { ShareButton } from "@/components/ShareButton";
-import { FromBase } from "@/components/FromBase";
-import { AroundBlock } from "@/components/AroundBlock";
-import { NearbyCards } from "@/components/Cards";
-import { BeachFacts, BeachSources } from "@/components/BeachFacts";
+import { Crumbs } from "@/components/Bits";
+import { beachFacts } from "@/components/BeachFacts";
 import { directionsTo } from "@/lib/geo";
 import Link from "next/link";
 import { hotelsNearFor, hotelsNearHref } from "@/lib/hotelsNear";
@@ -45,15 +40,8 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
     <div className="notice" role="status"><strong>Closed</strong><p>{p.notice.t} <a href={p.notice.src.u} target="_blank" rel="noopener noreferrer">Source</a></p></div>
   ) : null;
   const crumbs: [string, string?][] = [["Home", "/"], [d.name, `/destinations/${d.id}`], ...(loc ? [[loc.title, loc.href] as [string, string]] : []), [p.name]];
-  const actions = (
-    <div className="actions">
-      {p.ll ? <a className="btn btn-primary" href={`${href}/around`}>See what&apos;s around</a> : null}
-      {p.ll ? <a className="btn btn-ghost" href={directionsTo(p.ll)} target="_blank" rel="noopener noreferrer">Directions</a> : null}
-      {stay ? <Link className="btn btn-ghost" href={hotelsNearHref(stay.slug)}>Hotels nearby</Link> : null}
-      <SaveButton item={{ key: href, n: p.name, href, sub: `${p.cat} · ${d.name}` }} />
-      <ShareButton title={p.name} />
-    </div>
-  );
+  const chips = beach ? [beach.bf ? "Blue Flag 2026" : "", beach.sf ?? "", beach.fac?.includes("Lifeguards") ? "Lifeguards" : ""].filter(Boolean) : [];
+  const more = (p.nearby ?? []).filter((k) => k.startsWith("place-") && photoFor(k)).map((k) => getPlace(k.slice(6))).filter(Boolean) as NonNullable<ReturnType<typeof getPlace>>[];
   const ld = {
     "@context": "https://schema.org",
     "@type": beach ? "Beach" : "TouristAttraction",
@@ -68,81 +56,62 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
   return (
     <>
       <JsonLd data={ld} />
-      {photo ? (
-        <div className="wrap hero">
-          <Crumbs items={crumbs} />
-          <div style={{ height: 16 }} />
-          <Photo photo={photo} label={p.name} tint={p.tint} ratio="16/9" priority hero className="hero-photo" />
-          <div className="hero-copy">
-            <p className="eyebrow">{p.cat} · {d.name}</p>
-            <h1 className="h-hero">{p.name}</h1>
-            {p.unesco ? <UnescoBadge id={p.unesco} /> : null}
-            <p className="lead">{p.intro}</p>
-            {notice}
-            <SeasonBanner k={`place-${p.slug}`} built={cyMonth()} />
-            {actions}
-          </div>
+      <DetailHero photo={photo} ll={p.ll} tint={p.tint} eyebrow={`${p.cat} · ${p.loc ?? d.name}`} title={p.name} chips={chips} kind={beach ? "beach" : "sight"} />
+      <div className="wrap dwrap">
+        <Crumbs items={crumbs} />
+        {p.unesco ? <UnescoBadge id={p.unesco} /> : null}
+        <p className="dlead">{p.intro}</p>
+        {notice}
+        <SeasonBanner k={`place-${p.slug}`} built={cyMonth()} />
+        <ActionBar dir={p.ll ? directionsTo(p.ll) : undefined} around={p.ll ? `${href}/around` : undefined} save={{ key: href, n: p.name, href, sub: `${p.cat} · ${d.name}` }} ask={`Tell me about ${p.name}`} />
+        {p.ll ? <FromYou ll={p.ll} /> : null}
+        <div className="dprose">
+          {p.why ? <><h2>Why go</h2><p>{p.why}</p></> : null}
+          {p.features.length ? <><h2>What you&apos;ll find</h2><ul>{p.features.map((x) => <li key={x}>{x}</li>)}</ul></> : null}
+          {p.legend ? <div className="dquote"><span>Local legend</span><p>{p.legend}</p></div> : null}
+          {p.how ? <><h2>Getting there</h2><p>{p.how}</p></> : null}
+          {p.before ? <div className="dnote"><b>Before you go.</b> {p.before}</div> : null}
+          {p.unesco ? <p className="dfine">One of the sites in the <Link href={`/unesco#${p.unesco}`}>{UNESCO_NAMES[p.unesco]}</Link> World Heritage property.</p> : null}
         </div>
-      ) : (
-        <div className="wrap">
-          <Crumbs items={crumbs} />
-          <div className="around-head place-head" style={{ ["--tint" as string]: p.tint }}>
-            <p className="eyebrow">{p.cat} · {p.loc ?? d.name}</p>
-            <h1>{p.name}</h1>
-            {p.unesco ? <UnescoBadge id={p.unesco} /> : null}
-            <p className="lead" style={{ margin: 0 }}>{p.intro}</p>
-            {notice}
-            <SeasonBanner k={`place-${p.slug}`} built={cyMonth()} />
-            {p.ll ? <FromBase ll={p.ll} /> : null}
-            {actions}
-          </div>
-        </div>
-      )}
-      <section className="wrap">
-        <div className="split">
-          <div className="prose">
-            {p.why ? <><h2>Why visit</h2><p>{p.why}</p></> : null}
-            {p.features.length ? <><h2>What you&apos;ll find</h2><ul className="list">{p.features.map((x) => <li key={x}>{x}</li>)}</ul></> : null}
-            {p.legend ? <div className="legend"><span className="label">Local legend</span><p>{p.legend}</p></div> : null}
-            {p.how ? <><h2>Getting there</h2><p>{p.how}</p></> : null}
-            {p.before ? <div className="before"><span className="label">Before you go</span><p>{p.before}</p></div> : null}
-            {beach ? <BeachFacts r={beach} /> : null}
-            <h2>Practical</h2>
-            <Facts rows={p.practical} />
-            <Sources list={p.sources} reviewed={p.how ? "visitor guide, 22 November 2026. Check opening, access and return transport before you travel." : undefined} />
-            <ReportPin name={p.name} href={href} />
-            {beach ? <BeachSources r={beach} /> : null}
-          </div>
-          <div className="panel">
-            <h3 style={{ fontSize: 22 }}>Location</h3>
-            <p>{p.loc ?? d.name}</p>
-            {loc ? <p className="muted small">Part of <Link href={loc.href}>{loc.title}</Link></p> : null}
-            {p.unesco ? <p className="muted small">One of the sites in the <Link href={`/unesco#${p.unesco}`}>{UNESCO_NAMES[p.unesco]}</Link> World Heritage property.</p> : null}
-            {p.ll ? <a className="btn btn-ghost" href={directionsTo(p.ll)} target="_blank" rel="noopener noreferrer">Get directions</a> : null}
-          </div>
-        </div>
-      </section>
+        {beach ? <Facilities list={beach.fac ?? []} /> : null}
+        {beach ? <InfoList rows={beachFacts(beach).filter(([l]) => l !== "Facilities" && l !== "Blue Flag" && l !== "Shore")} title="Good to know" /> : null}
+        <InfoList rows={beach ? p.practical.filter(([l]) => !["Facilities", "Lifeguards", "Accessibility"].includes(l)) : p.practical} title="Practical" />
+        {stay ? <Link className="dcard" href={hotelsNearHref(stay.slug)}><b>Hotels near {p.name}</b><span>Places to stay within an easy walk</span><i aria-hidden="true">›</i></Link> : null}
+        {loc ? <Link className="dcard" href={loc.href}><b>{loc.title}</b><span>More in this part of {d.name}</span><i aria-hidden="true">›</i></Link> : null}
+      </div>
       {linked.length ? (
-        <section className="wrap" aria-labelledby="h-here">
-          <div className="sec-head"><h2 id="h-here">{linked.every((r) => r.k === "nature") ? "Walks from here" : "Walks and more here"}</h2></div>
-          <ul className="rows">{linked.map((r) => {
-            const row = poiRow(r);
-            return <ListRow key={r.i} {...row} sub={[r.cat, r.len, r.time, r.shape, r.grade ? `grade ${r.grade} of 3` : ""].filter(Boolean).join(" · ")} />;
-          })}</ul>
+        <section className="wrap dwrap" aria-labelledby="h-here">
+          <div className="dsec">
+            <h2 id="h-here" className="dsec-h">{linked.every((r) => r.k === "nature") ? "Walks from here" : "Walks and more here"}</h2>
+            <ul className="nlist">{linked.map((r) => (
+              <li key={r.i}><Link href={`/listing/${r.i}`} className="nrow"><KindIcon k={r.k} size={40} /><span className="nrow-t"><b>{r.n}</b><small>{[r.len, r.time, r.shape, r.grade ? `grade ${r.grade} of 3` : ""].filter(Boolean).join(" · ")}</small></span></Link></li>
+            ))}</ul>
+          </div>
         </section>
       ) : null}
-      {p.ll ? (
-        <>
-          {photo ? <section className="wrap" style={{ paddingBottom: 0 }}><FromBase ll={p.ll} /></section> : null}
-          <AroundBlock ll={p.ll} skip={`place-${p.slug}`} title={`Near ${p.name}`} moreHref={`${href}/around`} />
-        </>
-      ) : null}
-      {p.nearby?.length ? (
-        <section className="wrap" aria-labelledby="h-near">
-          <div className="sec-head"><h2 id="h-near">Nearby and related</h2></div>
-          <div className="grid"><NearbyCards keys={p.nearby} /></div>
+      {p.ll ? <div className="wrap dwrap"><Around ll={p.ll} skip={`place-${p.slug}`} title="Around here" moreHref={`${href}/around`} /></div> : null}
+      {more.length ? (
+        <section className="wrap dwrap" aria-labelledby="h-more">
+          <div className="dsec dsec-wide">
+            <h2 id="h-more" className="dsec-h">You might also like</h2>
+            <div className="bx-rail">
+              {more.map((m) => {
+                const ph = photoFor(`place-${m.slug}`)!;
+                return (
+                  <Link key={m.slug} href={placeHref(m.slug)} className="bx-pic">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={ph.u.replace(/\/\d+px-/, "/500px-")} alt={ph.t} loading="lazy" decoding="async" />
+                    <span className="bx-pic-txt"><b>{m.name}</b><small>{m.cat}</small></span>
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
         </section>
       ) : null}
+      <AboutInfo sources={p.sources} reviewed={p.how ? "visitor guide, 22 November 2026. Check opening, access and return transport before you travel." : undefined}
+        reportHref={reportMail(p.name, href)} name={p.name}
+        extra={beach ? { title: "Beach sources", list: [beach.info ? { t: "Official beach page", u: beach.info } : null, beach.bw ? { t: "Bathing water profile (Department of Environment)", u: beach.bw } : null].filter(Boolean) as { t: string; u: string }[], note: "Facilities can change by season." } : undefined} />
     </>
   );
 }
