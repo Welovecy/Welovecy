@@ -1,0 +1,11 @@
+# url  ->  public path (webp). Partner photos used with the partner's permission; credit in data/images.json.
+https://cycruises.com/wp-content/uploads/2025/10/black-pearl-1080x1080-1.jpg cycruises/black-pearl
+https://cycruises.com/wp-content/uploads/2026/04/cycruises-social-img.jpg cycruises/social
+https://cycruises.com/wp-content/uploads/2026/09/blue-lagoon-img-1.jpg cycruises/blue-lagoon
+https://cycruises.com/wp-content/uploads/2026/09/santa-napa-img.jpg cycruises/santa-napa
+https://cycruises.com/wp-content/uploads/2026/06/Harmony-Sunset-Cruise.jpg cycruises/harmony
+https://cycruises.com/wp-content/uploads/2025/07/turtle-safari.jpg cycruises/turtle-safari
+https://cycruises.com/wp-content/uploads/2026/07/through-the-decades-web.jpg cycruises/greatest-hits
+https://cycruises.com/wp-content/uploads/2023/05/musan-2-1.jpg cycruises/musan
+https://cycruises.com/wp-content/uploads/2025/11/fantasy-thump.jpg cycruises/fantasy
+https://cycruises.com/wp-content/uploads/2025/10/fishing-thumpnail.jpg cycruises/fishing
