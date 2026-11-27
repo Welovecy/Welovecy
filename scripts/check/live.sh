@@ -15,7 +15,7 @@ s=$(page /sitemap.xml); [[ "$s" != *"/partners/"* ]] && ok "partners not in site
 g=$(page /guides/larnaca-airport-to-ayia-napa-and-protaras); [[ "$g" == *"Go Airport Transfers"* ]] && ok "Larnaca guide has the Go card" || no "Larnaca guide card missing"
 g=$(page /guides/paphos-airport-to-paphos-and-coral-bay); [[ "$g" == *"Coral Bay Taxis"* ]] && ok "Paphos guide has the Coral Bay card" || no "Paphos guide card missing"
 g=$(page /guides/larnaca-and-paphos-airport-to-limassol); [[ "$g" != *"Advertising partner"* ]] && ok "Limassol guide has no partner card" || no "Limassol guide shows a partner"
-for p in /places/waterworld /listing/att-trail-trooditissa-foini /stay/ayianapa /know-before-you-go /cyprus-history; do c=$(curl -s -o /dev/null -w "%{http_code}" -L "$B$p"); [ "$c" = 200 ] && ok "$p loads" || no "$p returned $c"; done
+for p in /places/waterworld /listing/att-trail-trooditissa-foini /stay/ayianapa /know-before-you-go /cyprus-history /living-in-cyprus /aphrodite-96.webp; do c=$(curl -s -o /dev/null -w "%{http_code}" -L "$B$p"); [ "$c" = 200 ] && ok "$p loads" || no "$p returned $c"; done
 
 ASKED=0
 ask(){ # question, expected partner or NONE
@@ -64,4 +64,8 @@ ask "It is raining in Ayia Napa, anything indoors?" "Thalassa"
 ask "Which villages should we visit from Limassol?" "Omodos"
 ask "Where should we stay for nightlife?" "Ayia Napa"
 ask "Tell me about Richard the Lionheart in Cyprus" "1191"
+
+echo "--- living in Cyprus"
+ask "How do I get a yellow slip as an EU citizen?" "MEU1"
+ask "Can I swap my UK driving licence?" "6 months"
 ok_page(){ page /know-before-you-go | grep -q "Lara and Toxeftra" && ok "know page has facts" || no "know page missing facts"; }; ok_page
