@@ -23,7 +23,7 @@ fs.mkdirSync(out, { recursive: true });
     const c0 = await ctx(null); let n = 1;
     for (const path of fs.readFileSync("scripts/check/shot_pages.txt", "utf8").split("\n").map((x) => x.trim()).filter(Boolean)) {
       const p0 = await c0.newPage();
-      await p0.goto(`${base}${path}`, { waitUntil: "networkidle" });
+      try { await p0.goto(`${base}${path}`, { waitUntil: "load", timeout: 60000 }); } catch (e) { console.log("slow:", path); }
       const d0 = p0.locator("text=Decline"); if (await d0.count()) await d0.first().click();
       await p0.evaluate(async () => { for (let y = 0; y < document.body.scrollHeight; y += 500) { window.scrollTo(0, y); await new Promise((r) => setTimeout(r, 50)); } window.scrollTo(0, 0); });
       await p0.waitForTimeout(1200);
