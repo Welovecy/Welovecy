@@ -37,7 +37,10 @@ sys.setrecursionlimit(100000)
 def area(r): return abs(sum(r[i][0] * r[i - 1][1] - r[i - 1][0] * r[i][1] for i in range(len(r)))) / 2
 rings.sort(key=area, reverse=True)
 keep = [r for r in rings if area(r) > 0.0004 or len(r) > 2000]
-res = {eps: [[[round(x, 4), round(y, 4)] for x, y in dp(r, eps)] for r in keep] for eps in (0.002, 0.004)}
+def simp(r, eps):
+    h = len(r) // 2  # a closed ring starts and ends on the same point, so simplify each half
+    return dp(r[: h + 1], eps)[:-1] + dp(r[h:], eps)
+res = {eps: [[[round(x, 4), round(y, 4)] for x, y in simp(r, eps)] for r in keep] for eps in (0.002, 0.004)}
 json.dump({"source": "OpenStreetMap contributors (ODbL), natural=coastline", "rings": len(rings), "kept": len(keep),
            "fine": res[0.002], "coarse": res[0.004]}, open(out, "w"))
 print(len(ways), "ways", len(rings), "rings", len(keep), "kept", sum(len(r) for r in res[0.002]), "points")
