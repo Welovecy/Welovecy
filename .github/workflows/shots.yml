@@ -15,7 +15,7 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npx playwright install --with-deps chromium
+      - run: npm i --no-save playwright@1.49.1 && npx playwright install --with-deps chromium
       - run: npm run build
       - run: (npx next start -p 3000 &) && sleep 8 && node scripts/check/shots.js http://localhost:3000 shots
       - name: Push screenshots to the shots branch
