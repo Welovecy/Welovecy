@@ -21,6 +21,15 @@ def main():
         p = pins.get(r["i"])
         if p and not r.get("ll"):
             r["ll"] = p["ll"]; r["ls"] = "ov"; added += 1
+    # second pass (match_second.py): fills missing pins and replaces rough ones (street- or town-level) with the matched place
+    pins2 = json.load(open("data/work/overture_pins2.json", encoding="utf-8")) if os.path.exists("data/work/overture_pins2.json") else {}
+    upgraded = 0
+    for r in biz + pois:
+        p = pins2.get(r["i"])
+        if not p or r["i"] in manual: continue
+        if not r.get("ll") or r.get("pr") in ("approx", "area"):
+            r["ll"] = p["ll"]; r["ls"] = "ov"; r.pop("pr", None); upgraded += 1
+    print(f"second pass: {upgraded} pins added or made exact")
     # same rule as build_businesses.py: Paralimni addresses on the coast are Protaras to a visitor
     relabel = 0
     for r in biz + pois:
