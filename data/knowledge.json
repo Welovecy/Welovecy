@@ -47,6 +47,12 @@
    "title": "Cyprus history",
    "lead": "11,000 years, each period with a place you can see it today.",
    "own": "/cyprus-history"
+  },
+  {
+   "id": "living",
+   "title": "Living in Cyprus",
+   "lead": "Residence, healthcare, driving, bills and schools for people moving here.",
+   "own": "/living-in-cyprus"
   }
  ],
  "facts": [
@@ -811,6 +817,179 @@
     {
      "t": "Deputy Ministry of Tourism: Cyprus, 11,000 years of history and civilisation",
      "u": "https://www.visitcyprus.com/wp-content/uploads/files/11000%20YEARS/11000_YEARS_ENG_WEB_15_10_2021_AMENDED.pdf"
+    }
+   ]
+  },
+  {
+   "id": "live-eu-yellow-slip",
+   "sec": "living",
+   "topic": "residence",
+   "q": "living resident expat residence eu citizen yellow slip meu1 register registration move moving live",
+   "t": "EU citizens staying more than three months must apply for a registration certificate (form MEU1, the \"yellow slip\") within four months of arriving. The fee is €20 and the certificate has no expiry date. Documents must be officially translated and certified.",
+   "src": [
+    {
+     "t": "Civil Registry and Migration Department: EU citizens",
+     "u": "https://moi.gov.cy/MOI/CRMD/crmd.nsf/All/0C6B5279E8E5086CC22589330037689E"
+    }
+   ]
+  },
+  {
+   "id": "live-eu-conditions",
+   "sec": "living",
+   "topic": "residence",
+   "q": "living resident expat residence eu stay longer three months work insurance conditions",
+   "t": "To stay longer than three months, an EU citizen must be working or self-employed, or have enough money and full health insurance.",
+   "src": [
+    {
+     "t": "Civil Registry and Migration Department: EU citizens",
+     "u": "https://moi.gov.cy/MOI/CRMD/crmd.nsf/All/0C6B5279E8E5086CC22589330037689E"
+    }
+   ]
+  },
+  {
+   "id": "live-uk-new",
+   "sec": "living",
+   "topic": "residence",
+   "q": "living resident expat uk british residence permit brexit move moving live visa longer than 90 days",
+   "t": "UK nationals who move to Cyprus now and stay longer than 90 days must apply for temporary residency as non-EU nationals. Permanent residency may be possible after five years or more.",
+   "src": [
+    {
+     "t": "GOV.UK: Living in Cyprus",
+     "u": "https://www.gov.uk/living-in-cyprus"
+    }
+   ]
+  },
+  {
+   "id": "live-uk-before-brexit",
+   "sec": "living",
+   "topic": "residence",
+   "q": "living resident expat uk british brexit withdrawal agreement already living before",
+   "t": "UK nationals and their families who were already living in Cyprus under EU free movement rules before Brexit keep their rights to live and work here under the Withdrawal Agreement.",
+   "src": [
+    {
+     "t": "Civil Registry and Migration Department: UK nationals",
+     "u": "https://moi.gov.cy/moi/CRMD/crmd.nsf/All/C8DEF98E028C6B20C22588FA00460C3F"
+    }
+   ]
+  },
+  {
+   "id": "live-gesy-who",
+   "sec": "living",
+   "topic": "health",
+   "q": "living resident expat gesy ghs healthcare health system eligible qualify residents",
+   "t": "GESY, the state healthcare system, is for legal residents: EU citizens who work or are self-employed here or hold permanent residence or an S1, and non-EU residents with the right permit. Tourists aren't covered and use their EHIC or GHIC.",
+   "src": [
+    {
+     "t": "Cyprus Mail, 28 Jan 2026: GESY explained",
+     "u": "https://cyprus-mail.com/2026/01/28/how-healthcare-works-in-cyprus-gesy-explained-costs-compared-and-who-qualifies"
+    }
+   ]
+  },
+  {
+   "id": "live-gesy-register",
+   "sec": "living",
+   "topic": "health",
+   "q": "living resident expat gesy register registration personal doctor gp portal",
+   "t": "Register as a resident first, then create a GESY account on the GHS Beneficiary Portal or in person at a doctor, and choose a GESY personal doctor. You need both to use state healthcare. If you work here you also register with Social Insurance, and if you have an S1 you register it with GESY.",
+   "src": [
+    {
+     "t": "GOV.UK: Healthcare in Cyprus",
+     "u": "https://www.gov.uk/guidance/healthcare-in-cyprus"
+    }
+   ]
+  },
+  {
+   "id": "live-gesy-costs",
+   "sec": "living",
+   "topic": "health",
+   "q": "living resident expat gesy cost costs copayment co-payment doctor specialist prescription a&e free",
+   "t": "GESY isn't free. Co-payments are €1 per prescribed medicine, €6 for a specialist with a GP referral, €25 without one and €10 at A&E. You get a set number of free GP visits a year depending on your age, then up to €15 a visit.",
+   "src": [
+    {
+     "t": "GOV.UK: Healthcare in Cyprus",
+     "u": "https://www.gov.uk/guidance/healthcare-in-cyprus"
+    },
+    {
+     "t": "Cyprus Mail, 28 Jan 2026: GESY explained",
+     "u": "https://cyprus-mail.com/2026/01/28/how-healthcare-works-in-cyprus-gesy-explained-costs-compared-and-who-qualifies"
+    }
+   ]
+  },
+  {
+   "id": "live-licence-uk",
+   "sec": "living",
+   "topic": "driving",
+   "q": "living resident expat driving licence license uk british exchange swap six months",
+   "t": "UK residents can drive on a UK licence for up to 6 months, then must exchange it, with no test. Apply early because processing takes time. An International Driving Permit does not replace the exchange.",
+   "src": [
+    {
+     "t": "GOV.UK: Living in Cyprus",
+     "u": "https://www.gov.uk/living-in-cyprus"
+    }
+   ]
+  },
+  {
+   "id": "live-licence-eu",
+   "sec": "living",
+   "topic": "driving",
+   "q": "living resident expat driving licence license eu exchange",
+   "t": "EU licences are recognised, so most EU residents don't need to exchange them. You must exchange if it's lost, stolen or damaged, or after certain traffic offences.",
+   "src": [
+    {
+     "t": "Politis, 13 Jun 2026: driving licences",
+     "u": "https://en.politis.com.cy/in-depth/guides/1011303/driving-in-cyprus-do-you-need-a-local-licence"
+    }
+   ]
+  },
+  {
+   "id": "live-licence-how",
+   "sec": "living",
+   "topic": "driving",
+   "q": "living resident expat driving licence license exchange how where fee road transport department tom",
+   "t": "Exchange a licence at the Road Transport Department or a Citizen Service Centre with form TOM 7D, a photo, ID, proof of residence and your original licence. The fee is €40.",
+   "src": [
+    {
+     "t": "Politis, 13 Jun 2026: driving licences",
+     "u": "https://en.politis.com.cy/in-depth/guides/1011303/driving-in-cyprus-do-you-need-a-local-licence"
+    }
+   ]
+  },
+  {
+   "id": "live-electricity",
+   "sec": "living",
+   "topic": "bills",
+   "q": "living resident expat electricity eac bill bills name tenant transfer account utilities",
+   "t": "To put the electricity in your name, apply on the EAC Portal or at an EAC customer centre. Bring your title deed, tenancy or sale agreement, ID, the previous customer's written consent (or a solemn declaration), and a bill or the meter number. Tenants pay a deposit when signing, and the transfer charge is €15 plus VAT.",
+   "src": [
+    {
+     "t": "Electricity Authority of Cyprus: change of tenant",
+     "u": "https://pilot.eac.com.cy/en/supply/for-the-house/applications/apply-for-transfer-of-service-change-of-tenant/"
+    }
+   ]
+  },
+  {
+   "id": "live-schools",
+   "sec": "living",
+   "topic": "schools",
+   "q": "living resident expat school schools public free children kids education language greek",
+   "t": "Public schools are free from age 5 to 18 and compulsory from 5 to 15. Lessons are in Greek, with English taught from the first year.",
+   "src": [
+    {
+     "t": "UNHCR Cyprus: education system",
+     "u": "https://help.unhcr.org/cyprus/country-information/education-system/"
+    }
+   ]
+  },
+  {
+   "id": "live-school-enrol",
+   "sec": "living",
+   "topic": "schools",
+   "q": "living resident expat school enrol enrolment register secondary where documents district",
+   "t": "Parents enrol a child at a public school in the district where the family lives. Children who don't speak Greek can join the Ministry of Education's Greek language courses and, where needed, transition reception classes.",
+   "src": [
+    {
+     "t": "Ministry of Education: secondary education",
+     "u": "https://moec.gov.cy/dme/en/infoserv_secondary_general_information.html"
     }
    ]
   }

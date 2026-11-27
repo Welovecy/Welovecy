@@ -31,6 +31,10 @@ describe("know before you go", () => {
     ["Where should we stay for nightlife?", "area-nightlife"],
     ["Best area to stay without a car?", "area-no-car"],
     ["What happened in 1974?", "hist-1974"],
+    ["How do I get a yellow slip?", "live-eu-yellow-slip"],
+    ["How do I register with GESY?", "live-gesy-register"],
+    ["Can I swap my UK driving licence?", "live-licence-uk"],
+    ["How do I put the electricity in my name?", "live-electricity"],
     ["Tell me about Richard the Lionheart in Cyprus", "hist-richard"],
   ])("%s finds %s", (q, id) => {
     expect(searchFacts(q).map((f) => f.id)).toContain(id);

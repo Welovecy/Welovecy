@@ -22,6 +22,7 @@ export function Footer() {
           <Link href="/practical#taxi">Taxi fares</Link>
           <Link href="/know-before-you-go">Know before you go</Link>
           <Link href="/cyprus-history">Cyprus history</Link>
+          <Link href="/living-in-cyprus">Living in Cyprus</Link>
         </div>
         <div>
           <h4>Explore</h4>
