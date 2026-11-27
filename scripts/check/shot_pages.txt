@@ -1,9 +1,0 @@
-/places/nissi
-/listing/bea-00986
-/listing/bea-00999
-/listing/att-zenobia
-/listing/att-trail-artemis
-/places/kourion
-/listing/cy-00198
-/listing/cy-00011
-/listing/wlc-0047
