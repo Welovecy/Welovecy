@@ -838,5 +838,40 @@
   "l": "CC BY-SA 4.0",
   "p": "https://commons.wikimedia.org/wiki/File:Akamas-blue-lagoon.jpg",
   "t": "Blue Lagoon"
+ },
+ "poi-p31": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Blue_Lagoon%2C_Cape_Greco%2C_Agia_Napa%2C_Cyprus.jpg/1280px-Blue_Lagoon%2C_Cape_Greco%2C_Agia_Napa%2C_Cyprus.jpg",
+  "a": "Fry72, Karel Frydrýšek",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Blue_Lagoon,_Cape_Greco,_Agia_Napa,_Cyprus.jpg",
+  "t": "Blue Lagoon, Cape Greco"
+ },
+ "place-chrysorrogiatissa": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/180Zypern_Panagia_Chrysorrogiatissa_%2813904619999%29.jpg/1280px-180Zypern_Panagia_Chrysorrogiatissa_%2813904619999%29.jpg",
+  "a": "Rüdiger Stehn from Kiel, Deutschland",
+  "l": "CC BY-SA 2.0",
+  "p": "https://commons.wikimedia.org/wiki/File:180Zypern_Panagia_Chrysorrogiatissa_(13904619999).jpg",
+  "t": "Chrysorrogiatissa Monastery"
+ },
+ "place-cyprus-museum": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cyprus_Archaeological_Museum_exterior_Nicosia_Republic_of_Cyprus.jpg",
+  "a": "NicosiaRepublicCyprus",
+  "l": "CC BY-SA 3.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Cyprus_Archaeological_Museum_exterior_Nicosia_Republic_of_Cyprus.jpg",
+  "t": "Cyprus Museum"
+ },
+ "poi-att-leventis-gallery": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Leventis_Gallery%2C_Nicosia%2C_Cyprus-1.jpg/1280px-Leventis_Gallery%2C_Nicosia%2C_Cyprus-1.jpg",
+  "a": "Молли",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Leventis_Gallery,_Nicosia,_Cyprus-1.jpg",
+  "t": "A. G. Leventis Gallery"
+ },
+ "poi-att-postal-museum": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Cyprus_Postal_Museum.jpg/1280px-Cyprus_Postal_Museum.jpg",
+  "a": "In Vitrio",
+  "l": "CC BY-SA 4.0",
+  "p": "https://commons.wikimedia.org/wiki/File:Cyprus_Postal_Museum.jpg",
+  "t": "Cyprus Postal Museum"
  }
 }

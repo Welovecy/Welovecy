@@ -61,7 +61,8 @@ export function poiFacts(r: Poi): Fact[] {
   if (r.ph) f.push(["Phone", String(r.ph), false]);
   if (r.web) f.push(["Website", r.web.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""), false]);
   if (r.k === "nature" && !r.hrs) f.push(["Access", "Open area. Check trail conditions and closures before you go.", true]);
-  else f.push(r.hrs ? ["Opening hours", r.hrs + (r.srcs ? ". Check before you go, hours can change." : ""), !!r.srcs] : ["Opening hours", r.hrsNote ?? "Not yet verified.", true]);
+  // Hours with a source (attraction sources or a research source) are shown as known, with a reminder they can change.
+  else f.push(r.hrs ? ["Opening hours", r.hrs + (r.srcs || r.hsrc ? ". Hours can change, so check before you go." : ""), !(r.srcs || r.hsrc)] : ["Opening hours", r.hrsNote ?? "Not yet verified.", true]);
   if (r.reg) f.push(["Register number", String(r.reg), false]);
   f.push([
     "Map position",
@@ -72,6 +73,12 @@ export function poiFacts(r: Poi): Fact[] {
 }
 
 export function poiSources(r: Poi): { list: Source[]; reviewed: string } {
+  const base = poiSourcesBase(r);
+  const extra = [r.hsrc, r.nsrc].filter((x): x is Source => !!x && !base.list.some((y) => y.u === x.u));
+  return extra.length ? { list: [...base.list, ...extra], reviewed: base.reviewed.replace("Opening hours are not verified yet, so check with the venue", "Hours are from the sources above and can change") } : base;
+}
+
+function poiSourcesBase(r: Poi): { list: Source[]; reviewed: string } {
   if (r.srcs) return { list: r.srcs, reviewed: `checked by We Love Cyprus on ${formatDate(r.sd)}. ${r.hrs ? "Hours are from the sources above and can change" : r.k === "nature" ? "Trail conditions change, so check before you go" : "Opening hours are not verified yet, so check with the venue"}` };
   if (r.src === "osm" && r.ll) {
     return {

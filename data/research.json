@@ -1,0 +1,335 @@
+{
+ "note": "Facts imported from research sheets, each checked against its source page. Merged in src/lib/data.ts.",
+ "hours": {
+  "place-cyprus-museum": {
+   "t": "Tue–Fri 08:00–18:00; Sat 09:00–17:00; Sun 10:00–13:00. Closed Mon. Public holidays 10:30–13:00 except Christmas Day, New Year's Day and Orthodox Easter Sunday, when closed",
+   "src": {
+    "t": "Visit Cyprus: Cyprus Museum",
+    "u": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/cyprus-museum/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-leventis-museum": {
+   "t": "Tue–Sun 10:00–16:30. Closed Mon; public holidays",
+   "src": {
+    "t": "Visit Cyprus: The Leventis Municipal Museum of Nicosia",
+    "u": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/leventis-municipal-museum-of-lefkosia-nicosia/"
+   },
+   "sd": "2026-11-28"
+  },
+  "place-paphos-castle": {
+   "t": "16 Apr to 15 Sep daily 08:30–19:30; 16 Sep to 15 Apr daily 08:30–17:00. Closed public holidays",
+   "src": {
+    "t": "Visit Cyprus: Pafos (Paphos) Castle",
+    "u": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/pafos-paphos-castle/"
+   },
+   "sd": "2026-11-28"
+  },
+  "place-maa-palaiokastro": {
+   "t": "16 Apr to 15 Sep Mon–Fri 09:30–17:00; 16 Sep to 15 Apr Mon–Fri 08:30–16:00. Closed Sat–Sun; public holidays",
+   "src": {
+    "t": "Visit Cyprus: Maa - Palaeokastro Archaeological Site and Museum",
+    "u": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/maa-palaeokastro-archaeological-site-and-museum/"
+   },
+   "sd": "2026-11-28"
+  },
+  "place-agios-neophytos": {
+   "t": "Apr–Oct daily 09:00–13:00 and 14:00–18:00; Nov–Mar daily 09:00–16:00. Closed Christmas Day; New Year's Day; Green Monday; Orthodox Easter Sunday; 15 Aug",
+   "src": {
+    "t": "Visit Cyprus: Agios Neophytos Monastery",
+    "u": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/agios-neophytos-monastery/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-arsinoe-byzantine": {
+   "t": "1 Sep to 1 Apr Mon–Fri 10:00–16:00; 2 Apr to 31 Aug Mon–Fri 10:00–13:00 and 15:00–18:00. Closed Sat–Sun; public holidays",
+   "src": {
+    "t": "Visit Cyprus: Byzantine Museum of Arsinoe",
+    "u": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/byzantine-museum-of-arsinoe/"
+   },
+   "sd": "2026-11-28"
+  },
+  "place-hala-sultan": {
+   "t": "16 Sep to 15 Apr daily 08:30–17:00; 16 Apr to 15 Sep daily 08:30–19:30. Closed Christmas Day; New Year's Day; Orthodox Easter Sunday",
+   "src": {
+    "t": "Visit Cyprus: Hala Sultan Tekke",
+    "u": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/hala-sultan-tekke/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-pierides-museum": {
+   "t": "Mon–Thu 09:00–16:00; Fri–Sat 09:00–13:00. Closed Sun; public holidays",
+   "src": {
+    "t": "Visit Cyprus: Pierides Museum - Bank of Cyprus Cultural Foundation",
+    "u": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/pierides-museum-bank-of-cyprus-cultural-foundation/"
+   },
+   "sd": "2026-11-28"
+  },
+  "place-st-lazarus": {
+   "t": "Mar–Oct Mon–Sat 08:00–18:30 and Sun 06:30–12:30 and 15:30–18:30; Nov–Feb Mon–Sat 08:00–12:30 and 14:30–17:30 and Sun 06:30–12:30 and 15:30–17:30",
+   "src": {
+    "t": "Visit Cyprus: Agios Lazaros Church",
+    "u": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/agios-lazaros-church/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-postal-museum": {
+   "t": "Mon–Fri 09:00–15:00; Sat 09:00–13:00. Closed Sun; public holidays. Sunday group access may be arranged with prior notice",
+   "src": {
+    "t": "Visit Cyprus: Cyprus Postal Museum",
+    "u": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/cyprus-postal-museum/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-coinage-museum": {
+   "t": "Daily 10:00–19:00. Closed public holidays",
+   "src": {
+    "t": "Visit Cyprus: Museum on the History of Cypriot Coinage",
+    "u": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/museum-on-the-history-of-cypriot-coinage/"
+   },
+   "sd": "2026-11-28"
+  },
+  "place-amathous": {
+   "t": "16 Sep to 15 Apr daily 08:30–17:00; 16 Apr to 15 Sep daily 08:30–19:30. Closed Christmas Day; New Year's Day; Orthodox Easter Sunday",
+   "src": {
+    "t": "Visit Cyprus: Amathous Archaeological Site",
+    "u": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/amathous-archaeological-site/"
+   },
+   "sd": "2026-11-28"
+  },
+  "place-kato-paphos": {
+   "t": "16 Sep to 15 Apr daily 08:30–17:00; 16 Apr to 15 Sep daily 08:30–19:30. Closed Christmas Day; New Year's Day; Orthodox Easter Sunday",
+   "src": {
+    "t": "Visit Cyprus: Archaeological Park of Kato Pafos (Paphos)",
+    "u": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/archaeological-park-of-kato-pafos-paphos/"
+   },
+   "sd": "2026-11-28"
+  },
+  "place-kition": {
+   "t": "16 Sep to 15 Apr Mon–Fri 08:30–16:00; 16 Apr to 15 Sep Mon–Fri 09:30–17:00. Closed Sat–Sun; public holidays",
+   "src": {
+    "t": "Visit Cyprus: Kition Archaeological Site",
+    "u": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/kition-archaeological-site/"
+   },
+   "sd": "2026-11-28"
+  },
+  "place-choirokoitia": {
+   "t": "16 Sep to 15 Apr daily 08:30–17:00; 16 Apr to 15 Sep daily 08:30–19:30. Closed Christmas Day; New Year's Day; Orthodox Easter Sunday",
+   "src": {
+    "t": "Visit Cyprus: Choirokoitia Archaeological Site (Neolithic Settlement)",
+    "u": "https://www.visitcyprus.com/discover-cyprus/rural/sites-monuments/choirokoitia-archaeological-site-neolithic-settlement-2/"
+   },
+   "sd": "2026-11-28"
+  },
+  "place-tombs-kings": {
+   "t": "16 Sep to 15 Apr daily 08:30–17:00; 16 Apr to 15 Sep daily 08:30–19:30. Closed Christmas Day; New Year's Day; Orthodox Easter Sunday",
+   "src": {
+    "t": "Visit Cyprus: Tombs of the Kings",
+    "u": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/tombs-of-the-kings/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-ocean-aquarium": {
+   "t": "Apr–Oct 10:00–17:30; Nov–Mar 09:00–16:00. Closed 24–25 Dec, 31 Dec, 1 Jan, Green Monday and Orthodox Easter Sunday",
+   "src": {
+    "t": "protarasaquarium.com: Protaras Ocean Aquarium",
+    "u": "https://protarasaquarium.com/opening-hours/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-paradox-museum": {
+   "t": "Tue–Sun 10:00–20:00. Closed Mon",
+   "src": {
+    "t": "paradoxmuseumlimassol.com: Paradox Museum Limassol",
+    "u": "https://www.paradoxmuseumlimassol.com/en/plan-your-visit/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-cvar": {
+   "t": "Museum Tue–Sun 09:30–17:00, Mon closed. Research centre Mon–Sat 09:30–17:00, Sun closed",
+   "src": {
+    "t": "cvar.severis.org: Centre of Visual Arts and Research",
+    "u": "https://cvar.severis.org/en/visit/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-leventis-gallery": {
+   "t": "Wed 10:00–20:00; Thu–Sun 10:00–17:00. Closed Mon–Tue",
+   "src": {
+    "t": "leventisgallery.org: A. G. Leventis Gallery",
+    "u": "https://leventisgallery.org/visit/plan-your-visit/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-nimac": {
+   "t": "Exhibitions Wed–Sat 10:00–20:00, Sun 10:00–18:00. Closed Mon–Tue. Administration Mon–Fri 08:00–15:30",
+   "src": {
+    "t": "nimac.org.cy: NiMAC, Nicosia Municipal Arts Centre",
+    "u": "https://nimac.org.cy/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-cyprus-planetarium": {
+   "t": "Wed–Fri 09:00–17:00; Sat–Sun 10:00–18:00. Closed Mon–Tue. Show times follow the individual programme",
+   "src": {
+    "t": "thecyprusplanetarium.com: The Cyprus Planetarium",
+    "u": "https://thecyprusplanetarium.com/about"
+   },
+   "sd": "2026-11-28"
+  },
+  "p40": {
+   "t": "Season 1 Apr to 9 Nov 2026. The show starts at 21:00 and runs about an hour; arrive by 20:30 for reserved tables",
+   "src": {
+    "t": "magicdancingwaters.com: Magic Dancing Waters",
+    "u": "https://www.magicdancingwaters.com/booking-information"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-golden-donkeys": {
+   "t": "Apr–Oct 10:00–18:00 and Nov–Mar 09:00–16:30",
+   "src": {
+    "t": "Visit Cyprus: Golden Donkeys Farm",
+    "u": "https://www.visitcyprus.com/activities-for-families/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-tio-nicosia": {
+   "t": "Mon–Fri 08:30–16:00",
+   "src": {
+    "t": "Visit Cyprus: Nicosia Tourist Information Office",
+    "u": "https://www.visitcyprus.com/useful-info/tourist-information-offices/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-tio-limassol": {
+   "t": "Mon–Fri 08:30–16:00",
+   "src": {
+    "t": "Visit Cyprus: Limassol Tourist Information Office",
+    "u": "https://www.visitcyprus.com/useful-info/tourist-information-offices/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-tio-platres": {
+   "t": "Mon–Fri 08:30–16:00",
+   "src": {
+    "t": "Visit Cyprus: Platres Tourist Information Office",
+    "u": "https://www.visitcyprus.com/useful-info/tourist-information-offices/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-tio-paphos": {
+   "t": "Mon–Fri 08:30–16:00",
+   "src": {
+    "t": "Visit Cyprus: Paphos Tourist Information Office",
+    "u": "https://www.visitcyprus.com/useful-info/tourist-information-offices/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-tio-polis": {
+   "t": "Mon–Fri 08:30–16:00",
+   "src": {
+    "t": "Visit Cyprus: Polis Tourist Information Office",
+    "u": "https://www.visitcyprus.com/useful-info/tourist-information-offices/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-tio-ayia-napa": {
+   "t": "Mon–Fri 08:30–16:00",
+   "src": {
+    "t": "Visit Cyprus: Ayia Napa Tourist Information Office",
+    "u": "https://www.visitcyprus.com/useful-info/tourist-information-offices/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-tio-protaras": {
+   "t": "Mon–Fri 08:30–16:00",
+   "src": {
+    "t": "Visit Cyprus: Protaras Tourist Information Office",
+    "u": "https://www.visitcyprus.com/useful-info/tourist-information-offices/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-wine-museum": {
+   "t": "Daily 09:00–17:00, closed public holidays",
+   "src": {
+    "t": "cypruswinemuseum.com: The Cyprus Wine Museum",
+    "u": "https://cypruswinemuseum.com/"
+   },
+   "sd": "2026-11-28"
+  },
+  "p36": {
+   "t": "Daily 09:00–17:00. Reach it from the sandy beach, or by boat with an approved dive centre",
+   "src": {
+    "t": "musan.com.cy: MUSAN Underwater Sculpture Museum",
+    "u": "https://musan.com.cy/contact/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-aphrodite-waterpark": {
+   "t": "Apr–Jun 10:30–17:30; Jul–Aug 10:00–18:00; Sep–Oct 10:00–17:00, with its own hours late in October",
+   "src": {
+    "t": "aphroditewaterpark.com: Paphos Aphrodite Waterpark",
+    "u": "https://www.aphroditewaterpark.com/en"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-pafos-zoo": {
+   "t": "Daily 09:00–17:00 Nov–Mar; 09:00–18:00 Apr–Jul and Sep–Oct; 09:00–19:00 Aug",
+   "src": {
+    "t": "pafoszoo.com: Pafos Zoo",
+    "u": "https://www.pafoszoo.com/times"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-akamas-geo-centre": {
+   "t": "Mon–Fri 10:00–16:00; Sat 10:00–15:00; Sun closed",
+   "src": {
+    "t": "Visit Cyprus: Akamas Geology and Paleontology Information Centre",
+    "u": "https://www.visitcyprus.com/el/el-anakalypste-ten-kypro/el-physe-el-anakalypste-ten-kypro/el-endiapherouses-topothesies-el-physe-el-anakalypste-ten-kypro/akamas-geology-and-paleontology-information-center-panos-arodes/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-kyriazis-museum": {
+   "t": "Wed and Sat 09:00–12:00. Closed public holidays",
+   "src": {
+    "t": "Visit Cyprus: Kyriazis Medical Museum",
+    "u": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/medical-museum-kyriazi-larnaka-larnaca/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-idalion-museum": {
+   "t": "Mon–Fri 08:30–16:00. Closed weekends and public holidays",
+   "src": {
+    "t": "Visit Cyprus: Local Archaeological Museum of Ancient Idalion",
+    "u": "https://www.visitcyprus.com/discover-cyprus/rural/museums-galleries-rural/local-archaeological-museum-of-ancient-idalion/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-marion-arsinoe-museum": {
+   "t": "Mon–Fri 08:00–16:00; Sat 09:00–15:00. Closed Sundays and public holidays",
+   "src": {
+    "t": "Visit Cyprus: Local Archaeological Museum of Marion-Arsinoe",
+    "u": "https://www.visitcyprus.com/discover-cyprus/rural/museums-galleries-rural/local-archaeological-museum-of-marion-arsinoe-polis-chrysochous-2/"
+   },
+   "sd": "2026-11-28"
+  },
+  "att-geroskipou-museum": {
+   "t": "Winter daily 08:30–16:00; summer daily 09:30–17:00. Closed public holidays",
+   "src": {
+    "t": "Visit Cyprus: Local Ethnographic Museum of Geroskipou",
+    "u": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/local-ethnographic-museum-of-geroskipou/"
+   },
+   "sd": "2026-11-28"
+  }
+ },
+ "notices": {
+  "att-larnaca-medieval-museum": {
+   "t": "Closed for renovation until further notice (Larnaka Tourism Board).",
+   "src": {
+    "t": "Larnaka Tourism Board: Larnaka (Larnaca) Medieval Museum",
+    "u": "https://larnakaregion.com/en/directory/product/medieval-museum"
+   },
+   "sd": "2026-11-28"
+  }
+ }
+}
