@@ -44,7 +44,7 @@ export async function GET(req: Request) {
 
   return new ImageResponse(
     (
-      <div style={{ width: W, height: H, display: "flex", position: "relative", fontFamily: "Body", color: "#fff", background: `linear-gradient(135deg, ${card.tint} 0%, #0F1B24 100%)` }}>
+      <div style={{ width: W, height: H, display: "flex", position: "relative", fontFamily: "Body", color: "#fff", textShadow: "0 2px 12px rgba(0,0,0,0.35)", background: `linear-gradient(135deg, ${card.tint} 0%, #0F1B24 100%)` }}>
         {img ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img src={img} alt="" width={W} height={H} style={{ position: "absolute", inset: 0, width: W, height: H, objectFit: "cover" }} />
@@ -55,7 +55,7 @@ export async function GET(req: Request) {
             {pin ? <circle cx={pin[0]} cy={pin[1]} r="2.4" fill="#F0A23B" stroke="#fff" strokeWidth="0.8" /> : null}
           </svg>
         )}
-        <div style={{ position: "absolute", inset: 0, display: "flex", background: img ? "linear-gradient(180deg, rgba(0,0,0,0.38) 0%, rgba(0,0,0,0) 28%, rgba(0,0,0,0.05) 45%, rgba(0,0,0,0.72) 100%)" : "linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(0,0,0,0.35) 100%)" }} />
+        <div style={{ position: "absolute", inset: 0, display: "flex", background: img ? "linear-gradient(180deg, rgba(0,0,0,0.50) 0%, rgba(0,0,0,0) 24%, rgba(0,0,0,0) 36%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.86) 100%)" : "linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(0,0,0,0.35) 100%)" }} />
         <div style={{ position: "absolute", top: 44, left: 56, display: "flex", alignItems: "center", gap: 14 }}>
           <Logo />
           <span style={{ fontFamily: "Head", fontSize: 34, letterSpacing: -1 }}>We Love Cyprus</span>
