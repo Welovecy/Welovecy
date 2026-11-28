@@ -83,6 +83,7 @@ page /around | grep -q "Or start from a town" && ok "around has town cards" || n
 page /must-see | grep -q "Show all" && ok "must-see folds long lists" || no "must-see not folded"
 page /must-see | grep -q "BreadcrumbList" && ok "must-see keeps breadcrumb data" || no "must-see lost breadcrumb data"
 c=$(curl -s -o /dev/null -w "%{http_code} %{redirect_url}" "$B/index"); case "$c" in 30[18]*) ok "/index sends people to the homepage";; *) no "/index returned $c";; esac
+n=$(page /buses | grep -o 'class="busroute"' | wc -l); [ "$n" -ge 250 ] && ok "buses page has all $n routes" || no "buses page shows only $n routes"
 ok_page(){ page /know-before-you-go | grep -q "Lara and Toxeftra" && ok "know page has facts" || no "know page missing facts"; }; ok_page
 page /beaches | grep -q "Find your beach" && ok "new beaches page is live" || no "beaches page not updated"
 page /places/makronissos | grep -q "03_Cyprus_beach_-_Makronissos_Beach" && ok "Makronissos Beach shows the shoreline photo" || no "Makronissos photo not updated"
