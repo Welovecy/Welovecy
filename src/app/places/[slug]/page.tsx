@@ -1,3 +1,4 @@
+import { AskAbout } from "@/components/AskAbout";
 import { ogMeta } from "@/lib/og";
 import { JsonLd } from "@/components/JsonLd";
 import { absolute } from "@/lib/site";
@@ -90,6 +91,7 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
           </div>
         </section>
       ) : null}
+      <div className="wrap dwrap"><AskAbout name={p.name} k={beach ? "beach" : "sight"} page={href} /></div>
       {p.ll ? <div className="wrap dwrap"><Around ll={p.ll} skip={`place-${p.slug}`} title="Around here" moreHref={`${href}/around`} /></div> : null}
       {more.length ? (
         <section className="wrap dwrap" aria-labelledby="h-more">
