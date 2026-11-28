@@ -1,0 +1,72 @@
+# Research import 2026-11-28
+
+Applied 41, for review 24.
+
+## Applied
+- place-cyprus-museum: Cyprus Museum (opening hours)
+- att-leventis-museum: The Leventis Municipal Museum of Nicosia (opening hours)
+- place-paphos-castle: Pafos (Paphos) Castle (opening hours)
+- place-maa-palaiokastro: Maa - Palaeokastro Archaeological Site and Museum (opening hours)
+- place-agios-neophytos: Agios Neophytos Monastery (opening hours)
+- att-arsinoe-byzantine: Byzantine Museum of Arsinoe (opening hours)
+- place-hala-sultan: Hala Sultan Tekke (opening hours)
+- att-pierides-museum: Pierides Museum - Bank of Cyprus Cultural Foundation (opening hours)
+- place-st-lazarus: Agios Lazaros Church (opening hours)
+- att-postal-museum: Cyprus Postal Museum (opening hours)
+- att-coinage-museum: Museum on the History of Cypriot Coinage (opening hours)
+- place-amathous: Amathous Archaeological Site (opening hours)
+- place-kato-paphos: Archaeological Park of Kato Pafos (Paphos) (opening hours)
+- place-kition: Kition Archaeological Site (opening hours)
+- att-larnaca-medieval-museum: Larnaka (Larnaca) Medieval Museum (closure notice)
+- place-choirokoitia: Choirokoitia Archaeological Site (Neolithic Settlement) (opening hours)
+- place-tombs-kings: Tombs of the Kings (opening hours)
+- att-ocean-aquarium: Protaras Ocean Aquarium (opening hours)
+- att-paradox-museum: Paradox Museum Limassol (opening hours)
+- att-cvar: Centre of Visual Arts and Research (opening hours)
+- att-leventis-gallery: A. G. Leventis Gallery (opening hours)
+- att-nimac: NiMAC, Nicosia Municipal Arts Centre (opening hours)
+- att-cyprus-planetarium: The Cyprus Planetarium (opening hours)
+- p40: Magic Dancing Waters (opening hours)
+- att-golden-donkeys: Golden Donkeys Farm (opening hours)
+- att-tio-nicosia: Nicosia Tourist Information Office (opening hours)
+- att-tio-limassol: Limassol Tourist Information Office (opening hours)
+- att-tio-platres: Platres Tourist Information Office (opening hours)
+- att-tio-paphos: Paphos Tourist Information Office (opening hours)
+- att-tio-polis: Polis Tourist Information Office (opening hours)
+- att-tio-ayia-napa: Ayia Napa Tourist Information Office (opening hours)
+- att-tio-protaras: Protaras Tourist Information Office (opening hours)
+- att-wine-museum: The Cyprus Wine Museum (opening hours)
+- p36: MUSAN Underwater Sculpture Museum (opening hours)
+- att-aphrodite-waterpark: Paphos Aphrodite Waterpark (opening hours)
+- att-pafos-zoo: Pafos Zoo (opening hours)
+- att-akamas-geo-centre: Akamas Geology and Paleontology Information Centre (opening hours)
+- att-kyriazis-museum: Kyriazis Medical Museum (opening hours)
+- att-idalion-museum: Local Archaeological Museum of Ancient Idalion (opening hours)
+- att-marion-arsinoe-museum: Local Archaeological Museum of Marion-Arsinoe (opening hours)
+- att-geroskipou-museum: Local Ethnographic Museum of Geroskipou (opening hours)
+
+## For review
+- WLC-1128-A03: The House of Hatzigeorgakis Kornesios / Ethnological Museum: no matching record on the site
+- WLC-1128-A04: Ethnographic Museum of Cyprus: no matching record on the site
+- WLC-1128-A09: Lemesos (Limassol) Medieval Castle: no matching record on the site
+- WLC-1128-A10: Archaeological Museum of the Lemesos (Limassol) District: no matching record on the site
+- WLC-1128-A13: Thalassa Agia Napa Municipal Museum: sources disagree
+- WLC-1128-A14: Deryneia Folkloric Museum / Open Air Museum for Traditional Professions -Ammochostos district: no matching record on the site
+- WLC-1128-A15: The Avgorou Ethnographic Museum: no matching record on the site
+- WLC-1128-A16: Agia Napa Sculpture Park / Park of Mediterranean Plants, Cacti and Succulents: no times to check
+- WLC-1128-A19: Kalavasos - Tenta Archaeological Site: sources disagree
+- WLC-1128-A21: Fikardou Ethnological Museum: The Houses of Katsinioros and Achilleas Dimitri: sources disagree
+- WLC-1128-A26: Archaeological Museum of the Pafos (Paphos) District: no matching record on the site
+- WLC-1128-A27: Archaeological Museum of the Larnaka (Larnaca) District: no matching record on the site
+- WLC-1128-A29: Sanctuary of Aphrodite at Palaipafos: source page could not be fetched
+- WLC-1128-A33: Cyprus Railways Museum: no matching record on the site
+- WLC-1128-A35: Camel Park: times not found on the source page: 09:00, 17:00, 19:00
+- WLC-1128-A37: Cyprus Historic and Classic Motor Museum: times not found on the source page: 09:00, 10:00, 17:00, 18:00
+- WLC-1128-A42: Cyprus Classic Motorcycle Museum: times not found on the source page: 10:00, 13:00, 17:30
+- WLC-1128-A43: Parko Paliatso Luna Park: times not found on the source page: 23:30
+- WLC-1128-A45: CyHerbia Botanical Park and Labyrinth: times not found on the source page: 09:00, 17:00, 18:00
+- WLC-1128-A47: Athalassa National Forest Park Visitor Centre: sources disagree
+- WLC-1128-OFF-larnaca: Larnaca Tourist Information Office: wording needs a person
+- WLC-1128-A49: Troodos Botanical Garden A.G. Leventis: source page could not be fetched
+- WLC-1128-OP-att-episkopi-env-centre: Episkopi Environmental Information Centre: times not found on the source page: 13:15
+- WLC-1128-OP-att-larnaca-municipal-gallery: Larnaka Municipal Gallery: times not found on the source page: 09:30, 10:00, 12:30, 13:00, 15:00, 16:00, 17:30, 18:30

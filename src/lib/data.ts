@@ -9,6 +9,7 @@ import imagesJson from "@data/images.json";
 import busJson from "@data/bus.json";
 import guideJson from "@data/guide.json";
 import profilesJson from "@data/profiles.json";
+import researchJson from "@data/research.json";
 import type {
   BusData, BusRoute, Business, Destination, DestId, Experience, Interest, LL, Maker, Photo, Place, Poi, Profile, Spot, WineRoute,
 } from "./types";
@@ -112,6 +113,31 @@ export const linkedToPlace = (slug: string) => POIS.filter((r) => r.place === sl
 export const placeForPoi = (id: string) => POI_PLACE.get(id);
 
 const destBy = new Map(DESTINATIONS.map((d) => [d.id, d]));
+/* Research overlay: opening hours and closure notices checked against their source pages (scripts/research/import_research.py).
+   Keys are record ids: place-<slug> for places, the POI or business id otherwise. */
+{
+  type Fact = { t: string; src: { t: string; u: string }; sd: string };
+  const R = researchJson as unknown as { hours: Record<string, Fact>; notices: Record<string, Fact> };
+  const poi = new Map(POIS.map((p) => [p.i, p]));
+  const biz = new Map(BUSINESSES.map((b) => [b.i, b]));
+  const place = new Map(PLACES.map((p) => [`place-${p.slug}`, p]));
+  for (const [id, f] of Object.entries(R.hours)) {
+    const pl = place.get(id), r = poi.get(id), b = biz.get(id);
+    if (pl) {
+      const i = pl.practical.findIndex(([l]) => l === "Opening hours");
+      const row: Place["practical"][number] = ["Opening hours", `${f.t}. Hours can change, so check before you go.`, false];
+      if (i >= 0) pl.practical[i] = row; else pl.practical.push(row);
+      if (!pl.sources.some((x) => x.u === f.src.u)) pl.sources = [...pl.sources, f.src];
+    } else if (r) {
+      r.hrs = f.t; r.hsrc = f.src;
+    } else if (b) b.hrs = `${f.t} (${f.src.t.split(":")[0]})`;
+  }
+  for (const [id, f] of Object.entries(R.notices)) {
+    const pl = place.get(id), r = poi.get(id);
+    if (pl) pl.notice = { t: f.t, src: f.src };
+    else if (r) { r.notice = f.t; r.nsrc = f.src; }
+  }
+}
 const placeBy = new Map(PLACES.map((p) => [p.slug, p]));
 const bizBy = new Map(BUSINESSES.map((b) => [b.i, b]));
 const poiBy = new Map(POIS.map((p) => [p.i, p]));

@@ -102,6 +102,8 @@ export interface Poi {
   cat?: string; desc?: string; web?: string | null; sea?: boolean; srcs?: Source[]; ent?: boolean; pinNote?: string; inside?: string[];
   /** walks and nature: the place page it starts from or belongs to, trail length and Visit Cyprus grade (1 easy to 3 hard), a notice (closures) */
   place?: string; len?: string; grade?: number; notice?: string; hrsNote?: string;
+  /** sources for hours and notices added from research (data/research.json) */
+  hsrc?: Source; nsrc?: Source;
   /** walking time and route: a loop comes back to the start, a one-way walk doesn't */
   time?: string; shape?: "loop" | "one way";
   /** petrol stations and car hire (data/motoring.json): brand, fuels sold, open 24 hours, self-service, at an airport */

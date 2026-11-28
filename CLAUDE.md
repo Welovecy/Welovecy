@@ -10,6 +10,12 @@ The We Love Cyprus guide. Republic of Cyprus only, never the north. Owner: Dami 
 - Before pushing: `npm run typecheck`, `npx vitest run`, `npm run build`. Push to `main` deploys to production on Vercel; branches get preview URLs.
 - Commit as `We Love Cyprus <welovecy@users.noreply.github.com>`.
 
+## How we ship (agreed 28 Nov 2026)
+- Fast lane, goes live without asking, listed in a daily changelog to Dami: bug fixes; official-source facts for records we already have (opening hours, access, event dates); photos that pass the Commons licence check; changes to check scripts. Undo is one Vercel rollback.
+- Approval lane, waits for "go live": anything visual or design, partners and anything commercial, new kinds of pages, anything about money. Batch these into one preview, one screenshot sheet and one go live a day where possible.
+- Research from ChatGPT arrives as a staging sheet (Staging id, Category, Matched site record, Evidence URL, details). Import matched official rows with a script and list the rest for review; never hand-edit row by row.
+- Other boat operators stay off the site while CY Cruises is our boat partner, unless Dami says otherwise.
+
 ## Stack
 Next.js 15 App Router, React 19, TypeScript, Vitest. Static pages (about 3,000) plus ISR for the homepage and duty pharmacy pages (revalidate 600). No database. Vercel Pro, Web Analytics (custom events), Speed Insights. Installable web app (`src/app/manifest.ts`, `public/sw.js`).
 
