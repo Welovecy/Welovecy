@@ -1,7 +1,19 @@
-# url  ->  public path (webp). Partner photos used with the partner's permission; credit in data/images.json.
-https://cycruises.com/wp-content/uploads/2024/06/black-pearl.jpg cycruises/cand/bp-home
-https://cycruises.com/wp-content/uploads/2025/10/Black-pearl-16-9.jpg cycruises/cand/bp-169
-https://cycruises.com/wp-content/uploads/2026/06/Black-pearl-main-done.jpg cycruises/cand/bp-main
-https://cycruises.com/wp-content/uploads/2026/09/the-black-pearl.jpg5308.jpg cycruises/cand/bp-2026
-https://cycruises.com/wp-content/uploads/2018/09/Black-Pearl-1500X1000.jpg cycruises/cand/bp-1500
-https://cycruises.com/wp-content/uploads/2021/04/blackPearl-2-top.jpg cycruises/cand/bp-top
+# Design mockup photos (temporary, not used on the site)
+https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Nissi_Beach_20180401_img14.jpg/500px-Nissi_Beach_20180401_img14.jpg mock/place-nissi
+https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Cape_Greco_view_1.jpg/500px-Cape_Greco_view_1.jpg mock/place-cape-greco
+https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Fig_Tree_beach_Protaras_%2829851923968%29.jpg/500px-Fig_Tree_beach_Protaras_%2829851923968%29.jpg mock/place-fig-tree-bay
+https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Theatre_Kourion_Cyprus.jpg/500px-Theatre_Kourion_Cyprus.jpg mock/place-kourion
+https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Tombs_of_the_Kings%2C_Paphos%2C_Cyprus.jpg/500px-Tombs_of_the_Kings%2C_Paphos%2C_Cyprus.jpg mock/place-tombs-kings
+https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Kykkos_Monastery_Courtyard_2.JPG/500px-Kykkos_Monastery_Courtyard_2.JPG mock/place-kykkos
+https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Sea_Caves_near_Ayia_Napa%2C_Cyprus_-_panoramio_%282%29.jpg/500px-Sea_Caves_near_Ayia_Napa%2C_Cyprus_-_panoramio_%282%29.jpg mock/place-sea-caves
+https://upload.wikimedia.org/wikipedia/commons/e/eb/Konnos_Bay_Ayia_Napa.jpg mock/place-konnos
+https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Akamas-blue-lagoon.jpg/500px-Akamas-blue-lagoon.jpg mock/place-akamas-blue-lagoon
+https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Avakas_Gorge_kz12.jpg/500px-Avakas_Gorge_kz12.jpg mock/place-avakas-gorge
+https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/View_of_Kakopetria_village_and_Troodos_Mountains_in_the_background_Republic_of_Cyprus.jpg/500px-View_of_Kakopetria_village_and_Troodos_Mountains_in_the_background_Republic_of_Cyprus.jpg mock/dest-troodos
+https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Limassol_01-2017_img18_Marina.jpg/500px-Limassol_01-2017_img18_Marina.jpg mock/dest-limassol
+https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Larnaca_01-2017_img14_Finikoudes.jpg/500px-Larnaca_01-2017_img14_Finikoudes.jpg mock/dest-larnaca
+https://upload.wikimedia.org/wikipedia/commons/2/28/Paphos_Harbour_Castle.jpg mock/dest-paphos
+https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Hotel_Vassos_Nissi_Plage%2C_Agia_Napa_%2829852209398%29.jpg/500px-Hotel_Vassos_Nissi_Plage%2C_Agia_Napa_%2829852209398%29.jpg mock/biz-cy-00066
+https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Lefkara_-_Street.jpg/500px-Lefkara_-_Street.jpg mock/place-lefkara
+https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Larnaca_Salt_Lake_with_Flamingos_%2832533135635%29.jpg/500px-Larnaca_Salt_Lake_with_Flamingos_%2832533135635%29.jpg mock/place-salt-lake
+https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Marina_Latchi_-_panoramio.jpg/500px-Marina_Latchi_-_panoramio.jpg mock/place-latchi-harbour
