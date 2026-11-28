@@ -1,3 +1,4 @@
+import { AskAbout } from "@/components/AskAbout";
 import { ogMeta } from "@/lib/og";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -72,6 +73,7 @@ export default async function ListingPage({ params }: P) {
         ) : null}
       </div>
       {stay ? <InHotel hotelId={b.i} hotelName={b.n} /> : null}
+      <div className="wrap dwrap"><AskAbout name={b.n} k={stay ? "stay" : b.g === "night" ? "night" : "eat"} page={href} /></div>
       {b.ll ? <div className="wrap dwrap"><Around ll={b.ll} skip={b.i} title={stay ? "Around this hotel" : "Around here"} moreHref={`${href}/around`} /></div> : null}
       <AboutInfo sources={src.list} reviewed={src.reviewed} reportHref={reportMail(b.n, href)} name={b.n}
         more={<p className="ai-note">Run this business? <Link href="/list-your-business#update">Suggest an update</Link>.</p>} />
@@ -130,6 +132,7 @@ function PoiView({ id }: { id: string }) {
         {near ? <Link className="dcard" href={hotelsNearHref(near.slug)}><b>Hotels near {r.n}</b><span>Places to stay within an easy walk</span><i aria-hidden="true">›</i></Link> : null}
       </div>
       {r.inside?.length ? <InHotel hotelId={r.i} hotelName={r.n} place /> : null}
+      {["beach", "sight", "nature", "family", "activity"].includes(r.k) ? <div className="wrap dwrap"><AskAbout name={r.n} k={r.k as "beach"} page={href} /></div> : null}
       {r.ll ? <div className="wrap dwrap"><Around ll={r.ll} skip={r.i} title="Around here" moreHref={`${href}/around`} /></div> : null}
       <AboutInfo sources={src.list} reviewed={src.reviewed} reportHref={reportMail(r.n, href)} name={r.n}
         extra={isBeach ? { title: "Beach sources", list: [r.info ? { t: "Official beach page", u: r.info } : null, r.bw ? { t: "Bathing water profile (Department of Environment)", u: r.bw } : null, r.su && r.su !== r.info ? { t: "Source listing", u: r.su } : null].filter(Boolean) as { t: string; u: string }[], note: "Facilities can change by season." } : undefined} />
