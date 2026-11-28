@@ -1,10 +1,11 @@
+import { ogMeta } from "@/lib/og";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHead } from "@/components/Bits";
 import { KNOW_CHECKED, factsIn } from "@/lib/knowledge";
 import { formatDate } from "@/lib/text";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = { openGraph: ogMeta("/living-in-cyprus"),
   title: "Living in Cyprus",
   description: "Moving to Cyprus: the yellow slip and residence permits, registering with GESY, swapping your driving licence, electricity bills and public schools. Every fact with its official source.",
   alternates: { canonical: "/living-in-cyprus" },

@@ -1,9 +1,10 @@
+import { ogMeta } from "@/lib/og";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHead, Sources } from "@/components/Bits";
 import { KNOW_CHECKED, factsIn } from "@/lib/knowledge";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = { openGraph: ogMeta("/cyprus-history"),
   title: "Cyprus history in 15 minutes",
   description: "11,000 years of Cyprus history, from the first settlers at Choirokoitia to the EU, with a place you can see each period today.",
   alternates: { canonical: "/cyprus-history" },

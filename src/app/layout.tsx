@@ -1,3 +1,4 @@
+import { ogMeta } from "@/lib/og";
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { Header } from "@/components/Header";
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   description: "Beaches, must-see places and what's around your hotel, from the island's largest community.",
   applicationName: SITE_NAME,
   appleWebApp: { capable: true, title: SITE_NAME, statusBarStyle: "default" },
-  openGraph: { type: "website", siteName: SITE_NAME, locale: "en_GB", images: ["/img/aphrodite-rock.jpg"] },
+  openGraph: ogMeta("/"),
   twitter: { card: "summary_large_image" },
   formatDetection: { telephone: false },
 };

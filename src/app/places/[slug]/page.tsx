@@ -1,3 +1,4 @@
+import { ogMeta } from "@/lib/og";
 import { JsonLd } from "@/components/JsonLd";
 import { absolute } from "@/lib/site";
 import type { Metadata } from "next";
@@ -23,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const p = getPlace((await params).slug);
   if (!p) return {};
   const img = photoFor(`place-${p.slug}`);
-  return { title: p.name, description: p.intro, alternates: { canonical: placeHref(p.slug) }, openGraph: img ? { images: [img.u] } : undefined };
+  return { title: p.name, description: p.intro, alternates: { canonical: placeHref(p.slug) }, openGraph: ogMeta(placeHref(p.slug)) };
 }
 
 export default async function PlacePage({ params }: { params: Promise<{ slug: string }> }) {

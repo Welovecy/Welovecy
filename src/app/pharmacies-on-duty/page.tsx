@@ -1,10 +1,11 @@
+import { ogMeta } from "@/lib/og";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { DISTRICTS, cyToday, dutyHours, dutyHref, dutyOn, fmtDay } from "@/lib/duty";
 import { PageHead } from "@/components/Bits";
 
 export const revalidate = 600;
-export const metadata: Metadata = {
+export const metadata: Metadata = { openGraph: ogMeta("/pharmacies-on-duty"),
   title: "Pharmacies on duty tonight in Cyprus",
   description: "Which pharmacies are open tonight across Cyprus, by area, from the official Ministry of Health rota. Addresses, phone numbers, directions and today's opening hours.",
   alternates: { canonical: "/pharmacies-on-duty" },

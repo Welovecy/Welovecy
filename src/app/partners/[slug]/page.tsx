@@ -1,3 +1,4 @@
+import { ogMeta } from "@/lib/og";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -13,7 +14,7 @@ export function generateStaticParams() { return PARTNERS.map((p) => ({ slug: p.i
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const p = getPartner((await params).slug);
-  return p ? { title: `${p.name}: ${p.kind}`, description: p.intro, robots: { index: false, follow: false } } : {};
+  return p ? { title: `${p.name}: ${p.kind}`, description: p.intro, robots: { index: false, follow: false }, openGraph: ogMeta(`/partners/${p.id}`) } : {};
 }
 
 const SERVICE: Record<string, string> = {
