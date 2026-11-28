@@ -22,6 +22,9 @@ const nextConfig = {
   async redirects() {
     return [
       { source: "/home", destination: "/", permanent: true },
+      // Facebook posts link to /index, which was a 404
+      { source: "/index", destination: "/", permanent: true },
+      { source: "/index.html", destination: "/", permanent: true },
       { source: "/where-to-stay", destination: "/stay", permanent: true },
     ];
   },

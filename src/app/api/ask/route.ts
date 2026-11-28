@@ -196,10 +196,12 @@ export async function POST(req: Request) {
         // Safety net: the partner check runs in code for every airport or taxi question, so the model can't skip it.
         const extra = await partnerLine(q, answer, found, ctx);
         if (extra) answer = `${answer}\n\n${extra}`;
-        try { await track("Ask", { q: scrub(q), tools: used.join(",").slice(0, 100) || "none", page: (input.page || "").slice(0, 100), cut: res.stop_reason === "max_tokens" }, { request: req }); } catch {}
-        console.log(JSON.stringify({ ask: scrub(q), tools: used, stop: res.stop_reason, usage: res.usage }));
+        // Our own checks say who they are, so they never count as visitors.
+        const test = req.headers.get("x-wlc-test") === "1" || /welovecy-livecheck/i.test(req.headers.get("user-agent") ?? "");
+        if (!test) try { await track("Ask", { q: scrub(q), tools: used.join(",").slice(0, 100) || "none", page: (input.page || "").slice(0, 100), cut: res.stop_reason === "max_tokens" }, { request: req }); } catch {}
+        console.log(JSON.stringify({ test, ask: scrub(q), tools: used, stop: res.stop_reason, usage: res.usage }));
         const cards = pickCards(found, answer);
-        for (const c of cards) if (c.k === "partner") { try { await track("Partner shown", { partner: c.pid ?? c.n, page: (input.page || "").slice(0, 100) }, { request: req }); } catch {} }
+        if (!test) for (const c of cards) if (c.k === "partner") { try { await track("Partner shown", { partner: c.pid ?? c.n, page: (input.page || "").slice(0, 100) }, { request: req }); } catch {} }
         return NextResponse.json({ answer: answer || (res.stop_reason === "max_tokens" ? "That one needs a longer answer than I can give here. Try asking about one part, like a town, a day or a type of place." : "Sorry, I couldn't find an answer to that."), cards, follow });
       }
       msgs.push({ role: "assistant", content: res.content });
