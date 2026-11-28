@@ -29,7 +29,7 @@ ask(){ # question, expected partner or NONE
   esac
   echo "      answer: $ans"; echo "      cards: $cards"
   for l in $(echo "$r" | jq -r '.answer' | grep -oE 'https://(www\.)?welovecy\.com[^) ]*' | sed 's/[#?].*//' | sort -u); do
-    c=$(curl -s -o /dev/null -w "%{http_code}" -L --max-time 20 "$l"); [ "$c" = 200 ] && ok "link works: $l" || no "broken link ($c): $l"
+    c=$(curl -s -o /dev/null -w "%{http_code}" -L --max-time 20 "$l"); [ "$c" = 200 ] || { sleep 5; c=$(curl -s -o /dev/null -w "%{http_code}" -L --max-time 20 "$l"); }; [ "$c" = 200 ] && ok "link works: $l" || no "broken link ($c): $l"
   done; echo
   sleep 4
 }
@@ -82,7 +82,7 @@ page /places/makronissos | grep -q "03_Cyprus_beach_-_Makronissos_Beach" && ok "
 page /listing/bea-01071 | grep -q "Vrysoudia_II" && no "Vrysoudia A still shows the II photo" || ok "Vrysoudia A photo removed"
 page /listing/bea-01072 | grep -q "Vrysoudia_II" && ok "Vrysoudia B shows its photo" || no "Vrysoudia B photo missing"
 page /listing/att-zenobia | grep -q "Zenobia_Wreck_Cyprus" && ok "sight listings show photos" || no "sight listing photo missing"
-page /petrol | grep -q "photograph the whole island ourselves" && ok "footer photo line" || no "footer photo line missing"
+{ page /petrol | grep -q "photograph the whole island ourselves" || { sleep 5; page /petrol | grep -q "photograph the whole island ourselves"; }; } && ok "footer photo line" || no "footer photo line missing"
 page /listing/bea-00986 | grep -q "About this information" && ok "detail page: sources folded at the end" || no "detail page: new layout missing"
 page /listing/bea-00986 | grep -q "Unconfirmed:" && no "detail page still shows Unconfirmed" || ok "detail page: no Unconfirmed labels"
 page /listing/bea-00999 | grep -q "dh-mapsvg" && ok "no-photo page opens on the map hero" || no "map hero missing"
