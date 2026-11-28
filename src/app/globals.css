@@ -1219,3 +1219,31 @@ details.fold[open] summary{display:none}
 .wallet:not(:has(.pass-front)) .pass:last-child{margin-bottom:0;height:120px}
 @keyframes passin{from{transform:translateY(28px);opacity:0}to{transform:none;opacity:1}}
 @media (prefers-reduced-motion:reduce){.pass,.pass-front{animation:none;transition:none}}
+
+/* Buses */
+.bus-wrap{display:grid;gap:20px;padding-top:6px}
+.bus-wrap>section{padding-block:0}
+.bus-wrap>*,.bus-tip>span{min-width:0}
+.bus-tip{display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:18px;background:var(--surface);text-decoration:none;color:var(--fg);transition:transform var(--fast)}
+.bus-tip:active{transform:scale(.985)}
+.bus-tip-ic{flex:none;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:color-mix(in srgb,var(--k-bus) 18%,transparent);color:var(--k-bus)}
+.bus-tip>span:nth-child(2){flex:1;display:grid;gap:2px}
+.bus-tip small{color:var(--muted);font-size:14px}
+.bus-air{display:grid;gap:10px}
+.bus-card{border:1px solid var(--line);border-radius:16px;background:var(--card);padding:0 14px}
+.bus-card summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:64px}
+.bus-card summary::-webkit-details-marker{display:none}
+.bus-card summary>span{display:grid;gap:2px}
+.bus-card summary small{color:var(--muted);font-size:14px}
+.bus-card summary svg{flex:none;color:var(--muted);transition:transform .25s ease}
+.bus-card[open] summary svg{transform:rotate(180deg)}
+.bus-card[open]{padding-bottom:10px}
+.bus-search{display:flex;align-items:center;gap:10px;min-height:48px;padding:0 12px 0 14px;border-radius:14px;background:var(--surface);color:var(--muted);margin-top:8px}
+.bus-search input{flex:1;min-width:0;background:none;border:0;outline:none;color:var(--fg);font:inherit;font-size:16px}
+.bus-areas{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin:12px -16px 4px;padding:2px 16px}
+.bus-areas::-webkit-scrollbar{display:none}
+.bus-areas .chip{flex:none;min-height:38px;white-space:nowrap}
+.bus-areas .chip[aria-selected="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.busfind section{padding-block:0}
+.bus-count{margin:10px 0 0;font-size:14px;color:var(--muted)}
+.busfind .btn.wide{margin-top:12px}
