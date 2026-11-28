@@ -55,7 +55,7 @@ export async function GET(req: Request) {
             {pin ? <circle cx={pin[0]} cy={pin[1]} r="2.4" fill="#F0A23B" stroke="#fff" strokeWidth="0.8" /> : null}
           </svg>
         )}
-        <div style={{ position: "absolute", inset: 0, display: "flex", background: img ? "linear-gradient(180deg, rgba(0,0,0,0.50) 0%, rgba(0,0,0,0) 24%, rgba(0,0,0,0) 36%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.86) 100%)" : "linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(0,0,0,0.35) 100%)" }} />
+        <div style={{ position: "absolute", top: 0, left: 0, width: W, height: H, display: "flex", background: img ? "linear-gradient(180deg, rgba(0,0,0,0.50) 0%, rgba(0,0,0,0) 24%, rgba(0,0,0,0) 36%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.86) 100%)" : "linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(0,0,0,0.35) 100%)" }} />
         <div style={{ position: "absolute", top: 44, left: 56, display: "flex", alignItems: "center", gap: 14 }}>
           <Logo />
           <span style={{ fontFamily: "Head", fontSize: 34, letterSpacing: -1 }}>We Love Cyprus</span>
