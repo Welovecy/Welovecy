@@ -1,0 +1,1009 @@
+{
+ "checked": "2026-11-28T20:04:17.893877Z",
+ "static": {
+  "2": {
+   "name": "OSYPA (Paphos)",
+   "url": "https://motionbuscard.org.cy/opendata/downloadfile?file=GTFS%5C2_google_transit.zip&rel=True",
+   "bytes": 1232084,
+   "files": {
+    "agency.txt": 1,
+    "calendar_dates.txt": 46,
+    "fare_attributes.txt": 2,
+    "fare_rules.txt": 105,
+    "feed_info.txt": 1,
+    "routes.txt": 112,
+    "shapes.txt": 52849,
+    "stops.txt": 889,
+    "stop_times.txt": 62635,
+    "translations.txt": 5133,
+    "trips.txt": 3271
+   },
+   "sample": {
+    "routes.txt": [
+     {
+      "route_id": "30000011",
+      "agency_id": "2",
+      "route_short_name": "601",
+      "route_long_name": "Karavella Station - Geroskipou - Timi - Anarita - Mandr",
+      "route_desc": "",
+      "route_type": "3",
+      "route_color": "408080",
+      "route_text_color": "FFFFFF"
+     },
+     {
+      "route_id": "30000012",
+      "agency_id": "2",
+      "route_short_name": "601",
+      "route_long_name": "Mandria - Anarita - Timi - Geroskipou - Karavella Stati",
+      "route_desc": "",
+      "route_type": "3",
+      "route_color": "408080",
+      "route_text_color": "FFFFFF"
+     },
+     {
+      "route_id": "30000021",
+      "agency_id": "2",
+      "route_short_name": "601",
+      "route_long_name": "Karavella Station - TEPAK - Technical School - Geroskip",
+      "route_desc": "",
+      "route_type": "3",
+      "route_color": "408080",
+      "route_text_color": "FFFFFF"
+     }
+    ],
+    "trips.txt": [
+     {
+      "route_id": "30120011",
+      "service_id": "24748",
+      "trip_id": "18682391",
+      "trip_headsign": "Pafos Airport",
+      "shape_id": "30120011",
+      "direction_id": "0"
+     },
+     {
+      "route_id": "30120012",
+      "service_id": "24748",
+      "trip_id": "18682392",
+      "trip_headsign": "Karavella Bus Sta",
+      "shape_id": "30120012",
+      "direction_id": "1"
+     },
+     {
+      "route_id": "30000022",
+      "service_id": "24748",
+      "trip_id": "18682393",
+      "trip_headsign": "Karavella Bus Sta",
+      "shape_id": "30000022",
+      "direction_id": "1"
+     }
+    ],
+    "stop_times.txt": [
+     {
+      "trip_id": "18682391",
+      "arrival_time": "05:20:00",
+      "departure_time": "05:20:00",
+      "stop_id": "1297",
+      "stop_sequence": "0",
+      "pickup_type": "0",
+      "drop_off_type": "0"
+     },
+     {
+      "trip_id": "18682391",
+      "arrival_time": "05:20:00",
+      "departure_time": "05:20:00",
+      "stop_id": "7751",
+      "stop_sequence": "1",
+      "pickup_type": "0",
+      "drop_off_type": "0"
+     },
+     {
+      "trip_id": "18682391",
+      "arrival_time": "05:21:00",
+      "departure_time": "05:21:00",
+      "stop_id": "9113",
+      "stop_sequence": "2",
+      "pickup_type": "0",
+      "drop_off_type": "0"
+     }
+    ],
+    "calendar.txt": null,
+    "calendar_dates.txt": [
+     {
+      "service_id": "24748",
+      "date": "20261205",
+      "exception_type": "1"
+     },
+     {
+      "service_id": "24748",
+      "date": "20261212",
+      "exception_type": "1"
+     },
+     {
+      "service_id": "24748",
+      "date": "20261219",
+      "exception_type": "1"
+     }
+    ],
+    "feed_info.txt": [
+     {
+      "feed_publisher_name": "Ministry of Transport Communication and Works",
+      "feed_publisher_url": "http://www.mcw.gov.cy/",
+      "feed_lang": "en",
+      "feed_start_date": "20261128",
+      "feed_end_date": "20270206",
+      "feed_version": "ΟΣΥΠΑ20261128053630",
+      "feed_contact_email": "motionbuscard@gmail.com"
+     }
+    ]
+   }
+  },
+  "4": {
+   "name": "OSEA (Famagusta)",
+   "url": "https://motionbuscard.org.cy/opendata/downloadfile?file=GTFS%5C4_google_transit.zip&rel=True",
+   "bytes": 1253854,
+   "files": {
+    "agency.txt": 1,
+    "calendar_dates.txt": 91,
+    "fare_attributes.txt": 2,
+    "fare_rules.txt": 53,
+    "feed_info.txt": 1,
+    "routes.txt": 53,
+    "shapes.txt": 35044,
+    "stops.txt": 446,
+    "stop_times.txt": 103314,
+    "translations.txt": 2737,
+    "trips.txt": 1798
+   },
+   "sample": {
+    "routes.txt": [
+     {
+      "route_id": "40000011",
+      "agency_id": "4",
+      "route_short_name": "101",
+      "route_long_name": "Ag. Theklas - Waterpark - New Famagusta Central Bus Sta",
+      "route_desc": "",
+      "route_type": "3",
+      "route_color": "804040",
+      "route_text_color": "FFFFFF"
+     },
+     {
+      "route_id": "40010011",
+      "agency_id": "4",
+      "route_short_name": "102",
+      "route_long_name": "Paralimni - Pernera - Protaras - Konnos - Cape Greco - ",
+      "route_desc": "",
+      "route_type": "3",
+      "route_color": "408080",
+      "route_text_color": "FFFFFF"
+     },
+     {
+      "route_id": "40020011",
+      "agency_id": "4",
+      "route_short_name": "201",
+      "route_long_name": "Evagora Pallikaridi - Kassandrou - Evagora Pallikaridi ",
+      "route_desc": "",
+      "route_type": "3",
+      "route_color": "0000A0",
+      "route_text_color": "FFFFFF"
+     }
+    ],
+    "trips.txt": [
+     {
+      "route_id": "40090011",
+      "service_id": "25330",
+      "trip_id": "19211133",
+      "trip_headsign": "Kryou Nerou Ave. ",
+      "shape_id": "40090011",
+      "direction_id": "0"
+     },
+     {
+      "route_id": "40010011",
+      "service_id": "25330",
+      "trip_id": "19211134",
+      "trip_headsign": "Ag. Theklas - Wat",
+      "shape_id": "40010011",
+      "direction_id": "0"
+     },
+     {
+      "route_id": "40010011",
+      "service_id": "25330",
+      "trip_id": "19211135",
+      "trip_headsign": "Ag. Theklas - Wat",
+      "shape_id": "40010011",
+      "direction_id": "0"
+     }
+    ],
+    "stop_times.txt": [
+     {
+      "trip_id": "19211133",
+      "arrival_time": "05:15:00",
+      "departure_time": "05:15:00",
+      "stop_id": "5950",
+      "stop_sequence": "0",
+      "pickup_type": "0",
+      "drop_off_type": "0"
+     },
+     {
+      "trip_id": "19211133",
+      "arrival_time": "05:15:00",
+      "departure_time": "05:15:00",
+      "stop_id": "5952",
+      "stop_sequence": "1",
+      "pickup_type": "0",
+      "drop_off_type": "0"
+     },
+     {
+      "trip_id": "19211133",
+      "arrival_time": "05:22:00",
+      "departure_time": "05:22:00",
+      "stop_id": "5934",
+      "stop_sequence": "2",
+      "pickup_type": "0",
+      "drop_off_type": "0"
+     }
+    ],
+    "calendar.txt": null,
+    "calendar_dates.txt": [
+     {
+      "service_id": "25330",
+      "date": "20261205",
+      "exception_type": "1"
+     },
+     {
+      "service_id": "25330",
+      "date": "20261212",
+      "exception_type": "1"
+     },
+     {
+      "service_id": "25330",
+      "date": "20261219",
+      "exception_type": "1"
+     }
+    ],
+    "feed_info.txt": [
+     {
+      "feed_publisher_name": "Ministry of Transport Communication and Works",
+      "feed_publisher_url": "http://www.mcw.gov.cy/",
+      "feed_lang": "en",
+      "feed_start_date": "20261128",
+      "feed_end_date": "20270226",
+      "feed_version": "ΟΣΕΑ20261128053630",
+      "feed_contact_email": "motionbuscard@gmail.com"
+     }
+    ]
+   }
+  },
+  "5": {
+   "name": "Intercity",
+   "url": "https://motionbuscard.org.cy/opendata/downloadfile?file=GTFS%5C5_google_transit.zip&rel=True",
+   "bytes": 1135710,
+   "files": {
+    "agency.txt": 1,
+    "calendar_dates.txt": 65,
+    "fare_attributes.txt": 6227,
+    "fare_rules.txt": 6227,
+    "feed_info.txt": 1,
+    "routes.txt": 60,
+    "shapes.txt": 60266,
+    "stops.txt": 123,
+    "stop_times.txt": 10227,
+    "translations.txt": 1035,
+    "trips.txt": 732
+   },
+   "sample": {
+    "routes.txt": [
+     {
+      "route_id": "50000011",
+      "agency_id": "5",
+      "route_short_name": "26",
+      "route_long_name": "Nicosia - Pafos",
+      "route_desc": "",
+      "route_type": "3",
+      "route_color": "66FF66",
+      "route_text_color": "000000"
+     },
+     {
+      "route_id": "50000012",
+      "agency_id": "5",
+      "route_short_name": "26",
+      "route_long_name": "Pafos - Nicosia",
+      "route_desc": "",
+      "route_type": "3",
+      "route_color": "66FF66",
+      "route_text_color": "000000"
+     },
+     {
+      "route_id": "50000021",
+      "agency_id": "5",
+      "route_short_name": "26",
+      "route_long_name": "Nicosia - Choirokoitia - Pafos",
+      "route_desc": "",
+      "route_type": "3",
+      "route_color": "66FF66",
+      "route_text_color": "000000"
+     }
+    ],
+    "trips.txt": [
+     {
+      "route_id": "50060042",
+      "service_id": "24705",
+      "trip_id": "18636612",
+      "trip_headsign": "Dionysios Solomos",
+      "shape_id": "50060042",
+      "direction_id": "1"
+     },
+     {
+      "route_id": "50060041",
+      "service_id": "24705",
+      "trip_id": "18636613",
+      "trip_headsign": "New Port - Passen",
+      "shape_id": "50060041",
+      "direction_id": "0"
+     },
+     {
+      "route_id": "50060022",
+      "service_id": "24705",
+      "trip_id": "18636614",
+      "trip_headsign": "Dionysios Solomos",
+      "shape_id": "50060022",
+      "direction_id": "1"
+     }
+    ],
+    "stop_times.txt": [
+     {
+      "trip_id": "18636612",
+      "arrival_time": "05:25:00",
+      "departure_time": "05:25:00",
+      "stop_id": "3906",
+      "stop_sequence": "0",
+      "pickup_type": "0",
+      "drop_off_type": "0"
+     },
+     {
+      "trip_id": "18636612",
+      "arrival_time": "05:35:00",
+      "departure_time": "05:35:00",
+      "stop_id": "4728",
+      "stop_sequence": "1",
+      "pickup_type": "0",
+      "drop_off_type": "0"
+     },
+     {
+      "trip_id": "18636612",
+      "arrival_time": "05:47:00",
+      "departure_time": "05:47:00",
+      "stop_id": "4865",
+      "stop_sequence": "2",
+      "pickup_type": "0",
+      "drop_off_type": "0"
+     }
+    ],
+    "calendar.txt": null,
+    "calendar_dates.txt": [
+     {
+      "service_id": "24705",
+      "date": "20261129",
+      "exception_type": "1"
+     },
+     {
+      "service_id": "24705",
+      "date": "20261205",
+      "exception_type": "1"
+     },
+     {
+      "service_id": "24705",
+      "date": "20261206",
+      "exception_type": "1"
+     }
+    ],
+    "feed_info.txt": [
+     {
+      "feed_publisher_name": "Ministry of Transport Communication and Works",
+      "feed_publisher_url": "http://www.mcw.gov.cy/",
+      "feed_lang": "en",
+      "feed_start_date": "20261128",
+      "feed_end_date": "20270131",
+      "feed_version": "INTERCITY20261128053630",
+      "feed_contact_email": "motionbuscard@gmail.com"
+     }
+    ]
+   }
+  },
+  "6": {
+   "name": "EMEL (Limassol)",
+   "url": "https://motionbuscard.org.cy/opendata/downloadfile?file=GTFS%5C6_google_transit.zip&rel=True",
+   "bytes": 3330541,
+   "files": {
+    "agency.txt": 1,
+    "calendar_dates.txt": 91,
+    "fare_attributes.txt": 2,
+    "fare_rules.txt": 248,
+    "feed_info.txt": 1,
+    "routes.txt": 254,
+    "shapes.txt": 87417,
+    "stops.txt": 1401,
+    "stop_times.txt": 303084,
+    "translations.txt": 11100,
+    "trips.txt": 9668
+   },
+   "sample": {
+    "routes.txt": [
+     {
+      "route_id": "10030011",
+      "agency_id": "6",
+      "route_short_name": "3",
+      "route_long_name": "Agios Athanasios - Mesa Geitonia - Leontiou EMEL Statio",
+      "route_desc": "",
+      "route_type": "3",
+      "route_color": "0000FF",
+      "route_text_color": "FFFFFF"
+     },
+     {
+      "route_id": "10030012",
+      "agency_id": "6",
+      "route_short_name": "3",
+      "route_long_name": "Leontiou EMEL Station - Mesa Geitonia - Agios Athanasio",
+      "route_desc": "",
+      "route_type": "3",
+      "route_color": "0000FF",
+      "route_text_color": "FFFFFF"
+     },
+     {
+      "route_id": "10040011",
+      "agency_id": "6",
+      "route_short_name": "4",
+      "route_long_name": "Road & Traffic Authority - Leontiou EMEL Station",
+      "route_desc": "",
+      "route_type": "3",
+      "route_color": "FF0080",
+      "route_text_color": "FFFFFF"
+     }
+    ],
+    "trips.txt": [
+     {
+      "route_id": "10300011",
+      "service_id": "25167",
+      "trip_id": "19074867",
+      "trip_headsign": "Megalou Alexandro",
+      "shape_id": "10300011",
+      "direction_id": "0"
+     },
+     {
+      "route_id": "10300012",
+      "service_id": "25167",
+      "trip_id": "19074868",
+      "trip_headsign": "MY MALL",
+      "shape_id": "10300012",
+      "direction_id": "1"
+     },
+     {
+      "route_id": "10300011",
+      "service_id": "25167",
+      "trip_id": "19074869",
+      "trip_headsign": "Megalou Alexandro",
+      "shape_id": "10300011",
+      "direction_id": "0"
+     }
+    ],
+    "stop_times.txt": [
+     {
+      "trip_id": "19074867",
+      "arrival_time": "05:00:00",
+      "departure_time": "05:00:00",
+      "stop_id": "3903",
+      "stop_sequence": "0",
+      "pickup_type": "0",
+      "drop_off_type": "0"
+     },
+     {
+      "trip_id": "19074867",
+      "arrival_time": "05:01:00",
+      "departure_time": "05:01:00",
+      "stop_id": "3904",
+      "stop_sequence": "1",
+      "pickup_type": "0",
+      "drop_off_type": "0"
+     },
+     {
+      "trip_id": "19074867",
+      "arrival_time": "05:03:00",
+      "departure_time": "05:03:00",
+      "stop_id": "7514",
+      "stop_sequence": "2",
+      "pickup_type": "0",
+      "drop_off_type": "0"
+     }
+    ],
+    "calendar.txt": null,
+    "calendar_dates.txt": [
+     {
+      "service_id": "25167",
+      "date": "20261207",
+      "exception_type": "1"
+     },
+     {
+      "service_id": "25167",
+      "date": "20261208",
+      "exception_type": "1"
+     },
+     {
+      "service_id": "25167",
+      "date": "20261209",
+      "exception_type": "1"
+     }
+    ],
+    "feed_info.txt": [
+     {
+      "feed_publisher_name": "Ministry of Transport Communication and Works",
+      "feed_publisher_url": "http://www.mcw.gov.cy/",
+      "feed_lang": "en",
+      "feed_start_date": "20261128",
+      "feed_end_date": "20270226",
+      "feed_version": "ΕΜΕΛ20261128053630",
+      "feed_contact_email": "motionbuscard@gmail.com"
+     }
+    ]
+   }
+  },
+  "9": {
+   "name": "NPT (Nicosia)",
+   "url": "https://motionbuscard.org.cy/opendata/downloadfile?file=GTFS%5C9_google_transit.zip&rel=True",
+   "bytes": 4604439,
+   "files": {
+    "agency.txt": 1,
+    "calendar_dates.txt": 91,
+    "fare_attributes.txt": 3,
+    "fare_rules.txt": 190,
+    "feed_info.txt": 1,
+    "routes.txt": 194,
+    "shapes.txt": 84905,
+    "stops.txt": 1778,
+    "stop_times.txt": 468758,
+    "translations.txt": 21224,
+    "trips.txt": 17862
+   },
+   "sample": {
+    "routes.txt": [
+     {
+      "route_id": "100011",
+      "agency_id": "9",
+      "route_short_name": "10",
+      "route_long_name": "Makario - Pournara - Makario",
+      "route_desc": "",
+      "route_type": "3",
+      "route_color": "0000FF",
+      "route_text_color": "FFFFFF"
+     },
+     {
+      "route_id": "110011",
+      "agency_id": "9",
+      "route_short_name": "11",
+      "route_long_name": "Isokratous - Makario Stadium - Solomou Sq.",
+      "route_desc": "",
+      "route_type": "3",
+      "route_color": "BF8F00",
+      "route_text_color": "000000"
+     },
+     {
+      "route_id": "110012",
+      "agency_id": "9",
+      "route_short_name": "11",
+      "route_long_name": "Solomou Sq. - Makario Stadium - Isokratous",
+      "route_desc": "",
+      "route_type": "3",
+      "route_color": "BF8F00",
+      "route_text_color": "000000"
+     }
+    ],
+    "trips.txt": [
+     {
+      "route_id": "520022",
+      "service_id": "24885",
+      "trip_id": "18811281",
+      "trip_headsign": "Potamia Comm. Boa",
+      "shape_id": "520022",
+      "direction_id": "1"
+     },
+     {
+      "route_id": "520021",
+      "service_id": "24885",
+      "trip_id": "18811282",
+      "trip_headsign": "Alampra Bus Stati",
+      "shape_id": "520021",
+      "direction_id": "0"
+     },
+     {
+      "route_id": "7000011",
+      "service_id": "24885",
+      "trip_id": "18811283",
+      "trip_headsign": "Nicosia General H",
+      "shape_id": "7000011",
+      "direction_id": "0"
+     }
+    ],
+    "stop_times.txt": [
+     {
+      "trip_id": "18811281",
+      "arrival_time": "04:45:00",
+      "departure_time": "04:45:00",
+      "stop_id": "7060",
+      "stop_sequence": "0",
+      "pickup_type": "0",
+      "drop_off_type": "0"
+     },
+     {
+      "trip_id": "18811281",
+      "arrival_time": "04:47:00",
+      "departure_time": "04:47:00",
+      "stop_id": "3750",
+      "stop_sequence": "1",
+      "pickup_type": "0",
+      "drop_off_type": "0"
+     },
+     {
+      "trip_id": "18811281",
+      "arrival_time": "04:48:00",
+      "departure_time": "04:48:00",
+      "stop_id": "3758",
+      "stop_sequence": "2",
+      "pickup_type": "0",
+      "drop_off_type": "0"
+     }
+    ],
+    "calendar.txt": null,
+    "calendar_dates.txt": [
+     {
+      "service_id": "24885",
+      "date": "20270103",
+      "exception_type": "1"
+     },
+     {
+      "service_id": "24885",
+      "date": "20270110",
+      "exception_type": "1"
+     },
+     {
+      "service_id": "24885",
+      "date": "20270117",
+      "exception_type": "1"
+     }
+    ],
+    "feed_info.txt": [
+     {
+      "feed_publisher_name": "Ministry of Transport Communication and Works",
+      "feed_publisher_url": "http://www.mcw.gov.cy/",
+      "feed_lang": "en",
+      "feed_start_date": "20261128",
+      "feed_end_date": "20270226",
+      "feed_version": "NPT20261128053630",
+      "feed_contact_email": "motionbuscard@gmail.com"
+     }
+    ]
+   }
+  },
+  "10": {
+   "name": "LPT (Larnaca)",
+   "url": "https://motionbuscard.org.cy/opendata/downloadfile?file=GTFS%5C10_google_transit.zip&rel=True",
+   "bytes": 1886570,
+   "files": {
+    "agency.txt": 1,
+    "calendar_dates.txt": 91,
+    "fare_attributes.txt": 3,
+    "fare_rules.txt": 150,
+    "feed_info.txt": 1,
+    "routes.txt": 133,
+    "shapes.txt": 56391,
+    "stops.txt": 1040,
+    "stop_times.txt": 145574,
+    "translations.txt": 6736,
+    "trips.txt": 4584
+   },
+   "sample": {
+    "routes.txt": [
+     {
+      "route_id": "20000011",
+      "agency_id": "10",
+      "route_short_name": "430",
+      "route_long_name": "Larnaca Station - Airport - Dromoloxia - Kiti - Pervoli",
+      "route_desc": "",
+      "route_type": "3",
+      "route_color": "CCCC00",
+      "route_text_color": "000000"
+     },
+     {
+      "route_id": "20000012",
+      "agency_id": "10",
+      "route_short_name": "430",
+      "route_long_name": "Pervolia - Kiti - Dromoloxia - Airport - Larnaca statio",
+      "route_desc": "",
+      "route_type": "3",
+      "route_color": "CCCC00",
+      "route_text_color": "000000"
+     },
+     {
+      "route_id": "20000032",
+      "agency_id": "10",
+      "route_short_name": "430",
+      "route_long_name": "Pervolia - Kiti - Dromoloxia - Airport - Larnaca statio",
+      "route_desc": "",
+      "route_type": "3",
+      "route_color": "CCCC00",
+      "route_text_color": "000000"
+     }
+    ],
+    "trips.txt": [
+     {
+      "route_id": "20500011",
+      "service_id": "25011",
+      "trip_id": "18930637",
+      "trip_headsign": "Larnaca Station",
+      "shape_id": "20500011",
+      "direction_id": "0"
+     },
+     {
+      "route_id": "20500011",
+      "service_id": "25011",
+      "trip_id": "18930638",
+      "trip_headsign": "Larnaca Station",
+      "shape_id": "20500011",
+      "direction_id": "0"
+     },
+     {
+      "route_id": "20500011",
+      "service_id": "25011",
+      "trip_id": "18930639",
+      "trip_headsign": "Larnaca Station",
+      "shape_id": "20500011",
+      "direction_id": "0"
+     }
+    ],
+    "stop_times.txt": [
+     {
+      "trip_id": "18930637",
+      "arrival_time": "04:30:00",
+      "departure_time": "04:30:00",
+      "stop_id": "6867",
+      "stop_sequence": "0",
+      "pickup_type": "0",
+      "drop_off_type": "0"
+     },
+     {
+      "trip_id": "18930637",
+      "arrival_time": "04:30:00",
+      "departure_time": "04:30:00",
+      "stop_id": "6734",
+      "stop_sequence": "1",
+      "pickup_type": "0",
+      "drop_off_type": "0"
+     },
+     {
+      "trip_id": "18930637",
+      "arrival_time": "04:31:00",
+      "departure_time": "04:31:00",
+      "stop_id": "6102",
+      "stop_sequence": "2",
+      "pickup_type": "0",
+      "drop_off_type": "0"
+     }
+    ],
+    "calendar.txt": null,
+    "calendar_dates.txt": [
+     {
+      "service_id": "25011",
+      "date": "20261205",
+      "exception_type": "1"
+     },
+     {
+      "service_id": "25011",
+      "date": "20261212",
+      "exception_type": "1"
+     },
+     {
+      "service_id": "25011",
+      "date": "20261219",
+      "exception_type": "1"
+     }
+    ],
+    "feed_info.txt": [
+     {
+      "feed_publisher_name": "Ministry of Transport Communication and Works",
+      "feed_publisher_url": "http://www.mcw.gov.cy/",
+      "feed_lang": "en",
+      "feed_start_date": "20261128",
+      "feed_end_date": "20270226",
+      "feed_version": "LPT20261128053630",
+      "feed_contact_email": "motionbuscard@gmail.com"
+     }
+    ]
+   }
+  },
+  "11": {
+   "name": "Pame Express",
+   "url": "https://motionbuscard.org.cy/opendata/downloadfile?file=GTFS%5C11_google_transit.zip&rel=True",
+   "bytes": 18150,
+   "files": {
+    "agency.txt": 1,
+    "calendar_dates.txt": 45,
+    "fare_attributes.txt": 1,
+    "fare_rules.txt": 3,
+    "feed_info.txt": 1,
+    "routes.txt": 2,
+    "shapes.txt": 490,
+    "stops.txt": 23,
+    "stop_times.txt": 1000,
+    "translations.txt": 45,
+    "trips.txt": 80
+   },
+   "sample": {
+    "routes.txt": [
+     {
+      "route_id": "9990011",
+      "agency_id": "11",
+      "route_short_name": "GSP1",
+      "route_long_name": "GSP - Ministry of Finance",
+      "route_desc": "",
+      "route_type": "3",
+      "route_color": "408080",
+      "route_text_color": "FFFFFF"
+     },
+     {
+      "route_id": "9990012",
+      "agency_id": "11",
+      "route_short_name": "GSP1",
+      "route_long_name": "Ministry of Finance -Omirou - GSP",
+      "route_desc": "",
+      "route_type": "3",
+      "route_color": "408080",
+      "route_text_color": "FFFFFF"
+     }
+    ],
+    "trips.txt": [
+     {
+      "route_id": "9990011",
+      "service_id": "24616",
+      "trip_id": "18559060",
+      "trip_headsign": "GSP - Ministry of",
+      "shape_id": "9990011",
+      "direction_id": "0"
+     },
+     {
+      "route_id": "9990012",
+      "service_id": "24616",
+      "trip_id": "18559061",
+      "trip_headsign": "Giannou Kranidiot",
+      "shape_id": "9990012",
+      "direction_id": "1"
+     },
+     {
+      "route_id": "9990011",
+      "service_id": "24616",
+      "trip_id": "18559062",
+      "trip_headsign": "GSP - Ministry of",
+      "shape_id": "9990011",
+      "direction_id": "0"
+     }
+    ],
+    "stop_times.txt": [
+     {
+      "trip_id": "18559060",
+      "arrival_time": "06:30:00",
+      "departure_time": "06:30:00",
+      "stop_id": "9081",
+      "stop_sequence": "0",
+      "pickup_type": "0",
+      "drop_off_type": "0"
+     },
+     {
+      "trip_id": "18559060",
+      "arrival_time": "06:30:00",
+      "departure_time": "06:30:00",
+      "stop_id": "7840",
+      "stop_sequence": "1",
+      "pickup_type": "0",
+      "drop_off_type": "0"
+     },
+     {
+      "trip_id": "18559060",
+      "arrival_time": "06:31:00",
+      "departure_time": "06:31:00",
+      "stop_id": "7226",
+      "stop_sequence": "2",
+      "pickup_type": "0",
+      "drop_off_type": "0"
+     }
+    ],
+    "calendar.txt": null,
+    "calendar_dates.txt": [
+     {
+      "service_id": "24616",
+      "date": "20261130",
+      "exception_type": "1"
+     },
+     {
+      "service_id": "24616",
+      "date": "20261201",
+      "exception_type": "1"
+     },
+     {
+      "service_id": "24616",
+      "date": "20261202",
+      "exception_type": "1"
+     }
+    ],
+    "feed_info.txt": [
+     {
+      "feed_publisher_name": "Ministry of Transport Communication and Works",
+      "feed_publisher_url": "http://www.mcw.gov.cy/",
+      "feed_lang": "en",
+      "feed_start_date": "20261130",
+      "feed_end_date": "20270129",
+      "feed_version": "PAME_EXPRESS20261128053630",
+      "feed_contact_email": "motionbuscard@gmail.com"
+     }
+    ]
+   }
+  }
+ },
+ "realtime": {
+  "gtfs_rt": {
+   "page": "https://www.traffic4cyprus.org.cy/en/dataset/publictransportrealtime_gtfs_rt/resource/45cbc7e6-ad11-4b45-9207-3377b8789ffe",
+   "links": [
+    "http://20.19.98.194:8328/Api/api/gtfs-realtime",
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://cyprus-tomorrow.gov.cy/cypresidency/kyprostoavrio.nsf/home/home?OpenDocument",
+    "https://fixcyprus.cy/",
+    "https://fixcyprus.cy/gnosis/gnosisweb/accounts/login/",
+    "https://fixcyprus.cy/gnosis/tnits/",
+    "https://fonts.googleapis.com",
+    "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+    "https://fonts.gstatic.com",
+    "https://next-generation-eu.europa.eu/index_en",
+    "https://sustainablemobility.cy/en/",
+    "https://www.gov.cy/mtcw/en/",
+    "https://www.its-platform.eu/wp-content/uploads/ITS-Platform/CorridorDocuments/Crocodile/CROCODILE%202%20Final%20Brochure.pdf",
+    "https://www.mcw.gov.cy/mtcw/pwd/pwd.nsf/home/home?openform"
+   ],
+   "text": " {&#39;el&#39;: &#39;Δημόσιες Επιβατικές Μεταφορές Δεδομένα σε Πραγματικό Χρόνο (GTFS-RT)&#39;, &#39;en&#39;: &#39;Public Transport Real-Time Data (GTFS-RT)&#39;} - GTFS-RT Web Service (Τηλεματική) - Cyprus National Access Point Skip to content FAQ EN | EL LOGIN GNOSIS FixCyprus Toggle navigation Interactive Map Providers Datasets Services TN-ITS --> About Search Datasets --> Go to resource GTFS-RT Web Service (Τηλεματική) URL: http://20.19.98.194:8328/Api/api/gtfs-realtime This dataset provides information concerning the public transport operated in Cyprus and more specific for real-time information about estimate timetables (GTFS Real-Time Web Service). There are no views created for this resource yet. Resources GTFS-RT Web Service... License Creative Commons Attribution 4.0 Additional Information Field Value Data last updated unknown Metadata last updated May 8, 2024 Created unknown Format GTFS-RT License Creative Commons Attribution 4.0 Conditions for access and usage Licence provided Created 3 years ago Id 45cbc7e6-ad11-4b45-9207-3377b8789ffe Package id 30c8f27e-9261-4507-9dbe-44bac16c3cda State active Conditions for Access and Usage Licence provided Funding Copyrights © document.write(new Date().getFullYear()) All Rights Reserved by KIOS Research and Innovation Center of Excellence Privacy policy Terms and Conditions ",
+   "tries": [
+    {
+     "url": "http://20.19.98.194:8328/Api/api/gtfs-realtime",
+     "status": 200,
+     "type": "application/octet-stream",
+     "bytes": 154190,
+     "head": "0a0d0a03322e30100018cde7acd80612e5020a2433643933346463622d666566382d343962342d616336652d6466386639646330656666341abc020a2c0a083139323637313039120832313a31353a30301a08323032363131323820002a0835303032303031323001122e0809121108c3f8ffffffffffffff0110b3e7acd8061a1108c3f8ffffffffffffff0110b3e7acd806220436343137122e080a121108a6f8ffffffffffffff01108ee8acd8061a1108a6f8ffffffffffffff01108ee8acd8062204363432"
+    }
+   ]
+  },
+  "siri": {
+   "page": "https://www.traffic4cyprus.org.cy/dataset/publictransportrealtime_siri",
+   "links": [
+    "http://20.19.98.194:8313/SiriWS.asmx?op=GetEstimatedTimetable",
+    "http://opendefinition.org/okd/",
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://cyprus-tomorrow.gov.cy/cypresidency/kyprostoavrio.nsf/home/home?OpenDocument",
+    "https://fixcyprus.cy/",
+    "https://fixcyprus.cy/gnosis/gnosisweb/accounts/login/",
+    "https://fixcyprus.cy/gnosis/tnits/",
+    "https://fonts.googleapis.com",
+    "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+    "https://fonts.gstatic.com",
+    "https://motionbuscard.org.cy/",
+    "https://next-generation-eu.europa.eu/index_en",
+    "https://sustainablemobility.cy/en/",
+    "https://www.gov.cy/mtcw/en/",
+    "https://www.its-platform.eu/wp-content/uploads/ITS-Platform/CorridorDocuments/Crocodile/CROCODILE%202%20Final%20Brochure.pdf",
+    "https://www.mcw.gov.cy/mtcw/pwd/pwd.nsf/home/home?openform"
+   ],
+   "text": " Public Transport Real-Time Data (SIRI) - Dataset - Cyprus National Access Point Skip to content FAQ EN | EL LOGIN GNOSIS FixCyprus Toggle navigation Interactive Map Providers Datasets Services TN-ITS --> About Search Datasets --> Public Transport Real-Time Data (SIRI) Followers 0 Organization Public Works Department Η αποστολή του τμήματος είναι η ανάλωση των διαθέσιμων πόρων και μέσων για τη συνεχή εξασφάλιση σύγχρονων έργων υποδομής για τα δίκτυα αστικών, υπεραστικών και αγροτικών δρόμων,... read more Social Twitter Facebook License Creative Commons Attribution 4.0 Dataset Groups Activity Stream Public Transport Real-Time Data (SIRI) Data and Resources SIRI Web Service (Τηλεματική) SIRI This dataset provides information concerning the public transport operated in... Explore More information Go to resource Bus Real-time Additional Info Field Value Description This dataset provides real-time information concerning estimate timetables of the public transport in Cyprus, as derived from the telematics system. Please visit: https://motionbuscard.org.cy/ Version Language English Author Public Works Department Author Email Public Works Department Maintainer Public Works Department Maintainer Email Public Works Department Frequency Up to 1 min Transport Mode Bus Long-distance coach Shuttle bus Network Coverage Regional roads Intended Information Service Trip plans Trip plans, auxiliary information, availability check Trip plan computation scheduled modes transport Georeferencing Method Geocoordinates Data Standard SIRI Theme Transport Mobility Theme General information for trip-planning Public transport scheduled transport Public transport non-scheduled transport Applicable Legislation Delegated Regulation (EU) 2017/1926 – EU-wide multimodal travel information services (MMTIS) ITS Directive (EU) 2010/40/EU Funding Copyrights © document.write(new Date().getFullYear()) All Rights Reserved by KIOS Research and Innovation Center of Excellence Privacy policy Terms and Conditions { \"@context\": { \"brick\": \"https://brickschema.org/schema/Brick#\", \"csvw\": \"http://www.w3.org/ns/csvw#\", \"dc\": \"http://purl.org/dc/elements/1.1/\", \"dcam\": \"http://purl.org/dc/dcam/\", \"dcat\": \"http://www.w3.org/ns/dcat#\", \"dcmitype\": \"http://purl.org/dc/dcmitype/\", \"dcterms\": \"http://purl.org/dc/terms/\", \"doap\": \"http://usefulinc.com/ns/doap#\", \"foaf\": \"http://xmlns.com/foaf/0.1/\", \"odrl\": \"http://www.w3.org/ns/odrl/2/\", \"org\": \"http://www.w3.org/ns/org#\", \"owl\": \"http://www.w3.org/2002/07/owl#\", \"prof\": \"http://www.w3.org/ns/dx/prof/\", \"prov\": \"http://www.w3.org/ns/prov#\", \"qb\": \"http://purl.org/linked-data/cube#\", \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\", \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\", \"schema\": \"http://schema.org/\", \"sh\": \"http://www.w3.org/ns/shacl#\", \"skos\": \"http://www.w3.org/2004/02/skos/core#\", \"sosa\": \"http://www.w3.org/ns/sosa/\", \"ssn\": \"http://www.w3.org/ns/ssn/\", \"time\": \"http://www.w3.org/2006/time#\", \"vann\": \"http://purl.org/vocab/vann/\", \"v",
+   "tries": [
+    {
+     "url": "http://20.19.98.194:8313/SiriWS.asmx?op=GetEstimatedTimetable",
+     "status": 200,
+     "type": "text/html; charset=utf-8",
+     "bytes": 11407,
+     "head": "\r\n\r\n<html>\r\n\r\n    <head><link rel=\"alternate\" type=\"text/xml\" href=\"/SiriWS.asmx?disco\" />\r\n\r\n    <style type=\"text/css\">\r\n    \r\n\t\tBODY { color: #000000; background-color: white; font-family: Verdana; margin-left: 0px; margin-top: 0px; }\r\n\t\t#content { margin-left: 30px; font-size: .70em; padding-bot"
+    }
+   ]
+  }
+ }
+}
