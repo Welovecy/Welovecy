@@ -1,10 +1,11 @@
+import { ogMeta } from "@/lib/og";
 import type { Metadata } from "next";
 import { DESTINATIONS } from "@/lib/data";
 import Link from "next/link";
 import { PageHead } from "@/components/Bits";
 import { ListingSection } from "@/components/Listing";
 
-export const metadata: Metadata = { title: "Must-see", description: "The sights, views and days out worth planning around, area by area." };
+export const metadata: Metadata = { openGraph: ogMeta("/must-see"), title: "Must-see", description: "The sights, views and days out worth planning around, area by area." };
 
 export default function MustSee() {
   return (

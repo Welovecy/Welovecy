@@ -1,3 +1,4 @@
+import { ogMeta } from "@/lib/og";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { DESTINATIONS, POIS, getDest, getPlace, listingHref, photoFor, placeForPoi, placeHref, poiDirections } from "@/lib/data";
@@ -7,7 +8,7 @@ import { Crumbs } from "@/components/Bits";
 import { BeachExplorer, type Beach, type AreaInfo } from "@/components/BeachExplorer";
 import type { DestId } from "@/lib/types";
 
-export const metadata: Metadata = { title: "Beaches", description: "Every public beach in the Republic of Cyprus, with Blue Flag status, lifeguards and facilities from official sources. Find the closest to you." };
+export const metadata: Metadata = { openGraph: ogMeta("/beaches"), title: "Beaches", description: "Every public beach in the Republic of Cyprus, with Blue Flag status, lifeguards and facilities from official sources. Find the closest to you." };
 
 const SHORT: Record<string, string> = { ayianapa: "Ayia Napa", protaras: "Protaras", larnaca: "Larnaca", limassol: "Limassol", paphos: "Paphos", akamas: "Akamas and Latchi" };
 

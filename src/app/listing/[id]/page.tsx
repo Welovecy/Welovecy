@@ -1,3 +1,4 @@
+import { ogMeta } from "@/lib/og";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
@@ -33,8 +34,8 @@ function find(id: string) {
 
 export async function generateMetadata({ params }: P): Promise<Metadata> {
   const { b, r } = find((await params).id);
-  if (b) return { title: b.n, description: `${bizSub(b)}. Address, contact details and what's around.`, alternates: { canonical: listingHref(b.i) } };
-  if (r) return { title: r.n, description: `${poiSub(r)}${r.tw ? ` in ${r.tw}` : ""}. Details, directions and what's around.`, alternates: { canonical: listingHref(r.i) } };
+  if (b) return { title: b.n, description: `${bizSub(b)}. Address, contact details and what's around.`, alternates: { canonical: listingHref(b.i) }, openGraph: ogMeta(listingHref(b.i)) };
+  if (r) return { title: r.n, description: `${poiSub(r)}${r.tw ? ` in ${r.tw}` : ""}. Details, directions and what's around.`, alternates: { canonical: listingHref(r.i) }, openGraph: ogMeta(listingHref(r.i)) };
   return {};
 }
 

@@ -1,10 +1,11 @@
+import { ogMeta } from "@/lib/og";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHead } from "@/components/Bits";
 import { formatDate } from "@/lib/text";
 import { KNOW_CHECKED, KNOW_SECTIONS, factsIn } from "@/lib/knowledge";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = { openGraph: ogMeta("/know-before-you-go"),
   title: "Know before you go",
   description: "Passports, health cards, heat, lifeguards, drones, e-scooters, shop hours, roaming and the best time to visit the Republic of Cyprus. Every fact with its source.",
   alternates: { canonical: "/know-before-you-go" },

@@ -1,3 +1,4 @@
+import { ogMeta } from "@/lib/og";
 import { Community } from "@/components/Community";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -22,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const img = g.image ? photoFor(g.image) : undefined;
   return {
     title: g.title, description: g.description, alternates: { canonical: guideHref(g.slug) },
-    openGraph: { type: "article", title: g.title, description: g.description, publishedTime: g.date, modifiedTime: g.updated, ...(img ? { images: [img.u] } : {}) },
+    openGraph: { type: "article", title: g.title, description: g.description, publishedTime: g.date, modifiedTime: g.updated, images: ogMeta(guideHref(g.slug)).images },
   };
 }
 

@@ -1,3 +1,4 @@
+import { ogMeta } from "@/lib/og";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHead } from "@/components/Bits";
@@ -5,7 +6,7 @@ import { PetrolFinder, type Station } from "@/components/PetrolFinder";
 import { DESTINATIONS, POIS } from "@/lib/data";
 import { DEST_CENTRE } from "@/lib/centres";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = { openGraph: ogMeta("/petrol"),
   title: "Petrol near you",
   description: "The nearest petrol stations to you or your hotel anywhere in the Republic of Cyprus, with driving time, 24-hour stations and directions.",
   alternates: { canonical: "/petrol" },

@@ -1,9 +1,10 @@
+import { ogMeta } from "@/lib/og";
 import type { Metadata } from "next";
 import { EventsBrowser, ExploreTabs } from "@/components/Explore";
 import { upcoming, weekend } from "@/lib/events";
 import { addDays, cyToday } from "@/lib/duty";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = { openGraph: ogMeta("/events"),
   title: "What's on in Cyprus",
   description: "Events across the Republic of Cyprus: today, this weekend or on your dates, by area. Every listing links to its official source.",
   alternates: { canonical: "/explore/events" },

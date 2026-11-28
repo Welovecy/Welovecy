@@ -1,3 +1,4 @@
+import { ogMeta } from "@/lib/og";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -25,7 +26,7 @@ export function generateStaticParams() { return DESTINATIONS.map((d) => ({ slug:
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const d = getDest((await params).slug);
-  return d ? { title: d.name, description: d.line, alternates: { canonical: `/destinations/${d.id}` } } : {};
+  return d ? { title: d.name, description: d.line, alternates: { canonical: `/destinations/${d.id}` }, openGraph: ogMeta(`/destinations/${d.id}`) } : {};
 }
 
 const TAXI_ROW: Fact = ["Taxis", "Urban taxis use the meter. Day tariff from €3.80 plus €0.95 per km.", false];

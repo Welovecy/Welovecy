@@ -10,6 +10,8 @@ const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   trailingSlash: false,
+  // Fonts the share image route reads from disk
+  outputFileTracingIncludes: { "/api/og": ["./src/app/api/og/fonts/**"] },
   async headers() {
     return [
       { source: "/(.*)", headers: securityHeaders },
