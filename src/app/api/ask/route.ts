@@ -175,6 +175,9 @@ export async function POST(req: Request) {
     earlier: history.filter((m) => m.role === "assistant").map((m) => m.content).join("\n").slice(-4000),
   };
 
+  // Worked out once per question: if the hour ticked over between tool calls, the system text would change
+  // and Claude refuses its own earlier thinking as "bound to a different conversation".
+  const system = [{ type: "text", text: RULES, cache_control: { type: "ephemeral" } }, { type: "text", text: context(ctx) }];
   const tools = TOOLS.map((t, i) => (i === TOOLS.length - 1 ? { ...t, cache_control: { type: "ephemeral" } } : t));
   const msgs: Msg[] = [...history];
   const question = history[history.length - 1].content;
@@ -184,8 +187,7 @@ export async function POST(req: Request) {
     for (let turn = 0; turn < MAX_TURNS; turn++) {
       const res = await claude({
         model: MODEL, max_tokens: MAX_TOKENS,
-        system: [{ type: "text", text: RULES, cache_control: { type: "ephemeral" } }, { type: "text", text: context(ctx) }],
-        tools, messages: msgs,
+        system, tools, messages: msgs,
       }, key);
       if (res.stop_reason !== "tool_use") {
         const raw = res.content.filter((c) => c.type === "text").map((c) => c.text as string).join("\n").trim();
