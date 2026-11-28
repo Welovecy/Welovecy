@@ -26,6 +26,23 @@ function kindOf(x: SavedItem, meta: SavedMeta): AroundKind | undefined {
   if (/sight|museum|church|monastery|park|castle|unesco/.test(s)) return "sight";
   return undefined;
 }
+/** Your lists as a stack of passes, with where you're staying at the front. Tap a pass to see only that list. */
+function Wallet({ passes, on, pick, front }: { passes: { id: Group; label: string; n: number; img?: string; k?: AroundKind }[]; on: Group; pick: (id: Group) => void; front: React.ReactNode }) {
+  if (passes.length < 2 && !front) return null;
+  return (
+    <div className="wallet" role="group" aria-label="Your lists">
+      {passes.length > 1 ? passes.map((p, i) => (
+        <button key={p.id} type="button" className="pass" aria-pressed={on === p.id} onClick={() => pick(p.id)} style={{ ["--i" as string]: i }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          {p.img ? <img src={p.img} alt="" /> : <span className="pass-k">{p.k ? <KindIcon k={p.k} size={44} /> : null}</span>}
+          <span className="pass-t"><b>{p.label}</b><span>{p.n} {p.n === 1 ? "place" : "places"}</span></span>
+        </button>
+      )) : null}
+      {front ? <div className="pass-front" style={{ ["--i" as string]: passes.length }}>{front}</div> : null}
+    </div>
+  );
+}
+
 const groupOf = (k?: AroundKind): Group => (k === "beach" ? "beach" : k === "stay" ? "stay" : k === "eat" || k === "night" ? "food" : "see");
 
 export function SavedList({ meta, emptyPics }: { meta: SavedMeta; emptyPics: string[] }) {
@@ -101,12 +118,13 @@ export function SavedList({ meta, emptyPics }: { meta: SavedMeta; emptyPics: str
     <div className="app-page">
       {head}
       <div className="wrap saved-wrap">
-        {baseCard}
-        {groups.length > 2 ? (
-          <div className="seg" role="tablist" aria-label="Filter your list">
-            {groups.map(([id, label]) => <button key={id} type="button" role="tab" aria-selected={g === id} onClick={() => setG(id)}>{label}</button>)}
-          </div>
-        ) : null}
+        <Wallet
+          passes={groups.filter(([id]) => id !== "all").map(([id, label]) => {
+            const items = rows.filter((r) => groupOf(r.k) === id);
+            return { id, label, n: items.length, img: items.find((r) => r.img)?.img, k: items[0]?.k };
+          })}
+          on={g} pick={(id) => setG(g === id ? "all" : id)} front={baseCard}
+        />
         <ul className="rows rows-flat">
           {shown.map(({ x, k, img }) => (
             <li key={x.key}>
