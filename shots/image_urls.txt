@@ -1,0 +1,118 @@
+OK   place-kato-paphos 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Mosaics_in_the_House_of_Dionysus_%28IV%29_%285030885600%29.jpg/1280px-Mosaics_in_the_House_of_Dionysus_%28IV%29_%285030885600%29.jpg
+OK   place-tombs-kings 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Tombs_of_the_Kings%2C_Paphos%2C_Cyprus.jpg/1280px-Tombs_of_the_Kings%2C_Paphos%2C_Cyprus.jpg
+OK   place-paphos-castle 200 image/jpeg https://upload.wikimedia.org/wikipedia/commons/2/28/Paphos_Harbour_Castle.jpg
+OK   home-hero 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Sea_Caves_near_Ayia_Napa%2C_Cyprus_-_panoramio_%281%29.jpg/1280px-Sea_Caves_near_Ayia_Napa%2C_Cyprus_-_panoramio_%281%29.jpg
+OK   dest-ayianapa 200 image/jpeg https://upload.wikimedia.org/wikipedia/commons/b/b7/Tengeri_barlangok_-_Sea_caves_-_panoramio_%283%29.jpg
+OK   dest-protaras 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Aerial_of_Fig_Tree_Bay_Protaras_%2829851940508%29.jpg/1280px-Aerial_of_Fig_Tree_Bay_Protaras_%2829851940508%29.jpg
+OK   dest-paphos 200 image/jpeg https://upload.wikimedia.org/wikipedia/commons/2/28/Paphos_Harbour_Castle.jpg
+OK   dest-akamas 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Blue_lagoon_Cyprus.jpg/1280px-Blue_lagoon_Cyprus.jpg
+OK   dest-larnaca 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Larnaca_01-2017_img14_Finikoudes.jpg/1280px-Larnaca_01-2017_img14_Finikoudes.jpg
+OK   dest-troodos 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/View_of_Kakopetria_village_and_Troodos_Mountains_in_the_background_Republic_of_Cyprus.jpg/1280px-View_of_Kakopetria_village_and_Troodos_Mountains_in_the_background_Republic_of_Cyprus.jpg
+OK   dest-limassol 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Limassol_01-2017_img18_Marina.jpg/1280px-Limassol_01-2017_img18_Marina.jpg
+OK   dest-nicosia 200 image/jpeg https://upload.wikimedia.org/wikipedia/commons/f/f3/Laiki_Geitonia_traditional_quarters_Nicosia_Cyprus.jpg
+OK   place-cape-greco 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Cape_Greco_view_1.jpg/1280px-Cape_Greco_view_1.jpg
+OK   place-sea-caves 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Sea_Caves_near_Ayia_Napa%2C_Cyprus_-_panoramio_%282%29.jpg/1280px-Sea_Caves_near_Ayia_Napa%2C_Cyprus_-_panoramio_%282%29.jpg
+OK   place-nissi 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Nissi_Beach_20180401_img14.jpg/1280px-Nissi_Beach_20180401_img14.jpg
+OK   place-makronissos 200 image/jpeg https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/03_Cyprus_beach_-_Makronissos_Beach_in_Ayia_Napa_-_sandy_Cyprus_beach_-_Zypern_Urlaubsgebiet.jpg/1280px-03_Cyprus_beach_-_Makronissos_Beach_in_Ayia_Napa_-_sandy_Cyprus_beach_-_Zypern_Urlaubsgebiet.jpg
+OK   place-napa-monastery 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Agia_%28Ayia%29_Napa_Monastery_%2804%29.jpg/1280px-Agia_%28Ayia%29_Napa_Monastery_%2804%29.jpg
+OK   place-fig-tree-bay 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Fig_Tree_beach_Protaras_%2829851923968%29.jpg/1280px-Fig_Tree_beach_Protaras_%2829851923968%29.jpg
+FAIL place-konnos 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/e/eb/Konnos_Bay_Ayia_Napa.jpg
+OK   place-profitis-ilias 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Church_of_Profitis_Ilias%2C_Protaras%2C_Cyprus.jpg/1280px-Church_of_Profitis_Ilias%2C_Protaras%2C_Cyprus.jpg
+OK   place-aphrodite-rock 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Petra_tou_romiou_3.jpg/1280px-Petra_tou_romiou_3.jpg
+OK   place-lefkara 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Lefkara_-_Street.jpg/1280px-Lefkara_-_Street.jpg
+OK   place-choirokoitia 200 image/jpeg https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Choirokoitia.jpg/1280px-Choirokoitia.jpg
+OK   place-salt-lake 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Larnaca_Salt_Lake_with_Flamingos_%2832533135635%29.jpg/1280px-Larnaca_Salt_Lake_with_Flamingos_%2832533135635%29.jpg
+OK   place-hala-sultan 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Larnaca_01-2017_img30_Salt_Lake.jpg/1280px-Larnaca_01-2017_img30_Salt_Lake.jpg
+OK   place-st-lazarus 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Cyprus-lazarus-church_hg.jpg/1280px-Cyprus-lazarus-church_hg.jpg
+OK   place-finikoudes 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Larnaca_01-2017_img15_Finikoudes.jpg/1280px-Larnaca_01-2017_img15_Finikoudes.jpg
+OK   exp-lefkara-craft 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/LefkaraLace_example1.jpg/1280px-LefkaraLace_example1.jpg
+OK   biz-silver-sample 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Lefkara_view.jpg/1280px-Lefkara_view.jpg
+OK   g1 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/LefkaraLace_closeup.jpg/1280px-LefkaraLace_closeup.jpg
+FAIL g2 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/9/9e/Lefkaritiko.jpg
+OK   g3 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Lefkara-View.jpg/1280px-Lefkara-View.jpg
+OK   place-avakas-gorge 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Avakas_Gorge_kz12.jpg/1280px-Avakas_Gorge_kz12.jpg
+OK   place-maa-palaiokastro 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Maa_-_Palaiokastro_-_panoramio.jpg/1280px-Maa_-_Palaiokastro_-_panoramio.jpg
+OK   place-kykkos 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Kykkos_Monastery_Courtyard_2.JPG/1280px-Kykkos_Monastery_Courtyard_2.JPG
+OK   place-panagia-tou-araka 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Lagoudera_Kirche_Panagia_tou_Arakou_1.jpg/1280px-Lagoudera_Kirche_Panagia_tou_Arakou_1.jpg
+OK   place-kalopanagiotis 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Kalopanagiotis_Dorf_Kalopanagiotis_1.jpg/1280px-Kalopanagiotis_Dorf_Kalopanagiotis_1.jpg
+OK   place-kakopetria 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/View_of_Kakopetria_village_and_Troodos_Mountains_in_the_background_Republic_of_Cyprus.jpg/1280px-View_of_Kakopetria_village_and_Troodos_Mountains_in_the_background_Republic_of_Cyprus.jpg
+OK   place-limassol-old-port 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Limassol_Old_Port_Regeneration_Works.JPG/1280px-Limassol_Old_Port_Regeneration_Works.JPG
+OK   place-machairas 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/2014-10-18_Machairas_Monastery.jpg/1280px-2014-10-18_Machairas_Monastery.jpg
+OK   place-panagia-podithou 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Panagia_Podithou_2.jpg/1280px-Panagia_Podithou_2.jpg
+OK   place-kolossi-castle 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Castillo_de_Kolossi%2C_Chipre%2C_2021-12-14%2C_DD_07.jpg/1280px-Castillo_de_Kolossi%2C_Chipre%2C_2021-12-14%2C_DD_07.jpg
+OK   place-stavrovouni 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Cyprus_-_walk_to_Stavrovouni_Monastery_%286%29.jpg/1280px-Cyprus_-_walk_to_Stavrovouni_Monastery_%286%29.jpg
+OK   place-famagusta-gate 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Famagusta_gate_in_Nicosia_Republic_of_Cyprus.jpg/1280px-Famagusta_gate_in_Nicosia_Republic_of_Cyprus.jpg
+OK   place-kourion 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Theatre_Kourion_Cyprus.jpg/1280px-Theatre_Kourion_Cyprus.jpg
+OK   place-latchi-harbour 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Marina_Latchi_-_panoramio.jpg/1280px-Marina_Latchi_-_panoramio.jpg
+OK   place-agios-georgios-pegeia 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Agios_Georgios_Pegeia_Cyprus_02.jpg/1280px-Agios_Georgios_Pegeia_Cyprus_02.jpg
+OK   place-laiki-geitonia 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Laiki_Geitonia_-_panoramio_%283%29.jpg/1280px-Laiki_Geitonia_-_panoramio_%283%29.jpg
+OK   place-timios-stavros-omodos 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Monastery_of_Stavros_%28Omodos%29_%281%29.jpg/1280px-Monastery_of_Stavros_%28Omodos%29_%281%29.jpg
+OK   place-akamas-blue-lagoon 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Akamas-blue-lagoon.jpg/1280px-Akamas-blue-lagoon.jpg
+OK   place-tamassos 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Tamassos_Royal_tomb_1.jpg/1280px-Tamassos_Royal_tomb_1.jpg
+OK   place-agios-neophytos 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Church_of_Agios_Neophytos_Monastery_%281%29.jpg/1280px-Church_of_Agios_Neophytos_Monastery_%281%29.jpg
+OK   place-makronissos-tombs 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Makronissos_Tombs_in_Ayia_Napa_17.JPG/1280px-Makronissos_Tombs_in_Ayia_Napa_17.JPG
+OK   place-apollo-hylates 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Apollo_Hylates_Temple%2C_Episkopi%2C_Cyprus_%281%29.jpg/1280px-Apollo_Hylates_Temple%2C_Episkopi%2C_Cyprus_%281%29.jpg
+OK   place-agios-ioannis-lampadistis 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Kalopanagiotis_Kloster_Agios_Ioannis_Lampadistis_Klosterhof_1.jpg/1280px-Kalopanagiotis_Kloster_Agios_Ioannis_Lampadistis_Klosterhof_1.jpg
+OK   place-panagia-asinou 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Nikitari_Kirche_Panagia_Asinou_Nordseite.jpg/1280px-Nikitari_Kirche_Panagia_Asinou_Nordseite.jpg
+OK   place-trooditissa 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Platres_Kloster_Trooditissa_Katholikon_Fassade.jpg/1280px-Platres_Kloster_Trooditissa_Katholikon_Fassade.jpg
+OK   place-stavros-tou-agiasmati 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Chypre_Stavros_Tou_Ayasmati_-_panoramio.jpg/1280px-Chypre_Stavros_Tou_Ayasmati_-_panoramio.jpg
+OK   place-idalion 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Idalion.jpg/1280px-Idalion.jpg
+OK   place-timios-stavros-pelendri 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Church_of_Timios_Stavros_%28Holy_Cross%29_in_Pelendri_06.jpg/1280px-Church_of_Timios_Stavros_%28Holy_Cross%29_in_Pelendri_06.jpg
+OK   place-palaipafos 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Royal_Manor_and_Palaepaphos%2C_Kouklia%2C_Cyprus.jpg/1280px-Royal_Manor_and_Palaepaphos%2C_Kouklia%2C_Cyprus.jpg
+OK   place-ayia-sotira-palaichori 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Palaichori_Kirche_Agia_Sotira_Nordseite_3.jpg/1280px-Palaichori_Kirche_Agia_Sotira_Nordseite_3.jpg
+OK   place-kalavasos-tenta 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Different_points_of_view_%2842076690562%29_%28cropped%29.jpg/1280px-Different_points_of_view_%2842076690562%29_%28cropped%29.jpg
+OK   place-panagia-tou-moutoulla 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/%C3%89glise_Panagia_Tou_Moutoulla_Ange.jpg/1280px-%C3%89glise_Panagia_Tou_Moutoulla_Ange.jpg
+OK   place-agios-nikolaos-tis-stegis 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Agios_Nikolaos_tis_Stegis.JPG/1280px-Agios_Nikolaos_tis_Stegis.JPG
+OK   place-archangelos-michael-pedoulas 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Iglesia_del_Arc%C3%A1ngel_Miguel%2C_Pedoulas%2C_Chipre%2C_2021-12-13%2C_DD_05-07_HDR.jpg/1280px-Iglesia_del_Arc%C3%A1ngel_Miguel%2C_Pedoulas%2C_Chipre%2C_2021-12-13%2C_DD_05-07_HDR.jpg
+OK   place-platres 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Platres_village_%28Cyprus%29.JPG/1280px-Platres_village_%28Cyprus%29.JPG
+OK   place-kition 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Excavations_of_Kition%2C_Larnaca.jpg/1280px-Excavations_of_Kition%2C_Larnaca.jpg
+OK   place-amathous 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Amathus_%28Cyprus%29_11.jpg/1280px-Amathus_%28Cyprus%29_11.jpg
+OK   beach-bea-01017 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/03_Cyprus_beach_-_Makronissos_Beach_in_Ayia_Napa_-_sandy_Cyprus_beach_-_Zypern_Urlaubsgebiet.jpg/1280px-03_Cyprus_beach_-_Makronissos_Beach_in_Ayia_Napa_-_sandy_Cyprus_beach_-_Zypern_Urlaubsgebiet.jpg
+OK   beach-bea-01065 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Vathia_Gonia_Beach_in_November_2021.jpg/1280px-Vathia_Gonia_Beach_in_November_2021.jpg
+OK   beach-bea-01003 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Konnos_Bay_%2843722518451%29.jpg/1280px-Konnos_Bay_%2843722518451%29.jpg
+OK   beach-bea-01012 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Agia-napa-limnara-beach.jpg/1280px-Agia-napa-limnara-beach.jpg
+OK   beach-bea-00996 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Kapparis_beach_Cyprus_%2829851990628%29.jpg/1280px-Kapparis_beach_Cyprus_%2829851990628%29.jpg
+OK   beach-bea-00977 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Coral_Bay%2C_Cyprus%2C_mimosas.jpg/1280px-Coral_Bay%2C_Cyprus%2C_mimosas.jpg
+OK   beach-bea-00964 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Alykes_Beach%2C_Paphos%2C_Cyprus_01.jpg/1280px-Alykes_Beach%2C_Paphos%2C_Cyprus_01.jpg
+OK   beach-bea-00986 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Stunning_Larnaca_Castle_and_finikoudes_-_panoramio.jpg/1280px-Stunning_Larnaca_Castle_and_finikoudes_-_panoramio.jpg
+OK   beach-bea-01021 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Mackenzie%2C_Larnaca%2C_Cyprus_-_panoramio.jpg/1280px-Mackenzie%2C_Larnaca%2C_Cyprus_-_panoramio.jpg
+OK   beach-bea-00990 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Governor%27s_Beach%2C_Cyprus_-_panoramio_%284%29.jpg/1280px-Governor%27s_Beach%2C_Cyprus_-_panoramio_%284%29.jpg
+OK   beach-bea-01048 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Pissouri_Bay%2C_Cyprus_-_panoramio_%285%29.jpg/1280px-Pissouri_Bay%2C_Cyprus_-_panoramio_%285%29.jpg
+OK   beach-bea-01010 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Latchi_beach_IMG_9724_-_panoramio.jpg/1280px-Latchi_beach_IMG_9724_-_panoramio.jpg
+OK   beach-bea-01049 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/PolisChrysochousBeach.JPG/1280px-PolisChrysochousBeach.JPG
+OK   beach-bea-01027 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Nissi_Beach_20180401_img14.jpg/1280px-Nissi_Beach_20180401_img14.jpg
+OK   beach-bea-00985 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Fig_Tree_beach_Protaras_%2829851923968%29.jpg/1280px-Fig_Tree_beach_Protaras_%2829851923968%29.jpg
+OK   biz-cy-00066 200 image/jpeg https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Hotel_Vassos_Nissi_Plage%2C_Agia_Napa_%2829852209398%29.jpg/1280px-Hotel_Vassos_Nissi_Plage%2C_Agia_Napa_%2829852209398%29.jpg
+OK   beach-bea-01072 200 image/jpeg https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Vrysoudia_II_Beach%2C_Paphos%2C_Cyprus_2.jpg/1280px-Vrysoudia_II_Beach%2C_Paphos%2C_Cyprus_2.jpg
+OK   beach-bea-00956 200 image/jpeg https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/02_Cyprus_vacation%2C_sandy_beach_of_Ayia_Thekla%2C_Sotira%2C_Cyprus.jpg/1280px-02_Cyprus_vacation%2C_sandy_beach_of_Ayia_Thekla%2C_Sotira%2C_Cyprus.jpg
+OK   beach-bea-00967 200 image/jpeg https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Ammoui_Beach_In_Lara.jpg/1280px-Ammoui_Beach_In_Lara.jpg
+FAIL beach-bea-00980 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/YermasoyiaBeach-Dasoudi_1247.jpg/1280px-YermasoyiaBeach-Dasoudi_1247.jpg
+FAIL beach-bea-00983 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Faros_beach_in_Pervolia_village_in_Larnaca_Republic_of_Cyprus.jpg/1280px-Faros_beach_in_Pervolia_village_in_Larnaca_Republic_of_Cyprus.jpg
+FAIL beach-bea-01007 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/CIPAR_11.9.2025.jpg/1280px-CIPAR_11.9.2025.jpg
+FAIL beach-bea-01046 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Roca_de_Afrodita%2C_Chipre%2C_2021-12-10%2C_DD_63.jpg/1280px-Roca_de_Afrodita%2C_Chipre%2C_2021-12-10%2C_DD_63.jpg
+FAIL beach-bea-01050 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Polyxenia_Beach%2C_Cyprus.jpg/1280px-Polyxenia_Beach%2C_Cyprus.jpg
+FAIL beach-bea-01067 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Vrexi_Beach_Cyprus_Pafos_2024.jpg/1280px-Vrexi_Beach_Cyprus_Pafos_2024.jpg
+FAIL beach-bea-01075 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/White_River_Beach%2C_Peyia%2C_Cyprus_01.jpg/1280px-White_River_Beach%2C_Peyia%2C_Cyprus_01.jpg
+FAIL beach-bea-01045 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Pernera_beach_Cyprus_%2843675191702%29.jpg/1280px-Pernera_beach_Cyprus_%2843675191702%29.jpg
+FAIL beach-bea-01044 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Pernera_Beach_in_November_2021.jpg/1280px-Pernera_Beach_in_November_2021.jpg
+FAIL beach-bea-01013 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Loukkos_tou_Mandi_Beach.jpg/1280px-Loukkos_tou_Mandi_Beach.jpg
+FAIL place-agia-moni 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Paphos_March_2013_504_%2810126977154%29.jpg/1280px-Paphos_March_2013_504_%2810126977154%29.jpg
+FAIL poi-p34 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Agioi_Anargyroi_Church%2C_Agia_Napa%2C_Kypr_01.jpg/1280px-Agioi_Anargyroi_Church%2C_Agia_Napa%2C_Kypr_01.jpg
+FAIL poi-p38 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Ayia_Napa_harbour%2C_Cyprus_-_panoramio.jpg/1280px-Ayia_Napa_harbour%2C_Cyprus_-_panoramio.jpg
+FAIL place-baths-of-aphrodite 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Bad_der_Aphrodite_Zypern.jpg/1280px-Bad_der_Aphrodite_Zypern.jpg
+FAIL poi-att-trail-adonis 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Adonis-trail.jpg/1280px-Adonis-trail.jpg
+FAIL poi-att-trail-aphrodite-akamas 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Akamas-aphrodite-trail-view.jpg/1280px-Akamas-aphrodite-trail-view.jpg
+FAIL poi-att-trail-artemis 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Troodos-artemis-nature-trail-a.jpg/1280px-Troodos-artemis-nature-trail-a.jpg
+FAIL poi-att-trail-livadi 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Troodos-livadi-nature-trail-a.jpg/1280px-Troodos-livadi-nature-trail-a.jpg
+FAIL poi-att-trail-xyliatos 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Xyliatos-dam-nature-trail.jpg/1280px-Xyliatos-dam-nature-trail.jpg
+FAIL poi-att-trail-persephone 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Persephone_Nature_Trail%2C_Troodos%2C_Cyprus_-_panoramio_%284%29.jpg/1280px-Persephone_Nature_Trail%2C_Troodos%2C_Cyprus_-_panoramio_%284%29.jpg
+FAIL poi-att-troodos-botanic 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Troodos_Botanical_Garden_kz4.jpg/1280px-Troodos_Botanical_Garden_kz4.jpg
+FAIL poi-att-larnaca-medieval-museum 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Larnaca_fort.JPG/1280px-Larnaca_fort.JPG
+FAIL poi-att-kyriazis-museum 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Kmm.jpg/1280px-Kmm.jpg
+FAIL poi-att-limassol-zoo 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Limassol_Zoo_07.jpg/1280px-Limassol_Zoo_07.jpg
+FAIL poi-att-my-mall 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/My_Mall_Limassol_Building.jpg/1280px-My_Mall_Limassol_Building.jpg
+FAIL poi-att-millomeris-falls 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Millomeris_Waterfall_-_%CE%9A%CE%B1%CF%84%CE%B1%CF%81%CF%81%CE%AC%CE%BA%CF%84%CE%B7%CF%82_%CF%84%CE%BF%CF%85_%CE%9C%CE%B9%CE%BB%CE%BB%CE%BF%CE%BC%CE%AD%CF%81%CE%B7.JPG/1280px-Millomeris_Waterfall_-_%CE%9A%CE%B1%CF%84%CE%B1%CF%81%CF%81%CE%AC%CE%BA%CF%84%CE%B7%CF%82_%CF%84%CE%BF%CF%85_%CE%9C%CE%B9%CE%BB%CE%BB%CE%BF%CE%BC%CE%AD%CF%81%CE%B7.JPG
+FAIL poi-att-kaledonia-falls 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Kalidonia_Waterfall.JPG/1280px-Kalidonia_Waterfall.JPG
+FAIL poi-att-zenobia 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Zenobia_Wreck_Cyprus.jpg/1280px-Zenobia_Wreck_Cyprus.jpg
+FAIL poi-att-limassol-marina 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Limassol_Marina_09.jpg/1280px-Limassol_Marina_09.jpg
+FAIL beach-bea-00975 429 text/html; charset=utf-8 https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Akamas-blue-lagoon.jpg/1280px-Akamas-blue-lagoon.jpg
