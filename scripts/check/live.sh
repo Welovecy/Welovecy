@@ -76,6 +76,12 @@ ask "I want to hire a car at Larnaca airport" "Dukes Car Rental"
 ask "What boat trips are there in Ayia Napa?" "CY Cruises"
 ask "Is there a pirate ship cruise for kids near Protaras?" "Black Pearl"
 ask "We are in Ayia Napa, any sunset boat party for adults?" "CY Cruises"
+# App pages (28 Nov)
+page /search | grep -q "Find nearby" && ok "search shows Find nearby" || no "search missing Find nearby"
+page /stay | grep -q 'class="imap' && ok "stay has the island map" || no "stay missing map"
+page /around | grep -q "Or start from a town" && ok "around has town cards" || no "around missing town cards"
+page /must-see | grep -q "Show all" && ok "must-see folds long lists" || no "must-see not folded"
+page /must-see | grep -q "BreadcrumbList" && ok "must-see keeps breadcrumb data" || no "must-see lost breadcrumb data"
 ok_page(){ page /know-before-you-go | grep -q "Lara and Toxeftra" && ok "know page has facts" || no "know page missing facts"; }; ok_page
 page /beaches | grep -q "Find your beach" && ok "new beaches page is live" || no "beaches page not updated"
 page /places/makronissos | grep -q "03_Cyprus_beach_-_Makronissos_Beach" && ok "Makronissos Beach shows the shoreline photo" || no "Makronissos photo not updated"
