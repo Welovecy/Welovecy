@@ -8,7 +8,7 @@ import { TabBar } from "@/components/TabBar";
 import { THEME_SCRIPT } from "@/components/ThemeToggle";
 import { EMAIL_BUSINESS, EMAIL_HELLO, FB_GROUP, FB_PAGE, SITE_NAME, SITE_URL } from "@/lib/site";
 import { JsonLd } from "@/components/JsonLd";
-import { Analytics } from "@vercel/analytics/next";
+import { SiteAnalytics } from "@/components/SiteAnalytics";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Track } from "@/components/Track";
 import { Consent } from "@/components/Consent";
@@ -62,7 +62,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
         <TabBar />
         <RegisterSW />
-        <Analytics />
+        <SiteAnalytics />
         <SpeedInsights />
         <Track />
         <Consent />
