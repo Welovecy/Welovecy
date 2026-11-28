@@ -1119,7 +1119,7 @@ html{-webkit-tap-highlight-color:transparent}
 /* the island with pins, behind a sheet */
 .sheet-page{background:var(--map-sea);margin-bottom:-56px;padding-bottom:56px}
 .sheet-page .app-head{padding-bottom:0}
-.imap{position:relative;max-width:620px;margin:4px auto 0;aspect-ratio:192.2/118}
+.imap{position:relative;max-width:620px;margin:4px auto 18px;aspect-ratio:192.2/118}
 .imap svg{position:absolute;inset:0;width:100%;height:100%}
 .imap-land{fill:var(--map-land);stroke:var(--map-edge);stroke-width:.4}
 .imap-pin{position:absolute;transform:translate(-50%,-6px);display:flex;flex-direction:column;align-items:center;gap:3px;text-decoration:none;color:var(--fg);font-size:12px;font-weight:600;min-width:44px;min-height:44px}
@@ -1140,6 +1140,7 @@ html{-webkit-tap-highlight-color:transparent}
 .sheet-h{font-size:22px;letter-spacing:-0.02em;margin-top:6px}
 .sheet-h3{font-size:18px;margin-top:6px}
 .sheet-acts{display:flex;flex-wrap:wrap;gap:8px}
+.sheet-acts .btn{padding:0 20px;min-height:46px;font-size:15px}
 .town-rail{display:grid;grid-auto-flow:column;grid-auto-columns:132px;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin-inline:-16px;padding:2px 16px 6px}
 .town-rail::-webkit-scrollbar{display:none}
 .town{position:relative;height:168px;border-radius:16px;overflow:hidden;scroll-snap-align:start;color:#fff;text-decoration:none;background:var(--surface);transition:transform var(--fast)}
