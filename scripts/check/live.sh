@@ -20,7 +20,7 @@ for p in /places/waterworld /listing/att-trail-trooditissa-foini /stay/ayianapa 
 ASKED=0
 ask(){ # question, expected partner or NONE
   ASKED=$((ASKED+1)); if [ $ASKED -gt 14 ]; then echo "      (waiting 10 minutes: Aphrodite allows 15 questions per 10 minutes per visitor)"; sleep 610; ASKED=1; fi
-  r=$(curl -s --max-time 40 -X POST "$B/api/ask" -H "content-type: application/json" -d "{\"messages\":[{\"role\":\"user\",\"text\":\"$1\"}],\"page\":\"/\"}")
+  r=$(curl -s --max-time 40 -X POST "$B/api/ask" -H "content-type: application/json" -H "x-wlc-test: 1" -A "welovecy-livecheck" -d "{\"messages\":[{\"role\":\"user\",\"text\":\"$1\"}],\"page\":\"/\"}")
   ans=$(echo "$r" | jq -r '.answer' | tr '\n' ' ')
   cards=$(echo "$r" | jq -r '[.cards[]?.n] | join(", ")')
   case "$2" in
