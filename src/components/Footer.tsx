@@ -1,11 +1,13 @@
 import Link from "next/link";
 import { CookieSettings } from "./Consent";
 import { ThemeAuto } from "./ThemeToggle";
+import { FooterBody } from "./FooterBody";
 import { EMAIL_HELLO, FB_GROUP, FB_PAGE } from "@/lib/site";
 
 export function Footer() {
   return (
     <footer>
+      <FooterBody>
       <div className="wrap fcols">
         <div>
           <p className="brand" style={{ marginBottom: 10 }}>We Love Cyprus</p>
@@ -47,6 +49,7 @@ export function Footer() {
           <a href="/feed.xml">New guides (RSS)</a>
         </div>
       </div>
+      </FooterBody>
       <div className="wrap footline">
         <span className="muted">In an emergency call <strong>112</strong> or <strong>199</strong>, free from any phone.</span>
         <Link href="/practical#emergency">All help numbers</Link>
