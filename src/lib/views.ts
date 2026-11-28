@@ -1,7 +1,7 @@
 import "server-only";
 import type { Business, DestId, LL, Place, Poi, Spot } from "./types";
 import {
-  BUSINESSES, DEST_CENTRE, PLACES, POIS, bizDirections, bizSub, isStay, listingHref, placeForPoi, placeHref, placeKind, poiDirections, poiSub, spots, townOf,
+  BUSINESSES, DEST_CENTRE, PLACES, POIS, bizDirections, photoFor, bizSub, isStay, listingHref, placeForPoi, placeHref, placeKind, poiDirections, poiSub, spots, townOf,
 } from "./data";
 import { aroundLists, essentials, nearestKey, nearestOf } from "./around";
 import { directionsTo, km } from "./geo";
@@ -23,18 +23,21 @@ export function aroundData(ll: LL, skip?: string) {
   };
 }
 
-export interface RowData { href: string; n: string; sub: string; mono: string; color?: string; dir?: string; sk?: string }
+export interface RowData { href: string; n: string; sub: string; mono: string; color?: string; dir?: string; sk?: string; k?: Spot["k"]; img?: string }
+
+/** A small photo for a list row, when we have one. */
+const rowImg = (key: string) => { const u = photoFor(key)?.u; return u && /\/\d+px-/.test(u) ? u.replace(/\/\d+px-/, "/330px-") : u; };
 
 export function poiRow(r: Poi): RowData {
   return {
-    href: listingHref(r.i), n: r.n, mono: KINDS[r.k].l, color: KINDS[r.k].c, dir: poiDirections(r), sk: r.i,
+    href: listingHref(r.i), n: r.n, mono: KINDS[r.k].l, color: KINDS[r.k].c, dir: poiDirections(r), sk: r.i, k: r.k, img: rowImg(r.k === "beach" ? `beach-${r.i}` : `poi-${r.i}`),
     sub: [poiSub(r), r.tw].filter(Boolean).join(" · "),
   };
 }
 export function placeRow(p: Place): RowData {
   const k = placeKind(p);
   return {
-    href: placeHref(p.slug), n: p.name, mono: KINDS[k].l, color: KINDS[k].c, dir: p.ll ? directionsTo(p.ll) : undefined, sk: `place-${p.slug}`,
+    href: placeHref(p.slug), n: p.name, mono: KINDS[k].l, color: KINDS[k].c, dir: p.ll ? directionsTo(p.ll) : undefined, sk: `place-${p.slug}`, k, img: rowImg(`place-${p.slug}`),
     sub: [p.unesco ? "UNESCO World Heritage" : p.cat, p.loc].filter(Boolean).join(" · "),
   };
 }

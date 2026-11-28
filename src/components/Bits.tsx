@@ -61,6 +61,28 @@ export function PageHead({ title, lead, crumbs, children }: { title: string; lea
   );
 }
 
+/** App-style page top: a compact title, no visible breadcrumbs (search engines still get them as data), and at most one short line. */
+export function AppHead({ title, sub, crumbs, action, children }: { title: string; sub?: string; crumbs: [string, string?][]; action?: React.ReactNode; children?: React.ReactNode }) {
+  const ld = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: crumbs.map(([name, href], i) => ({ "@type": "ListItem", position: i + 1, name, ...(href ? { item: absolute(href) } : {}) })),
+  };
+  return (
+    <div className="wrap app-head">
+      <JsonLd data={ld} />
+      <div className="app-head-row">
+        <div>
+          {sub ? <p className="app-sub">{sub}</p> : null}
+          <h1 className="app-title">{title}</h1>
+        </div>
+        {action}
+      </div>
+      {children}
+    </div>
+  );
+}
+
 export function KindDot({ color }: { color: string }) {
   return <span className="kdot" style={{ background: color }} aria-hidden="true" />;
 }

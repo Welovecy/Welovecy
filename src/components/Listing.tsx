@@ -7,7 +7,7 @@ import Link2 from "next/link";
 import { ListRow } from "./ListRow";
 
 /** Our written places as cards, then every other official record for the area as rows. */
-export function ListingSection({ dest, kind, title, id, moreTitle, limit, viewAll, skip = [] }: { dest: DestId; kind: "beach" | "sight"; title: string; id: string; moreTitle?: string; limit?: number; viewAll?: string; skip?: string[] }) {
+export function ListingSection({ dest, kind, title, id, moreTitle, limit, viewAll, skip = [], fold }: { dest: DestId; kind: "beach" | "sight"; title: string; id: string; moreTitle?: string; limit?: number; viewAll?: string; skip?: string[]; /** show this many rows, the rest behind "Show all" (still in the page for search engines) */ fold?: number }) {
   const all = placesFor(dest, kind).filter((p) => !skip.includes(p.slug));
   // photo cards for places with a photo, tidy rows for the rest
   const places = all.filter((p) => photoFor(`place-${p.slug}`));
@@ -37,10 +37,23 @@ export function ListingSection({ dest, kind, title, id, moreTitle, limit, viewAl
       {shownRows.length || shownPois.length ? (
         <div className="near-group" style={{ marginTop: places.length ? 28 : 0 }}>
           {places.length ? <h3 style={{ fontSize: 18 }}>{moreTitle || (kind === "beach" ? "More beaches" : "More to see")}</h3> : null}
-          <ul className="rows">
-            {shownRows.map((p) => <ListRow key={p.slug} {...placeRow(p)} save />)}
-            {shownPois.map((r) => <ListRow key={r.i} {...poiRow(r)} />)}
-          </ul>
+          {fold && shownRows.length + shownPois.length > fold + 1 ? (() => {
+            const all = [...shownRows.map((p) => <ListRow key={p.slug} {...placeRow(p)} save />), ...shownPois.map((r) => <ListRow key={r.i} {...poiRow(r)} />)];
+            return (
+              <>
+                <ul className="rows">{all.slice(0, fold)}</ul>
+                <details className="fold">
+                  <summary><span>Show all {all.length}</span></summary>
+                  <ul className="rows">{all.slice(fold)}</ul>
+                </details>
+              </>
+            );
+          })() : (
+            <ul className="rows">
+              {shownRows.map((p) => <ListRow key={p.slug} {...placeRow(p)} save />)}
+              {shownPois.map((r) => <ListRow key={r.i} {...poiRow(r)} />)}
+            </ul>
+          )}
         </div>
       ) : null}
     </section>
