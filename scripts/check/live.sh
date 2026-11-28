@@ -86,6 +86,10 @@ c=$(curl -s -o /dev/null -w "%{http_code} %{redirect_url}" "$B/index"); case "$c
 n=$(page /buses | grep -o 'class="busroute"' | wc -l); [ "$n" -ge 250 ] && ok "buses page has all $n routes" || no "buses page shows only $n routes"
 # The banner is drawn in the browser, so look for its style in the site's stylesheet
 css=$(page / | grep -o '/_next/static/css/[^"]*\.css' | head -1); curl -s "$B$css" | grep -q "consentin" && ok "slim cookie banner is live" || no "slim cookie banner style missing"
+page /places/nissi | grep -q 'class="ask-about"' && ok "beach page has the Ask Aphrodite card" || no "beach page missing the Ask Aphrodite card"
+ask "Is Coral Bay Beach good for kids?" "Coral Bay"
+ask "How do I get to Nissi Beach without a car?" "bus"
+ask "How do I get from the airport to Vassos Nissi Plage?" "Larnaca"
 ok_page(){ page /know-before-you-go | grep -q "Lara and Toxeftra" && ok "know page has facts" || no "know page missing facts"; }; ok_page
 page /beaches | grep -q "Find your beach" && ok "new beaches page is live" || no "beaches page not updated"
 page /places/makronissos | grep -q "03_Cyprus_beach_-_Makronissos_Beach" && ok "Makronissos Beach shows the shoreline photo" || no "Makronissos photo not updated"
