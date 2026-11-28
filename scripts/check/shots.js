@@ -7,7 +7,7 @@ fs.mkdirSync(out, { recursive: true });
   const b = await chromium.launch();
   const ctx = async (geo) => {
     const c = await b.newContext({ ...devices["iPhone 13"], ...(geo ? { geolocation: geo, permissions: ["geolocation"] } : {}) });
-    await c.addInitScript(() => { try { localStorage.setItem("wlc-consent", "declined"); } catch {} });
+    await c.addInitScript(() => { try { localStorage.setItem("wlc-consent", "no"); } catch {} });
     return c;
   };
   const shoot = async (p, name) => { await p.waitForTimeout(900); await p.screenshot({ path: `${out}/${name}.png` }); };
@@ -29,7 +29,7 @@ fs.mkdirSync(out, { recursive: true });
         cx = await b.newContext({ ...devices["iPhone 13"], colorScheme: opts.includes("dark") ? "dark" : "light" });
         await cx.addInitScript((seed) => {
           try {
-            localStorage.setItem("wlc-consent", "declined");
+            localStorage.setItem("wlc-consent", "no");
             if (seed) {
               localStorage.setItem("wlc-saved-v2", JSON.stringify([
                 { key: "/places/nissi", n: "Nissi Beach", href: "/places/nissi", sub: "Beach · Ayia Napa" },
