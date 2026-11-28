@@ -62,5 +62,5 @@ export function ogFor(path: string): OgCard {
 }
 
 /** The share image address for a page. `v` changes when the card design changes, so platforms fetch it again. */
-export const ogImage = (path: string) => `/api/og?p=${encodeURIComponent(path)}&v=1`;
+export const ogImage = (path: string) => `/api/og?p=${encodeURIComponent(path)}&v=2`;
 export const ogMeta = (path: string, alt?: string) => ({ type: "website" as const, siteName: "We Love Cyprus", locale: "en_GB", images: [{ url: ogImage(path), width: 1200, height: 630, alt: alt ?? ogFor(path).title }] });

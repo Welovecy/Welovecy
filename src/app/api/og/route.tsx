@@ -1,4 +1,5 @@
 import { ImageResponse } from "next/og";
+import sharp from "sharp";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { ogFor } from "@/lib/og";
@@ -42,7 +43,7 @@ export async function GET(req: Request) {
   const size = card.title.length > 34 ? 64 : card.title.length > 22 ? 76 : 88;
   const pin = card.ll ? toMap(card.ll) : null;
 
-  return new ImageResponse(
+  const png = new ImageResponse(
     (
       <div style={{ width: W, height: H, display: "flex", position: "relative", fontFamily: "Body", color: "#fff", textShadow: "0 2px 12px rgba(0,0,0,0.35)", background: `linear-gradient(135deg, ${card.tint} 0%, #0F1B24 100%)` }}>
         {img ? (
@@ -71,9 +72,11 @@ export async function GET(req: Request) {
         </div>
       </div>
     ),
-    {
-      width: W, height: H, fonts: fnt,
-      headers: { "Cache-Control": "public, max-age=86400, s-maxage=2592000, stale-while-revalidate=86400" },
-    },
+    { width: W, height: H, fonts: fnt },
   );
+  // WhatsApp only shows preview images under 600KB, so send a JPEG (about 100 to 200KB) instead of the PNG.
+  const jpg = await sharp(Buffer.from(await png.arrayBuffer())).jpeg({ quality: 82, mozjpeg: true }).toBuffer();
+  return new Response(new Uint8Array(jpg), {
+    headers: { "Content-Type": "image/jpeg", "Cache-Control": "public, max-age=86400, s-maxage=2592000, stale-while-revalidate=86400" },
+  });
 }
