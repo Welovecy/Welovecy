@@ -1,0 +1,512 @@
+{
+ "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/cyprus-museum/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/cyprus-museum/",
+  "file": "text/f06ab7323357.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 4420
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/leventis-municipal-museum-of-lefkosia-nicosia/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/leventis-municipal-museum-of-lefkosia-nicosia/",
+  "file": "text/d5bf824c391c.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 4939
+ },
+ "https://www.gov.cy/en/culture/the-ethnological-museum-house-of-hadjigeorgakis-kornesios-temporarily-closed-to-the-public/": {
+  "url": "https://www.gov.cy/en/culture/the-ethnological-museum-house-of-hadjigeorgakis-kornesios-temporarily-closed-to-the-public/",
+  "file": "text/e93522946d6a.txt",
+  "error": "<HTTPError 403: 'Forbidden'>"
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/ethnographic-museum-of-cyprus/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/ethnographic-museum-of-cyprus/",
+  "file": "text/38ade20ee560.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 3934
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/pafos-paphos-castle/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/pafos-paphos-castle/",
+  "file": "text/8fd848b8c77a.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 4227
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/maa-palaeokastro-archaeological-site-and-museum/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/maa-palaeokastro-archaeological-site-and-museum/",
+  "file": "text/6af150d61f83.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 4116
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/agios-neophytos-monastery/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/agios-neophytos-monastery/",
+  "file": "text/a7070e08b09d.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 3601
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/byzantine-museum-of-arsinoe/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/byzantine-museum-of-arsinoe/",
+  "file": "text/85d9db2bc0c9.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 3359
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/lemesos-limassol-medieval-castle/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/lemesos-limassol-medieval-castle/",
+  "file": "text/d123068ba5da.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 4305
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/archaeological-museum-of-the-lemesos-limassol-district/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/archaeological-museum-of-the-lemesos-limassol-district/",
+  "file": "text/a03904bd6c41.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 3789
+ },
+ "https://thalassamuseum.qrpoints.com.cy/01/": {
+  "url": "https://thalassamuseum.qrpoints.com.cy/01/",
+  "file": "text/179f05b7747a.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 14478
+ },
+ "https://www.visitcyprus.com/discover-cyprus/rural/museums-galleries-rural/deryneia-folkloric-museum-open-air-museum-for-traditional-professions-2/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/rural/museums-galleries-rural/deryneia-folkloric-museum-open-air-museum-for-traditional-professions-2/",
+  "file": "text/472b3da3ee15.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 3932
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/the-avgorou-ethnographic-museum/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/the-avgorou-ethnographic-museum/",
+  "file": "text/b731465871ba.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 3437
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/agia-napa-sculpture-park-park-of-mediterranean-plants-cacti-and-succulents/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/agia-napa-sculpture-park-park-of-mediterranean-plants-cacti-and-succulents/",
+  "file": "text/c4133991d750.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 3694
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/hala-sultan-tekke/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/hala-sultan-tekke/",
+  "file": "text/b0ffca31b6fa.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 3873
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/pierides-museum-bank-of-cyprus-cultural-foundation/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/pierides-museum-bank-of-cyprus-cultural-foundation/",
+  "file": "text/705955ac36dc.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 4004
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/kalavasos-tenta-archaeological-site/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/kalavasos-tenta-archaeological-site/",
+  "file": "text/d24eada75c7b.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 3832
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/agios-lazaros-church/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/agios-lazaros-church/",
+  "file": "text/135ecb5db6df.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 4016
+ },
+ "https://www.visitcyprus.com/discover-cyprus/rural/museums-galleries-rural/fikardou-ethnological-museum-the-houses-of-katsinioros-and-achilleas-dimitri-2/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/rural/museums-galleries-rural/fikardou-ethnological-museum-the-houses-of-katsinioros-and-achilleas-dimitri-2/",
+  "file": "text/3bbd232d51d1.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 4234
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/cyprus-postal-museum/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/cyprus-postal-museum/",
+  "file": "text/a7c5cd0b2d46.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 4151
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/museum-on-the-history-of-cypriot-coinage/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/museum-on-the-history-of-cypriot-coinage/",
+  "file": "text/735fc44faee8.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 3904
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/amathous-archaeological-site/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/amathous-archaeological-site/",
+  "file": "text/b5c14d2be356.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 5734
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/archaeological-park-of-kato-pafos-paphos/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/archaeological-park-of-kato-pafos-paphos/",
+  "file": "text/14c6e9db1fca.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 4349
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/archaeological-museum-of-the-pafos-paphos-district/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/archaeological-museum-of-the-pafos-paphos-district/",
+  "file": "text/2d9c1dfa1aa4.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 4045
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/archaeological-museum-of-the-larnaka-larnaca-district/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/archaeological-museum-of-the-larnaka-larnaca-district/",
+  "file": "text/2bcbb901cc1b.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 4031
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/kition-archaeological-site/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/kition-archaeological-site/",
+  "file": "text/fb7ebd88122d.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 4873
+ },
+ "https://www.gov.cy/en/education-sports-and-youth/announcement-by-the-department-of-antiquities-regarding-the-change-in-opening-hours-of-the-archaological-site-and-the-local-archaeological-museum-of-palaepaphos/": {
+  "url": "https://www.gov.cy/en/education-sports-and-youth/announcement-by-the-department-of-antiquities-regarding-the-change-in-opening-hours-of-the-archaological-site-and-the-local-archaeological-museum-of-palaepaphos/",
+  "file": "text/a5bbf33a521c.txt",
+  "error": "<HTTPError 403: 'Forbidden'>"
+ },
+ "https://larnakaregion.com/en/directory/product/medieval-museum": {
+  "url": "https://larnakaregion.com/en/directory/product/medieval-museum",
+  "file": "text/8d2f08c10066.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 2053
+ },
+ "https://www.visitcyprus.com/discover-cyprus/rural/sites-monuments/choirokoitia-archaeological-site-neolithic-settlement-2/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/rural/sites-monuments/choirokoitia-archaeological-site-neolithic-settlement-2/",
+  "file": "text/c5e60bfac899.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 4508
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/tombs-of-the-kings/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/tombs-of-the-kings/",
+  "file": "text/e4adb763c217.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 3977
+ },
+ "https://visitnicosia.com.cy/museums/": {
+  "url": "https://visitnicosia.com.cy/museums/",
+  "file": "text/b18c522a8121.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 26343
+ },
+ "https://www.visitcyprus.com/event/bank-of-cyprus-nicosia-marathon-24-1-2027/": {
+  "url": "https://www.visitcyprus.com/event/bank-of-cyprus-nicosia-marathon-24-1-2027/",
+  "file": "text/2a1e586411c6.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 3489
+ },
+ "https://cyprusmarathon.com/entry-details/": {
+  "url": "https://cyprusmarathon.com/entry-details/",
+  "file": "text/1829669bce1f.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 2842
+ },
+ "https://www.limassoltourism.com/events/carnival-2026/": {
+  "url": "https://www.limassoltourism.com/events/carnival-2026/",
+  "file": "text/ea45202798d6.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 5290
+ },
+ "https://www.visitcyprus.com/event/xm-limassol-marathon-3-4-4-2027/": {
+  "url": "https://www.visitcyprus.com/event/xm-limassol-marathon-3-4-4-2027/",
+  "file": "text/7e2420f440fe.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 3745
+ },
+ "https://www.visitcyprus.com/event/aphrodite-half-marathon-18-4-2027/": {
+  "url": "https://www.visitcyprus.com/event/aphrodite-half-marathon-18-4-2027/",
+  "file": "text/ee6b20da8418.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 3830
+ },
+ "https://www.cyprusdiasporaforum.com/": {
+  "url": "https://www.cyprusdiasporaforum.com/",
+  "file": "text/bb36fcdcf414.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 49303
+ },
+ "https://awynofestival.com/info": {
+  "url": "https://awynofestival.com/info",
+  "file": "text/136f9bfcfc3a.txt",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "chars": 9255
+ },
+ "https://protarasaquarium.com/opening-hours/": {
+  "url": "https://protarasaquarium.com/opening-hours/",
+  "file": "text/12e70500cf58.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 1076
+ },
+ "https://camel-park.com/opening-hours/": {
+  "url": "https://camel-park.com/opening-hours/",
+  "file": "text/018d7de46983.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 603
+ },
+ "https://www.paradoxmuseumlimassol.com/en/plan-your-visit/": {
+  "url": "https://www.paradoxmuseumlimassol.com/en/plan-your-visit/",
+  "file": "text/af8d21a7f0a0.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 9191
+ },
+ "https://cyprusmotormuseum.com.cy/opening-hours/": {
+  "url": "https://cyprusmotormuseum.com.cy/opening-hours/",
+  "file": "text/7447d04521fa.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 1080
+ },
+ "https://cvar.severis.org/en/visit/": {
+  "url": "https://cvar.severis.org/en/visit/",
+  "file": "text/c63092d7bd8c.txt",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "chars": 4171
+ },
+ "https://leventisgallery.org/visit/plan-your-visit/": {
+  "url": "https://leventisgallery.org/visit/plan-your-visit/",
+  "file": "text/96f1eb3c30a4.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 5449
+ },
+ "https://nimac.org.cy/": {
+  "url": "https://nimac.org.cy/",
+  "file": "text/425eae24e1c2.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 1916
+ },
+ "https://thecyprusplanetarium.com/about": {
+  "url": "https://thecyprusplanetarium.com/about",
+  "file": "text/b2777e431889.txt",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "chars": 1647
+ },
+ "https://cyclassicmotormuseum.wixsite.com/cyclassicmotormuseum": {
+  "url": "https://cyclassicmotormuseum.wixsite.com/cyclassicmotormuseum",
+  "file": "text/08efb96bf03e.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 1590
+ },
+ "https://www.parkopaliatsocy.com/plan-your-visit/": {
+  "url": "https://www.parkopaliatsocy.com/plan-your-visit/",
+  "file": "text/2bcf280e3f01.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 2029
+ },
+ "https://www.magicdancingwaters.com/booking-information": {
+  "url": "https://www.magicdancingwaters.com/booking-information",
+  "file": "text/190748be381b.txt",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "chars": 4506
+ },
+ "https://cyherbia.com/tickets/": {
+  "url": "https://cyherbia.com/tickets/",
+  "file": "text/6887f46de644.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 6774
+ },
+ "https://www.visitcyprus.com/activities-for-families/": {
+  "url": "https://www.visitcyprus.com/activities-for-families/",
+  "file": "text/9eedd0e2d919.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 30257
+ },
+ "https://www.visitcyprus.com/de/activities-for-families/": {
+  "url": "https://www.visitcyprus.com/de/activities-for-families/",
+  "file": "text/991a9192c158.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 30429
+ },
+ "https://www.visitcyprus.com/useful-info/tourist-information-offices/": {
+  "url": "https://www.visitcyprus.com/useful-info/tourist-information-offices/",
+  "file": "text/92b545c3a215.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 3393
+ },
+ "https://play4kidz.com.cy/en/about/": {
+  "url": "https://play4kidz.com.cy/en/about/",
+  "file": "text/2b99ce4e0926.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 2284
+ },
+ "https://www.extremepark.com.cy/tickets/": {
+  "url": "https://www.extremepark.com.cy/tickets/",
+  "file": "text/e277f301b0aa.txt",
+  "status": 200,
+  "type": "text/html",
+  "chars": 1115
+ },
+ "https://escapetheroom.com.cy/": {
+  "url": "https://escapetheroom.com.cy/",
+  "file": "text/d10a6f32b963.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 1620
+ },
+ "https://www.mymall.com.cy/store/alien-bowling/": {
+  "url": "https://www.mymall.com.cy/store/alien-bowling/",
+  "file": "text/d9c226c41be2.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 5057
+ },
+ "https://cosmoport.eu/": {
+  "url": "https://cosmoport.eu/",
+  "file": "text/c9e058a6a57c.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 5133
+ },
+ "https://www.kiddom.com.cy/en/": {
+  "url": "https://www.kiddom.com.cy/en/",
+  "file": "text/b81f715c4f6f.txt",
+  "error": "<HTTPError 403: 'Forbidden'>"
+ },
+ "https://www.visitcyprus.com/wp-content/uploads/2026/08/MARATHON-FLYER-2026-WEB-ONLY.pdf": {
+  "url": "https://www.visitcyprus.com/wp-content/uploads/2026/08/MARATHON-FLYER-2026-WEB-ONLY.pdf",
+  "file": "text/aac9f816154d.txt",
+  "status": 200,
+  "type": "application/pdf",
+  "chars": 10000
+ },
+ "https://www.visitcyprus.com/event/mcdonalds-ayia-napa-international-youth-soccer-festival-2027-24-29-4-2027/": {
+  "url": "https://www.visitcyprus.com/event/mcdonalds-ayia-napa-international-youth-soccer-festival-2027-24-29-4-2027/",
+  "file": "text/161589104732.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 9818
+ },
+ "https://cypruswinemuseum.com/": {
+  "url": "https://cypruswinemuseum.com/",
+  "file": "text/8cccfd7e44b4.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 8204
+ },
+ "https://musan.com.cy/contact/": {
+  "url": "https://musan.com.cy/contact/",
+  "file": "text/c0bbda354fd7.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 2351
+ },
+ "https://www.aphroditewaterpark.com/en": {
+  "url": "https://www.aphroditewaterpark.com/en",
+  "file": "text/3babe823b5a5.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 5714
+ },
+ "https://www.pafoszoo.com/times": {
+  "url": "https://www.pafoszoo.com/times",
+  "file": "text/3a36fc65593a.txt",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "chars": 1785
+ },
+ "https://www.moa.gov.cy/moa/fd/fd.nsf/925A34919107CE96C2258129001F8CE0/%24file/Troodos%20Botanical%20Garden%20%7BA.G.%20Leventis%7D%20-%20Four%20fold%20flyer.pdf": {
+  "url": "https://www.moa.gov.cy/moa/fd/fd.nsf/925A34919107CE96C2258129001F8CE0/%24file/Troodos%20Botanical%20Garden%20%7BA.G.%20Leventis%7D%20-%20Four%20fold%20flyer.pdf",
+  "file": "text/06fb980487cf.txt",
+  "error": "URLError(TimeoutError('_ssl.c:1063: The handshake operation timed out'))"
+ },
+ "https://www.visitcyprus.com/discover-cyprus/nature/excursions/episkopi-environmental-information-centre-pafos-area/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/nature/excursions/episkopi-environmental-information-centre-pafos-area/",
+  "file": "text/eb93ef9e02b4.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 3610
+ },
+ "https://www.visitcyprus.com/el/el-anakalypste-ten-kypro/el-physe-el-anakalypste-ten-kypro/el-endiapherouses-topothesies-el-physe-el-anakalypste-ten-kypro/akamas-geology-and-paleontology-information-center-panos-arodes/": {
+  "url": "https://www.visitcyprus.com/el/el-anakalypste-ten-kypro/el-physe-el-anakalypste-ten-kypro/el-endiapherouses-topothesies-el-physe-el-anakalypste-ten-kypro/akamas-geology-and-paleontology-information-center-panos-arodes/",
+  "file": "text/a912a131cf28.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 3818
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/medical-museum-kyriazi-larnaka-larnaca/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/medical-museum-kyriazi-larnaka-larnaca/",
+  "file": "text/d061db330013.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 3726
+ },
+ "https://www.visitcyprus.com/discover-cyprus/rural/museums-galleries-rural/local-archaeological-museum-of-ancient-idalion/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/rural/museums-galleries-rural/local-archaeological-museum-of-ancient-idalion/",
+  "file": "text/b923193a11ec.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 4243
+ },
+ "https://www.visitcyprus.com/discover-cyprus/rural/museums-galleries-rural/local-archaeological-museum-of-marion-arsinoe-polis-chrysochous-2/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/rural/museums-galleries-rural/local-archaeological-museum-of-marion-arsinoe-polis-chrysochous-2/",
+  "file": "text/e89d847ea278.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 3938
+ },
+ "https://www.larnakaregion.com/en/directory/product/municipal-art-gallery": {
+  "url": "https://www.larnakaregion.com/en/directory/product/municipal-art-gallery",
+  "file": "text/27fd4ecb0cd7.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 1980
+ },
+ "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/local-ethnographic-museum-of-geroskipou/": {
+  "url": "https://www.visitcyprus.com/discover-cyprus/culture/museums-galleries/local-ethnographic-museum-of-geroskipou/",
+  "file": "text/5da02ddcb879.txt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "chars": 4067
+ },
+ "https://robbiewilliams.com/pages/live": {
+  "url": "https://robbiewilliams.com/pages/live",
+  "file": "text/5a4fa5511204.txt",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "chars": 2511
+ }
+}
