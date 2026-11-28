@@ -1,0 +1,252 @@
+{
+ "pattern": "(?i)play4kidz|play 4 kidz|extreme park|kykko bowling|bowling|alternative recreational|\\bARC\\b|escape the room|playplanet|play planet|alien bowling|bubble park|cosmoport|fun factory|kiddom",
+ "hits": [
+  {
+   "id": "n1317561977",
+   "names": "Cosmic Bowling",
+   "ll": [
+    34.766529,
+    32.416275
+   ],
+   "ent": [],
+   "tags": {
+    "addr:housenumber": "47",
+    "addr:street": "Λεωφόρος Αποστόλου Παύλου",
+    "check_date": "2022-11-10",
+    "description": "Bowling and arcade, as well as children's parties.",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "leisure": "sports_centre",
+    "name": "Cosmic Bowling",
+    "opening_hours": "Mo 11:00-16:00; Tu-Su 10:00-23:00",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+357 99 425588",
+    "sport": "10pin",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "id": "n4275775891",
+   "names": "Bubble Park",
+   "ll": [
+    34.671704,
+    33.035658
+   ],
+   "ent": [],
+   "tags": {
+    "addr:housenumber": "13",
+    "addr:street": "Djelal Bayar",
+    "name": "Bubble Park",
+    "opening_hours": "Tu-Fr 15:30-20:30, Sa-Su 10:30-21:00",
+    "phone": "+35770008586",
+    "tourism": "attraction",
+    "website": "https://bubblepark.com.cy/"
+   }
+  },
+  {
+   "id": "n12410022528",
+   "names": "Escape the Room Nicosia",
+   "ll": [
+    35.168851,
+    33.368626
+   ],
+   "ent": [],
+   "tags": {
+    "leisure": "escape_game",
+    "name": "Escape the Room Nicosia"
+   }
+  },
+  {
+   "id": "n12988259797",
+   "names": "Cosmoport",
+   "ll": [
+    34.672858,
+    33.044308
+   ],
+   "ent": [],
+   "tags": {
+    "name": "Cosmoport",
+    "shop": "video_games"
+   }
+  },
+  {
+   "id": "n13828556511",
+   "names": "arc-studio",
+   "ll": [
+    34.936605,
+    33.626211
+   ],
+   "ent": [],
+   "tags": {
+    "name": "arc-studio",
+    "office": "architect"
+   }
+  },
+  {
+   "id": "w267216716",
+   "names": "Ζιαν Ντ Αρκ | Joan of Arc",
+   "ll": [
+    34.683407,
+    33.028708
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "int_name": "Zian Nt Ark",
+    "lane_markings": "no",
+    "maxspeed": "30",
+    "name": "Ζιαν Ντ Αρκ",
+    "name:en": "Joan of Arc",
+    "name:fr": "Jeanne d'Arc",
+    "name:pt": "Joana d'Arc",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w535718710",
+   "names": "Fun Factory",
+   "ll": [
+    34.930039,
+    33.625367
+   ],
+   "ent": [],
+   "tags": {
+    "addr:city": "Larnaca",
+    "addr:housenumber": "65",
+    "addr:street": "Spyrou Kyprianou Avenue",
+    "building": "yes",
+    "check_date": "2024-10-23",
+    "contact:email": "funfactorylarnaca@hotmail.com",
+    "contact:facebook": "https://www.facebook.com/funfactory.larnaca",
+    "contact:instagram": "https://www.instagram.com/funfactorycy",
+    "leisure": "indoor_play",
+    "name": "Fun Factory",
+    "website": "https://www.funfactorylarnaca.com"
+   }
+  },
+  {
+   "id": "w636832977",
+   "names": "Akrotiri 10 Pin Bowling",
+   "ll": [
+    34.582492,
+    32.975547
+   ],
+   "ent": [],
+   "tags": {
+    "building": "yes",
+    "leisure": "bowling_alley",
+    "name": "Akrotiri 10 Pin Bowling"
+   }
+  },
+  {
+   "id": "w709898184",
+   "names": "Kykkos Bowling",
+   "ll": [
+    35.162198,
+    33.326823
+   ],
+   "ent": [
+    {
+     "ll": [
+      35.162132,
+      33.32656
+     ],
+     "e": "yes"
+    }
+   ],
+   "tags": {
+    "addr:city": "Engomi",
+    "addr:housenumber": "15",
+    "addr:postcode": "2411",
+    "addr:street": "Archimidous",
+    "air_conditioning": "yes",
+    "building": "yes",
+    "description": "16 bowling lanes\nRestaurant and coffee shop on site\nSuitable for all ages\nOrganizes parties and events",
+    "leisure": "bowling_alley",
+    "name": "Kykkos Bowling",
+    "phone": "+357 22350085",
+    "sport": "10pin"
+   }
+  },
+  {
+   "id": "w781857648",
+   "names": "ARC Nicosia",
+   "ll": [
+    35.132344,
+    33.201445
+   ],
+   "ent": [],
+   "tags": {
+    "addr:housenumber": "81",
+    "addr:street": "Archbishop Makariou Avenue",
+    "building": "retail",
+    "building:levels": "1",
+    "landuse": "recreation_ground",
+    "name": "ARC Nicosia",
+    "roof:levels": "1",
+    "roof:shape": "round"
+   }
+  },
+  {
+   "id": "w1041793395",
+   "names": "Play4kidz",
+   "ll": [
+    35.12316,
+    33.376655
+   ],
+   "ent": [],
+   "tags": {
+    "building": "yes",
+    "contact:email": "info@play4kidz.com.cy",
+    "contact:facebook": "https://www.facebook.com/Play4Kidz/",
+    "contact:instagram": "https://www.instagram.com/play4kidz_ltd/",
+    "fee": "yes",
+    "leisure": "indoor_play",
+    "name": "Play4kidz",
+    "opening_hours": "We-Fr 16:00-21:00; Sa, Su 10:00-21:00",
+    "supervised": "yes",
+    "website": "https://play4kidz.com.cy/en/"
+   }
+  },
+  {
+   "id": "w1479505565",
+   "names": "Ζιαν Ντ Αρκ | Joan of Arc",
+   "ll": [
+    34.682008,
+    33.02661
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "int_name": "Zian Nt Ark",
+    "lane_markings": "no",
+    "name": "Ζιαν Ντ Αρκ",
+    "name:en": "Joan of Arc",
+    "name:fr": "Jeanne d'Arc",
+    "name:pt": "Joana d'Arc",
+    "oneway": "no",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "id": "w1570640923",
+   "names": "Ζιαν Ντ Αρκ | Joan of Arc",
+   "ll": [
+    34.682386,
+    33.027203
+   ],
+   "ent": [],
+   "tags": {
+    "highway": "residential",
+    "int_name": "Zian Nt Ark",
+    "lane_markings": "no",
+    "name": "Ζιαν Ντ Αρκ",
+    "name:en": "Joan of Arc",
+    "name:fr": "Jeanne d'Arc",
+    "name:pt": "Joana d'Arc",
+    "surface": "asphalt"
+   }
+  }
+ ]
+}
