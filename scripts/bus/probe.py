@@ -24,7 +24,7 @@ for n, name in FEEDS.items():
         if "calendar.txt" in z.namelist():
             rd = list(csv.DictReader(io.TextIOWrapper(z.open("calendar.txt"), "utf-8-sig")))
             r["calendar_range"] = [min(x["start_date"] for x in rd), max(x["end_date"] for x in rd)]
-        z.extractall(f"bus_probe/gtfs_{n}") if len(b) < 40_000_000 else None
+        open(f"bus_probe/gtfs_{n}.zip", "wb").write(b) if len(b) < 45_000_000 else None
     except Exception as e:
         r["error"] = repr(e)
     rep["static"][n] = r
