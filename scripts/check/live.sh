@@ -88,6 +88,8 @@ page /listing/bea-00986 | grep -q "Unconfirmed:" && no "detail page still shows 
 page /listing/bea-00999 | grep -q "dh-mapsvg" && ok "no-photo page opens on the map hero" || no "map hero missing"
 page /places/nissi | grep -q "actbar" && ok "place page: action row" || no "place page: action row missing"
 page / | grep -q "Where to?" && ok "homepage: new rails" || no "homepage: rails missing"
+page /listing/bea-00986 | grep -q "api/og?p=%2Flisting%2Fbea-00986" && ok "detail page points at its share image" || no "share image meta missing"
+for q in "%2F" "%2Flisting%2Fbea-00986" "%2Fpartners%2Fcy-cruises" "%2Flisting%2Fcy-00011"; do t=$(curl -s -o /tmp/og.png -w "%{http_code} %{content_type} %{size_download}" "$BASE/api/og?p=$q&v=1"); case "$t" in "200 image/png "*) ok "share image $q ($t)";; *) no "share image $q: $t";; esac; done
 page /destinations/ayianapa | grep -q "Featured spot" && no "destination still shows empty featured block" || ok "destination: no empty featured block"
 page /essentials | grep -q "duty pharmacies" && ok "essentials links to tonight's rota" || no "essentials missing duty link"
 page /petrol | grep -q "Pharmacies on duty tonight" && no "footer still has duty link" || ok "footer has no duty link"
